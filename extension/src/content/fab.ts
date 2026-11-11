@@ -12,6 +12,10 @@ const CSS = `
   background:#76b900;color:#000;font:inherit;cursor:pointer;white-space:nowrap}
 .go:hover{background:#5a8d00}.go:disabled{cursor:default;background:#76b900}
 .go img{width:20px;height:20px;border-radius:1px;display:block}
+.spin{display:none;width:20px;height:20px;box-sizing:border-box;border:3px solid rgba(0,0,0,.2);border-top-color:#000;border-radius:50%;animation:ff-spin .7s linear infinite}
+.filling .go img{display:none}.filling .spin{display:block}
+@keyframes ff-spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.spin{animation-duration:2s}}
 .msg{display:flex;align-items:center;padding:0 12px;color:#fff;font-weight:400;max-width:260px}
 .msg[hidden]{display:none}
 .x{width:32px;border:0;border-left:1px solid #5e5e5e;margin-left:8px;background:transparent;color:rgba(255,255,255,.7);font:400 18px/1 Arial;cursor:pointer}
@@ -44,7 +48,7 @@ export class Fab {
   constructor(private onFill: () => void, private onIdle: () => void = () => {}) {
     this.host.setAttribute("data-formform-ui", "");
     this.root.innerHTML = `<style>${CSS}</style><div class="wrap"><div class="bar">
-      <button class="go" part="go"><img alt="" src="${chrome.runtime.getURL("assets/fab.gif")}"><span class="label"></span></button>
+      <button class="go" part="go"><img alt="" src="${chrome.runtime.getURL("assets/fab.gif")}"><span class="spin" role="progressbar" aria-label="filling"></span><span class="label"></span></button>
       <span class="msg" hidden></span><button class="x" aria-label="close">×</button></div>
       <div class="menu" hidden><button data-a="close"></button><button data-a="site"></button></div>
       <div class="panel" hidden><h2></h2><p></p><button data-a="agree"></button></div></div>`;

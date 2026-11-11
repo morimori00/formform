@@ -201,7 +201,7 @@ class Run {
       planned.push(...(await this.bulk(snap)));
     }
     if (planned.length) {
-      await this.fab("filling", "", "…");
+      await this.fab("filling");
       await this.jev(fillGoal(planned, this.context), planned);
     }
     return this.ask<string[]>({ type: "verify" });
