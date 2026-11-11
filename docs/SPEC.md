@@ -1,4 +1,4 @@
-# formform 開発仕様書 (v1)
+# FormForm 開発仕様書 (v1)
 
 > どんなフォームも、ワンクリックで。
 > 開いているタブのフォームを、ユーザーが用意したコンテキスト (Markdown) をもとに高速で自動入力する Chrome 拡張機能。
@@ -12,7 +12,7 @@
 ## 1. 目的とスコープ
 
 ### 1.1 解決する課題
-イベント申込、問い合わせ、資料請求、アカウント登録などで、毎回同じ会社情報や個人情報を手で入力している。formform は、ユーザーが一度アップロードしたコンテキストから、開いているフォームの残りの項目を数秒で埋める。
+イベント申込、問い合わせ、資料請求、アカウント登録などで、毎回同じ会社情報や個人情報を手で入力している。FormForm は、ユーザーが一度アップロードしたコンテキストから、開いているフォームの残りの項目を数秒で埋める。
 
 ### 1.2 代表ユースケース
 1. ユーザーが会社情報 (社名、住所、代表者、連絡先、LP URL など) を書いた `company.md` をアップロードしておく。
@@ -59,7 +59,7 @@
 
 ### 2.1 jev-ultrafast からの移植対応
 
-| jev-ultrafast (Python) | formform (TypeScript) | 変更点 |
+| jev-ultrafast (Python) | FormForm (TypeScript) | 変更点 |
 |---|---|---|
 | `snapshot.js` | `content/snapshot.ts` | ほぼそのまま。フォーム領域で絞り込む `scope` 引数を追加 |
 | `browser.py` `browser_harness.cdp` | `background/browser.ts` `chrome.debugger.sendCommand` | 新しいタブを作らず、**既存のタブ**にアタッチする |
@@ -104,7 +104,7 @@
 
 ```text
 ┌──────────────────────────────┐
-│ formform              v0.1.0 │
+│ FormForm              v0.1.0 │
 ├──────────────────────────────┤
 │ 設定                       > │
 │ コンテキスト               > │
@@ -157,7 +157,7 @@ Fill form
 ### 4.1 スナップショット
 - `snapshot.js` を移植する。password / file / hidden の項目は除外する (既存の `safe()`)。さらに次のものも除外する:
   - `autocomplete` が `cc-*` の項目、カード番号らしい名前の項目 (決済情報)
-  - formform 自身の UI (`[data-formform-ui]`)
+  - FormForm 自身の UI (`[data-formform-ui]`)
 - 各項目に、Bulk Fill の判断材料として `type`、`autocomplete`、`name`、`required`、近くの見出しやテキスト、select の選択肢、radio グループの選択肢を付ける。
 - **ユーザーがすでに入力した項目** (value が空でない、checked、選択済み) には `user_filled: true` を付け、Bulk Fill の対象から外す。
 

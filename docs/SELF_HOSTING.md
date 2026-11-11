@@ -1,7 +1,7 @@
-# formform サーバーを社内で動かす
+# FormForm サーバーを社内で動かす
 
-formform は、Markdown ファイルのほかに、社内サーバーに取り込んだ文書 (Google Drive / Slack / Notion / アップロードしたファイルなど) からフォームを入力できます。
-サーバーは [Onyx](https://github.com/onyx-dot-app/onyx) (MIT ライセンスの Community Edition) に、formform 用の検索 API を足したものです。文書と検索用のインデックスは、すべて自社のサーバーに置きます。
+FormForm は、Markdown ファイルのほかに、社内サーバーに取り込んだ文書 (Google Drive / Slack / Notion / アップロードしたファイルなど) からフォームを入力できます。
+サーバーは [Onyx](https://github.com/onyx-dot-app/onyx) (MIT ライセンスの Community Edition) に、FormForm 用の検索 API を足したものです。文書と検索用のインデックスは、すべて自社のサーバーに置きます。
 
 ```text
 Chrome 拡張 (各社員の PC)                      社内サーバー (docker compose)
@@ -48,7 +48,7 @@ cd formform/server
 ## 3. 管理者とアクセストークンを作る
 
 1. `http://localhost:3080` を開き、**Create an Account** でメールアドレスとパスワード (8 文字以上) を登録します。最初に登録したユーザーが管理者になります。確認メールは送られません。
-2. 「Let's get started」という LLM の設定画面が出ても、設定せずに進めてかまいません。formform は検索だけを使います。
+2. 「Let's get started」という LLM の設定画面が出ても、設定せずに進めてかまいません。FormForm は検索だけを使います。
 3. 拡張機能を使う社員も、同じ画面でそれぞれアカウントを作ります (2 人目以降は一般ユーザーになります)。
 4. 各自が、左下のユーザーメニュー → **Settings → Accounts & Access → Access Tokens → New Access Token** でトークンを作ります。
    - **Permissions** は、既定の「Inherits all of your permissions」のままにせず、検索の読み取り (`read:search`。作成後の一覧には「Read search」と表示されます) だけにします。こうすると、このトークンでは検索しかできず、チャットや管理 API は 403 になります。管理者のアカウントで作る場合は、特に忘れないでください。
@@ -234,7 +234,7 @@ Onyx 本体のファイルは書き換えていません。足したものは次
 | `server/formform_onyx/app.py` を API サーバーのコンテナにマウントし、`onyx.main` の代わりにこれを起動する。標準のアプリに `POST /api/formform/context` と `GET /api/formform/sources` を足す | 標準の `POST /api/search` は、クエリの書き換えや文書の選別に LLM を呼ぶため、LLM のキーがないと使えません。`/api/formform/context` は、Onyx のハイブリッド検索 (`search_pipeline`) だけを複数のクエリで実行し、重複を除いて、指定した文字数以内で返します。`/api/formform/sources` は、検索だけを許可したトークンで接続元の状態を読むためのものです (標準の API は管理者権限が必要) |
 | `docker-compose.formform.yml`: コンテナ内の `/app/ee` を空のディレクトリで隠す、ポートを 1 つにして 127.0.0.1 に限定する。`.env`: ファイルの保存先を PostgreSQL にする、MCP サーバーを止める、開発元への通信を止める | Enterprise Edition のコードを読み込ませない (MIT のコードだけで動かす)、コンテナと公開ポートを減らす、データを外に出さない |
 
-- Onyx は、`ee/` ディレクトリ以外が MIT ライセンスです (`server/.onyx/LICENSE`)。`ee/` 以下は Onyx Enterprise License で、本番で使うには契約が必要です。formform は `ee/` のコードを import せず、変更もせず、実行時にも読み込ませません。
+- Onyx は、`ee/` ディレクトリ以外が MIT ライセンスです (`server/.onyx/LICENSE`)。`ee/` 以下は Onyx Enterprise License で、本番で使うには契約が必要です。FormForm は `ee/` のコードを import せず、変更もせず、実行時にも読み込ませません。
 - Docker Hub の公式イメージには `ee/` のファイルが含まれています。API サーバーと background では上の設定で隠していますが、Web UI のイメージには EE 用の画面のコードが (ライセンスがないと無効な状態で) 入ったままです。ファイルとしても含めたくない場合は、Onyx が公開している MIT のみのミラー (<https://github.com/onyx-dot-app/onyx-foss>) からイメージをビルドし、`.env` の `ONYX_BACKEND_IMAGE` / `ONYX_WEB_SERVER_IMAGE` / `ONYX_MODEL_SERVER_IMAGE` で指定してください。
 - どちらの API も、トークンの持ち主が Onyx 上で読める文書だけを返します。
 

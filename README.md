@@ -1,8 +1,8 @@
 <p align="center"><img src="docs/hero.gif" alt="A divine hand filling in a tax refund form" width="420"></p>
 
-# formform
+# FormForm
 
-Fill any form in one click. formform is a Chrome extension that fills the form in your open tab from your own context: a Markdown file, or Google Drive / Slack / Notion / files ingested into a server you run in-house.
+Fill any form in one click. FormForm is a Chrome extension that fills the form in your open tab from your own context: a Markdown file, or Google Drive / Slack / Notion / files ingested into a server you run in-house.
 It ports the [jev-ultrafast](jev-ultrafast/) loop (Browser Use × TypeSafe) to TypeScript / MV3. The spec is in [docs/SPEC.md](docs/SPEC.md) (Japanese).
 
 ## How it works
@@ -62,7 +62,7 @@ In the extension, enter these two under **Context > Connections**. **Save and ch
 | `FORMFORM_SERVER_URL` | The server's URL (e.g. `http://localhost:3080`) |
 | `FORMFORM_SERVER_API_KEY` | An access token created on the server, limited to search |
 
-Without a server, formform works on Markdown alone, as before. With both, the passages read from the server (up to 12,000 characters per page) are appended after the Markdown before it goes to the model.
+Without a server, FormForm works on Markdown alone, as before. With both, the passages read from the server (up to 12,000 characters per page) are appended after the Markdown before it goes to the model.
 
 ### Verified results (2026-11-11, Onyx v5.1.1, `qwen/qwen3.8-27b:nitro`)
 
@@ -106,8 +106,8 @@ The extension was installed for real and run by clicking the floating button. Re
 Bugs found and fixed during testing: a lazily rendered form inside closed shadow DOM was not detected; custom dropdowns with `type=button` were not picked up as fields; options that need scrolling inside a list could not be clicked; a "required" marker that only sits in a table cell was missed; DONE was chosen after typing into a combobox without clicking a suggestion; the Bulk answer is occasionally empty (retried once).
 
 ### Known limitations
-- When a page contains another extension's iframe, Chrome refuses to attach `chrome.debugger` (`Cannot access a chrome-extension:// URL of different extension`). formform then types with synthetic events from the content script. On sites that check `isTrusted`, input through this path may not take effect.
-- The in-house server does not know which company is "yours". If the ingested documents contain several companies' profiles, formform may enter another company's values (writing your company name in the Markdown helps).
+- When a page contains another extension's iframe, Chrome refuses to attach `chrome.debugger` (`Cannot access a chrome-extension:// URL of different extension`). FormForm then types with synthetic events from the content script. On sites that check `isTrusted`, input through this path may not take effect.
+- The in-house server does not know which company is "yours". If the ingested documents contain several companies' profiles, FormForm may enter another company's values (writing your company name in the Markdown helps).
 - On form builders such as Google Forms, the button appears even on a page with a single question. On other sites a page needs at least three fields.
 - Value formats vary with the model's output (e.g. phone numbers with or without parentheses; in B the district is repeated in the street field).
 - Inside cross-origin iframes, click-type widgets are driven with synthetic events.
