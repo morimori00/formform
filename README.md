@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/hero.gif" alt="A divine hand filling in a tax refund form" width="420"></p>
+
 # formform
 
 Fill any form in one click. formform is a Chrome extension that fills the form in your open tab from your own context: a Markdown file, or Google Drive / Slack / Notion / files ingested into a server you run in-house.
