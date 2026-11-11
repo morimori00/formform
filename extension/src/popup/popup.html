@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>formform</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="nav">
+    <button class="back" id="back" hidden aria-label="Back">‹</button>
+    <span class="brand"><i class="sq"></i>formform</span>
+    <span class="title" id="title"></span>
+    <span class="ver">v0.1.0</span>
+  </header>
+
+  <main id="home" class="view">
+    <nav class="menu">
+      <button data-go="settings"><span data-t="settings"></span><b>›</b></button>
+      <button data-go="context"><span data-t="context"></span><b>›</b></button>
+    </nav>
+    <section class="card">
+      <p class="eyebrow" data-t="thisPage"></p>
+      <p class="status" id="status">…</p>
+      <button class="primary" id="fill" data-t="fill"></button>
+    </section>
+    <section class="runs">
+      <p class="eyebrow" data-t="recent"></p>
+      <ol id="runs"></ol>
+    </section>
+  </main>
+
+  <main id="settings" class="view" hidden>
+    <label class="row"><span data-t="language"></span>
+      <select id="locale"><option value="en">English</option><option value="ja">日本語</option><option value="zh_TW">繁體中文</option></select>
+    </label>
+    <label class="row switch"><span><span data-t="autoSubmit"></span><small data-t="autoSubmitHint"></small></span>
+      <input type="checkbox" id="autoSubmit"><i></i>
+    </label>
+
+    <p class="eyebrow" data-t="importEnv"></p>
+    <p class="hint" data-t="importEnvHint"></p>
+    <div class="actions">
+      <label class="outline file">.env<input type="file" id="envFile" accept=".env,text/plain,*/*"></label>
+      <button class="outline" id="envPasteToggle" data-t="paste"></button>
+    </div>
+    <textarea id="envPaste" hidden rows="5" placeholder="TYPESAFE_API_KEY=…"></textarea>
+
+    <p class="eyebrow" data-t="decisionModel"></p>
+    <div class="env" data-group="decision"></div>
+    <p class="eyebrow" data-t="textModel"></p>
+    <div class="presets">
+      <button data-preset="https://openrouter.ai/api/v1">OpenRouter</button>
+      <button data-preset="https://api.openai.com/v1">OpenAI</button>
+      <button data-preset="http://localhost:11434/v1">Ollama</button>
+      <button data-preset="http://localhost:8000/v1">vLLM</button>
+    </div>
+    <div class="env" data-group="text"></div>
+
+    <div class="actions">
+      <button class="primary" id="save" data-t="save"></button>
+      <button class="outline" id="test" data-t="test"></button>
+    </div>
+    <pre class="result" id="testResult" hidden></pre>
+
+    <p class="eyebrow" data-t="disabledSites"></p>
+    <ul class="sites" id="sites"></ul>
+  </main>
+
+  <main id="context" class="view" hidden>
+    <label class="drop" id="drop">
+      <strong data-t="upload"></strong>
+      <small data-t="uploadHint"></small>
+      <input type="file" id="mdFile" accept=".md,.markdown,.txt,text/markdown,text/plain">
+    </label>
+    <div class="file-row"><span id="mdName"></span><span class="meta" id="mdMeta"></span></div>
+    <textarea id="md" rows="12"></textarea>
+    <div class="actions">
+      <button class="primary" id="mdSave" data-t="save"></button>
+      <button class="outline danger" id="mdRemove" data-t="remove"></button>
+    </div>
+
+    <p class="eyebrow" data-t="connections"></p>
+    <div class="connectors">
+      <div class="connector"><i class="sq"></i><span>Google Drive</span><button disabled data-t="comingSoon"></button></div>
+      <div class="connector"><i class="sq"></i><span>Slack</span><button disabled data-t="comingSoon"></button></div>
+      <div class="connector"><i class="sq"></i><span>Notion</span><button disabled data-t="comingSoon"></button></div>
+      <div class="connector"><i class="sq"></i><span>Obsidian</span><button disabled data-t="comingSoon"></button></div>
+    </div>
+  </main>
+  <div class="toast" id="toast" hidden></div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

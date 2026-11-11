@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>2026 台北智慧製造論壇｜線上報名</title>
+<style>
+  body{margin:0;font-family:"PingFang TC",sans-serif;background:#0f1720;color:#e8eef5}
+  .hero{padding:40px 32px;background:linear-gradient(90deg,#123,#245)}
+  main{max-width:720px;margin:24px auto}
+  .loading{padding:24px;color:#9ab}
+</style>
+</head>
+<body>
+<div class="hero"><h1>2026 台北智慧製造論壇</h1><p>Smart Manufacturing Forum · 南港展覽館 2 館</p></div>
+<main><p class="loading" id="loading">報名表載入中…</p><event-signup></event-signup></main>
+<script>
+const CITIES = { "臺北市": ["中正區","大安區","信義區","內湖區","南港區"], "新北市": ["板橋區","新莊區","汐止區"], "臺中市": ["西屯區","北屯區"] };
+class EventSignup extends HTMLElement {
+  #root = this.attachShadow({ mode: "closed" });
+  connectedCallback() { setTimeout(() => this.render(), 1500); }
+  render() {
+    document.getElementById("loading").remove();
+    this.#root.innerHTML = `
+    <style>
+      :host{display:block;background:#fff;color:#1d2733;border-radius:12px;padding:28px 32px;font-family:"PingFang TC",sans-serif}
+      .f{margin:14px 0}.f>span{display:block;font-weight:600;margin-bottom:6px}
+      .f>span b{color:#d22}
+      input,select{padding:8px 10px;border:1px solid #c5ccd6;border-radius:6px;font-size:14px}
+      .w{width:22em}.n{width:7em}
+      [role=radio]{display:inline-block;padding:6px 14px;margin-right:6px;border:1px solid #c5ccd6;border-radius:18px;cursor:pointer;user-select:none}
+      [role=radio][aria-checked=true]{background:#1d4ed8;color:#fff;border-color:#1d4ed8}
+      [role=checkbox]{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+      [role=checkbox]::before{content:"";width:16px;height:16px;border:1px solid #889;border-radius:3px}
+      [role=checkbox][aria-checked=true]::before{background:#1d4ed8;border-color:#1d4ed8}
+      button.submit{margin-top:18px;padding:10px 32px;border:0;border-radius:6px;background:#1d4ed8;color:#fff;font-size:16px;cursor:pointer}
+      .ok{padding:24px;font-size:18px}
+    </style>
+    <div id="form">
+      <h2>報名資料</h2>
+      <div class="f"><span>公司名稱 <b>*</b></span><input class="w" id="company"></div>
+      <div class="f"><span>統一編號 <b>*</b></span><input class="n" id="taxid" inputmode="numeric" maxlength="8" placeholder="8 碼數字"></div>
+      <div class="f"><span>姓名 <b>*</b></span><input class="w" id="name"></div>
+      <div class="f"><span>職稱</span><input class="w" id="title"></div>
+      <div class="f"><span>電子郵件 <b>*</b></span><input class="w" id="email" type="email"></div>
+      <div class="f"><span>再次輸入電子郵件 <b>*</b></span><input class="w" id="email2" type="email"></div>
+      <div class="f"><span>聯絡電話 <b>*</b></span>
+        <select id="area" aria-label="區碼"><option value="">區碼</option><option>02</option><option>03</option><option>04</option><option>07</option></select>
+        <input class="n" id="phone" type="tel" aria-label="電話號碼"> 分機 <input id="ext" style="width:4em" aria-label="分機"></div>
+      <div class="f"><span>公司地址 <b>*</b></span>
+        <select id="city" aria-label="縣市"><option value="">請選擇縣市</option>${Object.keys(CITIES).map(c => `<option>${c}</option>`).join("")}</select>
+        <select id="district" aria-label="鄉鎮市區" disabled><option value="">請選擇區</option></select>
+        <input class="w" id="street" aria-label="路街門牌" placeholder="路、街、門牌號碼" style="margin-top:6px"></div>
+      <div class="f"><span id="mealL">餐點需求 <b>*</b></span>
+        <div role="radiogroup" aria-labelledby="mealL" id="meal">
+          <div role="radio" aria-checked="false" tabindex="0" data-v="meat">葷食</div>
+          <div role="radio" aria-checked="false" tabindex="-1" data-v="veg">素食</div>
+          <div role="radio" aria-checked="false" tabindex="-1" data-v="none">不需要</div></div></div>
+      <div class="f"><div role="checkbox" aria-checked="false" tabindex="0" id="consent" aria-required="true">我同意主辦單位依個資法蒐集、處理及利用我的個人資料 <b style="color:#d22">*</b></div></div>
+      <div class="f"><div role="checkbox" aria-checked="false" tabindex="0" id="news">訂閱主辦單位電子報</div></div>
+      <button class="submit" id="submit">送出報名</button>
+    </div>
+    <div class="ok" id="ok" hidden>✅ 報名成功！報名序號 SMF-26-0815</div>`;
+    const $ = id => this.#root.getElementById(id);
+    $("city").addEventListener("change", () => {
+      const d = $("district");
+      d.innerHTML = `<option value="">請選擇區</option>` + (CITIES[$("city").value] ?? []).map(x => `<option>${x}</option>`).join("");
+      d.disabled = !$("city").value;
+    });
+    this.#root.querySelectorAll("[role=radio]").forEach(r => r.addEventListener("click", () => {
+      this.#root.querySelectorAll("[role=radio]").forEach(x => x.setAttribute("aria-checked", String(x === r)));
+    }));
+    this.#root.querySelectorAll("[role=checkbox]").forEach(c => c.addEventListener("click", () =>
+      c.setAttribute("aria-checked", String(c.getAttribute("aria-checked") !== "true"))));
+    $("submit").addEventListener("click", () => {
+      const v = id => $(id).value;
+      window.__submitted = { company: v("company"), taxid: v("taxid"), name: v("name"), title: v("title"), email: v("email"),
+        email2: v("email2"), area: v("area"), phone: v("phone"), ext: v("ext"), city: v("city"), district: v("district"),
+        street: v("street"), meal: this.#root.querySelector("[role=radio][aria-checked=true]")?.dataset.v ?? "",
+        consent: $("consent").getAttribute("aria-checked") === "true", newsletter: $("news").getAttribute("aria-checked") === "true" };
+      $("form").hidden = true; $("ok").hidden = false;
+    });
+  }
+}
+customElements.define("event-signup", EventSignup);
+</script>
+</body>
+</html>

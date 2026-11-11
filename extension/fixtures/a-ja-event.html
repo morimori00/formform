@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>出展・参加お申込み | AI Builders Summit Tokyo 2026</title>
+<style>
+  body{font-family:"Hiragino Sans",sans-serif;margin:0;background:#f4f4f6;color:#222}
+  header{background:#1b2a4a;color:#fff;padding:20px 32px}
+  .wrap{max-width:760px;margin:24px auto;background:#fff;padding:24px 32px;border-radius:8px}
+  table{width:100%;border-collapse:collapse}
+  td{padding:10px 8px;border-bottom:1px solid #eee;vertical-align:top}
+  td.k{width:180px;font-weight:600}
+  .req{color:#fff;background:#d33;font-size:11px;padding:1px 4px;border-radius:3px;margin-left:6px}
+  input[type=text],input[type=email],input[type=tel],input[type=url],select{padding:6px 8px;border:1px solid #bbb;border-radius:4px}
+  .narrow{width:4em}.mid{width:8em}.wide{width:24em}
+  .chips label{display:inline-block;margin:2px 4px 2px 0;padding:4px 10px;border:1px solid #bbb;border-radius:14px;cursor:pointer}
+  .chips input{position:absolute;opacity:0;width:1px;height:1px}
+  .chips input:checked+span{color:#1b6;font-weight:700}
+  .combo{position:relative;display:inline-block}
+  .combo ul{position:absolute;top:100%;left:0;z-index:5;margin:0;padding:0;list-style:none;background:#fff;border:1px solid #bbb;width:12em;max-height:180px;overflow:auto}
+  .combo li{padding:4px 8px;cursor:pointer}.combo li:hover{background:#eef}
+  .hp{position:absolute;left:-9999px;top:-9999px}
+  .btn{display:inline-block;padding:10px 28px;background:#1b6;color:#fff;border:0;border-radius:4px;font-size:16px;cursor:pointer}
+  .err{color:#d33;font-size:12px}
+  #confirm dl{display:grid;grid-template-columns:180px 1fr;gap:6px}
+</style>
+</head>
+<body>
+<header><h1>AI Builders Summit Tokyo 2026</h1><p>出展・参加お申込みフォーム</p></header>
+<div class="wrap" id="app">
+  <div id="entry">
+    <p>以下の項目をご入力のうえ「確認画面へ」を押してください。<span class="req">必須</span>は必須項目です。</p>
+    <table>
+      <tr><td class="k">参加セッション<span class="req">必須</span></td><td>
+        <select id="session" aria-label="参加セッション" required>
+          <option value="">選択してください</option>
+          <option value="keynote">基調講演（10:00〜）</option>
+          <option value="agents">AIエージェント実装トラック</option>
+          <option value="infra">推論インフラトラック</option>
+        </select></td></tr>
+      <tr><td class="k">会社名<span class="req">必須</span></td><td><input type="text" class="wide" data-k="company"></td></tr>
+      <tr><td class="k">会社名（フリガナ）</td><td><input type="text" class="wide" data-k="company_kana" placeholder="全角カタカナ"></td></tr>
+      <tr><td class="k">部署名</td><td><input type="text" class="wide" data-k="dept"></td></tr>
+      <tr><td class="k">お名前<span class="req">必須</span></td><td>姓 <input type="text" class="mid" data-k="last"> 名 <input type="text" class="mid" data-k="first"></td></tr>
+      <tr><td class="k">フリガナ<span class="req">必須</span></td><td>セイ <input type="text" class="mid" data-k="last_kana"> メイ <input type="text" class="mid" data-k="first_kana"></td></tr>
+      <tr><td class="k">郵便番号<span class="req">必須</span></td><td>〒 <input type="text" class="narrow" maxlength="3" data-k="zip1"> - <input type="text" class="narrow" maxlength="4" data-k="zip2">（半角数字）</td></tr>
+      <tr><td class="k">都道府県<span class="req">必須</span></td><td>
+        <div class="combo"><input type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="prefs" aria-label="都道府県" class="mid" id="pref" autocomplete="off" placeholder="入力して選択">
+        <ul id="prefs" role="listbox" hidden></ul></div>
+        <div class="err" id="prefErr"></div></td></tr>
+      <tr><td class="k">市区町村・番地<span class="req">必須</span></td><td><input type="text" class="wide" data-k="addr1"></td></tr>
+      <tr><td class="k">建物名</td><td><input type="text" class="wide" data-k="addr2"></td></tr>
+      <tr><td class="k">電話番号<span class="req">必須</span></td><td><input type="tel" class="narrow" data-k="tel1"> - <input type="tel" class="narrow" data-k="tel2"> - <input type="tel" class="narrow" data-k="tel3"></td></tr>
+      <tr><td class="k">メールアドレス<span class="req">必須</span></td><td><input type="email" class="wide" data-k="email"></td></tr>
+      <tr><td class="k">コーポレートサイト</td><td><input type="url" class="wide" data-k="url"></td></tr>
+      <tr><td class="k">業種<span class="req">必須</span></td><td><select data-k="industry" aria-label="業種">
+        <option value="">-- 選択 --</option>
+        <optgroup label="IT・通信"><option value="saas">SaaS・ソフトウェア</option><option value="si">SIer・受託開発</option></optgroup>
+        <optgroup label="製造"><option value="mfg-auto">自動車・輸送機器</option><option value="mfg-elec">電機・精密</option></optgroup>
+        <option value="other">その他</option></select></td></tr>
+      <tr><td class="k">従業員数<span class="req">必須</span></td><td class="chips">
+        <label><input type="radio" name="size" value="1-9"><span>1〜9名</span></label>
+        <label><input type="radio" name="size" value="10-49"><span>10〜49名</span></label>
+        <label><input type="radio" name="size" value="50-299"><span>50〜299名</span></label>
+        <label><input type="radio" name="size" value="300+"><span>300名以上</span></label></td></tr>
+      <tr><td class="k">生年月日<span class="req">必須</span></td><td><input type="text" class="mid" data-k="birthday" placeholder="例: 1990/01/31"></td></tr>
+      <tr><td class="k">ご質問・ご要望</td><td><textarea data-k="note" rows="3" class="wide"></textarea></td></tr>
+      <tr class="hp"><td>Website</td><td><input type="text" name="website" data-k="honeypot" tabindex="-1"></td></tr>
+      <tr><td class="k">利用規約<span class="req">必須</span></td><td><label><input type="checkbox" data-k="terms"> 利用規約および個人情報の取り扱いに同意する</label></td></tr>
+    </table>
+    <p style="text-align:center;margin-top:24px"><button class="btn" id="toConfirm">確認画面へ</button></p>
+  </div>
+  <div id="confirm" hidden>
+    <h2>入力内容の確認</h2><dl id="review"></dl>
+    <p style="text-align:center"><button class="btn" id="back" style="background:#888">戻る</button> <button class="btn" id="send">送信する</button></p>
+  </div>
+  <div id="done" hidden><h2>お申込みを受け付けました</h2><p>受付番号: ABS-2026-0412</p></div>
+</div>
+<script>
+const PREFS = ["北海道","青森県","岩手県","宮城県","東京都","神奈川県","千葉県","埼玉県","愛知県","京都府","大阪府","兵庫県","福岡県","沖縄県"];
+const pref = document.getElementById("pref"), list = document.getElementById("prefs");
+let prefValue = "";
+function renderPrefs() {
+  const q = pref.value.trim();
+  const hits = PREFS.filter(p => q && p.startsWith(q.replace(/[都道府県]$/, "")));
+  list.innerHTML = hits.map((p, i) => `<li role="option" id="pref-${i}" aria-selected="false">${p}</li>`).join("");
+  list.hidden = !hits.length;
+  pref.setAttribute("aria-expanded", String(!!hits.length));
+}
+pref.addEventListener("input", () => { prefValue = ""; renderPrefs(); });
+list.addEventListener("mousedown", e => {
+  const li = e.target.closest("li"); if (!li) return;
+  e.preventDefault();
+  pref.value = prefValue = li.textContent; list.hidden = true; pref.setAttribute("aria-expanded", "false");
+  document.getElementById("prefErr").textContent = "";
+});
+pref.addEventListener("blur", () => setTimeout(() => {
+  list.hidden = true; pref.setAttribute("aria-expanded", "false");
+  if (pref.value && !prefValue) document.getElementById("prefErr").textContent = "候補から選択してください";
+}, 150));
+function data() {
+  const d = { session: document.getElementById("session").value, prefecture: prefValue, prefecture_text: pref.value,
+    size: document.querySelector("input[name=size]:checked")?.value ?? "" };
+  document.querySelectorAll("[data-k]").forEach(e => d[e.dataset.k] = e.type === "checkbox" ? e.checked : e.value);
+  return d;
+}
+document.getElementById("toConfirm").onclick = () => {
+  const d = data(); window.__submitted = d;
+  document.getElementById("review").innerHTML = Object.entries(d).map(([k, v]) => `<dt>${k}</dt><dd>${String(v)}</dd>`).join("");
+  document.getElementById("entry").hidden = true; document.getElementById("confirm").hidden = false;
+};
+document.getElementById("back").onclick = () => { document.getElementById("entry").hidden = false; document.getElementById("confirm").hidden = true; };
+document.getElementById("send").onclick = () => { document.getElementById("confirm").hidden = true; document.getElementById("done").hidden = false; };
+</script>
+</body>
+</html>

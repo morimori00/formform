@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Partner Program Application — Northwind Cloud</title>
+<style>
+  body{margin:0;font-family:system-ui,sans-serif;background:#fafafa;color:#111}
+  nav{display:flex;gap:16px;align-items:center;padding:14px 28px;background:#fff;border-bottom:1px solid #e5e5e5}
+  nav input{margin-left:auto;padding:6px 10px;border:1px solid #ddd;border-radius:6px}
+  .card{max-width:620px;margin:32px auto;padding:28px 32px;background:#fff;border:1px solid #e5e5e5;border-radius:12px}
+  .steps{display:flex;gap:8px;margin-bottom:20px;font-size:13px;color:#888}.steps b{color:#111}
+  .field{margin:16px 0}.field>label,.field>.lbl{display:block;font-size:13px;font-weight:600;margin-bottom:6px}
+  .field input,.field select,.ed{width:100%;box-sizing:border-box;padding:9px 11px;border:1px solid #d4d4d4;border-radius:8px;font-size:14px;background:#fff}
+  .ed{min-height:70px}
+  .row{display:flex;gap:12px}.row>.field{flex:1}
+  .dd{position:relative}.dd button{width:100%;text-align:left;padding:9px 11px;border:1px solid #d4d4d4;border-radius:8px;background:#fff;font-size:14px}
+  .pop{position:absolute;z-index:10;background:#fff;border:1px solid #d4d4d4;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.12);margin:0;padding:4px;list-style:none;max-height:220px;overflow:auto}
+  .pop li{padding:7px 10px;border-radius:6px;cursor:pointer}.pop li:hover{background:#f0f0f0}
+  .chips{display:flex;gap:8px;flex-wrap:wrap}.chip{padding:6px 14px;border:1px solid #d4d4d4;border-radius:16px;cursor:pointer;background:#fff}
+  .chip[aria-checked=true]{background:#111;color:#fff;border-color:#111}
+  .actions{display:flex;justify-content:space-between;margin-top:24px}
+  .primary{padding:10px 22px;border:0;border-radius:8px;background:#4f46e5;color:#fff;font-size:15px;cursor:pointer}
+  .ghost{padding:10px 22px;border:1px solid #d4d4d4;border-radius:8px;background:#fff;cursor:pointer}
+  .error{color:#c00;font-size:12px;margin-top:4px}
+</style>
+</head>
+<body>
+<nav><strong>Northwind Cloud</strong><span>Partners</span><input type="search" placeholder="Search docs"></nav>
+<div class="card"><div id="root"></div></div>
+<script>
+// Minimal SPA: every step re-renders #root, so nodes from the previous step disappear.
+const COUNTRIES = ["Australia","Canada","Germany","Japan","Singapore","Taiwan","United Kingdom","United States"];
+const STATES = { "United States": ["California","New York","Texas","Washington"], "Canada": ["British Columbia","Ontario","Quebec"] };
+const state = { step: 1, data: {} };
+const root = document.getElementById("root");
+function h(html) { root.innerHTML = html; }
+function closePop() { document.querySelector(".pop")?.remove(); }
+
+function step1() {
+  h(`<div class="steps"><b>1. Company</b> › <span>2. Primary contact</span> › <span>3. Done</span></div>
+  <h2>Tell us about your company</h2>
+  <div class="field"><label for="legal">Legal entity name</label><input id="legal" required aria-required="true"></div>
+  <div class="field"><label for="web">Company website</label><input id="web" type="url" required></div>
+  <div class="row">
+    <div class="field"><span class="lbl" id="countryL">Headquarters country *</span>
+      <div class="dd"><button type="button" id="country" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="countryL country">Select a country</button></div></div>
+    <div class="field" id="stateField" hidden><label for="st">State / Province *</label><select id="st" required></select></div>
+  </div>
+  <div class="row">
+    <div class="field"><label for="founded">Founded on</label><input id="founded" type="date"></div>
+    <div class="field"><label for="emp">Employees</label><input id="emp" type="number" min="1"></div>
+  </div>
+  <div class="field"><span class="lbl" id="descL">What does your company do? *</span>
+    <div class="ed" contenteditable="true" role="textbox" aria-multiline="true" aria-labelledby="descL" aria-required="true" id="desc"></div></div>
+  <div class="actions"><span></span><button class="primary" id="next">Continue</button></div>`);
+  const btn = document.getElementById("country");
+  btn.onclick = () => {
+    if (document.querySelector(".pop")) return closePop();
+    const r = btn.getBoundingClientRect();
+    const ul = document.createElement("ul");
+    ul.className = "pop"; ul.setAttribute("role", "listbox"); ul.setAttribute("aria-label", "Countries");
+    ul.style.left = r.left + scrollX + "px"; ul.style.top = r.bottom + scrollY + 4 + "px"; ul.style.width = r.width + "px";
+    ul.innerHTML = COUNTRIES.map(c => `<li role="option" aria-selected="false">${c}</li>`).join("");
+    ul.onclick = e => {
+      const li = e.target.closest("li"); if (!li) return;
+      state.data.country = li.textContent; btn.textContent = li.textContent; closePop();
+      btn.setAttribute("aria-expanded", "false");
+      const states = STATES[state.data.country];
+      document.getElementById("stateField").hidden = !states;
+      document.getElementById("st").innerHTML = `<option value="">Choose…</option>` + (states ?? []).map(s => `<option>${s}</option>`).join("");
+    };
+    document.body.append(ul); // portal: outside the form card
+    btn.setAttribute("aria-expanded", "true");
+  };
+  document.getElementById("next").onclick = () => {
+    const d = state.data;
+    Object.assign(d, { legal: legal.value, web: web.value, state: document.getElementById("st").value, founded: founded.value,
+      employees: emp.value, description: document.getElementById("desc").innerText.trim() });
+    const missing = !d.legal || !d.web || !d.country || (STATES[d.country] && !d.state) || !d.description;
+    if (missing) { root.querySelector(".actions span").innerHTML = `<span class="error" role="alert">Please complete the required fields.</span>`; return; }
+    state.step = 2; render();
+  };
+}
+
+function step2() {
+  h(`<div class="steps"><span>1. Company</span> › <b>2. Primary contact</b> › <span>3. Done</span></div>
+  <h2>Primary contact</h2>
+  <div class="row">
+    <div class="field"><label for="fn">First name *</label><input id="fn" autocomplete="given-name" required></div>
+    <div class="field"><label for="ln">Last name *</label><input id="ln" autocomplete="family-name" required></div>
+  </div>
+  <div class="field"><label for="em">Work email *</label><input id="em" type="email" autocomplete="email" required></div>
+  <div class="row">
+    <div class="field" style="flex:0 0 120px"><label for="cc">Country code</label><select id="cc"><option value="">—</option><option value="+1">+1</option><option value="+44">+44</option><option value="+81">+81</option><option value="+886">+886</option></select></div>
+    <div class="field"><label for="ph">Phone *</label><input id="ph" type="tel" required></div>
+  </div>
+  <div class="field"><span class="lbl" id="roleL">Your role *</span>
+    <div class="chips" role="radiogroup" aria-labelledby="roleL" aria-required="true">
+      ${["Founder / CEO","Engineering","Sales","Marketing","Other"].map(r => `<div class="chip" role="radio" aria-checked="false" tabindex="0">${r}</div>`).join("")}
+    </div></div>
+  <div class="field"><label><input type="checkbox" id="news"> Send me the partner newsletter</label></div>
+  <div class="actions"><button class="ghost" id="back">Back</button><button class="primary" id="submit" type="submit">Submit application</button></div>`);
+  root.querySelectorAll(".chip").forEach(c => c.onclick = () => root.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-checked", String(x === c))));
+  document.getElementById("back").onclick = () => { state.step = 1; render(); };
+  document.getElementById("submit").onclick = () => {
+    Object.assign(state.data, { first: fn.value, last: ln.value, email: em.value, cc: cc.value, phone: ph.value,
+      role: root.querySelector(".chip[aria-checked=true]")?.textContent ?? "", newsletter: news.checked });
+    if (!state.data.first || !state.data.last || !state.data.email || !state.data.phone || !state.data.role) return;
+    // Simulate a network round trip before the confirmation view.
+    root.innerHTML = `<p>Submitting…</p>`;
+    setTimeout(() => { state.step = 3; render(); }, 800);
+  };
+}
+
+function step3() {
+  window.__submitted = state.data;
+  h(`<div class="steps"><span>1. Company</span> › <span>2. Primary contact</span> › <b>3. Done</b></div>
+     <h2>Application received</h2><p>Reference: NW-PP-7731. We'll reply within 3 business days.</p>`);
+}
+function render() { closePop(); ({ 1: step1, 2: step2, 3: step3 })[state.step](); }
+render();
+</script>
+</body>
+</html>
