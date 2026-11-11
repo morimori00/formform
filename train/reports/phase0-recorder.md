@@ -125,3 +125,21 @@ typing elsewhere while a suggestion list is open, wrong script for a name (蔡�
   provisional `personas` shape. `train/recorder/stats.py` reports composition.
 - Re-check: oracle corpus 268/273 (unchanged; parabank layout bug), fixtures 21/21, checked 2/2 with 36/38 agreement (43 calls).
 - Earlier recorded episodes used the old header and were deleted; `train/data/episodes/` is empty until the volume run.
+
+## Update 3: v2 volume run (51 variants, generated personas) — `train/data/episodes/v2/` (18 MB)
+- Personas follow the forms-catalog contract (`<P>.expected.json`, `verify.with_persona`, `__ffPrefill`). Left out as unsolvable
+  for the extension's action space: train 130 persona/variant pairs that need a password typed (the extension never exposes
+  password inputs) + 5 with a required value missing before the last wizard step; eval 7 + 3.
+- `eval-v1` (frozen, ids in `train/eval/eval-v1.json`): 154 episodes, 2,637 decisions, 153 verified (1 excluded).
+- `v2-oracle`: 1,200 train episodes, 17,333 decisions, 1,171 verified (16,671 decisions). 0 paid calls.
+- `v2-checked`: 198 train episodes over all 40 variants, 3,049 TypeSafe decisions (budget 3,000; 49 over because running
+  episodes finish), 184 verified. Teacher agreement 2,174/3,049 = 71%: parabank 88%, tw-vendor-master 81%, jp-travel 78%,
+  kyc 74%, emr 73%, itsm 71%, vendor-onboarding 70%, event-registration 67%, hr-orangehrm 38%.
+  Labels: 2,159 teacher-agreed, 890 oracle-corrected; 74 wrong teacher decisions executed on purpose (recovery states).
+- Teacher baseline on eval (`v2/baseline-teacher/`, plan mode, default state, 2 per eval variant): 7/22 verified episodes,
+  190/370 final fields correct (51%), 390 TypeSafe decisions (budget 600).
+- Paid this round: 3,439 TypeSafe decisions + 475 text-model calls (≈ $0.42 text cost).
+- Unverified oracle episodes (29 train, 1 eval): an option list running off the bottom of a page that cannot scroll
+  (`event-registration/training-sections`, `hr-orangehrm/new-employee-one-page`, `personal-details`,
+  `kyc-account-opening/eval-salary-account`) and a sticky bar covering an option (`tw-vendor-master/vendor-long-sticky`).
+  The snapshot only lists elements whose centre is inside the window, so these options never get an index.

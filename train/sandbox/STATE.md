@@ -38,3 +38,8 @@
 One 4096-token training job needs ~32 GB (peaks higher); two at once went out of memory next to an eval, so queue them.
 If the sandbox is gone (auto-stop after 60 idle min deletes GPU sandboxes): `sandbox/dt create && sandbox/dt setup` (~2 min),
 push data + scripts again; checkpoints are on the volume.
+
+- 2026-11-11 23:39 sandbox deleted (teardown)
+
+- 2026-11-11 23:30 hackathon ended: sandbox deleted with `sandbox/dt teardown`. Phase 2 jobs were stopped mid-run and their
+  outputs were not kept. The volume `formform-train` (Phase 1 checkpoints under `runs/ft_*/ckpt`) still exists.

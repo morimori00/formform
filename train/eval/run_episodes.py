@@ -16,7 +16,8 @@ the oracle (the value the planner / text model would supply for that field); a T
 value for types nothing. --goal planned also gives the student the oracle's "- field: value" plan (a perfect Bulk
 planner); --goal generic gives it only the context document.
 Success = recorder verification of the final page state (train/forms/verify.py for corpus forms), never the model's DONE.
-Results: train/runs/eval/<name>/{eval/*.jsonl.gz episodes, results.jsonl} and train/reports/eval/<name>.json.
+Results: train/runs/eval/<name>/{eval/*.jsonl.gz episodes, results.jsonl, summary.json}; train/eval/aggregate.py builds
+train/reports/phase2-results.json from them.
 """
 
 import argparse
@@ -111,12 +112,13 @@ def worker(task, base_url, out_dir, max_steps, student):
 
 
 def recorded_tasks(out, only):
-    """One task per recorded eval episode (same form, persona, start state, goal and seed as the frozen eval batch),
+    """One task per frozen eval-v1 episode (same form, persona, start state, goal and seed as the oracle recording),
     so episode success and step accuracy are measured on the same set."""
     tasks = []
     (out / "contexts").mkdir(parents=True, exist_ok=True)
-    for path in sorted((TRAIN / "data" / "episodes" / "eval").glob("*.jsonl.gz")):
-        with gzip.open(path, "rt", encoding="utf-8") as f:
+    frozen = json.loads((TRAIN / "eval" / "eval-v1.json").read_text())
+    for episode_id in frozen["episodes"]:
+        with gzip.open(TRAIN.parent / frozen["directory"] / f"{episode_id}.jsonl.gz", "rt", encoding="utf-8") as f:
             h = json.loads(f.readline())
         if h["split"] != "eval" or (only and not any(Path(f"{h['form_family']}/{h['variant']}").match(o) for o in only)):
             continue
@@ -190,7 +192,7 @@ def main():
         latest[r["episode_id"]] = r
     summary = {"name": args.name, "model": args.model, "goal": args.goal, "max_len": args.max_len,
                "text_source": "oracle", **summarize([latest[t["episode_id"]] for t in tasks if t["episode_id"] in latest])}
-    report = TRAIN / "reports" / "eval" / f"{args.name}.json"
+    report = TRAIN / "runs" / "eval" / args.name / "summary.json"
     report.parent.mkdir(parents=True, exist_ok=True)
     report.write_text(json.dumps(summary, indent=1) + "\n")
     print(json.dumps({k: v for k, v in summary.items() if k != "by_family"}))

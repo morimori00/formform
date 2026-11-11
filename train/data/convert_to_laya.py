@@ -176,7 +176,8 @@ def convert_step(rec, goal_variant, split, context_chars):
     op, target = rec["label"]["operation"], rec["label"]["target"]
     gold = {"operation": {"probabilities": {op: 1.0}}}
     tq = op.lower() + "_target"
-    meta = {k: rec.get(k) for k in ("episode_id", "form_family", "variant", "split", "step", "label_source")}
+    meta = {k: rec.get(k) for k in ("episode_id", "form_family", "variant", "split", "step", "label_source", "batch")}
+    meta["start"] = (rec.get("perturbation") or {}).get("kind")
     meta.update(operation=op, target=target, acceptable=[[a["operation"], a.get("target")] for a in rec["acceptable"]])
     if split == "eval":  # full request, as the loop sends it; scored against meta.acceptable
         if target is not None:
@@ -204,28 +205,59 @@ def eval_variants():
     return set(split.get("eval", [])), set(split.get("eval_families", []))
 
 
-def convert(paths, split, goal_variant, wait_keep=0.35, context_chars=None):
+def stratified(episodes, limit):
+    """Whole episodes up to `limit` decisions, proportional over (variant, batch) groups. Nested: a smaller limit is a
+    prefix of a larger one. episodes: [(header, rows)]."""
+    groups = {}
+    for ep in sorted(episodes, key=lambda e: _hash01(e[0]["episode_id"])):
+        groups.setdefault((ep[0]["form_family"], ep[0]["variant"], ep[0].get("batch")), []).append(ep)
+    ranked = sorted(((i + _hash01(key, "tie")) / len(eps), ep[0]["episode_id"], ep) for key, eps in groups.items() for i, ep in enumerate(eps))
+    out, n = [], 0
+    for _rank, _id, ep in ranked:
+        if limit and n >= limit:
+            break
+        out.append(ep)
+        n += len(ep[1])
+    return out
+
+
+def convert(paths, split, goal_variant, wait_keep=0.35, context_chars=None, limit=0, eval_ids=None):
     import core  # train/recorder/core.py
 
     context_chars = CONTEXT_CHARS[goal_variant] if context_chars is None else context_chars
     eval_set, eval_families = eval_variants()
-    rows, skipped = [], {}
+    episodes, skipped = [], {}
+
+    def skip(reason, n=1):
+        skipped[reason] = skipped.get(reason, 0) + n
+
     files = [f for p in map(Path, paths) for f in (sorted(p.rglob("*.jsonl.gz")) if p.is_dir() else [p])]
     for f in files:
-        for rec in core.read_episode(f):
-            if rec.get("type") == "summary":
-                continue
-            held_out = rec["split"] == "eval" or rec["form_family"] in eval_families or f"{rec['form_family']}/{rec['variant']}" in eval_set
-            if split == "train" and held_out:
-                raise SystemExit(f"{f}: frozen eval data must never be converted for training")
-            if rec["split"] != split:
-                skipped["other_split"] = skipped.get("other_split", 0) + 1
-                continue
-            if split == "train" and rec["label"]["operation"] == "WAIT" and _hash01(rec["episode_id"], rec["step"]) >= wait_keep:
-                skipped["wait_downsampled"] = skipped.get("wait_downsampled", 0) + 1
-                continue
-            rows.append(convert_step(rec, goal_variant, split, context_chars))
-    return rows, skipped
+        records = list(core.read_episode(f))
+        steps, summary = [r for r in records if r.get("type") != "summary"], next((r for r in records if r.get("type") == "summary"), {})
+        if not steps:
+            continue
+        head = steps[0]
+        held_out = head["split"] == "eval" or head["form_family"] in eval_families or f"{head['form_family']}/{head['variant']}" in eval_set
+        if split == "train" and held_out:
+            raise SystemExit(f"{f}: frozen eval data must never be converted for training")
+        if head["split"] != split:
+            skip("other_split_episodes")
+        elif not summary.get("success"):
+            skip("unverified_episodes")  # the oracle could not finish it: its labels are not trusted
+        elif eval_ids is not None and head["episode_id"] not in eval_ids:
+            skip("not_in_eval_ids")
+        else:
+            rows = []
+            for rec in steps:
+                if split == "train" and rec["label"]["operation"] == "WAIT" and _hash01(rec["episode_id"], rec["step"]) >= wait_keep:
+                    skip("wait_downsampled")
+                    continue
+                rows.append(convert_step(rec, goal_variant, split, context_chars))
+            episodes.append((head, rows))
+    if split == "train":
+        episodes = stratified(episodes, limit)
+    return [row for _head, rows in episodes for row in rows], skipped, len(episodes)
 
 
 def selftest():
@@ -259,6 +291,11 @@ def selftest():
     assert decision({**answers, "operation": {"choice": "TYPE_TEXT"}}) == ("TYPE_TEXT", "1")
     assert abs(sum(answers["type_text_target"]["probabilities"].values()) - 1) < 1e-6
     assert decision({"operation": {"choice": "DONE"}}) == ("DONE", None)
+    eps = [({"episode_id": f"{v}.{i}", "form_family": "f", "variant": v, "batch": "b"}, [0] * 10) for v in "abcd" for i in range(20)]
+    small, big = stratified(eps, 100), stratified(eps, 400)
+    assert sum(len(r) for _h, r in small) == 100 and [h["episode_id"] for h, _r in big][:len(small)] == [h["episode_id"] for h, _r in small]
+    per_variant = [sum(h["variant"] == v for h, _r in small) for v in "abcd"]
+    assert max(per_variant) - min(per_variant) <= 1 and len(stratified(eps, 0)) == 80
     print("selftest ok")
 
 
@@ -270,25 +307,24 @@ def main():
     ap.add_argument("--goal", choices=["planned", "generic"], default="planned")
     ap.add_argument("--wait-keep", type=float, default=0.35, help="train: share of WAIT-labelled rows kept")
     ap.add_argument("--context-chars", type=int, help="chars of context in state.context (default: generic 4000, planned 0)")
-    ap.add_argument("--limit-decisions", type=int, default=0, help="train: keep N rows (hash order, nested subsets) for learning curves")
+    ap.add_argument("--limit-decisions", type=int, default=0,
+                    help="train: whole episodes up to N decisions, stratified by variant and batch (nested subsets)")
+    ap.add_argument("--eval-ids", help="eval: JSON with an 'episodes' id list (train/eval/eval-v1.json); other episodes are not scored")
     ap.add_argument("--selftest", action="store_true")
     a = ap.parse_args()
     if a.selftest:
         return selftest()
     if not (a.inputs and a.out and a.split):
         ap.error("inputs, --split and -o are required")
-    rows, skipped = convert(a.inputs, a.split, a.goal, a.wait_keep, a.context_chars)
-    if a.limit_decisions:
-        # Nested subsets: the 500-row set is contained in the 2,000-row set, and every variant is sampled evenly.
-        rows.sort(key=lambda r: _hash01(r["meta"]["episode_id"], r["meta"]["step"]))
-        rows = rows[:a.limit_decisions]
+    ids = set(json.loads(Path(a.eval_ids).read_text())["episodes"]) if a.eval_ids else None
+    rows, skipped, n_episodes = convert(a.inputs, a.split, a.goal, a.wait_keep, a.context_chars, a.limit_decisions, ids)
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     with open(a.out, "w", encoding="utf-8") as f:
         f.writelines(json.dumps(r, ensure_ascii=False) + "\n" for r in rows)
     ops = {}
     for r in rows:
         ops[r["meta"]["operation"]] = ops.get(r["meta"]["operation"], 0) + 1
-    print(f"{len(rows)} decisions -> {a.out}  goal={a.goal}  ops={dict(sorted(ops.items()))}  skipped={skipped}", file=sys.stderr)
+    print(f"{len(rows)} decisions / {n_episodes} episodes -> {a.out}  goal={a.goal}  ops={dict(sorted(ops.items()))}  skipped={skipped}", file=sys.stderr)
 
 
 if __name__ == "__main__":

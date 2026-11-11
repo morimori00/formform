@@ -1,0 +1,69 @@
+{
+ "name": "ours-planned",
+ "model": "/home/daytona/runs/ft_planned/ckpt",
+ "goal": "planned",
+ "max_len": 4096,
+ "text_source": "oracle",
+ "episodes": 154,
+ "success": 26,
+ "episode_success": 0.1688,
+ "on_policy_steps": 1813,
+ "on_policy_step_acc": 0.6387,
+ "status": {
+  "done": 34,
+  "blocked_no_change": 116,
+  "max_steps": 1,
+  "blocked_loop": 3
+ },
+ "by_family": {
+  "emr-registration": {
+   "episodes": 14,
+   "success": 10,
+   "episode_success": 0.7143,
+   "on_policy_steps": 247,
+   "on_policy_step_acc": 0.9514
+  },
+  "hr-orangehrm": {
+   "episodes": 14,
+   "success": 2,
+   "episode_success": 0.1429,
+   "on_policy_steps": 213,
+   "on_policy_step_acc": 0.5869
+  },
+  "itsm-request": {
+   "episodes": 14,
+   "success": 2,
+   "episode_success": 0.1429,
+   "on_policy_steps": 74,
+   "on_policy_step_acc": 0.3649
+  },
+  "kyc-account-opening": {
+   "episodes": 14,
+   "success": 6,
+   "episode_success": 0.4286,
+   "on_policy_steps": 216,
+   "on_policy_step_acc": 0.8241
+  },
+  "tw-arrival-card": {
+   "episodes": 42,
+   "success": 2,
+   "episode_success": 0.0476,
+   "on_policy_steps": 295,
+   "on_policy_step_acc": 0.5017
+  },
+  "us-tax-portal": {
+   "episodes": 42,
+   "success": 4,
+   "episode_success": 0.0952,
+   "on_policy_steps": 568,
+   "on_policy_step_acc": 0.5863
+  },
+  "vendor-onboarding": {
+   "episodes": 14,
+   "success": 0,
+   "episode_success": 0.0,
+   "on_policy_steps": 200,
+   "on_policy_step_acc": 0.56
+  }
+ }
+}
