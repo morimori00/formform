@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-001",
+ "context": "itsm-request/t-emp-001.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g20668",
+    "laptop_model": "design14",
+    "location": "neihu",
+    "needed_by": "2026-11-30",
+    "extra_monitor": false,
+    "cost_center": "CC-4719",
+    "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g20668",
+     "laptop_model": "design14",
+     "location": "neihu",
+     "needed_by": "2026-11-30",
+     "extra_monitor": false,
+     "cost_center": "CC-4719",
+     "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-47x",
+     "location": "hsp_fab3"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "design14",
+    "extra_monitor": false,
+    "location": "neihu",
+    "needed_by": "2026-11-30",
+    "requested_for": "u_g20668",
+    "cost_center": "CC-4719",
+    "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "design14",
+     "extra_monitor": false,
+     "location": "neihu",
+     "needed_by": "2026-11-30",
+     "requested_for": "u_g20668",
+     "cost_center": "CC-4719",
+     "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-47x",
+     "location": "hsp_fab3"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g20668",
+    "contact_pref": "self_service",
+    "inc_category": "network",
+    "inc_subcategory": "dns",
+    "ci": "KST-NB-39455",
+    "impact": "1",
+    "urgency": "1",
+    "assign_group": "netsec",
+    "short_desc": "Internal sites not resolving from guest VLAN 551",
+    "inc_desc": "Names under intra.kestrel-semi.example stopped resolving from VLAN 551 after the firewall change. IP access still works."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g20668",
+     "contact_pref": "self_service",
+     "inc_category": "network",
+     "inc_subcategory": "dns",
+     "ci": "KST-NB-39455",
+     "impact": "1",
+     "urgency": "1",
+     "assign_group": "netsec",
+     "short_desc": "Internal sites not resolving from guest VLAN 551",
+     "inc_desc": "Names under intra.kestrel-semi.example stopped resolving from VLAN 551 after the firewall change. IP access still works."
+    },
+    "wrong": {
+     "short_desc": "Internal sites not resol"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Internal sites not resolving from guest VLAN 551",
+    "inc_desc": "Names under intra.kestrel-semi.example stopped resolving from VLAN 551 after the firewall change. IP access still works.",
+    "caller": "u_g20668",
+    "ci": "KST-NB-39455",
+    "contact_pref": "self_service",
+    "inc_category": "network",
+    "inc_subcategory": "dns",
+    "impact": "1",
+    "urgency": "1",
+    "assign_group": "netsec"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Internal sites not resolving from guest VLAN 551",
+     "inc_desc": "Names under intra.kestrel-semi.example stopped resolving from VLAN 551 after the firewall change. IP access still works.",
+     "caller": "u_g20668",
+     "ci": "KST-NB-39455",
+     "contact_pref": "self_service",
+     "inc_category": "network",
+     "inc_subcategory": "dns",
+     "impact": "1",
+     "urgency": "1",
+     "assign_group": "netsec"
+    },
+    "wrong": {
+     "contact_pref": "email"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g20668",
+    "location": "neihu",
+    "cost_center": "CC-4719",
+    "laptop_model": "design14",
+    "needed_by": "2026-11-30",
+    "extra_monitor": false,
+    "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g20668",
+     "location": "neihu",
+     "cost_center": "CC-4719",
+     "laptop_model": "design14",
+     "needed_by": "2026-11-30",
+     "extra_monitor": false,
+     "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-47x",
+     "needed_by": "2025-11-30"
+    }
+   }
+  }
+ }
+}

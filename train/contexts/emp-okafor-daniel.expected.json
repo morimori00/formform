@@ -1,0 +1,243 @@
+{
+ "persona": "emp-okafor-daniel",
+ "context": "emp-okafor-daniel.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_okafor_d",
+    "contact_pref": "email",
+    "inc_category": "network",
+    "inc_subcategory": "vpn",
+    "ci": "KST-NB-30982",
+    "impact": "2",
+    "urgency": "2",
+    "assign_group": "netops",
+    "short_desc": "GlobalConnect VPN client fails to connect after 6.2 update",
+    "inc_desc": "Since the 6.2 client update on 10 Nov 2026 the VPN client shows error 809 at login. Happens on office Wi-Fi and home network. Reinstalling did not help."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_okafor_d",
+     "contact_pref": "email",
+     "inc_category": "network",
+     "inc_subcategory": "vpn",
+     "ci": "KST-NB-30982",
+     "impact": "2",
+     "urgency": "2",
+     "assign_group": "netops",
+     "short_desc": "GlobalConnect VPN client fails to connect after 6.2 update",
+     "inc_desc": "Since the 6.2 client update on 10 Nov 2026 the VPN client shows error 809 at login. Happens on office Wi-Fi and home network. Reinstalling did not help."
+    },
+    "wrong": {
+     "urgency": "1"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "GlobalConnect VPN client fails to connect after 6.2 update",
+    "inc_desc": "Since the 6.2 client update on 10 Nov 2026 the VPN client shows error 809 at login. Happens on office Wi-Fi and home network. Reinstalling did not help.",
+    "caller": "u_okafor_d",
+    "ci": "KST-NB-30982",
+    "contact_pref": "email",
+    "inc_category": "network",
+    "inc_subcategory": "vpn",
+    "impact": "2",
+    "urgency": "2",
+    "assign_group": "netops"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "GlobalConnect VPN client fails to connect after 6.2 update",
+     "inc_desc": "Since the 6.2 client update on 10 Nov 2026 the VPN client shows error 809 at login. Happens on office Wi-Fi and home network. Reinstalling did not help.",
+     "caller": "u_okafor_d",
+     "ci": "KST-NB-30982",
+     "contact_pref": "email",
+     "inc_category": "network",
+     "inc_subcategory": "vpn",
+     "impact": "2",
+     "urgency": "2",
+     "assign_group": "netops"
+    },
+    "wrong": {
+     "short_desc": "GlobalConnect VPN client fail"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2026-12-28",
+    "leave_to": "2026-12-31",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": "Family travel — handover to Ivy Chang for SOC on-call"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2026-12-28",
+     "leave_to": "2026-12-31",
+     "partial_days": "end",
+     "end_duration": "half_am",
+     "leave_comment": "Family travel — handover to Ivy Chang for SOC on-call"
+    },
+    "wrong": {
+     "leave_from": "2025-12-28"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2026-12-28",
+    "leave_to": "2026-12-31",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": "Family travel — handover to Ivy Chang for SOC on-call"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2026-12-28",
+     "leave_to": "2026-12-31",
+     "partial_days": "end",
+     "end_duration": "half_am",
+     "leave_comment": "Family travel — handover to Ivy Chang for SOC on-call"
+    },
+    "wrong": {
+     "partial_days": "none"
+    }
+   }
+  },
+  "event-registration/training-single": {
+   "submit": true,
+   "fields": {
+    "email": "daniel.okafor@kestrel-semi.example",
+    "full_name": [
+     "Daniel Okafor",
+     "Daniel Chukwuemeka Okafor"
+    ],
+    "employee_id": "KST-11862",
+    "department": "infosec",
+    "session": "sc_dec09_pm",
+    "attendance": "in_person",
+    "dietary": "vegetarian",
+    "tshirt": "L",
+    "recording": true,
+    "topics": "Threat modeling for internal tools; secrets handling in CI"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "email": "daniel.okafor@kestrel-semi.example",
+     "full_name": "Daniel Okafor",
+     "employee_id": "KST-11862",
+     "department": "infosec",
+     "session": "sc_dec09_pm",
+     "attendance": "in_person",
+     "dietary": "vegetarian",
+     "tshirt": "L",
+     "recording": true,
+     "topics": "Threat modeling for internal tools; secrets handling in CI"
+    },
+    "wrong": {
+     "email": "daniel.okafor at kestrel-semi.example",
+     "session": "sc_dec09_am"
+    }
+   }
+  },
+  "event-registration/training-sections": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Daniel Okafor",
+     "Daniel Chukwuemeka Okafor"
+    ],
+    "employee_id": "KST-11862",
+    "email": "daniel.okafor@kestrel-semi.example",
+    "department": "infosec",
+    "course": "secure_coding",
+    "session": "sc_dec09_pm",
+    "attendance": "in_person",
+    "dietary": "vegetarian",
+    "tshirt": "L",
+    "recording": true,
+    "topics": "Threat modeling for internal tools; secrets handling in CI"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Daniel Okafor",
+     "employee_id": "KST-11862",
+     "email": "daniel.okafor@kestrel-semi.example",
+     "department": "infosec",
+     "course": "secure_coding",
+     "session": "sc_dec09_pm",
+     "attendance": "in_person",
+     "dietary": "vegetarian",
+     "tshirt": "L",
+     "recording": true,
+     "topics": "Threat modeling for internal tools; secrets handling in CI"
+    },
+    "wrong": {
+     "email": "daniel.okafor at kestrel-semi.example",
+     "full_name": "Daniel"
+    }
+   }
+  },
+  "event-registration/training-lookup": {
+   "submit": true,
+   "fields": {
+    "session": "sc_dec09_pm",
+    "attendance": "in_person",
+    "full_name": [
+     "Daniel Okafor",
+     "Daniel Chukwuemeka Okafor"
+    ],
+    "employee_id": "KST-11862",
+    "email": "daniel.okafor@kestrel-semi.example",
+    "department": "infosec",
+    "dietary": "vegetarian",
+    "tshirt": "L",
+    "recording": true,
+    "topics": "Threat modeling for internal tools; secrets handling in CI"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "session": "sc_dec09_pm",
+     "attendance": "in_person",
+     "full_name": "Daniel Okafor",
+     "employee_id": "KST-11862",
+     "email": "daniel.okafor@kestrel-semi.example",
+     "department": "infosec",
+     "dietary": "vegetarian",
+     "tshirt": "L",
+     "recording": true,
+     "topics": "Threat modeling for internal tools; secrets handling in CI"
+    },
+    "wrong": {
+     "email": "daniel.okafor at kestrel-semi.example",
+     "dietary": "none"
+    }
+   }
+  }
+ }
+}

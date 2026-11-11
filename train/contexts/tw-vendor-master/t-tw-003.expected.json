@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-003",
+ "context": "tw-vendor-master/t-tw-003.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠暘物流股份有限公司",
+    "vendor_name_en": "Kuanyang Logistics Co., Ltd.",
+    "ubn": "41334548",
+    "owner": "呂淑華",
+    "established": "1978-01-08",
+    "capital": "124000000",
+    "org_type": "corp_shares",
+    "postal": "302",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "復興路263號12樓",
+    "tel": "03-609-2627",
+    "fax": "03-609-8356",
+    "contact_name": [
+     "吳俊芬",
+     "Wu Chun-fen"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "chunfen.wu@kuanyang-logistics.example",
+    "contact_mobile": "0956-117-214",
+    "bank_code": "822",
+    "bank_branch": [
+     "竹北分行",
+     "竹北"
+    ],
+    "account_no": "4030448933134",
+    "account_name": "冠暘物流股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-09-23"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠暘物流股份有限公司",
+     "vendor_name_en": "Kuanyang Logistics Co., Ltd.",
+     "ubn": "41334548",
+     "owner": "呂淑華",
+     "established": "1978-01-08",
+     "capital": "124000000",
+     "org_type": "corp_shares",
+     "postal": "302",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "復興路263號12樓",
+     "tel": "03-609-2627",
+     "fax": "03-609-8356",
+     "contact_name": "吳俊芬",
+     "contact_title": "總經理特助",
+     "email": "chunfen.wu@kuanyang-logistics.example",
+     "contact_mobile": "0956-117-214",
+     "bank_code": "822",
+     "bank_branch": "竹北分行",
+     "account_no": "4030448933134",
+     "account_name": "冠暘物流股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-09-23"
+    },
+    "wrong": {
+     "ubn": "413345x",
+     "org_type": "limited"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "41334548",
+    "vendor_name_zh": "冠暘物流股份有限公司",
+    "vendor_name_en": "Kuanyang Logistics Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1978-01-08",
+    "owner": "呂淑華",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "復興路263號12樓",
+    "postal": "302",
+    "tel": "03-609-2627",
+    "fax": "03-609-8356",
+    "contact_name": [
+     "吳俊芬",
+     "Wu Chun-fen"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "0956-117-214",
+    "email": "chunfen.wu@kuanyang-logistics.example",
+    "bank_code": "822",
+    "bank_branch": [
+     "竹北分行",
+     "竹北"
+    ],
+    "account_no": "4030448933134",
+    "account_name": "冠暘物流股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-09-23",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "41334548",
+     "vendor_name_zh": "冠暘物流股份有限公司",
+     "vendor_name_en": "Kuanyang Logistics Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1978-01-08",
+     "owner": "呂淑華",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "復興路263號12樓",
+     "postal": "302",
+     "tel": "03-609-2627",
+     "fax": "03-609-8356",
+     "contact_name": "吳俊芬",
+     "contact_title": "總經理特助",
+     "contact_mobile": "0956-117-214",
+     "email": "chunfen.wu@kuanyang-logistics.example",
+     "bank_code": "822",
+     "bank_branch": "竹北分行",
+     "account_no": "4030448933134",
+     "account_name": "冠暘物流股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-09-23"
+    },
+    "wrong": {
+     "ubn": "413345x",
+     "owner": "呂"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "41334548",
+    "vendor_name_zh": "冠暘物流股份有限公司",
+    "owner": "呂淑華",
+    "established": "1978-01-08",
+    "org_type": "corp_shares",
+    "capital": "124000000",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "復興路263號12樓",
+    "postal": "302",
+    "tel": "03-609-2627",
+    "contact_name": [
+     "吳俊芬",
+     "Wu Chun-fen"
+    ],
+    "email": "chunfen.wu@kuanyang-logistics.example",
+    "bank_code": "822",
+    "account_no": "4030448933134",
+    "account_name": "冠暘物流股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "41334548",
+     "vendor_name_zh": "冠暘物流股份有限公司",
+     "owner": "呂淑華",
+     "established": "1978-01-08",
+     "org_type": "corp_shares",
+     "capital": "124000000",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "復興路263號12樓",
+     "postal": "302",
+     "tel": "03-609-2627",
+     "contact_name": "吳俊芬",
+     "email": "chunfen.wu@kuanyang-logistics.example",
+     "bank_code": "822",
+     "account_no": "4030448933134",
+     "account_name": "冠暘物流股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "413345x",
+     "county": "臺北市"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠暘物流股份有限公司",
+    "vendor_name_en": "Kuanyang Logistics Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "41334548",
+    "owner": "呂淑華",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "復興路263號12樓",
+    "postal": "302",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-609-2627",
+    "contact_name": [
+     "吳俊芬",
+     "Wu Chun-fen"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "chunfen.wu@kuanyang-logistics.example",
+    "account_no": "4030448933134",
+    "account_name": "冠暘物流股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠暘物流股份有限公司",
+     "vendor_name_en": "Kuanyang Logistics Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "41334548",
+     "owner": "呂淑華",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "復興路263號12樓",
+     "postal": "302",
+     "tel": "03-609-2627",
+     "contact_name": "吳俊芬",
+     "contact_title": "總經理特助",
+     "email": "chunfen.wu@kuanyang-logistics.example",
+     "account_no": "4030448933134",
+     "account_name": "冠暘物流股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "413345x",
+     "county": "臺北市"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "822",
+    "bank_branch": [
+     "竹北分行",
+     "竹北"
+    ],
+    "account_no": "4030448933134",
+    "account_name": "冠暘物流股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "復興路263號12樓",
+    "postal": "302",
+    "tel": "03-609-2627",
+    "fax": "03-609-8356",
+    "vendor_name_zh": "冠暘物流股份有限公司",
+    "ubn": "41334548",
+    "owner": "呂淑華",
+    "org_type": "corp_shares",
+    "established": "1978-01-08",
+    "capital": "124000000",
+    "vendor_name_en": "Kuanyang Logistics Co., Ltd.",
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "0956-117-214",
+    "contact_name": [
+     "吳俊芬",
+     "Wu Chun-fen"
+    ],
+    "email": "chunfen.wu@kuanyang-logistics.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "822",
+     "bank_branch": "竹北分行",
+     "account_no": "4030448933134",
+     "account_name": "冠暘物流股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "復興路263號12樓",
+     "postal": "302",
+     "tel": "03-609-2627",
+     "fax": "03-609-8356",
+     "vendor_name_zh": "冠暘物流股份有限公司",
+     "ubn": "41334548",
+     "owner": "呂淑華",
+     "org_type": "corp_shares",
+     "established": "1978-01-08",
+     "capital": "124000000",
+     "vendor_name_en": "Kuanyang Logistics Co., Ltd.",
+     "contact_title": "總經理特助",
+     "contact_mobile": "0956-117-214",
+     "contact_name": "吳俊芬",
+     "email": "chunfen.wu@kuanyang-logistics.example"
+    },
+    "wrong": {
+     "account_no": "40304489331x",
+     "tel": "03-60"
+    }
+   }
+  }
+ }
+}

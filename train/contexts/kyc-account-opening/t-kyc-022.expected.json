@@ -1,0 +1,225 @@
+{
+ "persona": "kyc-account-opening/t-kyc-022",
+ "context": "kyc-account-opening/t-kyc-022.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-35953",
+    "full_name": [
+     "Cheng Ya-Ju",
+     "Ya-Ju Cheng"
+    ],
+    "spouse_name": "Kuo Cheng-Yen",
+    "gender": "male",
+    "marital": "single",
+    "dob": "2001-04-07",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "E220099024",
+    "id_proof": "national_id",
+    "address": [
+     "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300, Taiwan",
+     "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 997 040 453",
+    "email": "yaju.cheng@inbox.example",
+    "addr_proof": "bank_statement",
+    "perm_same": false,
+    "perm_address": [
+     "4F, No. 289, Ln. 4, Sec. 4, Fuxing S. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "4F, No. 289, Ln. 4, Sec. 4, Fuxing S. Rd., Neihu Dist., Taipei City 114"
+    ],
+    "decl_name": [
+     "Cheng Ya-Ju",
+     "Ya-Ju Cheng"
+    ],
+    "sign_date": "2026-11-05",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-35953",
+     "full_name": "Cheng Ya-Ju",
+     "spouse_name": "Kuo Cheng-Yen",
+     "gender": "male",
+     "marital": "single",
+     "dob": "2001-04-07",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "E220099024",
+     "id_proof": "national_id",
+     "address": "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300, Taiwan",
+     "phone": "+886 997 040 453",
+     "email": "yaju.cheng@inbox.example",
+     "addr_proof": "bank_statement",
+     "perm_same": false,
+     "perm_address": "4F, No. 289, Ln. 4, Sec. 4, Fuxing S. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "decl_name": "Cheng Ya-Ju",
+     "sign_date": "2026-11-05"
+    },
+    "wrong": {
+     "tax_id": "E2200990x",
+     "marital": "married"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Cheng Ya-Ju",
+     "Ya-Ju Cheng"
+    ],
+    "dob": "2001-04-07",
+    "mother_maiden": "Wu",
+    "phone": "+886 997 040 453",
+    "email": "yaju.cheng@inbox.example",
+    "address": [
+     "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300, Taiwan",
+     "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300"
+    ],
+    "education": "high_school",
+    "id_form": "national_id",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "268000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Cheng Ya-Ju",
+     "dob": "2001-04-07",
+     "mother_maiden": "Wu",
+     "phone": "+886 997 040 453",
+     "email": "yaju.cheng@inbox.example",
+     "address": "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300, Taiwan",
+     "education": "high_school",
+     "id_form": "national_id",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "268000"
+    },
+    "wrong": {
+     "email": "yaju.cheng at inbox.example",
+     "dob": "2000-04-07"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Cheng Ya-Ju",
+     "Ya-Ju Cheng"
+    ],
+    "dob": "2001-04-07",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Kuo Cheng-Yen",
+    "address": [
+     "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300, Taiwan",
+     "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300"
+    ],
+    "email": "yaju.cheng@inbox.example",
+    "phone": "+886 997 040 453",
+    "addr_proof": "bank_statement",
+    "id_proof": "national_id",
+    "tax_id": "E220099024",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-35953"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Cheng Ya-Ju",
+     "dob": "2001-04-07",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Kuo Cheng-Yen",
+     "address": "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300, Taiwan",
+     "email": "yaju.cheng@inbox.example",
+     "phone": "+886 997 040 453",
+     "addr_proof": "bank_statement",
+     "id_proof": "national_id",
+     "tax_id": "E220099024",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-35953"
+    },
+    "wrong": {
+     "email": "yaju.cheng at inbox.example",
+     "application_no": "LCB-AO-2"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Cheng Ya-Ju",
+     "Ya-Ju Cheng"
+    ],
+    "dob": "2001-04-07",
+    "gender": "male",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 997 040 453",
+    "email": "yaju.cheng@inbox.example",
+    "address": [
+     "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300, Taiwan",
+     "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300"
+    ],
+    "perm_same": false,
+    "id_proof": "national_id",
+    "tax_id": "E220099024",
+    "addr_proof": "bank_statement",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "education": "high_school",
+    "monthly_income": "268000",
+    "application_no": "LCB-AO-2026-35953",
+    "perm_address": [
+     "4F, No. 289, Ln. 4, Sec. 4, Fuxing S. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "4F, No. 289, Ln. 4, Sec. 4, Fuxing S. Rd., Neihu Dist., Taipei City 114"
+    ]
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Cheng Ya-Ju",
+     "dob": "2001-04-07",
+     "gender": "male",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 997 040 453",
+     "email": "yaju.cheng@inbox.example",
+     "address": "13F, No. 252, Ln. 256, Sec. 3, Datong Rd., East Dist., Hsinchu City 300, Taiwan",
+     "perm_same": false,
+     "id_proof": "national_id",
+     "tax_id": "E220099024",
+     "addr_proof": "bank_statement",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "education": "high_school",
+     "monthly_income": "268000",
+     "application_no": "LCB-AO-2026-35953",
+     "perm_address": "4F, No. 289, Ln. 4, Sec. 4, Fuxing S. Rd., Neihu Dist., Taipei City 114, Taiwan"
+    },
+    "wrong": {
+     "email": "yaju.cheng at inbox.example",
+     "residency": "non_resident"
+    }
+   }
+  }
+ }
+}

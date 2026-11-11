@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-037",
+ "context": "vendor-onboarding/t-intl-037.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Skylark Precision Tooling Pte. Ltd.",
+    "tax_id": "202226000M",
+    "company_address": "50 Changi South Lane, #06-28, Singapore 943769",
+    "established": "2015-03-04",
+    "business_type": "private_limited",
+    "services": "Precision jigs, fixtures and spare parts for wafer handling",
+    "service_area": "apac",
+    "gross_sales": "45100000",
+    "contact_name": [
+     "Mateo Silva",
+     "Mr. Mateo Silva"
+    ],
+    "contact_title": "Controller",
+    "phone_day": "+65 6414 0262",
+    "phone_evening": "",
+    "email": "mateo.silva@skylark.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Skylark Precision Tooling Pte. Ltd.",
+    "account_number": "475-908415-6",
+    "swift": "OBBXSGXXXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Skylark Precision Tooling Pte. Ltd.",
+     "tax_id": "202226000M",
+     "company_address": "50 Changi South Lane, #06-28, Singapore 943769",
+     "established": "2015-03-04",
+     "business_type": "private_limited",
+     "services": "Precision jigs, fixtures and spare parts for wafer handling",
+     "service_area": "apac",
+     "gross_sales": "45100000",
+     "contact_name": "Mateo Silva",
+     "contact_title": "Controller",
+     "phone_day": "+65 6414 0262",
+     "email": "mateo.silva@skylark.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Skylark Precision Tooling Pte. Ltd.",
+     "account_number": "475-908415-6",
+     "swift": "OBBXSGXXXXX"
+    },
+    "wrong": {
+     "email": "mateo.silva at skylark.example",
+     "phone_day": "+65 64"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Skylark Precision Tooling Pte. Ltd.",
+    "tax_id": "202226000M",
+    "established": "2015-03-04",
+    "service_area": "apac",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Mateo Silva",
+     "Mr. Mateo Silva"
+    ],
+    "email": "mateo.silva@skylark.example",
+    "phone_day": "+65 6414 0262",
+    "phone_evening": "",
+    "company_address": "50 Changi South Lane, #06-28, Singapore 943769",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Skylark Precision Tooling Pte. Ltd.",
+    "account_number": "475-908415-6",
+    "swift": "OBBXSGXXXXX",
+    "insurance": "insured",
+    "gross_sales": "45100000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Skylark Precision Tooling Pte. Ltd.",
+     "tax_id": "202226000M",
+     "established": "2015-03-04",
+     "service_area": "apac",
+     "business_type": "private_limited",
+     "contact_name": "Mateo Silva",
+     "email": "mateo.silva@skylark.example",
+     "phone_day": "+65 6414 0262",
+     "company_address": "50 Changi South Lane, #06-28, Singapore 943769",
+     "licensing": "not_licensed",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Skylark Precision Tooling Pte. Ltd.",
+     "account_number": "475-908415-6",
+     "swift": "OBBXSGXXXXX",
+     "insurance": "insured",
+     "gross_sales": "45100000"
+    },
+    "wrong": {
+     "email": "mateo.silva at skylark.example",
+     "phone_day": "+65 64"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Skylark Precision Tooling Pte. Ltd.",
+    "account_number": "475-908415-6",
+    "swift": "OBBXSGXXXXX",
+    "org_name": "Skylark Precision Tooling Pte. Ltd.",
+    "tax_id": "202226000M",
+    "business_type": "private_limited",
+    "established": "2015-03-04",
+    "company_address": "50 Changi South Lane, #06-28, Singapore 943769",
+    "service_area": "apac",
+    "contact_name": [
+     "Mateo Silva",
+     "Mr. Mateo Silva"
+    ],
+    "email": "mateo.silva@skylark.example",
+    "phone_day": "+65 6414 0262",
+    "contact_title": "Controller",
+    "phone_evening": "",
+    "gross_sales": "45100000",
+    "services": "Precision jigs, fixtures and spare parts for wafer handling",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Skylark Precision Tooling Pte. Ltd.",
+     "account_number": "475-908415-6",
+     "swift": "OBBXSGXXXXX",
+     "org_name": "Skylark Precision Tooling Pte. Ltd.",
+     "tax_id": "202226000M",
+     "business_type": "private_limited",
+     "established": "2015-03-04",
+     "company_address": "50 Changi South Lane, #06-28, Singapore 943769",
+     "service_area": "apac",
+     "contact_name": "Mateo Silva",
+     "email": "mateo.silva@skylark.example",
+     "phone_day": "+65 6414 0262",
+     "contact_title": "Controller",
+     "gross_sales": "45100000",
+     "services": "Precision jigs, fixtures and spare parts for wafer handling",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "mateo.silva at skylark.example",
+     "tax_id": "20222"
+    }
+   }
+  }
+ }
+}

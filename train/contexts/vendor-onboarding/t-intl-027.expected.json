@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-027",
+ "context": "vendor-onboarding/t-intl-027.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Highmoor Industrial Gases Pte. Ltd.",
+    "tax_id": "208637555K",
+    "company_address": "70 Pioneer Crescent, #09-25, Singapore 231503",
+    "established": "2008-01-04",
+    "business_type": "private_limited",
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "service_area": "apac",
+    "gross_sales": "76100000",
+    "contact_name": [
+     "Julia Achebe",
+     "Ms. Julia Achebe"
+    ],
+    "contact_title": "Key Account Executive",
+    "phone_day": "+65 6217 7928",
+    "phone_evening": "",
+    "email": "julia.achebe@highmoor.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Highmoor Industrial Gases Pte. Ltd.",
+    "account_number": "439-135436-5",
+    "swift": "LCMBSGXLXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Industrial Gases Pte. Ltd.",
+     "tax_id": "208637555K",
+     "company_address": "70 Pioneer Crescent, #09-25, Singapore 231503",
+     "established": "2008-01-04",
+     "business_type": "private_limited",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "service_area": "apac",
+     "gross_sales": "76100000",
+     "contact_name": "Julia Achebe",
+     "contact_title": "Key Account Executive",
+     "phone_day": "+65 6217 7928",
+     "email": "julia.achebe@highmoor.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Highmoor Industrial Gases Pte. Ltd.",
+     "account_number": "439-135436-5",
+     "swift": "LCMBSGXLXXX"
+    },
+    "wrong": {
+     "email": "julia.achebe at highmoor.example",
+     "contact_name": "Julia "
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Highmoor Industrial Gases Pte. Ltd.",
+    "tax_id": "208637555K",
+    "established": "2008-01-04",
+    "service_area": "apac",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Julia Achebe",
+     "Ms. Julia Achebe"
+    ],
+    "email": "julia.achebe@highmoor.example",
+    "phone_day": "+65 6217 7928",
+    "phone_evening": "",
+    "company_address": "70 Pioneer Crescent, #09-25, Singapore 231503",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Highmoor Industrial Gases Pte. Ltd.",
+    "account_number": "439-135436-5",
+    "swift": "LCMBSGXLXXX",
+    "insurance": "insured",
+    "gross_sales": "76100000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Industrial Gases Pte. Ltd.",
+     "tax_id": "208637555K",
+     "established": "2008-01-04",
+     "service_area": "apac",
+     "business_type": "private_limited",
+     "contact_name": "Julia Achebe",
+     "email": "julia.achebe@highmoor.example",
+     "phone_day": "+65 6217 7928",
+     "company_address": "70 Pioneer Crescent, #09-25, Singapore 231503",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Highmoor Industrial Gases Pte. Ltd.",
+     "account_number": "439-135436-5",
+     "swift": "LCMBSGXLXXX",
+     "insurance": "insured",
+     "gross_sales": "76100000"
+    },
+    "wrong": {
+     "email": "julia.achebe at highmoor.example",
+     "insurance": "not_insured"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Highmoor Industrial Gases Pte. Ltd.",
+    "account_number": "439-135436-5",
+    "swift": "LCMBSGXLXXX",
+    "org_name": "Highmoor Industrial Gases Pte. Ltd.",
+    "tax_id": "208637555K",
+    "business_type": "private_limited",
+    "established": "2008-01-04",
+    "company_address": "70 Pioneer Crescent, #09-25, Singapore 231503",
+    "service_area": "apac",
+    "contact_name": [
+     "Julia Achebe",
+     "Ms. Julia Achebe"
+    ],
+    "email": "julia.achebe@highmoor.example",
+    "phone_day": "+65 6217 7928",
+    "contact_title": "Key Account Executive",
+    "phone_evening": "",
+    "gross_sales": "76100000",
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Highmoor Industrial Gases Pte. Ltd.",
+     "account_number": "439-135436-5",
+     "swift": "LCMBSGXLXXX",
+     "org_name": "Highmoor Industrial Gases Pte. Ltd.",
+     "tax_id": "208637555K",
+     "business_type": "private_limited",
+     "established": "2008-01-04",
+     "company_address": "70 Pioneer Crescent, #09-25, Singapore 231503",
+     "service_area": "apac",
+     "contact_name": "Julia Achebe",
+     "email": "julia.achebe@highmoor.example",
+     "phone_day": "+65 6217 7928",
+     "contact_title": "Key Account Executive",
+     "gross_sales": "76100000",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "julia.achebe at highmoor.example",
+     "gross_sales": "7610"
+    }
+   }
+  }
+ }
+}

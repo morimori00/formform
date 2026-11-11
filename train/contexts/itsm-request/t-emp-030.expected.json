@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-030",
+ "context": "itsm-request/t-emp-030.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g40811",
+    "laptop_model": "eng16",
+    "location": "hsp_fab3",
+    "needed_by": "2026-12-12",
+    "extra_monitor": false,
+    "cost_center": "CC-4622",
+    "justification": "Current laptop is out of warranty and cannot run the new Human Resources toolchain."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g40811",
+     "laptop_model": "eng16",
+     "location": "hsp_fab3",
+     "needed_by": "2026-12-12",
+     "extra_monitor": false,
+     "cost_center": "CC-4622",
+     "justification": "Current laptop is out of warranty and cannot run the new Human Resources toolchain."
+    },
+    "wrong": {
+     "cost_center": "CC-46x",
+     "laptop_model": "std14"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16",
+    "extra_monitor": false,
+    "location": "hsp_fab3",
+    "needed_by": "2026-12-12",
+    "requested_for": "u_g40811",
+    "cost_center": "CC-4622",
+    "justification": "Current laptop is out of warranty and cannot run the new Human Resources toolchain.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16",
+     "extra_monitor": false,
+     "location": "hsp_fab3",
+     "needed_by": "2026-12-12",
+     "requested_for": "u_g40811",
+     "cost_center": "CC-4622",
+     "justification": "Current laptop is out of warranty and cannot run the new Human Resources toolchain."
+    },
+    "wrong": {
+     "cost_center": "CC-46x",
+     "needed_by": "2025-12-12"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g40811",
+    "contact_pref": "phone",
+    "inc_category": "hardware",
+    "inc_subcategory": "printer",
+    "ci": "KST-NB-23738",
+    "impact": "1",
+    "urgency": "3",
+    "assign_group": "servicedesk",
+    "short_desc": "Badge printing fails on printer P-360",
+    "inc_desc": "Secure print jobs stay in the queue on printer P-360 on floor 5; badge tap shows 'no jobs'. Other users are affected too."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g40811",
+     "contact_pref": "phone",
+     "inc_category": "hardware",
+     "inc_subcategory": "printer",
+     "ci": "KST-NB-23738",
+     "impact": "1",
+     "urgency": "3",
+     "assign_group": "servicedesk",
+     "short_desc": "Badge printing fails on printer P-360",
+     "inc_desc": "Secure print jobs stay in the queue on printer P-360 on floor 5; badge tap shows 'no jobs'. Other users are affected too."
+    },
+    "wrong": {
+     "short_desc": "Badge printing fai"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Badge printing fails on printer P-360",
+    "inc_desc": "Secure print jobs stay in the queue on printer P-360 on floor 5; badge tap shows 'no jobs'. Other users are affected too.",
+    "caller": "u_g40811",
+    "ci": "KST-NB-23738",
+    "contact_pref": "phone",
+    "inc_category": "hardware",
+    "inc_subcategory": "printer",
+    "impact": "1",
+    "urgency": "3",
+    "assign_group": "servicedesk"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Badge printing fails on printer P-360",
+     "inc_desc": "Secure print jobs stay in the queue on printer P-360 on floor 5; badge tap shows 'no jobs'. Other users are affected too.",
+     "caller": "u_g40811",
+     "ci": "KST-NB-23738",
+     "contact_pref": "phone",
+     "inc_category": "hardware",
+     "inc_subcategory": "printer",
+     "impact": "1",
+     "urgency": "3",
+     "assign_group": "servicedesk"
+    },
+    "wrong": {
+     "inc_category": "inquiry"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g40811",
+    "location": "hsp_fab3",
+    "cost_center": "CC-4622",
+    "laptop_model": "eng16",
+    "needed_by": "2026-12-12",
+    "extra_monitor": false,
+    "justification": "Current laptop is out of warranty and cannot run the new Human Resources toolchain."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g40811",
+     "location": "hsp_fab3",
+     "cost_center": "CC-4622",
+     "laptop_model": "eng16",
+     "needed_by": "2026-12-12",
+     "extra_monitor": false,
+     "justification": "Current laptop is out of warranty and cannot run the new Human Resources toolchain."
+    },
+    "wrong": {
+     "cost_center": "CC-46x",
+     "laptop_model": "std14"
+    }
+   }
+  }
+ }
+}

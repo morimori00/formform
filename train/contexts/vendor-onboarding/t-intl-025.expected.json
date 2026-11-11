@@ -1,0 +1,189 @@
+{
+ "persona": "vendor-onboarding/t-intl-025",
+ "context": "vendor-onboarding/t-intl-025.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Ironwood Analytics Co., Ltd.",
+    "tax_id": "0479876897950",
+    "company_address": "121 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "established": "2016-08-22",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "services": "Data analytics and demand forecasting consulting",
+    "service_area": "europe",
+    "gross_sales": "15900000",
+    "contact_name": [
+     "Mina Novak",
+     "Ms. Mina Novak"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "+66 2 104 7070",
+    "phone_evening": "",
+    "email": "mina.novak@ironwood.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "TH-LIC-1795900",
+    "bank_name": "Chao Phraya Commerce Bank",
+    "beneficiary": "Ironwood Analytics Co., Ltd.",
+    "account_number": "191-283782-4",
+    "swift": "CPCBTHXXXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Ironwood Analytics Co., Ltd.",
+     "tax_id": "0479876897950",
+     "company_address": "121 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "established": "2016-08-22",
+     "business_type": "private_limited",
+     "services": "Data analytics and demand forecasting consulting",
+     "service_area": "europe",
+     "gross_sales": "15900000",
+     "contact_name": "Mina Novak",
+     "contact_title": "Account Manager",
+     "phone_day": "+66 2 104 7070",
+     "email": "mina.novak@ironwood.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "TH-LIC-1795900",
+     "bank_name": "Chao Phraya Commerce Bank",
+     "beneficiary": "Ironwood Analytics Co., Ltd.",
+     "account_number": "191-283782-4",
+     "swift": "CPCBTHXXXXX"
+    },
+    "wrong": {
+     "email": "mina.novak at ironwood.example",
+     "swift": "CPCBT"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Ironwood Analytics Co., Ltd.",
+    "tax_id": "0479876897950",
+    "established": "2016-08-22",
+    "service_area": "europe",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "contact_name": [
+     "Mina Novak",
+     "Ms. Mina Novak"
+    ],
+    "email": "mina.novak@ironwood.example",
+    "phone_day": "+66 2 104 7070",
+    "phone_evening": "",
+    "company_address": "121 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "licensing": "licensed",
+    "license_number": "TH-LIC-1795900",
+    "bank_name": "Chao Phraya Commerce Bank",
+    "beneficiary": "Ironwood Analytics Co., Ltd.",
+    "account_number": "191-283782-4",
+    "swift": "CPCBTHXXXXX",
+    "insurance": "insured",
+    "gross_sales": "15900000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Ironwood Analytics Co., Ltd.",
+     "tax_id": "0479876897950",
+     "established": "2016-08-22",
+     "service_area": "europe",
+     "business_type": "private_limited",
+     "contact_name": "Mina Novak",
+     "email": "mina.novak@ironwood.example",
+     "phone_day": "+66 2 104 7070",
+     "company_address": "121 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "licensing": "licensed",
+     "license_number": "TH-LIC-1795900",
+     "bank_name": "Chao Phraya Commerce Bank",
+     "beneficiary": "Ironwood Analytics Co., Ltd.",
+     "account_number": "191-283782-4",
+     "swift": "CPCBTHXXXXX",
+     "insurance": "insured",
+     "gross_sales": "15900000"
+    },
+    "wrong": {
+     "email": "mina.novak at ironwood.example",
+     "established": "2015-08-22"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Chao Phraya Commerce Bank",
+    "beneficiary": "Ironwood Analytics Co., Ltd.",
+    "account_number": "191-283782-4",
+    "swift": "CPCBTHXXXXX",
+    "org_name": "Ironwood Analytics Co., Ltd.",
+    "tax_id": "0479876897950",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "established": "2016-08-22",
+    "company_address": "121 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "service_area": "europe",
+    "contact_name": [
+     "Mina Novak",
+     "Ms. Mina Novak"
+    ],
+    "email": "mina.novak@ironwood.example",
+    "phone_day": "+66 2 104 7070",
+    "contact_title": "Account Manager",
+    "phone_evening": "",
+    "gross_sales": "15900000",
+    "services": "Data analytics and demand forecasting consulting",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "TH-LIC-1795900"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Chao Phraya Commerce Bank",
+     "beneficiary": "Ironwood Analytics Co., Ltd.",
+     "account_number": "191-283782-4",
+     "swift": "CPCBTHXXXXX",
+     "org_name": "Ironwood Analytics Co., Ltd.",
+     "tax_id": "0479876897950",
+     "business_type": "private_limited",
+     "established": "2016-08-22",
+     "company_address": "121 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "service_area": "europe",
+     "contact_name": "Mina Novak",
+     "email": "mina.novak@ironwood.example",
+     "phone_day": "+66 2 104 7070",
+     "contact_title": "Account Manager",
+     "gross_sales": "15900000",
+     "services": "Data analytics and demand forecasting consulting",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "TH-LIC-1795900"
+    },
+    "wrong": {
+     "email": "mina.novak at ironwood.example",
+     "insurance": "not_insured"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,183 @@
+{
+ "persona": "hr-orangehrm/t-emp-038",
+ "context": "hr-orangehrm/t-emp-038.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Irene",
+    "middle_name": "James",
+    "last_name": "Ali",
+    "employee_id": "KST-34581",
+    "create_login": true,
+    "username": "irene.ali",
+    "login_status": "enabled",
+    "password": "Onboard#5795y",
+    "confirm_password": "Onboard#5795y"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Irene",
+     "middle_name": "James",
+     "last_name": "Ali",
+     "employee_id": "KST-34581",
+     "create_login": true,
+     "username": "irene.ali",
+     "login_status": "enabled",
+     "password": "Onboard#5795y",
+     "confirm_password": "Onboard#5795y"
+    },
+    "wrong": {
+     "employee_id": "KST-345x",
+     "middle_name": "Ja"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Irene",
+    "middle_name": "James",
+    "last_name": "Ali",
+    "employee_id": "KST-34581",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "US",
+    "marital": "single",
+    "dob": "1975-01-06",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Irene",
+     "middle_name": "James",
+     "last_name": "Ali",
+     "employee_id": "KST-34581",
+     "nationality": "US",
+     "marital": "single",
+     "dob": "1975-01-06",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-345x",
+     "gender": "male"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-02-22",
+    "leave_to": "2027-02-26",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Rest after the quarter-end close"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-02-22",
+     "leave_to": "2027-02-26",
+     "partial_days": "none",
+     "leave_comment": "Rest after the quarter-end close"
+    },
+    "wrong": {
+     "leave_from": "2026-02-22"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-02-22",
+    "leave_to": "2027-02-26",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Rest after the quarter-end close"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-02-22",
+     "leave_to": "2027-02-26",
+     "partial_days": "none",
+     "leave_comment": "Rest after the quarter-end close"
+    },
+    "wrong": {
+     "leave_from": "2026-02-22"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Irene",
+    "middle_name": "James",
+    "last_name": "Ali",
+    "employee_id": "KST-34581",
+    "create_login": true,
+    "username": "irene.ali",
+    "login_status": "enabled",
+    "password": "Onboard#5795y",
+    "confirm_password": "Onboard#5795y",
+    "nationality": "US",
+    "marital": "single",
+    "dob": "1975-01-06",
+    "gender": "female",
+    "job_title": "logistics_coord",
+    "department": "infosec",
+    "work_location": "hsp_fab2",
+    "emp_status": "ft_perm",
+    "supervisor": "u_m4841",
+    "joined_date": "2026-12-17"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Irene",
+     "middle_name": "James",
+     "last_name": "Ali",
+     "employee_id": "KST-34581",
+     "create_login": true,
+     "username": "irene.ali",
+     "login_status": "enabled",
+     "password": "Onboard#5795y",
+     "confirm_password": "Onboard#5795y",
+     "nationality": "US",
+     "marital": "single",
+     "dob": "1975-01-06",
+     "gender": "female",
+     "job_title": "logistics_coord",
+     "department": "infosec",
+     "work_location": "hsp_fab2",
+     "emp_status": "ft_perm",
+     "supervisor": "u_m4841",
+     "joined_date": "2026-12-17"
+    },
+    "wrong": {
+     "employee_id": "KST-345x",
+     "first_name": "Ir"
+    }
+   }
+  }
+ }
+}

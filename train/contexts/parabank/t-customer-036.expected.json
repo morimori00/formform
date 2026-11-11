@@ -1,0 +1,187 @@
+{
+ "persona": "parabank/t-customer-036",
+ "context": "parabank/t-customer-036.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Julia",
+    "last_name": "Silva",
+    "street": "4065 Willow Bend Ave",
+    "city": "Portland",
+    "state": [
+     "OR",
+     "Oregon"
+    ],
+    "zip": "97224",
+    "phone": "",
+    "ssn": "901-42-1171",
+    "username": "julia.silva45",
+    "password": "Quartz!4495",
+    "password_confirm": "Quartz!4495"
+   },
+   "infeasible": [
+    "phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Julia",
+     "last_name": "Silva",
+     "street": "4065 Willow Bend Ave",
+     "city": "Portland",
+     "state": "OR",
+     "zip": "97224",
+     "ssn": "901-42-1171",
+     "username": "julia.silva45",
+     "password": "Quartz!4495",
+     "password_confirm": "Quartz!4495"
+    },
+    "wrong": {
+     "state": "O"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Redwood Mobile",
+    "payee_street": "8522 Fox Run Ave",
+    "payee_city": "San Jose",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "95198",
+    "payee_phone": "(408) 555-0195",
+    "payee_account": "27394-9895",
+    "payee_account_verify": "27394-9895",
+    "amount": "678.32",
+    "from_account": "21897"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Redwood Mobile",
+     "payee_street": "8522 Fox Run Ave",
+     "payee_city": "San Jose",
+     "payee_state": "CA",
+     "payee_zip": "95198",
+     "payee_phone": "(408) 555-0195",
+     "payee_account": "27394-9895",
+     "payee_account_verify": "27394-9895",
+     "amount": "678.32",
+     "from_account": "21897"
+    },
+    "wrong": {
+     "payee_account_verify": "27394-98x",
+     "amount": "678"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "30000",
+    "down_payment": "3750",
+    "loan_from_account": "21897",
+    "new_account_type": "CHECKING",
+    "new_account_from": "17452"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "30000",
+     "down_payment": "3750",
+     "loan_from_account": "21897",
+     "new_account_type": "CHECKING",
+     "new_account_from": "17452"
+    },
+    "wrong": {
+     "loan_from_account": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Redwood Mobile",
+    "payee_street": "8522 Fox Run Ave",
+    "payee_city": "San Jose",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "95198",
+    "payee_phone": "(408) 555-0195",
+    "from_account": "21897",
+    "amount": "678.32",
+    "payee_account": "27394-9895",
+    "payee_account_verify": "27394-9895"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Redwood Mobile",
+     "payee_street": "8522 Fox Run Ave",
+     "payee_city": "San Jose",
+     "payee_state": "CA",
+     "payee_zip": "95198",
+     "payee_phone": "(408) 555-0195",
+     "from_account": "21897",
+     "amount": "678.32",
+     "payee_account": "27394-9895",
+     "payee_account_verify": "27394-9895"
+    },
+    "wrong": {
+     "payee_account_verify": "27394-98x",
+     "payee_city": "San "
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Julia",
+    "last_name": "Silva",
+    "phone": "",
+    "ssn": "901-42-1171",
+    "street": "4065 Willow Bend Ave",
+    "city": "Portland",
+    "state": [
+     "OR",
+     "Oregon"
+    ],
+    "zip": "97224",
+    "username": "julia.silva45",
+    "password": "Quartz!4495",
+    "password_confirm": "Quartz!4495"
+   },
+   "infeasible": [
+    "phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Julia",
+     "last_name": "Silva",
+     "ssn": "901-42-1171",
+     "street": "4065 Willow Bend Ave",
+     "city": "Portland",
+     "state": "OR",
+     "zip": "97224",
+     "username": "julia.silva45",
+     "password": "Quartz!4495",
+     "password_confirm": "Quartz!4495"
+    },
+    "wrong": {
+     "state": "AL"
+    }
+   }
+  }
+ }
+}

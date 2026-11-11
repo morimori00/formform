@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-007",
+ "context": "parabank/t-customer-007.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Tomas",
+    "last_name": "Castillo",
+    "street": "2139 Marigold Dr",
+    "city": "Seattle",
+    "state": [
+     "WA",
+     "Washington"
+    ],
+    "zip": "98164",
+    "phone": "(206) 555-0190",
+    "ssn": "963-97-4999",
+    "username": "tomas.castillo96",
+    "password": "Maple#9659",
+    "password_confirm": "Maple#9659"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Tomas",
+     "last_name": "Castillo",
+     "street": "2139 Marigold Dr",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98164",
+     "phone": "(206) 555-0190",
+     "ssn": "963-97-4999",
+     "username": "tomas.castillo96",
+     "password": "Maple#9659",
+     "password_confirm": "Maple#9659"
+    },
+    "wrong": {
+     "city": "Sea"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Pinecrest Waste Services",
+    "payee_street": "5743 Larkspur Way",
+    "payee_city": "Seattle",
+    "payee_state": [
+     "WA",
+     "Washington"
+    ],
+    "payee_zip": "98101",
+    "payee_phone": "(206) 555-0190",
+    "payee_account": "11246-8717",
+    "payee_account_verify": "11246-8717",
+    "amount": "975.88",
+    "from_account": "17452"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Pinecrest Waste Services",
+     "payee_street": "5743 Larkspur Way",
+     "payee_city": "Seattle",
+     "payee_state": "WA",
+     "payee_zip": "98101",
+     "payee_phone": "(206) 555-0190",
+     "payee_account": "11246-8717",
+     "payee_account_verify": "11246-8717",
+     "amount": "975.88",
+     "from_account": "17452"
+    },
+    "wrong": {
+     "payee_account_verify": "11246-87x",
+     "amount": "975"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "15000",
+    "down_payment": "750",
+    "loan_from_account": "17452",
+    "new_account_type": "CHECKING",
+    "new_account_from": "16788"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "15000",
+     "down_payment": "750",
+     "loan_from_account": "17452",
+     "new_account_type": "CHECKING",
+     "new_account_from": "16788"
+    },
+    "wrong": {
+     "new_account_from": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Pinecrest Waste Services",
+    "payee_street": "5743 Larkspur Way",
+    "payee_city": "Seattle",
+    "payee_state": [
+     "WA",
+     "Washington"
+    ],
+    "payee_zip": "98101",
+    "payee_phone": "(206) 555-0190",
+    "from_account": "17452",
+    "amount": "975.88",
+    "payee_account": "11246-8717",
+    "payee_account_verify": "11246-8717"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Pinecrest Waste Services",
+     "payee_street": "5743 Larkspur Way",
+     "payee_city": "Seattle",
+     "payee_state": "WA",
+     "payee_zip": "98101",
+     "payee_phone": "(206) 555-0190",
+     "from_account": "17452",
+     "amount": "975.88",
+     "payee_account": "11246-8717",
+     "payee_account_verify": "11246-8717"
+    },
+    "wrong": {
+     "payee_account_verify": "11246-87x",
+     "payee_city": "Sea"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Tomas",
+    "last_name": "Castillo",
+    "phone": "(206) 555-0190",
+    "ssn": "963-97-4999",
+    "street": "2139 Marigold Dr",
+    "city": "Seattle",
+    "state": [
+     "WA",
+     "Washington"
+    ],
+    "zip": "98164",
+    "username": "tomas.castillo96",
+    "password": "Maple#9659",
+    "password_confirm": "Maple#9659"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Tomas",
+     "last_name": "Castillo",
+     "phone": "(206) 555-0190",
+     "ssn": "963-97-4999",
+     "street": "2139 Marigold Dr",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98164",
+     "username": "tomas.castillo96",
+     "password": "Maple#9659",
+     "password_confirm": "Maple#9659"
+    },
+    "wrong": {
+     "state": "AL"
+    }
+   }
+  }
+ }
+}

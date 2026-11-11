@@ -1,0 +1,54 @@
+{
+ "persona": "kyc-account-opening/e-eval-salary-account-04",
+ "context": "kyc-account-opening/e-eval-salary-account-04.md",
+ "split": "eval",
+ "variants": {
+  "kyc-account-opening/eval-salary-account": {
+   "submit": false,
+   "fields": {
+    "full_name": [
+     "Tung Hao-Hsiang",
+     "Hao-Hsiang Tung"
+    ],
+    "gender": "male",
+    "dob": "1995-10-07",
+    "nationality": "TW",
+    "id_form": "national_id",
+    "phone": "+886 981 810 059",
+    "email": "",
+    "address": [
+     "8F, No. 24, Ziyou Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "8F, No. 24, Ziyou Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "mother_maiden": "Tung",
+    "education": "associate",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "153000"
+   },
+   "infeasible": [
+    "email"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Tung Hao-Hsiang",
+     "gender": "male",
+     "dob": "1995-10-07",
+     "nationality": "TW",
+     "id_form": "national_id",
+     "phone": "+886 981 810 059",
+     "address": "8F, No. 24, Ziyou Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "mother_maiden": "Tung",
+     "education": "associate",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "153000"
+    },
+    "wrong": {
+     "phone": "+886 981"
+    }
+   }
+  }
+ }
+}

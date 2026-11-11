@@ -1,0 +1,189 @@
+{
+ "persona": "vendor-onboarding/t-intl-008",
+ "context": "vendor-onboarding/t-intl-008.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Meridian Packaging Co., Ltd.",
+    "tax_id": "0253817282475",
+    "company_address": "136 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "established": "2019-05-05",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "services": "ESD-safe packaging and wafer shipping boxes",
+    "service_area": "north_america",
+    "gross_sales": "82500000",
+    "contact_name": [
+     "Oscar Romano",
+     "Ms. Oscar Romano"
+    ],
+    "contact_title": "Controller",
+    "phone_day": "+66 2 502 4750",
+    "phone_evening": "+66 2 502 3375",
+    "email": "oscar.romano@meridian.example",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Chao Phraya Commerce Bank",
+    "beneficiary": "Meridian Packaging Co., Ltd.",
+    "account_number": "253-779978-1",
+    "swift": "CPCBTHXSXXX"
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Meridian Packaging Co., Ltd.",
+     "tax_id": "0253817282475",
+     "company_address": "136 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "established": "2019-05-05",
+     "business_type": "private_limited",
+     "services": "ESD-safe packaging and wafer shipping boxes",
+     "service_area": "north_america",
+     "gross_sales": "82500000",
+     "contact_name": "Oscar Romano",
+     "contact_title": "Controller",
+     "phone_day": "+66 2 502 4750",
+     "phone_evening": "+66 2 502 3375",
+     "email": "oscar.romano@meridian.example",
+     "insurance": "not_insured",
+     "licensing": "not_licensed",
+     "bank_name": "Chao Phraya Commerce Bank",
+     "beneficiary": "Meridian Packaging Co., Ltd.",
+     "account_number": "253-779978-1",
+     "swift": "CPCBTHXSXXX"
+    },
+    "wrong": {
+     "email": "oscar.romano at meridian.example",
+     "phone_evening": "+66 2 5"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Meridian Packaging Co., Ltd.",
+    "tax_id": "0253817282475",
+    "established": "2019-05-05",
+    "service_area": "north_america",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "contact_name": [
+     "Oscar Romano",
+     "Ms. Oscar Romano"
+    ],
+    "email": "oscar.romano@meridian.example",
+    "phone_day": "+66 2 502 4750",
+    "phone_evening": "+66 2 502 3375",
+    "company_address": "136 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Chao Phraya Commerce Bank",
+    "beneficiary": "Meridian Packaging Co., Ltd.",
+    "account_number": "253-779978-1",
+    "swift": "CPCBTHXSXXX",
+    "insurance": "not_insured",
+    "gross_sales": "82500000"
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Meridian Packaging Co., Ltd.",
+     "tax_id": "0253817282475",
+     "established": "2019-05-05",
+     "service_area": "north_america",
+     "business_type": "private_limited",
+     "contact_name": "Oscar Romano",
+     "email": "oscar.romano@meridian.example",
+     "phone_day": "+66 2 502 4750",
+     "phone_evening": "+66 2 502 3375",
+     "company_address": "136 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "licensing": "not_licensed",
+     "bank_name": "Chao Phraya Commerce Bank",
+     "beneficiary": "Meridian Packaging Co., Ltd.",
+     "account_number": "253-779978-1",
+     "swift": "CPCBTHXSXXX",
+     "insurance": "not_insured",
+     "gross_sales": "82500000"
+    },
+    "wrong": {
+     "email": "oscar.romano at meridian.example",
+     "bank_name": "Chao Phraya "
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Chao Phraya Commerce Bank",
+    "beneficiary": "Meridian Packaging Co., Ltd.",
+    "account_number": "253-779978-1",
+    "swift": "CPCBTHXSXXX",
+    "org_name": "Meridian Packaging Co., Ltd.",
+    "tax_id": "0253817282475",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "established": "2019-05-05",
+    "company_address": "136 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "service_area": "north_america",
+    "contact_name": [
+     "Oscar Romano",
+     "Ms. Oscar Romano"
+    ],
+    "email": "oscar.romano@meridian.example",
+    "phone_day": "+66 2 502 4750",
+    "contact_title": "Controller",
+    "phone_evening": "+66 2 502 3375",
+    "gross_sales": "82500000",
+    "services": "ESD-safe packaging and wafer shipping boxes",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Chao Phraya Commerce Bank",
+     "beneficiary": "Meridian Packaging Co., Ltd.",
+     "account_number": "253-779978-1",
+     "swift": "CPCBTHXSXXX",
+     "org_name": "Meridian Packaging Co., Ltd.",
+     "tax_id": "0253817282475",
+     "business_type": "private_limited",
+     "established": "2019-05-05",
+     "company_address": "136 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "service_area": "north_america",
+     "contact_name": "Oscar Romano",
+     "email": "oscar.romano@meridian.example",
+     "phone_day": "+66 2 502 4750",
+     "contact_title": "Controller",
+     "phone_evening": "+66 2 502 3375",
+     "gross_sales": "82500000",
+     "services": "ESD-safe packaging and wafer shipping boxes",
+     "insurance": "not_insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "oscar.romano at meridian.example",
+     "gross_sales": "8250"
+    }
+   }
+  }
+ }
+}

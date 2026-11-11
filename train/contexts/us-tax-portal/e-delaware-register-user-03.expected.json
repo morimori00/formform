@@ -1,0 +1,49 @@
+{
+ "persona": "us-tax-portal/e-delaware-register-user-03",
+ "context": "us-tax-portal/e-delaware-register-user-03.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/delaware-register-user": {
+   "submit": true,
+   "fields": {
+    "accept_terms": true,
+    "first_name": "Thandi",
+    "middle_initial": "",
+    "last_name": "Bergstrom",
+    "position": "Office Manager",
+    "email": "tbergstrom@ashgrove.example",
+    "email_confirm": "tbergstrom@ashgrove.example",
+    "country_code": "1",
+    "day_phone": "(410) 555-0107",
+    "mobile_country_code": "1",
+    "mobile_phone": "(410) 555-0105",
+    "user_id": "ashgrove.tbergstrom",
+    "esign": "Thandi Bergstrom",
+    "certify": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "accept_terms": true,
+     "first_name": "Thandi",
+     "last_name": "Bergstrom",
+     "position": "Office Manager",
+     "email": "tbergstrom@ashgrove.example",
+     "email_confirm": "tbergstrom@ashgrove.example",
+     "country_code": "1",
+     "day_phone": "(410) 555-0107",
+     "mobile_country_code": "1",
+     "mobile_phone": "(410) 555-0105",
+     "user_id": "ashgrove.tbergstrom",
+     "esign": "Thandi Bergstrom",
+     "certify": true
+    },
+    "wrong": {
+     "email": "tbergstrom at ashgrove.example",
+     "day_phone": "(410) 5"
+    }
+   }
+  }
+ }
+}

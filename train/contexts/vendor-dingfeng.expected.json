@@ -1,0 +1,340 @@
+{
+ "persona": "vendor-dingfeng",
+ "context": "vendor-dingfeng.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Dingfeng Precision Industrial Co., Ltd.",
+     "鼎峰精密工業股份有限公司"
+    ],
+    "tax_id": "62527601",
+    "company_address": [
+     "302 新竹縣竹北市光明六路16號8樓",
+     "8F., No. 16, Guangming 6th Rd., Zhubei City, Hsinchu County 302"
+    ],
+    "established": "2009-06-15",
+    "business_type": "corporation",
+    "gross_sales": "215000000",
+    "contact_name": [
+     "陳雅琪",
+     "Chen Ya-Chi"
+    ],
+    "contact_title": "業務經理",
+    "email": "yachi.chen@dingfeng-precision.example",
+    "phone_day": "03-558-2216",
+    "phone_evening": "",
+    "bank_name": [
+     "台新國際商業銀行",
+     "Taishin International Bank"
+    ],
+    "beneficiary": [
+     "鼎峰精密工業股份有限公司",
+     "Dingfeng Precision Industrial Co., Ltd."
+    ],
+    "account_number": "20880100456789",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Dingfeng Precision Industrial Co., Ltd.",
+     "tax_id": "62527601",
+     "company_address": "302 新竹縣竹北市光明六路16號8樓",
+     "established": "2009-06-15",
+     "business_type": "corporation",
+     "gross_sales": "215000000",
+     "contact_name": "陳雅琪",
+     "contact_title": "業務經理",
+     "email": "yachi.chen@dingfeng-precision.example",
+     "phone_day": "03-558-2216",
+     "bank_name": "台新國際商業銀行",
+     "beneficiary": "鼎峰精密工業股份有限公司",
+     "account_number": "20880100456789",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "625276x",
+     "business_type": "sole_prop"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "鼎峰精密工業股份有限公司",
+    "vendor_name_en": "Dingfeng Precision Industrial Co., Ltd.",
+    "ubn": "62527601",
+    "owner": "林志豪",
+    "established": "2009-06-15",
+    "capital": "48000000",
+    "org_type": "corp_shares",
+    "postal": "302",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "光明六路16號8樓",
+    "tel": "03-558-2216",
+    "fax": "03-558-2219",
+    "contact_name": [
+     "陳雅琪",
+     "Chen Ya-Chi"
+    ],
+    "contact_title": "業務經理",
+    "email": "yachi.chen@dingfeng-precision.example",
+    "contact_mobile": "0918-552-307",
+    "bank_code": "812",
+    "bank_branch": [
+     "竹北分行",
+     "竹北"
+    ],
+    "account_no": "20880100456789",
+    "account_name": "鼎峰精密工業股份有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2027-03-31"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "鼎峰精密工業股份有限公司",
+     "vendor_name_en": "Dingfeng Precision Industrial Co., Ltd.",
+     "ubn": "62527601",
+     "owner": "林志豪",
+     "established": "2009-06-15",
+     "capital": "48000000",
+     "org_type": "corp_shares",
+     "postal": "302",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "光明六路16號8樓",
+     "tel": "03-558-2216",
+     "fax": "03-558-2219",
+     "contact_name": "陳雅琪",
+     "contact_title": "業務經理",
+     "email": "yachi.chen@dingfeng-precision.example",
+     "contact_mobile": "0918-552-307",
+     "bank_code": "812",
+     "bank_branch": "竹北分行",
+     "account_no": "20880100456789",
+     "account_name": "鼎峰精密工業股份有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2027-03-31"
+    },
+    "wrong": {
+     "ubn": "625276x",
+     "vendor_name_zh": "鼎峰精密工業"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "62527601",
+    "vendor_name_zh": "鼎峰精密工業股份有限公司",
+    "vendor_name_en": "Dingfeng Precision Industrial Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "2009-06-15",
+    "owner": "林志豪",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "光明六路16號8樓",
+    "postal": "302",
+    "tel": "03-558-2216",
+    "fax": "03-558-2219",
+    "contact_name": [
+     "陳雅琪",
+     "Chen Ya-Chi"
+    ],
+    "contact_title": "業務經理",
+    "contact_mobile": "0918-552-307",
+    "email": "yachi.chen@dingfeng-precision.example",
+    "bank_code": "812",
+    "bank_branch": [
+     "竹北分行",
+     "竹北"
+    ],
+    "account_no": "20880100456789",
+    "account_name": "鼎峰精密工業股份有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2027-03-31",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "62527601",
+     "vendor_name_zh": "鼎峰精密工業股份有限公司",
+     "vendor_name_en": "Dingfeng Precision Industrial Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "2009-06-15",
+     "owner": "林志豪",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "光明六路16號8樓",
+     "postal": "302",
+     "tel": "03-558-2216",
+     "fax": "03-558-2219",
+     "contact_name": "陳雅琪",
+     "contact_title": "業務經理",
+     "contact_mobile": "0918-552-307",
+     "email": "yachi.chen@dingfeng-precision.example",
+     "bank_code": "812",
+     "bank_branch": "竹北分行",
+     "account_no": "20880100456789",
+     "account_name": "鼎峰精密工業股份有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2027-03-31"
+    },
+    "wrong": {
+     "ubn": "625276x",
+     "tel": "03-55"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "62527601",
+    "vendor_name_zh": "鼎峰精密工業股份有限公司",
+    "owner": "林志豪",
+    "established": "2009-06-15",
+    "org_type": "corp_shares",
+    "capital": "48000000",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "光明六路16號8樓",
+    "postal": "302",
+    "tel": "03-558-2216",
+    "contact_name": [
+     "陳雅琪",
+     "Chen Ya-Chi"
+    ],
+    "email": "yachi.chen@dingfeng-precision.example",
+    "bank_code": "812",
+    "account_no": "20880100456789",
+    "account_name": "鼎峰精密工業股份有限公司",
+    "payment_terms": "net60",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "62527601",
+     "vendor_name_zh": "鼎峰精密工業股份有限公司",
+     "owner": "林志豪",
+     "established": "2009-06-15",
+     "org_type": "corp_shares",
+     "capital": "48000000",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "光明六路16號8樓",
+     "postal": "302",
+     "tel": "03-558-2216",
+     "contact_name": "陳雅琪",
+     "email": "yachi.chen@dingfeng-precision.example",
+     "bank_code": "812",
+     "account_no": "20880100456789",
+     "account_name": "鼎峰精密工業股份有限公司",
+     "payment_terms": "net60",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "625276x",
+     "currency": "USD"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "812",
+    "bank_branch": [
+     "竹北分行",
+     "竹北"
+    ],
+    "account_no": "20880100456789",
+    "account_name": "鼎峰精密工業股份有限公司",
+    "payment_terms": "net60",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "光明六路16號8樓",
+    "postal": "302",
+    "tel": "03-558-2216",
+    "fax": "03-558-2219",
+    "vendor_name_zh": "鼎峰精密工業股份有限公司",
+    "ubn": "62527601",
+    "owner": "林志豪",
+    "org_type": "corp_shares",
+    "established": "2009-06-15",
+    "capital": "48000000",
+    "vendor_name_en": "Dingfeng Precision Industrial Co., Ltd.",
+    "contact_title": "業務經理",
+    "contact_mobile": "0918-552-307",
+    "contact_name": [
+     "陳雅琪",
+     "Chen Ya-Chi"
+    ],
+    "email": "yachi.chen@dingfeng-precision.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "812",
+     "bank_branch": "竹北分行",
+     "account_no": "20880100456789",
+     "account_name": "鼎峰精密工業股份有限公司",
+     "payment_terms": "net60",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "光明六路16號8樓",
+     "postal": "302",
+     "tel": "03-558-2216",
+     "fax": "03-558-2219",
+     "vendor_name_zh": "鼎峰精密工業股份有限公司",
+     "ubn": "62527601",
+     "owner": "林志豪",
+     "org_type": "corp_shares",
+     "established": "2009-06-15",
+     "capital": "48000000",
+     "vendor_name_en": "Dingfeng Precision Industrial Co., Ltd.",
+     "contact_title": "業務經理",
+     "contact_mobile": "0918-552-307",
+     "contact_name": "陳雅琪",
+     "email": "yachi.chen@dingfeng-precision.example"
+    },
+    "wrong": {
+     "account_no": "208801004567x",
+     "contact_name": "陳"
+    }
+   }
+  }
+ }
+}

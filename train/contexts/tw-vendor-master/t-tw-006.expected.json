@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-006",
+ "context": "tw-vendor-master/t-tw-006.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "立益自動化設備股份有限公司",
+    "vendor_name_en": "Liyi Automation Equipment Co., Ltd.",
+    "ubn": "22815623",
+    "owner": "吳淑玲",
+    "established": "1982-08-23",
+    "capital": "863000000",
+    "org_type": "corp_shares",
+    "postal": "333",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "光復路196號8樓",
+    "tel": "03-701-1356",
+    "fax": "03-701-1560",
+    "contact_name": [
+     "劉怡玲",
+     "Liu Yi-ling"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "email": "yiling.liu@liyi-automation.example",
+    "contact_mobile": "0943-829-154",
+    "bank_code": "808",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "4151987272545",
+    "account_name": "立益自動化設備股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-06-20"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "立益自動化設備股份有限公司",
+     "vendor_name_en": "Liyi Automation Equipment Co., Ltd.",
+     "ubn": "22815623",
+     "owner": "吳淑玲",
+     "established": "1982-08-23",
+     "capital": "863000000",
+     "org_type": "corp_shares",
+     "postal": "333",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "光復路196號8樓",
+     "tel": "03-701-1356",
+     "fax": "03-701-1560",
+     "contact_name": "劉怡玲",
+     "contact_title": "業務經理",
+     "email": "yiling.liu@liyi-automation.example",
+     "contact_mobile": "0943-829-154",
+     "bank_code": "808",
+     "bank_branch": "龜山分行",
+     "account_no": "4151987272545",
+     "account_name": "立益自動化設備股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-06-20"
+    },
+    "wrong": {
+     "ubn": "228156x",
+     "capital": "8630"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "22815623",
+    "vendor_name_zh": "立益自動化設備股份有限公司",
+    "vendor_name_en": "Liyi Automation Equipment Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1982-08-23",
+    "owner": "吳淑玲",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "光復路196號8樓",
+    "postal": "333",
+    "tel": "03-701-1356",
+    "fax": "03-701-1560",
+    "contact_name": [
+     "劉怡玲",
+     "Liu Yi-ling"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "contact_mobile": "0943-829-154",
+    "email": "yiling.liu@liyi-automation.example",
+    "bank_code": "808",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "4151987272545",
+    "account_name": "立益自動化設備股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-06-20",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "22815623",
+     "vendor_name_zh": "立益自動化設備股份有限公司",
+     "vendor_name_en": "Liyi Automation Equipment Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1982-08-23",
+     "owner": "吳淑玲",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "光復路196號8樓",
+     "postal": "333",
+     "tel": "03-701-1356",
+     "fax": "03-701-1560",
+     "contact_name": "劉怡玲",
+     "contact_title": "業務經理",
+     "contact_mobile": "0943-829-154",
+     "email": "yiling.liu@liyi-automation.example",
+     "bank_code": "808",
+     "bank_branch": "龜山分行",
+     "account_no": "4151987272545",
+     "account_name": "立益自動化設備股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-06-20"
+    },
+    "wrong": {
+     "ubn": "228156x",
+     "owner": "吳"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "22815623",
+    "vendor_name_zh": "立益自動化設備股份有限公司",
+    "owner": "吳淑玲",
+    "established": "1982-08-23",
+    "org_type": "corp_shares",
+    "capital": "863000000",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "光復路196號8樓",
+    "postal": "333",
+    "tel": "03-701-1356",
+    "contact_name": [
+     "劉怡玲",
+     "Liu Yi-ling"
+    ],
+    "email": "yiling.liu@liyi-automation.example",
+    "bank_code": "808",
+    "account_no": "4151987272545",
+    "account_name": "立益自動化設備股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "22815623",
+     "vendor_name_zh": "立益自動化設備股份有限公司",
+     "owner": "吳淑玲",
+     "established": "1982-08-23",
+     "org_type": "corp_shares",
+     "capital": "863000000",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "光復路196號8樓",
+     "postal": "333",
+     "tel": "03-701-1356",
+     "contact_name": "劉怡玲",
+     "email": "yiling.liu@liyi-automation.example",
+     "bank_code": "808",
+     "account_no": "4151987272545",
+     "account_name": "立益自動化設備股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "228156x",
+     "vendor_name_zh": "立益自動化設"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "立益自動化設備股份有限公司",
+    "vendor_name_en": "Liyi Automation Equipment Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "22815623",
+    "owner": "吳淑玲",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "光復路196號8樓",
+    "postal": "333",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-701-1356",
+    "contact_name": [
+     "劉怡玲",
+     "Liu Yi-ling"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "email": "yiling.liu@liyi-automation.example",
+    "account_no": "4151987272545",
+    "account_name": "立益自動化設備股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "立益自動化設備股份有限公司",
+     "vendor_name_en": "Liyi Automation Equipment Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "22815623",
+     "owner": "吳淑玲",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "光復路196號8樓",
+     "postal": "333",
+     "tel": "03-701-1356",
+     "contact_name": "劉怡玲",
+     "contact_title": "業務經理",
+     "email": "yiling.liu@liyi-automation.example",
+     "account_no": "4151987272545",
+     "account_name": "立益自動化設備股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "228156x",
+     "address_line": "光復路1"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "808",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "4151987272545",
+    "account_name": "立益自動化設備股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "光復路196號8樓",
+    "postal": "333",
+    "tel": "03-701-1356",
+    "fax": "03-701-1560",
+    "vendor_name_zh": "立益自動化設備股份有限公司",
+    "ubn": "22815623",
+    "owner": "吳淑玲",
+    "org_type": "corp_shares",
+    "established": "1982-08-23",
+    "capital": "863000000",
+    "vendor_name_en": "Liyi Automation Equipment Co., Ltd.",
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "contact_mobile": "0943-829-154",
+    "contact_name": [
+     "劉怡玲",
+     "Liu Yi-ling"
+    ],
+    "email": "yiling.liu@liyi-automation.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "808",
+     "bank_branch": "龜山分行",
+     "account_no": "4151987272545",
+     "account_name": "立益自動化設備股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "光復路196號8樓",
+     "postal": "333",
+     "tel": "03-701-1356",
+     "fax": "03-701-1560",
+     "vendor_name_zh": "立益自動化設備股份有限公司",
+     "ubn": "22815623",
+     "owner": "吳淑玲",
+     "org_type": "corp_shares",
+     "established": "1982-08-23",
+     "capital": "863000000",
+     "vendor_name_en": "Liyi Automation Equipment Co., Ltd.",
+     "contact_title": "業務經理",
+     "contact_mobile": "0943-829-154",
+     "contact_name": "劉怡玲",
+     "email": "yiling.liu@liyi-automation.example"
+    },
+    "wrong": {
+     "account_no": "41519872725x",
+     "org_type": "limited"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "persona": "jp-travel-request/t-trip-034",
+ "context": "jp-travel-request/t-trip-034.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-17479",
+    "name": [
+     "伊藤 恵",
+     "伊藤恵"
+    ],
+    "dept": "prod_eng",
+    "title": "担当",
+    "cost_center": "CC-2210",
+    "email": "m.ito@kestrel-semi.example",
+    "mobile": "070-4322-8881",
+    "dest_country": "US",
+    "dest_city": "サンノゼ",
+    "purpose": "米国設計センター 歩留まり改善会議への出席および工程監査",
+    "depart_date": "2027-01-25",
+    "return_date": "2027-01-31",
+    "outbound_flight": "NH 345",
+    "return_flight": "NH 169",
+    "hotel": "ノースファースト・ホテル",
+    "visa_needed": "no",
+    "exp_air_amount": "115400",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "2670",
+    "exp_hotel_cur": "USD",
+    "exp_local_amount": "",
+    "exp_local_cur": "",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "passport_no": "TR2336254",
+    "passport_expiry": "2035-08-12",
+    "approver": "u_j1226"
+   },
+   "infeasible": [
+    "exp_local_amount",
+    "exp_local_cur"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-17479",
+     "name": "伊藤 恵",
+     "dept": "prod_eng",
+     "title": "担当",
+     "cost_center": "CC-2210",
+     "email": "m.ito@kestrel-semi.example",
+     "mobile": "070-4322-8881",
+     "dest_country": "US",
+     "dest_city": "サンノゼ",
+     "purpose": "米国設計センター 歩留まり改善会議への出席および工程監査",
+     "depart_date": "2027-01-25",
+     "return_date": "2027-01-31",
+     "outbound_flight": "NH 345",
+     "return_flight": "NH 169",
+     "hotel": "ノースファースト・ホテル",
+     "visa_needed": "no",
+     "exp_air_amount": "115400",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "2670",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "passport_no": "TR2336254",
+     "passport_expiry": "2035-08-12",
+     "approver": "u_j1226"
+    },
+    "wrong": {
+     "email": "m.ito at kestrel-semi.example",
+     "advance_cur": "TWD"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "伊藤 恵",
+     "伊藤恵"
+    ],
+    "emp_no": "J-17479",
+    "dept": "prod_eng",
+    "approver": "u_j1226",
+    "depart_date": "2027-01-25",
+    "return_date": "2027-01-31",
+    "dest_country": "US",
+    "dest_city": "サンノゼ",
+    "purpose": "米国設計センター 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "no",
+    "exp_air_amount": "115400",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "2670",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-2210"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "伊藤 恵",
+     "emp_no": "J-17479",
+     "dept": "prod_eng",
+     "approver": "u_j1226",
+     "depart_date": "2027-01-25",
+     "return_date": "2027-01-31",
+     "dest_country": "US",
+     "dest_city": "サンノゼ",
+     "purpose": "米国設計センター 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "no",
+     "exp_air_amount": "115400",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "2670",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-2210"
+    },
+    "wrong": {
+     "advance_cur": "TWD"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "米国設計センター 歩留まり改善会議への出席および工程監査",
+    "dest_city": "サンノゼ",
+    "dest_country": "US",
+    "depart_date": "2027-01-25",
+    "return_date": "2027-01-31",
+    "outbound_flight": "NH 345",
+    "return_flight": "NH 169",
+    "hotel": "ノースファースト・ホテル",
+    "visa_needed": "no",
+    "passport_no": "TR2336254",
+    "passport_expiry": "2035-08-12",
+    "exp_hotel_amount": "2670",
+    "exp_hotel_cur": "USD",
+    "exp_air_amount": "115400",
+    "exp_air_cur": "JPY",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "emp_no": "J-17479",
+    "name": [
+     "伊藤 恵",
+     "伊藤恵"
+    ],
+    "mobile": "070-4322-8881",
+    "approver": "u_j1226",
+    "cost_center": "CC-2210"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "米国設計センター 歩留まり改善会議への出席および工程監査",
+     "dest_city": "サンノゼ",
+     "dest_country": "US",
+     "depart_date": "2027-01-25",
+     "return_date": "2027-01-31",
+     "outbound_flight": "NH 345",
+     "return_flight": "NH 169",
+     "hotel": "ノースファースト・ホテル",
+     "visa_needed": "no",
+     "passport_no": "TR2336254",
+     "passport_expiry": "2035-08-12",
+     "exp_hotel_amount": "2670",
+     "exp_hotel_cur": "USD",
+     "exp_air_amount": "115400",
+     "exp_air_cur": "JPY",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "emp_no": "J-17479",
+     "name": "伊藤 恵",
+     "mobile": "070-4322-8881",
+     "approver": "u_j1226",
+     "cost_center": "CC-2210"
+    },
+    "wrong": {
+     "passport_no": "TR23362x",
+     "emp_no": "J-1"
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j1226",
+    "cost_center": "CC-2210",
+    "dest_country": "US",
+    "dest_city": "サンノゼ",
+    "depart_date": "2027-01-25",
+    "return_date": "2027-01-31",
+    "purpose": "米国設計センター 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "no",
+    "exp_air_amount": "115400",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "2670",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "name": [
+     "伊藤 恵",
+     "伊藤恵"
+    ],
+    "emp_no": "J-17479",
+    "dept": "prod_eng",
+    "email": "m.ito@kestrel-semi.example",
+    "mobile": "070-4322-8881",
+    "title": "担当",
+    "outbound_flight": "NH 345",
+    "return_flight": "NH 169",
+    "hotel": "ノースファースト・ホテル",
+    "exp_local_amount": "",
+    "exp_local_cur": ""
+   },
+   "infeasible": [
+    "exp_local_amount",
+    "exp_local_cur"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j1226",
+     "cost_center": "CC-2210",
+     "dest_country": "US",
+     "dest_city": "サンノゼ",
+     "depart_date": "2027-01-25",
+     "return_date": "2027-01-31",
+     "purpose": "米国設計センター 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "no",
+     "exp_air_amount": "115400",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "2670",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "name": "伊藤 恵",
+     "emp_no": "J-17479",
+     "dept": "prod_eng",
+     "email": "m.ito@kestrel-semi.example",
+     "mobile": "070-4322-8881",
+     "title": "担当",
+     "outbound_flight": "NH 345",
+     "return_flight": "NH 169",
+     "hotel": "ノースファースト・ホテル"
+    },
+    "wrong": {
+     "email": "m.ito at kestrel-semi.example",
+     "name": "伊藤"
+    }
+   }
+  }
+ }
+}

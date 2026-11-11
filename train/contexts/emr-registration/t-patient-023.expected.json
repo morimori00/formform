@@ -1,0 +1,236 @@
+{
+ "persona": "emr-registration/t-patient-023",
+ "context": "emr-registration/t-patient-023.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Pei-Ju",
+    "middle_name": "",
+    "last_name": "Cheng",
+    "dob": "1958-05-20",
+    "sex": "male",
+    "marital": "divorced",
+    "language": "mandarin",
+    "street": "5F, No. 124, Ln. 167, Sec. 3, Dunhua N. Rd., Shilin Dist.",
+    "city": "Taipei City",
+    "postal": "111",
+    "country": "TW",
+    "phone_home": "",
+    "phone_cell": "0935-500-668",
+    "email": "",
+    "occupation": "Civil servant",
+    "employer": "Windmere Logistics Ltd.",
+    "ec_name": "Yi-Fen Cheng",
+    "ec_phone": "0943-592-484",
+    "ec_relationship": "child",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-2294-0234",
+    "group_number": "G-4861",
+    "subscriber_rel": "self",
+    "ins_effective": "2020-03-03"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Pei-Ju",
+     "last_name": "Cheng",
+     "dob": "1958-05-20",
+     "sex": "male",
+     "marital": "divorced",
+     "language": "mandarin",
+     "street": "5F, No. 124, Ln. 167, Sec. 3, Dunhua N. Rd., Shilin Dist.",
+     "city": "Taipei City",
+     "postal": "111",
+     "country": "TW",
+     "phone_cell": "0935-500-668",
+     "occupation": "Civil servant",
+     "employer": "Windmere Logistics Ltd.",
+     "ec_name": "Yi-Fen Cheng",
+     "ec_phone": "0943-592-484",
+     "ec_relationship": "child",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-2294-0234",
+     "group_number": "G-4861",
+     "subscriber_rel": "self",
+     "ins_effective": "2020-03-03"
+    },
+    "wrong": {
+     "city": "Taipe"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Cheng",
+    "first_name": "Pei-Ju",
+    "middle_name": "",
+    "dob": "1958-05-20",
+    "sex": "male",
+    "marital": "divorced",
+    "national_id": "",
+    "street": "5F, No. 124, Ln. 167, Sec. 3, Dunhua N. Rd., Shilin Dist.",
+    "postal": "111",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0935-500-668",
+    "phone_home": "",
+    "email": "",
+    "ec_name": "Yi-Fen Cheng",
+    "ec_relationship": "child",
+    "ec_phone": "0943-592-484",
+    "occupation": "Civil servant",
+    "employer": "Windmere Logistics Ltd.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-2294-0234",
+    "group_number": "G-4861",
+    "subscriber_rel": "self",
+    "ins_effective": "2020-03-03",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Cheng",
+     "first_name": "Pei-Ju",
+     "dob": "1958-05-20",
+     "sex": "male",
+     "marital": "divorced",
+     "street": "5F, No. 124, Ln. 167, Sec. 3, Dunhua N. Rd., Shilin Dist.",
+     "postal": "111",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0935-500-668",
+     "ec_name": "Yi-Fen Cheng",
+     "ec_relationship": "child",
+     "ec_phone": "0943-592-484",
+     "occupation": "Civil servant",
+     "employer": "Windmere Logistics Ltd.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-2294-0234",
+     "group_number": "G-4861",
+     "subscriber_rel": "self",
+     "ins_effective": "2020-03-03"
+    },
+    "wrong": {
+     "policy_number": "FMH-22"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Pei-Ju",
+    "last_name": "Cheng",
+    "dob": "1958-05-20",
+    "sex": "male",
+    "language": "mandarin",
+    "street": "5F, No. 124, Ln. 167, Sec. 3, Dunhua N. Rd., Shilin Dist.",
+    "city": "Taipei City",
+    "postal": "111",
+    "country": "TW",
+    "phone_cell": "0935-500-668",
+    "phone_home": "",
+    "ec_name": "Yi-Fen Cheng",
+    "ec_phone": "0943-592-484",
+    "ec_relationship": "child",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-2294-0234",
+    "group_number": "G-4861",
+    "subscriber_rel": "self",
+    "ins_effective": "2020-03-03"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Pei-Ju",
+     "last_name": "Cheng",
+     "dob": "1958-05-20",
+     "sex": "male",
+     "language": "mandarin",
+     "street": "5F, No. 124, Ln. 167, Sec. 3, Dunhua N. Rd., Shilin Dist.",
+     "city": "Taipei City",
+     "postal": "111",
+     "country": "TW",
+     "phone_cell": "0935-500-668",
+     "ec_name": "Yi-Fen Cheng",
+     "ec_phone": "0943-592-484",
+     "ec_relationship": "child",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-2294-0234",
+     "group_number": "G-4861",
+     "subscriber_rel": "self",
+     "ins_effective": "2020-03-03"
+    },
+    "wrong": {
+     "country": "JP"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Cheng",
+    "first_name": "Pei-Ju",
+    "dob": "1958-05-20",
+    "sex": "male",
+    "phone_cell": "0935-500-668",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "111",
+    "street": "5F, No. 124, Ln. 167, Sec. 3, Dunhua N. Rd., Shilin Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-2294-0234",
+    "subscriber_rel": "self",
+    "ins_effective": "2020-03-03",
+    "email": "",
+    "phone_home": "",
+    "marital": "divorced",
+    "language": "mandarin",
+    "occupation": "Civil servant",
+    "employer": "Windmere Logistics Ltd.",
+    "ec_name": "Yi-Fen Cheng",
+    "ec_phone": "0943-592-484",
+    "ec_relationship": "child",
+    "group_number": "G-4861"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Cheng",
+     "first_name": "Pei-Ju",
+     "dob": "1958-05-20",
+     "sex": "male",
+     "phone_cell": "0935-500-668",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "111",
+     "street": "5F, No. 124, Ln. 167, Sec. 3, Dunhua N. Rd., Shilin Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-2294-0234",
+     "subscriber_rel": "self",
+     "ins_effective": "2020-03-03",
+     "marital": "divorced",
+     "language": "mandarin",
+     "occupation": "Civil servant",
+     "employer": "Windmere Logistics Ltd.",
+     "ec_name": "Yi-Fen Cheng",
+     "ec_phone": "0943-592-484",
+     "ec_relationship": "child",
+     "group_number": "G-4861"
+    },
+    "wrong": {
+     "last_name": "Ch"
+    }
+   }
+  }
+ }
+}

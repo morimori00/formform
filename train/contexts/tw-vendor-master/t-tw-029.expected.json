@@ -1,0 +1,352 @@
+{
+ "persona": "tw-vendor-master/t-tw-029",
+ "context": "tw-vendor-master/t-tw-029.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠碩氣體股份有限公司",
+    "vendor_name_en": "Kuanshuo Gases Co., Ltd.",
+    "ubn": "13433183",
+    "owner": "周美宏",
+    "established": "1990-08-30",
+    "capital": "118000000",
+    "org_type": "corp_shares",
+    "postal": "115",
+    "county": "臺北市",
+    "district": "南港區",
+    "address_line": "建國路336號3樓",
+    "tel": "02-2812-4077",
+    "fax": "02-2812-4119",
+    "contact_name": [
+     "賴佩芬",
+     "Lai Pei-fen"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "peifen.lai@kuanshuo-gases.example",
+    "contact_mobile": "0912-785-136",
+    "bank_code": "812",
+    "bank_branch": [
+     "南港分行",
+     "南港"
+    ],
+    "account_no": "344193816578",
+    "account_name": "冠碩氣體股份有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠碩氣體股份有限公司",
+     "vendor_name_en": "Kuanshuo Gases Co., Ltd.",
+     "ubn": "13433183",
+     "owner": "周美宏",
+     "established": "1990-08-30",
+     "capital": "118000000",
+     "org_type": "corp_shares",
+     "postal": "115",
+     "county": "臺北市",
+     "district": "南港區",
+     "address_line": "建國路336號3樓",
+     "tel": "02-2812-4077",
+     "fax": "02-2812-4119",
+     "contact_name": "賴佩芬",
+     "contact_title": "業務專員",
+     "email": "peifen.lai@kuanshuo-gases.example",
+     "contact_mobile": "0912-785-136",
+     "bank_code": "812",
+     "bank_branch": "南港分行",
+     "account_no": "344193816578",
+     "account_name": "冠碩氣體股份有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "134331x",
+     "tel": "02-281"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "13433183",
+    "vendor_name_zh": "冠碩氣體股份有限公司",
+    "vendor_name_en": "Kuanshuo Gases Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1990-08-30",
+    "owner": "周美宏",
+    "county": "臺北市",
+    "district": "南港區",
+    "address_line": "建國路336號3樓",
+    "postal": "115",
+    "tel": "02-2812-4077",
+    "fax": "02-2812-4119",
+    "contact_name": [
+     "賴佩芬",
+     "Lai Pei-fen"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "contact_mobile": "0912-785-136",
+    "email": "peifen.lai@kuanshuo-gases.example",
+    "bank_code": "812",
+    "bank_branch": [
+     "南港分行",
+     "南港"
+    ],
+    "account_no": "344193816578",
+    "account_name": "冠碩氣體股份有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": "",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "ubn": "13433183",
+     "vendor_name_zh": "冠碩氣體股份有限公司",
+     "vendor_name_en": "Kuanshuo Gases Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1990-08-30",
+     "owner": "周美宏",
+     "county": "臺北市",
+     "district": "南港區",
+     "address_line": "建國路336號3樓",
+     "postal": "115",
+     "tel": "02-2812-4077",
+     "fax": "02-2812-4119",
+     "contact_name": "賴佩芬",
+     "contact_title": "業務專員",
+     "contact_mobile": "0912-785-136",
+     "email": "peifen.lai@kuanshuo-gases.example",
+     "bank_code": "812",
+     "bank_branch": "南港分行",
+     "account_no": "344193816578",
+     "account_name": "冠碩氣體股份有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "134331x",
+     "invoice_type": "egui2"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "13433183",
+    "vendor_name_zh": "冠碩氣體股份有限公司",
+    "owner": "周美宏",
+    "established": "1990-08-30",
+    "org_type": "corp_shares",
+    "capital": "118000000",
+    "county": "臺北市",
+    "district": "南港區",
+    "address_line": "建國路336號3樓",
+    "postal": "115",
+    "tel": "02-2812-4077",
+    "contact_name": [
+     "賴佩芬",
+     "Lai Pei-fen"
+    ],
+    "email": "peifen.lai@kuanshuo-gases.example",
+    "bank_code": "812",
+    "account_no": "344193816578",
+    "account_name": "冠碩氣體股份有限公司",
+    "payment_terms": "net45",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "13433183",
+     "vendor_name_zh": "冠碩氣體股份有限公司",
+     "owner": "周美宏",
+     "established": "1990-08-30",
+     "org_type": "corp_shares",
+     "capital": "118000000",
+     "county": "臺北市",
+     "district": "南港區",
+     "address_line": "建國路336號3樓",
+     "postal": "115",
+     "tel": "02-2812-4077",
+     "contact_name": "賴佩芬",
+     "email": "peifen.lai@kuanshuo-gases.example",
+     "bank_code": "812",
+     "account_no": "344193816578",
+     "account_name": "冠碩氣體股份有限公司",
+     "payment_terms": "net45",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "134331x",
+     "owner": "周"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠碩氣體股份有限公司",
+    "vendor_name_en": "Kuanshuo Gases Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "13433183",
+    "owner": "周美宏",
+    "county": "臺北市",
+    "district": "南港區",
+    "address_line": "建國路336號3樓",
+    "postal": "115",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "02-2812-4077",
+    "contact_name": [
+     "賴佩芬",
+     "Lai Pei-fen"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "peifen.lai@kuanshuo-gases.example",
+    "account_no": "344193816578",
+    "account_name": "冠碩氣體股份有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠碩氣體股份有限公司",
+     "vendor_name_en": "Kuanshuo Gases Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "13433183",
+     "owner": "周美宏",
+     "county": "臺北市",
+     "district": "南港區",
+     "address_line": "建國路336號3樓",
+     "postal": "115",
+     "tel": "02-2812-4077",
+     "contact_name": "賴佩芬",
+     "contact_title": "業務專員",
+     "email": "peifen.lai@kuanshuo-gases.example",
+     "account_no": "344193816578",
+     "account_name": "冠碩氣體股份有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "134331x",
+     "vendor_name_en": "Kuanshuo Gas"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "812",
+    "bank_branch": [
+     "南港分行",
+     "南港"
+    ],
+    "account_no": "344193816578",
+    "account_name": "冠碩氣體股份有限公司",
+    "payment_terms": "net45",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "臺北市",
+    "district": "南港區",
+    "address_line": "建國路336號3樓",
+    "postal": "115",
+    "tel": "02-2812-4077",
+    "fax": "02-2812-4119",
+    "vendor_name_zh": "冠碩氣體股份有限公司",
+    "ubn": "13433183",
+    "owner": "周美宏",
+    "org_type": "corp_shares",
+    "established": "1990-08-30",
+    "capital": "118000000",
+    "vendor_name_en": "Kuanshuo Gases Co., Ltd.",
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "contact_mobile": "0912-785-136",
+    "contact_name": [
+     "賴佩芬",
+     "Lai Pei-fen"
+    ],
+    "email": "peifen.lai@kuanshuo-gases.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "812",
+     "bank_branch": "南港分行",
+     "account_no": "344193816578",
+     "account_name": "冠碩氣體股份有限公司",
+     "payment_terms": "net45",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "臺北市",
+     "district": "南港區",
+     "address_line": "建國路336號3樓",
+     "postal": "115",
+     "tel": "02-2812-4077",
+     "fax": "02-2812-4119",
+     "vendor_name_zh": "冠碩氣體股份有限公司",
+     "ubn": "13433183",
+     "owner": "周美宏",
+     "org_type": "corp_shares",
+     "established": "1990-08-30",
+     "capital": "118000000",
+     "vendor_name_en": "Kuanshuo Gases Co., Ltd.",
+     "contact_title": "業務專員",
+     "contact_mobile": "0912-785-136",
+     "contact_name": "賴佩芬",
+     "email": "peifen.lai@kuanshuo-gases.example"
+    },
+    "wrong": {
+     "account_no": "3441938165x",
+     "tel": "02-281"
+    }
+   }
+  }
+ }
+}

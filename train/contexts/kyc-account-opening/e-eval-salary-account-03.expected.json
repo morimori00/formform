@@ -1,0 +1,54 @@
+{
+ "persona": "kyc-account-opening/e-eval-salary-account-03",
+ "context": "kyc-account-opening/e-eval-salary-account-03.md",
+ "split": "eval",
+ "variants": {
+  "kyc-account-opening/eval-salary-account": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chu Li-Rong",
+     "Li-Rong Chu"
+    ],
+    "gender": "female",
+    "dob": "1967-07-13",
+    "nationality": "TW",
+    "id_form": "national_id",
+    "phone": "+886 970 272 508",
+    "email": "lirong.chu@inbox.example",
+    "address": [
+     "4F, No. 295, Ln. 28, Sec. 3, Zhongshan N. Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "4F, No. 295, Ln. 28, Sec. 3, Zhongshan N. Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "mother_maiden": "Wei",
+    "education": "associate",
+    "account_type": "savings",
+    "account_category": "individual",
+    "monthly_income": "268000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chu Li-Rong",
+     "gender": "female",
+     "dob": "1967-07-13",
+     "nationality": "TW",
+     "id_form": "national_id",
+     "phone": "+886 970 272 508",
+     "email": "lirong.chu@inbox.example",
+     "address": "4F, No. 295, Ln. 28, Sec. 3, Zhongshan N. Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "mother_maiden": "Wei",
+     "education": "associate",
+     "account_type": "savings",
+     "account_category": "individual",
+     "monthly_income": "268000"
+    },
+    "wrong": {
+     "email": "lirong.chu at inbox.example",
+     "nationality": "JP"
+    }
+   }
+  }
+ }
+}

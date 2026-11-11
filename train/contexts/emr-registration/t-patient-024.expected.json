@@ -1,0 +1,251 @@
+{
+ "persona": "emr-registration/t-patient-024",
+ "context": "emr-registration/t-patient-024.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hsin-Ting",
+    "middle_name": "",
+    "last_name": "Lu",
+    "dob": "1955-06-06",
+    "sex": "male",
+    "marital": "married",
+    "language": "hakka",
+    "street": "10F, No. 49, Sec. 1, Wenhua Rd., Songshan Dist.",
+    "city": "Taipei City",
+    "postal": "105",
+    "country": "TW",
+    "phone_home": "03-3565-5195",
+    "phone_cell": "0933-606-403",
+    "email": "hsinting.lu@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Jia-Yen Lu",
+    "ec_phone": "0910-084-740",
+    "ec_relationship": "child",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-1393-9302",
+    "group_number": "G-3552",
+    "subscriber_rel": "self",
+    "ins_effective": "2022-01-28"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hsin-Ting",
+     "last_name": "Lu",
+     "dob": "1955-06-06",
+     "sex": "male",
+     "marital": "married",
+     "language": "hakka",
+     "street": "10F, No. 49, Sec. 1, Wenhua Rd., Songshan Dist.",
+     "city": "Taipei City",
+     "postal": "105",
+     "country": "TW",
+     "phone_home": "03-3565-5195",
+     "phone_cell": "0933-606-403",
+     "email": "hsinting.lu@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Jia-Yen Lu",
+     "ec_phone": "0910-084-740",
+     "ec_relationship": "child",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-1393-9302",
+     "group_number": "G-3552",
+     "subscriber_rel": "self",
+     "ins_effective": "2022-01-28"
+    },
+    "wrong": {
+     "email": "hsinting.lu at inbox.example",
+     "country": "JP"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lu",
+    "first_name": "Hsin-Ting",
+    "middle_name": "",
+    "dob": "1955-06-06",
+    "sex": "male",
+    "marital": "married",
+    "national_id": "B228483544",
+    "street": "10F, No. 49, Sec. 1, Wenhua Rd., Songshan Dist.",
+    "postal": "105",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0933-606-403",
+    "phone_home": "03-3565-5195",
+    "email": "hsinting.lu@inbox.example",
+    "ec_name": "Jia-Yen Lu",
+    "ec_relationship": "child",
+    "ec_phone": "0910-084-740",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-1393-9302",
+    "group_number": "G-3552",
+    "subscriber_rel": "self",
+    "ins_effective": "2022-01-28",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lu",
+     "first_name": "Hsin-Ting",
+     "dob": "1955-06-06",
+     "sex": "male",
+     "marital": "married",
+     "national_id": "B228483544",
+     "street": "10F, No. 49, Sec. 1, Wenhua Rd., Songshan Dist.",
+     "postal": "105",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0933-606-403",
+     "phone_home": "03-3565-5195",
+     "email": "hsinting.lu@inbox.example",
+     "ec_name": "Jia-Yen Lu",
+     "ec_relationship": "child",
+     "ec_phone": "0910-084-740",
+     "occupation": "Retired",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-1393-9302",
+     "group_number": "G-3552",
+     "subscriber_rel": "self",
+     "ins_effective": "2022-01-28"
+    },
+    "wrong": {
+     "email": "hsinting.lu at inbox.example",
+     "national_id": "B2284"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hsin-Ting",
+    "last_name": "Lu",
+    "dob": "1955-06-06",
+    "sex": "male",
+    "language": "hakka",
+    "street": "10F, No. 49, Sec. 1, Wenhua Rd., Songshan Dist.",
+    "city": "Taipei City",
+    "postal": "105",
+    "country": "TW",
+    "phone_cell": "0933-606-403",
+    "phone_home": "03-3565-5195",
+    "ec_name": "Jia-Yen Lu",
+    "ec_phone": "0910-084-740",
+    "ec_relationship": "child",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-1393-9302",
+    "group_number": "G-3552",
+    "subscriber_rel": "self",
+    "ins_effective": "2022-01-28"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hsin-Ting",
+     "last_name": "Lu",
+     "dob": "1955-06-06",
+     "sex": "male",
+     "language": "hakka",
+     "street": "10F, No. 49, Sec. 1, Wenhua Rd., Songshan Dist.",
+     "city": "Taipei City",
+     "postal": "105",
+     "country": "TW",
+     "phone_cell": "0933-606-403",
+     "phone_home": "03-3565-5195",
+     "ec_name": "Jia-Yen Lu",
+     "ec_phone": "0910-084-740",
+     "ec_relationship": "child",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-1393-9302",
+     "group_number": "G-3552",
+     "subscriber_rel": "self",
+     "ins_effective": "2022-01-28"
+    },
+    "wrong": {
+     "country": "JP"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lu",
+    "first_name": "Hsin-Ting",
+    "dob": "1955-06-06",
+    "sex": "male",
+    "phone_cell": "0933-606-403",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "105",
+    "street": "10F, No. 49, Sec. 1, Wenhua Rd., Songshan Dist.",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-1393-9302",
+    "subscriber_rel": "self",
+    "ins_effective": "2022-01-28",
+    "email": "hsinting.lu@inbox.example",
+    "phone_home": "03-3565-5195",
+    "marital": "married",
+    "language": "hakka",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Jia-Yen Lu",
+    "ec_phone": "0910-084-740",
+    "ec_relationship": "child",
+    "group_number": "G-3552"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lu",
+     "first_name": "Hsin-Ting",
+     "dob": "1955-06-06",
+     "sex": "male",
+     "phone_cell": "0933-606-403",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "105",
+     "street": "10F, No. 49, Sec. 1, Wenhua Rd., Songshan Dist.",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-1393-9302",
+     "subscriber_rel": "self",
+     "ins_effective": "2022-01-28",
+     "email": "hsinting.lu@inbox.example",
+     "phone_home": "03-3565-5195",
+     "marital": "married",
+     "language": "hakka",
+     "occupation": "Retired",
+     "ec_name": "Jia-Yen Lu",
+     "ec_phone": "0910-084-740",
+     "ec_relationship": "child",
+     "group_number": "G-3552"
+    },
+    "wrong": {
+     "email": "hsinting.lu at inbox.example",
+     "policy_number": "PCL-13"
+    }
+   }
+  }
+ }
+}

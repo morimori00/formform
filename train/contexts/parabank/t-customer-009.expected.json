@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-009",
+ "context": "parabank/t-customer-009.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chloe",
+    "last_name": "Novak",
+    "street": "626 Alder Creek St",
+    "city": "Atlanta",
+    "state": [
+     "GA",
+     "Georgia"
+    ],
+    "zip": "30325",
+    "phone": "(404) 555-0133",
+    "ssn": "945-70-4890",
+    "username": "chloe.novak02",
+    "password": "River#4392",
+    "password_confirm": "River#4392"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chloe",
+     "last_name": "Novak",
+     "street": "626 Alder Creek St",
+     "city": "Atlanta",
+     "state": "GA",
+     "zip": "30325",
+     "phone": "(404) 555-0133",
+     "ssn": "945-70-4890",
+     "username": "chloe.novak02",
+     "password": "River#4392",
+     "password_confirm": "River#4392"
+    },
+    "wrong": {
+     "last_name": "No"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "8679 Quail Hollow Ln",
+    "payee_city": "San Jose",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "95165",
+    "payee_phone": "(408) 555-0139",
+    "payee_account": "20767-2658",
+    "payee_account_verify": "20767-2658",
+    "amount": "89.28",
+    "from_account": "13344"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "8679 Quail Hollow Ln",
+     "payee_city": "San Jose",
+     "payee_state": "CA",
+     "payee_zip": "95165",
+     "payee_phone": "(408) 555-0139",
+     "payee_account": "20767-2658",
+     "payee_account_verify": "20767-2658",
+     "amount": "89.28",
+     "from_account": "13344"
+    },
+    "wrong": {
+     "payee_account_verify": "20767-26x",
+     "payee_phone": "(408) 5"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "5000",
+    "down_payment": "1000",
+    "loan_from_account": "13344",
+    "new_account_type": "CHECKING",
+    "new_account_from": "16788"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "5000",
+     "down_payment": "1000",
+     "loan_from_account": "13344",
+     "new_account_type": "CHECKING",
+     "new_account_from": "16788"
+    },
+    "wrong": {
+     "new_account_type": "SAVINGS"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "8679 Quail Hollow Ln",
+    "payee_city": "San Jose",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "95165",
+    "payee_phone": "(408) 555-0139",
+    "from_account": "13344",
+    "amount": "89.28",
+    "payee_account": "20767-2658",
+    "payee_account_verify": "20767-2658"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "8679 Quail Hollow Ln",
+     "payee_city": "San Jose",
+     "payee_state": "CA",
+     "payee_zip": "95165",
+     "payee_phone": "(408) 555-0139",
+     "from_account": "13344",
+     "amount": "89.28",
+     "payee_account": "20767-2658",
+     "payee_account_verify": "20767-2658"
+    },
+    "wrong": {
+     "payee_account_verify": "20767-26x",
+     "payee_account": "20767"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chloe",
+    "last_name": "Novak",
+    "phone": "(404) 555-0133",
+    "ssn": "945-70-4890",
+    "street": "626 Alder Creek St",
+    "city": "Atlanta",
+    "state": [
+     "GA",
+     "Georgia"
+    ],
+    "zip": "30325",
+    "username": "chloe.novak02",
+    "password": "River#4392",
+    "password_confirm": "River#4392"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chloe",
+     "last_name": "Novak",
+     "phone": "(404) 555-0133",
+     "ssn": "945-70-4890",
+     "street": "626 Alder Creek St",
+     "city": "Atlanta",
+     "state": "GA",
+     "zip": "30325",
+     "username": "chloe.novak02",
+     "password": "River#4392",
+     "password_confirm": "River#4392"
+    },
+    "wrong": {
+     "city": "Atl"
+    }
+   }
+  }
+ }
+}

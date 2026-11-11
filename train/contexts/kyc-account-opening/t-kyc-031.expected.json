@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-031",
+ "context": "kyc-account-opening/t-kyc-031.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-15182",
+    "full_name": [
+     "Lai Kuan-Hsuan",
+     "Kuan-Hsuan Lai"
+    ],
+    "spouse_name": "Tsao Ming-Yen",
+    "gender": "female",
+    "marital": "single",
+    "dob": "1979-06-23",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "G134634374",
+    "id_proof": "national_id",
+    "address": [
+     "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "phone": "+886 900 943 233",
+    "email": "kuanhsuan.lai@inbox.example",
+    "addr_proof": "utility_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Lai Kuan-Hsuan",
+     "Kuan-Hsuan Lai"
+    ],
+    "sign_date": "2026-11-04",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-15182",
+     "full_name": "Lai Kuan-Hsuan",
+     "spouse_name": "Tsao Ming-Yen",
+     "gender": "female",
+     "marital": "single",
+     "dob": "1979-06-23",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "G134634374",
+     "id_proof": "national_id",
+     "address": "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "phone": "+886 900 943 233",
+     "email": "kuanhsuan.lai@inbox.example",
+     "addr_proof": "utility_bill",
+     "perm_same": true,
+     "decl_name": "Lai Kuan-Hsuan",
+     "sign_date": "2026-11-04"
+    },
+    "wrong": {
+     "tax_id": "G1346343x",
+     "full_name": "Lai Kua"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Lai Kuan-Hsuan",
+     "Kuan-Hsuan Lai"
+    ],
+    "dob": "1979-06-23",
+    "mother_maiden": "Tsao",
+    "phone": "+886 900 943 233",
+    "email": "kuanhsuan.lai@inbox.example",
+    "address": [
+     "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "education": "associate",
+    "id_form": "national_id",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "235000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Lai Kuan-Hsuan",
+     "dob": "1979-06-23",
+     "mother_maiden": "Tsao",
+     "phone": "+886 900 943 233",
+     "email": "kuanhsuan.lai@inbox.example",
+     "address": "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "education": "associate",
+     "id_form": "national_id",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "235000"
+    },
+    "wrong": {
+     "email": "kuanhsuan.lai at inbox.example",
+     "full_name": "Lai Kua"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Lai Kuan-Hsuan",
+     "Kuan-Hsuan Lai"
+    ],
+    "dob": "1979-06-23",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Tsao Ming-Yen",
+    "address": [
+     "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "email": "kuanhsuan.lai@inbox.example",
+    "phone": "+886 900 943 233",
+    "addr_proof": "utility_bill",
+    "id_proof": "national_id",
+    "tax_id": "G134634374",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-15182"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Lai Kuan-Hsuan",
+     "dob": "1979-06-23",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Tsao Ming-Yen",
+     "address": "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "email": "kuanhsuan.lai@inbox.example",
+     "phone": "+886 900 943 233",
+     "addr_proof": "utility_bill",
+     "id_proof": "national_id",
+     "tax_id": "G134634374",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-15182"
+    },
+    "wrong": {
+     "email": "kuanhsuan.lai at inbox.example",
+     "spouse_name": "Tsao M"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Lai Kuan-Hsuan",
+     "Kuan-Hsuan Lai"
+    ],
+    "dob": "1979-06-23",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 900 943 233",
+    "email": "kuanhsuan.lai@inbox.example",
+    "address": [
+     "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "G134634374",
+    "addr_proof": "utility_bill",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "education": "associate",
+    "monthly_income": "235000",
+    "application_no": "LCB-AO-2026-15182",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Lai Kuan-Hsuan",
+     "dob": "1979-06-23",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 900 943 233",
+     "email": "kuanhsuan.lai@inbox.example",
+     "address": "3F, No. 166, Datong Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "G134634374",
+     "addr_proof": "utility_bill",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "education": "associate",
+     "monthly_income": "235000",
+     "application_no": "LCB-AO-2026-15182"
+    },
+    "wrong": {
+     "email": "kuanhsuan.lai at inbox.example",
+     "account_category": "joint"
+    }
+   }
+  }
+ }
+}

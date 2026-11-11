@@ -1,0 +1,187 @@
+{
+ "persona": "parabank/t-customer-039",
+ "context": "parabank/t-customer-039.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Elena",
+    "last_name": "Schmidt",
+    "street": "7195 Copper Ridge Ave",
+    "city": "Fremont",
+    "state": [
+     "CA",
+     "California"
+    ],
+    "zip": "94555",
+    "phone": "",
+    "ssn": "966-91-3644",
+    "username": "elena.schmidt33",
+    "password": "Cobalt-3058",
+    "password_confirm": "Cobalt-3058"
+   },
+   "infeasible": [
+    "phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Elena",
+     "last_name": "Schmidt",
+     "street": "7195 Copper Ridge Ave",
+     "city": "Fremont",
+     "state": "CA",
+     "zip": "94555",
+     "ssn": "966-91-3644",
+     "username": "elena.schmidt33",
+     "password": "Cobalt-3058",
+     "password_confirm": "Cobalt-3058"
+    },
+    "wrong": {
+     "ssn": "966-9"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "9099 Copper Ridge Ct",
+    "payee_city": "Tampa",
+    "payee_state": [
+     "FL",
+     "Florida"
+    ],
+    "payee_zip": "33602",
+    "payee_phone": "(813) 555-0138",
+    "payee_account": "48644-0501",
+    "payee_account_verify": "48644-0501",
+    "amount": "137.23",
+    "from_account": "13566"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "9099 Copper Ridge Ct",
+     "payee_city": "Tampa",
+     "payee_state": "FL",
+     "payee_zip": "33602",
+     "payee_phone": "(813) 555-0138",
+     "payee_account": "48644-0501",
+     "payee_account_verify": "48644-0501",
+     "amount": "137.23",
+     "from_account": "13566"
+    },
+    "wrong": {
+     "payee_account_verify": "48644-05x",
+     "payee_street": "9099 Coppe"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "8000",
+    "down_payment": "400",
+    "loan_from_account": "13566",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "13566"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "8000",
+     "down_payment": "400",
+     "loan_from_account": "13566",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "13566"
+    },
+    "wrong": {
+     "new_account_from": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "9099 Copper Ridge Ct",
+    "payee_city": "Tampa",
+    "payee_state": [
+     "FL",
+     "Florida"
+    ],
+    "payee_zip": "33602",
+    "payee_phone": "(813) 555-0138",
+    "from_account": "13566",
+    "amount": "137.23",
+    "payee_account": "48644-0501",
+    "payee_account_verify": "48644-0501"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "9099 Copper Ridge Ct",
+     "payee_city": "Tampa",
+     "payee_state": "FL",
+     "payee_zip": "33602",
+     "payee_phone": "(813) 555-0138",
+     "from_account": "13566",
+     "amount": "137.23",
+     "payee_account": "48644-0501",
+     "payee_account_verify": "48644-0501"
+    },
+    "wrong": {
+     "payee_account_verify": "48644-05x",
+     "amount": "137"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Elena",
+    "last_name": "Schmidt",
+    "phone": "",
+    "ssn": "966-91-3644",
+    "street": "7195 Copper Ridge Ave",
+    "city": "Fremont",
+    "state": [
+     "CA",
+     "California"
+    ],
+    "zip": "94555",
+    "username": "elena.schmidt33",
+    "password": "Cobalt-3058",
+    "password_confirm": "Cobalt-3058"
+   },
+   "infeasible": [
+    "phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Elena",
+     "last_name": "Schmidt",
+     "ssn": "966-91-3644",
+     "street": "7195 Copper Ridge Ave",
+     "city": "Fremont",
+     "state": "CA",
+     "zip": "94555",
+     "username": "elena.schmidt33",
+     "password": "Cobalt-3058",
+     "password_confirm": "Cobalt-3058"
+    },
+    "wrong": {
+     "city": "Fre"
+    }
+   }
+  }
+ }
+}

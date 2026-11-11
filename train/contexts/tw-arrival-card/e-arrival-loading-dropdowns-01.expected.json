@@ -1,0 +1,71 @@
+{
+ "persona": "tw-arrival-card/e-arrival-loading-dropdowns-01",
+ "context": "tw-arrival-card/e-arrival-loading-dropdowns-01.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-loading-dropdowns": {
+   "submit": true,
+   "fields": {
+    "flight_no": "UA 795",
+    "arrival_date": "2027-02-27",
+    "purpose": "business",
+    "departure_flight": "UA 832",
+    "passport_no": "E7766373X",
+    "family_name": "MILLER",
+    "given_name": "NATHAN",
+    "nationality": "US",
+    "sex": "female",
+    "dob": "1973-06-08",
+    "passport_expiry": "2028-11-16",
+    "occupation": "student",
+    "visa_type": "visitor",
+    "visa_no": "V-6956909",
+    "stay_type": "residence",
+    "stay_address": [
+     "No. 59, Chenggong Rd., Dayuan Dist., Taoyuan City 337",
+     "company residence, No. 59, Chenggong Rd., Dayuan Dist., Taoyuan City 337"
+    ],
+    "county": "桃園市",
+    "district": "大園區",
+    "phone": "+886 979 994 745",
+    "visited": [
+     "US"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "flight_no": "UA 795",
+     "arrival_date": "2027-02-27",
+     "purpose": "business",
+     "departure_flight": "UA 832",
+     "passport_no": "E7766373X",
+     "family_name": "MILLER",
+     "given_name": "NATHAN",
+     "nationality": "US",
+     "sex": "female",
+     "dob": "1973-06-08",
+     "passport_expiry": "2028-11-16",
+     "occupation": "student",
+     "visa_type": "visitor",
+     "visa_no": "V-6956909",
+     "stay_type": "residence",
+     "stay_address": "No. 59, Chenggong Rd., Dayuan Dist., Taoyuan City 337",
+     "county": "桃園市",
+     "district": "大園區",
+     "phone": "+886 979 994 745",
+     "visited": [
+      "US"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "MILLx",
+     "arrival_date": "2026-02-27"
+    }
+   }
+  }
+ }
+}

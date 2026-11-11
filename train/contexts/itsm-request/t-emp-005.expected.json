@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-005",
+ "context": "itsm-request/t-emp-005.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g13038",
+    "laptop_model": "eng16_64",
+    "location": "tainan",
+    "needed_by": "2026-11-28",
+    "extra_monitor": true,
+    "cost_center": "CC-2093",
+    "justification": "Transferred to Fab Engineering; previous device stays with the old team."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g13038",
+     "laptop_model": "eng16_64",
+     "location": "tainan",
+     "needed_by": "2026-11-28",
+     "extra_monitor": true,
+     "cost_center": "CC-2093",
+     "justification": "Transferred to Fab Engineering; previous device stays with the old team."
+    },
+    "wrong": {
+     "cost_center": "CC-20x",
+     "laptop_model": "std14"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16_64",
+    "extra_monitor": true,
+    "location": "tainan",
+    "needed_by": "2026-11-28",
+    "requested_for": "u_g13038",
+    "cost_center": "CC-2093",
+    "justification": "Transferred to Fab Engineering; previous device stays with the old team.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16_64",
+     "extra_monitor": true,
+     "location": "tainan",
+     "needed_by": "2026-11-28",
+     "requested_for": "u_g13038",
+     "cost_center": "CC-2093",
+     "justification": "Transferred to Fab Engineering; previous device stays with the old team."
+    },
+    "wrong": {
+     "cost_center": "CC-20x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g13038",
+    "contact_pref": "self_service",
+    "inc_category": "network",
+    "inc_subcategory": "vpn",
+    "ci": "KST-NB-38229",
+    "impact": "3",
+    "urgency": "3",
+    "assign_group": "netops",
+    "short_desc": "VPN client fails to connect after the 5.1 update",
+    "inc_desc": "Since the 5.1 client update the VPN shows error 527 at login. Happens on office Wi-Fi and at home. Reinstalling did not help."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g13038",
+     "contact_pref": "self_service",
+     "inc_category": "network",
+     "inc_subcategory": "vpn",
+     "ci": "KST-NB-38229",
+     "impact": "3",
+     "urgency": "3",
+     "assign_group": "netops",
+     "short_desc": "VPN client fails to connect after the 5.1 update",
+     "inc_desc": "Since the 5.1 client update the VPN shows error 527 at login. Happens on office Wi-Fi and at home. Reinstalling did not help."
+    },
+    "wrong": {
+     "urgency": "1"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "VPN client fails to connect after the 5.1 update",
+    "inc_desc": "Since the 5.1 client update the VPN shows error 527 at login. Happens on office Wi-Fi and at home. Reinstalling did not help.",
+    "caller": "u_g13038",
+    "ci": "KST-NB-38229",
+    "contact_pref": "self_service",
+    "inc_category": "network",
+    "inc_subcategory": "vpn",
+    "impact": "3",
+    "urgency": "3",
+    "assign_group": "netops"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "VPN client fails to connect after the 5.1 update",
+     "inc_desc": "Since the 5.1 client update the VPN shows error 527 at login. Happens on office Wi-Fi and at home. Reinstalling did not help.",
+     "caller": "u_g13038",
+     "ci": "KST-NB-38229",
+     "contact_pref": "self_service",
+     "inc_category": "network",
+     "inc_subcategory": "vpn",
+     "impact": "3",
+     "urgency": "3",
+     "assign_group": "netops"
+    },
+    "wrong": {
+     "inc_category": "inquiry"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g13038",
+    "location": "tainan",
+    "cost_center": "CC-2093",
+    "laptop_model": "eng16_64",
+    "needed_by": "2026-11-28",
+    "extra_monitor": true,
+    "justification": "Transferred to Fab Engineering; previous device stays with the old team."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g13038",
+     "location": "tainan",
+     "cost_center": "CC-2093",
+     "laptop_model": "eng16_64",
+     "needed_by": "2026-11-28",
+     "extra_monitor": true,
+     "justification": "Transferred to Fab Engineering; previous device stays with the old team."
+    },
+    "wrong": {
+     "cost_center": "CC-20x",
+     "laptop_model": "std14"
+    }
+   }
+  }
+ }
+}

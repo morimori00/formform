@@ -1,0 +1,165 @@
+{
+ "persona": "event-registration/t-emp-003",
+ "context": "event-registration/t-emp-003.md",
+ "split": "train",
+ "variants": {
+  "event-registration/training-single": {
+   "submit": true,
+   "fields": {
+    "email": "aisha.costa@kestrel-semi.example",
+    "full_name": [
+     "Aisha Costa",
+     "Costa Aisha"
+    ],
+    "employee_id": "KST-37219",
+    "department": "procurement",
+    "session": "ld_dec08",
+    "attendance": "online",
+    "dietary": "vegan",
+    "tshirt": "XXL",
+    "recording": true,
+    "topics": ""
+   },
+   "infeasible": [
+    "topics"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "email": "aisha.costa@kestrel-semi.example",
+     "full_name": "Aisha Costa",
+     "employee_id": "KST-37219",
+     "department": "procurement",
+     "session": "ld_dec08",
+     "attendance": "online",
+     "dietary": "vegan",
+     "tshirt": "XXL",
+     "recording": true
+    },
+    "wrong": {
+     "email": "aisha.costa at kestrel-semi.example",
+     "department": "fab_eng"
+    }
+   }
+  },
+  "event-registration/training-sections": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Aisha Costa",
+     "Costa Aisha"
+    ],
+    "employee_id": "KST-37219",
+    "email": "aisha.costa@kestrel-semi.example",
+    "department": "procurement",
+    "course": "leadership",
+    "session": "ld_dec08",
+    "attendance": "online",
+    "dietary": "vegan",
+    "tshirt": "XXL",
+    "recording": true,
+    "topics": ""
+   },
+   "infeasible": [
+    "topics"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Aisha Costa",
+     "employee_id": "KST-37219",
+     "email": "aisha.costa@kestrel-semi.example",
+     "department": "procurement",
+     "course": "leadership",
+     "session": "ld_dec08",
+     "attendance": "online",
+     "dietary": "vegan",
+     "tshirt": "XXL",
+     "recording": true
+    },
+    "wrong": {
+     "email": "aisha.costa at kestrel-semi.example",
+     "department": "fab_eng"
+    }
+   }
+  },
+  "event-registration/orientation-chips": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Aisha Costa",
+     "Costa Aisha"
+    ],
+    "employee_id": "KST-37219",
+    "email": "aisha.costa@kestrel-semi.example",
+    "course": "leadership",
+    "session": "ld_dec08",
+    "attendance": "online",
+    "dietary": "vegan",
+    "tshirt": "XXL",
+    "recording": true,
+    "topics": ""
+   },
+   "infeasible": [
+    "topics"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Aisha Costa",
+     "employee_id": "KST-37219",
+     "email": "aisha.costa@kestrel-semi.example",
+     "course": "leadership",
+     "session": "ld_dec08",
+     "attendance": "online",
+     "dietary": "vegan",
+     "tshirt": "XXL",
+     "recording": true
+    },
+    "wrong": {
+     "email": "aisha.costa at kestrel-semi.example",
+     "course": "secure_coding"
+    }
+   }
+  },
+  "event-registration/training-lookup": {
+   "submit": true,
+   "fields": {
+    "session": "ld_dec08",
+    "attendance": "online",
+    "full_name": [
+     "Aisha Costa",
+     "Costa Aisha"
+    ],
+    "employee_id": "KST-37219",
+    "email": "aisha.costa@kestrel-semi.example",
+    "department": "procurement",
+    "dietary": "vegan",
+    "tshirt": "XXL",
+    "recording": true,
+    "topics": ""
+   },
+   "infeasible": [
+    "topics"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "session": "ld_dec08",
+     "attendance": "online",
+     "full_name": "Aisha Costa",
+     "employee_id": "KST-37219",
+     "email": "aisha.costa@kestrel-semi.example",
+     "department": "procurement",
+     "dietary": "vegan",
+     "tshirt": "XXL",
+     "recording": true
+    },
+    "wrong": {
+     "email": "aisha.costa at kestrel-semi.example",
+     "tshirt": "XS"
+    }
+   }
+  }
+ }
+}

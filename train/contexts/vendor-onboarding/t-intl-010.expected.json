@@ -1,0 +1,180 @@
+{
+ "persona": "vendor-onboarding/t-intl-010",
+ "context": "vendor-onboarding/t-intl-010.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Highmoor Chemicals Sdn. Bhd.",
+    "tax_id": "202001021026",
+    "company_address": "16, Jalan Perusahaan 3, Bayan Lepas, 11900 Penang, Malaysia",
+    "established": "2021-03-08",
+    "business_type": "private_limited",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "service_area": "north_america",
+    "gross_sales": "66400000",
+    "contact_name": [
+     "Mateo Iyer",
+     "Mr. Mateo Iyer"
+    ],
+    "contact_title": "Key Account Executive",
+    "phone_day": "+60 4-957 9262",
+    "phone_evening": "",
+    "email": "mateo.iyer@highmoor.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "MY-LIC-2340153",
+    "bank_name": "Bukit Emas Bank",
+    "beneficiary": "Highmoor Chemicals Sdn. Bhd.",
+    "account_number": "477-133730-3",
+    "swift": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "swift"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Chemicals Sdn. Bhd.",
+     "tax_id": "202001021026",
+     "company_address": "16, Jalan Perusahaan 3, Bayan Lepas, 11900 Penang, Malaysia",
+     "established": "2021-03-08",
+     "business_type": "private_limited",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "service_area": "north_america",
+     "gross_sales": "66400000",
+     "contact_name": "Mateo Iyer",
+     "contact_title": "Key Account Executive",
+     "phone_day": "+60 4-957 9262",
+     "email": "mateo.iyer@highmoor.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "MY-LIC-2340153",
+     "bank_name": "Bukit Emas Bank",
+     "beneficiary": "Highmoor Chemicals Sdn. Bhd.",
+     "account_number": "477-133730-3"
+    },
+    "wrong": {
+     "email": "mateo.iyer at highmoor.example",
+     "account_number": "477-13"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": false,
+   "fields": {
+    "org_name": "Highmoor Chemicals Sdn. Bhd.",
+    "tax_id": "202001021026",
+    "established": "2021-03-08",
+    "service_area": "north_america",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Mateo Iyer",
+     "Mr. Mateo Iyer"
+    ],
+    "email": "mateo.iyer@highmoor.example",
+    "phone_day": "+60 4-957 9262",
+    "phone_evening": "",
+    "company_address": "16, Jalan Perusahaan 3, Bayan Lepas, 11900 Penang, Malaysia",
+    "licensing": "licensed",
+    "license_number": "MY-LIC-2340153",
+    "bank_name": "Bukit Emas Bank",
+    "beneficiary": "Highmoor Chemicals Sdn. Bhd.",
+    "account_number": "477-133730-3",
+    "swift": "",
+    "insurance": "insured",
+    "gross_sales": "66400000"
+   },
+   "infeasible": [
+    "phone_evening",
+    "swift"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Chemicals Sdn. Bhd.",
+     "tax_id": "202001021026",
+     "established": "2021-03-08",
+     "service_area": "north_america",
+     "business_type": "private_limited",
+     "contact_name": "Mateo Iyer",
+     "email": "mateo.iyer@highmoor.example",
+     "phone_day": "+60 4-957 9262",
+     "company_address": "16, Jalan Perusahaan 3, Bayan Lepas, 11900 Penang, Malaysia",
+     "licensing": "licensed",
+     "license_number": "MY-LIC-2340153",
+     "bank_name": "Bukit Emas Bank",
+     "beneficiary": "Highmoor Chemicals Sdn. Bhd.",
+     "account_number": "477-133730-3",
+     "insurance": "insured",
+     "gross_sales": "66400000"
+    },
+    "wrong": {
+     "email": "mateo.iyer at highmoor.example",
+     "phone_day": "+60 4-9"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Bukit Emas Bank",
+    "beneficiary": "Highmoor Chemicals Sdn. Bhd.",
+    "account_number": "477-133730-3",
+    "swift": "",
+    "org_name": "Highmoor Chemicals Sdn. Bhd.",
+    "tax_id": "202001021026",
+    "business_type": "private_limited",
+    "established": "2021-03-08",
+    "company_address": "16, Jalan Perusahaan 3, Bayan Lepas, 11900 Penang, Malaysia",
+    "service_area": "north_america",
+    "contact_name": [
+     "Mateo Iyer",
+     "Mr. Mateo Iyer"
+    ],
+    "email": "mateo.iyer@highmoor.example",
+    "phone_day": "+60 4-957 9262",
+    "contact_title": "Key Account Executive",
+    "phone_evening": "",
+    "gross_sales": "66400000",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "MY-LIC-2340153"
+   },
+   "infeasible": [
+    "swift",
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Bukit Emas Bank",
+     "beneficiary": "Highmoor Chemicals Sdn. Bhd.",
+     "account_number": "477-133730-3",
+     "org_name": "Highmoor Chemicals Sdn. Bhd.",
+     "tax_id": "202001021026",
+     "business_type": "private_limited",
+     "established": "2021-03-08",
+     "company_address": "16, Jalan Perusahaan 3, Bayan Lepas, 11900 Penang, Malaysia",
+     "service_area": "north_america",
+     "contact_name": "Mateo Iyer",
+     "email": "mateo.iyer@highmoor.example",
+     "phone_day": "+60 4-957 9262",
+     "contact_title": "Key Account Executive",
+     "gross_sales": "66400000",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "MY-LIC-2340153"
+    },
+    "wrong": {
+     "email": "mateo.iyer at highmoor.example",
+     "business_type": "sole_prop"
+    }
+   }
+  }
+ }
+}

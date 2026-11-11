@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-002",
+ "context": "tw-vendor-master/t-tw-002.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "泓勝包裝有限公司",
+    "vendor_name_en": "Honsheng Packaging Co., Ltd.",
+    "ubn": "49539544",
+    "owner": "廖美君",
+    "established": "1983-04-02",
+    "capital": "487000000",
+    "org_type": "limited",
+    "postal": "333",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中山路315號5樓",
+    "tel": "03-478-6874",
+    "fax": "03-478-1543",
+    "contact_name": [
+     "楊雅萱",
+     "Yang Ya-hsuan"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "yahsuan.yang@honsheng-packaging.example",
+    "contact_mobile": "0997-637-929",
+    "bank_code": "808",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "417227732049",
+    "account_name": "泓勝包裝有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-05-09"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "泓勝包裝有限公司",
+     "vendor_name_en": "Honsheng Packaging Co., Ltd.",
+     "ubn": "49539544",
+     "owner": "廖美君",
+     "established": "1983-04-02",
+     "capital": "487000000",
+     "org_type": "limited",
+     "postal": "333",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中山路315號5樓",
+     "tel": "03-478-6874",
+     "fax": "03-478-1543",
+     "contact_name": "楊雅萱",
+     "contact_title": "財務主任",
+     "email": "yahsuan.yang@honsheng-packaging.example",
+     "contact_mobile": "0997-637-929",
+     "bank_code": "808",
+     "bank_branch": "龜山分行",
+     "account_no": "417227732049",
+     "account_name": "泓勝包裝有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-05-09"
+    },
+    "wrong": {
+     "ubn": "495395x",
+     "contact_mobile": "0997-6"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "49539544",
+    "vendor_name_zh": "泓勝包裝有限公司",
+    "vendor_name_en": "Honsheng Packaging Co., Ltd.",
+    "org_type": "limited",
+    "established": "1983-04-02",
+    "owner": "廖美君",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中山路315號5樓",
+    "postal": "333",
+    "tel": "03-478-6874",
+    "fax": "03-478-1543",
+    "contact_name": [
+     "楊雅萱",
+     "Yang Ya-hsuan"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0997-637-929",
+    "email": "yahsuan.yang@honsheng-packaging.example",
+    "bank_code": "808",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "417227732049",
+    "account_name": "泓勝包裝有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-05-09",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "49539544",
+     "vendor_name_zh": "泓勝包裝有限公司",
+     "vendor_name_en": "Honsheng Packaging Co., Ltd.",
+     "org_type": "limited",
+     "established": "1983-04-02",
+     "owner": "廖美君",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中山路315號5樓",
+     "postal": "333",
+     "tel": "03-478-6874",
+     "fax": "03-478-1543",
+     "contact_name": "楊雅萱",
+     "contact_title": "財務主任",
+     "contact_mobile": "0997-637-929",
+     "email": "yahsuan.yang@honsheng-packaging.example",
+     "bank_code": "808",
+     "bank_branch": "龜山分行",
+     "account_no": "417227732049",
+     "account_name": "泓勝包裝有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-05-09"
+    },
+    "wrong": {
+     "ubn": "495395x",
+     "org_type": "corp_shares"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "49539544",
+    "vendor_name_zh": "泓勝包裝有限公司",
+    "owner": "廖美君",
+    "established": "1983-04-02",
+    "org_type": "limited",
+    "capital": "487000000",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中山路315號5樓",
+    "postal": "333",
+    "tel": "03-478-6874",
+    "contact_name": [
+     "楊雅萱",
+     "Yang Ya-hsuan"
+    ],
+    "email": "yahsuan.yang@honsheng-packaging.example",
+    "bank_code": "808",
+    "account_no": "417227732049",
+    "account_name": "泓勝包裝有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "49539544",
+     "vendor_name_zh": "泓勝包裝有限公司",
+     "owner": "廖美君",
+     "established": "1983-04-02",
+     "org_type": "limited",
+     "capital": "487000000",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中山路315號5樓",
+     "postal": "333",
+     "tel": "03-478-6874",
+     "contact_name": "楊雅萱",
+     "email": "yahsuan.yang@honsheng-packaging.example",
+     "bank_code": "808",
+     "account_no": "417227732049",
+     "account_name": "泓勝包裝有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "495395x",
+     "account_name": "泓勝包裝"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "泓勝包裝有限公司",
+    "vendor_name_en": "Honsheng Packaging Co., Ltd.",
+    "foreign": false,
+    "org_type": "limited",
+    "ubn": "49539544",
+    "owner": "廖美君",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中山路315號5樓",
+    "postal": "333",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-478-6874",
+    "contact_name": [
+     "楊雅萱",
+     "Yang Ya-hsuan"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "yahsuan.yang@honsheng-packaging.example",
+    "account_no": "417227732049",
+    "account_name": "泓勝包裝有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "泓勝包裝有限公司",
+     "vendor_name_en": "Honsheng Packaging Co., Ltd.",
+     "foreign": false,
+     "org_type": "limited",
+     "ubn": "49539544",
+     "owner": "廖美君",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中山路315號5樓",
+     "postal": "333",
+     "tel": "03-478-6874",
+     "contact_name": "楊雅萱",
+     "contact_title": "財務主任",
+     "email": "yahsuan.yang@honsheng-packaging.example",
+     "account_no": "417227732049",
+     "account_name": "泓勝包裝有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "495395x",
+     "org_type": "corp_shares"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "808",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "417227732049",
+    "account_name": "泓勝包裝有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中山路315號5樓",
+    "postal": "333",
+    "tel": "03-478-6874",
+    "fax": "03-478-1543",
+    "vendor_name_zh": "泓勝包裝有限公司",
+    "ubn": "49539544",
+    "owner": "廖美君",
+    "org_type": "limited",
+    "established": "1983-04-02",
+    "capital": "487000000",
+    "vendor_name_en": "Honsheng Packaging Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0997-637-929",
+    "contact_name": [
+     "楊雅萱",
+     "Yang Ya-hsuan"
+    ],
+    "email": "yahsuan.yang@honsheng-packaging.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "808",
+     "bank_branch": "龜山分行",
+     "account_no": "417227732049",
+     "account_name": "泓勝包裝有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中山路315號5樓",
+     "postal": "333",
+     "tel": "03-478-6874",
+     "fax": "03-478-1543",
+     "vendor_name_zh": "泓勝包裝有限公司",
+     "ubn": "49539544",
+     "owner": "廖美君",
+     "org_type": "limited",
+     "established": "1983-04-02",
+     "capital": "487000000",
+     "vendor_name_en": "Honsheng Packaging Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_mobile": "0997-637-929",
+     "contact_name": "楊雅萱",
+     "email": "yahsuan.yang@honsheng-packaging.example"
+    },
+    "wrong": {
+     "account_no": "4172277320x",
+     "contact_name": "楊"
+    }
+   }
+  }
+ }
+}

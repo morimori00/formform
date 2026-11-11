@@ -1,0 +1,246 @@
+{
+ "persona": "emr-registration/t-patient-030",
+ "context": "emr-registration/t-patient-030.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Amara",
+    "middle_name": "",
+    "last_name": "Nguyen",
+    "dob": "1991-06-07",
+    "sex": "male",
+    "marital": "married",
+    "language": "english",
+    "street": "12F, No. 113, Sec. 1, Minsheng E. Rd., East Dist.",
+    "city": "Hsinchu City",
+    "postal": "300",
+    "country": "TW",
+    "phone_home": "04-1596-8921",
+    "phone_cell": "0980-324-223",
+    "email": "",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Lucas Nguyen",
+    "ec_phone": "0992-431-450",
+    "ec_relationship": "child",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4556-3015",
+    "group_number": "G-1093",
+    "subscriber_rel": "self",
+    "ins_effective": "2020-09-16"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Amara",
+     "last_name": "Nguyen",
+     "dob": "1991-06-07",
+     "sex": "male",
+     "marital": "married",
+     "language": "english",
+     "street": "12F, No. 113, Sec. 1, Minsheng E. Rd., East Dist.",
+     "city": "Hsinchu City",
+     "postal": "300",
+     "country": "TW",
+     "phone_home": "04-1596-8921",
+     "phone_cell": "0980-324-223",
+     "occupation": "Retired",
+     "ec_name": "Lucas Nguyen",
+     "ec_phone": "0992-431-450",
+     "ec_relationship": "child",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4556-3015",
+     "group_number": "G-1093",
+     "subscriber_rel": "self",
+     "ins_effective": "2020-09-16"
+    },
+    "wrong": {
+     "group_number": "G-1"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Nguyen",
+    "first_name": "Amara",
+    "middle_name": "",
+    "dob": "1991-06-07",
+    "sex": "male",
+    "marital": "married",
+    "national_id": "",
+    "street": "12F, No. 113, Sec. 1, Minsheng E. Rd., East Dist.",
+    "postal": "300",
+    "city": "Hsinchu City",
+    "country": "TW",
+    "phone_cell": "0980-324-223",
+    "phone_home": "04-1596-8921",
+    "email": "",
+    "ec_name": "Lucas Nguyen",
+    "ec_relationship": "child",
+    "ec_phone": "0992-431-450",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4556-3015",
+    "group_number": "G-1093",
+    "subscriber_rel": "self",
+    "ins_effective": "2020-09-16",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Nguyen",
+     "first_name": "Amara",
+     "dob": "1991-06-07",
+     "sex": "male",
+     "marital": "married",
+     "street": "12F, No. 113, Sec. 1, Minsheng E. Rd., East Dist.",
+     "postal": "300",
+     "city": "Hsinchu City",
+     "country": "TW",
+     "phone_cell": "0980-324-223",
+     "phone_home": "04-1596-8921",
+     "ec_name": "Lucas Nguyen",
+     "ec_relationship": "child",
+     "ec_phone": "0992-431-450",
+     "occupation": "Retired",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4556-3015",
+     "group_number": "G-1093",
+     "subscriber_rel": "self",
+     "ins_effective": "2020-09-16"
+    },
+    "wrong": {
+     "ins_provider": "hsh"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Amara",
+    "last_name": "Nguyen",
+    "dob": "1991-06-07",
+    "sex": "male",
+    "language": "english",
+    "street": "12F, No. 113, Sec. 1, Minsheng E. Rd., East Dist.",
+    "city": "Hsinchu City",
+    "postal": "300",
+    "country": "TW",
+    "phone_cell": "0980-324-223",
+    "phone_home": "04-1596-8921",
+    "ec_name": "Lucas Nguyen",
+    "ec_phone": "0992-431-450",
+    "ec_relationship": "child",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4556-3015",
+    "group_number": "G-1093",
+    "subscriber_rel": "self",
+    "ins_effective": "2020-09-16"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Amara",
+     "last_name": "Nguyen",
+     "dob": "1991-06-07",
+     "sex": "male",
+     "language": "english",
+     "street": "12F, No. 113, Sec. 1, Minsheng E. Rd., East Dist.",
+     "city": "Hsinchu City",
+     "postal": "300",
+     "country": "TW",
+     "phone_cell": "0980-324-223",
+     "phone_home": "04-1596-8921",
+     "ec_name": "Lucas Nguyen",
+     "ec_phone": "0992-431-450",
+     "ec_relationship": "child",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4556-3015",
+     "group_number": "G-1093",
+     "subscriber_rel": "self",
+     "ins_effective": "2020-09-16"
+    },
+    "wrong": {
+     "ec_name": "Lucas "
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Nguyen",
+    "first_name": "Amara",
+    "dob": "1991-06-07",
+    "sex": "male",
+    "phone_cell": "0980-324-223",
+    "country": "TW",
+    "city": "Hsinchu City",
+    "postal": "300",
+    "street": "12F, No. 113, Sec. 1, Minsheng E. Rd., East Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4556-3015",
+    "subscriber_rel": "self",
+    "ins_effective": "2020-09-16",
+    "email": "",
+    "phone_home": "04-1596-8921",
+    "marital": "married",
+    "language": "english",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Lucas Nguyen",
+    "ec_phone": "0992-431-450",
+    "ec_relationship": "child",
+    "group_number": "G-1093"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Nguyen",
+     "first_name": "Amara",
+     "dob": "1991-06-07",
+     "sex": "male",
+     "phone_cell": "0980-324-223",
+     "country": "TW",
+     "city": "Hsinchu City",
+     "postal": "300",
+     "street": "12F, No. 113, Sec. 1, Minsheng E. Rd., East Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4556-3015",
+     "subscriber_rel": "self",
+     "ins_effective": "2020-09-16",
+     "phone_home": "04-1596-8921",
+     "marital": "married",
+     "language": "english",
+     "occupation": "Retired",
+     "ec_name": "Lucas Nguyen",
+     "ec_phone": "0992-431-450",
+     "ec_relationship": "child",
+     "group_number": "G-1093"
+    },
+    "wrong": {
+     "ec_name": "Lucas "
+    }
+   }
+  }
+ }
+}

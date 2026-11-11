@@ -1,0 +1,53 @@
+{
+ "persona": "us-tax-portal/e-business-registration-01",
+ "context": "us-tax-portal/e-business-registration-01.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/business-registration": {
+   "submit": true,
+   "fields": {
+    "legal_name": "Sandhurst Bioscience Foundation",
+    "fein": "39-9571584",
+    "business_type": "nonprofit",
+    "established": "2021-11-29",
+    "street1": "7084 Stonegate Ln",
+    "street2": "",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19131",
+    "first_name": "Omar",
+    "last_name": "Kimura",
+    "position": "Bookkeeper",
+    "email": "okimura@sandhurst.example",
+    "day_phone": "(215) 555-0185",
+    "portal_pin": "6974547"
+   },
+   "infeasible": [
+    "street2"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "legal_name": "Sandhurst Bioscience Foundation",
+     "fein": "39-9571584",
+     "business_type": "nonprofit",
+     "established": "2021-11-29",
+     "street1": "7084 Stonegate Ln",
+     "city": "Philadelphia",
+     "state": "PA",
+     "zip": "19131",
+     "first_name": "Omar",
+     "last_name": "Kimura",
+     "position": "Bookkeeper",
+     "email": "okimura@sandhurst.example",
+     "day_phone": "(215) 555-0185",
+     "portal_pin": "6974547"
+    },
+    "wrong": {
+     "fein": "39-95715x",
+     "business_type": "sole_prop"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-035",
+ "context": "tw-vendor-master/t-tw-035.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠群物流股份有限公司",
+    "vendor_name_en": "Kuanchun Logistics Co., Ltd.",
+    "ubn": "42955956",
+    "owner": "葉淑華",
+    "established": "2003-05-23",
+    "capital": "18000000",
+    "org_type": "corp_shares",
+    "postal": "300",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "中山路170號7樓",
+    "tel": "03-437-1415",
+    "fax": "03-437-5000",
+    "contact_name": [
+     "鄭志芬",
+     "Cheng Chih-fen"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "chihfen.cheng@kuanchun-logistics.example",
+    "contact_mobile": "0914-993-376",
+    "bank_code": "009",
+    "bank_branch": [
+     "東分行",
+     "東"
+    ],
+    "account_no": "23503605253874",
+    "account_name": "冠群物流股份有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-03-27"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠群物流股份有限公司",
+     "vendor_name_en": "Kuanchun Logistics Co., Ltd.",
+     "ubn": "42955956",
+     "owner": "葉淑華",
+     "established": "2003-05-23",
+     "capital": "18000000",
+     "org_type": "corp_shares",
+     "postal": "300",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "中山路170號7樓",
+     "tel": "03-437-1415",
+     "fax": "03-437-5000",
+     "contact_name": "鄭志芬",
+     "contact_title": "業務專員",
+     "email": "chihfen.cheng@kuanchun-logistics.example",
+     "contact_mobile": "0914-993-376",
+     "bank_code": "009",
+     "bank_branch": "東分行",
+     "account_no": "23503605253874",
+     "account_name": "冠群物流股份有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-03-27"
+    },
+    "wrong": {
+     "ubn": "429559x",
+     "currency": "USD"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "42955956",
+    "vendor_name_zh": "冠群物流股份有限公司",
+    "vendor_name_en": "Kuanchun Logistics Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "2003-05-23",
+    "owner": "葉淑華",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "中山路170號7樓",
+    "postal": "300",
+    "tel": "03-437-1415",
+    "fax": "03-437-5000",
+    "contact_name": [
+     "鄭志芬",
+     "Cheng Chih-fen"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "contact_mobile": "0914-993-376",
+    "email": "chihfen.cheng@kuanchun-logistics.example",
+    "bank_code": "009",
+    "bank_branch": [
+     "東分行",
+     "東"
+    ],
+    "account_no": "23503605253874",
+    "account_name": "冠群物流股份有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-03-27",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "42955956",
+     "vendor_name_zh": "冠群物流股份有限公司",
+     "vendor_name_en": "Kuanchun Logistics Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "2003-05-23",
+     "owner": "葉淑華",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "中山路170號7樓",
+     "postal": "300",
+     "tel": "03-437-1415",
+     "fax": "03-437-5000",
+     "contact_name": "鄭志芬",
+     "contact_title": "業務專員",
+     "contact_mobile": "0914-993-376",
+     "email": "chihfen.cheng@kuanchun-logistics.example",
+     "bank_code": "009",
+     "bank_branch": "東分行",
+     "account_no": "23503605253874",
+     "account_name": "冠群物流股份有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-03-27"
+    },
+    "wrong": {
+     "ubn": "429559x",
+     "payment_terms": "net30"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "42955956",
+    "vendor_name_zh": "冠群物流股份有限公司",
+    "owner": "葉淑華",
+    "established": "2003-05-23",
+    "org_type": "corp_shares",
+    "capital": "18000000",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "中山路170號7樓",
+    "postal": "300",
+    "tel": "03-437-1415",
+    "contact_name": [
+     "鄭志芬",
+     "Cheng Chih-fen"
+    ],
+    "email": "chihfen.cheng@kuanchun-logistics.example",
+    "bank_code": "009",
+    "account_no": "23503605253874",
+    "account_name": "冠群物流股份有限公司",
+    "payment_terms": "net45",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "42955956",
+     "vendor_name_zh": "冠群物流股份有限公司",
+     "owner": "葉淑華",
+     "established": "2003-05-23",
+     "org_type": "corp_shares",
+     "capital": "18000000",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "中山路170號7樓",
+     "postal": "300",
+     "tel": "03-437-1415",
+     "contact_name": "鄭志芬",
+     "email": "chihfen.cheng@kuanchun-logistics.example",
+     "bank_code": "009",
+     "account_no": "23503605253874",
+     "account_name": "冠群物流股份有限公司",
+     "payment_terms": "net45",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "429559x",
+     "vendor_name_zh": "冠群物流股"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠群物流股份有限公司",
+    "vendor_name_en": "Kuanchun Logistics Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "42955956",
+    "owner": "葉淑華",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "中山路170號7樓",
+    "postal": "300",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-437-1415",
+    "contact_name": [
+     "鄭志芬",
+     "Cheng Chih-fen"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "chihfen.cheng@kuanchun-logistics.example",
+    "account_no": "23503605253874",
+    "account_name": "冠群物流股份有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠群物流股份有限公司",
+     "vendor_name_en": "Kuanchun Logistics Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "42955956",
+     "owner": "葉淑華",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "中山路170號7樓",
+     "postal": "300",
+     "tel": "03-437-1415",
+     "contact_name": "鄭志芬",
+     "contact_title": "業務專員",
+     "email": "chihfen.cheng@kuanchun-logistics.example",
+     "account_no": "23503605253874",
+     "account_name": "冠群物流股份有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "429559x",
+     "address_line": "中山路1"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "009",
+    "bank_branch": [
+     "東分行",
+     "東"
+    ],
+    "account_no": "23503605253874",
+    "account_name": "冠群物流股份有限公司",
+    "payment_terms": "net45",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "中山路170號7樓",
+    "postal": "300",
+    "tel": "03-437-1415",
+    "fax": "03-437-5000",
+    "vendor_name_zh": "冠群物流股份有限公司",
+    "ubn": "42955956",
+    "owner": "葉淑華",
+    "org_type": "corp_shares",
+    "established": "2003-05-23",
+    "capital": "18000000",
+    "vendor_name_en": "Kuanchun Logistics Co., Ltd.",
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "contact_mobile": "0914-993-376",
+    "contact_name": [
+     "鄭志芬",
+     "Cheng Chih-fen"
+    ],
+    "email": "chihfen.cheng@kuanchun-logistics.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "009",
+     "bank_branch": "東分行",
+     "account_no": "23503605253874",
+     "account_name": "冠群物流股份有限公司",
+     "payment_terms": "net45",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "中山路170號7樓",
+     "postal": "300",
+     "tel": "03-437-1415",
+     "fax": "03-437-5000",
+     "vendor_name_zh": "冠群物流股份有限公司",
+     "ubn": "42955956",
+     "owner": "葉淑華",
+     "org_type": "corp_shares",
+     "established": "2003-05-23",
+     "capital": "18000000",
+     "vendor_name_en": "Kuanchun Logistics Co., Ltd.",
+     "contact_title": "業務專員",
+     "contact_mobile": "0914-993-376",
+     "contact_name": "鄭志芬",
+     "email": "chihfen.cheng@kuanchun-logistics.example"
+    },
+    "wrong": {
+     "account_no": "235036052538x",
+     "owner": "葉"
+    }
+   }
+  }
+ }
+}

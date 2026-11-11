@@ -1,0 +1,275 @@
+{
+ "persona": "jp-travel-request/t-trip-023",
+ "context": "jp-travel-request/t-trip-023.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-20411",
+    "name": [
+     "前田 大輔",
+     "前田大輔"
+    ],
+    "dept": "prod_eng",
+    "title": "課長代理",
+    "cost_center": "CC-2210",
+    "email": "d.maeda@kestrel-semi.example",
+    "mobile": "070-9253-9385",
+    "dest_country": "TW",
+    "dest_city": [
+     "新竹市",
+     "新竹"
+    ],
+    "purpose": "新竹工場 量産移管に関する技術打合せ",
+    "depart_date": "2027-01-24",
+    "return_date": "2027-01-26",
+    "outbound_flight": "BR 677",
+    "return_flight": "BR 862",
+    "hotel": "",
+    "visa_needed": "no",
+    "exp_air_amount": "162100",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "15600",
+    "exp_hotel_cur": "TWD",
+    "exp_local_amount": "3500",
+    "exp_local_cur": "TWD",
+    "advance_amount": "80000",
+    "advance_cur": "JPY",
+    "passport_no": "ZS3139533",
+    "passport_expiry": "2027-12-18",
+    "approver": "u_j2288"
+   },
+   "infeasible": [
+    "hotel"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-20411",
+     "name": "前田 大輔",
+     "dept": "prod_eng",
+     "title": "課長代理",
+     "cost_center": "CC-2210",
+     "email": "d.maeda@kestrel-semi.example",
+     "mobile": "070-9253-9385",
+     "dest_country": "TW",
+     "dest_city": "新竹市",
+     "purpose": "新竹工場 量産移管に関する技術打合せ",
+     "depart_date": "2027-01-24",
+     "return_date": "2027-01-26",
+     "outbound_flight": "BR 677",
+     "return_flight": "BR 862",
+     "visa_needed": "no",
+     "exp_air_amount": "162100",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "15600",
+     "exp_hotel_cur": "TWD",
+     "exp_local_amount": "3500",
+     "exp_local_cur": "TWD",
+     "advance_amount": "80000",
+     "advance_cur": "JPY",
+     "passport_no": "ZS3139533",
+     "passport_expiry": "2027-12-18",
+     "approver": "u_j2288"
+    },
+    "wrong": {
+     "email": "d.maeda at kestrel-semi.example",
+     "exp_hotel_amount": "15"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "前田 大輔",
+     "前田大輔"
+    ],
+    "emp_no": "J-20411",
+    "dept": "prod_eng",
+    "approver": "u_j2288",
+    "depart_date": "2027-01-24",
+    "return_date": "2027-01-26",
+    "dest_country": "TW",
+    "dest_city": [
+     "新竹市",
+     "新竹"
+    ],
+    "purpose": "新竹工場 量産移管に関する技術打合せ",
+    "visa_needed": "no",
+    "exp_air_amount": "162100",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "15600",
+    "exp_hotel_cur": "TWD",
+    "advance_amount": "80000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-2210"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "前田 大輔",
+     "emp_no": "J-20411",
+     "dept": "prod_eng",
+     "approver": "u_j2288",
+     "depart_date": "2027-01-24",
+     "return_date": "2027-01-26",
+     "dest_country": "TW",
+     "dest_city": "新竹市",
+     "purpose": "新竹工場 量産移管に関する技術打合せ",
+     "visa_needed": "no",
+     "exp_air_amount": "162100",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "15600",
+     "exp_hotel_cur": "TWD",
+     "advance_amount": "80000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-2210"
+    },
+    "wrong": {
+     "dept": "prod_eng_eq"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "新竹工場 量産移管に関する技術打合せ",
+    "dest_city": [
+     "新竹市",
+     "新竹"
+    ],
+    "dest_country": "TW",
+    "depart_date": "2027-01-24",
+    "return_date": "2027-01-26",
+    "outbound_flight": "BR 677",
+    "return_flight": "BR 862",
+    "hotel": "",
+    "visa_needed": "no",
+    "passport_no": "ZS3139533",
+    "passport_expiry": "2027-12-18",
+    "exp_hotel_amount": "15600",
+    "exp_hotel_cur": "TWD",
+    "exp_air_amount": "162100",
+    "exp_air_cur": "JPY",
+    "advance_amount": "80000",
+    "advance_cur": "JPY",
+    "emp_no": "J-20411",
+    "name": [
+     "前田 大輔",
+     "前田大輔"
+    ],
+    "mobile": "070-9253-9385",
+    "approver": "u_j2288",
+    "cost_center": "CC-2210"
+   },
+   "infeasible": [
+    "hotel"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "新竹工場 量産移管に関する技術打合せ",
+     "dest_city": "新竹市",
+     "dest_country": "TW",
+     "depart_date": "2027-01-24",
+     "return_date": "2027-01-26",
+     "outbound_flight": "BR 677",
+     "return_flight": "BR 862",
+     "visa_needed": "no",
+     "passport_no": "ZS3139533",
+     "passport_expiry": "2027-12-18",
+     "exp_hotel_amount": "15600",
+     "exp_hotel_cur": "TWD",
+     "exp_air_amount": "162100",
+     "exp_air_cur": "JPY",
+     "advance_amount": "80000",
+     "advance_cur": "JPY",
+     "emp_no": "J-20411",
+     "name": "前田 大輔",
+     "mobile": "070-9253-9385",
+     "approver": "u_j2288",
+     "cost_center": "CC-2210"
+    },
+    "wrong": {
+     "passport_no": "ZS31395x",
+     "passport_expiry": "2026-12-18"
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j2288",
+    "cost_center": "CC-2210",
+    "dest_country": "TW",
+    "dest_city": [
+     "新竹市",
+     "新竹"
+    ],
+    "depart_date": "2027-01-24",
+    "return_date": "2027-01-26",
+    "purpose": "新竹工場 量産移管に関する技術打合せ",
+    "visa_needed": "no",
+    "exp_air_amount": "162100",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "15600",
+    "exp_hotel_cur": "TWD",
+    "advance_amount": "80000",
+    "advance_cur": "JPY",
+    "name": [
+     "前田 大輔",
+     "前田大輔"
+    ],
+    "emp_no": "J-20411",
+    "dept": "prod_eng",
+    "email": "d.maeda@kestrel-semi.example",
+    "mobile": "070-9253-9385",
+    "title": "課長代理",
+    "outbound_flight": "BR 677",
+    "return_flight": "BR 862",
+    "hotel": "",
+    "exp_local_amount": "3500",
+    "exp_local_cur": "TWD"
+   },
+   "infeasible": [
+    "hotel"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j2288",
+     "cost_center": "CC-2210",
+     "dest_country": "TW",
+     "dest_city": "新竹市",
+     "depart_date": "2027-01-24",
+     "return_date": "2027-01-26",
+     "purpose": "新竹工場 量産移管に関する技術打合せ",
+     "visa_needed": "no",
+     "exp_air_amount": "162100",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "15600",
+     "exp_hotel_cur": "TWD",
+     "advance_amount": "80000",
+     "advance_cur": "JPY",
+     "name": "前田 大輔",
+     "emp_no": "J-20411",
+     "dept": "prod_eng",
+     "email": "d.maeda@kestrel-semi.example",
+     "mobile": "070-9253-9385",
+     "title": "課長代理",
+     "outbound_flight": "BR 677",
+     "return_flight": "BR 862",
+     "exp_local_amount": "3500",
+     "exp_local_cur": "TWD"
+    },
+    "wrong": {
+     "email": "d.maeda at kestrel-semi.example",
+     "emp_no": "J-2"
+    }
+   }
+  }
+ }
+}

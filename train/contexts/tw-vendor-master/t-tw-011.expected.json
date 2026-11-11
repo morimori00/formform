@@ -1,0 +1,355 @@
+{
+ "persona": "tw-vendor-master/t-tw-011",
+ "context": "tw-vendor-master/t-tw-011.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "弘展環保科技有限公司",
+    "vendor_name_en": "Hungchan Environmental Technology Co., Ltd.",
+    "ubn": "48225400",
+    "owner": "楊家明",
+    "established": "1997-06-26",
+    "capital": "874000000",
+    "org_type": "limited",
+    "postal": "333",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "科技路106號6樓",
+    "tel": "03-758-0102",
+    "fax": "",
+    "contact_name": [
+     "許佩芬",
+     "Hsu Pei-fen"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "peifen.hsu@hungchan-environmental.example",
+    "contact_mobile": "0978-188-056",
+    "bank_code": "822",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "299099431405",
+    "account_name": "弘展環保科技有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": ""
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "弘展環保科技有限公司",
+     "vendor_name_en": "Hungchan Environmental Technology Co., Ltd.",
+     "ubn": "48225400",
+     "owner": "楊家明",
+     "established": "1997-06-26",
+     "capital": "874000000",
+     "org_type": "limited",
+     "postal": "333",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "科技路106號6樓",
+     "tel": "03-758-0102",
+     "contact_name": "許佩芬",
+     "contact_title": "財務主任",
+     "email": "peifen.hsu@hungchan-environmental.example",
+     "contact_mobile": "0978-188-056",
+     "bank_code": "822",
+     "bank_branch": "龜山分行",
+     "account_no": "299099431405",
+     "account_name": "弘展環保科技有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "482254x",
+     "contact_mobile": "0978-1"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "48225400",
+    "vendor_name_zh": "弘展環保科技有限公司",
+    "vendor_name_en": "Hungchan Environmental Technology Co., Ltd.",
+    "org_type": "limited",
+    "established": "1997-06-26",
+    "owner": "楊家明",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "科技路106號6樓",
+    "postal": "333",
+    "tel": "03-758-0102",
+    "fax": "",
+    "contact_name": [
+     "許佩芬",
+     "Hsu Pei-fen"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0978-188-056",
+    "email": "peifen.hsu@hungchan-environmental.example",
+    "bank_code": "822",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "299099431405",
+    "account_name": "弘展環保科技有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": "",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "ubn": "48225400",
+     "vendor_name_zh": "弘展環保科技有限公司",
+     "vendor_name_en": "Hungchan Environmental Technology Co., Ltd.",
+     "org_type": "limited",
+     "established": "1997-06-26",
+     "owner": "楊家明",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "科技路106號6樓",
+     "postal": "333",
+     "tel": "03-758-0102",
+     "contact_name": "許佩芬",
+     "contact_title": "財務主任",
+     "contact_mobile": "0978-188-056",
+     "email": "peifen.hsu@hungchan-environmental.example",
+     "bank_code": "822",
+     "bank_branch": "龜山分行",
+     "account_no": "299099431405",
+     "account_name": "弘展環保科技有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "482254x",
+     "contact_name": "許"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "48225400",
+    "vendor_name_zh": "弘展環保科技有限公司",
+    "owner": "楊家明",
+    "established": "1997-06-26",
+    "org_type": "limited",
+    "capital": "874000000",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "科技路106號6樓",
+    "postal": "333",
+    "tel": "03-758-0102",
+    "contact_name": [
+     "許佩芬",
+     "Hsu Pei-fen"
+    ],
+    "email": "peifen.hsu@hungchan-environmental.example",
+    "bank_code": "822",
+    "account_no": "299099431405",
+    "account_name": "弘展環保科技有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "48225400",
+     "vendor_name_zh": "弘展環保科技有限公司",
+     "owner": "楊家明",
+     "established": "1997-06-26",
+     "org_type": "limited",
+     "capital": "874000000",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "科技路106號6樓",
+     "postal": "333",
+     "tel": "03-758-0102",
+     "contact_name": "許佩芬",
+     "email": "peifen.hsu@hungchan-environmental.example",
+     "bank_code": "822",
+     "account_no": "299099431405",
+     "account_name": "弘展環保科技有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "482254x",
+     "capital": "8740"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "弘展環保科技有限公司",
+    "vendor_name_en": "Hungchan Environmental Technology Co., Ltd.",
+    "foreign": false,
+    "org_type": "limited",
+    "ubn": "48225400",
+    "owner": "楊家明",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "科技路106號6樓",
+    "postal": "333",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-758-0102",
+    "contact_name": [
+     "許佩芬",
+     "Hsu Pei-fen"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "peifen.hsu@hungchan-environmental.example",
+    "account_no": "299099431405",
+    "account_name": "弘展環保科技有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "弘展環保科技有限公司",
+     "vendor_name_en": "Hungchan Environmental Technology Co., Ltd.",
+     "foreign": false,
+     "org_type": "limited",
+     "ubn": "48225400",
+     "owner": "楊家明",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "科技路106號6樓",
+     "postal": "333",
+     "tel": "03-758-0102",
+     "contact_name": "許佩芬",
+     "contact_title": "財務主任",
+     "email": "peifen.hsu@hungchan-environmental.example",
+     "account_no": "299099431405",
+     "account_name": "弘展環保科技有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "482254x",
+     "address_line": "科技路1"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "822",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "299099431405",
+    "account_name": "弘展環保科技有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "科技路106號6樓",
+    "postal": "333",
+    "tel": "03-758-0102",
+    "fax": "",
+    "vendor_name_zh": "弘展環保科技有限公司",
+    "ubn": "48225400",
+    "owner": "楊家明",
+    "org_type": "limited",
+    "established": "1997-06-26",
+    "capital": "874000000",
+    "vendor_name_en": "Hungchan Environmental Technology Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0978-188-056",
+    "contact_name": [
+     "許佩芬",
+     "Hsu Pei-fen"
+    ],
+    "email": "peifen.hsu@hungchan-environmental.example"
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "822",
+     "bank_branch": "龜山分行",
+     "account_no": "299099431405",
+     "account_name": "弘展環保科技有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "科技路106號6樓",
+     "postal": "333",
+     "tel": "03-758-0102",
+     "vendor_name_zh": "弘展環保科技有限公司",
+     "ubn": "48225400",
+     "owner": "楊家明",
+     "org_type": "limited",
+     "established": "1997-06-26",
+     "capital": "874000000",
+     "vendor_name_en": "Hungchan Environmental Technology Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_mobile": "0978-188-056",
+     "contact_name": "許佩芬",
+     "email": "peifen.hsu@hungchan-environmental.example"
+    },
+    "wrong": {
+     "account_no": "2990994314x",
+     "account_name": "弘展環保科"
+    }
+   }
+  }
+ }
+}

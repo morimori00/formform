@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-003",
+ "context": "parabank/t-customer-003.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Nora",
+    "last_name": "Iyer",
+    "street": "5762 Willow Bend St",
+    "city": "Plano",
+    "state": [
+     "TX",
+     "Texas"
+    ],
+    "zip": "75054",
+    "phone": "(972) 555-0119",
+    "ssn": "928-32-2804",
+    "username": "nora.iyer59",
+    "password": "River!3470",
+    "password_confirm": "River!3470"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Nora",
+     "last_name": "Iyer",
+     "street": "5762 Willow Bend St",
+     "city": "Plano",
+     "state": "TX",
+     "zip": "75054",
+     "phone": "(972) 555-0119",
+     "ssn": "928-32-2804",
+     "username": "nora.iyer59",
+     "password": "River!3470",
+     "password_confirm": "River!3470"
+    },
+    "wrong": {
+     "username": "nora."
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Clearwater Insurance Group",
+    "payee_street": "6556 Meadowlark Dr",
+    "payee_city": "Tampa",
+    "payee_state": [
+     "FL",
+     "Florida"
+    ],
+    "payee_zip": "33630",
+    "payee_phone": "(813) 555-0130",
+    "payee_account": "47676-9855",
+    "payee_account_verify": "47676-9855",
+    "amount": "20.67",
+    "from_account": "16788"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Clearwater Insurance Group",
+     "payee_street": "6556 Meadowlark Dr",
+     "payee_city": "Tampa",
+     "payee_state": "FL",
+     "payee_zip": "33630",
+     "payee_phone": "(813) 555-0130",
+     "payee_account": "47676-9855",
+     "payee_account_verify": "47676-9855",
+     "amount": "20.67",
+     "from_account": "16788"
+    },
+    "wrong": {
+     "payee_account_verify": "47676-98x",
+     "payee_state": "F"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "15000",
+    "down_payment": "1500",
+    "loan_from_account": "19675",
+    "new_account_type": "CHECKING",
+    "new_account_from": "19675"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "15000",
+     "down_payment": "1500",
+     "loan_from_account": "19675",
+     "new_account_type": "CHECKING",
+     "new_account_from": "19675"
+    },
+    "wrong": {
+     "loan_from_account": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Clearwater Insurance Group",
+    "payee_street": "6556 Meadowlark Dr",
+    "payee_city": "Tampa",
+    "payee_state": [
+     "FL",
+     "Florida"
+    ],
+    "payee_zip": "33630",
+    "payee_phone": "(813) 555-0130",
+    "from_account": "16788",
+    "amount": "20.67",
+    "payee_account": "47676-9855",
+    "payee_account_verify": "47676-9855"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Clearwater Insurance Group",
+     "payee_street": "6556 Meadowlark Dr",
+     "payee_city": "Tampa",
+     "payee_state": "FL",
+     "payee_zip": "33630",
+     "payee_phone": "(813) 555-0130",
+     "from_account": "16788",
+     "amount": "20.67",
+     "payee_account": "47676-9855",
+     "payee_account_verify": "47676-9855"
+    },
+    "wrong": {
+     "payee_account_verify": "47676-98x",
+     "payee_phone": "(813) 5"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Nora",
+    "last_name": "Iyer",
+    "phone": "(972) 555-0119",
+    "ssn": "928-32-2804",
+    "street": "5762 Willow Bend St",
+    "city": "Plano",
+    "state": [
+     "TX",
+     "Texas"
+    ],
+    "zip": "75054",
+    "username": "nora.iyer59",
+    "password": "River!3470",
+    "password_confirm": "River!3470"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Nora",
+     "last_name": "Iyer",
+     "phone": "(972) 555-0119",
+     "ssn": "928-32-2804",
+     "street": "5762 Willow Bend St",
+     "city": "Plano",
+     "state": "TX",
+     "zip": "75054",
+     "username": "nora.iyer59",
+     "password": "River!3470",
+     "password_confirm": "River!3470"
+    },
+    "wrong": {
+     "zip": "75"
+    }
+   }
+  }
+ }
+}

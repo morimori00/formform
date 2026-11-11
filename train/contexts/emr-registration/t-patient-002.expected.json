@@ -1,0 +1,240 @@
+{
+ "persona": "emr-registration/t-patient-002",
+ "context": "emr-registration/t-patient-002.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chih-Han",
+    "middle_name": "",
+    "last_name": "Chiu",
+    "dob": "1948-03-25",
+    "sex": "female",
+    "marital": "single",
+    "language": "taiwanese",
+    "street": "12F, No. 279, Ln. 190, Sec. 3, Minquan E. Rd., Zuoying Dist.",
+    "city": "Kaohsiung City",
+    "postal": "813",
+    "country": "TW",
+    "phone_home": "02-6121-9050",
+    "phone_cell": "0944-820-222",
+    "email": "",
+    "occupation": "Retired teacher",
+    "employer": "Thornbury Trading Co.",
+    "ec_name": "Kuan-Fen Chiu",
+    "ec_phone": "0924-971-353",
+    "ec_relationship": "sibling",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3200-4475",
+    "group_number": "G-3894",
+    "subscriber_rel": "self",
+    "ins_effective": "2019-06-14"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chih-Han",
+     "last_name": "Chiu",
+     "dob": "1948-03-25",
+     "sex": "female",
+     "marital": "single",
+     "language": "taiwanese",
+     "street": "12F, No. 279, Ln. 190, Sec. 3, Minquan E. Rd., Zuoying Dist.",
+     "city": "Kaohsiung City",
+     "postal": "813",
+     "country": "TW",
+     "phone_home": "02-6121-9050",
+     "phone_cell": "0944-820-222",
+     "occupation": "Retired teacher",
+     "employer": "Thornbury Trading Co.",
+     "ec_name": "Kuan-Fen Chiu",
+     "ec_phone": "0924-971-353",
+     "ec_relationship": "sibling",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3200-4475",
+     "group_number": "G-3894",
+     "subscriber_rel": "self",
+     "ins_effective": "2019-06-14"
+    },
+    "wrong": {
+     "marital": "married"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Chiu",
+    "first_name": "Chih-Han",
+    "middle_name": "",
+    "dob": "1948-03-25",
+    "sex": "female",
+    "marital": "single",
+    "national_id": "",
+    "street": "12F, No. 279, Ln. 190, Sec. 3, Minquan E. Rd., Zuoying Dist.",
+    "postal": "813",
+    "city": "Kaohsiung City",
+    "country": "TW",
+    "phone_cell": "0944-820-222",
+    "phone_home": "02-6121-9050",
+    "email": "",
+    "ec_name": "Kuan-Fen Chiu",
+    "ec_relationship": "sibling",
+    "ec_phone": "0924-971-353",
+    "occupation": "Retired teacher",
+    "employer": "Thornbury Trading Co.",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3200-4475",
+    "group_number": "G-3894",
+    "subscriber_rel": "self",
+    "ins_effective": "2019-06-14",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Chiu",
+     "first_name": "Chih-Han",
+     "dob": "1948-03-25",
+     "sex": "female",
+     "marital": "single",
+     "street": "12F, No. 279, Ln. 190, Sec. 3, Minquan E. Rd., Zuoying Dist.",
+     "postal": "813",
+     "city": "Kaohsiung City",
+     "country": "TW",
+     "phone_cell": "0944-820-222",
+     "phone_home": "02-6121-9050",
+     "ec_name": "Kuan-Fen Chiu",
+     "ec_relationship": "sibling",
+     "ec_phone": "0924-971-353",
+     "occupation": "Retired teacher",
+     "employer": "Thornbury Trading Co.",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3200-4475",
+     "group_number": "G-3894",
+     "subscriber_rel": "self",
+     "ins_effective": "2019-06-14"
+    },
+    "wrong": {
+     "city": "Kaohsiu"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chih-Han",
+    "last_name": "Chiu",
+    "dob": "1948-03-25",
+    "sex": "female",
+    "language": "taiwanese",
+    "street": "12F, No. 279, Ln. 190, Sec. 3, Minquan E. Rd., Zuoying Dist.",
+    "city": "Kaohsiung City",
+    "postal": "813",
+    "country": "TW",
+    "phone_cell": "0944-820-222",
+    "phone_home": "02-6121-9050",
+    "ec_name": "Kuan-Fen Chiu",
+    "ec_phone": "0924-971-353",
+    "ec_relationship": "sibling",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3200-4475",
+    "group_number": "G-3894",
+    "subscriber_rel": "self",
+    "ins_effective": "2019-06-14"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chih-Han",
+     "last_name": "Chiu",
+     "dob": "1948-03-25",
+     "sex": "female",
+     "language": "taiwanese",
+     "street": "12F, No. 279, Ln. 190, Sec. 3, Minquan E. Rd., Zuoying Dist.",
+     "city": "Kaohsiung City",
+     "postal": "813",
+     "country": "TW",
+     "phone_cell": "0944-820-222",
+     "phone_home": "02-6121-9050",
+     "ec_name": "Kuan-Fen Chiu",
+     "ec_phone": "0924-971-353",
+     "ec_relationship": "sibling",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3200-4475",
+     "group_number": "G-3894",
+     "subscriber_rel": "self",
+     "ins_effective": "2019-06-14"
+    },
+    "wrong": {
+     "ec_relationship": "spouse"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Chiu",
+    "first_name": "Chih-Han",
+    "dob": "1948-03-25",
+    "sex": "female",
+    "phone_cell": "0944-820-222",
+    "country": "TW",
+    "city": "Kaohsiung City",
+    "postal": "813",
+    "street": "12F, No. 279, Ln. 190, Sec. 3, Minquan E. Rd., Zuoying Dist.",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3200-4475",
+    "subscriber_rel": "self",
+    "ins_effective": "2019-06-14",
+    "email": "",
+    "phone_home": "02-6121-9050",
+    "marital": "single",
+    "language": "taiwanese",
+    "occupation": "Retired teacher",
+    "employer": "Thornbury Trading Co.",
+    "ec_name": "Kuan-Fen Chiu",
+    "ec_phone": "0924-971-353",
+    "ec_relationship": "sibling",
+    "group_number": "G-3894"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Chiu",
+     "first_name": "Chih-Han",
+     "dob": "1948-03-25",
+     "sex": "female",
+     "phone_cell": "0944-820-222",
+     "country": "TW",
+     "city": "Kaohsiung City",
+     "postal": "813",
+     "street": "12F, No. 279, Ln. 190, Sec. 3, Minquan E. Rd., Zuoying Dist.",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3200-4475",
+     "subscriber_rel": "self",
+     "ins_effective": "2019-06-14",
+     "phone_home": "02-6121-9050",
+     "marital": "single",
+     "language": "taiwanese",
+     "occupation": "Retired teacher",
+     "employer": "Thornbury Trading Co.",
+     "ec_name": "Kuan-Fen Chiu",
+     "ec_phone": "0924-971-353",
+     "ec_relationship": "sibling",
+     "group_number": "G-3894"
+    },
+    "wrong": {
+     "phone_home": "02-612"
+    }
+   }
+  }
+ }
+}

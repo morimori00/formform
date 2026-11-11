@@ -1,0 +1,73 @@
+{
+ "persona": "vendor-onboarding/t-tw-009",
+ "context": "vendor-onboarding/t-tw-009.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Ruichang Electronic Materials Co., Ltd.",
+     "瑞昌電子材料股份有限公司"
+    ],
+    "tax_id": "37006059",
+    "company_address": [
+     "104 臺北市中山區建國路280號5樓",
+     "5F., No. 280, Jianguo Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "established": "2011-04-01",
+    "business_type": "corporation",
+    "gross_sales": "969000000",
+    "contact_name": [
+     "王佩翰",
+     "Wang Pei-han"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "peihan.wang@ruichang-electronic.example",
+    "phone_day": "02-3316-1277",
+    "phone_evening": "",
+    "bank_name": [
+     "合作金庫商業銀行",
+     "Taiwan Cooperative Bank"
+    ],
+    "beneficiary": [
+     "瑞昌電子材料股份有限公司",
+     "Ruichang Electronic Materials Co., Ltd."
+    ],
+    "account_number": "1002526727747",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Ruichang Electronic Materials Co., Ltd.",
+     "tax_id": "37006059",
+     "company_address": "104 臺北市中山區建國路280號5樓",
+     "established": "2011-04-01",
+     "business_type": "corporation",
+     "gross_sales": "969000000",
+     "contact_name": "王佩翰",
+     "contact_title": "財務主任",
+     "email": "peihan.wang@ruichang-electronic.example",
+     "phone_day": "02-3316-1277",
+     "bank_name": "合作金庫商業銀行",
+     "beneficiary": "瑞昌電子材料股份有限公司",
+     "account_number": "1002526727747",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "370060x",
+     "contact_name": "王"
+    }
+   }
+  }
+ }
+}

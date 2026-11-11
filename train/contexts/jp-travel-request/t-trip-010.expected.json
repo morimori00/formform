@@ -1,0 +1,260 @@
+{
+ "persona": "jp-travel-request/t-trip-010",
+ "context": "jp-travel-request/t-trip-010.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-40663",
+    "name": [
+     "山口 裕介",
+     "山口裕介"
+    ],
+    "dept": "ga",
+    "title": "主任",
+    "cost_center": "CC-1100",
+    "email": "y.yamaguchi@kestrel-semi.example",
+    "mobile": "090-0922-8273",
+    "dest_country": "MY",
+    "dest_city": "ペナン",
+    "purpose": "ペナン工場 設備据付の立会いと検収",
+    "depart_date": "2027-01-09",
+    "return_date": "2027-01-15",
+    "outbound_flight": "MH 245",
+    "return_flight": "MH 834",
+    "hotel": "ベイビュー・ホテル",
+    "visa_needed": "no",
+    "exp_air_amount": "72400",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "2490",
+    "exp_hotel_cur": "USD",
+    "exp_local_amount": "180",
+    "exp_local_cur": "USD",
+    "advance_amount": "130000",
+    "advance_cur": "JPY",
+    "passport_no": "KS4624453",
+    "passport_expiry": "2027-11-02",
+    "approver": "u_j3475"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-40663",
+     "name": "山口 裕介",
+     "dept": "ga",
+     "title": "主任",
+     "cost_center": "CC-1100",
+     "email": "y.yamaguchi@kestrel-semi.example",
+     "mobile": "090-0922-8273",
+     "dest_country": "MY",
+     "dest_city": "ペナン",
+     "purpose": "ペナン工場 設備据付の立会いと検収",
+     "depart_date": "2027-01-09",
+     "return_date": "2027-01-15",
+     "outbound_flight": "MH 245",
+     "return_flight": "MH 834",
+     "hotel": "ベイビュー・ホテル",
+     "visa_needed": "no",
+     "exp_air_amount": "72400",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "2490",
+     "exp_hotel_cur": "USD",
+     "exp_local_amount": "180",
+     "exp_local_cur": "USD",
+     "advance_amount": "130000",
+     "advance_cur": "JPY",
+     "passport_no": "KS4624453",
+     "passport_expiry": "2027-11-02",
+     "approver": "u_j3475"
+    },
+    "wrong": {
+     "email": "y.yamaguchi at kestrel-semi.example",
+     "name": "山口"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "山口 裕介",
+     "山口裕介"
+    ],
+    "emp_no": "J-40663",
+    "dept": "ga",
+    "approver": "u_j3475",
+    "depart_date": "2027-01-09",
+    "return_date": "2027-01-15",
+    "dest_country": "MY",
+    "dest_city": "ペナン",
+    "purpose": "ペナン工場 設備据付の立会いと検収",
+    "visa_needed": "no",
+    "exp_air_amount": "72400",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "2490",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "130000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-1100"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "山口 裕介",
+     "emp_no": "J-40663",
+     "dept": "ga",
+     "approver": "u_j3475",
+     "depart_date": "2027-01-09",
+     "return_date": "2027-01-15",
+     "dest_country": "MY",
+     "dest_city": "ペナン",
+     "purpose": "ペナン工場 設備据付の立会いと検収",
+     "visa_needed": "no",
+     "exp_air_amount": "72400",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "2490",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "130000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-1100"
+    },
+    "wrong": {
+     "exp_air_amount": "72"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "ペナン工場 設備据付の立会いと検収",
+    "dest_city": "ペナン",
+    "dest_country": "MY",
+    "depart_date": "2027-01-09",
+    "return_date": "2027-01-15",
+    "outbound_flight": "MH 245",
+    "return_flight": "MH 834",
+    "hotel": "ベイビュー・ホテル",
+    "visa_needed": "no",
+    "passport_no": "KS4624453",
+    "passport_expiry": "2027-11-02",
+    "exp_hotel_amount": "2490",
+    "exp_hotel_cur": "USD",
+    "exp_air_amount": "72400",
+    "exp_air_cur": "JPY",
+    "advance_amount": "130000",
+    "advance_cur": "JPY",
+    "emp_no": "J-40663",
+    "name": [
+     "山口 裕介",
+     "山口裕介"
+    ],
+    "mobile": "090-0922-8273",
+    "approver": "u_j3475",
+    "cost_center": "CC-1100"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "ペナン工場 設備据付の立会いと検収",
+     "dest_city": "ペナン",
+     "dest_country": "MY",
+     "depart_date": "2027-01-09",
+     "return_date": "2027-01-15",
+     "outbound_flight": "MH 245",
+     "return_flight": "MH 834",
+     "hotel": "ベイビュー・ホテル",
+     "visa_needed": "no",
+     "passport_no": "KS4624453",
+     "passport_expiry": "2027-11-02",
+     "exp_hotel_amount": "2490",
+     "exp_hotel_cur": "USD",
+     "exp_air_amount": "72400",
+     "exp_air_cur": "JPY",
+     "advance_amount": "130000",
+     "advance_cur": "JPY",
+     "emp_no": "J-40663",
+     "name": "山口 裕介",
+     "mobile": "090-0922-8273",
+     "approver": "u_j3475",
+     "cost_center": "CC-1100"
+    },
+    "wrong": {
+     "passport_no": "KS46244x",
+     "passport_expiry": "2026-11-02"
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j3475",
+    "cost_center": "CC-1100",
+    "dest_country": "MY",
+    "dest_city": "ペナン",
+    "depart_date": "2027-01-09",
+    "return_date": "2027-01-15",
+    "purpose": "ペナン工場 設備据付の立会いと検収",
+    "visa_needed": "no",
+    "exp_air_amount": "72400",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "2490",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "130000",
+    "advance_cur": "JPY",
+    "name": [
+     "山口 裕介",
+     "山口裕介"
+    ],
+    "emp_no": "J-40663",
+    "dept": "ga",
+    "email": "y.yamaguchi@kestrel-semi.example",
+    "mobile": "090-0922-8273",
+    "title": "主任",
+    "outbound_flight": "MH 245",
+    "return_flight": "MH 834",
+    "hotel": "ベイビュー・ホテル",
+    "exp_local_amount": "180",
+    "exp_local_cur": "USD"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j3475",
+     "cost_center": "CC-1100",
+     "dest_country": "MY",
+     "dest_city": "ペナン",
+     "depart_date": "2027-01-09",
+     "return_date": "2027-01-15",
+     "purpose": "ペナン工場 設備据付の立会いと検収",
+     "visa_needed": "no",
+     "exp_air_amount": "72400",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "2490",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "130000",
+     "advance_cur": "JPY",
+     "name": "山口 裕介",
+     "emp_no": "J-40663",
+     "dept": "ga",
+     "email": "y.yamaguchi@kestrel-semi.example",
+     "mobile": "090-0922-8273",
+     "title": "主任",
+     "outbound_flight": "MH 245",
+     "return_flight": "MH 834",
+     "hotel": "ベイビュー・ホテル",
+     "exp_local_amount": "180",
+     "exp_local_cur": "USD"
+    },
+    "wrong": {
+     "email": "y.yamaguchi at kestrel-semi.example",
+     "exp_local_cur": "JPY"
+    }
+   }
+  }
+ }
+}

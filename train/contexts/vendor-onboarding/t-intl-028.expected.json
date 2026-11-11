@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-028",
+ "context": "vendor-onboarding/t-intl-028.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Redcliff Chemicals Pte. Ltd.",
+    "tax_id": "201548953Z",
+    "company_address": "33 Tuas Avenue 4, #05-23, Singapore 598979",
+    "established": "2002-06-26",
+    "business_type": "private_limited",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "service_area": "global",
+    "gross_sales": "70300000",
+    "contact_name": [
+     "Aisha Mensah",
+     "Ms. Aisha Mensah"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "+65 6525 2736",
+    "phone_evening": "",
+    "email": "aisha.mensah@redcliff.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Redcliff Chemicals Pte. Ltd.",
+    "account_number": "249-988346-6",
+    "swift": "OBBXSG2LXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Redcliff Chemicals Pte. Ltd.",
+     "tax_id": "201548953Z",
+     "company_address": "33 Tuas Avenue 4, #05-23, Singapore 598979",
+     "established": "2002-06-26",
+     "business_type": "private_limited",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "service_area": "global",
+     "gross_sales": "70300000",
+     "contact_name": "Aisha Mensah",
+     "contact_title": "Account Manager",
+     "phone_day": "+65 6525 2736",
+     "email": "aisha.mensah@redcliff.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Redcliff Chemicals Pte. Ltd.",
+     "account_number": "249-988346-6",
+     "swift": "OBBXSG2LXXX"
+    },
+    "wrong": {
+     "email": "aisha.mensah at redcliff.example",
+     "tax_id": "20154"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Redcliff Chemicals Pte. Ltd.",
+    "tax_id": "201548953Z",
+    "established": "2002-06-26",
+    "service_area": "global",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Aisha Mensah",
+     "Ms. Aisha Mensah"
+    ],
+    "email": "aisha.mensah@redcliff.example",
+    "phone_day": "+65 6525 2736",
+    "phone_evening": "",
+    "company_address": "33 Tuas Avenue 4, #05-23, Singapore 598979",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Redcliff Chemicals Pte. Ltd.",
+    "account_number": "249-988346-6",
+    "swift": "OBBXSG2LXXX",
+    "insurance": "insured",
+    "gross_sales": "70300000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Redcliff Chemicals Pte. Ltd.",
+     "tax_id": "201548953Z",
+     "established": "2002-06-26",
+     "service_area": "global",
+     "business_type": "private_limited",
+     "contact_name": "Aisha Mensah",
+     "email": "aisha.mensah@redcliff.example",
+     "phone_day": "+65 6525 2736",
+     "company_address": "33 Tuas Avenue 4, #05-23, Singapore 598979",
+     "licensing": "not_licensed",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Redcliff Chemicals Pte. Ltd.",
+     "account_number": "249-988346-6",
+     "swift": "OBBXSG2LXXX",
+     "insurance": "insured",
+     "gross_sales": "70300000"
+    },
+    "wrong": {
+     "email": "aisha.mensah at redcliff.example",
+     "swift": "OBBXS"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Redcliff Chemicals Pte. Ltd.",
+    "account_number": "249-988346-6",
+    "swift": "OBBXSG2LXXX",
+    "org_name": "Redcliff Chemicals Pte. Ltd.",
+    "tax_id": "201548953Z",
+    "business_type": "private_limited",
+    "established": "2002-06-26",
+    "company_address": "33 Tuas Avenue 4, #05-23, Singapore 598979",
+    "service_area": "global",
+    "contact_name": [
+     "Aisha Mensah",
+     "Ms. Aisha Mensah"
+    ],
+    "email": "aisha.mensah@redcliff.example",
+    "phone_day": "+65 6525 2736",
+    "contact_title": "Account Manager",
+    "phone_evening": "",
+    "gross_sales": "70300000",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Redcliff Chemicals Pte. Ltd.",
+     "account_number": "249-988346-6",
+     "swift": "OBBXSG2LXXX",
+     "org_name": "Redcliff Chemicals Pte. Ltd.",
+     "tax_id": "201548953Z",
+     "business_type": "private_limited",
+     "established": "2002-06-26",
+     "company_address": "33 Tuas Avenue 4, #05-23, Singapore 598979",
+     "service_area": "global",
+     "contact_name": "Aisha Mensah",
+     "email": "aisha.mensah@redcliff.example",
+     "phone_day": "+65 6525 2736",
+     "contact_title": "Account Manager",
+     "gross_sales": "70300000",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "aisha.mensah at redcliff.example",
+     "account_number": "249-98"
+    }
+   }
+  }
+ }
+}

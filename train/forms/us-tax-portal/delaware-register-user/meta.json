@@ -1,0 +1,213 @@
+{
+  "family": "us-tax-portal",
+  "variant": "delaware-register-user",
+  "split": "eval",
+  "title": "Register for Secure Services",
+  "language": "en",
+  "source": "tax.delaware.gov register-taxpayer-user page + registerExternalUser.js (GET), USWDS name/address form templates",
+  "context": "contexts/eval-bluecrest.md",
+  "url": "forms/us-tax-portal/delaware-register-user/index.html",
+  "pages": 3,
+  "goal": "Using the entity fact sheet in the context, complete this state tax portal registration and submit it.",
+  "contexts": [
+    "eval-bluecrest.md"
+  ],
+  "entry": "index.html",
+  "submit": true,
+  "locale": "en",
+  "personas": [
+    "eval-bluecrest",
+    "us-tax-portal/e-delaware-register-user-01",
+    "us-tax-portal/e-delaware-register-user-02",
+    "us-tax-portal/e-delaware-register-user-03",
+    "us-tax-portal/e-delaware-register-user-04",
+    "us-tax-portal/e-delaware-register-user-05",
+    "us-tax-portal/e-delaware-register-user-06",
+    "us-tax-portal/e-delaware-register-user-07",
+    "us-tax-portal/e-delaware-register-user-08"
+  ],
+  "success": {
+    "require_submitted": true,
+    "rule": "all non-infeasible fields match expected (after normalization), infeasible fields empty, and the form was submitted"
+  },
+  "reject_on_first_submit": null,
+  "fields": [
+    {
+      "label": "I have read and accept the Tax Portal Usage Terms",
+      "key": "accept_terms",
+      "kind": "checkbox",
+      "page": 0,
+      "expected_value_from_context": true,
+      "normalization": "bool",
+      "required": true,
+      "id": "accept_terms",
+      "source": "state",
+      "expected": true
+    },
+    {
+      "label": "First Name",
+      "key": "first_name",
+      "kind": "text",
+      "page": 1,
+      "expected_value_from_context": "Jordan",
+      "normalization": "text",
+      "required": true,
+      "id": "first_name",
+      "source": "state",
+      "expected": "Jordan"
+    },
+    {
+      "label": "Middle Initial",
+      "key": "middle_initial",
+      "kind": "text",
+      "page": 1,
+      "expected_value_from_context": "A",
+      "normalization": "text",
+      "required": false,
+      "id": "middle_initial",
+      "source": "state",
+      "expected": "A"
+    },
+    {
+      "label": "Last Name",
+      "key": "last_name",
+      "kind": "text",
+      "page": 1,
+      "expected_value_from_context": "Pierce",
+      "normalization": "text",
+      "required": true,
+      "id": "last_name",
+      "source": "state",
+      "expected": "Pierce"
+    },
+    {
+      "label": "Position / Title",
+      "key": "position",
+      "kind": "text",
+      "page": 1,
+      "expected_value_from_context": "Controller",
+      "normalization": "text",
+      "required": true,
+      "id": "position",
+      "source": "state",
+      "expected": "Controller"
+    },
+    {
+      "label": "Email Address",
+      "key": "email",
+      "kind": "email",
+      "page": 1,
+      "expected_value_from_context": "jpierce@bluecrest-analytics.example",
+      "normalization": "email",
+      "required": true,
+      "id": "email",
+      "source": "state",
+      "expected": "jpierce@bluecrest-analytics.example"
+    },
+    {
+      "label": "Confirm Email Address",
+      "key": "email_confirm",
+      "kind": "email",
+      "page": 1,
+      "expected_value_from_context": "jpierce@bluecrest-analytics.example",
+      "normalization": "email",
+      "required": true,
+      "id": "email_confirm",
+      "source": "state",
+      "expected": "jpierce@bluecrest-analytics.example"
+    },
+    {
+      "label": "Country Code",
+      "key": "country_code",
+      "kind": "select",
+      "page": 1,
+      "expected_value_from_context": "1",
+      "normalization": "choice",
+      "required": true,
+      "id": "country_code",
+      "source": "state",
+      "expected": "1"
+    },
+    {
+      "label": "Daytime Phone",
+      "key": "day_phone",
+      "kind": "tel",
+      "page": 1,
+      "expected_value_from_context": "(302) 555-0148",
+      "normalization": "phone",
+      "required": true,
+      "id": "day_phone",
+      "source": "state",
+      "expected": "(302) 555-0148"
+    },
+    {
+      "label": "Mobile Country Code",
+      "key": "mobile_country_code",
+      "kind": "select",
+      "page": 1,
+      "expected_value_from_context": "1",
+      "normalization": "choice",
+      "required": false,
+      "id": "mobile_country_code",
+      "source": "state",
+      "expected": "1"
+    },
+    {
+      "label": "Mobile Phone",
+      "key": "mobile_phone",
+      "kind": "tel",
+      "page": 1,
+      "expected_value_from_context": "(302) 555-0193",
+      "normalization": "phone",
+      "required": false,
+      "id": "mobile_phone",
+      "source": "state",
+      "expected": "(302) 555-0193"
+    },
+    {
+      "label": "Proposed User ID",
+      "key": "user_id",
+      "kind": "text",
+      "page": 1,
+      "expected_value_from_context": "bluecrest.jpierce",
+      "normalization": "exact",
+      "required": true,
+      "id": "user_id",
+      "source": "state",
+      "expected": "bluecrest.jpierce"
+    },
+    {
+      "label": "Electronic Signature (type your full name)",
+      "key": "esign",
+      "kind": "text",
+      "page": 2,
+      "expected_value_from_context": "Jordan A. Pierce",
+      "normalization": "name",
+      "required": true,
+      "id": "esign",
+      "source": "state",
+      "expected": "Jordan A. Pierce"
+    },
+    {
+      "label": "I certify that the information provided is true and correct",
+      "key": "certify",
+      "kind": "checkbox",
+      "page": 2,
+      "expected_value_from_context": true,
+      "normalization": "bool",
+      "required": true,
+      "id": "certify",
+      "source": "state",
+      "expected": true
+    }
+  ],
+  "hard_states_supported": [
+    "prefilled",
+    "partial",
+    "wrong",
+    "loading",
+    "scroll",
+    "multi_page"
+  ],
+  "notes": "Terms box to scroll, confirm-email match, country-code selects."
+}

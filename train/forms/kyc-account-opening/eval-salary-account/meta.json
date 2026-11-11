@@ -1,0 +1,216 @@
+{
+  "family": "kyc-account-opening",
+  "variant": "eval-salary-account",
+  "split": "eval",
+  "title": "Salary Account Opening — Foreign Employee",
+  "language": "en",
+  "source": "Jotform templates kyc-form, account-opening-form (field lists from public template pages)",
+  "context": "contexts/eval-maria-santos.md",
+  "url": "forms/kyc-account-opening/eval-salary-account/index.html",
+  "pages": 2,
+  "goal": "Fill in this bank KYC / account form for the customer using the dossier in the context, then submit.",
+  "contexts": [
+    "eval-maria-santos.md"
+  ],
+  "entry": "index.html",
+  "submit": true,
+  "locale": "en",
+  "personas": [
+    "eval-maria-santos",
+    "kyc-account-opening/e-eval-salary-account-01",
+    "kyc-account-opening/e-eval-salary-account-02",
+    "kyc-account-opening/e-eval-salary-account-03",
+    "kyc-account-opening/e-eval-salary-account-04",
+    "kyc-account-opening/e-eval-salary-account-05",
+    "kyc-account-opening/e-eval-salary-account-06",
+    "kyc-account-opening/e-eval-salary-account-07",
+    "kyc-account-opening/e-eval-salary-account-08"
+  ],
+  "success": {
+    "require_submitted": true,
+    "rule": "all non-infeasible fields match expected (after normalization), infeasible fields empty, and the form was submitted"
+  },
+  "reject_on_first_submit": null,
+  "fields": [
+    {
+      "label": "Full name (as in passport)",
+      "key": "full_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "Maria Isabel Santos",
+      "accept": [
+        "SANTOS, MARIA ISABEL",
+        "Maria Santos"
+      ],
+      "normalization": "name",
+      "required": true,
+      "id": "full_name",
+      "source": "state",
+      "expected": [
+        "Maria Isabel Santos",
+        "SANTOS, MARIA ISABEL",
+        "Maria Santos"
+      ]
+    },
+    {
+      "label": "Gender",
+      "key": "gender",
+      "kind": "radio",
+      "page": 0,
+      "expected_value_from_context": "female",
+      "normalization": "choice",
+      "required": true,
+      "id": "gender",
+      "source": "state",
+      "expected": "female"
+    },
+    {
+      "label": "Date of Birth",
+      "key": "dob",
+      "kind": "datepicker",
+      "page": 0,
+      "expected_value_from_context": "1990-10-05",
+      "normalization": "date",
+      "required": true,
+      "id": "dob",
+      "source": "state",
+      "expected": "1990-10-05"
+    },
+    {
+      "label": "Nationality",
+      "key": "nationality",
+      "kind": "dropdown",
+      "page": 0,
+      "expected_value_from_context": "PH",
+      "normalization": "choice",
+      "required": true,
+      "id": "nationality",
+      "source": "state",
+      "expected": "PH"
+    },
+    {
+      "label": "Form of Identification",
+      "key": "id_form",
+      "kind": "select",
+      "page": 0,
+      "expected_value_from_context": "passport",
+      "normalization": "choice",
+      "required": true,
+      "id": "id_form",
+      "source": "state",
+      "expected": "passport"
+    },
+    {
+      "label": "Phone Number",
+      "key": "phone",
+      "kind": "tel",
+      "page": 0,
+      "expected_value_from_context": "+886 970 228 415",
+      "normalization": "phone",
+      "required": true,
+      "id": "phone",
+      "source": "state",
+      "expected": "+886 970 228 415"
+    },
+    {
+      "label": "Email Address",
+      "key": "email",
+      "kind": "email",
+      "page": 0,
+      "expected_value_from_context": "maria.santos@kestrel-semi.example",
+      "normalization": "email",
+      "required": true,
+      "id": "email",
+      "source": "state",
+      "expected": "maria.santos@kestrel-semi.example"
+    },
+    {
+      "label": "Mailing address in Taiwan",
+      "key": "address",
+      "kind": "textarea",
+      "page": 1,
+      "expected_value_from_context": "Hsinchu Science Park Residence, No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+      "accept": [
+        "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300"
+      ],
+      "normalization": "fuzzy",
+      "required": true,
+      "id": "address",
+      "source": "state",
+      "expected": [
+        "Hsinchu Science Park Residence, No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+        "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300"
+      ]
+    },
+    {
+      "label": "Mother's Maiden Name",
+      "key": "mother_maiden",
+      "kind": "text",
+      "page": 1,
+      "expected_value_from_context": "Reyes",
+      "normalization": "text",
+      "required": true,
+      "id": "mother_maiden",
+      "source": "state",
+      "expected": "Reyes"
+    },
+    {
+      "label": "Education Level",
+      "key": "education",
+      "kind": "dropdown",
+      "page": 1,
+      "expected_value_from_context": "bachelor",
+      "normalization": "choice",
+      "required": true,
+      "id": "education",
+      "source": "state",
+      "expected": "bachelor"
+    },
+    {
+      "label": "Account Type",
+      "key": "account_type",
+      "kind": "radio",
+      "page": 1,
+      "expected_value_from_context": "savings",
+      "normalization": "choice",
+      "required": true,
+      "id": "account_type",
+      "source": "state",
+      "expected": "savings"
+    },
+    {
+      "label": "Account Category",
+      "key": "account_category",
+      "kind": "radio",
+      "page": 1,
+      "expected_value_from_context": "individual",
+      "normalization": "choice",
+      "required": true,
+      "id": "account_category",
+      "source": "state",
+      "expected": "individual"
+    },
+    {
+      "label": "Monthly salary (TWD)",
+      "key": "monthly_income",
+      "kind": "number",
+      "page": 1,
+      "expected_value_from_context": "142000",
+      "normalization": "amount",
+      "required": true,
+      "id": "monthly_income",
+      "source": "state",
+      "expected": "142000"
+    }
+  ],
+  "hard_states_supported": [
+    "prefilled",
+    "partial",
+    "wrong",
+    "loading",
+    "multi_page",
+    "custom_dropdown",
+    "date_picker"
+  ],
+  "notes": "Eval persona; passport as ID; similar colleague name in context."
+}

@@ -1,0 +1,225 @@
+{
+ "persona": "kyc-account-opening/t-kyc-040",
+ "context": "kyc-account-opening/t-kyc-040.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-36470",
+    "full_name": [
+     "Lu Mei-Han",
+     "Mei-Han Lu"
+    ],
+    "spouse_name": "Yang Tzu-Hsuan",
+    "gender": "male",
+    "marital": "single",
+    "dob": "1994-01-04",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "H223523233",
+    "id_proof": "national_id",
+    "address": [
+     "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701"
+    ],
+    "phone": "+886 984 009 453",
+    "email": "meihan.lu@inbox.example",
+    "addr_proof": "bank_statement",
+    "perm_same": false,
+    "perm_address": [
+     "11F, No. 134, Ln. 89, Sec. 2, Minquan E. Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "11F, No. 134, Ln. 89, Sec. 2, Minquan E. Rd., Nantun Dist., Taichung City 408"
+    ],
+    "decl_name": [
+     "Lu Mei-Han",
+     "Mei-Han Lu"
+    ],
+    "sign_date": "2026-11-10",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-36470",
+     "full_name": "Lu Mei-Han",
+     "spouse_name": "Yang Tzu-Hsuan",
+     "gender": "male",
+     "marital": "single",
+     "dob": "1994-01-04",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "H223523233",
+     "id_proof": "national_id",
+     "address": "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "phone": "+886 984 009 453",
+     "email": "meihan.lu@inbox.example",
+     "addr_proof": "bank_statement",
+     "perm_same": false,
+     "perm_address": "11F, No. 134, Ln. 89, Sec. 2, Minquan E. Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "decl_name": "Lu Mei-Han",
+     "sign_date": "2026-11-10"
+    },
+    "wrong": {
+     "tax_id": "H2235232x",
+     "dob": "1993-01-04"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Lu Mei-Han",
+     "Mei-Han Lu"
+    ],
+    "dob": "1994-01-04",
+    "mother_maiden": "Lu",
+    "phone": "+886 984 009 453",
+    "email": "meihan.lu@inbox.example",
+    "address": [
+     "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701"
+    ],
+    "education": "associate",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "individual",
+    "monthly_income": "237000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Lu Mei-Han",
+     "dob": "1994-01-04",
+     "mother_maiden": "Lu",
+     "phone": "+886 984 009 453",
+     "email": "meihan.lu@inbox.example",
+     "address": "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "education": "associate",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "individual",
+     "monthly_income": "237000"
+    },
+    "wrong": {
+     "email": "meihan.lu at inbox.example",
+     "education": "high_school"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Lu Mei-Han",
+     "Mei-Han Lu"
+    ],
+    "dob": "1994-01-04",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Yang Tzu-Hsuan",
+    "address": [
+     "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701"
+    ],
+    "email": "meihan.lu@inbox.example",
+    "phone": "+886 984 009 453",
+    "addr_proof": "bank_statement",
+    "id_proof": "national_id",
+    "tax_id": "H223523233",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-36470"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Lu Mei-Han",
+     "dob": "1994-01-04",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Yang Tzu-Hsuan",
+     "address": "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "email": "meihan.lu@inbox.example",
+     "phone": "+886 984 009 453",
+     "addr_proof": "bank_statement",
+     "id_proof": "national_id",
+     "tax_id": "H223523233",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-36470"
+    },
+    "wrong": {
+     "email": "meihan.lu at inbox.example",
+     "application_no": "LCB-AO-2"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Lu Mei-Han",
+     "Mei-Han Lu"
+    ],
+    "dob": "1994-01-04",
+    "gender": "male",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 984 009 453",
+    "email": "meihan.lu@inbox.example",
+    "address": [
+     "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701"
+    ],
+    "perm_same": false,
+    "id_proof": "national_id",
+    "tax_id": "H223523233",
+    "addr_proof": "bank_statement",
+    "account_type": "savings",
+    "account_category": "individual",
+    "education": "associate",
+    "monthly_income": "237000",
+    "application_no": "LCB-AO-2026-36470",
+    "perm_address": [
+     "11F, No. 134, Ln. 89, Sec. 2, Minquan E. Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "11F, No. 134, Ln. 89, Sec. 2, Minquan E. Rd., Nantun Dist., Taichung City 408"
+    ]
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Lu Mei-Han",
+     "dob": "1994-01-04",
+     "gender": "male",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 984 009 453",
+     "email": "meihan.lu@inbox.example",
+     "address": "8F, No. 59, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "perm_same": false,
+     "id_proof": "national_id",
+     "tax_id": "H223523233",
+     "addr_proof": "bank_statement",
+     "account_type": "savings",
+     "account_category": "individual",
+     "education": "associate",
+     "monthly_income": "237000",
+     "application_no": "LCB-AO-2026-36470",
+     "perm_address": "11F, No. 134, Ln. 89, Sec. 2, Minquan E. Rd., Nantun Dist., Taichung City 408, Taiwan"
+    },
+    "wrong": {
+     "email": "meihan.lu at inbox.example",
+     "gender": "female"
+    }
+   }
+  }
+ }
+}

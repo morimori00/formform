@@ -1,0 +1,225 @@
+{
+ "persona": "kyc-account-opening/t-kyc-016",
+ "context": "kyc-account-opening/t-kyc-016.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-27018",
+    "full_name": [
+     "Fang Pei-Wen",
+     "Pei-Wen Fang"
+    ],
+    "spouse_name": "Tsao Ming-Jie",
+    "gender": "female",
+    "marital": "single",
+    "dob": "1972-03-19",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "G131819497",
+    "id_proof": "national_id",
+    "address": [
+     "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408"
+    ],
+    "phone": "+886 927 735 722",
+    "email": "peiwen.fang@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": false,
+    "perm_address": [
+     "11F, No. 181, Ziyou Rd., Songshan Dist., Taipei City 105, Taiwan",
+     "11F, No. 181, Ziyou Rd., Songshan Dist., Taipei City 105"
+    ],
+    "decl_name": [
+     "Fang Pei-Wen",
+     "Pei-Wen Fang"
+    ],
+    "sign_date": "2026-11-03",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-27018",
+     "full_name": "Fang Pei-Wen",
+     "spouse_name": "Tsao Ming-Jie",
+     "gender": "female",
+     "marital": "single",
+     "dob": "1972-03-19",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "G131819497",
+     "id_proof": "national_id",
+     "address": "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "phone": "+886 927 735 722",
+     "email": "peiwen.fang@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": false,
+     "perm_address": "11F, No. 181, Ziyou Rd., Songshan Dist., Taipei City 105, Taiwan",
+     "decl_name": "Fang Pei-Wen",
+     "sign_date": "2026-11-03"
+    },
+    "wrong": {
+     "tax_id": "G1318194x",
+     "marital": "married"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Fang Pei-Wen",
+     "Pei-Wen Fang"
+    ],
+    "dob": "1972-03-19",
+    "mother_maiden": "Chou",
+    "phone": "+886 927 735 722",
+    "email": "peiwen.fang@inbox.example",
+    "address": [
+     "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408"
+    ],
+    "education": "bachelor",
+    "id_form": "national_id",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "295000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Fang Pei-Wen",
+     "dob": "1972-03-19",
+     "mother_maiden": "Chou",
+     "phone": "+886 927 735 722",
+     "email": "peiwen.fang@inbox.example",
+     "address": "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "education": "bachelor",
+     "id_form": "national_id",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "295000"
+    },
+    "wrong": {
+     "email": "peiwen.fang at inbox.example",
+     "dob": "1971-03-19"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Fang Pei-Wen",
+     "Pei-Wen Fang"
+    ],
+    "dob": "1972-03-19",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Tsao Ming-Jie",
+    "address": [
+     "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408"
+    ],
+    "email": "peiwen.fang@inbox.example",
+    "phone": "+886 927 735 722",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "G131819497",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-27018"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Fang Pei-Wen",
+     "dob": "1972-03-19",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Tsao Ming-Jie",
+     "address": "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "email": "peiwen.fang@inbox.example",
+     "phone": "+886 927 735 722",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "G131819497",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-27018"
+    },
+    "wrong": {
+     "email": "peiwen.fang at inbox.example",
+     "residency": "non_resident"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Fang Pei-Wen",
+     "Pei-Wen Fang"
+    ],
+    "dob": "1972-03-19",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 927 735 722",
+    "email": "peiwen.fang@inbox.example",
+    "address": [
+     "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408"
+    ],
+    "perm_same": false,
+    "id_proof": "national_id",
+    "tax_id": "G131819497",
+    "addr_proof": "tax_bill",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "education": "bachelor",
+    "monthly_income": "295000",
+    "application_no": "LCB-AO-2026-27018",
+    "perm_address": [
+     "11F, No. 181, Ziyou Rd., Songshan Dist., Taipei City 105, Taiwan",
+     "11F, No. 181, Ziyou Rd., Songshan Dist., Taipei City 105"
+    ]
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Fang Pei-Wen",
+     "dob": "1972-03-19",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 927 735 722",
+     "email": "peiwen.fang@inbox.example",
+     "address": "2F, No. 218, Jianguo Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "perm_same": false,
+     "id_proof": "national_id",
+     "tax_id": "G131819497",
+     "addr_proof": "tax_bill",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "education": "bachelor",
+     "monthly_income": "295000",
+     "application_no": "LCB-AO-2026-27018",
+     "perm_address": "11F, No. 181, Ziyou Rd., Songshan Dist., Taipei City 105, Taiwan"
+    },
+    "wrong": {
+     "email": "peiwen.fang at inbox.example",
+     "dob": "1971-03-19"
+    }
+   }
+  }
+ }
+}

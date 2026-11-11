@@ -1,0 +1,355 @@
+{
+ "persona": "tw-vendor-master/t-tw-005",
+ "context": "tw-vendor-master/t-tw-005.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "祥格科技股份有限公司",
+    "vendor_name_en": "Xiangge Technology Co., Ltd.",
+    "ubn": "30328739",
+    "owner": "謝怡君",
+    "established": "2017-01-09",
+    "capital": "737000000",
+    "org_type": "corp_shares",
+    "postal": "412",
+    "county": "臺中市",
+    "district": "大里區",
+    "address_line": "民生路267號10樓",
+    "tel": "04-312-1963",
+    "fax": "",
+    "contact_name": [
+     "鄭美萱",
+     "Cheng Mei-hsuan"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "meihsuan.cheng@xiangge-technology.example",
+    "contact_mobile": "0936-588-493",
+    "bank_code": "008",
+    "bank_branch": [
+     "大里分行",
+     "大里"
+    ],
+    "account_no": "1433993742765",
+    "account_name": "祥格科技股份有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": ""
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "祥格科技股份有限公司",
+     "vendor_name_en": "Xiangge Technology Co., Ltd.",
+     "ubn": "30328739",
+     "owner": "謝怡君",
+     "established": "2017-01-09",
+     "capital": "737000000",
+     "org_type": "corp_shares",
+     "postal": "412",
+     "county": "臺中市",
+     "district": "大里區",
+     "address_line": "民生路267號10樓",
+     "tel": "04-312-1963",
+     "contact_name": "鄭美萱",
+     "contact_title": "業務專員",
+     "email": "meihsuan.cheng@xiangge-technology.example",
+     "contact_mobile": "0936-588-493",
+     "bank_code": "008",
+     "bank_branch": "大里分行",
+     "account_no": "1433993742765",
+     "account_name": "祥格科技股份有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "303287x",
+     "contact_name": "鄭"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "30328739",
+    "vendor_name_zh": "祥格科技股份有限公司",
+    "vendor_name_en": "Xiangge Technology Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "2017-01-09",
+    "owner": "謝怡君",
+    "county": "臺中市",
+    "district": "大里區",
+    "address_line": "民生路267號10樓",
+    "postal": "412",
+    "tel": "04-312-1963",
+    "fax": "",
+    "contact_name": [
+     "鄭美萱",
+     "Cheng Mei-hsuan"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "contact_mobile": "0936-588-493",
+    "email": "meihsuan.cheng@xiangge-technology.example",
+    "bank_code": "008",
+    "bank_branch": [
+     "大里分行",
+     "大里"
+    ],
+    "account_no": "1433993742765",
+    "account_name": "祥格科技股份有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": "",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "ubn": "30328739",
+     "vendor_name_zh": "祥格科技股份有限公司",
+     "vendor_name_en": "Xiangge Technology Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "2017-01-09",
+     "owner": "謝怡君",
+     "county": "臺中市",
+     "district": "大里區",
+     "address_line": "民生路267號10樓",
+     "postal": "412",
+     "tel": "04-312-1963",
+     "contact_name": "鄭美萱",
+     "contact_title": "業務專員",
+     "contact_mobile": "0936-588-493",
+     "email": "meihsuan.cheng@xiangge-technology.example",
+     "bank_code": "008",
+     "bank_branch": "大里分行",
+     "account_no": "1433993742765",
+     "account_name": "祥格科技股份有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "303287x",
+     "currency": "USD"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "30328739",
+    "vendor_name_zh": "祥格科技股份有限公司",
+    "owner": "謝怡君",
+    "established": "2017-01-09",
+    "org_type": "corp_shares",
+    "capital": "737000000",
+    "county": "臺中市",
+    "district": "大里區",
+    "address_line": "民生路267號10樓",
+    "postal": "412",
+    "tel": "04-312-1963",
+    "contact_name": [
+     "鄭美萱",
+     "Cheng Mei-hsuan"
+    ],
+    "email": "meihsuan.cheng@xiangge-technology.example",
+    "bank_code": "008",
+    "account_no": "1433993742765",
+    "account_name": "祥格科技股份有限公司",
+    "payment_terms": "net60",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "30328739",
+     "vendor_name_zh": "祥格科技股份有限公司",
+     "owner": "謝怡君",
+     "established": "2017-01-09",
+     "org_type": "corp_shares",
+     "capital": "737000000",
+     "county": "臺中市",
+     "district": "大里區",
+     "address_line": "民生路267號10樓",
+     "postal": "412",
+     "tel": "04-312-1963",
+     "contact_name": "鄭美萱",
+     "email": "meihsuan.cheng@xiangge-technology.example",
+     "bank_code": "008",
+     "account_no": "1433993742765",
+     "account_name": "祥格科技股份有限公司",
+     "payment_terms": "net60",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "303287x",
+     "tel": "04-31"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "祥格科技股份有限公司",
+    "vendor_name_en": "Xiangge Technology Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "30328739",
+    "owner": "謝怡君",
+    "county": "臺中市",
+    "district": "大里區",
+    "address_line": "民生路267號10樓",
+    "postal": "412",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "04-312-1963",
+    "contact_name": [
+     "鄭美萱",
+     "Cheng Mei-hsuan"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "meihsuan.cheng@xiangge-technology.example",
+    "account_no": "1433993742765",
+    "account_name": "祥格科技股份有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "祥格科技股份有限公司",
+     "vendor_name_en": "Xiangge Technology Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "30328739",
+     "owner": "謝怡君",
+     "county": "臺中市",
+     "district": "大里區",
+     "address_line": "民生路267號10樓",
+     "postal": "412",
+     "tel": "04-312-1963",
+     "contact_name": "鄭美萱",
+     "contact_title": "業務專員",
+     "email": "meihsuan.cheng@xiangge-technology.example",
+     "account_no": "1433993742765",
+     "account_name": "祥格科技股份有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "303287x",
+     "contact_name": "鄭"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "008",
+    "bank_branch": [
+     "大里分行",
+     "大里"
+    ],
+    "account_no": "1433993742765",
+    "account_name": "祥格科技股份有限公司",
+    "payment_terms": "net60",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "臺中市",
+    "district": "大里區",
+    "address_line": "民生路267號10樓",
+    "postal": "412",
+    "tel": "04-312-1963",
+    "fax": "",
+    "vendor_name_zh": "祥格科技股份有限公司",
+    "ubn": "30328739",
+    "owner": "謝怡君",
+    "org_type": "corp_shares",
+    "established": "2017-01-09",
+    "capital": "737000000",
+    "vendor_name_en": "Xiangge Technology Co., Ltd.",
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "contact_mobile": "0936-588-493",
+    "contact_name": [
+     "鄭美萱",
+     "Cheng Mei-hsuan"
+    ],
+    "email": "meihsuan.cheng@xiangge-technology.example"
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "008",
+     "bank_branch": "大里分行",
+     "account_no": "1433993742765",
+     "account_name": "祥格科技股份有限公司",
+     "payment_terms": "net60",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "臺中市",
+     "district": "大里區",
+     "address_line": "民生路267號10樓",
+     "postal": "412",
+     "tel": "04-312-1963",
+     "vendor_name_zh": "祥格科技股份有限公司",
+     "ubn": "30328739",
+     "owner": "謝怡君",
+     "org_type": "corp_shares",
+     "established": "2017-01-09",
+     "capital": "737000000",
+     "vendor_name_en": "Xiangge Technology Co., Ltd.",
+     "contact_title": "業務專員",
+     "contact_mobile": "0936-588-493",
+     "contact_name": "鄭美萱",
+     "email": "meihsuan.cheng@xiangge-technology.example"
+    },
+    "wrong": {
+     "account_no": "14339937427x",
+     "established": "2016-01-09"
+    }
+   }
+  }
+ }
+}

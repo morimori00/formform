@@ -1,0 +1,26 @@
+{
+  "title": "Northwind Cloud partner application wizard (extension fixture C)",
+  "locale": "en-US",
+  "split": "smoke",
+  "contexts": ["c-harbor.md"],
+  "submit": true,
+  "submit_selectors": ["#next", "#submit"],
+  "back_selectors": ["#back"],
+  "notes": "2-step SPA re-rendering #root; portal listbox outside the form; State appears after country; contenteditable; date; ARIA radiogroup chips. Final values are verified from window.__submitted (the app state); the selectors serve the oracle and per-step progress.",
+  "fields": [
+    {"id": "legal", "selector": "#legal", "source": "submitted", "key": "legal", "expected": "Harbor & Pine Analytics, Inc.", "normalize": ["nfkc", "trim", "collapse_space", "casefold"]},
+    {"id": "web", "selector": "#web", "source": "submitted", "key": "web", "expected": "https://harborpine.example.com", "normalize": ["nfkc", "url"]},
+    {"id": "country", "selector": "#country", "kind": "dropdown", "source": "submitted", "key": "country", "expected": "United States"},
+    {"id": "state", "selector": "#st", "kind": "cascade", "source": "submitted", "key": "state", "expected": "Washington"},
+    {"id": "founded", "selector": "#founded", "kind": "date", "source": "submitted", "key": "founded", "expected": "2019-04-12"},
+    {"id": "employees", "selector": "#emp", "kind": "number", "source": "submitted", "key": "employees", "expected": "37", "normalize": ["digits"]},
+    {"id": "description", "selector": "#desc", "kind": "editable", "source": "submitted", "key": "description", "expected": "forecasting", "value": "We build forecasting software that helps regional grocery chains cut food waste by predicting store-level demand.", "match": "contains", "normalize": ["nfkc", "casefold"]},
+    {"id": "first", "selector": "#fn", "source": "submitted", "key": "first", "expected": "Dana"},
+    {"id": "last", "selector": "#ln", "source": "submitted", "key": "last", "expected": "Whitfield"},
+    {"id": "email", "selector": "#em", "kind": "email", "source": "submitted", "key": "email", "expected": "dana@harborpine.example.com", "normalize": ["trim", "casefold"]},
+    {"id": "cc", "selector": "#cc", "kind": "select", "source": "submitted", "key": "cc", "expected": "+1"},
+    {"id": "phone", "selector": "#ph", "kind": "tel", "source": "submitted", "key": "phone", "expected": ["2065550142", "12065550142"], "value": "2065550142", "normalize": ["digits"]},
+    {"id": "role", "selector": "[role=radiogroup]", "kind": "ariaradio", "source": "submitted", "key": "role", "expected": "Founder / CEO"},
+    {"id": "newsletter", "selector": "#news", "kind": "checkbox", "source": "submitted", "key": "newsletter", "expected": false}
+  ]
+}

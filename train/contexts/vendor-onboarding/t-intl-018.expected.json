@@ -1,0 +1,180 @@
+{
+ "persona": "vendor-onboarding/t-intl-018",
+ "context": "vendor-onboarding/t-intl-018.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Halcyon Analytics Pte. Ltd.",
+    "tax_id": "206631231D",
+    "company_address": "55 Tuas Avenue 4, #08-18, Singapore 434843",
+    "established": "2012-10-15",
+    "business_type": "private_limited",
+    "services": "Data analytics and demand forecasting consulting",
+    "service_area": "apac",
+    "gross_sales": "16300000",
+    "contact_name": [
+     "Amara Kowalski",
+     "Ms. Amara Kowalski"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "+65 6763 1612",
+    "phone_evening": "+65 6763 8415",
+    "email": "amara.kowalski@halcyon.example",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Halcyon Analytics Pte. Ltd.",
+    "account_number": "261-815770-1",
+    "swift": "LCMBSGAXXXX"
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Halcyon Analytics Pte. Ltd.",
+     "tax_id": "206631231D",
+     "company_address": "55 Tuas Avenue 4, #08-18, Singapore 434843",
+     "established": "2012-10-15",
+     "business_type": "private_limited",
+     "services": "Data analytics and demand forecasting consulting",
+     "service_area": "apac",
+     "gross_sales": "16300000",
+     "contact_name": "Amara Kowalski",
+     "contact_title": "Account Manager",
+     "phone_day": "+65 6763 1612",
+     "phone_evening": "+65 6763 8415",
+     "email": "amara.kowalski@halcyon.example",
+     "insurance": "not_insured",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Halcyon Analytics Pte. Ltd.",
+     "account_number": "261-815770-1",
+     "swift": "LCMBSGAXXXX"
+    },
+    "wrong": {
+     "email": "amara.kowalski at halcyon.example",
+     "business_type": "sole_prop"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Halcyon Analytics Pte. Ltd.",
+    "tax_id": "206631231D",
+    "established": "2012-10-15",
+    "service_area": "apac",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Amara Kowalski",
+     "Ms. Amara Kowalski"
+    ],
+    "email": "amara.kowalski@halcyon.example",
+    "phone_day": "+65 6763 1612",
+    "phone_evening": "+65 6763 8415",
+    "company_address": "55 Tuas Avenue 4, #08-18, Singapore 434843",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Halcyon Analytics Pte. Ltd.",
+    "account_number": "261-815770-1",
+    "swift": "LCMBSGAXXXX",
+    "insurance": "not_insured",
+    "gross_sales": "16300000"
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Halcyon Analytics Pte. Ltd.",
+     "tax_id": "206631231D",
+     "established": "2012-10-15",
+     "service_area": "apac",
+     "business_type": "private_limited",
+     "contact_name": "Amara Kowalski",
+     "email": "amara.kowalski@halcyon.example",
+     "phone_day": "+65 6763 1612",
+     "phone_evening": "+65 6763 8415",
+     "company_address": "55 Tuas Avenue 4, #08-18, Singapore 434843",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Halcyon Analytics Pte. Ltd.",
+     "account_number": "261-815770-1",
+     "swift": "LCMBSGAXXXX",
+     "insurance": "not_insured",
+     "gross_sales": "16300000"
+    },
+    "wrong": {
+     "email": "amara.kowalski at halcyon.example",
+     "service_area": "taiwan"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Halcyon Analytics Pte. Ltd.",
+    "account_number": "261-815770-1",
+    "swift": "LCMBSGAXXXX",
+    "org_name": "Halcyon Analytics Pte. Ltd.",
+    "tax_id": "206631231D",
+    "business_type": "private_limited",
+    "established": "2012-10-15",
+    "company_address": "55 Tuas Avenue 4, #08-18, Singapore 434843",
+    "service_area": "apac",
+    "contact_name": [
+     "Amara Kowalski",
+     "Ms. Amara Kowalski"
+    ],
+    "email": "amara.kowalski@halcyon.example",
+    "phone_day": "+65 6763 1612",
+    "contact_title": "Account Manager",
+    "phone_evening": "+65 6763 8415",
+    "gross_sales": "16300000",
+    "services": "Data analytics and demand forecasting consulting",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Halcyon Analytics Pte. Ltd.",
+     "account_number": "261-815770-1",
+     "swift": "LCMBSGAXXXX",
+     "org_name": "Halcyon Analytics Pte. Ltd.",
+     "tax_id": "206631231D",
+     "business_type": "private_limited",
+     "established": "2012-10-15",
+     "company_address": "55 Tuas Avenue 4, #08-18, Singapore 434843",
+     "service_area": "apac",
+     "contact_name": "Amara Kowalski",
+     "email": "amara.kowalski@halcyon.example",
+     "phone_day": "+65 6763 1612",
+     "contact_title": "Account Manager",
+     "phone_evening": "+65 6763 8415",
+     "gross_sales": "16300000",
+     "services": "Data analytics and demand forecasting consulting",
+     "insurance": "not_insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "amara.kowalski at halcyon.example",
+     "gross_sales": "1630"
+    }
+   }
+  }
+ }
+}

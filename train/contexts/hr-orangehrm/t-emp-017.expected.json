@@ -1,0 +1,179 @@
+{
+ "persona": "hr-orangehrm/t-emp-017",
+ "context": "hr-orangehrm/t-emp-017.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "middle_name": "",
+    "last_name": "Nguyen",
+    "employee_id": "KST-35438",
+    "create_login": true,
+    "username": "rahul.nguyen",
+    "login_status": "disabled",
+    "password": "Fab3#8737a",
+    "confirm_password": "Fab3#8737a"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Nguyen",
+     "employee_id": "KST-35438",
+     "create_login": true,
+     "username": "rahul.nguyen",
+     "login_status": "disabled",
+     "password": "Fab3#8737a",
+     "confirm_password": "Fab3#8737a"
+    },
+    "wrong": {
+     "employee_id": "KST-354x",
+     "first_name": "Ra"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "middle_name": "",
+    "last_name": "Nguyen",
+    "employee_id": "KST-35438",
+    "license_number": "DL-30165676",
+    "license_expiry": "2029-02-04",
+    "nationality": "US",
+    "marital": "single",
+    "dob": "1993-02-27",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Nguyen",
+     "employee_id": "KST-35438",
+     "license_number": "DL-30165676",
+     "license_expiry": "2029-02-04",
+     "nationality": "US",
+     "marital": "single",
+     "dob": "1993-02-27",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-354x",
+     "license_expiry": "2028-02-04"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-03",
+    "leave_to": "2027-01-08",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Ingrid Pham"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-03",
+     "leave_to": "2027-01-08",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Ingrid Pham"
+    },
+    "wrong": {
+     "leave_from": "2026-01-03"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-03",
+    "leave_to": "2027-01-08",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Ingrid Pham"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-03",
+     "leave_to": "2027-01-08",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Ingrid Pham"
+    },
+    "wrong": {
+     "partial_days": "end"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "middle_name": "",
+    "last_name": "Nguyen",
+    "employee_id": "KST-35438",
+    "create_login": true,
+    "username": "rahul.nguyen",
+    "login_status": "disabled",
+    "password": "Fab3#8737a",
+    "confirm_password": "Fab3#8737a",
+    "nationality": "US",
+    "marital": "single",
+    "dob": "1993-02-27",
+    "gender": "female",
+    "job_title": "fin_analyst",
+    "department": "finance",
+    "work_location": "tainan",
+    "emp_status": "ft_probation",
+    "supervisor": "u_m2993",
+    "joined_date": "2027-01-24"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Nguyen",
+     "employee_id": "KST-35438",
+     "create_login": true,
+     "username": "rahul.nguyen",
+     "login_status": "disabled",
+     "password": "Fab3#8737a",
+     "confirm_password": "Fab3#8737a",
+     "nationality": "US",
+     "marital": "single",
+     "dob": "1993-02-27",
+     "gender": "female",
+     "job_title": "fin_analyst",
+     "department": "finance",
+     "work_location": "tainan",
+     "emp_status": "ft_probation",
+     "supervisor": "u_m2993",
+     "joined_date": "2027-01-24"
+    },
+    "wrong": {
+     "employee_id": "KST-354x",
+     "dob": "1992-02-27"
+    }
+   }
+  }
+ }
+}

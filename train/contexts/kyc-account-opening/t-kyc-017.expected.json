@@ -1,0 +1,225 @@
+{
+ "persona": "kyc-account-opening/t-kyc-017",
+ "context": "kyc-account-opening/t-kyc-017.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-11821",
+    "full_name": [
+     "Yeh Yi-Hsuan",
+     "Yi-Hsuan Yeh"
+    ],
+    "spouse_name": "Hsieh Chun-Yen",
+    "gender": "male",
+    "marital": "married",
+    "dob": "1981-10-14",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "D222895263",
+    "id_proof": "national_id",
+    "address": [
+     "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220"
+    ],
+    "phone": "+886 939 677 283",
+    "email": "yihsuan.yeh@inbox.example",
+    "addr_proof": "bank_statement",
+    "perm_same": false,
+    "perm_address": [
+     "7F, No. 207, Minsheng E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "7F, No. 207, Minsheng E. Rd., North Dist., Hsinchu City 300"
+    ],
+    "decl_name": [
+     "Yeh Yi-Hsuan",
+     "Yi-Hsuan Yeh"
+    ],
+    "sign_date": "2026-11-07",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-11821",
+     "full_name": "Yeh Yi-Hsuan",
+     "spouse_name": "Hsieh Chun-Yen",
+     "gender": "male",
+     "marital": "married",
+     "dob": "1981-10-14",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "D222895263",
+     "id_proof": "national_id",
+     "address": "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "phone": "+886 939 677 283",
+     "email": "yihsuan.yeh@inbox.example",
+     "addr_proof": "bank_statement",
+     "perm_same": false,
+     "perm_address": "7F, No. 207, Minsheng E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "decl_name": "Yeh Yi-Hsuan",
+     "sign_date": "2026-11-07"
+    },
+    "wrong": {
+     "tax_id": "D2228952x",
+     "id_proof": "passport"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yeh Yi-Hsuan",
+     "Yi-Hsuan Yeh"
+    ],
+    "dob": "1981-10-14",
+    "mother_maiden": "Tsao",
+    "phone": "+886 939 677 283",
+    "email": "yihsuan.yeh@inbox.example",
+    "address": [
+     "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220"
+    ],
+    "education": "high_school",
+    "id_form": "national_id",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "59000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Yeh Yi-Hsuan",
+     "dob": "1981-10-14",
+     "mother_maiden": "Tsao",
+     "phone": "+886 939 677 283",
+     "email": "yihsuan.yeh@inbox.example",
+     "address": "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "education": "high_school",
+     "id_form": "national_id",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "59000"
+    },
+    "wrong": {
+     "email": "yihsuan.yeh at inbox.example",
+     "mother_maiden": "Ts"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yeh Yi-Hsuan",
+     "Yi-Hsuan Yeh"
+    ],
+    "dob": "1981-10-14",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Hsieh Chun-Yen",
+    "address": [
+     "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220"
+    ],
+    "email": "yihsuan.yeh@inbox.example",
+    "phone": "+886 939 677 283",
+    "addr_proof": "bank_statement",
+    "id_proof": "national_id",
+    "tax_id": "D222895263",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-11821"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Yeh Yi-Hsuan",
+     "dob": "1981-10-14",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Hsieh Chun-Yen",
+     "address": "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "email": "yihsuan.yeh@inbox.example",
+     "phone": "+886 939 677 283",
+     "addr_proof": "bank_statement",
+     "id_proof": "national_id",
+     "tax_id": "D222895263",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-11821"
+    },
+    "wrong": {
+     "email": "yihsuan.yeh at inbox.example",
+     "addr_proof": "utility_bill"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yeh Yi-Hsuan",
+     "Yi-Hsuan Yeh"
+    ],
+    "dob": "1981-10-14",
+    "gender": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 939 677 283",
+    "email": "yihsuan.yeh@inbox.example",
+    "address": [
+     "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220"
+    ],
+    "perm_same": false,
+    "id_proof": "national_id",
+    "tax_id": "D222895263",
+    "addr_proof": "bank_statement",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "education": "high_school",
+    "monthly_income": "59000",
+    "application_no": "LCB-AO-2026-11821",
+    "perm_address": [
+     "7F, No. 207, Minsheng E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "7F, No. 207, Minsheng E. Rd., North Dist., Hsinchu City 300"
+    ]
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Yeh Yi-Hsuan",
+     "dob": "1981-10-14",
+     "gender": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 939 677 283",
+     "email": "yihsuan.yeh@inbox.example",
+     "address": "13F, No. 212, Sec. 3, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "perm_same": false,
+     "id_proof": "national_id",
+     "tax_id": "D222895263",
+     "addr_proof": "bank_statement",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "education": "high_school",
+     "monthly_income": "59000",
+     "application_no": "LCB-AO-2026-11821",
+     "perm_address": "7F, No. 207, Minsheng E. Rd., North Dist., Hsinchu City 300, Taiwan"
+    },
+    "wrong": {
+     "email": "yihsuan.yeh at inbox.example",
+     "account_type": "savings"
+    }
+   }
+  }
+ }
+}

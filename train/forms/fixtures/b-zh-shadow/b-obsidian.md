@@ -1,0 +1,1 @@
+../../../../extension/fixtures/contexts/b-obsidian.md

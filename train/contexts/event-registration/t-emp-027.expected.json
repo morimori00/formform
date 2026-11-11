@@ -1,0 +1,165 @@
+{
+ "persona": "event-registration/t-emp-027",
+ "context": "event-registration/t-emp-027.md",
+ "split": "train",
+ "variants": {
+  "event-registration/training-single": {
+   "submit": true,
+   "fields": {
+    "email": "chunhua.chiang@kestrel-semi.example",
+    "full_name": [
+     "Chun-Hua Chiang",
+     "Chiang Chun-Hua"
+    ],
+    "employee_id": "KST-29779",
+    "department": "finance",
+    "session": "or_dec02_pm",
+    "attendance": "online",
+    "dietary": "vegetarian",
+    "tshirt": "XL",
+    "recording": false,
+    "topics": ""
+   },
+   "infeasible": [
+    "topics"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "email": "chunhua.chiang@kestrel-semi.example",
+     "full_name": "Chun-Hua Chiang",
+     "employee_id": "KST-29779",
+     "department": "finance",
+     "session": "or_dec02_pm",
+     "attendance": "online",
+     "dietary": "vegetarian",
+     "tshirt": "XL",
+     "recording": false
+    },
+    "wrong": {
+     "email": "chunhua.chiang at kestrel-semi.example",
+     "department": "fab_eng"
+    }
+   }
+  },
+  "event-registration/training-sections": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chun-Hua Chiang",
+     "Chiang Chun-Hua"
+    ],
+    "employee_id": "KST-29779",
+    "email": "chunhua.chiang@kestrel-semi.example",
+    "department": "finance",
+    "course": "orientation",
+    "session": "or_dec02_pm",
+    "attendance": "online",
+    "dietary": "vegetarian",
+    "tshirt": "XL",
+    "recording": false,
+    "topics": ""
+   },
+   "infeasible": [
+    "topics"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chun-Hua Chiang",
+     "employee_id": "KST-29779",
+     "email": "chunhua.chiang@kestrel-semi.example",
+     "department": "finance",
+     "course": "orientation",
+     "session": "or_dec02_pm",
+     "attendance": "online",
+     "dietary": "vegetarian",
+     "tshirt": "XL",
+     "recording": false
+    },
+    "wrong": {
+     "email": "chunhua.chiang at kestrel-semi.example",
+     "employee_id": "KST-"
+    }
+   }
+  },
+  "event-registration/orientation-chips": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chun-Hua Chiang",
+     "Chiang Chun-Hua"
+    ],
+    "employee_id": "KST-29779",
+    "email": "chunhua.chiang@kestrel-semi.example",
+    "course": "orientation",
+    "session": "or_dec02_pm",
+    "attendance": "online",
+    "dietary": "vegetarian",
+    "tshirt": "XL",
+    "recording": false,
+    "topics": ""
+   },
+   "infeasible": [
+    "topics"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chun-Hua Chiang",
+     "employee_id": "KST-29779",
+     "email": "chunhua.chiang@kestrel-semi.example",
+     "course": "orientation",
+     "session": "or_dec02_pm",
+     "attendance": "online",
+     "dietary": "vegetarian",
+     "tshirt": "XL",
+     "recording": false
+    },
+    "wrong": {
+     "email": "chunhua.chiang at kestrel-semi.example",
+     "tshirt": "XS"
+    }
+   }
+  },
+  "event-registration/training-lookup": {
+   "submit": true,
+   "fields": {
+    "session": "or_dec02_pm",
+    "attendance": "online",
+    "full_name": [
+     "Chun-Hua Chiang",
+     "Chiang Chun-Hua"
+    ],
+    "employee_id": "KST-29779",
+    "email": "chunhua.chiang@kestrel-semi.example",
+    "department": "finance",
+    "dietary": "vegetarian",
+    "tshirt": "XL",
+    "recording": false,
+    "topics": ""
+   },
+   "infeasible": [
+    "topics"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "session": "or_dec02_pm",
+     "attendance": "online",
+     "full_name": "Chun-Hua Chiang",
+     "employee_id": "KST-29779",
+     "email": "chunhua.chiang@kestrel-semi.example",
+     "department": "finance",
+     "dietary": "vegetarian",
+     "tshirt": "XL",
+     "recording": false
+    },
+    "wrong": {
+     "email": "chunhua.chiang at kestrel-semi.example",
+     "dietary": "none"
+    }
+   }
+  }
+ }
+}

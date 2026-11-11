@@ -1,0 +1,187 @@
+{
+ "persona": "parabank/t-customer-002",
+ "context": "parabank/t-customer-002.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Nora",
+    "last_name": "Schmidt",
+    "street": "2041 Juniper Hill St",
+    "city": "Seattle",
+    "state": [
+     "WA",
+     "Washington"
+    ],
+    "zip": "98136",
+    "phone": "",
+    "ssn": "954-28-1429",
+    "username": "nora.schmidt83",
+    "password": "Maple-0000",
+    "password_confirm": "Maple-0000"
+   },
+   "infeasible": [
+    "phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Nora",
+     "last_name": "Schmidt",
+     "street": "2041 Juniper Hill St",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98136",
+     "ssn": "954-28-1429",
+     "username": "nora.schmidt83",
+     "password": "Maple-0000",
+     "password_confirm": "Maple-0000"
+    },
+    "wrong": {
+     "state": "W"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Maple Street Property Mgmt",
+    "payee_street": "2011 Alder Creek Dr",
+    "payee_city": "Seattle",
+    "payee_state": [
+     "WA",
+     "Washington"
+    ],
+    "payee_zip": "98135",
+    "payee_phone": "(206) 555-0187",
+    "payee_account": "28192-8454",
+    "payee_account_verify": "28192-8454",
+    "amount": "98.33",
+    "from_account": "15231"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Maple Street Property Mgmt",
+     "payee_street": "2011 Alder Creek Dr",
+     "payee_city": "Seattle",
+     "payee_state": "WA",
+     "payee_zip": "98135",
+     "payee_phone": "(206) 555-0187",
+     "payee_account": "28192-8454",
+     "payee_account_verify": "28192-8454",
+     "amount": "98.33",
+     "from_account": "15231"
+    },
+    "wrong": {
+     "payee_account_verify": "28192-84x",
+     "payee_account": "28192"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "15000",
+    "down_payment": "3000",
+    "loan_from_account": "15231",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "17452"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "15000",
+     "down_payment": "3000",
+     "loan_from_account": "15231",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "17452"
+    },
+    "wrong": {
+     "new_account_type": "CHECKING"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Maple Street Property Mgmt",
+    "payee_street": "2011 Alder Creek Dr",
+    "payee_city": "Seattle",
+    "payee_state": [
+     "WA",
+     "Washington"
+    ],
+    "payee_zip": "98135",
+    "payee_phone": "(206) 555-0187",
+    "from_account": "15231",
+    "amount": "98.33",
+    "payee_account": "28192-8454",
+    "payee_account_verify": "28192-8454"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Maple Street Property Mgmt",
+     "payee_street": "2011 Alder Creek Dr",
+     "payee_city": "Seattle",
+     "payee_state": "WA",
+     "payee_zip": "98135",
+     "payee_phone": "(206) 555-0187",
+     "from_account": "15231",
+     "amount": "98.33",
+     "payee_account": "28192-8454",
+     "payee_account_verify": "28192-8454"
+    },
+    "wrong": {
+     "payee_account_verify": "28192-84x",
+     "payee_city": "Sea"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Nora",
+    "last_name": "Schmidt",
+    "phone": "",
+    "ssn": "954-28-1429",
+    "street": "2041 Juniper Hill St",
+    "city": "Seattle",
+    "state": [
+     "WA",
+     "Washington"
+    ],
+    "zip": "98136",
+    "username": "nora.schmidt83",
+    "password": "Maple-0000",
+    "password_confirm": "Maple-0000"
+   },
+   "infeasible": [
+    "phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Nora",
+     "last_name": "Schmidt",
+     "ssn": "954-28-1429",
+     "street": "2041 Juniper Hill St",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98136",
+     "username": "nora.schmidt83",
+     "password": "Maple-0000",
+     "password_confirm": "Maple-0000"
+    },
+    "wrong": {
+     "state": "AL"
+    }
+   }
+  }
+ }
+}

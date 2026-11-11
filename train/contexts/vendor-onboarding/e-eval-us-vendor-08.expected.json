@@ -1,0 +1,66 @@
+{
+ "persona": "vendor-onboarding/e-eval-us-vendor-08",
+ "context": "vendor-onboarding/e-eval-us-vendor-08.md",
+ "split": "eval",
+ "variants": {
+  "vendor-onboarding/eval-us-vendor": {
+   "submit": true,
+   "fields": {
+    "org_name": "Ashgrove Analytics Inc.",
+    "tax_id": "69-9319326",
+    "business_type": "corporation",
+    "established": "2004-08-20",
+    "company_address": "3615 Meadowlark Ct, Suite 144, Dover, DE 19945",
+    "contact_name": [
+     "Jonas Okonkwo",
+     "Mr. Jonas Okonkwo"
+    ],
+    "contact_title": "Account Manager",
+    "email": "jonas.okonkwo@ashgrove.example",
+    "phone_day": "(302) 555-0181",
+    "phone_evening": "",
+    "services": "Data analytics and demand forecasting consulting",
+    "service_area": "europe",
+    "gross_sales": "34900000",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "bank_name": "Granite State Mutual Bank",
+    "beneficiary": "Ashgrove Analytics Inc.",
+    "account_number": "951-837533-0",
+    "swift": "GSMBUSAXXXX",
+    "license_number": "US-LIC-7041995"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Ashgrove Analytics Inc.",
+     "tax_id": "69-9319326",
+     "business_type": "corporation",
+     "established": "2004-08-20",
+     "company_address": "3615 Meadowlark Ct, Suite 144, Dover, DE 19945",
+     "contact_name": "Jonas Okonkwo",
+     "contact_title": "Account Manager",
+     "email": "jonas.okonkwo@ashgrove.example",
+     "phone_day": "(302) 555-0181",
+     "services": "Data analytics and demand forecasting consulting",
+     "service_area": "europe",
+     "gross_sales": "34900000",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "bank_name": "Granite State Mutual Bank",
+     "beneficiary": "Ashgrove Analytics Inc.",
+     "account_number": "951-837533-0",
+     "swift": "GSMBUSAXXXX",
+     "license_number": "US-LIC-7041995"
+    },
+    "wrong": {
+     "email": "jonas.okonkwo at ashgrove.example",
+     "license_number": "US-LIC-"
+    }
+   }
+  }
+ }
+}

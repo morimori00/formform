@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-012",
+ "context": "itsm-request/t-emp-012.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g20696",
+    "laptop_model": "eng16",
+    "location": "tainan",
+    "needed_by": "2026-12-14",
+    "extra_monitor": true,
+    "cost_center": "CC-8062",
+    "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g20696",
+     "laptop_model": "eng16",
+     "location": "tainan",
+     "needed_by": "2026-12-14",
+     "extra_monitor": true,
+     "cost_center": "CC-8062",
+     "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-80x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16",
+    "extra_monitor": true,
+    "location": "tainan",
+    "needed_by": "2026-12-14",
+    "requested_for": "u_g20696",
+    "cost_center": "CC-8062",
+    "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16",
+     "extra_monitor": true,
+     "location": "tainan",
+     "needed_by": "2026-12-14",
+     "requested_for": "u_g20696",
+     "cost_center": "CC-8062",
+     "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-80x",
+     "laptop_model": "std14"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g20696",
+    "contact_pref": "chat",
+    "inc_category": "network",
+    "inc_subcategory": "vpn",
+    "ci": "KST-NB-13921",
+    "impact": "2",
+    "urgency": "3",
+    "assign_group": "netops",
+    "short_desc": "VPN client fails to connect after the 8.1 update",
+    "inc_desc": "Since the 8.1 client update the VPN shows error 304 at login. Happens on office Wi-Fi and at home. Reinstalling did not help."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g20696",
+     "contact_pref": "chat",
+     "inc_category": "network",
+     "inc_subcategory": "vpn",
+     "ci": "KST-NB-13921",
+     "impact": "2",
+     "urgency": "3",
+     "assign_group": "netops",
+     "short_desc": "VPN client fails to connect after the 8.1 update",
+     "inc_desc": "Since the 8.1 client update the VPN shows error 304 at login. Happens on office Wi-Fi and at home. Reinstalling did not help."
+    },
+    "wrong": {
+     "contact_pref": "email"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "VPN client fails to connect after the 8.1 update",
+    "inc_desc": "Since the 8.1 client update the VPN shows error 304 at login. Happens on office Wi-Fi and at home. Reinstalling did not help.",
+    "caller": "u_g20696",
+    "ci": "KST-NB-13921",
+    "contact_pref": "chat",
+    "inc_category": "network",
+    "inc_subcategory": "vpn",
+    "impact": "2",
+    "urgency": "3",
+    "assign_group": "netops"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "VPN client fails to connect after the 8.1 update",
+     "inc_desc": "Since the 8.1 client update the VPN shows error 304 at login. Happens on office Wi-Fi and at home. Reinstalling did not help.",
+     "caller": "u_g20696",
+     "ci": "KST-NB-13921",
+     "contact_pref": "chat",
+     "inc_category": "network",
+     "inc_subcategory": "vpn",
+     "impact": "2",
+     "urgency": "3",
+     "assign_group": "netops"
+    },
+    "wrong": {
+     "short_desc": "VPN client fails to conn"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g20696",
+    "location": "tainan",
+    "cost_center": "CC-8062",
+    "laptop_model": "eng16",
+    "needed_by": "2026-12-14",
+    "extra_monitor": true,
+    "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g20696",
+     "location": "tainan",
+     "cost_center": "CC-8062",
+     "laptop_model": "eng16",
+     "needed_by": "2026-12-14",
+     "extra_monitor": true,
+     "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-80x",
+     "needed_by": "2025-12-14"
+    }
+   }
+  }
+ }
+}

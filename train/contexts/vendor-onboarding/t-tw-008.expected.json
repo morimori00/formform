@@ -1,0 +1,73 @@
+{
+ "persona": "vendor-onboarding/t-tw-008",
+ "context": "vendor-onboarding/t-tw-008.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Honchan Gases Co., Ltd.",
+     "泓展氣體股份有限公司"
+    ],
+    "tax_id": "27911527",
+    "company_address": [
+     "308 新竹縣寶山鄉民生路171號12樓",
+     "12F., No. 171, Minsheng Rd., Baoshan Township, Hsinchu County 308"
+    ],
+    "established": "2008-05-27",
+    "business_type": "corporation",
+    "gross_sales": "562000000",
+    "contact_name": [
+     "周建芬",
+     "Chou Chien-fen"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "chienfen.chou@honchan-gases.example",
+    "phone_day": "03-164-8980",
+    "phone_evening": "",
+    "bank_name": [
+     "兆豐國際商業銀行",
+     "Mega International Commercial Bank"
+    ],
+    "beneficiary": [
+     "泓展氣體股份有限公司",
+     "Honchan Gases Co., Ltd."
+    ],
+    "account_number": "200617345278",
+    "insurance": "not_insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Honchan Gases Co., Ltd.",
+     "tax_id": "27911527",
+     "company_address": "308 新竹縣寶山鄉民生路171號12樓",
+     "established": "2008-05-27",
+     "business_type": "corporation",
+     "gross_sales": "562000000",
+     "contact_name": "周建芬",
+     "contact_title": "財務主任",
+     "email": "chienfen.chou@honchan-gases.example",
+     "phone_day": "03-164-8980",
+     "bank_name": "兆豐國際商業銀行",
+     "beneficiary": "泓展氣體股份有限公司",
+     "account_number": "200617345278",
+     "insurance": "not_insured"
+    },
+    "wrong": {
+     "tax_id": "279115x",
+     "beneficiary": "泓展氣體股"
+    }
+   }
+  }
+ }
+}

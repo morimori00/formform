@@ -1,0 +1,50 @@
+{
+ "persona": "us-tax-portal/e-delaware-register-user-05",
+ "context": "us-tax-portal/e-delaware-register-user-05.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/delaware-register-user": {
+   "submit": true,
+   "fields": {
+    "accept_terms": true,
+    "first_name": "Clara",
+    "middle_initial": "K",
+    "last_name": "Banerjee",
+    "position": "Chief Financial Officer",
+    "email": "cbanerjee@tidewell.example",
+    "email_confirm": "cbanerjee@tidewell.example",
+    "country_code": "1",
+    "day_phone": "(302) 555-0170",
+    "mobile_country_code": "1",
+    "mobile_phone": "(302) 555-0194",
+    "user_id": "tidewell.cbanerjee",
+    "esign": "Clara K. Banerjee",
+    "certify": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "accept_terms": true,
+     "first_name": "Clara",
+     "middle_initial": "K",
+     "last_name": "Banerjee",
+     "position": "Chief Financial Officer",
+     "email": "cbanerjee@tidewell.example",
+     "email_confirm": "cbanerjee@tidewell.example",
+     "country_code": "1",
+     "day_phone": "(302) 555-0170",
+     "mobile_country_code": "1",
+     "mobile_phone": "(302) 555-0194",
+     "user_id": "tidewell.cbanerjee",
+     "esign": "Clara K. Banerjee",
+     "certify": true
+    },
+    "wrong": {
+     "middle_initial": "x",
+     "day_phone": "(302) 5"
+    }
+   }
+  }
+ }
+}

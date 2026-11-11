@@ -1,0 +1,190 @@
+{
+ "persona": "eval-bluecrest",
+ "context": "eval-bluecrest.md",
+ "split": "eval",
+ "variants": {
+  "vendor-onboarding/eval-us-vendor": {
+   "submit": true,
+   "fields": {
+    "org_name": "Bluecrest Analytics LLC",
+    "tax_id": "87-4419025",
+    "business_type": "llc",
+    "established": "2019-03-11",
+    "company_address": "1201 N Orange St, Suite 700, Wilmington, DE 19801",
+    "contact_name": [
+     "Jordan A. Pierce",
+     "Jordan Pierce"
+    ],
+    "contact_title": "Controller",
+    "email": "jpierce@bluecrest-analytics.example",
+    "phone_day": "(302) 555-0148",
+    "phone_evening": "",
+    "services": "Data analytics and forecasting consulting",
+    "service_area": "north_america",
+    "gross_sales": "3200000",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "bank_name": "First Brandywine Trust",
+    "beneficiary": "Bluecrest Analytics LLC",
+    "account_number": "4400918273",
+    "swift": "",
+    "license_number": ""
+   },
+   "infeasible": [
+    "swift"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Bluecrest Analytics LLC",
+     "tax_id": "87-4419025",
+     "business_type": "llc",
+     "established": "2019-03-11",
+     "company_address": "1201 N Orange St, Suite 700, Wilmington, DE 19801",
+     "contact_name": "Jordan A. Pierce",
+     "contact_title": "Controller",
+     "email": "jpierce@bluecrest-analytics.example",
+     "phone_day": "(302) 555-0148",
+     "services": "Data analytics and forecasting consulting",
+     "service_area": "north_america",
+     "gross_sales": "3200000",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "First Brandywine Trust",
+     "beneficiary": "Bluecrest Analytics LLC",
+     "account_number": "4400918273"
+    },
+    "wrong": {
+     "email": "jpierce at bluecrest-analytics.example",
+     "tax_id": "87-44"
+    }
+   }
+  },
+  "us-tax-portal/delaware-register-user": {
+   "submit": true,
+   "fields": {
+    "accept_terms": true,
+    "first_name": "Jordan",
+    "middle_initial": "A",
+    "last_name": "Pierce",
+    "position": "Controller",
+    "email": "jpierce@bluecrest-analytics.example",
+    "email_confirm": "jpierce@bluecrest-analytics.example",
+    "country_code": "1",
+    "day_phone": "(302) 555-0148",
+    "mobile_country_code": "1",
+    "mobile_phone": "(302) 555-0193",
+    "user_id": "bluecrest.jpierce",
+    "esign": "Jordan A. Pierce",
+    "certify": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "accept_terms": true,
+     "first_name": "Jordan",
+     "middle_initial": "A",
+     "last_name": "Pierce",
+     "position": "Controller",
+     "email": "jpierce@bluecrest-analytics.example",
+     "email_confirm": "jpierce@bluecrest-analytics.example",
+     "country_code": "1",
+     "day_phone": "(302) 555-0148",
+     "mobile_country_code": "1",
+     "mobile_phone": "(302) 555-0193",
+     "user_id": "bluecrest.jpierce",
+     "esign": "Jordan A. Pierce",
+     "certify": true
+    },
+    "wrong": {
+     "middle_initial": "x",
+     "mobile_country_code": "44"
+    }
+   }
+  },
+  "us-tax-portal/uswds-name-address": {
+   "submit": true,
+   "fields": {
+    "first_name": "Jordan",
+    "middle_initial": "A",
+    "last_name": "Pierce",
+    "suffix": "",
+    "preferred_name": "Jordan",
+    "street1": "1201 N Orange St",
+    "street2": "Suite 700",
+    "city": "Wilmington",
+    "state": "DE",
+    "zip": "19801",
+    "urbanization": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Jordan",
+     "middle_initial": "A",
+     "last_name": "Pierce",
+     "preferred_name": "Jordan",
+     "street1": "1201 N Orange St",
+     "street2": "Suite 700",
+     "city": "Wilmington",
+     "state": "DE",
+     "zip": "19801"
+    },
+    "wrong": {
+     "middle_initial": "x",
+     "city": "Wilmi"
+    }
+   }
+  },
+  "us-tax-portal/business-registration": {
+   "submit": false,
+   "fields": {
+    "legal_name": "Bluecrest Analytics LLC",
+    "fein": "87-4419025",
+    "business_type": "llc",
+    "established": "2019-03-11",
+    "street1": "1201 N Orange St",
+    "street2": "Suite 700",
+    "city": "Wilmington",
+    "state": "DE",
+    "zip": "19801",
+    "first_name": "Jordan",
+    "last_name": "Pierce",
+    "position": "Controller",
+    "email": "jpierce@bluecrest-analytics.example",
+    "day_phone": "(302) 555-0148",
+    "portal_pin": ""
+   },
+   "infeasible": [
+    "portal_pin"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "legal_name": "Bluecrest Analytics LLC",
+     "fein": "87-4419025",
+     "business_type": "llc",
+     "established": "2019-03-11",
+     "street1": "1201 N Orange St",
+     "street2": "Suite 700",
+     "city": "Wilmington",
+     "state": "DE",
+     "zip": "19801",
+     "first_name": "Jordan",
+     "last_name": "Pierce",
+     "position": "Controller",
+     "email": "jpierce@bluecrest-analytics.example",
+     "day_phone": "(302) 555-0148"
+    },
+    "wrong": {
+     "fein": "87-44190x",
+     "day_phone": "(302) 5"
+    }
+   }
+  }
+ }
+}

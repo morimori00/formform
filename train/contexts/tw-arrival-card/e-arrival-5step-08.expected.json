@@ -1,0 +1,73 @@
+{
+ "persona": "tw-arrival-card/e-arrival-5step-08",
+ "context": "tw-arrival-card/e-arrival-5step-08.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-5step": {
+   "submit": true,
+   "fields": {
+    "family_name": "VILLANUEVA",
+    "given_name": "CARLO",
+    "sex": "female",
+    "dob": "1996-11-27",
+    "nationality": "PH",
+    "passport_no": "P8788847B",
+    "passport_expiry": "2035-09-09",
+    "occupation": "engineer",
+    "arrival_date": "2027-01-27",
+    "flight_no": "PR 873",
+    "departure_flight": "",
+    "purpose": "business",
+    "visa_type": "landing",
+    "visa_no": "V-6067813",
+    "stay_type": "residence",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "stay_address": [
+     "No. 177, Zhongxiao E. Rd., Zhubei City, Hsinchu County 302",
+     "company residence, No. 177, Zhongxiao E. Rd., Zhubei City, Hsinchu County 302"
+    ],
+    "phone": "+886 974 939 931",
+    "email": "",
+    "visited": [
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [
+    "email"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "family_name": "VILLANUEVA",
+     "given_name": "CARLO",
+     "sex": "female",
+     "dob": "1996-11-27",
+     "nationality": "PH",
+     "passport_no": "P8788847B",
+     "passport_expiry": "2035-09-09",
+     "occupation": "engineer",
+     "arrival_date": "2027-01-27",
+     "flight_no": "PR 873",
+     "purpose": "business",
+     "visa_type": "landing",
+     "visa_no": "V-6067813",
+     "stay_type": "residence",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "stay_address": "No. 177, Zhongxiao E. Rd., Zhubei City, Hsinchu County 302",
+     "phone": "+886 974 939 931",
+     "visited": [
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "VILLANUEx",
+     "visa_no": "V-60"
+    }
+   }
+  }
+ }
+}

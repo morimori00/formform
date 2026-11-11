@@ -1,0 +1,76 @@
+{
+ "persona": "vendor-onboarding/t-tw-002",
+ "context": "vendor-onboarding/t-tw-002.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Kuanyu Gases Co., Ltd.",
+     "冠宇氣體有限公司"
+    ],
+    "tax_id": "35449259",
+    "company_address": [
+     "308 新竹縣寶山鄉光復路105號10樓",
+     "10F., No. 105, Guangfu Rd., Baoshan Township, Hsinchu County 308"
+    ],
+    "established": "1989-12-29",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "gross_sales": "227000000",
+    "contact_name": [
+     "楊俊玲",
+     "Yang Chun-ling"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "chunling.yang@kuanyu-gases.example",
+    "phone_day": "03-914-7975",
+    "phone_evening": "",
+    "bank_name": [
+     "臺灣銀行",
+     "Bank of Taiwan"
+    ],
+    "beneficiary": [
+     "冠宇氣體有限公司",
+     "Kuanyu Gases Co., Ltd."
+    ],
+    "account_number": "403759857680",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Kuanyu Gases Co., Ltd.",
+     "tax_id": "35449259",
+     "company_address": "308 新竹縣寶山鄉光復路105號10樓",
+     "established": "1989-12-29",
+     "business_type": "llc",
+     "gross_sales": "227000000",
+     "contact_name": "楊俊玲",
+     "contact_title": "專案經理",
+     "email": "chunling.yang@kuanyu-gases.example",
+     "phone_day": "03-914-7975",
+     "bank_name": "臺灣銀行",
+     "beneficiary": "冠宇氣體有限公司",
+     "account_number": "403759857680",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "354492x",
+     "beneficiary": "冠宇氣體"
+    }
+   }
+  }
+ }
+}

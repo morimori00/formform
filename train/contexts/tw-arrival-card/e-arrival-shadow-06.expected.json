@@ -1,0 +1,73 @@
+{
+ "persona": "tw-arrival-card/e-arrival-shadow-06",
+ "context": "tw-arrival-card/e-arrival-shadow-06.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-shadow": {
+   "submit": true,
+   "fields": {
+    "nationality": "JP",
+    "passport_no": "K8943396B",
+    "family_name": "NOMURA",
+    "given_name": "SOTA",
+    "dob": "1999-08-24",
+    "sex": "female",
+    "passport_expiry": "2029-03-13",
+    "arrival_date": "2027-02-13",
+    "flight_no": "JL 164",
+    "purpose": "visit_relatives",
+    "occupation": "engineer",
+    "visa_type": "evisa",
+    "visa_no": "V-6688507",
+    "stay_type": "relatives",
+    "county": "臺北市",
+    "district": "信義區",
+    "stay_address": [
+     "No. 89, Dunhua N. Rd., Xinyi Dist., Taipei City 110",
+     "relative's home, No. 89, Dunhua N. Rd., Xinyi Dist., Taipei City 110"
+    ],
+    "phone": "+886 927 049 623",
+    "email": "sota.nomura@kestrel-semi.example",
+    "visited": [
+     "JP",
+     "MY"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "nationality": "JP",
+     "passport_no": "K8943396B",
+     "family_name": "NOMURA",
+     "given_name": "SOTA",
+     "dob": "1999-08-24",
+     "sex": "female",
+     "passport_expiry": "2029-03-13",
+     "arrival_date": "2027-02-13",
+     "flight_no": "JL 164",
+     "purpose": "visit_relatives",
+     "occupation": "engineer",
+     "visa_type": "evisa",
+     "visa_no": "V-6688507",
+     "stay_type": "relatives",
+     "county": "臺北市",
+     "district": "信義區",
+     "stay_address": "No. 89, Dunhua N. Rd., Xinyi Dist., Taipei City 110",
+     "phone": "+886 927 049 623",
+     "email": "sota.nomura@kestrel-semi.example",
+     "visited": [
+      "JP",
+      "MY"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "NOMUx",
+     "flight_no": "JL "
+    }
+   }
+  }
+ }
+}

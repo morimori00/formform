@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-028",
+ "context": "parabank/t-customer-028.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Nora",
+    "last_name": "Silva",
+    "street": "3874 Marigold Way",
+    "city": "Madison",
+    "state": [
+     "WI",
+     "Wisconsin"
+    ],
+    "zip": "53774",
+    "phone": "(608) 555-0150",
+    "ssn": "907-52-4667",
+    "username": "nora.silva67",
+    "password": "Maple!9107",
+    "password_confirm": "Maple!9107"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Nora",
+     "last_name": "Silva",
+     "street": "3874 Marigold Way",
+     "city": "Madison",
+     "state": "WI",
+     "zip": "53774",
+     "phone": "(608) 555-0150",
+     "ssn": "907-52-4667",
+     "username": "nora.silva67",
+     "password": "Maple!9107",
+     "password_confirm": "Maple!9107"
+    },
+    "wrong": {
+     "city": "Mad"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Foxglove Cable",
+    "payee_street": "7431 Quail Hollow Ave",
+    "payee_city": "Fremont",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "94531",
+    "payee_phone": "(510) 555-0194",
+    "payee_account": "12620-0031",
+    "payee_account_verify": "12620-0031",
+    "amount": "856.88",
+    "from_account": "13344"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Foxglove Cable",
+     "payee_street": "7431 Quail Hollow Ave",
+     "payee_city": "Fremont",
+     "payee_state": "CA",
+     "payee_zip": "94531",
+     "payee_phone": "(510) 555-0194",
+     "payee_account": "12620-0031",
+     "payee_account_verify": "12620-0031",
+     "amount": "856.88",
+     "from_account": "13344"
+    },
+    "wrong": {
+     "payee_account_verify": "12620-00x",
+     "amount": "856"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "8000",
+    "down_payment": "1000",
+    "loan_from_account": "13344",
+    "new_account_type": "CHECKING",
+    "new_account_from": "20346"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "8000",
+     "down_payment": "1000",
+     "loan_from_account": "13344",
+     "new_account_type": "CHECKING",
+     "new_account_from": "20346"
+    },
+    "wrong": {
+     "new_account_from": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Foxglove Cable",
+    "payee_street": "7431 Quail Hollow Ave",
+    "payee_city": "Fremont",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "94531",
+    "payee_phone": "(510) 555-0194",
+    "from_account": "13344",
+    "amount": "856.88",
+    "payee_account": "12620-0031",
+    "payee_account_verify": "12620-0031"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Foxglove Cable",
+     "payee_street": "7431 Quail Hollow Ave",
+     "payee_city": "Fremont",
+     "payee_state": "CA",
+     "payee_zip": "94531",
+     "payee_phone": "(510) 555-0194",
+     "from_account": "13344",
+     "amount": "856.88",
+     "payee_account": "12620-0031",
+     "payee_account_verify": "12620-0031"
+    },
+    "wrong": {
+     "payee_account_verify": "12620-00x",
+     "payee_zip": "94"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Nora",
+    "last_name": "Silva",
+    "phone": "(608) 555-0150",
+    "ssn": "907-52-4667",
+    "street": "3874 Marigold Way",
+    "city": "Madison",
+    "state": [
+     "WI",
+     "Wisconsin"
+    ],
+    "zip": "53774",
+    "username": "nora.silva67",
+    "password": "Maple!9107",
+    "password_confirm": "Maple!9107"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Nora",
+     "last_name": "Silva",
+     "phone": "(608) 555-0150",
+     "ssn": "907-52-4667",
+     "street": "3874 Marigold Way",
+     "city": "Madison",
+     "state": "WI",
+     "zip": "53774",
+     "username": "nora.silva67",
+     "password": "Maple!9107",
+     "password_confirm": "Maple!9107"
+    },
+    "wrong": {
+     "ssn": "907-5"
+    }
+   }
+  }
+ }
+}

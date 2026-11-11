@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-008",
+ "context": "tw-vendor-master/t-tw-008.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "昇邁自動化設備股份有限公司",
+    "vendor_name_en": "Shengmai Automation Equipment Co., Ltd.",
+    "ubn": "46482368",
+    "owner": "鄭怡明",
+    "established": "1984-12-23",
+    "capital": "394000000",
+    "org_type": "corp_shares",
+    "postal": "333",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中正路260號12樓",
+    "tel": "03-832-4846",
+    "fax": "03-832-2672",
+    "contact_name": [
+     "謝雅芬",
+     "Hsieh Ya-fen"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "email": "yafen.hsieh@shengmai-automation.example",
+    "contact_mobile": "0931-465-151",
+    "bank_code": "008",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "265909978703",
+    "account_name": "昇邁自動化設備股份有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui2",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-02-11"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "昇邁自動化設備股份有限公司",
+     "vendor_name_en": "Shengmai Automation Equipment Co., Ltd.",
+     "ubn": "46482368",
+     "owner": "鄭怡明",
+     "established": "1984-12-23",
+     "capital": "394000000",
+     "org_type": "corp_shares",
+     "postal": "333",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中正路260號12樓",
+     "tel": "03-832-4846",
+     "fax": "03-832-2672",
+     "contact_name": "謝雅芬",
+     "contact_title": "業務經理",
+     "email": "yafen.hsieh@shengmai-automation.example",
+     "contact_mobile": "0931-465-151",
+     "bank_code": "008",
+     "bank_branch": "龜山分行",
+     "account_no": "265909978703",
+     "account_name": "昇邁自動化設備股份有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui2",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-02-11"
+    },
+    "wrong": {
+     "ubn": "464823x",
+     "county": "臺北市"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "46482368",
+    "vendor_name_zh": "昇邁自動化設備股份有限公司",
+    "vendor_name_en": "Shengmai Automation Equipment Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1984-12-23",
+    "owner": "鄭怡明",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中正路260號12樓",
+    "postal": "333",
+    "tel": "03-832-4846",
+    "fax": "03-832-2672",
+    "contact_name": [
+     "謝雅芬",
+     "Hsieh Ya-fen"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "contact_mobile": "0931-465-151",
+    "email": "yafen.hsieh@shengmai-automation.example",
+    "bank_code": "008",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "265909978703",
+    "account_name": "昇邁自動化設備股份有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui2",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-02-11",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "46482368",
+     "vendor_name_zh": "昇邁自動化設備股份有限公司",
+     "vendor_name_en": "Shengmai Automation Equipment Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1984-12-23",
+     "owner": "鄭怡明",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中正路260號12樓",
+     "postal": "333",
+     "tel": "03-832-4846",
+     "fax": "03-832-2672",
+     "contact_name": "謝雅芬",
+     "contact_title": "業務經理",
+     "contact_mobile": "0931-465-151",
+     "email": "yafen.hsieh@shengmai-automation.example",
+     "bank_code": "008",
+     "bank_branch": "龜山分行",
+     "account_no": "265909978703",
+     "account_name": "昇邁自動化設備股份有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui2",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-02-11"
+    },
+    "wrong": {
+     "ubn": "464823x",
+     "vendor_name_zh": "昇邁自動化設"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "46482368",
+    "vendor_name_zh": "昇邁自動化設備股份有限公司",
+    "owner": "鄭怡明",
+    "established": "1984-12-23",
+    "org_type": "corp_shares",
+    "capital": "394000000",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中正路260號12樓",
+    "postal": "333",
+    "tel": "03-832-4846",
+    "contact_name": [
+     "謝雅芬",
+     "Hsieh Ya-fen"
+    ],
+    "email": "yafen.hsieh@shengmai-automation.example",
+    "bank_code": "008",
+    "account_no": "265909978703",
+    "account_name": "昇邁自動化設備股份有限公司",
+    "payment_terms": "net60",
+    "currency": "TWD",
+    "invoice_type": "egui2"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "46482368",
+     "vendor_name_zh": "昇邁自動化設備股份有限公司",
+     "owner": "鄭怡明",
+     "established": "1984-12-23",
+     "org_type": "corp_shares",
+     "capital": "394000000",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中正路260號12樓",
+     "postal": "333",
+     "tel": "03-832-4846",
+     "contact_name": "謝雅芬",
+     "email": "yafen.hsieh@shengmai-automation.example",
+     "bank_code": "008",
+     "account_no": "265909978703",
+     "account_name": "昇邁自動化設備股份有限公司",
+     "payment_terms": "net60",
+     "currency": "TWD",
+     "invoice_type": "egui2"
+    },
+    "wrong": {
+     "ubn": "464823x",
+     "capital": "3940"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "昇邁自動化設備股份有限公司",
+    "vendor_name_en": "Shengmai Automation Equipment Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "46482368",
+    "owner": "鄭怡明",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中正路260號12樓",
+    "postal": "333",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-832-4846",
+    "contact_name": [
+     "謝雅芬",
+     "Hsieh Ya-fen"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "email": "yafen.hsieh@shengmai-automation.example",
+    "account_no": "265909978703",
+    "account_name": "昇邁自動化設備股份有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui2",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "昇邁自動化設備股份有限公司",
+     "vendor_name_en": "Shengmai Automation Equipment Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "46482368",
+     "owner": "鄭怡明",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中正路260號12樓",
+     "postal": "333",
+     "tel": "03-832-4846",
+     "contact_name": "謝雅芬",
+     "contact_title": "業務經理",
+     "email": "yafen.hsieh@shengmai-automation.example",
+     "account_no": "265909978703",
+     "account_name": "昇邁自動化設備股份有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui2",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "464823x",
+     "org_type": "limited"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "008",
+    "bank_branch": [
+     "龜山分行",
+     "龜山"
+    ],
+    "account_no": "265909978703",
+    "account_name": "昇邁自動化設備股份有限公司",
+    "payment_terms": "net60",
+    "currency": "TWD",
+    "invoice_type": "egui2",
+    "county": "桃園市",
+    "district": "龜山區",
+    "address_line": "中正路260號12樓",
+    "postal": "333",
+    "tel": "03-832-4846",
+    "fax": "03-832-2672",
+    "vendor_name_zh": "昇邁自動化設備股份有限公司",
+    "ubn": "46482368",
+    "owner": "鄭怡明",
+    "org_type": "corp_shares",
+    "established": "1984-12-23",
+    "capital": "394000000",
+    "vendor_name_en": "Shengmai Automation Equipment Co., Ltd.",
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "contact_mobile": "0931-465-151",
+    "contact_name": [
+     "謝雅芬",
+     "Hsieh Ya-fen"
+    ],
+    "email": "yafen.hsieh@shengmai-automation.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "008",
+     "bank_branch": "龜山分行",
+     "account_no": "265909978703",
+     "account_name": "昇邁自動化設備股份有限公司",
+     "payment_terms": "net60",
+     "currency": "TWD",
+     "invoice_type": "egui2",
+     "county": "桃園市",
+     "district": "龜山區",
+     "address_line": "中正路260號12樓",
+     "postal": "333",
+     "tel": "03-832-4846",
+     "fax": "03-832-2672",
+     "vendor_name_zh": "昇邁自動化設備股份有限公司",
+     "ubn": "46482368",
+     "owner": "鄭怡明",
+     "org_type": "corp_shares",
+     "established": "1984-12-23",
+     "capital": "394000000",
+     "vendor_name_en": "Shengmai Automation Equipment Co., Ltd.",
+     "contact_title": "業務經理",
+     "contact_mobile": "0931-465-151",
+     "contact_name": "謝雅芬",
+     "email": "yafen.hsieh@shengmai-automation.example"
+    },
+    "wrong": {
+     "account_no": "2659099787x",
+     "currency": "USD"
+    }
+   }
+  }
+ }
+}

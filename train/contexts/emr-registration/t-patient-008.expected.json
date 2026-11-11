@@ -1,0 +1,246 @@
+{
+ "persona": "emr-registration/t-patient-008",
+ "context": "emr-registration/t-patient-008.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Yen",
+    "middle_name": "",
+    "last_name": "Yang",
+    "dob": "1942-08-10",
+    "sex": "female",
+    "marital": "divorced",
+    "language": "mandarin",
+    "street": "10F, No. 53, Sec. 2, Fuxing S. Rd., Neihu Dist.",
+    "city": "Taipei City",
+    "postal": "114",
+    "country": "TW",
+    "phone_home": "04-4972-4520",
+    "phone_cell": "0982-707-698",
+    "email": "",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Wei-Ying Yang",
+    "ec_phone": "0990-721-549",
+    "ec_relationship": "child",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3981-3527",
+    "group_number": "G-4472",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-01-20"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Yen",
+     "last_name": "Yang",
+     "dob": "1942-08-10",
+     "sex": "female",
+     "marital": "divorced",
+     "language": "mandarin",
+     "street": "10F, No. 53, Sec. 2, Fuxing S. Rd., Neihu Dist.",
+     "city": "Taipei City",
+     "postal": "114",
+     "country": "TW",
+     "phone_home": "04-4972-4520",
+     "phone_cell": "0982-707-698",
+     "occupation": "Retired",
+     "ec_name": "Wei-Ying Yang",
+     "ec_phone": "0990-721-549",
+     "ec_relationship": "child",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3981-3527",
+     "group_number": "G-4472",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-01-20"
+    },
+    "wrong": {
+     "city": "Taipe"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Yang",
+    "first_name": "Mei-Yen",
+    "middle_name": "",
+    "dob": "1942-08-10",
+    "sex": "female",
+    "marital": "divorced",
+    "national_id": "",
+    "street": "10F, No. 53, Sec. 2, Fuxing S. Rd., Neihu Dist.",
+    "postal": "114",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0982-707-698",
+    "phone_home": "04-4972-4520",
+    "email": "",
+    "ec_name": "Wei-Ying Yang",
+    "ec_relationship": "child",
+    "ec_phone": "0990-721-549",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3981-3527",
+    "group_number": "G-4472",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-01-20",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Yang",
+     "first_name": "Mei-Yen",
+     "dob": "1942-08-10",
+     "sex": "female",
+     "marital": "divorced",
+     "street": "10F, No. 53, Sec. 2, Fuxing S. Rd., Neihu Dist.",
+     "postal": "114",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0982-707-698",
+     "phone_home": "04-4972-4520",
+     "ec_name": "Wei-Ying Yang",
+     "ec_relationship": "child",
+     "ec_phone": "0990-721-549",
+     "occupation": "Retired",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3981-3527",
+     "group_number": "G-4472",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-01-20"
+    },
+    "wrong": {
+     "ins_effective": "2022-01-20"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Yen",
+    "last_name": "Yang",
+    "dob": "1942-08-10",
+    "sex": "female",
+    "language": "mandarin",
+    "street": "10F, No. 53, Sec. 2, Fuxing S. Rd., Neihu Dist.",
+    "city": "Taipei City",
+    "postal": "114",
+    "country": "TW",
+    "phone_cell": "0982-707-698",
+    "phone_home": "04-4972-4520",
+    "ec_name": "Wei-Ying Yang",
+    "ec_phone": "0990-721-549",
+    "ec_relationship": "child",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3981-3527",
+    "group_number": "G-4472",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-01-20"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Yen",
+     "last_name": "Yang",
+     "dob": "1942-08-10",
+     "sex": "female",
+     "language": "mandarin",
+     "street": "10F, No. 53, Sec. 2, Fuxing S. Rd., Neihu Dist.",
+     "city": "Taipei City",
+     "postal": "114",
+     "country": "TW",
+     "phone_cell": "0982-707-698",
+     "phone_home": "04-4972-4520",
+     "ec_name": "Wei-Ying Yang",
+     "ec_phone": "0990-721-549",
+     "ec_relationship": "child",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3981-3527",
+     "group_number": "G-4472",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-01-20"
+    },
+    "wrong": {
+     "language": "english"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Yang",
+    "first_name": "Mei-Yen",
+    "dob": "1942-08-10",
+    "sex": "female",
+    "phone_cell": "0982-707-698",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "114",
+    "street": "10F, No. 53, Sec. 2, Fuxing S. Rd., Neihu Dist.",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3981-3527",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-01-20",
+    "email": "",
+    "phone_home": "04-4972-4520",
+    "marital": "divorced",
+    "language": "mandarin",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Wei-Ying Yang",
+    "ec_phone": "0990-721-549",
+    "ec_relationship": "child",
+    "group_number": "G-4472"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Yang",
+     "first_name": "Mei-Yen",
+     "dob": "1942-08-10",
+     "sex": "female",
+     "phone_cell": "0982-707-698",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "114",
+     "street": "10F, No. 53, Sec. 2, Fuxing S. Rd., Neihu Dist.",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3981-3527",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-01-20",
+     "phone_home": "04-4972-4520",
+     "marital": "divorced",
+     "language": "mandarin",
+     "occupation": "Retired",
+     "ec_name": "Wei-Ying Yang",
+     "ec_phone": "0990-721-549",
+     "ec_relationship": "child",
+     "group_number": "G-4472"
+    },
+    "wrong": {
+     "ec_relationship": "spouse"
+    }
+   }
+  }
+ }
+}

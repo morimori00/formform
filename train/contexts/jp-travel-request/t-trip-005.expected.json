@@ -1,0 +1,263 @@
+{
+ "persona": "jp-travel-request/t-trip-005",
+ "context": "jp-travel-request/t-trip-005.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-48091",
+    "name": [
+     "吉田 千尋",
+     "吉田千尋"
+    ],
+    "dept": "ga",
+    "title": "係長",
+    "cost_center": "CC-1100",
+    "email": "c.yoshida@kestrel-semi.example",
+    "mobile": "070-1096-0733",
+    "dest_country": "CN",
+    "dest_city": "蘇州",
+    "purpose": "協力会社 蘇州工場 設備据付の立会いと検収",
+    "depart_date": "2026-12-19",
+    "return_date": "2026-12-24",
+    "outbound_flight": "NH 409",
+    "return_flight": "NH 578",
+    "hotel": "",
+    "visa_needed": "no",
+    "exp_air_amount": "75500",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "900",
+    "exp_hotel_cur": "USD",
+    "exp_local_amount": "125",
+    "exp_local_cur": "USD",
+    "advance_amount": "100000",
+    "advance_cur": "JPY",
+    "passport_no": "MS2225474",
+    "passport_expiry": "2030-05-25",
+    "approver": "u_j3475"
+   },
+   "infeasible": [
+    "hotel"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-48091",
+     "name": "吉田 千尋",
+     "dept": "ga",
+     "title": "係長",
+     "cost_center": "CC-1100",
+     "email": "c.yoshida@kestrel-semi.example",
+     "mobile": "070-1096-0733",
+     "dest_country": "CN",
+     "dest_city": "蘇州",
+     "purpose": "協力会社 蘇州工場 設備据付の立会いと検収",
+     "depart_date": "2026-12-19",
+     "return_date": "2026-12-24",
+     "outbound_flight": "NH 409",
+     "return_flight": "NH 578",
+     "visa_needed": "no",
+     "exp_air_amount": "75500",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "900",
+     "exp_hotel_cur": "USD",
+     "exp_local_amount": "125",
+     "exp_local_cur": "USD",
+     "advance_amount": "100000",
+     "advance_cur": "JPY",
+     "passport_no": "MS2225474",
+     "passport_expiry": "2030-05-25",
+     "approver": "u_j3475"
+    },
+    "wrong": {
+     "email": "c.yoshida at kestrel-semi.example",
+     "exp_air_cur": "TWD"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "吉田 千尋",
+     "吉田千尋"
+    ],
+    "emp_no": "J-48091",
+    "dept": "ga",
+    "approver": "u_j3475",
+    "depart_date": "2026-12-19",
+    "return_date": "2026-12-24",
+    "dest_country": "CN",
+    "dest_city": "蘇州",
+    "purpose": "協力会社 蘇州工場 設備据付の立会いと検収",
+    "visa_needed": "no",
+    "exp_air_amount": "75500",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "900",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "100000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-1100"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "吉田 千尋",
+     "emp_no": "J-48091",
+     "dept": "ga",
+     "approver": "u_j3475",
+     "depart_date": "2026-12-19",
+     "return_date": "2026-12-24",
+     "dest_country": "CN",
+     "dest_city": "蘇州",
+     "purpose": "協力会社 蘇州工場 設備据付の立会いと検収",
+     "visa_needed": "no",
+     "exp_air_amount": "75500",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "900",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "100000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-1100"
+    },
+    "wrong": {
+     "visa_needed": "yes"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "協力会社 蘇州工場 設備据付の立会いと検収",
+    "dest_city": "蘇州",
+    "dest_country": "CN",
+    "depart_date": "2026-12-19",
+    "return_date": "2026-12-24",
+    "outbound_flight": "NH 409",
+    "return_flight": "NH 578",
+    "hotel": "",
+    "visa_needed": "no",
+    "passport_no": "MS2225474",
+    "passport_expiry": "2030-05-25",
+    "exp_hotel_amount": "900",
+    "exp_hotel_cur": "USD",
+    "exp_air_amount": "75500",
+    "exp_air_cur": "JPY",
+    "advance_amount": "100000",
+    "advance_cur": "JPY",
+    "emp_no": "J-48091",
+    "name": [
+     "吉田 千尋",
+     "吉田千尋"
+    ],
+    "mobile": "070-1096-0733",
+    "approver": "u_j3475",
+    "cost_center": "CC-1100"
+   },
+   "infeasible": [
+    "hotel"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "協力会社 蘇州工場 設備据付の立会いと検収",
+     "dest_city": "蘇州",
+     "dest_country": "CN",
+     "depart_date": "2026-12-19",
+     "return_date": "2026-12-24",
+     "outbound_flight": "NH 409",
+     "return_flight": "NH 578",
+     "visa_needed": "no",
+     "passport_no": "MS2225474",
+     "passport_expiry": "2030-05-25",
+     "exp_hotel_amount": "900",
+     "exp_hotel_cur": "USD",
+     "exp_air_amount": "75500",
+     "exp_air_cur": "JPY",
+     "advance_amount": "100000",
+     "advance_cur": "JPY",
+     "emp_no": "J-48091",
+     "name": "吉田 千尋",
+     "mobile": "070-1096-0733",
+     "approver": "u_j3475",
+     "cost_center": "CC-1100"
+    },
+    "wrong": {
+     "passport_no": "MS22254x",
+     "mobile": "070-10"
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j3475",
+    "cost_center": "CC-1100",
+    "dest_country": "CN",
+    "dest_city": "蘇州",
+    "depart_date": "2026-12-19",
+    "return_date": "2026-12-24",
+    "purpose": "協力会社 蘇州工場 設備据付の立会いと検収",
+    "visa_needed": "no",
+    "exp_air_amount": "75500",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "900",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "100000",
+    "advance_cur": "JPY",
+    "name": [
+     "吉田 千尋",
+     "吉田千尋"
+    ],
+    "emp_no": "J-48091",
+    "dept": "ga",
+    "email": "c.yoshida@kestrel-semi.example",
+    "mobile": "070-1096-0733",
+    "title": "係長",
+    "outbound_flight": "NH 409",
+    "return_flight": "NH 578",
+    "hotel": "",
+    "exp_local_amount": "125",
+    "exp_local_cur": "USD"
+   },
+   "infeasible": [
+    "hotel"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j3475",
+     "cost_center": "CC-1100",
+     "dest_country": "CN",
+     "dest_city": "蘇州",
+     "depart_date": "2026-12-19",
+     "return_date": "2026-12-24",
+     "purpose": "協力会社 蘇州工場 設備据付の立会いと検収",
+     "visa_needed": "no",
+     "exp_air_amount": "75500",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "900",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "100000",
+     "advance_cur": "JPY",
+     "name": "吉田 千尋",
+     "emp_no": "J-48091",
+     "dept": "ga",
+     "email": "c.yoshida@kestrel-semi.example",
+     "mobile": "070-1096-0733",
+     "title": "係長",
+     "outbound_flight": "NH 409",
+     "return_flight": "NH 578",
+     "exp_local_amount": "125",
+     "exp_local_cur": "USD"
+    },
+    "wrong": {
+     "email": "c.yoshida at kestrel-semi.example",
+     "return_flight": "NH "
+    }
+   }
+  }
+ }
+}

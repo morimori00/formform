@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-025",
+ "context": "kyc-account-opening/t-kyc-025.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-18449",
+    "full_name": [
+     "Kuo Wei-Jie",
+     "Wei-Jie Kuo"
+    ],
+    "spouse_name": "Chou Jia-Han",
+    "gender": "female",
+    "marital": "single",
+    "dob": "1977-05-25",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "J133230816",
+    "id_proof": "national_id",
+    "address": [
+     "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407"
+    ],
+    "phone": "+886 910 815 059",
+    "email": "weijie.kuo@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Kuo Wei-Jie",
+     "Wei-Jie Kuo"
+    ],
+    "sign_date": "2026-11-02",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-18449",
+     "full_name": "Kuo Wei-Jie",
+     "spouse_name": "Chou Jia-Han",
+     "gender": "female",
+     "marital": "single",
+     "dob": "1977-05-25",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "J133230816",
+     "id_proof": "national_id",
+     "address": "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "phone": "+886 910 815 059",
+     "email": "weijie.kuo@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Kuo Wei-Jie",
+     "sign_date": "2026-11-02"
+    },
+    "wrong": {
+     "tax_id": "J1332308x",
+     "full_name": "Kuo W"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kuo Wei-Jie",
+     "Wei-Jie Kuo"
+    ],
+    "dob": "1977-05-25",
+    "mother_maiden": "",
+    "phone": "+886 910 815 059",
+    "email": "weijie.kuo@inbox.example",
+    "address": [
+     "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407"
+    ],
+    "education": "bachelor",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "individual",
+    "monthly_income": "217000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Kuo Wei-Jie",
+     "dob": "1977-05-25",
+     "phone": "+886 910 815 059",
+     "email": "weijie.kuo@inbox.example",
+     "address": "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "education": "bachelor",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "individual",
+     "monthly_income": "217000"
+    },
+    "wrong": {
+     "email": "weijie.kuo at inbox.example",
+     "phone": "+886 910"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kuo Wei-Jie",
+     "Wei-Jie Kuo"
+    ],
+    "dob": "1977-05-25",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Chou Jia-Han",
+    "address": [
+     "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407"
+    ],
+    "email": "weijie.kuo@inbox.example",
+    "phone": "+886 910 815 059",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "J133230816",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-18449"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Kuo Wei-Jie",
+     "dob": "1977-05-25",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Chou Jia-Han",
+     "address": "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "email": "weijie.kuo@inbox.example",
+     "phone": "+886 910 815 059",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "J133230816",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-18449"
+    },
+    "wrong": {
+     "email": "weijie.kuo at inbox.example",
+     "application_no": "LCB-AO-2"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kuo Wei-Jie",
+     "Wei-Jie Kuo"
+    ],
+    "dob": "1977-05-25",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 910 815 059",
+    "email": "weijie.kuo@inbox.example",
+    "address": [
+     "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "J133230816",
+    "addr_proof": "tax_bill",
+    "account_type": "savings",
+    "account_category": "individual",
+    "education": "bachelor",
+    "monthly_income": "217000",
+    "application_no": "LCB-AO-2026-18449",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Kuo Wei-Jie",
+     "dob": "1977-05-25",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 910 815 059",
+     "email": "weijie.kuo@inbox.example",
+     "address": "14F, No. 37, Sec. 3, Datong Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "J133230816",
+     "addr_proof": "tax_bill",
+     "account_type": "savings",
+     "account_category": "individual",
+     "education": "bachelor",
+     "monthly_income": "217000",
+     "application_no": "LCB-AO-2026-18449"
+    },
+    "wrong": {
+     "email": "weijie.kuo at inbox.example",
+     "gender": "male"
+    }
+   }
+  }
+ }
+}

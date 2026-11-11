@@ -1,0 +1,70 @@
+{
+ "persona": "emr-registration/e-eval-intake-01",
+ "context": "emr-registration/e-eval-intake-01.md",
+ "split": "eval",
+ "variants": {
+  "emr-registration/eval-intake": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yun-Rong",
+    "middle_name": "",
+    "last_name": "Fan",
+    "dob": "1967-07-18",
+    "sex": "male",
+    "marital": "single",
+    "nationality": "TW",
+    "language": "mandarin",
+    "street": "11F, No. 81, Sec. 4, Guangfu Rd., Da'an Dist.",
+    "city": "Taipei City",
+    "postal": "106",
+    "country": "TW",
+    "phone_cell": "0906-271-499",
+    "phone_home": "",
+    "email": "",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Yun-Hsiang Fan",
+    "ec_phone": "0915-742-951",
+    "ec_relationship": "sibling",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-8704-9701",
+    "group_number": "G-6523",
+    "subscriber_rel": "self",
+    "ins_effective": "2020-04-26"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yun-Rong",
+     "last_name": "Fan",
+     "dob": "1967-07-18",
+     "sex": "male",
+     "marital": "single",
+     "nationality": "TW",
+     "language": "mandarin",
+     "street": "11F, No. 81, Sec. 4, Guangfu Rd., Da'an Dist.",
+     "city": "Taipei City",
+     "postal": "106",
+     "country": "TW",
+     "phone_cell": "0906-271-499",
+     "occupation": "Retired",
+     "ec_name": "Yun-Hsiang Fan",
+     "ec_phone": "0915-742-951",
+     "ec_relationship": "sibling",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-8704-9701",
+     "group_number": "G-6523",
+     "subscriber_rel": "self",
+     "ins_effective": "2020-04-26"
+    },
+    "wrong": {
+     "ec_relationship": "spouse"
+    }
+   }
+  }
+ }
+}

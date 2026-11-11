@@ -1,0 +1,260 @@
+{
+ "persona": "jp-travel-request/t-trip-020",
+ "context": "jp-travel-request/t-trip-020.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-13009",
+    "name": [
+     "中村 由香",
+     "中村由香"
+    ],
+    "dept": "prod_eng_eq",
+    "title": "担当",
+    "cost_center": "CC-2211",
+    "email": "y.nakamura@kestrel-semi.example",
+    "mobile": "070-4342-2529",
+    "dest_country": "US",
+    "dest_city": "オースティン",
+    "purpose": "オースティン営業所 品質監査および是正処置の確認",
+    "depart_date": "2027-02-25",
+    "return_date": "2027-03-02",
+    "outbound_flight": "UA 504",
+    "return_flight": "UA 298",
+    "hotel": "レイクビュー・イン",
+    "visa_needed": "no",
+    "exp_air_amount": "141700",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "1175",
+    "exp_hotel_cur": "USD",
+    "exp_local_amount": "210",
+    "exp_local_cur": "USD",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "passport_no": "ZH1697182",
+    "passport_expiry": "2034-05-06",
+    "approver": "u_j1270"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-13009",
+     "name": "中村 由香",
+     "dept": "prod_eng_eq",
+     "title": "担当",
+     "cost_center": "CC-2211",
+     "email": "y.nakamura@kestrel-semi.example",
+     "mobile": "070-4342-2529",
+     "dest_country": "US",
+     "dest_city": "オースティン",
+     "purpose": "オースティン営業所 品質監査および是正処置の確認",
+     "depart_date": "2027-02-25",
+     "return_date": "2027-03-02",
+     "outbound_flight": "UA 504",
+     "return_flight": "UA 298",
+     "hotel": "レイクビュー・イン",
+     "visa_needed": "no",
+     "exp_air_amount": "141700",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "1175",
+     "exp_hotel_cur": "USD",
+     "exp_local_amount": "210",
+     "exp_local_cur": "USD",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "passport_no": "ZH1697182",
+     "passport_expiry": "2034-05-06",
+     "approver": "u_j1270"
+    },
+    "wrong": {
+     "email": "y.nakamura at kestrel-semi.example",
+     "name": "中村"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "中村 由香",
+     "中村由香"
+    ],
+    "emp_no": "J-13009",
+    "dept": "prod_eng_eq",
+    "approver": "u_j1270",
+    "depart_date": "2027-02-25",
+    "return_date": "2027-03-02",
+    "dest_country": "US",
+    "dest_city": "オースティン",
+    "purpose": "オースティン営業所 品質監査および是正処置の確認",
+    "visa_needed": "no",
+    "exp_air_amount": "141700",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "1175",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-2211"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "中村 由香",
+     "emp_no": "J-13009",
+     "dept": "prod_eng_eq",
+     "approver": "u_j1270",
+     "depart_date": "2027-02-25",
+     "return_date": "2027-03-02",
+     "dest_country": "US",
+     "dest_city": "オースティン",
+     "purpose": "オースティン営業所 品質監査および是正処置の確認",
+     "visa_needed": "no",
+     "exp_air_amount": "141700",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "1175",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-2211"
+    },
+    "wrong": {
+     "dest_country": "TW"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "オースティン営業所 品質監査および是正処置の確認",
+    "dest_city": "オースティン",
+    "dest_country": "US",
+    "depart_date": "2027-02-25",
+    "return_date": "2027-03-02",
+    "outbound_flight": "UA 504",
+    "return_flight": "UA 298",
+    "hotel": "レイクビュー・イン",
+    "visa_needed": "no",
+    "passport_no": "ZH1697182",
+    "passport_expiry": "2034-05-06",
+    "exp_hotel_amount": "1175",
+    "exp_hotel_cur": "USD",
+    "exp_air_amount": "141700",
+    "exp_air_cur": "JPY",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "emp_no": "J-13009",
+    "name": [
+     "中村 由香",
+     "中村由香"
+    ],
+    "mobile": "070-4342-2529",
+    "approver": "u_j1270",
+    "cost_center": "CC-2211"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "オースティン営業所 品質監査および是正処置の確認",
+     "dest_city": "オースティン",
+     "dest_country": "US",
+     "depart_date": "2027-02-25",
+     "return_date": "2027-03-02",
+     "outbound_flight": "UA 504",
+     "return_flight": "UA 298",
+     "hotel": "レイクビュー・イン",
+     "visa_needed": "no",
+     "passport_no": "ZH1697182",
+     "passport_expiry": "2034-05-06",
+     "exp_hotel_amount": "1175",
+     "exp_hotel_cur": "USD",
+     "exp_air_amount": "141700",
+     "exp_air_cur": "JPY",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "emp_no": "J-13009",
+     "name": "中村 由香",
+     "mobile": "070-4342-2529",
+     "approver": "u_j1270",
+     "cost_center": "CC-2211"
+    },
+    "wrong": {
+     "passport_no": "ZH16971x",
+     "emp_no": "J-1"
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j1270",
+    "cost_center": "CC-2211",
+    "dest_country": "US",
+    "dest_city": "オースティン",
+    "depart_date": "2027-02-25",
+    "return_date": "2027-03-02",
+    "purpose": "オースティン営業所 品質監査および是正処置の確認",
+    "visa_needed": "no",
+    "exp_air_amount": "141700",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "1175",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "name": [
+     "中村 由香",
+     "中村由香"
+    ],
+    "emp_no": "J-13009",
+    "dept": "prod_eng_eq",
+    "email": "y.nakamura@kestrel-semi.example",
+    "mobile": "070-4342-2529",
+    "title": "担当",
+    "outbound_flight": "UA 504",
+    "return_flight": "UA 298",
+    "hotel": "レイクビュー・イン",
+    "exp_local_amount": "210",
+    "exp_local_cur": "USD"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j1270",
+     "cost_center": "CC-2211",
+     "dest_country": "US",
+     "dest_city": "オースティン",
+     "depart_date": "2027-02-25",
+     "return_date": "2027-03-02",
+     "purpose": "オースティン営業所 品質監査および是正処置の確認",
+     "visa_needed": "no",
+     "exp_air_amount": "141700",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "1175",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "name": "中村 由香",
+     "emp_no": "J-13009",
+     "dept": "prod_eng_eq",
+     "email": "y.nakamura@kestrel-semi.example",
+     "mobile": "070-4342-2529",
+     "title": "担当",
+     "outbound_flight": "UA 504",
+     "return_flight": "UA 298",
+     "hotel": "レイクビュー・イン",
+     "exp_local_amount": "210",
+     "exp_local_cur": "USD"
+    },
+    "wrong": {
+     "email": "y.nakamura at kestrel-semi.example",
+     "cost_center": "CC-2210"
+    }
+   }
+  }
+ }
+}

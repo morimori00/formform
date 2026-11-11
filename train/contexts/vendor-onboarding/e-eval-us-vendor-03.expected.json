@@ -1,0 +1,66 @@
+{
+ "persona": "vendor-onboarding/e-eval-us-vendor-03",
+ "context": "vendor-onboarding/e-eval-us-vendor-03.md",
+ "split": "eval",
+ "variants": {
+  "vendor-onboarding/eval-us-vendor": {
+   "submit": true,
+   "fields": {
+    "org_name": "Marlowe Packaging Inc.",
+    "tax_id": "12-9241656",
+    "business_type": "corporation",
+    "established": "1996-10-25",
+    "company_address": "7926 Alder Creek St, Suite 288, Wilmington, DE 19880",
+    "contact_name": [
+     "Clara Kimura",
+     "Mr. Clara Kimura"
+    ],
+    "contact_title": "Sales Director",
+    "email": "clara.kimura@marlowe.example",
+    "phone_day": "(302) 555-0196",
+    "phone_evening": "(302) 555-7408",
+    "services": "ESD-safe packaging and wafer shipping boxes",
+    "service_area": "north_america",
+    "gross_sales": "14800000",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "bank_name": "Chesapeake Union Trust",
+    "beneficiary": "Marlowe Packaging Inc.",
+    "account_number": "947-682815-0",
+    "swift": "CUTXUSAXXXX",
+    "license_number": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Marlowe Packaging Inc.",
+     "tax_id": "12-9241656",
+     "business_type": "corporation",
+     "established": "1996-10-25",
+     "company_address": "7926 Alder Creek St, Suite 288, Wilmington, DE 19880",
+     "contact_name": "Clara Kimura",
+     "contact_title": "Sales Director",
+     "email": "clara.kimura@marlowe.example",
+     "phone_day": "(302) 555-0196",
+     "phone_evening": "(302) 555-7408",
+     "services": "ESD-safe packaging and wafer shipping boxes",
+     "service_area": "north_america",
+     "gross_sales": "14800000",
+     "insurance": "not_insured",
+     "licensing": "not_licensed",
+     "bank_name": "Chesapeake Union Trust",
+     "beneficiary": "Marlowe Packaging Inc.",
+     "account_number": "947-682815-0",
+     "swift": "CUTXUSAXXXX"
+    },
+    "wrong": {
+     "email": "clara.kimura at marlowe.example",
+     "licensing": "licensed"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-025",
+ "context": "parabank/t-customer-025.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "last_name": "Haddad",
+    "street": "1578 Larkspur Ln",
+    "city": "Columbus",
+    "state": [
+     "OH",
+     "Ohio"
+    ],
+    "zip": "43291",
+    "phone": "(614) 555-0186",
+    "ssn": "963-54-4743",
+    "username": "rahul.haddad51",
+    "password": "Maple#6076",
+    "password_confirm": "Maple#6076"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Haddad",
+     "street": "1578 Larkspur Ln",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43291",
+     "phone": "(614) 555-0186",
+     "ssn": "963-54-4743",
+     "username": "rahul.haddad51",
+     "password": "Maple#6076",
+     "password_confirm": "Maple#6076"
+    },
+    "wrong": {
+     "state": "O"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "3306 Birchwood Way",
+    "payee_city": "Austin",
+    "payee_state": [
+     "TX",
+     "Texas"
+    ],
+    "payee_zip": "78707",
+    "payee_phone": "(512) 555-0108",
+    "payee_account": "21544-2910",
+    "payee_account_verify": "21544-2910",
+    "amount": "566.55",
+    "from_account": "13566"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "3306 Birchwood Way",
+     "payee_city": "Austin",
+     "payee_state": "TX",
+     "payee_zip": "78707",
+     "payee_phone": "(512) 555-0108",
+     "payee_account": "21544-2910",
+     "payee_account_verify": "21544-2910",
+     "amount": "566.55",
+     "from_account": "13566"
+    },
+    "wrong": {
+     "payee_account_verify": "21544-29x",
+     "payee_street": "3306 Birc"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "12000",
+    "down_payment": "1200",
+    "loan_from_account": "20346",
+    "new_account_type": "CHECKING",
+    "new_account_from": "13566"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "12000",
+     "down_payment": "1200",
+     "loan_from_account": "20346",
+     "new_account_type": "CHECKING",
+     "new_account_from": "13566"
+    },
+    "wrong": {
+     "loan_amount": "12"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "3306 Birchwood Way",
+    "payee_city": "Austin",
+    "payee_state": [
+     "TX",
+     "Texas"
+    ],
+    "payee_zip": "78707",
+    "payee_phone": "(512) 555-0108",
+    "from_account": "13566",
+    "amount": "566.55",
+    "payee_account": "21544-2910",
+    "payee_account_verify": "21544-2910"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "3306 Birchwood Way",
+     "payee_city": "Austin",
+     "payee_state": "TX",
+     "payee_zip": "78707",
+     "payee_phone": "(512) 555-0108",
+     "from_account": "13566",
+     "amount": "566.55",
+     "payee_account": "21544-2910",
+     "payee_account_verify": "21544-2910"
+    },
+    "wrong": {
+     "payee_account_verify": "21544-29x",
+     "payee_account": "21544"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "last_name": "Haddad",
+    "phone": "(614) 555-0186",
+    "ssn": "963-54-4743",
+    "street": "1578 Larkspur Ln",
+    "city": "Columbus",
+    "state": [
+     "OH",
+     "Ohio"
+    ],
+    "zip": "43291",
+    "username": "rahul.haddad51",
+    "password": "Maple#6076",
+    "password_confirm": "Maple#6076"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Haddad",
+     "phone": "(614) 555-0186",
+     "ssn": "963-54-4743",
+     "street": "1578 Larkspur Ln",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43291",
+     "username": "rahul.haddad51",
+     "password": "Maple#6076",
+     "password_confirm": "Maple#6076"
+    },
+    "wrong": {
+     "last_name": "Had"
+    }
+   }
+  }
+ }
+}

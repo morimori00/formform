@@ -1,0 +1,192 @@
+{
+ "persona": "vendor-onboarding/t-intl-005",
+ "context": "vendor-onboarding/t-intl-005.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Highmoor Calibration Co., Ltd.",
+    "tax_id": "0177386408293",
+    "company_address": "120 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "established": "2015-08-01",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "services": "Metrology equipment calibration and certification",
+    "service_area": "europe",
+    "gross_sales": "24800000",
+    "contact_name": [
+     "Aisha Mwangi",
+     "Ms. Aisha Mwangi"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "+66 2 086 4702",
+    "phone_evening": "",
+    "email": "aisha.mwangi@highmoor.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Siam Lotus Bank",
+    "beneficiary": "Highmoor Calibration Co., Ltd.",
+    "account_number": "146-500668-4",
+    "swift": "SLBXTHASXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Calibration Co., Ltd.",
+     "tax_id": "0177386408293",
+     "company_address": "120 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "established": "2015-08-01",
+     "business_type": "private_limited",
+     "services": "Metrology equipment calibration and certification",
+     "service_area": "europe",
+     "gross_sales": "24800000",
+     "contact_name": "Aisha Mwangi",
+     "contact_title": "Account Manager",
+     "phone_day": "+66 2 086 4702",
+     "email": "aisha.mwangi@highmoor.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Siam Lotus Bank",
+     "beneficiary": "Highmoor Calibration Co., Ltd.",
+     "account_number": "146-500668-4",
+     "swift": "SLBXTHASXXX"
+    },
+    "wrong": {
+     "email": "aisha.mwangi at highmoor.example",
+     "contact_name": "Aisha "
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Highmoor Calibration Co., Ltd.",
+    "tax_id": "0177386408293",
+    "established": "2015-08-01",
+    "service_area": "europe",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "contact_name": [
+     "Aisha Mwangi",
+     "Ms. Aisha Mwangi"
+    ],
+    "email": "aisha.mwangi@highmoor.example",
+    "phone_day": "+66 2 086 4702",
+    "phone_evening": "",
+    "company_address": "120 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Siam Lotus Bank",
+    "beneficiary": "Highmoor Calibration Co., Ltd.",
+    "account_number": "146-500668-4",
+    "swift": "SLBXTHASXXX",
+    "insurance": "insured",
+    "gross_sales": "24800000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Calibration Co., Ltd.",
+     "tax_id": "0177386408293",
+     "established": "2015-08-01",
+     "service_area": "europe",
+     "business_type": "private_limited",
+     "contact_name": "Aisha Mwangi",
+     "email": "aisha.mwangi@highmoor.example",
+     "phone_day": "+66 2 086 4702",
+     "company_address": "120 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "licensing": "not_licensed",
+     "bank_name": "Siam Lotus Bank",
+     "beneficiary": "Highmoor Calibration Co., Ltd.",
+     "account_number": "146-500668-4",
+     "swift": "SLBXTHASXXX",
+     "insurance": "insured",
+     "gross_sales": "24800000"
+    },
+    "wrong": {
+     "email": "aisha.mwangi at highmoor.example",
+     "phone_day": "+66 2 0"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Siam Lotus Bank",
+    "beneficiary": "Highmoor Calibration Co., Ltd.",
+    "account_number": "146-500668-4",
+    "swift": "SLBXTHASXXX",
+    "org_name": "Highmoor Calibration Co., Ltd.",
+    "tax_id": "0177386408293",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "established": "2015-08-01",
+    "company_address": "120 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "service_area": "europe",
+    "contact_name": [
+     "Aisha Mwangi",
+     "Ms. Aisha Mwangi"
+    ],
+    "email": "aisha.mwangi@highmoor.example",
+    "phone_day": "+66 2 086 4702",
+    "contact_title": "Account Manager",
+    "phone_evening": "",
+    "gross_sales": "24800000",
+    "services": "Metrology equipment calibration and certification",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Siam Lotus Bank",
+     "beneficiary": "Highmoor Calibration Co., Ltd.",
+     "account_number": "146-500668-4",
+     "swift": "SLBXTHASXXX",
+     "org_name": "Highmoor Calibration Co., Ltd.",
+     "tax_id": "0177386408293",
+     "business_type": "private_limited",
+     "established": "2015-08-01",
+     "company_address": "120 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "service_area": "europe",
+     "contact_name": "Aisha Mwangi",
+     "email": "aisha.mwangi@highmoor.example",
+     "phone_day": "+66 2 086 4702",
+     "contact_title": "Account Manager",
+     "gross_sales": "24800000",
+     "services": "Metrology equipment calibration and certification",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "aisha.mwangi at highmoor.example",
+     "contact_title": "Account"
+    }
+   }
+  }
+ }
+}

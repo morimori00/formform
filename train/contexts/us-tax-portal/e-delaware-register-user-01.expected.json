@@ -1,0 +1,50 @@
+{
+ "persona": "us-tax-portal/e-delaware-register-user-01",
+ "context": "us-tax-portal/e-delaware-register-user-01.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/delaware-register-user": {
+   "submit": true,
+   "fields": {
+    "accept_terms": true,
+    "first_name": "Thandi",
+    "middle_initial": "E",
+    "last_name": "Banerjee",
+    "position": "Tax Manager",
+    "email": "tbanerjee@pinnacle.example",
+    "email_confirm": "tbanerjee@pinnacle.example",
+    "country_code": "1",
+    "day_phone": "(856) 555-0146",
+    "mobile_country_code": "1",
+    "mobile_phone": "(856) 555-0182",
+    "user_id": "pinnacle.tbanerjee",
+    "esign": "Thandi E. Banerjee",
+    "certify": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "accept_terms": true,
+     "first_name": "Thandi",
+     "middle_initial": "E",
+     "last_name": "Banerjee",
+     "position": "Tax Manager",
+     "email": "tbanerjee@pinnacle.example",
+     "email_confirm": "tbanerjee@pinnacle.example",
+     "country_code": "1",
+     "day_phone": "(856) 555-0146",
+     "mobile_country_code": "1",
+     "mobile_phone": "(856) 555-0182",
+     "user_id": "pinnacle.tbanerjee",
+     "esign": "Thandi E. Banerjee",
+     "certify": true
+    },
+    "wrong": {
+     "middle_initial": "x",
+     "country_code": "44"
+    }
+   }
+  }
+ }
+}

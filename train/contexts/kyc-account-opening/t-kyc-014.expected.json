@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-014",
+ "context": "kyc-account-opening/t-kyc-014.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-47238",
+    "full_name": [
+     "Irene Mensah",
+     "Mensah Irene"
+    ],
+    "spouse_name": "Aisha Petrov",
+    "gender": "female",
+    "marital": "single",
+    "dob": "1971-02-17",
+    "nationality": "BD",
+    "residency": "foreign_national",
+    "tax_id": "E3279443A",
+    "id_proof": "arc",
+    "address": [
+     "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "phone": "+886 955 864 619",
+    "email": "irene.mensah@inbox.example",
+    "addr_proof": "utility_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Irene Mensah",
+     "Mensah Irene"
+    ],
+    "sign_date": "2026-11-06",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-47238",
+     "full_name": "Irene Mensah",
+     "spouse_name": "Aisha Petrov",
+     "gender": "female",
+     "marital": "single",
+     "dob": "1971-02-17",
+     "nationality": "BD",
+     "residency": "foreign_national",
+     "tax_id": "E3279443A",
+     "id_proof": "arc",
+     "address": "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "phone": "+886 955 864 619",
+     "email": "irene.mensah@inbox.example",
+     "addr_proof": "utility_bill",
+     "perm_same": true,
+     "decl_name": "Irene Mensah",
+     "sign_date": "2026-11-06"
+    },
+    "wrong": {
+     "tax_id": "E327944x",
+     "nationality": "TW"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Irene Mensah",
+     "Mensah Irene"
+    ],
+    "dob": "1971-02-17",
+    "mother_maiden": "Silva",
+    "phone": "+886 955 864 619",
+    "email": "irene.mensah@inbox.example",
+    "address": [
+     "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "education": "high_school",
+    "id_form": "passport",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "173000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Irene Mensah",
+     "dob": "1971-02-17",
+     "mother_maiden": "Silva",
+     "phone": "+886 955 864 619",
+     "email": "irene.mensah@inbox.example",
+     "address": "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "education": "high_school",
+     "id_form": "passport",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "173000"
+    },
+    "wrong": {
+     "email": "irene.mensah at inbox.example",
+     "phone": "+886 955"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Irene Mensah",
+     "Mensah Irene"
+    ],
+    "dob": "1971-02-17",
+    "gender": "female",
+    "nationality": "BD",
+    "marital": "single",
+    "spouse_name": "Aisha Petrov",
+    "address": [
+     "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "email": "irene.mensah@inbox.example",
+    "phone": "+886 955 864 619",
+    "addr_proof": "utility_bill",
+    "id_proof": "arc",
+    "tax_id": "E3279443A",
+    "residency": "foreign_national",
+    "application_no": "LCB-AO-2026-47238"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Irene Mensah",
+     "dob": "1971-02-17",
+     "gender": "female",
+     "nationality": "BD",
+     "marital": "single",
+     "spouse_name": "Aisha Petrov",
+     "address": "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "email": "irene.mensah@inbox.example",
+     "phone": "+886 955 864 619",
+     "addr_proof": "utility_bill",
+     "id_proof": "arc",
+     "tax_id": "E3279443A",
+     "residency": "foreign_national",
+     "application_no": "LCB-AO-2026-47238"
+    },
+    "wrong": {
+     "email": "irene.mensah at inbox.example",
+     "marital": "married"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Irene Mensah",
+     "Mensah Irene"
+    ],
+    "dob": "1971-02-17",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "BD",
+    "residency": "foreign_national",
+    "phone": "+886 955 864 619",
+    "email": "irene.mensah@inbox.example",
+    "address": [
+     "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "perm_same": true,
+    "id_proof": "arc",
+    "tax_id": "E3279443A",
+    "addr_proof": "utility_bill",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "education": "high_school",
+    "monthly_income": "173000",
+    "application_no": "LCB-AO-2026-47238",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Irene Mensah",
+     "dob": "1971-02-17",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "BD",
+     "residency": "foreign_national",
+     "phone": "+886 955 864 619",
+     "email": "irene.mensah@inbox.example",
+     "address": "6F, No. 245, Sec. 2, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "perm_same": true,
+     "id_proof": "arc",
+     "tax_id": "E3279443A",
+     "addr_proof": "utility_bill",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "education": "high_school",
+     "monthly_income": "173000",
+     "application_no": "LCB-AO-2026-47238"
+    },
+    "wrong": {
+     "email": "irene.mensah at inbox.example",
+     "account_type": "savings"
+    }
+   }
+  }
+ }
+}

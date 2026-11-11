@@ -1,0 +1,252 @@
+{
+ "persona": "emr-registration/t-patient-021",
+ "context": "emr-registration/t-patient-021.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ming-Jie",
+    "middle_name": "",
+    "last_name": "Lai",
+    "dob": "1999-06-06",
+    "sex": "male",
+    "marital": "married",
+    "language": "japanese",
+    "street": "5F, No. 129, Sec. 6, Datong Rd., Yongkang Dist.",
+    "city": "Tainan City",
+    "postal": "710",
+    "country": "TW",
+    "phone_home": "02-7486-4367",
+    "phone_cell": "0934-411-397",
+    "email": "mingjie.lai@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Jia-Yen Lai",
+    "ec_phone": "0981-165-092",
+    "ec_relationship": "parent",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-2830-9839",
+    "group_number": "G-1485",
+    "subscriber_rel": "child",
+    "ins_effective": "2019-05-07"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ming-Jie",
+     "last_name": "Lai",
+     "dob": "1999-06-06",
+     "sex": "male",
+     "marital": "married",
+     "language": "japanese",
+     "street": "5F, No. 129, Sec. 6, Datong Rd., Yongkang Dist.",
+     "city": "Tainan City",
+     "postal": "710",
+     "country": "TW",
+     "phone_home": "02-7486-4367",
+     "phone_cell": "0934-411-397",
+     "email": "mingjie.lai@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Jia-Yen Lai",
+     "ec_phone": "0981-165-092",
+     "ec_relationship": "parent",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-2830-9839",
+     "group_number": "G-1485",
+     "subscriber_rel": "child",
+     "ins_effective": "2019-05-07"
+    },
+    "wrong": {
+     "email": "mingjie.lai at inbox.example",
+     "subscriber_rel": "self"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lai",
+    "first_name": "Ming-Jie",
+    "middle_name": "",
+    "dob": "1999-06-06",
+    "sex": "male",
+    "marital": "married",
+    "national_id": "",
+    "street": "5F, No. 129, Sec. 6, Datong Rd., Yongkang Dist.",
+    "postal": "710",
+    "city": "Tainan City",
+    "country": "TW",
+    "phone_cell": "0934-411-397",
+    "phone_home": "02-7486-4367",
+    "email": "mingjie.lai@inbox.example",
+    "ec_name": "Jia-Yen Lai",
+    "ec_relationship": "parent",
+    "ec_phone": "0981-165-092",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-2830-9839",
+    "group_number": "G-1485",
+    "subscriber_rel": "child",
+    "ins_effective": "2019-05-07",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lai",
+     "first_name": "Ming-Jie",
+     "dob": "1999-06-06",
+     "sex": "male",
+     "marital": "married",
+     "street": "5F, No. 129, Sec. 6, Datong Rd., Yongkang Dist.",
+     "postal": "710",
+     "city": "Tainan City",
+     "country": "TW",
+     "phone_cell": "0934-411-397",
+     "phone_home": "02-7486-4367",
+     "email": "mingjie.lai@inbox.example",
+     "ec_name": "Jia-Yen Lai",
+     "ec_relationship": "parent",
+     "ec_phone": "0981-165-092",
+     "occupation": "Retired",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-2830-9839",
+     "group_number": "G-1485",
+     "subscriber_rel": "child",
+     "ins_effective": "2019-05-07"
+    },
+    "wrong": {
+     "email": "mingjie.lai at inbox.example",
+     "group_number": "G-1"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ming-Jie",
+    "last_name": "Lai",
+    "dob": "1999-06-06",
+    "sex": "male",
+    "language": "japanese",
+    "street": "5F, No. 129, Sec. 6, Datong Rd., Yongkang Dist.",
+    "city": "Tainan City",
+    "postal": "710",
+    "country": "TW",
+    "phone_cell": "0934-411-397",
+    "phone_home": "02-7486-4367",
+    "ec_name": "Jia-Yen Lai",
+    "ec_phone": "0981-165-092",
+    "ec_relationship": "parent",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-2830-9839",
+    "group_number": "G-1485",
+    "subscriber_rel": "child",
+    "ins_effective": "2019-05-07"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ming-Jie",
+     "last_name": "Lai",
+     "dob": "1999-06-06",
+     "sex": "male",
+     "language": "japanese",
+     "street": "5F, No. 129, Sec. 6, Datong Rd., Yongkang Dist.",
+     "city": "Tainan City",
+     "postal": "710",
+     "country": "TW",
+     "phone_cell": "0934-411-397",
+     "phone_home": "02-7486-4367",
+     "ec_name": "Jia-Yen Lai",
+     "ec_phone": "0981-165-092",
+     "ec_relationship": "parent",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-2830-9839",
+     "group_number": "G-1485",
+     "subscriber_rel": "child",
+     "ins_effective": "2019-05-07"
+    },
+    "wrong": {
+     "city": "Taina"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lai",
+    "first_name": "Ming-Jie",
+    "dob": "1999-06-06",
+    "sex": "male",
+    "phone_cell": "0934-411-397",
+    "country": "TW",
+    "city": "Tainan City",
+    "postal": "710",
+    "street": "5F, No. 129, Sec. 6, Datong Rd., Yongkang Dist.",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-2830-9839",
+    "subscriber_rel": "child",
+    "ins_effective": "2019-05-07",
+    "email": "mingjie.lai@inbox.example",
+    "phone_home": "02-7486-4367",
+    "marital": "married",
+    "language": "japanese",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Jia-Yen Lai",
+    "ec_phone": "0981-165-092",
+    "ec_relationship": "parent",
+    "group_number": "G-1485"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lai",
+     "first_name": "Ming-Jie",
+     "dob": "1999-06-06",
+     "sex": "male",
+     "phone_cell": "0934-411-397",
+     "country": "TW",
+     "city": "Tainan City",
+     "postal": "710",
+     "street": "5F, No. 129, Sec. 6, Datong Rd., Yongkang Dist.",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-2830-9839",
+     "subscriber_rel": "child",
+     "ins_effective": "2019-05-07",
+     "email": "mingjie.lai@inbox.example",
+     "phone_home": "02-7486-4367",
+     "marital": "married",
+     "language": "japanese",
+     "occupation": "Retired",
+     "ec_name": "Jia-Yen Lai",
+     "ec_phone": "0981-165-092",
+     "ec_relationship": "parent",
+     "group_number": "G-1485"
+    },
+    "wrong": {
+     "email": "mingjie.lai at inbox.example",
+     "policy_number": "HSH-28"
+    }
+   }
+  }
+ }
+}

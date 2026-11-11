@@ -1,0 +1,243 @@
+{
+ "persona": "emr-registration/t-patient-001",
+ "context": "emr-registration/t-patient-001.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": false,
+   "fields": {
+    "first_name": "Pei-Ying",
+    "middle_name": "",
+    "last_name": "Lai",
+    "dob": "1955-02-18",
+    "sex": "male",
+    "marital": "divorced",
+    "language": "japanese",
+    "street": "14F, No. 64, Sec. 6, Guangfu Rd., Neihu Dist.",
+    "city": "Taipei City",
+    "postal": "114",
+    "country": "TW",
+    "phone_home": "04-0104-9346",
+    "phone_cell": "",
+    "email": "",
+    "occupation": "Shop owner",
+    "employer": "Silverpine Design Studio",
+    "ec_name": "Kuan-Ju Lai",
+    "ec_phone": "0945-556-710",
+    "ec_relationship": "spouse",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2790-2599",
+    "group_number": "",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-01-16"
+   },
+   "infeasible": [
+    "phone_cell",
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Pei-Ying",
+     "last_name": "Lai",
+     "dob": "1955-02-18",
+     "sex": "male",
+     "marital": "divorced",
+     "language": "japanese",
+     "street": "14F, No. 64, Sec. 6, Guangfu Rd., Neihu Dist.",
+     "city": "Taipei City",
+     "postal": "114",
+     "country": "TW",
+     "phone_home": "04-0104-9346",
+     "occupation": "Shop owner",
+     "employer": "Silverpine Design Studio",
+     "ec_name": "Kuan-Ju Lai",
+     "ec_phone": "0945-556-710",
+     "ec_relationship": "spouse",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2790-2599",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-01-16"
+    },
+    "wrong": {
+     "language": "english"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": false,
+   "fields": {
+    "last_name": "Lai",
+    "first_name": "Pei-Ying",
+    "middle_name": "",
+    "dob": "1955-02-18",
+    "sex": "male",
+    "marital": "divorced",
+    "national_id": "",
+    "street": "14F, No. 64, Sec. 6, Guangfu Rd., Neihu Dist.",
+    "postal": "114",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "",
+    "phone_home": "04-0104-9346",
+    "email": "",
+    "ec_name": "Kuan-Ju Lai",
+    "ec_relationship": "spouse",
+    "ec_phone": "0945-556-710",
+    "occupation": "Shop owner",
+    "employer": "Silverpine Design Studio",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2790-2599",
+    "group_number": "",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-01-16",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id",
+    "phone_cell",
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lai",
+     "first_name": "Pei-Ying",
+     "dob": "1955-02-18",
+     "sex": "male",
+     "marital": "divorced",
+     "street": "14F, No. 64, Sec. 6, Guangfu Rd., Neihu Dist.",
+     "postal": "114",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_home": "04-0104-9346",
+     "ec_name": "Kuan-Ju Lai",
+     "ec_relationship": "spouse",
+     "ec_phone": "0945-556-710",
+     "occupation": "Shop owner",
+     "employer": "Silverpine Design Studio",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2790-2599",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-01-16"
+    },
+    "wrong": {
+     "occupation": "Shop "
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": false,
+   "fields": {
+    "first_name": "Pei-Ying",
+    "last_name": "Lai",
+    "dob": "1955-02-18",
+    "sex": "male",
+    "language": "japanese",
+    "street": "14F, No. 64, Sec. 6, Guangfu Rd., Neihu Dist.",
+    "city": "Taipei City",
+    "postal": "114",
+    "country": "TW",
+    "phone_cell": "",
+    "phone_home": "04-0104-9346",
+    "ec_name": "Kuan-Ju Lai",
+    "ec_phone": "0945-556-710",
+    "ec_relationship": "spouse",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2790-2599",
+    "group_number": "",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-01-16"
+   },
+   "infeasible": [
+    "phone_cell",
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Pei-Ying",
+     "last_name": "Lai",
+     "dob": "1955-02-18",
+     "sex": "male",
+     "language": "japanese",
+     "street": "14F, No. 64, Sec. 6, Guangfu Rd., Neihu Dist.",
+     "city": "Taipei City",
+     "postal": "114",
+     "country": "TW",
+     "phone_home": "04-0104-9346",
+     "ec_name": "Kuan-Ju Lai",
+     "ec_phone": "0945-556-710",
+     "ec_relationship": "spouse",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2790-2599",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-01-16"
+    },
+    "wrong": {
+     "policy_number": "JMH-27"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": false,
+   "fields": {
+    "last_name": "Lai",
+    "first_name": "Pei-Ying",
+    "dob": "1955-02-18",
+    "sex": "male",
+    "phone_cell": "",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "114",
+    "street": "14F, No. 64, Sec. 6, Guangfu Rd., Neihu Dist.",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2790-2599",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-01-16",
+    "email": "",
+    "phone_home": "04-0104-9346",
+    "marital": "divorced",
+    "language": "japanese",
+    "occupation": "Shop owner",
+    "employer": "Silverpine Design Studio",
+    "ec_name": "Kuan-Ju Lai",
+    "ec_phone": "0945-556-710",
+    "ec_relationship": "spouse",
+    "group_number": ""
+   },
+   "infeasible": [
+    "phone_cell",
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lai",
+     "first_name": "Pei-Ying",
+     "dob": "1955-02-18",
+     "sex": "male",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "114",
+     "street": "14F, No. 64, Sec. 6, Guangfu Rd., Neihu Dist.",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2790-2599",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-01-16",
+     "phone_home": "04-0104-9346",
+     "marital": "divorced",
+     "language": "japanese",
+     "occupation": "Shop owner",
+     "employer": "Silverpine Design Studio",
+     "ec_name": "Kuan-Ju Lai",
+     "ec_phone": "0945-556-710",
+     "ec_relationship": "spouse"
+    },
+    "wrong": {
+     "street": "14F, No. 64, Sec. 6, G"
+    }
+   }
+  }
+ }
+}

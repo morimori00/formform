@@ -1,0 +1,189 @@
+{
+ "persona": "parabank/t-customer-026",
+ "context": "parabank/t-customer-026.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": false,
+   "fields": {
+    "first_name": "Elena",
+    "last_name": "Bianchi",
+    "street": "9063 Hawthorne Way",
+    "city": "Phoenix",
+    "state": [
+     "AZ",
+     "Arizona"
+    ],
+    "zip": "85095",
+    "phone": "(602) 555-0157",
+    "ssn": "983-55-3031",
+    "username": "elena.bianchi92",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Elena",
+     "last_name": "Bianchi",
+     "street": "9063 Hawthorne Way",
+     "city": "Phoenix",
+     "state": "AZ",
+     "zip": "85095",
+     "phone": "(602) 555-0157",
+     "ssn": "983-55-3031",
+     "username": "elena.bianchi92"
+    },
+    "wrong": {
+     "first_name": "El"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": false,
+   "fields": {
+    "payee_name": "Ironbridge Telecom",
+    "payee_street": "3930 Larkspur St",
+    "payee_city": "Boston",
+    "payee_state": [
+     "MA",
+     "Massachusetts"
+    ],
+    "payee_zip": "02144",
+    "payee_phone": "",
+    "payee_account": "31237-3798",
+    "payee_account_verify": "31237-3798",
+    "amount": "438.08",
+    "from_account": "13566"
+   },
+   "infeasible": [
+    "payee_phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Ironbridge Telecom",
+     "payee_street": "3930 Larkspur St",
+     "payee_city": "Boston",
+     "payee_state": "MA",
+     "payee_zip": "02144",
+     "payee_account": "31237-3798",
+     "payee_account_verify": "31237-3798",
+     "amount": "438.08",
+     "from_account": "13566"
+    },
+    "wrong": {
+     "payee_account_verify": "31237-37x",
+     "payee_street": "3930 Lar"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "40000",
+    "down_payment": "8000",
+    "loan_from_account": "16788",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "13566"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "40000",
+     "down_payment": "8000",
+     "loan_from_account": "16788",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "13566"
+    },
+    "wrong": {
+     "new_account_type": "CHECKING"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": false,
+   "fields": {
+    "payee_name": "Ironbridge Telecom",
+    "payee_street": "3930 Larkspur St",
+    "payee_city": "Boston",
+    "payee_state": [
+     "MA",
+     "Massachusetts"
+    ],
+    "payee_zip": "02144",
+    "payee_phone": "",
+    "from_account": "13566",
+    "amount": "438.08",
+    "payee_account": "31237-3798",
+    "payee_account_verify": "31237-3798"
+   },
+   "infeasible": [
+    "payee_phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Ironbridge Telecom",
+     "payee_street": "3930 Larkspur St",
+     "payee_city": "Boston",
+     "payee_state": "MA",
+     "payee_zip": "02144",
+     "from_account": "13566",
+     "amount": "438.08",
+     "payee_account": "31237-3798",
+     "payee_account_verify": "31237-3798"
+    },
+    "wrong": {
+     "payee_account_verify": "31237-37x",
+     "payee_account": "31237"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Elena",
+    "last_name": "Bianchi",
+    "phone": "(602) 555-0157",
+    "ssn": "983-55-3031",
+    "street": "9063 Hawthorne Way",
+    "city": "Phoenix",
+    "state": [
+     "AZ",
+     "Arizona"
+    ],
+    "zip": "85095",
+    "username": "elena.bianchi92",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Elena",
+     "last_name": "Bianchi",
+     "phone": "(602) 555-0157",
+     "ssn": "983-55-3031",
+     "street": "9063 Hawthorne Way",
+     "city": "Phoenix",
+     "state": "AZ",
+     "zip": "85095",
+     "username": "elena.bianchi92"
+    },
+    "wrong": {
+     "first_name": "El"
+    }
+   }
+  }
+ }
+}

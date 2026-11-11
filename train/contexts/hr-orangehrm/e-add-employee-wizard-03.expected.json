@@ -1,0 +1,51 @@
+{
+ "persona": "hr-orangehrm/e-add-employee-wizard-03",
+ "context": "hr-orangehrm/e-add-employee-wizard-03.md",
+ "split": "eval",
+ "variants": {
+  "hr-orangehrm/add-employee-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yu-Ning",
+    "middle_name": "",
+    "last_name": "Shih",
+    "employee_id": "KST-81100",
+    "create_login": true,
+    "username": "yuning.shih",
+    "login_status": "enabled",
+    "password": "Onboard#5672x",
+    "confirm_password": "Onboard#5672x",
+    "job_title": "logistics_coord",
+    "department": "quality",
+    "work_location": "neihu",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m7133",
+    "joined_date": "2027-01-31"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yu-Ning",
+     "last_name": "Shih",
+     "employee_id": "KST-81100",
+     "create_login": true,
+     "username": "yuning.shih",
+     "login_status": "enabled",
+     "password": "Onboard#5672x",
+     "confirm_password": "Onboard#5672x",
+     "job_title": "logistics_coord",
+     "department": "quality",
+     "work_location": "neihu",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m7133",
+     "joined_date": "2027-01-31"
+    },
+    "wrong": {
+     "employee_id": "KST-811x",
+     "department": "fab_eng"
+    }
+   }
+  }
+ }
+}

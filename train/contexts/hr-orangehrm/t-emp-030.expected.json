@@ -1,0 +1,181 @@
+{
+ "persona": "hr-orangehrm/t-emp-030",
+ "context": "hr-orangehrm/t-emp-030.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "middle_name": "",
+    "last_name": "Fischer",
+    "employee_id": "KST-36696",
+    "create_login": true,
+    "username": "naomi.fischer",
+    "login_status": "enabled",
+    "password": "Onboard!2861c",
+    "confirm_password": "Onboard!2861c"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Fischer",
+     "employee_id": "KST-36696",
+     "create_login": true,
+     "username": "naomi.fischer",
+     "login_status": "enabled",
+     "password": "Onboard!2861c",
+     "confirm_password": "Onboard!2861c"
+    },
+    "wrong": {
+     "employee_id": "KST-366x",
+     "last_name": "Fis"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "middle_name": "",
+    "last_name": "Fischer",
+    "employee_id": "KST-36696",
+    "license_number": "DL-10764774",
+    "license_expiry": "2027-12-08",
+    "nationality": "GB",
+    "marital": "divorced",
+    "dob": "1977-10-01",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Fischer",
+     "employee_id": "KST-36696",
+     "license_number": "DL-10764774",
+     "license_expiry": "2027-12-08",
+     "nationality": "GB",
+     "marital": "divorced",
+     "dob": "1977-10-01",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-366x",
+     "nationality": "TW"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2026-12-08",
+    "leave_to": "2026-12-10",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2026-12-08",
+     "leave_to": "2026-12-10",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "leave_to": "2025-12-10"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2026-12-08",
+    "leave_to": "2026-12-10",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2026-12-08",
+     "leave_to": "2026-12-10",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "partial_days": "end"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "middle_name": "",
+    "last_name": "Fischer",
+    "employee_id": "KST-36696",
+    "create_login": true,
+    "username": "naomi.fischer",
+    "login_status": "enabled",
+    "password": "Onboard!2861c",
+    "confirm_password": "Onboard!2861c",
+    "nationality": "GB",
+    "marital": "divorced",
+    "dob": "1977-10-01",
+    "gender": "female",
+    "job_title": "data_platform_lead",
+    "department": "fab_eng",
+    "work_location": "hsp_fab3",
+    "emp_status": "ft_probation",
+    "supervisor": "u_m2993",
+    "joined_date": "2027-02-24"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Fischer",
+     "employee_id": "KST-36696",
+     "create_login": true,
+     "username": "naomi.fischer",
+     "login_status": "enabled",
+     "password": "Onboard!2861c",
+     "confirm_password": "Onboard!2861c",
+     "nationality": "GB",
+     "marital": "divorced",
+     "dob": "1977-10-01",
+     "gender": "female",
+     "job_title": "data_platform_lead",
+     "department": "fab_eng",
+     "work_location": "hsp_fab3",
+     "emp_status": "ft_probation",
+     "supervisor": "u_m2993",
+     "joined_date": "2027-02-24"
+    },
+    "wrong": {
+     "employee_id": "KST-366x",
+     "first_name": "Na"
+    }
+   }
+  }
+ }
+}

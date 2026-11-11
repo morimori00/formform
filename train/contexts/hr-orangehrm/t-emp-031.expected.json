@@ -1,0 +1,181 @@
+{
+ "persona": "hr-orangehrm/t-emp-031",
+ "context": "hr-orangehrm/t-emp-031.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Jie",
+    "middle_name": "",
+    "last_name": "Chou",
+    "employee_id": "KST-14953",
+    "create_login": true,
+    "username": "shujie.chou",
+    "login_status": "enabled",
+    "password": "Fab3#2137a",
+    "confirm_password": "Fab3#2137a"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Jie",
+     "last_name": "Chou",
+     "employee_id": "KST-14953",
+     "create_login": true,
+     "username": "shujie.chou",
+     "login_status": "enabled",
+     "password": "Fab3#2137a",
+     "confirm_password": "Fab3#2137a"
+    },
+    "wrong": {
+     "employee_id": "KST-149x",
+     "last_name": "Ch"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Jie",
+    "middle_name": "",
+    "last_name": "Chou",
+    "employee_id": "KST-14953",
+    "license_number": "DL-14696341",
+    "license_expiry": "2027-10-07",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1991-04-11",
+    "gender": "male"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Jie",
+     "last_name": "Chou",
+     "employee_id": "KST-14953",
+     "license_number": "DL-14696341",
+     "license_expiry": "2027-10-07",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1991-04-11",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-149x",
+     "license_number": "DL-14"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-02-06",
+    "leave_to": "2027-02-10",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-02-06",
+     "leave_to": "2027-02-10",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "partial_days": "all"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-02-06",
+    "leave_to": "2027-02-10",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-02-06",
+     "leave_to": "2027-02-10",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "partial_days": "end"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Jie",
+    "middle_name": "",
+    "last_name": "Chou",
+    "employee_id": "KST-14953",
+    "create_login": true,
+    "username": "shujie.chou",
+    "login_status": "enabled",
+    "password": "Fab3#2137a",
+    "confirm_password": "Fab3#2137a",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1991-04-11",
+    "gender": "male",
+    "job_title": "logistics_coord",
+    "department": "fab_eng",
+    "work_location": "neihu",
+    "emp_status": "ft_probation",
+    "supervisor": "u_m3960",
+    "joined_date": "2027-01-10"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Jie",
+     "last_name": "Chou",
+     "employee_id": "KST-14953",
+     "create_login": true,
+     "username": "shujie.chou",
+     "login_status": "enabled",
+     "password": "Fab3#2137a",
+     "confirm_password": "Fab3#2137a",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1991-04-11",
+     "gender": "male",
+     "job_title": "logistics_coord",
+     "department": "fab_eng",
+     "work_location": "neihu",
+     "emp_status": "ft_probation",
+     "supervisor": "u_m3960",
+     "joined_date": "2027-01-10"
+    },
+    "wrong": {
+     "employee_id": "KST-149x",
+     "work_location": "hsp_fab3"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "persona": "kyc-account-opening/t-kyc-015",
+ "context": "kyc-account-opening/t-kyc-015.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-14382",
+    "full_name": [
+     "Hsu Mei-Ling",
+     "Mei-Ling Hsu"
+    ],
+    "spouse_name": "Yeh Tzu-Hui",
+    "gender": "female",
+    "marital": "single",
+    "dob": "1965-10-20",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "D233257099",
+    "id_proof": "national_id",
+    "address": [
+     "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "phone": "+886 919 123 785",
+    "email": "meiling.hsu@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": false,
+    "perm_address": [
+     "5F, No. 255, Ln. 144, Sec. 5, Minquan E. Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "5F, No. 255, Ln. 144, Sec. 5, Minquan E. Rd., Nantun Dist., Taichung City 408"
+    ],
+    "decl_name": [
+     "Hsu Mei-Ling",
+     "Mei-Ling Hsu"
+    ],
+    "sign_date": "2026-11-06",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-14382",
+     "full_name": "Hsu Mei-Ling",
+     "spouse_name": "Yeh Tzu-Hui",
+     "gender": "female",
+     "marital": "single",
+     "dob": "1965-10-20",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "D233257099",
+     "id_proof": "national_id",
+     "address": "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "phone": "+886 919 123 785",
+     "email": "meiling.hsu@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": false,
+     "perm_address": "5F, No. 255, Ln. 144, Sec. 5, Minquan E. Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "decl_name": "Hsu Mei-Ling",
+     "sign_date": "2026-11-06"
+    },
+    "wrong": {
+     "tax_id": "D2332570x",
+     "id_proof": "passport"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Hsu Mei-Ling",
+     "Mei-Ling Hsu"
+    ],
+    "dob": "1965-10-20",
+    "mother_maiden": "Chou",
+    "phone": "+886 919 123 785",
+    "email": "meiling.hsu@inbox.example",
+    "address": [
+     "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "education": "bachelor",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "individual",
+    "monthly_income": "153000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Hsu Mei-Ling",
+     "dob": "1965-10-20",
+     "mother_maiden": "Chou",
+     "phone": "+886 919 123 785",
+     "email": "meiling.hsu@inbox.example",
+     "address": "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "education": "bachelor",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "individual",
+     "monthly_income": "153000"
+    },
+    "wrong": {
+     "email": "meiling.hsu at inbox.example",
+     "account_category": "joint"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Hsu Mei-Ling",
+     "Mei-Ling Hsu"
+    ],
+    "dob": "1965-10-20",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Yeh Tzu-Hui",
+    "address": [
+     "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "email": "meiling.hsu@inbox.example",
+    "phone": "+886 919 123 785",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "D233257099",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-14382"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Hsu Mei-Ling",
+     "dob": "1965-10-20",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Yeh Tzu-Hui",
+     "address": "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "email": "meiling.hsu@inbox.example",
+     "phone": "+886 919 123 785",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "D233257099",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-14382"
+    },
+    "wrong": {
+     "email": "meiling.hsu at inbox.example",
+     "spouse_name": "Yeh T"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Hsu Mei-Ling",
+     "Mei-Ling Hsu"
+    ],
+    "dob": "1965-10-20",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 919 123 785",
+    "email": "meiling.hsu@inbox.example",
+    "address": [
+     "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "perm_same": false,
+    "id_proof": "national_id",
+    "tax_id": "D233257099",
+    "addr_proof": "tax_bill",
+    "account_type": "savings",
+    "account_category": "individual",
+    "education": "bachelor",
+    "monthly_income": "153000",
+    "application_no": "LCB-AO-2026-14382",
+    "perm_address": [
+     "5F, No. 255, Ln. 144, Sec. 5, Minquan E. Rd., Nantun Dist., Taichung City 408, Taiwan",
+     "5F, No. 255, Ln. 144, Sec. 5, Minquan E. Rd., Nantun Dist., Taichung City 408"
+    ]
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Hsu Mei-Ling",
+     "dob": "1965-10-20",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 919 123 785",
+     "email": "meiling.hsu@inbox.example",
+     "address": "14F, No. 6, Sec. 3, Zhongzheng Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "perm_same": false,
+     "id_proof": "national_id",
+     "tax_id": "D233257099",
+     "addr_proof": "tax_bill",
+     "account_type": "savings",
+     "account_category": "individual",
+     "education": "bachelor",
+     "monthly_income": "153000",
+     "application_no": "LCB-AO-2026-14382",
+     "perm_address": "5F, No. 255, Ln. 144, Sec. 5, Minquan E. Rd., Nantun Dist., Taichung City 408, Taiwan"
+    },
+    "wrong": {
+     "email": "meiling.hsu at inbox.example",
+     "education": "high_school"
+    }
+   }
+  }
+ }
+}

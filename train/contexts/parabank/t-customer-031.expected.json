@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-031",
+ "context": "parabank/t-customer-031.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mina",
+    "last_name": "Brennan",
+    "street": "2929 Hawthorne Dr",
+    "city": "Seattle",
+    "state": [
+     "WA",
+     "Washington"
+    ],
+    "zip": "98112",
+    "phone": "(206) 555-0149",
+    "ssn": "911-88-3480",
+    "username": "mina.brennan63",
+    "password": "Quartz-4956",
+    "password_confirm": "Quartz-4956"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mina",
+     "last_name": "Brennan",
+     "street": "2929 Hawthorne Dr",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98112",
+     "phone": "(206) 555-0149",
+     "ssn": "911-88-3480",
+     "username": "mina.brennan63",
+     "password": "Quartz-4956",
+     "password_confirm": "Quartz-4956"
+    },
+    "wrong": {
+     "phone": "(206) 5"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Sunfield Solar Leasing",
+    "payee_street": "4920 Fox Run Way",
+    "payee_city": "Tampa",
+    "payee_state": [
+     "FL",
+     "Florida"
+    ],
+    "payee_zip": "33609",
+    "payee_phone": "(813) 555-0125",
+    "payee_account": "27199-0864",
+    "payee_account_verify": "27199-0864",
+    "amount": "423.19",
+    "from_account": "15231"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Sunfield Solar Leasing",
+     "payee_street": "4920 Fox Run Way",
+     "payee_city": "Tampa",
+     "payee_state": "FL",
+     "payee_zip": "33609",
+     "payee_phone": "(813) 555-0125",
+     "payee_account": "27199-0864",
+     "payee_account_verify": "27199-0864",
+     "amount": "423.19",
+     "from_account": "15231"
+    },
+    "wrong": {
+     "payee_account_verify": "27199-08x",
+     "from_account": "13344"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "10000",
+    "down_payment": "500",
+    "loan_from_account": "15231",
+    "new_account_type": "CHECKING",
+    "new_account_from": "15231"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "10000",
+     "down_payment": "500",
+     "loan_from_account": "15231",
+     "new_account_type": "CHECKING",
+     "new_account_from": "15231"
+    },
+    "wrong": {
+     "loan_from_account": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Sunfield Solar Leasing",
+    "payee_street": "4920 Fox Run Way",
+    "payee_city": "Tampa",
+    "payee_state": [
+     "FL",
+     "Florida"
+    ],
+    "payee_zip": "33609",
+    "payee_phone": "(813) 555-0125",
+    "from_account": "15231",
+    "amount": "423.19",
+    "payee_account": "27199-0864",
+    "payee_account_verify": "27199-0864"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Sunfield Solar Leasing",
+     "payee_street": "4920 Fox Run Way",
+     "payee_city": "Tampa",
+     "payee_state": "FL",
+     "payee_zip": "33609",
+     "payee_phone": "(813) 555-0125",
+     "from_account": "15231",
+     "amount": "423.19",
+     "payee_account": "27199-0864",
+     "payee_account_verify": "27199-0864"
+    },
+    "wrong": {
+     "payee_account_verify": "27199-08x",
+     "payee_street": "4920 Fox"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mina",
+    "last_name": "Brennan",
+    "phone": "(206) 555-0149",
+    "ssn": "911-88-3480",
+    "street": "2929 Hawthorne Dr",
+    "city": "Seattle",
+    "state": [
+     "WA",
+     "Washington"
+    ],
+    "zip": "98112",
+    "username": "mina.brennan63",
+    "password": "Quartz-4956",
+    "password_confirm": "Quartz-4956"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mina",
+     "last_name": "Brennan",
+     "phone": "(206) 555-0149",
+     "ssn": "911-88-3480",
+     "street": "2929 Hawthorne Dr",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98112",
+     "username": "mina.brennan63",
+     "password": "Quartz-4956",
+     "password_confirm": "Quartz-4956"
+    },
+    "wrong": {
+     "state": "AL"
+    }
+   }
+  }
+ }
+}

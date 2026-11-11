@@ -1,0 +1,72 @@
+{
+ "persona": "tw-arrival-card/e-arrival-loading-dropdowns-08",
+ "context": "tw-arrival-card/e-arrival-loading-dropdowns-08.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-loading-dropdowns": {
+   "submit": true,
+   "fields": {
+    "flight_no": "JL 147",
+    "arrival_date": "2026-11-28",
+    "purpose": "conference",
+    "departure_flight": "",
+    "passport_no": "K7002514A",
+    "family_name": "FUJITA",
+    "given_name": "MIO",
+    "nationality": "JP",
+    "sex": "female",
+    "dob": "1998-05-08",
+    "passport_expiry": "2029-10-17",
+    "occupation": "student",
+    "visa_type": "resident",
+    "visa_no": "V-7492839",
+    "stay_type": "residence",
+    "stay_address": [
+     "No. 64, Minsheng E. Rd., Da'an Dist., Taipei City 106",
+     "company residence, No. 64, Minsheng E. Rd., Da'an Dist., Taipei City 106"
+    ],
+    "county": "臺北市",
+    "district": "大安區",
+    "phone": "+886 997 406 304",
+    "visited": [
+     "JP",
+     "SG"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "flight_no": "JL 147",
+     "arrival_date": "2026-11-28",
+     "purpose": "conference",
+     "passport_no": "K7002514A",
+     "family_name": "FUJITA",
+     "given_name": "MIO",
+     "nationality": "JP",
+     "sex": "female",
+     "dob": "1998-05-08",
+     "passport_expiry": "2029-10-17",
+     "occupation": "student",
+     "visa_type": "resident",
+     "visa_no": "V-7492839",
+     "stay_type": "residence",
+     "stay_address": "No. 64, Minsheng E. Rd., Da'an Dist., Taipei City 106",
+     "county": "臺北市",
+     "district": "大安區",
+     "phone": "+886 997 406 304",
+     "visited": [
+      "JP",
+      "SG"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "FUJIx",
+     "dob": "1997-05-08"
+    }
+   }
+  }
+ }
+}

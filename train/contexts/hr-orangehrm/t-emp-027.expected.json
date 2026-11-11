@@ -1,0 +1,181 @@
+{
+ "persona": "hr-orangehrm/t-emp-027",
+ "context": "hr-orangehrm/t-emp-027.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Jia-Hui",
+    "middle_name": "",
+    "last_name": "Chiang",
+    "employee_id": "KST-41958",
+    "create_login": true,
+    "username": "jiahui.chiang",
+    "login_status": "enabled",
+    "password": "Wafer!6695a",
+    "confirm_password": "Wafer!6695a"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Jia-Hui",
+     "last_name": "Chiang",
+     "employee_id": "KST-41958",
+     "create_login": true,
+     "username": "jiahui.chiang",
+     "login_status": "enabled",
+     "password": "Wafer!6695a",
+     "confirm_password": "Wafer!6695a"
+    },
+    "wrong": {
+     "employee_id": "KST-419x",
+     "last_name": "Chi"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Jia-Hui",
+    "middle_name": "",
+    "last_name": "Chiang",
+    "employee_id": "KST-41958",
+    "license_number": "DL-17192963",
+    "license_expiry": "2027-09-24",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1976-08-25",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Jia-Hui",
+     "last_name": "Chiang",
+     "employee_id": "KST-41958",
+     "license_number": "DL-17192963",
+     "license_expiry": "2027-09-24",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1976-08-25",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-419x",
+     "marital": "married"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2026-12-23",
+    "leave_to": "2026-12-28",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2026-12-23",
+     "leave_to": "2026-12-28",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "leave_type": "sick"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2026-12-23",
+    "leave_to": "2026-12-28",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2026-12-23",
+     "leave_to": "2026-12-28",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "partial_days": "end"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Jia-Hui",
+    "middle_name": "",
+    "last_name": "Chiang",
+    "employee_id": "KST-41958",
+    "create_login": true,
+    "username": "jiahui.chiang",
+    "login_status": "enabled",
+    "password": "Wafer!6695a",
+    "confirm_password": "Wafer!6695a",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1976-08-25",
+    "gender": "female",
+    "job_title": "hr_partner",
+    "department": "hr",
+    "work_location": "hsp_fab3",
+    "emp_status": "ft_probation",
+    "supervisor": "u_m3960",
+    "joined_date": "2027-01-30"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Jia-Hui",
+     "last_name": "Chiang",
+     "employee_id": "KST-41958",
+     "create_login": true,
+     "username": "jiahui.chiang",
+     "login_status": "enabled",
+     "password": "Wafer!6695a",
+     "confirm_password": "Wafer!6695a",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1976-08-25",
+     "gender": "female",
+     "job_title": "hr_partner",
+     "department": "hr",
+     "work_location": "hsp_fab3",
+     "emp_status": "ft_probation",
+     "supervisor": "u_m3960",
+     "joined_date": "2027-01-30"
+    },
+    "wrong": {
+     "employee_id": "KST-419x",
+     "department": "fab_eng"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "persona": "vendor-onboarding/t-tw-011",
+ "context": "vendor-onboarding/t-tw-011.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Ruisong Precision Industrial Co., Ltd.",
+     "瑞崧精密工業股份有限公司"
+    ],
+    "tax_id": "17664688",
+    "company_address": [
+     "320 桃園市中壢區中山路86號7樓",
+     "7F., No. 86, Zhongshan Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "established": "2003-02-10",
+    "business_type": "corporation",
+    "gross_sales": "932000000",
+    "contact_name": [
+     "廖志偉",
+     "Liao Chih-wei"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "chihwei.liao@ruisong-precision.example",
+    "phone_day": "03-649-5412",
+    "phone_evening": "",
+    "bank_name": [
+     "第一商業銀行",
+     "First Commercial Bank"
+    ],
+    "beneficiary": [
+     "瑞崧精密工業股份有限公司",
+     "Ruisong Precision Industrial Co., Ltd."
+    ],
+    "account_number": "141405260623",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Ruisong Precision Industrial Co., Ltd.",
+     "tax_id": "17664688",
+     "company_address": "320 桃園市中壢區中山路86號7樓",
+     "established": "2003-02-10",
+     "business_type": "corporation",
+     "gross_sales": "932000000",
+     "contact_name": "廖志偉",
+     "contact_title": "財務主任",
+     "email": "chihwei.liao@ruisong-precision.example",
+     "phone_day": "03-649-5412",
+     "bank_name": "第一商業銀行",
+     "beneficiary": "瑞崧精密工業股份有限公司",
+     "account_number": "141405260623",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "176646x",
+     "contact_title": "財務"
+    }
+   }
+  }
+ }
+}

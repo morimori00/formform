@@ -1,0 +1,42 @@
+{
+ "persona": "us-tax-portal/e-uswds-name-address-04",
+ "context": "us-tax-portal/e-uswds-name-address-04.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/uswds-name-address": {
+   "submit": true,
+   "fields": {
+    "first_name": "Thandi",
+    "middle_initial": "",
+    "last_name": "Dubois",
+    "suffix": "",
+    "preferred_name": "Thandi",
+    "street1": "7674 Larkspur Ct",
+    "street2": "",
+    "city": "Dover",
+    "state": "DE",
+    "zip": "19971",
+    "urbanization": ""
+   },
+   "infeasible": [
+    "street2"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Thandi",
+     "last_name": "Dubois",
+     "preferred_name": "Thandi",
+     "street1": "7674 Larkspur Ct",
+     "city": "Dover",
+     "state": "DE",
+     "zip": "19971"
+    },
+    "wrong": {
+     "zip": "199x",
+     "preferred_name": "Tha"
+    }
+   }
+  }
+ }
+}

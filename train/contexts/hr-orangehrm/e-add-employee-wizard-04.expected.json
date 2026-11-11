@@ -1,0 +1,51 @@
+{
+ "persona": "hr-orangehrm/e-add-employee-wizard-04",
+ "context": "hr-orangehrm/e-add-employee-wizard-04.md",
+ "split": "eval",
+ "variants": {
+  "hr-orangehrm/add-employee-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Li-Shan",
+    "middle_name": "",
+    "last_name": "Shih",
+    "employee_id": "KST-64670",
+    "create_login": true,
+    "username": "lishan.shih",
+    "login_status": "enabled",
+    "password": "Onboard#8440b",
+    "confirm_password": "Onboard#8440b",
+    "job_title": "fin_analyst",
+    "department": "fab_eng",
+    "work_location": "neihu",
+    "emp_status": "pt",
+    "supervisor": "u_m7698",
+    "joined_date": "2026-12-05"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Li-Shan",
+     "last_name": "Shih",
+     "employee_id": "KST-64670",
+     "create_login": true,
+     "username": "lishan.shih",
+     "login_status": "enabled",
+     "password": "Onboard#8440b",
+     "confirm_password": "Onboard#8440b",
+     "job_title": "fin_analyst",
+     "department": "fab_eng",
+     "work_location": "neihu",
+     "emp_status": "pt",
+     "supervisor": "u_m7698",
+     "joined_date": "2026-12-05"
+    },
+    "wrong": {
+     "employee_id": "KST-646x",
+     "last_name": "Sh"
+    }
+   }
+  }
+ }
+}

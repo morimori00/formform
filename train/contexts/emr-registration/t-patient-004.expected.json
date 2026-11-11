@@ -1,0 +1,236 @@
+{
+ "persona": "emr-registration/t-patient-004",
+ "context": "emr-registration/t-patient-004.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chloe",
+    "middle_name": "",
+    "last_name": "Park",
+    "dob": "1988-11-28",
+    "sex": "female",
+    "marital": "separated",
+    "language": "english",
+    "street": "5F, No. 176, Ln. 259, Sec. 1, Nanjing E. Rd., Xindian Dist.",
+    "city": "New Taipei City",
+    "postal": "231",
+    "country": "TW",
+    "phone_home": "",
+    "phone_cell": "0915-256-595",
+    "email": "",
+    "occupation": "Taxi driver",
+    "employer": "Northwind Trading Co.",
+    "ec_name": "Aisha Park",
+    "ec_phone": "0920-570-432",
+    "ec_relationship": "sibling",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-3321-3464",
+    "group_number": "G-4339",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-09-13"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chloe",
+     "last_name": "Park",
+     "dob": "1988-11-28",
+     "sex": "female",
+     "marital": "separated",
+     "language": "english",
+     "street": "5F, No. 176, Ln. 259, Sec. 1, Nanjing E. Rd., Xindian Dist.",
+     "city": "New Taipei City",
+     "postal": "231",
+     "country": "TW",
+     "phone_cell": "0915-256-595",
+     "occupation": "Taxi driver",
+     "employer": "Northwind Trading Co.",
+     "ec_name": "Aisha Park",
+     "ec_phone": "0920-570-432",
+     "ec_relationship": "sibling",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-3321-3464",
+     "group_number": "G-4339",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-09-13"
+    },
+    "wrong": {
+     "sex": "male"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Park",
+    "first_name": "Chloe",
+    "middle_name": "",
+    "dob": "1988-11-28",
+    "sex": "female",
+    "marital": "separated",
+    "national_id": "",
+    "street": "5F, No. 176, Ln. 259, Sec. 1, Nanjing E. Rd., Xindian Dist.",
+    "postal": "231",
+    "city": "New Taipei City",
+    "country": "TW",
+    "phone_cell": "0915-256-595",
+    "phone_home": "",
+    "email": "",
+    "ec_name": "Aisha Park",
+    "ec_relationship": "sibling",
+    "ec_phone": "0920-570-432",
+    "occupation": "Taxi driver",
+    "employer": "Northwind Trading Co.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-3321-3464",
+    "group_number": "G-4339",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-09-13",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Park",
+     "first_name": "Chloe",
+     "dob": "1988-11-28",
+     "sex": "female",
+     "marital": "separated",
+     "street": "5F, No. 176, Ln. 259, Sec. 1, Nanjing E. Rd., Xindian Dist.",
+     "postal": "231",
+     "city": "New Taipei City",
+     "country": "TW",
+     "phone_cell": "0915-256-595",
+     "ec_name": "Aisha Park",
+     "ec_relationship": "sibling",
+     "ec_phone": "0920-570-432",
+     "occupation": "Taxi driver",
+     "employer": "Northwind Trading Co.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-3321-3464",
+     "group_number": "G-4339",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-09-13"
+    },
+    "wrong": {
+     "ins_provider": "hsh"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chloe",
+    "last_name": "Park",
+    "dob": "1988-11-28",
+    "sex": "female",
+    "language": "english",
+    "street": "5F, No. 176, Ln. 259, Sec. 1, Nanjing E. Rd., Xindian Dist.",
+    "city": "New Taipei City",
+    "postal": "231",
+    "country": "TW",
+    "phone_cell": "0915-256-595",
+    "phone_home": "",
+    "ec_name": "Aisha Park",
+    "ec_phone": "0920-570-432",
+    "ec_relationship": "sibling",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-3321-3464",
+    "group_number": "G-4339",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-09-13"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chloe",
+     "last_name": "Park",
+     "dob": "1988-11-28",
+     "sex": "female",
+     "language": "english",
+     "street": "5F, No. 176, Ln. 259, Sec. 1, Nanjing E. Rd., Xindian Dist.",
+     "city": "New Taipei City",
+     "postal": "231",
+     "country": "TW",
+     "phone_cell": "0915-256-595",
+     "ec_name": "Aisha Park",
+     "ec_phone": "0920-570-432",
+     "ec_relationship": "sibling",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-3321-3464",
+     "group_number": "G-4339",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-09-13"
+    },
+    "wrong": {
+     "subscriber_rel": "spouse"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Park",
+    "first_name": "Chloe",
+    "dob": "1988-11-28",
+    "sex": "female",
+    "phone_cell": "0915-256-595",
+    "country": "TW",
+    "city": "New Taipei City",
+    "postal": "231",
+    "street": "5F, No. 176, Ln. 259, Sec. 1, Nanjing E. Rd., Xindian Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-3321-3464",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-09-13",
+    "email": "",
+    "phone_home": "",
+    "marital": "separated",
+    "language": "english",
+    "occupation": "Taxi driver",
+    "employer": "Northwind Trading Co.",
+    "ec_name": "Aisha Park",
+    "ec_phone": "0920-570-432",
+    "ec_relationship": "sibling",
+    "group_number": "G-4339"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Park",
+     "first_name": "Chloe",
+     "dob": "1988-11-28",
+     "sex": "female",
+     "phone_cell": "0915-256-595",
+     "country": "TW",
+     "city": "New Taipei City",
+     "postal": "231",
+     "street": "5F, No. 176, Ln. 259, Sec. 1, Nanjing E. Rd., Xindian Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-3321-3464",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-09-13",
+     "marital": "separated",
+     "language": "english",
+     "occupation": "Taxi driver",
+     "employer": "Northwind Trading Co.",
+     "ec_name": "Aisha Park",
+     "ec_phone": "0920-570-432",
+     "ec_relationship": "sibling",
+     "group_number": "G-4339"
+    },
+    "wrong": {
+     "group_number": "G-4"
+    }
+   }
+  }
+ }
+}

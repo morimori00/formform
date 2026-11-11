@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-037",
+ "context": "parabank/t-customer-037.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "last_name": "Haddad",
+    "street": "6354 Meadowlark Dr",
+    "city": "Denver",
+    "state": [
+     "CO",
+     "Colorado"
+    ],
+    "zip": "80274",
+    "phone": "(303) 555-0141",
+    "ssn": "962-74-3794",
+    "username": "naomi.haddad66",
+    "password": "Quartz!4945",
+    "password_confirm": "Quartz!4945"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Haddad",
+     "street": "6354 Meadowlark Dr",
+     "city": "Denver",
+     "state": "CO",
+     "zip": "80274",
+     "phone": "(303) 555-0141",
+     "ssn": "962-74-3794",
+     "username": "naomi.haddad66",
+     "password": "Quartz!4945",
+     "password_confirm": "Quartz!4945"
+    },
+    "wrong": {
+     "street": "6354 Mead"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Cedar Valley Electric",
+    "payee_street": "2381 Juniper Hill Dr",
+    "payee_city": "Chicago",
+    "payee_state": [
+     "IL",
+     "Illinois"
+    ],
+    "payee_zip": "60699",
+    "payee_phone": "(312) 555-0153",
+    "payee_account": "10436-2345",
+    "payee_account_verify": "10436-2345",
+    "amount": "130.28",
+    "from_account": "15231"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Cedar Valley Electric",
+     "payee_street": "2381 Juniper Hill Dr",
+     "payee_city": "Chicago",
+     "payee_state": "IL",
+     "payee_zip": "60699",
+     "payee_phone": "(312) 555-0153",
+     "payee_account": "10436-2345",
+     "payee_account_verify": "10436-2345",
+     "amount": "130.28",
+     "from_account": "15231"
+    },
+    "wrong": {
+     "payee_account_verify": "10436-23x",
+     "payee_state": "I"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "5000",
+    "down_payment": "250",
+    "loan_from_account": "15231",
+    "new_account_type": "CHECKING",
+    "new_account_from": "16788"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "5000",
+     "down_payment": "250",
+     "loan_from_account": "15231",
+     "new_account_type": "CHECKING",
+     "new_account_from": "16788"
+    },
+    "wrong": {
+     "loan_amount": "50"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Cedar Valley Electric",
+    "payee_street": "2381 Juniper Hill Dr",
+    "payee_city": "Chicago",
+    "payee_state": [
+     "IL",
+     "Illinois"
+    ],
+    "payee_zip": "60699",
+    "payee_phone": "(312) 555-0153",
+    "from_account": "15231",
+    "amount": "130.28",
+    "payee_account": "10436-2345",
+    "payee_account_verify": "10436-2345"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Cedar Valley Electric",
+     "payee_street": "2381 Juniper Hill Dr",
+     "payee_city": "Chicago",
+     "payee_state": "IL",
+     "payee_zip": "60699",
+     "payee_phone": "(312) 555-0153",
+     "from_account": "15231",
+     "amount": "130.28",
+     "payee_account": "10436-2345",
+     "payee_account_verify": "10436-2345"
+    },
+    "wrong": {
+     "payee_account_verify": "10436-23x",
+     "payee_account": "10436"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "last_name": "Haddad",
+    "phone": "(303) 555-0141",
+    "ssn": "962-74-3794",
+    "street": "6354 Meadowlark Dr",
+    "city": "Denver",
+    "state": [
+     "CO",
+     "Colorado"
+    ],
+    "zip": "80274",
+    "username": "naomi.haddad66",
+    "password": "Quartz!4945",
+    "password_confirm": "Quartz!4945"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Haddad",
+     "phone": "(303) 555-0141",
+     "ssn": "962-74-3794",
+     "street": "6354 Meadowlark Dr",
+     "city": "Denver",
+     "state": "CO",
+     "zip": "80274",
+     "username": "naomi.haddad66",
+     "password": "Quartz!4945",
+     "password_confirm": "Quartz!4945"
+    },
+    "wrong": {
+     "city": "Den"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "persona": "tw-arrival-card/e-arrival-shadow-01",
+ "context": "tw-arrival-card/e-arrival-shadow-01.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-shadow": {
+   "submit": true,
+   "fields": {
+    "nationality": "SG",
+    "passport_no": "E6697501A",
+    "family_name": "CHUA",
+    "given_name": "KAI WEN",
+    "dob": "1968-02-13",
+    "sex": "male",
+    "passport_expiry": "2029-10-09",
+    "arrival_date": "2026-12-14",
+    "flight_no": "SQ 522",
+    "purpose": "employment",
+    "occupation": "student",
+    "visa_type": "evisa",
+    "visa_no": "V-8460018",
+    "stay_type": "residence",
+    "county": "臺南市",
+    "district": "善化區",
+    "stay_address": [
+     "No. 73, Jianguo Rd., Shanhua Dist., Tainan City 741",
+     "company residence, No. 73, Jianguo Rd., Shanhua Dist., Tainan City 741"
+    ],
+    "phone": "+886 975 727 902",
+    "email": "",
+    "visited": [
+     "SG"
+    ],
+    "declare": true
+   },
+   "infeasible": [
+    "email"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "nationality": "SG",
+     "passport_no": "E6697501A",
+     "family_name": "CHUA",
+     "given_name": "KAI WEN",
+     "dob": "1968-02-13",
+     "sex": "male",
+     "passport_expiry": "2029-10-09",
+     "arrival_date": "2026-12-14",
+     "flight_no": "SQ 522",
+     "purpose": "employment",
+     "occupation": "student",
+     "visa_type": "evisa",
+     "visa_no": "V-8460018",
+     "stay_type": "residence",
+     "county": "臺南市",
+     "district": "善化區",
+     "stay_address": "No. 73, Jianguo Rd., Shanhua Dist., Tainan City 741",
+     "phone": "+886 975 727 902",
+     "visited": [
+      "SG"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "CHx",
+     "flight_no": "SQ "
+    }
+   }
+  }
+ }
+}

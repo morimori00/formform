@@ -1,0 +1,182 @@
+{
+ "persona": "hr-orangehrm/t-emp-016",
+ "context": "hr-orangehrm/t-emp-016.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ya-Han",
+    "middle_name": "",
+    "last_name": "Su",
+    "employee_id": "KST-41355",
+    "create_login": true,
+    "username": "yahan.su",
+    "login_status": "enabled",
+    "password": "Onboard-9336a",
+    "confirm_password": "Onboard-9336a"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ya-Han",
+     "last_name": "Su",
+     "employee_id": "KST-41355",
+     "create_login": true,
+     "username": "yahan.su",
+     "login_status": "enabled",
+     "password": "Onboard-9336a",
+     "confirm_password": "Onboard-9336a"
+    },
+    "wrong": {
+     "employee_id": "KST-413x",
+     "first_name": "Ya-"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ya-Han",
+    "middle_name": "",
+    "last_name": "Su",
+    "employee_id": "KST-41355",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1968-05-23",
+    "gender": "male"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ya-Han",
+     "last_name": "Su",
+     "employee_id": "KST-41355",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1968-05-23",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-413x",
+     "dob": "1967-05-23"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-02-19",
+    "leave_to": "2027-02-20",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-02-19",
+     "leave_to": "2027-02-20",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "partial_days": "all"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-02-19",
+    "leave_to": "2027-02-20",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-02-19",
+     "leave_to": "2027-02-20",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "leave_from": "2026-02-19"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ya-Han",
+    "middle_name": "",
+    "last_name": "Su",
+    "employee_id": "KST-41355",
+    "create_login": true,
+    "username": "yahan.su",
+    "login_status": "enabled",
+    "password": "Onboard-9336a",
+    "confirm_password": "Onboard-9336a",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1968-05-23",
+    "gender": "male",
+    "job_title": "logistics_coord",
+    "department": "hr",
+    "work_location": "sg",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2993",
+    "joined_date": "2027-02-20"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ya-Han",
+     "last_name": "Su",
+     "employee_id": "KST-41355",
+     "create_login": true,
+     "username": "yahan.su",
+     "login_status": "enabled",
+     "password": "Onboard-9336a",
+     "confirm_password": "Onboard-9336a",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1968-05-23",
+     "gender": "male",
+     "job_title": "logistics_coord",
+     "department": "hr",
+     "work_location": "sg",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2993",
+     "joined_date": "2027-02-20"
+    },
+    "wrong": {
+     "employee_id": "KST-413x",
+     "last_name": "S"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "persona": "us-tax-portal/e-uswds-name-address-05",
+ "context": "us-tax-portal/e-uswds-name-address-05.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/uswds-name-address": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hugo",
+    "middle_initial": "",
+    "last_name": "Dubois",
+    "suffix": "",
+    "preferred_name": "Hugo",
+    "street1": "6658 Stonegate Way",
+    "street2": "",
+    "city": "Wilmington",
+    "state": "DE",
+    "zip": "19867",
+    "urbanization": ""
+   },
+   "infeasible": [
+    "street2"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hugo",
+     "last_name": "Dubois",
+     "preferred_name": "Hugo",
+     "street1": "6658 Stonegate Way",
+     "city": "Wilmington",
+     "state": "DE",
+     "zip": "19867"
+    },
+    "wrong": {
+     "zip": "198x",
+     "first_name": "Hu"
+    }
+   }
+  }
+ }
+}

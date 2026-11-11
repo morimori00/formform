@@ -1,0 +1,54 @@
+{
+ "persona": "kyc-account-opening/e-eval-salary-account-01",
+ "context": "kyc-account-opening/e-eval-salary-account-01.md",
+ "split": "eval",
+ "variants": {
+  "kyc-account-opening/eval-salary-account": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Tung Yu-Kai",
+     "Yu-Kai Tung"
+    ],
+    "gender": "female",
+    "dob": "1975-03-27",
+    "nationality": "TW",
+    "id_form": "national_id",
+    "phone": "+886 965 342 180",
+    "email": "yukai.tung@inbox.example",
+    "address": [
+     "6F, No. 267, Ln. 154, Datong Rd., Songshan Dist., Taipei City 105, Taiwan",
+     "6F, No. 267, Ln. 154, Datong Rd., Songshan Dist., Taipei City 105"
+    ],
+    "mother_maiden": "Yu",
+    "education": "high_school",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "202000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Tung Yu-Kai",
+     "gender": "female",
+     "dob": "1975-03-27",
+     "nationality": "TW",
+     "id_form": "national_id",
+     "phone": "+886 965 342 180",
+     "email": "yukai.tung@inbox.example",
+     "address": "6F, No. 267, Ln. 154, Datong Rd., Songshan Dist., Taipei City 105, Taiwan",
+     "mother_maiden": "Yu",
+     "education": "high_school",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "202000"
+    },
+    "wrong": {
+     "email": "yukai.tung at inbox.example",
+     "dob": "1974-03-27"
+    }
+   }
+  }
+ }
+}

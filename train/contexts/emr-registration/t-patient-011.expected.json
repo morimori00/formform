@@ -1,0 +1,246 @@
+{
+ "persona": "emr-registration/t-patient-011",
+ "context": "emr-registration/t-patient-011.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Leila",
+    "middle_name": "",
+    "last_name": "Brennan",
+    "dob": "1973-07-01",
+    "sex": "male",
+    "marital": "separated",
+    "language": "english",
+    "street": "5F, No. 302, Sec. 3, Zhongshan N. Rd., Shilin Dist.",
+    "city": "Taipei City",
+    "postal": "111",
+    "country": "TW",
+    "phone_home": "03-1632-3988",
+    "phone_cell": "0923-140-203",
+    "email": "",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Tomas Haddad",
+    "ec_phone": "0942-888-207",
+    "ec_relationship": "parent",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-2231-2459",
+    "group_number": "G-3641",
+    "subscriber_rel": "self",
+    "ins_effective": "2022-01-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Leila",
+     "last_name": "Brennan",
+     "dob": "1973-07-01",
+     "sex": "male",
+     "marital": "separated",
+     "language": "english",
+     "street": "5F, No. 302, Sec. 3, Zhongshan N. Rd., Shilin Dist.",
+     "city": "Taipei City",
+     "postal": "111",
+     "country": "TW",
+     "phone_home": "03-1632-3988",
+     "phone_cell": "0923-140-203",
+     "occupation": "Retired",
+     "ec_name": "Tomas Haddad",
+     "ec_phone": "0942-888-207",
+     "ec_relationship": "parent",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-2231-2459",
+     "group_number": "G-3641",
+     "subscriber_rel": "self",
+     "ins_effective": "2022-01-08"
+    },
+    "wrong": {
+     "occupation": "Ret"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Brennan",
+    "first_name": "Leila",
+    "middle_name": "",
+    "dob": "1973-07-01",
+    "sex": "male",
+    "marital": "separated",
+    "national_id": "",
+    "street": "5F, No. 302, Sec. 3, Zhongshan N. Rd., Shilin Dist.",
+    "postal": "111",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0923-140-203",
+    "phone_home": "03-1632-3988",
+    "email": "",
+    "ec_name": "Tomas Haddad",
+    "ec_relationship": "parent",
+    "ec_phone": "0942-888-207",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-2231-2459",
+    "group_number": "G-3641",
+    "subscriber_rel": "self",
+    "ins_effective": "2022-01-08",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Brennan",
+     "first_name": "Leila",
+     "dob": "1973-07-01",
+     "sex": "male",
+     "marital": "separated",
+     "street": "5F, No. 302, Sec. 3, Zhongshan N. Rd., Shilin Dist.",
+     "postal": "111",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0923-140-203",
+     "phone_home": "03-1632-3988",
+     "ec_name": "Tomas Haddad",
+     "ec_relationship": "parent",
+     "ec_phone": "0942-888-207",
+     "occupation": "Retired",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-2231-2459",
+     "group_number": "G-3641",
+     "subscriber_rel": "self",
+     "ins_effective": "2022-01-08"
+    },
+    "wrong": {
+     "first_name": "Le"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Leila",
+    "last_name": "Brennan",
+    "dob": "1973-07-01",
+    "sex": "male",
+    "language": "english",
+    "street": "5F, No. 302, Sec. 3, Zhongshan N. Rd., Shilin Dist.",
+    "city": "Taipei City",
+    "postal": "111",
+    "country": "TW",
+    "phone_cell": "0923-140-203",
+    "phone_home": "03-1632-3988",
+    "ec_name": "Tomas Haddad",
+    "ec_phone": "0942-888-207",
+    "ec_relationship": "parent",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-2231-2459",
+    "group_number": "G-3641",
+    "subscriber_rel": "self",
+    "ins_effective": "2022-01-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Leila",
+     "last_name": "Brennan",
+     "dob": "1973-07-01",
+     "sex": "male",
+     "language": "english",
+     "street": "5F, No. 302, Sec. 3, Zhongshan N. Rd., Shilin Dist.",
+     "city": "Taipei City",
+     "postal": "111",
+     "country": "TW",
+     "phone_cell": "0923-140-203",
+     "phone_home": "03-1632-3988",
+     "ec_name": "Tomas Haddad",
+     "ec_phone": "0942-888-207",
+     "ec_relationship": "parent",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-2231-2459",
+     "group_number": "G-3641",
+     "subscriber_rel": "self",
+     "ins_effective": "2022-01-08"
+    },
+    "wrong": {
+     "group_number": "G-3"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Brennan",
+    "first_name": "Leila",
+    "dob": "1973-07-01",
+    "sex": "male",
+    "phone_cell": "0923-140-203",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "111",
+    "street": "5F, No. 302, Sec. 3, Zhongshan N. Rd., Shilin Dist.",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-2231-2459",
+    "subscriber_rel": "self",
+    "ins_effective": "2022-01-08",
+    "email": "",
+    "phone_home": "03-1632-3988",
+    "marital": "separated",
+    "language": "english",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Tomas Haddad",
+    "ec_phone": "0942-888-207",
+    "ec_relationship": "parent",
+    "group_number": "G-3641"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Brennan",
+     "first_name": "Leila",
+     "dob": "1973-07-01",
+     "sex": "male",
+     "phone_cell": "0923-140-203",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "111",
+     "street": "5F, No. 302, Sec. 3, Zhongshan N. Rd., Shilin Dist.",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-2231-2459",
+     "subscriber_rel": "self",
+     "ins_effective": "2022-01-08",
+     "phone_home": "03-1632-3988",
+     "marital": "separated",
+     "language": "english",
+     "occupation": "Retired",
+     "ec_name": "Tomas Haddad",
+     "ec_phone": "0942-888-207",
+     "ec_relationship": "parent",
+     "group_number": "G-3641"
+    },
+    "wrong": {
+     "marital": "single"
+    }
+   }
+  }
+ }
+}

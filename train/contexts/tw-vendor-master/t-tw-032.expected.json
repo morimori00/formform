@@ -1,0 +1,353 @@
+{
+ "persona": "tw-vendor-master/t-tw-032",
+ "context": "tw-vendor-master/t-tw-032.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠勝氣體有限公司",
+    "vendor_name_en": "Kuansheng Gases Co., Ltd.",
+    "ubn": "37430169",
+    "owner": "楊雅玲",
+    "established": "1998-08-16",
+    "capital": "454000000",
+    "org_type": "limited",
+    "postal": "114",
+    "county": "臺北市",
+    "district": "內湖區",
+    "address_line": "自強路279號6樓",
+    "tel": "02-0536-4618",
+    "fax": "02-0536-1041",
+    "contact_name": [
+     "葉志芬",
+     "Yeh Chih-fen"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "chihfen.yeh@kuansheng-gases.example",
+    "contact_mobile": "",
+    "bank_code": "004",
+    "bank_branch": [
+     "內湖分行",
+     "內湖"
+    ],
+    "account_no": "343932882748",
+    "account_name": "冠勝氣體有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "USD",
+    "iso9001": true,
+    "iso_expiry": "2029-06-16"
+   },
+   "infeasible": [
+    "contact_mobile"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠勝氣體有限公司",
+     "vendor_name_en": "Kuansheng Gases Co., Ltd.",
+     "ubn": "37430169",
+     "owner": "楊雅玲",
+     "established": "1998-08-16",
+     "capital": "454000000",
+     "org_type": "limited",
+     "postal": "114",
+     "county": "臺北市",
+     "district": "內湖區",
+     "address_line": "自強路279號6樓",
+     "tel": "02-0536-4618",
+     "fax": "02-0536-1041",
+     "contact_name": "葉志芬",
+     "contact_title": "專案經理",
+     "email": "chihfen.yeh@kuansheng-gases.example",
+     "bank_code": "004",
+     "bank_branch": "內湖分行",
+     "account_no": "343932882748",
+     "account_name": "冠勝氣體有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "USD",
+     "iso9001": true,
+     "iso_expiry": "2029-06-16"
+    },
+    "wrong": {
+     "ubn": "374301x",
+     "contact_title": "專案"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": false,
+   "fields": {
+    "ubn": "37430169",
+    "vendor_name_zh": "冠勝氣體有限公司",
+    "vendor_name_en": "Kuansheng Gases Co., Ltd.",
+    "org_type": "limited",
+    "established": "1998-08-16",
+    "owner": "楊雅玲",
+    "county": "臺北市",
+    "district": "內湖區",
+    "address_line": "自強路279號6樓",
+    "postal": "114",
+    "tel": "02-0536-4618",
+    "fax": "02-0536-1041",
+    "contact_name": [
+     "葉志芬",
+     "Yeh Chih-fen"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "contact_mobile": "",
+    "email": "chihfen.yeh@kuansheng-gases.example",
+    "bank_code": "004",
+    "bank_branch": [
+     "內湖分行",
+     "內湖"
+    ],
+    "account_no": "343932882748",
+    "account_name": "冠勝氣體有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "USD",
+    "iso9001": true,
+    "iso_expiry": "2029-06-16",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "contact_mobile"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "37430169",
+     "vendor_name_zh": "冠勝氣體有限公司",
+     "vendor_name_en": "Kuansheng Gases Co., Ltd.",
+     "org_type": "limited",
+     "established": "1998-08-16",
+     "owner": "楊雅玲",
+     "county": "臺北市",
+     "district": "內湖區",
+     "address_line": "自強路279號6樓",
+     "postal": "114",
+     "tel": "02-0536-4618",
+     "fax": "02-0536-1041",
+     "contact_name": "葉志芬",
+     "contact_title": "專案經理",
+     "email": "chihfen.yeh@kuansheng-gases.example",
+     "bank_code": "004",
+     "bank_branch": "內湖分行",
+     "account_no": "343932882748",
+     "account_name": "冠勝氣體有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "USD",
+     "iso9001": true,
+     "iso_expiry": "2029-06-16"
+    },
+    "wrong": {
+     "ubn": "374301x",
+     "fax": "02-053"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "37430169",
+    "vendor_name_zh": "冠勝氣體有限公司",
+    "owner": "楊雅玲",
+    "established": "1998-08-16",
+    "org_type": "limited",
+    "capital": "454000000",
+    "county": "臺北市",
+    "district": "內湖區",
+    "address_line": "自強路279號6樓",
+    "postal": "114",
+    "tel": "02-0536-4618",
+    "contact_name": [
+     "葉志芬",
+     "Yeh Chih-fen"
+    ],
+    "email": "chihfen.yeh@kuansheng-gases.example",
+    "bank_code": "004",
+    "account_no": "343932882748",
+    "account_name": "冠勝氣體有限公司",
+    "payment_terms": "net90",
+    "currency": "USD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "37430169",
+     "vendor_name_zh": "冠勝氣體有限公司",
+     "owner": "楊雅玲",
+     "established": "1998-08-16",
+     "org_type": "limited",
+     "capital": "454000000",
+     "county": "臺北市",
+     "district": "內湖區",
+     "address_line": "自強路279號6樓",
+     "postal": "114",
+     "tel": "02-0536-4618",
+     "contact_name": "葉志芬",
+     "email": "chihfen.yeh@kuansheng-gases.example",
+     "bank_code": "004",
+     "account_no": "343932882748",
+     "account_name": "冠勝氣體有限公司",
+     "payment_terms": "net90",
+     "currency": "USD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "374301x",
+     "county": "新北市"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠勝氣體有限公司",
+    "vendor_name_en": "Kuansheng Gases Co., Ltd.",
+    "foreign": false,
+    "org_type": "limited",
+    "ubn": "37430169",
+    "owner": "楊雅玲",
+    "county": "臺北市",
+    "district": "內湖區",
+    "address_line": "自強路279號6樓",
+    "postal": "114",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "02-0536-4618",
+    "contact_name": [
+     "葉志芬",
+     "Yeh Chih-fen"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "chihfen.yeh@kuansheng-gases.example",
+    "account_no": "343932882748",
+    "account_name": "冠勝氣體有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "USD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠勝氣體有限公司",
+     "vendor_name_en": "Kuansheng Gases Co., Ltd.",
+     "foreign": false,
+     "org_type": "limited",
+     "ubn": "37430169",
+     "owner": "楊雅玲",
+     "county": "臺北市",
+     "district": "內湖區",
+     "address_line": "自強路279號6樓",
+     "postal": "114",
+     "tel": "02-0536-4618",
+     "contact_name": "葉志芬",
+     "contact_title": "專案經理",
+     "email": "chihfen.yeh@kuansheng-gases.example",
+     "account_no": "343932882748",
+     "account_name": "冠勝氣體有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "USD"
+    },
+    "wrong": {
+     "ubn": "374301x",
+     "owner": "楊"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "004",
+    "bank_branch": [
+     "內湖分行",
+     "內湖"
+    ],
+    "account_no": "343932882748",
+    "account_name": "冠勝氣體有限公司",
+    "payment_terms": "net90",
+    "currency": "USD",
+    "invoice_type": "egui3",
+    "county": "臺北市",
+    "district": "內湖區",
+    "address_line": "自強路279號6樓",
+    "postal": "114",
+    "tel": "02-0536-4618",
+    "fax": "02-0536-1041",
+    "vendor_name_zh": "冠勝氣體有限公司",
+    "ubn": "37430169",
+    "owner": "楊雅玲",
+    "org_type": "limited",
+    "established": "1998-08-16",
+    "capital": "454000000",
+    "vendor_name_en": "Kuansheng Gases Co., Ltd.",
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "contact_mobile": "",
+    "contact_name": [
+     "葉志芬",
+     "Yeh Chih-fen"
+    ],
+    "email": "chihfen.yeh@kuansheng-gases.example"
+   },
+   "infeasible": [
+    "contact_mobile"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "004",
+     "bank_branch": "內湖分行",
+     "account_no": "343932882748",
+     "account_name": "冠勝氣體有限公司",
+     "payment_terms": "net90",
+     "currency": "USD",
+     "invoice_type": "egui3",
+     "county": "臺北市",
+     "district": "內湖區",
+     "address_line": "自強路279號6樓",
+     "postal": "114",
+     "tel": "02-0536-4618",
+     "fax": "02-0536-1041",
+     "vendor_name_zh": "冠勝氣體有限公司",
+     "ubn": "37430169",
+     "owner": "楊雅玲",
+     "org_type": "limited",
+     "established": "1998-08-16",
+     "capital": "454000000",
+     "vendor_name_en": "Kuansheng Gases Co., Ltd.",
+     "contact_title": "專案經理",
+     "contact_name": "葉志芬",
+     "email": "chihfen.yeh@kuansheng-gases.example"
+    },
+    "wrong": {
+     "account_no": "3439328827x",
+     "bank_branch": "內湖"
+    }
+   }
+  }
+ }
+}

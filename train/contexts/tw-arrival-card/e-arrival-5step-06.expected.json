@@ -1,0 +1,73 @@
+{
+ "persona": "tw-arrival-card/e-arrival-5step-06",
+ "context": "tw-arrival-card/e-arrival-5step-06.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-5step": {
+   "submit": true,
+   "fields": {
+    "family_name": "YUSOF",
+    "given_name": "FARAH",
+    "sex": "female",
+    "dob": "1988-05-27",
+    "nationality": "MY",
+    "passport_no": "K8741007X",
+    "passport_expiry": "2034-03-22",
+    "occupation": "other",
+    "arrival_date": "2027-02-14",
+    "flight_no": "MH 780",
+    "departure_flight": "MH 151",
+    "purpose": "business",
+    "visa_type": "evisa",
+    "visa_no": "V-8884516",
+    "stay_type": "relatives",
+    "county": "臺南市",
+    "district": "善化區",
+    "stay_address": [
+     "No. 269, Datong Rd., Shanhua Dist., Tainan City 741",
+     "relative's home, No. 269, Datong Rd., Shanhua Dist., Tainan City 741"
+    ],
+    "phone": "+886 982 509 672",
+    "email": "farah.yusof@kestrel-semi.example",
+    "visited": [
+     "MY"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "family_name": "YUSOF",
+     "given_name": "FARAH",
+     "sex": "female",
+     "dob": "1988-05-27",
+     "nationality": "MY",
+     "passport_no": "K8741007X",
+     "passport_expiry": "2034-03-22",
+     "occupation": "other",
+     "arrival_date": "2027-02-14",
+     "flight_no": "MH 780",
+     "departure_flight": "MH 151",
+     "purpose": "business",
+     "visa_type": "evisa",
+     "visa_no": "V-8884516",
+     "stay_type": "relatives",
+     "county": "臺南市",
+     "district": "善化區",
+     "stay_address": "No. 269, Datong Rd., Shanhua Dist., Tainan City 741",
+     "phone": "+886 982 509 672",
+     "email": "farah.yusof@kestrel-semi.example",
+     "visited": [
+      "MY"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "YUSx",
+     "purpose": "sightseeing"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "persona": "vendor-onboarding/e-eval-us-vendor-07",
+ "context": "vendor-onboarding/e-eval-us-vendor-07.md",
+ "split": "eval",
+ "variants": {
+  "vendor-onboarding/eval-us-vendor": {
+   "submit": true,
+   "fields": {
+    "org_name": "Pinnacle Chemicals LLC",
+    "tax_id": "06-9651693",
+    "business_type": "llc",
+    "established": "1999-04-11",
+    "company_address": "313 Birchwood St, Suite 747, Cherry Hill, NJ 08048",
+    "contact_name": [
+     "Omar Okonkwo",
+     "Ms. Omar Okonkwo"
+    ],
+    "contact_title": "Commercial Manager",
+    "email": "omar.okonkwo@pinnacle.example",
+    "phone_day": "(856) 555-0109",
+    "phone_evening": "(856) 555-9736",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "service_area": "north_america",
+    "gross_sales": "91100000",
+    "insurance": "not_insured",
+    "licensing": "licensed",
+    "bank_name": "Granite State Mutual Bank",
+    "beneficiary": "Pinnacle Chemicals LLC",
+    "account_number": "911-193893-3",
+    "swift": "GSMBUSXXXXX",
+    "license_number": "US-LIC-6620482"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Pinnacle Chemicals LLC",
+     "tax_id": "06-9651693",
+     "business_type": "llc",
+     "established": "1999-04-11",
+     "company_address": "313 Birchwood St, Suite 747, Cherry Hill, NJ 08048",
+     "contact_name": "Omar Okonkwo",
+     "contact_title": "Commercial Manager",
+     "email": "omar.okonkwo@pinnacle.example",
+     "phone_day": "(856) 555-0109",
+     "phone_evening": "(856) 555-9736",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "service_area": "north_america",
+     "gross_sales": "91100000",
+     "insurance": "not_insured",
+     "licensing": "licensed",
+     "bank_name": "Granite State Mutual Bank",
+     "beneficiary": "Pinnacle Chemicals LLC",
+     "account_number": "911-193893-3",
+     "swift": "GSMBUSXXXXX",
+     "license_number": "US-LIC-6620482"
+    },
+    "wrong": {
+     "email": "omar.okonkwo at pinnacle.example",
+     "phone_day": "(856) 5"
+    }
+   }
+  }
+ }
+}

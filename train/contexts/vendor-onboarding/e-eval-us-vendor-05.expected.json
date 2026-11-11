@@ -1,0 +1,66 @@
+{
+ "persona": "vendor-onboarding/e-eval-us-vendor-05",
+ "context": "vendor-onboarding/e-eval-us-vendor-05.md",
+ "split": "eval",
+ "variants": {
+  "vendor-onboarding/eval-us-vendor": {
+   "submit": true,
+   "fields": {
+    "org_name": "Vantage Precision Tooling LLC",
+    "tax_id": "82-6948102",
+    "business_type": "llc",
+    "established": "2017-02-08",
+    "company_address": "955 Quail Hollow Way, Suite 843, Dover, DE 19914",
+    "contact_name": [
+     "Emil Kapoor",
+     "Mr. Emil Kapoor"
+    ],
+    "contact_title": "Account Manager",
+    "email": "emil.kapoor@vantage.example",
+    "phone_day": "(302) 555-0129",
+    "phone_evening": "",
+    "services": "Precision jigs, fixtures and spare parts for wafer handling",
+    "service_area": "europe",
+    "gross_sales": "10500000",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "bank_name": "Granite State Mutual Bank",
+    "beneficiary": "Vantage Precision Tooling LLC",
+    "account_number": "981-486115-6",
+    "swift": "GSMBUS2LXXX",
+    "license_number": "US-LIC-8327974"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Vantage Precision Tooling LLC",
+     "tax_id": "82-6948102",
+     "business_type": "llc",
+     "established": "2017-02-08",
+     "company_address": "955 Quail Hollow Way, Suite 843, Dover, DE 19914",
+     "contact_name": "Emil Kapoor",
+     "contact_title": "Account Manager",
+     "email": "emil.kapoor@vantage.example",
+     "phone_day": "(302) 555-0129",
+     "services": "Precision jigs, fixtures and spare parts for wafer handling",
+     "service_area": "europe",
+     "gross_sales": "10500000",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "bank_name": "Granite State Mutual Bank",
+     "beneficiary": "Vantage Precision Tooling LLC",
+     "account_number": "981-486115-6",
+     "swift": "GSMBUS2LXXX",
+     "license_number": "US-LIC-8327974"
+    },
+    "wrong": {
+     "email": "emil.kapoor at vantage.example",
+     "phone_day": "(302) 5"
+    }
+   }
+  }
+ }
+}

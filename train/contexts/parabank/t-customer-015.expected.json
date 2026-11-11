@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-015",
+ "context": "parabank/t-customer-015.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Aisha",
+    "last_name": "Suzuki",
+    "street": "9259 Hawthorne Way",
+    "city": "Seattle",
+    "state": [
+     "WA",
+     "Washington"
+    ],
+    "zip": "98195",
+    "phone": "(206) 555-0194",
+    "ssn": "971-37-1162",
+    "username": "aisha.suzuki16",
+    "password": "Maple-0942",
+    "password_confirm": "Maple-0942"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Aisha",
+     "last_name": "Suzuki",
+     "street": "9259 Hawthorne Way",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98195",
+     "phone": "(206) 555-0194",
+     "ssn": "971-37-1162",
+     "username": "aisha.suzuki16",
+     "password": "Maple-0942",
+     "password_confirm": "Maple-0942"
+    },
+    "wrong": {
+     "phone": "(206) 5"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Cedar Valley Electric",
+    "payee_street": "7847 Meadowlark Ave",
+    "payee_city": "Phoenix",
+    "payee_state": [
+     "AZ",
+     "Arizona"
+    ],
+    "payee_zip": "85058",
+    "payee_phone": "(602) 555-0124",
+    "payee_account": "31448-8452",
+    "payee_account_verify": "31448-8452",
+    "amount": "177.82",
+    "from_account": "20346"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Cedar Valley Electric",
+     "payee_street": "7847 Meadowlark Ave",
+     "payee_city": "Phoenix",
+     "payee_state": "AZ",
+     "payee_zip": "85058",
+     "payee_phone": "(602) 555-0124",
+     "payee_account": "31448-8452",
+     "payee_account_verify": "31448-8452",
+     "amount": "177.82",
+     "from_account": "20346"
+    },
+    "wrong": {
+     "payee_account_verify": "31448-84x",
+     "payee_state": "A"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "20000",
+    "down_payment": "2500",
+    "loan_from_account": "16788",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "16788"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "20000",
+     "down_payment": "2500",
+     "loan_from_account": "16788",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "16788"
+    },
+    "wrong": {
+     "loan_amount": "20"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Cedar Valley Electric",
+    "payee_street": "7847 Meadowlark Ave",
+    "payee_city": "Phoenix",
+    "payee_state": [
+     "AZ",
+     "Arizona"
+    ],
+    "payee_zip": "85058",
+    "payee_phone": "(602) 555-0124",
+    "from_account": "20346",
+    "amount": "177.82",
+    "payee_account": "31448-8452",
+    "payee_account_verify": "31448-8452"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Cedar Valley Electric",
+     "payee_street": "7847 Meadowlark Ave",
+     "payee_city": "Phoenix",
+     "payee_state": "AZ",
+     "payee_zip": "85058",
+     "payee_phone": "(602) 555-0124",
+     "from_account": "20346",
+     "amount": "177.82",
+     "payee_account": "31448-8452",
+     "payee_account_verify": "31448-8452"
+    },
+    "wrong": {
+     "payee_account_verify": "31448-84x",
+     "amount": "177"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Aisha",
+    "last_name": "Suzuki",
+    "phone": "(206) 555-0194",
+    "ssn": "971-37-1162",
+    "street": "9259 Hawthorne Way",
+    "city": "Seattle",
+    "state": [
+     "WA",
+     "Washington"
+    ],
+    "zip": "98195",
+    "username": "aisha.suzuki16",
+    "password": "Maple-0942",
+    "password_confirm": "Maple-0942"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Aisha",
+     "last_name": "Suzuki",
+     "phone": "(206) 555-0194",
+     "ssn": "971-37-1162",
+     "street": "9259 Hawthorne Way",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98195",
+     "username": "aisha.suzuki16",
+     "password": "Maple-0942",
+     "password_confirm": "Maple-0942"
+    },
+    "wrong": {
+     "zip": "98"
+    }
+   }
+  }
+ }
+}

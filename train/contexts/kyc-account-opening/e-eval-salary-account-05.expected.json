@@ -1,0 +1,54 @@
+{
+ "persona": "kyc-account-opening/e-eval-salary-account-05",
+ "context": "kyc-account-opening/e-eval-salary-account-05.md",
+ "split": "eval",
+ "variants": {
+  "kyc-account-opening/eval-salary-account": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Thandi Vasquez",
+     "Vasquez Thandi"
+    ],
+    "gender": "female",
+    "dob": "1989-12-05",
+    "nationality": "TH",
+    "id_form": "passport",
+    "phone": "+886 909 864 868",
+    "email": "thandi.vasquez@inbox.example",
+    "address": [
+     "6F, No. 185, Sec. 1, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "6F, No. 185, Sec. 1, Heping W. Rd., Banqiao Dist., New Taipei City 220"
+    ],
+    "mother_maiden": "Kimura",
+    "education": "doctorate",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "53000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Thandi Vasquez",
+     "gender": "female",
+     "dob": "1989-12-05",
+     "nationality": "TH",
+     "id_form": "passport",
+     "phone": "+886 909 864 868",
+     "email": "thandi.vasquez@inbox.example",
+     "address": "6F, No. 185, Sec. 1, Heping W. Rd., Banqiao Dist., New Taipei City 220, Taiwan",
+     "mother_maiden": "Kimura",
+     "education": "doctorate",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "53000"
+    },
+    "wrong": {
+     "email": "thandi.vasquez at inbox.example",
+     "full_name": "Thandi "
+    }
+   }
+  }
+ }
+}

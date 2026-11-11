@@ -1,0 +1,66 @@
+{
+ "persona": "vendor-onboarding/e-eval-us-vendor-01",
+ "context": "vendor-onboarding/e-eval-us-vendor-01.md",
+ "split": "eval",
+ "variants": {
+  "vendor-onboarding/eval-us-vendor": {
+   "submit": true,
+   "fields": {
+    "org_name": "Ashgrove Automation LLC",
+    "tax_id": "66-6476395",
+    "business_type": "llc",
+    "established": "2016-09-15",
+    "company_address": "4429 Alder Creek Ct, Suite 650, Wilmington, DE 19810",
+    "contact_name": [
+     "Thandi Hoffmann",
+     "Ms. Thandi Hoffmann"
+    ],
+    "contact_title": "Commercial Manager",
+    "email": "thandi.hoffmann@ashgrove.example",
+    "phone_day": "(302) 555-0180",
+    "phone_evening": "",
+    "services": "Factory automation integration and robot maintenance",
+    "service_area": "global",
+    "gross_sales": "18900000",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "bank_name": "Granite State Mutual Bank",
+    "beneficiary": "Ashgrove Automation LLC",
+    "account_number": "877-207471-9",
+    "swift": "GSMBUS2XXXX",
+    "license_number": "US-LIC-7714478"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Ashgrove Automation LLC",
+     "tax_id": "66-6476395",
+     "business_type": "llc",
+     "established": "2016-09-15",
+     "company_address": "4429 Alder Creek Ct, Suite 650, Wilmington, DE 19810",
+     "contact_name": "Thandi Hoffmann",
+     "contact_title": "Commercial Manager",
+     "email": "thandi.hoffmann@ashgrove.example",
+     "phone_day": "(302) 555-0180",
+     "services": "Factory automation integration and robot maintenance",
+     "service_area": "global",
+     "gross_sales": "18900000",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "bank_name": "Granite State Mutual Bank",
+     "beneficiary": "Ashgrove Automation LLC",
+     "account_number": "877-207471-9",
+     "swift": "GSMBUS2XXXX",
+     "license_number": "US-LIC-7714478"
+    },
+    "wrong": {
+     "email": "thandi.hoffmann at ashgrove.example",
+     "swift": "GSMBU"
+    }
+   }
+  }
+ }
+}

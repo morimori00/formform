@@ -1,0 +1,52 @@
+{
+ "persona": "hr-orangehrm/e-add-employee-wizard-02",
+ "context": "hr-orangehrm/e-add-employee-wizard-02.md",
+ "split": "eval",
+ "variants": {
+  "hr-orangehrm/add-employee-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yu-Hsiang",
+    "middle_name": "",
+    "last_name": "Kao",
+    "employee_id": "KST-84752",
+    "create_login": true,
+    "username": "yuhsiang.kao",
+    "login_status": "enabled",
+    "password": "",
+    "confirm_password": "",
+    "job_title": "platform_eng",
+    "department": "data_platform",
+    "work_location": "neihu",
+    "emp_status": "pt",
+    "supervisor": "u_m8977",
+    "joined_date": "2027-02-02"
+   },
+   "infeasible": [
+    "password",
+    "confirm_password"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yu-Hsiang",
+     "last_name": "Kao",
+     "employee_id": "KST-84752",
+     "create_login": true,
+     "username": "yuhsiang.kao",
+     "login_status": "enabled",
+     "job_title": "platform_eng",
+     "department": "data_platform",
+     "work_location": "neihu",
+     "emp_status": "pt",
+     "supervisor": "u_m8977",
+     "joined_date": "2027-02-02"
+    },
+    "wrong": {
+     "employee_id": "KST-847x",
+     "department": "fab_eng"
+    }
+   }
+  }
+ }
+}

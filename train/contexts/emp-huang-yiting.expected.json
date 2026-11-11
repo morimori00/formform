@@ -1,0 +1,255 @@
+{
+ "persona": "emp-huang-yiting",
+ "context": "emp-huang-yiting.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_huang_yt",
+    "laptop_model": "eng16",
+    "location": "hsp_fab3",
+    "needed_by": "2026-11-28",
+    "extra_monitor": false,
+    "cost_center": "CC-3120",
+    "justification": "New hire, Fab Engineering — runs yield analysis tooling (JMP, Python)."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_huang_yt",
+     "laptop_model": "eng16",
+     "location": "hsp_fab3",
+     "needed_by": "2026-11-28",
+     "extra_monitor": false,
+     "cost_center": "CC-3120",
+     "justification": "New hire, Fab Engineering — runs yield analysis tooling (JMP, Python)."
+    },
+    "wrong": {
+     "cost_center": "CC-31x",
+     "needed_by": "2025-11-28"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16",
+    "extra_monitor": false,
+    "location": "hsp_fab3",
+    "needed_by": "2026-11-28",
+    "requested_for": "u_huang_yt",
+    "cost_center": "CC-3120",
+    "justification": "New hire, Fab Engineering — runs yield analysis tooling (JMP, Python).",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16",
+     "extra_monitor": false,
+     "location": "hsp_fab3",
+     "needed_by": "2026-11-28",
+     "requested_for": "u_huang_yt",
+     "cost_center": "CC-3120",
+     "justification": "New hire, Fab Engineering — runs yield analysis tooling (JMP, Python)."
+    },
+    "wrong": {
+     "cost_center": "CC-31x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_huang_yt",
+    "location": "hsp_fab3",
+    "cost_center": "CC-3120",
+    "laptop_model": "eng16",
+    "needed_by": "2026-11-28",
+    "extra_monitor": false,
+    "justification": "New hire, Fab Engineering — runs yield analysis tooling (JMP, Python)."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_huang_yt",
+     "location": "hsp_fab3",
+     "cost_center": "CC-3120",
+     "laptop_model": "eng16",
+     "needed_by": "2026-11-28",
+     "extra_monitor": false,
+     "justification": "New hire, Fab Engineering — runs yield analysis tooling (JMP, Python)."
+    },
+    "wrong": {
+     "cost_center": "CC-31x",
+     "laptop_model": "std14"
+    }
+   }
+  },
+  "hr-orangehrm/add-employee": {
+   "submit": false,
+   "fields": {
+    "first_name": "Yi-Ting",
+    "middle_name": "",
+    "last_name": "Huang",
+    "employee_id": "KST-20417",
+    "create_login": true,
+    "username": "yiting.huang",
+    "login_status": "enabled",
+    "password": "",
+    "confirm_password": ""
+   },
+   "infeasible": [
+    "password",
+    "confirm_password"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yi-Ting",
+     "last_name": "Huang",
+     "employee_id": "KST-20417",
+     "create_login": true,
+     "username": "yiting.huang",
+     "login_status": "enabled"
+    },
+    "wrong": {
+     "employee_id": "KST-204x",
+     "first_name": "Yi-"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yi-Ting",
+    "middle_name": "",
+    "last_name": "Huang",
+    "employee_id": "KST-20417",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1993-08-17",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yi-Ting",
+     "last_name": "Huang",
+     "employee_id": "KST-20417",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1993-08-17",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-204x",
+     "last_name": "Hu"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yi-Ting",
+    "middle_name": "",
+    "last_name": "Huang",
+    "employee_id": "KST-20417",
+    "create_login": true,
+    "username": "yiting.huang",
+    "login_status": "enabled",
+    "password": "",
+    "confirm_password": "",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1993-08-17",
+    "gender": "female",
+    "job_title": "process_int_eng",
+    "department": "fab_eng",
+    "work_location": "hsp_fab3",
+    "emp_status": "ft_perm",
+    "supervisor": "u_chen_wl",
+    "joined_date": "2026-12-01"
+   },
+   "infeasible": [
+    "password",
+    "confirm_password"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yi-Ting",
+     "last_name": "Huang",
+     "employee_id": "KST-20417",
+     "create_login": true,
+     "username": "yiting.huang",
+     "login_status": "enabled",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1993-08-17",
+     "gender": "female",
+     "job_title": "process_int_eng",
+     "department": "fab_eng",
+     "work_location": "hsp_fab3",
+     "emp_status": "ft_perm",
+     "supervisor": "u_chen_wl",
+     "joined_date": "2026-12-01"
+    },
+    "wrong": {
+     "employee_id": "KST-204x",
+     "last_name": "Hu"
+    }
+   }
+  },
+  "event-registration/orientation-chips": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yi-Ting Huang",
+     "Huang Yi-Ting"
+    ],
+    "employee_id": "KST-20417",
+    "email": "yiting.huang@kestrel-semi.example",
+    "course": "orientation",
+    "session": "or_dec02_am",
+    "attendance": "in_person",
+    "dietary": "none",
+    "tshirt": "S",
+    "recording": false,
+    "topics": ""
+   },
+   "infeasible": [
+    "topics"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Yi-Ting Huang",
+     "employee_id": "KST-20417",
+     "email": "yiting.huang@kestrel-semi.example",
+     "course": "orientation",
+     "session": "or_dec02_am",
+     "attendance": "in_person",
+     "dietary": "none",
+     "tshirt": "S",
+     "recording": false
+    },
+    "wrong": {
+     "email": "yiting.huang at kestrel-semi.example",
+     "session": "sc_dec09_am"
+    }
+   }
+  }
+ }
+}

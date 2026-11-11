@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-035",
+ "context": "kyc-account-opening/t-kyc-035.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-32443",
+    "full_name": [
+     "Wang Shu-Jie",
+     "Shu-Jie Wang"
+    ],
+    "spouse_name": "Tsao Ya-Han",
+    "gender": "male",
+    "marital": "single",
+    "dob": "1993-02-16",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "G236369185",
+    "id_proof": "national_id",
+    "address": [
+     "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701"
+    ],
+    "phone": "+886 964 762 342",
+    "email": "shujie.wang@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Wang Shu-Jie",
+     "Shu-Jie Wang"
+    ],
+    "sign_date": "2026-11-07",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-32443",
+     "full_name": "Wang Shu-Jie",
+     "spouse_name": "Tsao Ya-Han",
+     "gender": "male",
+     "marital": "single",
+     "dob": "1993-02-16",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "G236369185",
+     "id_proof": "national_id",
+     "address": "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "phone": "+886 964 762 342",
+     "email": "shujie.wang@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Wang Shu-Jie",
+     "sign_date": "2026-11-07"
+    },
+    "wrong": {
+     "tax_id": "G2363691x",
+     "gender": "female"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wang Shu-Jie",
+     "Shu-Jie Wang"
+    ],
+    "dob": "1993-02-16",
+    "mother_maiden": "",
+    "phone": "+886 964 762 342",
+    "email": "shujie.wang@inbox.example",
+    "address": [
+     "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701"
+    ],
+    "education": "doctorate",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "joint",
+    "monthly_income": "232000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wang Shu-Jie",
+     "dob": "1993-02-16",
+     "phone": "+886 964 762 342",
+     "email": "shujie.wang@inbox.example",
+     "address": "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "education": "doctorate",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "joint",
+     "monthly_income": "232000"
+    },
+    "wrong": {
+     "email": "shujie.wang at inbox.example",
+     "account_type": "savings"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wang Shu-Jie",
+     "Shu-Jie Wang"
+    ],
+    "dob": "1993-02-16",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Tsao Ya-Han",
+    "address": [
+     "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701"
+    ],
+    "email": "shujie.wang@inbox.example",
+    "phone": "+886 964 762 342",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "G236369185",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-32443"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wang Shu-Jie",
+     "dob": "1993-02-16",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Tsao Ya-Han",
+     "address": "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "email": "shujie.wang@inbox.example",
+     "phone": "+886 964 762 342",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "G236369185",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-32443"
+    },
+    "wrong": {
+     "email": "shujie.wang at inbox.example",
+     "spouse_name": "Tsao "
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wang Shu-Jie",
+     "Shu-Jie Wang"
+    ],
+    "dob": "1993-02-16",
+    "gender": "male",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 964 762 342",
+    "email": "shujie.wang@inbox.example",
+    "address": [
+     "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "G236369185",
+    "addr_proof": "tax_bill",
+    "account_type": "checking",
+    "account_category": "joint",
+    "education": "doctorate",
+    "monthly_income": "232000",
+    "application_no": "LCB-AO-2026-32443",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Wang Shu-Jie",
+     "dob": "1993-02-16",
+     "gender": "male",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 964 762 342",
+     "email": "shujie.wang@inbox.example",
+     "address": "14F, No. 275, Sec. 4, Minsheng E. Rd., East Dist., Tainan City 701, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "G236369185",
+     "addr_proof": "tax_bill",
+     "account_type": "checking",
+     "account_category": "joint",
+     "education": "doctorate",
+     "monthly_income": "232000",
+     "application_no": "LCB-AO-2026-32443"
+    },
+    "wrong": {
+     "email": "shujie.wang at inbox.example",
+     "monthly_income": "232"
+    }
+   }
+  }
+ }
+}

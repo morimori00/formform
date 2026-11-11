@@ -1,0 +1,180 @@
+{
+ "persona": "hr-orangehrm/t-emp-005",
+ "context": "hr-orangehrm/t-emp-005.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Samir",
+    "middle_name": "",
+    "last_name": "Haddad",
+    "employee_id": "KST-24322",
+    "create_login": true,
+    "username": "samir.haddad",
+    "login_status": "enabled",
+    "password": "Wafer-8285b",
+    "confirm_password": "Wafer-8285b"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Samir",
+     "last_name": "Haddad",
+     "employee_id": "KST-24322",
+     "create_login": true,
+     "username": "samir.haddad",
+     "login_status": "enabled",
+     "password": "Wafer-8285b",
+     "confirm_password": "Wafer-8285b"
+    },
+    "wrong": {
+     "employee_id": "KST-243x",
+     "first_name": "Sa"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Samir",
+    "middle_name": "",
+    "last_name": "Haddad",
+    "employee_id": "KST-24322",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "BD",
+    "marital": "widowed",
+    "dob": "1997-02-23",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Samir",
+     "last_name": "Haddad",
+     "employee_id": "KST-24322",
+     "nationality": "BD",
+     "marital": "widowed",
+     "dob": "1997-02-23",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-243x",
+     "first_name": "Sa"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2027-01-15",
+    "leave_to": "2027-01-17",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Nora Petrov"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2027-01-15",
+     "leave_to": "2027-01-17",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Nora Petrov"
+    },
+    "wrong": {
+     "leave_type": "annual"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2027-01-15",
+    "leave_to": "2027-01-17",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Nora Petrov"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2027-01-15",
+     "leave_to": "2027-01-17",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Nora Petrov"
+    },
+    "wrong": {
+     "leave_to": "2026-01-17"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Samir",
+    "middle_name": "",
+    "last_name": "Haddad",
+    "employee_id": "KST-24322",
+    "create_login": true,
+    "username": "samir.haddad",
+    "login_status": "enabled",
+    "password": "Wafer-8285b",
+    "confirm_password": "Wafer-8285b",
+    "nationality": "BD",
+    "marital": "widowed",
+    "dob": "1997-02-23",
+    "gender": "female",
+    "job_title": "buyer",
+    "department": "hr",
+    "work_location": "neihu",
+    "emp_status": "pt",
+    "supervisor": "u_m4841",
+    "joined_date": "2027-01-01"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Samir",
+     "last_name": "Haddad",
+     "employee_id": "KST-24322",
+     "create_login": true,
+     "username": "samir.haddad",
+     "login_status": "enabled",
+     "password": "Wafer-8285b",
+     "confirm_password": "Wafer-8285b",
+     "nationality": "BD",
+     "marital": "widowed",
+     "dob": "1997-02-23",
+     "gender": "female",
+     "job_title": "buyer",
+     "department": "hr",
+     "work_location": "neihu",
+     "emp_status": "pt",
+     "supervisor": "u_m4841",
+     "joined_date": "2027-01-01"
+    },
+    "wrong": {
+     "employee_id": "KST-243x",
+     "emp_status": "ft_perm"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "persona": "hr-orangehrm/t-emp-008",
+ "context": "hr-orangehrm/t-emp-008.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Jie",
+    "middle_name": "",
+    "last_name": "Hsieh",
+    "employee_id": "KST-42220",
+    "create_login": true,
+    "username": "meijie.hsieh",
+    "login_status": "enabled",
+    "password": "Wafer-0016b",
+    "confirm_password": "Wafer-0016b"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Jie",
+     "last_name": "Hsieh",
+     "employee_id": "KST-42220",
+     "create_login": true,
+     "username": "meijie.hsieh",
+     "login_status": "enabled",
+     "password": "Wafer-0016b",
+     "confirm_password": "Wafer-0016b"
+    },
+    "wrong": {
+     "employee_id": "KST-422x",
+     "first_name": "Mei"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Jie",
+    "middle_name": "",
+    "last_name": "Hsieh",
+    "employee_id": "KST-42220",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1982-09-07",
+    "gender": "male"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Jie",
+     "last_name": "Hsieh",
+     "employee_id": "KST-42220",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1982-09-07",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-422x",
+     "nationality": "JP"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2027-02-15",
+    "leave_to": "2027-02-16",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Moving house; reachable by phone for urgent issues"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2027-02-15",
+     "leave_to": "2027-02-16",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Moving house; reachable by phone for urgent issues"
+    },
+    "wrong": {
+     "leave_from": "2026-02-15"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2027-02-15",
+    "leave_to": "2027-02-16",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Moving house; reachable by phone for urgent issues"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2027-02-15",
+     "leave_to": "2027-02-16",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Moving house; reachable by phone for urgent issues"
+    },
+    "wrong": {
+     "leave_from": "2026-02-15"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Jie",
+    "middle_name": "",
+    "last_name": "Hsieh",
+    "employee_id": "KST-42220",
+    "create_login": true,
+    "username": "meijie.hsieh",
+    "login_status": "enabled",
+    "password": "Wafer-0016b",
+    "confirm_password": "Wafer-0016b",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1982-09-07",
+    "gender": "male",
+    "job_title": "hr_partner",
+    "department": "data_platform",
+    "work_location": "sg",
+    "emp_status": "ft_perm",
+    "supervisor": "u_m2327",
+    "joined_date": "2026-12-07"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Jie",
+     "last_name": "Hsieh",
+     "employee_id": "KST-42220",
+     "create_login": true,
+     "username": "meijie.hsieh",
+     "login_status": "enabled",
+     "password": "Wafer-0016b",
+     "confirm_password": "Wafer-0016b",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1982-09-07",
+     "gender": "male",
+     "job_title": "hr_partner",
+     "department": "data_platform",
+     "work_location": "sg",
+     "emp_status": "ft_perm",
+     "supervisor": "u_m2327",
+     "joined_date": "2026-12-07"
+    },
+    "wrong": {
+     "employee_id": "KST-422x",
+     "first_name": "Mei"
+    }
+   }
+  }
+ }
+}

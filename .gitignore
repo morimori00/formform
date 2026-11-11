@@ -10,3 +10,6 @@ train/**/*.gguf
 server/.onyx/
 train/recorder/page.js
 server/.env.*
+train/data/laya/*.jsonl
+__pycache__/
+*.pyc

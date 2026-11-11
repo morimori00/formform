@@ -1,0 +1,187 @@
+{
+ "persona": "parabank/t-customer-016",
+ "context": "parabank/t-customer-016.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": false,
+   "fields": {
+    "first_name": "Amara",
+    "last_name": "Suzuki",
+    "street": "8605 Stonegate Ln",
+    "city": "Tampa",
+    "state": [
+     "FL",
+     "Florida"
+    ],
+    "zip": "33618",
+    "phone": "(813) 555-0106",
+    "ssn": "929-13-1457",
+    "username": "amara.suzuki22",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Amara",
+     "last_name": "Suzuki",
+     "street": "8605 Stonegate Ln",
+     "city": "Tampa",
+     "state": "FL",
+     "zip": "33618",
+     "phone": "(813) 555-0106",
+     "ssn": "929-13-1457",
+     "username": "amara.suzuki22"
+    },
+    "wrong": {
+     "city": "Ta"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "4818 Willow Bend Ln",
+    "payee_city": "Denver",
+    "payee_state": [
+     "CO",
+     "Colorado"
+    ],
+    "payee_zip": "80276",
+    "payee_phone": "(303) 555-0141",
+    "payee_account": "30923-0758",
+    "payee_account_verify": "30923-0758",
+    "amount": "682.70",
+    "from_account": "13566"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "4818 Willow Bend Ln",
+     "payee_city": "Denver",
+     "payee_state": "CO",
+     "payee_zip": "80276",
+     "payee_phone": "(303) 555-0141",
+     "payee_account": "30923-0758",
+     "payee_account_verify": "30923-0758",
+     "amount": "682.70",
+     "from_account": "13566"
+    },
+    "wrong": {
+     "payee_account_verify": "30923-07x",
+     "payee_name": "Granite P"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "30000",
+    "down_payment": "3750",
+    "loan_from_account": "13566",
+    "new_account_type": "CHECKING",
+    "new_account_from": "19675"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "30000",
+     "down_payment": "3750",
+     "loan_from_account": "13566",
+     "new_account_type": "CHECKING",
+     "new_account_from": "19675"
+    },
+    "wrong": {
+     "loan_from_account": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "4818 Willow Bend Ln",
+    "payee_city": "Denver",
+    "payee_state": [
+     "CO",
+     "Colorado"
+    ],
+    "payee_zip": "80276",
+    "payee_phone": "(303) 555-0141",
+    "from_account": "13566",
+    "amount": "682.70",
+    "payee_account": "30923-0758",
+    "payee_account_verify": "30923-0758"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "4818 Willow Bend Ln",
+     "payee_city": "Denver",
+     "payee_state": "CO",
+     "payee_zip": "80276",
+     "payee_phone": "(303) 555-0141",
+     "from_account": "13566",
+     "amount": "682.70",
+     "payee_account": "30923-0758",
+     "payee_account_verify": "30923-0758"
+    },
+    "wrong": {
+     "payee_account_verify": "30923-07x",
+     "payee_phone": "(303) 5"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Amara",
+    "last_name": "Suzuki",
+    "phone": "(813) 555-0106",
+    "ssn": "929-13-1457",
+    "street": "8605 Stonegate Ln",
+    "city": "Tampa",
+    "state": [
+     "FL",
+     "Florida"
+    ],
+    "zip": "33618",
+    "username": "amara.suzuki22",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Amara",
+     "last_name": "Suzuki",
+     "phone": "(813) 555-0106",
+     "ssn": "929-13-1457",
+     "street": "8605 Stonegate Ln",
+     "city": "Tampa",
+     "state": "FL",
+     "zip": "33618",
+     "username": "amara.suzuki22"
+    },
+    "wrong": {
+     "phone": "(813) 5"
+    }
+   }
+  }
+ }
+}

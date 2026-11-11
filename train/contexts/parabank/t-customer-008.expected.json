@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-008",
+ "context": "parabank/t-customer-008.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Julia",
+    "last_name": "Brennan",
+    "street": "7428 Marigold Ct",
+    "city": "Austin",
+    "state": [
+     "TX",
+     "Texas"
+    ],
+    "zip": "78775",
+    "phone": "(512) 555-0103",
+    "ssn": "912-27-3290",
+    "username": "julia.brennan29",
+    "password": "Quartz#0132",
+    "password_confirm": "Quartz#0132"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Julia",
+     "last_name": "Brennan",
+     "street": "7428 Marigold Ct",
+     "city": "Austin",
+     "state": "TX",
+     "zip": "78775",
+     "phone": "(512) 555-0103",
+     "ssn": "912-27-3290",
+     "username": "julia.brennan29",
+     "password": "Quartz#0132",
+     "password_confirm": "Quartz#0132"
+    },
+    "wrong": {
+     "street": "7428 Mar"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Ironbridge Telecom",
+    "payee_street": "6722 Alder Creek St",
+    "payee_city": "Portland",
+    "payee_state": [
+     "OR",
+     "Oregon"
+    ],
+    "payee_zip": "97283",
+    "payee_phone": "(503) 555-0185",
+    "payee_account": "43983-8206",
+    "payee_account_verify": "43983-8206",
+    "amount": "250.52",
+    "from_account": "20346"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Ironbridge Telecom",
+     "payee_street": "6722 Alder Creek St",
+     "payee_city": "Portland",
+     "payee_state": "OR",
+     "payee_zip": "97283",
+     "payee_phone": "(503) 555-0185",
+     "payee_account": "43983-8206",
+     "payee_account_verify": "43983-8206",
+     "amount": "250.52",
+     "from_account": "20346"
+    },
+    "wrong": {
+     "payee_account_verify": "43983-82x",
+     "payee_zip": "97"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "5000",
+    "down_payment": "250",
+    "loan_from_account": "14010",
+    "new_account_type": "CHECKING",
+    "new_account_from": "14010"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "5000",
+     "down_payment": "250",
+     "loan_from_account": "14010",
+     "new_account_type": "CHECKING",
+     "new_account_from": "14010"
+    },
+    "wrong": {
+     "loan_from_account": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Ironbridge Telecom",
+    "payee_street": "6722 Alder Creek St",
+    "payee_city": "Portland",
+    "payee_state": [
+     "OR",
+     "Oregon"
+    ],
+    "payee_zip": "97283",
+    "payee_phone": "(503) 555-0185",
+    "from_account": "20346",
+    "amount": "250.52",
+    "payee_account": "43983-8206",
+    "payee_account_verify": "43983-8206"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Ironbridge Telecom",
+     "payee_street": "6722 Alder Creek St",
+     "payee_city": "Portland",
+     "payee_state": "OR",
+     "payee_zip": "97283",
+     "payee_phone": "(503) 555-0185",
+     "from_account": "20346",
+     "amount": "250.52",
+     "payee_account": "43983-8206",
+     "payee_account_verify": "43983-8206"
+    },
+    "wrong": {
+     "payee_account_verify": "43983-82x",
+     "payee_account": "43983"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Julia",
+    "last_name": "Brennan",
+    "phone": "(512) 555-0103",
+    "ssn": "912-27-3290",
+    "street": "7428 Marigold Ct",
+    "city": "Austin",
+    "state": [
+     "TX",
+     "Texas"
+    ],
+    "zip": "78775",
+    "username": "julia.brennan29",
+    "password": "Quartz#0132",
+    "password_confirm": "Quartz#0132"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Julia",
+     "last_name": "Brennan",
+     "phone": "(512) 555-0103",
+     "ssn": "912-27-3290",
+     "street": "7428 Marigold Ct",
+     "city": "Austin",
+     "state": "TX",
+     "zip": "78775",
+     "username": "julia.brennan29",
+     "password": "Quartz#0132",
+     "password_confirm": "Quartz#0132"
+    },
+    "wrong": {
+     "last_name": "Bre"
+    }
+   }
+  }
+ }
+}

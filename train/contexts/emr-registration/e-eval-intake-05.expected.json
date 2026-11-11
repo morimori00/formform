@@ -1,0 +1,73 @@
+{
+ "persona": "emr-registration/e-eval-intake-05",
+ "context": "emr-registration/e-eval-intake-05.md",
+ "split": "eval",
+ "variants": {
+  "emr-registration/eval-intake": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hao-Shan",
+    "middle_name": "",
+    "last_name": "Pan",
+    "dob": "1982-04-19",
+    "sex": "female",
+    "marital": "married",
+    "nationality": "TW",
+    "language": "english",
+    "street": "3F, No. 91, Ln. 9, Sec. 1, Chenggong Rd., North Dist.",
+    "city": "Hsinchu City",
+    "postal": "300",
+    "country": "TW",
+    "phone_cell": "0929-851-863",
+    "phone_home": "03-9717-9534",
+    "email": "haoshan.pan@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Yu-Chieh Tung",
+    "ec_phone": "0975-726-041",
+    "ec_relationship": "child",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-6519-2335",
+    "group_number": "G-6298",
+    "subscriber_rel": "self",
+    "ins_effective": "2022-06-21"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hao-Shan",
+     "last_name": "Pan",
+     "dob": "1982-04-19",
+     "sex": "female",
+     "marital": "married",
+     "nationality": "TW",
+     "language": "english",
+     "street": "3F, No. 91, Ln. 9, Sec. 1, Chenggong Rd., North Dist.",
+     "city": "Hsinchu City",
+     "postal": "300",
+     "country": "TW",
+     "phone_cell": "0929-851-863",
+     "phone_home": "03-9717-9534",
+     "email": "haoshan.pan@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Yu-Chieh Tung",
+     "ec_phone": "0975-726-041",
+     "ec_relationship": "child",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-6519-2335",
+     "group_number": "G-6298",
+     "subscriber_rel": "self",
+     "ins_effective": "2022-06-21"
+    },
+    "wrong": {
+     "email": "haoshan.pan at inbox.example",
+     "occupation": "Ret"
+    }
+   }
+  }
+ }
+}

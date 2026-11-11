@@ -1,0 +1,71 @@
+{
+ "persona": "emr-registration/e-eval-intake-06",
+ "context": "emr-registration/e-eval-intake-06.md",
+ "split": "eval",
+ "variants": {
+  "emr-registration/eval-intake": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yu-Ning",
+    "middle_name": "",
+    "last_name": "Yu",
+    "dob": "2001-11-28",
+    "sex": "female",
+    "marital": "married",
+    "nationality": "TW",
+    "language": "mandarin",
+    "street": "2F, No. 171, Ln. 49, Sec. 5, Chenggong Rd., Zhonghe Dist.",
+    "city": "New Taipei City",
+    "postal": "235",
+    "country": "TW",
+    "phone_cell": "0997-080-441",
+    "phone_home": "03-6872-1182",
+    "email": "yuning.yu@inbox.example",
+    "occupation": "Accountant",
+    "employer": "Tidewell Elementary School",
+    "ec_name": "Pin-Kai Tung",
+    "ec_phone": "0907-623-340",
+    "ec_relationship": "child",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-7352-7920",
+    "group_number": "G-9707",
+    "subscriber_rel": "child",
+    "ins_effective": "2019-05-18"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yu-Ning",
+     "last_name": "Yu",
+     "dob": "2001-11-28",
+     "sex": "female",
+     "marital": "married",
+     "nationality": "TW",
+     "language": "mandarin",
+     "street": "2F, No. 171, Ln. 49, Sec. 5, Chenggong Rd., Zhonghe Dist.",
+     "city": "New Taipei City",
+     "postal": "235",
+     "country": "TW",
+     "phone_cell": "0997-080-441",
+     "phone_home": "03-6872-1182",
+     "email": "yuning.yu@inbox.example",
+     "occupation": "Accountant",
+     "employer": "Tidewell Elementary School",
+     "ec_name": "Pin-Kai Tung",
+     "ec_phone": "0907-623-340",
+     "ec_relationship": "child",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-7352-7920",
+     "group_number": "G-9707",
+     "subscriber_rel": "child",
+     "ins_effective": "2019-05-18"
+    },
+    "wrong": {
+     "email": "yuning.yu at inbox.example",
+     "subscriber_rel": "self"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "persona": "vendor-onboarding/t-intl-003",
+ "context": "vendor-onboarding/t-intl-003.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Skylark Automation Pte. Ltd.",
+    "tax_id": "204638876M",
+    "company_address": "49 Changi South Lane, #02-12, Singapore 142956",
+    "established": "1997-04-10",
+    "business_type": "private_limited",
+    "services": "Factory automation integration and robot maintenance",
+    "service_area": "europe",
+    "gross_sales": "59300000",
+    "contact_name": [
+     "Mina Haddad",
+     "Mr. Mina Haddad"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "+65 6810 9514",
+    "phone_evening": "",
+    "email": "mina.haddad@skylark.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "SG-LIC-4557250",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Skylark Automation Pte. Ltd.",
+    "account_number": "315-670067-5",
+    "swift": "OBBXSG2XXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Skylark Automation Pte. Ltd.",
+     "tax_id": "204638876M",
+     "company_address": "49 Changi South Lane, #02-12, Singapore 142956",
+     "established": "1997-04-10",
+     "business_type": "private_limited",
+     "services": "Factory automation integration and robot maintenance",
+     "service_area": "europe",
+     "gross_sales": "59300000",
+     "contact_name": "Mina Haddad",
+     "contact_title": "Account Manager",
+     "phone_day": "+65 6810 9514",
+     "email": "mina.haddad@skylark.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "SG-LIC-4557250",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Skylark Automation Pte. Ltd.",
+     "account_number": "315-670067-5",
+     "swift": "OBBXSG2XXXX"
+    },
+    "wrong": {
+     "email": "mina.haddad at skylark.example",
+     "insurance": "not_insured"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Skylark Automation Pte. Ltd.",
+    "tax_id": "204638876M",
+    "established": "1997-04-10",
+    "service_area": "europe",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Mina Haddad",
+     "Mr. Mina Haddad"
+    ],
+    "email": "mina.haddad@skylark.example",
+    "phone_day": "+65 6810 9514",
+    "phone_evening": "",
+    "company_address": "49 Changi South Lane, #02-12, Singapore 142956",
+    "licensing": "licensed",
+    "license_number": "SG-LIC-4557250",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Skylark Automation Pte. Ltd.",
+    "account_number": "315-670067-5",
+    "swift": "OBBXSG2XXXX",
+    "insurance": "insured",
+    "gross_sales": "59300000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Skylark Automation Pte. Ltd.",
+     "tax_id": "204638876M",
+     "established": "1997-04-10",
+     "service_area": "europe",
+     "business_type": "private_limited",
+     "contact_name": "Mina Haddad",
+     "email": "mina.haddad@skylark.example",
+     "phone_day": "+65 6810 9514",
+     "company_address": "49 Changi South Lane, #02-12, Singapore 142956",
+     "licensing": "licensed",
+     "license_number": "SG-LIC-4557250",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Skylark Automation Pte. Ltd.",
+     "account_number": "315-670067-5",
+     "swift": "OBBXSG2XXXX",
+     "insurance": "insured",
+     "gross_sales": "59300000"
+    },
+    "wrong": {
+     "email": "mina.haddad at skylark.example",
+     "gross_sales": "5930"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Skylark Automation Pte. Ltd.",
+    "account_number": "315-670067-5",
+    "swift": "OBBXSG2XXXX",
+    "org_name": "Skylark Automation Pte. Ltd.",
+    "tax_id": "204638876M",
+    "business_type": "private_limited",
+    "established": "1997-04-10",
+    "company_address": "49 Changi South Lane, #02-12, Singapore 142956",
+    "service_area": "europe",
+    "contact_name": [
+     "Mina Haddad",
+     "Mr. Mina Haddad"
+    ],
+    "email": "mina.haddad@skylark.example",
+    "phone_day": "+65 6810 9514",
+    "contact_title": "Account Manager",
+    "phone_evening": "",
+    "gross_sales": "59300000",
+    "services": "Factory automation integration and robot maintenance",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "SG-LIC-4557250"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Skylark Automation Pte. Ltd.",
+     "account_number": "315-670067-5",
+     "swift": "OBBXSG2XXXX",
+     "org_name": "Skylark Automation Pte. Ltd.",
+     "tax_id": "204638876M",
+     "business_type": "private_limited",
+     "established": "1997-04-10",
+     "company_address": "49 Changi South Lane, #02-12, Singapore 142956",
+     "service_area": "europe",
+     "contact_name": "Mina Haddad",
+     "email": "mina.haddad@skylark.example",
+     "phone_day": "+65 6810 9514",
+     "contact_title": "Account Manager",
+     "gross_sales": "59300000",
+     "services": "Factory automation integration and robot maintenance",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "SG-LIC-4557250"
+    },
+    "wrong": {
+     "email": "mina.haddad at skylark.example",
+     "swift": "OBBXS"
+    }
+   }
+  }
+ }
+}

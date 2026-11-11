@@ -1,0 +1,73 @@
+{
+ "persona": "tw-arrival-card/e-arrival-5step-05",
+ "context": "tw-arrival-card/e-arrival-5step-05.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-5step": {
+   "submit": true,
+   "fields": {
+    "family_name": "NAVARRO",
+    "given_name": "PATRICIA ANNE",
+    "sex": "female",
+    "dob": "1964-04-30",
+    "nationality": "PH",
+    "passport_no": "P9744027B",
+    "passport_expiry": "2029-08-21",
+    "occupation": "student",
+    "arrival_date": "2027-01-17",
+    "flight_no": "PR 141",
+    "departure_flight": "PR 860",
+    "purpose": "employment",
+    "visa_type": "resident",
+    "visa_no": "V-7306987",
+    "stay_type": "relatives",
+    "county": "高雄市",
+    "district": "左營區",
+    "stay_address": [
+     "No. 188, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813",
+     "relative's home, No. 188, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "phone": "+886 970 918 486",
+    "email": "patricia.navarro@kestrel-semi.example",
+    "visited": [
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "family_name": "NAVARRO",
+     "given_name": "PATRICIA ANNE",
+     "sex": "female",
+     "dob": "1964-04-30",
+     "nationality": "PH",
+     "passport_no": "P9744027B",
+     "passport_expiry": "2029-08-21",
+     "occupation": "student",
+     "arrival_date": "2027-01-17",
+     "flight_no": "PR 141",
+     "departure_flight": "PR 860",
+     "purpose": "employment",
+     "visa_type": "resident",
+     "visa_no": "V-7306987",
+     "stay_type": "relatives",
+     "county": "高雄市",
+     "district": "左營區",
+     "stay_address": "No. 188, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813",
+     "phone": "+886 970 918 486",
+     "email": "patricia.navarro@kestrel-semi.example",
+     "visited": [
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "NAVARx",
+     "flight_no": "PR "
+    }
+   }
+  }
+ }
+}

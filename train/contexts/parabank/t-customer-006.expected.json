@@ -1,0 +1,187 @@
+{
+ "persona": "parabank/t-customer-006",
+ "context": "parabank/t-customer-006.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Amara",
+    "last_name": "Sharma",
+    "street": "8588 Alder Creek Dr",
+    "city": "Plano",
+    "state": [
+     "TX",
+     "Texas"
+    ],
+    "zip": "75061",
+    "phone": "",
+    "ssn": "965-16-2582",
+    "username": "amara.sharma75",
+    "password": "Quartz#2378",
+    "password_confirm": "Quartz#2378"
+   },
+   "infeasible": [
+    "phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Amara",
+     "last_name": "Sharma",
+     "street": "8588 Alder Creek Dr",
+     "city": "Plano",
+     "state": "TX",
+     "zip": "75061",
+     "ssn": "965-16-2582",
+     "username": "amara.sharma75",
+     "password": "Quartz#2378",
+     "password_confirm": "Quartz#2378"
+    },
+    "wrong": {
+     "last_name": "Sha"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Maple Street Property Mgmt",
+    "payee_street": "8037 Juniper Hill Ct",
+    "payee_city": "Raleigh",
+    "payee_state": [
+     "NC",
+     "North Carolina"
+    ],
+    "payee_zip": "27668",
+    "payee_phone": "(919) 555-0104",
+    "payee_account": "48173-6587",
+    "payee_account_verify": "48173-6587",
+    "amount": "367.67",
+    "from_account": "21897"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Maple Street Property Mgmt",
+     "payee_street": "8037 Juniper Hill Ct",
+     "payee_city": "Raleigh",
+     "payee_state": "NC",
+     "payee_zip": "27668",
+     "payee_phone": "(919) 555-0104",
+     "payee_account": "48173-6587",
+     "payee_account_verify": "48173-6587",
+     "amount": "367.67",
+     "from_account": "21897"
+    },
+    "wrong": {
+     "payee_account_verify": "48173-65x",
+     "payee_phone": "(919) 5"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "8000",
+    "down_payment": "1000",
+    "loan_from_account": "21897",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "21897"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "8000",
+     "down_payment": "1000",
+     "loan_from_account": "21897",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "21897"
+    },
+    "wrong": {
+     "new_account_from": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Maple Street Property Mgmt",
+    "payee_street": "8037 Juniper Hill Ct",
+    "payee_city": "Raleigh",
+    "payee_state": [
+     "NC",
+     "North Carolina"
+    ],
+    "payee_zip": "27668",
+    "payee_phone": "(919) 555-0104",
+    "from_account": "21897",
+    "amount": "367.67",
+    "payee_account": "48173-6587",
+    "payee_account_verify": "48173-6587"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Maple Street Property Mgmt",
+     "payee_street": "8037 Juniper Hill Ct",
+     "payee_city": "Raleigh",
+     "payee_state": "NC",
+     "payee_zip": "27668",
+     "payee_phone": "(919) 555-0104",
+     "from_account": "21897",
+     "amount": "367.67",
+     "payee_account": "48173-6587",
+     "payee_account_verify": "48173-6587"
+    },
+    "wrong": {
+     "payee_account_verify": "48173-65x",
+     "payee_zip": "27"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Amara",
+    "last_name": "Sharma",
+    "phone": "",
+    "ssn": "965-16-2582",
+    "street": "8588 Alder Creek Dr",
+    "city": "Plano",
+    "state": [
+     "TX",
+     "Texas"
+    ],
+    "zip": "75061",
+    "username": "amara.sharma75",
+    "password": "Quartz#2378",
+    "password_confirm": "Quartz#2378"
+   },
+   "infeasible": [
+    "phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Amara",
+     "last_name": "Sharma",
+     "ssn": "965-16-2582",
+     "street": "8588 Alder Creek Dr",
+     "city": "Plano",
+     "state": "TX",
+     "zip": "75061",
+     "username": "amara.sharma75",
+     "password": "Quartz#2378",
+     "password_confirm": "Quartz#2378"
+    },
+    "wrong": {
+     "street": "8588 Alde"
+    }
+   }
+  }
+ }
+}

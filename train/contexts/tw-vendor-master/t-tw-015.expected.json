@@ -1,0 +1,353 @@
+{
+ "persona": "tw-vendor-master/t-tw-015",
+ "context": "tw-vendor-master/t-tw-015.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+    "vendor_name_en": "Jiatai Automation Equipment Co., Ltd.",
+    "ubn": "22644625",
+    "owner": "江美君",
+    "established": "1998-07-26",
+    "capital": "",
+    "org_type": "corp_shares",
+    "postal": "338",
+    "county": "桃園市",
+    "district": "蘆竹區",
+    "address_line": "民生路5號2樓",
+    "tel": "03-103-4529",
+    "fax": "03-103-4634",
+    "contact_name": [
+     "謝佩婷",
+     "Hsieh Pei-ting"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "peiting.hsieh@jiatai-automation.example",
+    "contact_mobile": "0962-238-757",
+    "bank_code": "008",
+    "bank_branch": [
+     "蘆竹分行",
+     "蘆竹"
+    ],
+    "account_no": "30749734981674",
+    "account_name": "嘉泰自動化設備股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui2",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-10-05"
+   },
+   "infeasible": [
+    "capital"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+     "vendor_name_en": "Jiatai Automation Equipment Co., Ltd.",
+     "ubn": "22644625",
+     "owner": "江美君",
+     "established": "1998-07-26",
+     "org_type": "corp_shares",
+     "postal": "338",
+     "county": "桃園市",
+     "district": "蘆竹區",
+     "address_line": "民生路5號2樓",
+     "tel": "03-103-4529",
+     "fax": "03-103-4634",
+     "contact_name": "謝佩婷",
+     "contact_title": "專案經理",
+     "email": "peiting.hsieh@jiatai-automation.example",
+     "contact_mobile": "0962-238-757",
+     "bank_code": "008",
+     "bank_branch": "蘆竹分行",
+     "account_no": "30749734981674",
+     "account_name": "嘉泰自動化設備股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui2",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-10-05"
+    },
+    "wrong": {
+     "ubn": "226446x",
+     "owner": "江"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "22644625",
+    "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+    "vendor_name_en": "Jiatai Automation Equipment Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1998-07-26",
+    "owner": "江美君",
+    "county": "桃園市",
+    "district": "蘆竹區",
+    "address_line": "民生路5號2樓",
+    "postal": "338",
+    "tel": "03-103-4529",
+    "fax": "03-103-4634",
+    "contact_name": [
+     "謝佩婷",
+     "Hsieh Pei-ting"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "contact_mobile": "0962-238-757",
+    "email": "peiting.hsieh@jiatai-automation.example",
+    "bank_code": "008",
+    "bank_branch": [
+     "蘆竹分行",
+     "蘆竹"
+    ],
+    "account_no": "30749734981674",
+    "account_name": "嘉泰自動化設備股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui2",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-10-05",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "22644625",
+     "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+     "vendor_name_en": "Jiatai Automation Equipment Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1998-07-26",
+     "owner": "江美君",
+     "county": "桃園市",
+     "district": "蘆竹區",
+     "address_line": "民生路5號2樓",
+     "postal": "338",
+     "tel": "03-103-4529",
+     "fax": "03-103-4634",
+     "contact_name": "謝佩婷",
+     "contact_title": "專案經理",
+     "contact_mobile": "0962-238-757",
+     "email": "peiting.hsieh@jiatai-automation.example",
+     "bank_code": "008",
+     "bank_branch": "蘆竹分行",
+     "account_no": "30749734981674",
+     "account_name": "嘉泰自動化設備股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui2",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-10-05"
+    },
+    "wrong": {
+     "ubn": "226446x",
+     "account_name": "嘉泰自動化設"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "22644625",
+    "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+    "owner": "江美君",
+    "established": "1998-07-26",
+    "org_type": "corp_shares",
+    "capital": "",
+    "county": "桃園市",
+    "district": "蘆竹區",
+    "address_line": "民生路5號2樓",
+    "postal": "338",
+    "tel": "03-103-4529",
+    "contact_name": [
+     "謝佩婷",
+     "Hsieh Pei-ting"
+    ],
+    "email": "peiting.hsieh@jiatai-automation.example",
+    "bank_code": "008",
+    "account_no": "30749734981674",
+    "account_name": "嘉泰自動化設備股份有限公司",
+    "payment_terms": "net30",
+    "currency": "TWD",
+    "invoice_type": "egui2"
+   },
+   "infeasible": [
+    "capital"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "22644625",
+     "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+     "owner": "江美君",
+     "established": "1998-07-26",
+     "org_type": "corp_shares",
+     "county": "桃園市",
+     "district": "蘆竹區",
+     "address_line": "民生路5號2樓",
+     "postal": "338",
+     "tel": "03-103-4529",
+     "contact_name": "謝佩婷",
+     "email": "peiting.hsieh@jiatai-automation.example",
+     "bank_code": "008",
+     "account_no": "30749734981674",
+     "account_name": "嘉泰自動化設備股份有限公司",
+     "payment_terms": "net30",
+     "currency": "TWD",
+     "invoice_type": "egui2"
+    },
+    "wrong": {
+     "ubn": "226446x",
+     "account_name": "嘉泰自動化設"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+    "vendor_name_en": "Jiatai Automation Equipment Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "22644625",
+    "owner": "江美君",
+    "county": "桃園市",
+    "district": "蘆竹區",
+    "address_line": "民生路5號2樓",
+    "postal": "338",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-103-4529",
+    "contact_name": [
+     "謝佩婷",
+     "Hsieh Pei-ting"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "peiting.hsieh@jiatai-automation.example",
+    "account_no": "30749734981674",
+    "account_name": "嘉泰自動化設備股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui2",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+     "vendor_name_en": "Jiatai Automation Equipment Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "22644625",
+     "owner": "江美君",
+     "county": "桃園市",
+     "district": "蘆竹區",
+     "address_line": "民生路5號2樓",
+     "postal": "338",
+     "tel": "03-103-4529",
+     "contact_name": "謝佩婷",
+     "contact_title": "專案經理",
+     "email": "peiting.hsieh@jiatai-automation.example",
+     "account_no": "30749734981674",
+     "account_name": "嘉泰自動化設備股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui2",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "226446x",
+     "address_line": "民生路"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "008",
+    "bank_branch": [
+     "蘆竹分行",
+     "蘆竹"
+    ],
+    "account_no": "30749734981674",
+    "account_name": "嘉泰自動化設備股份有限公司",
+    "payment_terms": "net30",
+    "currency": "TWD",
+    "invoice_type": "egui2",
+    "county": "桃園市",
+    "district": "蘆竹區",
+    "address_line": "民生路5號2樓",
+    "postal": "338",
+    "tel": "03-103-4529",
+    "fax": "03-103-4634",
+    "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+    "ubn": "22644625",
+    "owner": "江美君",
+    "org_type": "corp_shares",
+    "established": "1998-07-26",
+    "capital": "",
+    "vendor_name_en": "Jiatai Automation Equipment Co., Ltd.",
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "contact_mobile": "0962-238-757",
+    "contact_name": [
+     "謝佩婷",
+     "Hsieh Pei-ting"
+    ],
+    "email": "peiting.hsieh@jiatai-automation.example"
+   },
+   "infeasible": [
+    "capital"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "008",
+     "bank_branch": "蘆竹分行",
+     "account_no": "30749734981674",
+     "account_name": "嘉泰自動化設備股份有限公司",
+     "payment_terms": "net30",
+     "currency": "TWD",
+     "invoice_type": "egui2",
+     "county": "桃園市",
+     "district": "蘆竹區",
+     "address_line": "民生路5號2樓",
+     "postal": "338",
+     "tel": "03-103-4529",
+     "fax": "03-103-4634",
+     "vendor_name_zh": "嘉泰自動化設備股份有限公司",
+     "ubn": "22644625",
+     "owner": "江美君",
+     "org_type": "corp_shares",
+     "established": "1998-07-26",
+     "vendor_name_en": "Jiatai Automation Equipment Co., Ltd.",
+     "contact_title": "專案經理",
+     "contact_mobile": "0962-238-757",
+     "contact_name": "謝佩婷",
+     "email": "peiting.hsieh@jiatai-automation.example"
+    },
+    "wrong": {
+     "account_no": "307497349816x",
+     "established": "1997-07-26"
+    }
+   }
+  }
+ }
+}

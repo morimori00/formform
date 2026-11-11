@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-022",
+ "context": "parabank/t-customer-022.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Aisha",
+    "last_name": "Novak",
+    "street": "2554 Marigold Ave",
+    "city": "Atlanta",
+    "state": [
+     "GA",
+     "Georgia"
+    ],
+    "zip": "30357",
+    "phone": "(404) 555-0148",
+    "ssn": "939-25-4745",
+    "username": "aisha.novak95",
+    "password": "Quartz-2950",
+    "password_confirm": "Quartz-2950"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Aisha",
+     "last_name": "Novak",
+     "street": "2554 Marigold Ave",
+     "city": "Atlanta",
+     "state": "GA",
+     "zip": "30357",
+     "phone": "(404) 555-0148",
+     "ssn": "939-25-4745",
+     "username": "aisha.novak95",
+     "password": "Quartz-2950",
+     "password_confirm": "Quartz-2950"
+    },
+    "wrong": {
+     "city": "Atl"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Summit Ridge Gas",
+    "payee_street": "5625 Quail Hollow Ave",
+    "payee_city": "Albany",
+    "payee_state": [
+     "NY",
+     "New York"
+    ],
+    "payee_zip": "12271",
+    "payee_phone": "(518) 555-0103",
+    "payee_account": "13403-4897",
+    "payee_account_verify": "13403-4897",
+    "amount": "889.29",
+    "from_account": "15231"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Summit Ridge Gas",
+     "payee_street": "5625 Quail Hollow Ave",
+     "payee_city": "Albany",
+     "payee_state": "NY",
+     "payee_zip": "12271",
+     "payee_phone": "(518) 555-0103",
+     "payee_account": "13403-4897",
+     "payee_account_verify": "13403-4897",
+     "amount": "889.29",
+     "from_account": "15231"
+    },
+    "wrong": {
+     "payee_account_verify": "13403-48x",
+     "payee_account": "13403"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "12000",
+    "down_payment": "600",
+    "loan_from_account": "20346",
+    "new_account_type": "CHECKING",
+    "new_account_from": "20346"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "12000",
+     "down_payment": "600",
+     "loan_from_account": "20346",
+     "new_account_type": "CHECKING",
+     "new_account_from": "20346"
+    },
+    "wrong": {
+     "new_account_from": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Summit Ridge Gas",
+    "payee_street": "5625 Quail Hollow Ave",
+    "payee_city": "Albany",
+    "payee_state": [
+     "NY",
+     "New York"
+    ],
+    "payee_zip": "12271",
+    "payee_phone": "(518) 555-0103",
+    "from_account": "15231",
+    "amount": "889.29",
+    "payee_account": "13403-4897",
+    "payee_account_verify": "13403-4897"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Summit Ridge Gas",
+     "payee_street": "5625 Quail Hollow Ave",
+     "payee_city": "Albany",
+     "payee_state": "NY",
+     "payee_zip": "12271",
+     "payee_phone": "(518) 555-0103",
+     "from_account": "15231",
+     "amount": "889.29",
+     "payee_account": "13403-4897",
+     "payee_account_verify": "13403-4897"
+    },
+    "wrong": {
+     "payee_account_verify": "13403-48x",
+     "payee_city": "Alb"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Aisha",
+    "last_name": "Novak",
+    "phone": "(404) 555-0148",
+    "ssn": "939-25-4745",
+    "street": "2554 Marigold Ave",
+    "city": "Atlanta",
+    "state": [
+     "GA",
+     "Georgia"
+    ],
+    "zip": "30357",
+    "username": "aisha.novak95",
+    "password": "Quartz-2950",
+    "password_confirm": "Quartz-2950"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Aisha",
+     "last_name": "Novak",
+     "phone": "(404) 555-0148",
+     "ssn": "939-25-4745",
+     "street": "2554 Marigold Ave",
+     "city": "Atlanta",
+     "state": "GA",
+     "zip": "30357",
+     "username": "aisha.novak95",
+     "password": "Quartz-2950",
+     "password_confirm": "Quartz-2950"
+    },
+    "wrong": {
+     "phone": "(404) 5"
+    }
+   }
+  }
+ }
+}

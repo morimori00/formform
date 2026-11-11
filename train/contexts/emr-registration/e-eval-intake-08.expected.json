@@ -1,0 +1,68 @@
+{
+ "persona": "emr-registration/e-eval-intake-08",
+ "context": "emr-registration/e-eval-intake-08.md",
+ "split": "eval",
+ "variants": {
+  "emr-registration/eval-intake": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yun-Chi",
+    "middle_name": "",
+    "last_name": "Kao",
+    "dob": "1959-04-13",
+    "sex": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "language": "mandarin",
+    "street": "8F, No. 267, Ln. 214, Sec. 4, Fuxing S. Rd., Shilin Dist.",
+    "city": "Taipei City",
+    "postal": "111",
+    "country": "TW",
+    "phone_cell": "0987-626-999",
+    "phone_home": "",
+    "email": "",
+    "occupation": "Taxi driver",
+    "employer": "Wexford Trading Co.",
+    "ec_name": "Yun-Ning Tung",
+    "ec_phone": "0935-347-762",
+    "ec_relationship": "parent",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-9593-1471",
+    "group_number": "G-7187",
+    "subscriber_rel": "self",
+    "ins_effective": "2025-11-25"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yun-Chi",
+     "last_name": "Kao",
+     "dob": "1959-04-13",
+     "sex": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "language": "mandarin",
+     "street": "8F, No. 267, Ln. 214, Sec. 4, Fuxing S. Rd., Shilin Dist.",
+     "city": "Taipei City",
+     "postal": "111",
+     "country": "TW",
+     "phone_cell": "0987-626-999",
+     "occupation": "Taxi driver",
+     "employer": "Wexford Trading Co.",
+     "ec_name": "Yun-Ning Tung",
+     "ec_phone": "0935-347-762",
+     "ec_relationship": "parent",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-9593-1471",
+     "group_number": "G-7187",
+     "subscriber_rel": "self",
+     "ins_effective": "2025-11-25"
+    },
+    "wrong": {
+     "ins_effective": "2024-11-25"
+    }
+   }
+  }
+ }
+}

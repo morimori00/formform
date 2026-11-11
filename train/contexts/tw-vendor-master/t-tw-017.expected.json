@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-017",
+ "context": "tw-vendor-master/t-tw-017.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "順碩電子材料股份有限公司",
+    "vendor_name_en": "Shunshuo Electronic Materials Co., Ltd.",
+    "ubn": "23507487",
+    "owner": "王淑偉",
+    "established": "1986-02-02",
+    "capital": "517000000",
+    "org_type": "corp_shares",
+    "postal": "242",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "和平路256號6樓",
+    "tel": "02-3548-8725",
+    "fax": "02-3548-8755",
+    "contact_name": [
+     "賴美婷",
+     "Lai Mei-ting"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "meiting.lai@shunshuo-electronic.example",
+    "contact_mobile": "0925-225-343",
+    "bank_code": "822",
+    "bank_branch": [
+     "新莊分行",
+     "新莊"
+    ],
+    "account_no": "342725185350",
+    "account_name": "順碩電子材料股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-09-30"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "順碩電子材料股份有限公司",
+     "vendor_name_en": "Shunshuo Electronic Materials Co., Ltd.",
+     "ubn": "23507487",
+     "owner": "王淑偉",
+     "established": "1986-02-02",
+     "capital": "517000000",
+     "org_type": "corp_shares",
+     "postal": "242",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "和平路256號6樓",
+     "tel": "02-3548-8725",
+     "fax": "02-3548-8755",
+     "contact_name": "賴美婷",
+     "contact_title": "專案經理",
+     "email": "meiting.lai@shunshuo-electronic.example",
+     "contact_mobile": "0925-225-343",
+     "bank_code": "822",
+     "bank_branch": "新莊分行",
+     "account_no": "342725185350",
+     "account_name": "順碩電子材料股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-09-30"
+    },
+    "wrong": {
+     "ubn": "235074x",
+     "account_name": "順碩電子材料"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "23507487",
+    "vendor_name_zh": "順碩電子材料股份有限公司",
+    "vendor_name_en": "Shunshuo Electronic Materials Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1986-02-02",
+    "owner": "王淑偉",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "和平路256號6樓",
+    "postal": "242",
+    "tel": "02-3548-8725",
+    "fax": "02-3548-8755",
+    "contact_name": [
+     "賴美婷",
+     "Lai Mei-ting"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "contact_mobile": "0925-225-343",
+    "email": "meiting.lai@shunshuo-electronic.example",
+    "bank_code": "822",
+    "bank_branch": [
+     "新莊分行",
+     "新莊"
+    ],
+    "account_no": "342725185350",
+    "account_name": "順碩電子材料股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-09-30",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "23507487",
+     "vendor_name_zh": "順碩電子材料股份有限公司",
+     "vendor_name_en": "Shunshuo Electronic Materials Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1986-02-02",
+     "owner": "王淑偉",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "和平路256號6樓",
+     "postal": "242",
+     "tel": "02-3548-8725",
+     "fax": "02-3548-8755",
+     "contact_name": "賴美婷",
+     "contact_title": "專案經理",
+     "contact_mobile": "0925-225-343",
+     "email": "meiting.lai@shunshuo-electronic.example",
+     "bank_code": "822",
+     "bank_branch": "新莊分行",
+     "account_no": "342725185350",
+     "account_name": "順碩電子材料股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-09-30"
+    },
+    "wrong": {
+     "ubn": "235074x",
+     "fax": "02-354"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "23507487",
+    "vendor_name_zh": "順碩電子材料股份有限公司",
+    "owner": "王淑偉",
+    "established": "1986-02-02",
+    "org_type": "corp_shares",
+    "capital": "517000000",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "和平路256號6樓",
+    "postal": "242",
+    "tel": "02-3548-8725",
+    "contact_name": [
+     "賴美婷",
+     "Lai Mei-ting"
+    ],
+    "email": "meiting.lai@shunshuo-electronic.example",
+    "bank_code": "822",
+    "account_no": "342725185350",
+    "account_name": "順碩電子材料股份有限公司",
+    "payment_terms": "net30",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "23507487",
+     "vendor_name_zh": "順碩電子材料股份有限公司",
+     "owner": "王淑偉",
+     "established": "1986-02-02",
+     "org_type": "corp_shares",
+     "capital": "517000000",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "和平路256號6樓",
+     "postal": "242",
+     "tel": "02-3548-8725",
+     "contact_name": "賴美婷",
+     "email": "meiting.lai@shunshuo-electronic.example",
+     "bank_code": "822",
+     "account_no": "342725185350",
+     "account_name": "順碩電子材料股份有限公司",
+     "payment_terms": "net30",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "235074x",
+     "contact_name": "賴"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "順碩電子材料股份有限公司",
+    "vendor_name_en": "Shunshuo Electronic Materials Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "23507487",
+    "owner": "王淑偉",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "和平路256號6樓",
+    "postal": "242",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "02-3548-8725",
+    "contact_name": [
+     "賴美婷",
+     "Lai Mei-ting"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "meiting.lai@shunshuo-electronic.example",
+    "account_no": "342725185350",
+    "account_name": "順碩電子材料股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "順碩電子材料股份有限公司",
+     "vendor_name_en": "Shunshuo Electronic Materials Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "23507487",
+     "owner": "王淑偉",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "和平路256號6樓",
+     "postal": "242",
+     "tel": "02-3548-8725",
+     "contact_name": "賴美婷",
+     "contact_title": "專案經理",
+     "email": "meiting.lai@shunshuo-electronic.example",
+     "account_no": "342725185350",
+     "account_name": "順碩電子材料股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "235074x",
+     "owner": "王"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "822",
+    "bank_branch": [
+     "新莊分行",
+     "新莊"
+    ],
+    "account_no": "342725185350",
+    "account_name": "順碩電子材料股份有限公司",
+    "payment_terms": "net30",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "和平路256號6樓",
+    "postal": "242",
+    "tel": "02-3548-8725",
+    "fax": "02-3548-8755",
+    "vendor_name_zh": "順碩電子材料股份有限公司",
+    "ubn": "23507487",
+    "owner": "王淑偉",
+    "org_type": "corp_shares",
+    "established": "1986-02-02",
+    "capital": "517000000",
+    "vendor_name_en": "Shunshuo Electronic Materials Co., Ltd.",
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "contact_mobile": "0925-225-343",
+    "contact_name": [
+     "賴美婷",
+     "Lai Mei-ting"
+    ],
+    "email": "meiting.lai@shunshuo-electronic.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "822",
+     "bank_branch": "新莊分行",
+     "account_no": "342725185350",
+     "account_name": "順碩電子材料股份有限公司",
+     "payment_terms": "net30",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "和平路256號6樓",
+     "postal": "242",
+     "tel": "02-3548-8725",
+     "fax": "02-3548-8755",
+     "vendor_name_zh": "順碩電子材料股份有限公司",
+     "ubn": "23507487",
+     "owner": "王淑偉",
+     "org_type": "corp_shares",
+     "established": "1986-02-02",
+     "capital": "517000000",
+     "vendor_name_en": "Shunshuo Electronic Materials Co., Ltd.",
+     "contact_title": "專案經理",
+     "contact_mobile": "0925-225-343",
+     "contact_name": "賴美婷",
+     "email": "meiting.lai@shunshuo-electronic.example"
+    },
+    "wrong": {
+     "account_no": "3427251853x",
+     "currency": "USD"
+    }
+   }
+  }
+ }
+}

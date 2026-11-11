@@ -1,0 +1,178 @@
+{
+ "persona": "hr-orangehrm/t-emp-023",
+ "context": "hr-orangehrm/t-emp-023.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Wen",
+    "middle_name": "",
+    "last_name": "Liao",
+    "employee_id": "KST-31254",
+    "create_login": true,
+    "username": "shuwen.liao",
+    "login_status": "enabled",
+    "password": "Fab3!7555c",
+    "confirm_password": "Fab3!7555c"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Wen",
+     "last_name": "Liao",
+     "employee_id": "KST-31254",
+     "create_login": true,
+     "username": "shuwen.liao",
+     "login_status": "enabled",
+     "password": "Fab3!7555c",
+     "confirm_password": "Fab3!7555c"
+    },
+    "wrong": {
+     "employee_id": "KST-312x",
+     "last_name": "Li"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Wen",
+    "middle_name": "",
+    "last_name": "Liao",
+    "employee_id": "KST-31254",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "widowed",
+    "dob": "1996-05-15",
+    "gender": "male"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Wen",
+     "last_name": "Liao",
+     "employee_id": "KST-31254",
+     "nationality": "TW",
+     "marital": "widowed",
+     "dob": "1996-05-15",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-312x",
+     "nationality": "JP"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2027-02-24",
+    "leave_to": "2027-02-25",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Wedding of a sibling abroad"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2027-02-24",
+     "leave_to": "2027-02-25",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Wedding of a sibling abroad"
+    },
+    "wrong": {
+     "leave_to": "2026-02-25"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2027-02-24",
+    "leave_to": "2027-02-25",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Wedding of a sibling abroad"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2027-02-24",
+     "leave_to": "2027-02-25",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Wedding of a sibling abroad"
+    },
+    "wrong": {
+     "end_duration": "half_am"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Wen",
+    "middle_name": "",
+    "last_name": "Liao",
+    "employee_id": "KST-31254",
+    "create_login": true,
+    "username": "shuwen.liao",
+    "login_status": "enabled",
+    "password": "Fab3!7555c",
+    "confirm_password": "Fab3!7555c",
+    "nationality": "TW",
+    "marital": "widowed",
+    "dob": "1996-05-15",
+    "gender": "male",
+    "job_title": "platform_eng",
+    "department": "procurement",
+    "work_location": "tainan",
+    "emp_status": "pt",
+    "supervisor": "u_m4228",
+    "joined_date": "2027-01-20"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Wen",
+     "last_name": "Liao",
+     "employee_id": "KST-31254",
+     "create_login": true,
+     "username": "shuwen.liao",
+     "login_status": "enabled",
+     "password": "Fab3!7555c",
+     "confirm_password": "Fab3!7555c",
+     "nationality": "TW",
+     "marital": "widowed",
+     "dob": "1996-05-15",
+     "gender": "male",
+     "job_title": "platform_eng",
+     "department": "procurement",
+     "work_location": "tainan",
+     "emp_status": "pt",
+     "supervisor": "u_m4228",
+     "joined_date": "2027-01-20"
+    },
+    "wrong": {
+     "employee_id": "KST-312x",
+     "last_name": "Li"
+    }
+   }
+  }
+ }
+}

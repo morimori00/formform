@@ -8,12 +8,12 @@ export function shadowOf(e: Element): ShadowRoot | null {
   return (globalThis.chrome?.dom?.openOrClosedShadowRoot?.(e as HTMLElement) as ShadowRoot | undefined) ?? e.shadowRoot;
 }
 
-/** The document plus every shadow root inside it. ponytail: only custom elements are probed; plain divs with attachShadow are missed. */
+/** The document plus every shadow root inside it. Any element can host one (div.attachShadow is common in form widgets),
+ * so every element is probed. ponytail: one shadowOf() per element per call; cache per snapshot if large pages get slow. */
 export function allRoots(doc: Document = document): (Document | ShadowRoot)[] {
   const roots: (Document | ShadowRoot)[] = [doc];
   for (let i = 0; i < roots.length; i++) {
     for (const e of roots[i].querySelectorAll("*")) {
-      if (!e.tagName.includes("-")) continue;
       const root = shadowOf(e);
       if (root) roots.push(root);
     }

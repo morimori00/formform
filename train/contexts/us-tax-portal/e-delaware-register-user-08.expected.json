@@ -1,0 +1,49 @@
+{
+ "persona": "us-tax-portal/e-delaware-register-user-08",
+ "context": "us-tax-portal/e-delaware-register-user-08.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/delaware-register-user": {
+   "submit": true,
+   "fields": {
+    "accept_terms": true,
+    "first_name": "Ravi",
+    "middle_initial": "",
+    "last_name": "Vasquez",
+    "position": "Chief Financial Officer",
+    "email": "rvasquez@vantage.example",
+    "email_confirm": "rvasquez@vantage.example",
+    "country_code": "1",
+    "day_phone": "(302) 555-0171",
+    "mobile_country_code": "1",
+    "mobile_phone": "(302) 555-0163",
+    "user_id": "vantage.rvasquez",
+    "esign": "Ravi Vasquez",
+    "certify": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "accept_terms": true,
+     "first_name": "Ravi",
+     "last_name": "Vasquez",
+     "position": "Chief Financial Officer",
+     "email": "rvasquez@vantage.example",
+     "email_confirm": "rvasquez@vantage.example",
+     "country_code": "1",
+     "day_phone": "(302) 555-0171",
+     "mobile_country_code": "1",
+     "mobile_phone": "(302) 555-0163",
+     "user_id": "vantage.rvasquez",
+     "esign": "Ravi Vasquez",
+     "certify": true
+    },
+    "wrong": {
+     "email": "rvasquez at vantage.example",
+     "mobile_phone": "(302) 5"
+    }
+   }
+  }
+ }
+}

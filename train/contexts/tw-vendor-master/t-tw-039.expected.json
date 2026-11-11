@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-039",
+ "context": "tw-vendor-master/t-tw-039.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠邁電子材料股份有限公司",
+    "vendor_name_en": "Kuanmai Electronic Materials Co., Ltd.",
+    "ubn": "34927855",
+    "owner": "謝志婷",
+    "established": "2006-05-03",
+    "capital": "156000000",
+    "org_type": "corp_shares",
+    "postal": "710",
+    "county": "臺南市",
+    "district": "永康區",
+    "address_line": "工業一路350號5樓",
+    "tel": "06-348-2336",
+    "fax": "06-348-9878",
+    "contact_name": [
+     "賴美玲",
+     "Lai Mei-ling"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "meiling.lai@kuanmai-electronic.example",
+    "contact_mobile": "0941-283-712",
+    "bank_code": "808",
+    "bank_branch": [
+     "永康分行",
+     "永康"
+    ],
+    "account_no": "498878913119",
+    "account_name": "冠邁電子材料股份有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-06-19"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠邁電子材料股份有限公司",
+     "vendor_name_en": "Kuanmai Electronic Materials Co., Ltd.",
+     "ubn": "34927855",
+     "owner": "謝志婷",
+     "established": "2006-05-03",
+     "capital": "156000000",
+     "org_type": "corp_shares",
+     "postal": "710",
+     "county": "臺南市",
+     "district": "永康區",
+     "address_line": "工業一路350號5樓",
+     "tel": "06-348-2336",
+     "fax": "06-348-9878",
+     "contact_name": "賴美玲",
+     "contact_title": "財務主任",
+     "email": "meiling.lai@kuanmai-electronic.example",
+     "contact_mobile": "0941-283-712",
+     "bank_code": "808",
+     "bank_branch": "永康分行",
+     "account_no": "498878913119",
+     "account_name": "冠邁電子材料股份有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-06-19"
+    },
+    "wrong": {
+     "ubn": "349278x",
+     "currency": "USD"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "34927855",
+    "vendor_name_zh": "冠邁電子材料股份有限公司",
+    "vendor_name_en": "Kuanmai Electronic Materials Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "2006-05-03",
+    "owner": "謝志婷",
+    "county": "臺南市",
+    "district": "永康區",
+    "address_line": "工業一路350號5樓",
+    "postal": "710",
+    "tel": "06-348-2336",
+    "fax": "06-348-9878",
+    "contact_name": [
+     "賴美玲",
+     "Lai Mei-ling"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0941-283-712",
+    "email": "meiling.lai@kuanmai-electronic.example",
+    "bank_code": "808",
+    "bank_branch": [
+     "永康分行",
+     "永康"
+    ],
+    "account_no": "498878913119",
+    "account_name": "冠邁電子材料股份有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-06-19",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "34927855",
+     "vendor_name_zh": "冠邁電子材料股份有限公司",
+     "vendor_name_en": "Kuanmai Electronic Materials Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "2006-05-03",
+     "owner": "謝志婷",
+     "county": "臺南市",
+     "district": "永康區",
+     "address_line": "工業一路350號5樓",
+     "postal": "710",
+     "tel": "06-348-2336",
+     "fax": "06-348-9878",
+     "contact_name": "賴美玲",
+     "contact_title": "財務主任",
+     "contact_mobile": "0941-283-712",
+     "email": "meiling.lai@kuanmai-electronic.example",
+     "bank_code": "808",
+     "bank_branch": "永康分行",
+     "account_no": "498878913119",
+     "account_name": "冠邁電子材料股份有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-06-19"
+    },
+    "wrong": {
+     "ubn": "349278x",
+     "org_type": "limited"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "34927855",
+    "vendor_name_zh": "冠邁電子材料股份有限公司",
+    "owner": "謝志婷",
+    "established": "2006-05-03",
+    "org_type": "corp_shares",
+    "capital": "156000000",
+    "county": "臺南市",
+    "district": "永康區",
+    "address_line": "工業一路350號5樓",
+    "postal": "710",
+    "tel": "06-348-2336",
+    "contact_name": [
+     "賴美玲",
+     "Lai Mei-ling"
+    ],
+    "email": "meiling.lai@kuanmai-electronic.example",
+    "bank_code": "808",
+    "account_no": "498878913119",
+    "account_name": "冠邁電子材料股份有限公司",
+    "payment_terms": "net45",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "34927855",
+     "vendor_name_zh": "冠邁電子材料股份有限公司",
+     "owner": "謝志婷",
+     "established": "2006-05-03",
+     "org_type": "corp_shares",
+     "capital": "156000000",
+     "county": "臺南市",
+     "district": "永康區",
+     "address_line": "工業一路350號5樓",
+     "postal": "710",
+     "tel": "06-348-2336",
+     "contact_name": "賴美玲",
+     "email": "meiling.lai@kuanmai-electronic.example",
+     "bank_code": "808",
+     "account_no": "498878913119",
+     "account_name": "冠邁電子材料股份有限公司",
+     "payment_terms": "net45",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "349278x",
+     "capital": "1560"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "冠邁電子材料股份有限公司",
+    "vendor_name_en": "Kuanmai Electronic Materials Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "34927855",
+    "owner": "謝志婷",
+    "county": "臺南市",
+    "district": "永康區",
+    "address_line": "工業一路350號5樓",
+    "postal": "710",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "06-348-2336",
+    "contact_name": [
+     "賴美玲",
+     "Lai Mei-ling"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "meiling.lai@kuanmai-electronic.example",
+    "account_no": "498878913119",
+    "account_name": "冠邁電子材料股份有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "冠邁電子材料股份有限公司",
+     "vendor_name_en": "Kuanmai Electronic Materials Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "34927855",
+     "owner": "謝志婷",
+     "county": "臺南市",
+     "district": "永康區",
+     "address_line": "工業一路350號5樓",
+     "postal": "710",
+     "tel": "06-348-2336",
+     "contact_name": "賴美玲",
+     "contact_title": "財務主任",
+     "email": "meiling.lai@kuanmai-electronic.example",
+     "account_no": "498878913119",
+     "account_name": "冠邁電子材料股份有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "349278x",
+     "contact_name": "賴"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "808",
+    "bank_branch": [
+     "永康分行",
+     "永康"
+    ],
+    "account_no": "498878913119",
+    "account_name": "冠邁電子材料股份有限公司",
+    "payment_terms": "net45",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "臺南市",
+    "district": "永康區",
+    "address_line": "工業一路350號5樓",
+    "postal": "710",
+    "tel": "06-348-2336",
+    "fax": "06-348-9878",
+    "vendor_name_zh": "冠邁電子材料股份有限公司",
+    "ubn": "34927855",
+    "owner": "謝志婷",
+    "org_type": "corp_shares",
+    "established": "2006-05-03",
+    "capital": "156000000",
+    "vendor_name_en": "Kuanmai Electronic Materials Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0941-283-712",
+    "contact_name": [
+     "賴美玲",
+     "Lai Mei-ling"
+    ],
+    "email": "meiling.lai@kuanmai-electronic.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "808",
+     "bank_branch": "永康分行",
+     "account_no": "498878913119",
+     "account_name": "冠邁電子材料股份有限公司",
+     "payment_terms": "net45",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "臺南市",
+     "district": "永康區",
+     "address_line": "工業一路350號5樓",
+     "postal": "710",
+     "tel": "06-348-2336",
+     "fax": "06-348-9878",
+     "vendor_name_zh": "冠邁電子材料股份有限公司",
+     "ubn": "34927855",
+     "owner": "謝志婷",
+     "org_type": "corp_shares",
+     "established": "2006-05-03",
+     "capital": "156000000",
+     "vendor_name_en": "Kuanmai Electronic Materials Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_mobile": "0941-283-712",
+     "contact_name": "賴美玲",
+     "email": "meiling.lai@kuanmai-electronic.example"
+    },
+    "wrong": {
+     "account_no": "4988789131x",
+     "vendor_name_zh": "冠邁電子材料"
+    }
+   }
+  }
+ }
+}

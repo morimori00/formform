@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-021",
+ "context": "parabank/t-customer-021.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Tomas",
+    "last_name": "Romano",
+    "street": "1623 Larkspur St",
+    "city": "Atlanta",
+    "state": [
+     "GA",
+     "Georgia"
+    ],
+    "zip": "30303",
+    "phone": "(404) 555-0149",
+    "ssn": "979-96-2412",
+    "username": "tomas.romano96",
+    "password": "Quartz!4615",
+    "password_confirm": "Quartz!4615"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Tomas",
+     "last_name": "Romano",
+     "street": "1623 Larkspur St",
+     "city": "Atlanta",
+     "state": "GA",
+     "zip": "30303",
+     "phone": "(404) 555-0149",
+     "ssn": "979-96-2412",
+     "username": "tomas.romano96",
+     "password": "Quartz!4615",
+     "password_confirm": "Quartz!4615"
+    },
+    "wrong": {
+     "city": "Atl"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "5868 Quail Hollow St",
+    "payee_city": "Phoenix",
+    "payee_state": [
+     "AZ",
+     "Arizona"
+    ],
+    "payee_zip": "85045",
+    "payee_phone": "(602) 555-0166",
+    "payee_account": "32077-6016",
+    "payee_account_verify": "32077-6016",
+    "amount": "514.32",
+    "from_account": "15231"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "5868 Quail Hollow St",
+     "payee_city": "Phoenix",
+     "payee_state": "AZ",
+     "payee_zip": "85045",
+     "payee_phone": "(602) 555-0166",
+     "payee_account": "32077-6016",
+     "payee_account_verify": "32077-6016",
+     "amount": "514.32",
+     "from_account": "15231"
+    },
+    "wrong": {
+     "payee_account_verify": "32077-60x",
+     "payee_state": "A"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "8000",
+    "down_payment": "1000",
+    "loan_from_account": "15231",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "13344"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "8000",
+     "down_payment": "1000",
+     "loan_from_account": "15231",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "13344"
+    },
+    "wrong": {
+     "new_account_from": "13566"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Granite Peak Water",
+    "payee_street": "5868 Quail Hollow St",
+    "payee_city": "Phoenix",
+    "payee_state": [
+     "AZ",
+     "Arizona"
+    ],
+    "payee_zip": "85045",
+    "payee_phone": "(602) 555-0166",
+    "from_account": "15231",
+    "amount": "514.32",
+    "payee_account": "32077-6016",
+    "payee_account_verify": "32077-6016"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Granite Peak Water",
+     "payee_street": "5868 Quail Hollow St",
+     "payee_city": "Phoenix",
+     "payee_state": "AZ",
+     "payee_zip": "85045",
+     "payee_phone": "(602) 555-0166",
+     "from_account": "15231",
+     "amount": "514.32",
+     "payee_account": "32077-6016",
+     "payee_account_verify": "32077-6016"
+    },
+    "wrong": {
+     "payee_account_verify": "32077-60x",
+     "payee_zip": "85"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Tomas",
+    "last_name": "Romano",
+    "phone": "(404) 555-0149",
+    "ssn": "979-96-2412",
+    "street": "1623 Larkspur St",
+    "city": "Atlanta",
+    "state": [
+     "GA",
+     "Georgia"
+    ],
+    "zip": "30303",
+    "username": "tomas.romano96",
+    "password": "Quartz!4615",
+    "password_confirm": "Quartz!4615"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Tomas",
+     "last_name": "Romano",
+     "phone": "(404) 555-0149",
+     "ssn": "979-96-2412",
+     "street": "1623 Larkspur St",
+     "city": "Atlanta",
+     "state": "GA",
+     "zip": "30303",
+     "username": "tomas.romano96",
+     "password": "Quartz!4615",
+     "password_confirm": "Quartz!4615"
+    },
+    "wrong": {
+     "state": "AL"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "persona": "kyc-account-opening/t-kyc-004",
+ "context": "kyc-account-opening/t-kyc-004.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-18221",
+    "full_name": [
+     "Chiang Chun-Ting",
+     "Chun-Ting Chiang"
+    ],
+    "spouse_name": "Chiang Shu-Ting",
+    "gender": "female",
+    "marital": "single",
+    "dob": "2002-08-15",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "K131672462",
+    "id_proof": "national_id",
+    "address": [
+     "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231"
+    ],
+    "phone": "+886 979 742 082",
+    "email": "chunting.chiang@inbox.example",
+    "addr_proof": "utility_bill",
+    "perm_same": false,
+    "perm_address": [
+     "12F, No. 10, Ln. 153, Guangfu Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "12F, No. 10, Ln. 153, Guangfu Rd., Xinyi Dist., Taipei City 110"
+    ],
+    "decl_name": [
+     "Chiang Chun-Ting",
+     "Chun-Ting Chiang"
+    ],
+    "sign_date": "2026-11-06",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-18221",
+     "full_name": "Chiang Chun-Ting",
+     "spouse_name": "Chiang Shu-Ting",
+     "gender": "female",
+     "marital": "single",
+     "dob": "2002-08-15",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "K131672462",
+     "id_proof": "national_id",
+     "address": "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "phone": "+886 979 742 082",
+     "email": "chunting.chiang@inbox.example",
+     "addr_proof": "utility_bill",
+     "perm_same": false,
+     "perm_address": "12F, No. 10, Ln. 153, Guangfu Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "decl_name": "Chiang Chun-Ting",
+     "sign_date": "2026-11-06"
+    },
+    "wrong": {
+     "tax_id": "K1316724x",
+     "application_no": "LCB-AO-2"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiang Chun-Ting",
+     "Chun-Ting Chiang"
+    ],
+    "dob": "2002-08-15",
+    "mother_maiden": "Tsao",
+    "phone": "+886 979 742 082",
+    "email": "chunting.chiang@inbox.example",
+    "address": [
+     "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231"
+    ],
+    "education": "bachelor",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "joint",
+    "monthly_income": "164000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chiang Chun-Ting",
+     "dob": "2002-08-15",
+     "mother_maiden": "Tsao",
+     "phone": "+886 979 742 082",
+     "email": "chunting.chiang@inbox.example",
+     "address": "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "education": "bachelor",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "joint",
+     "monthly_income": "164000"
+    },
+    "wrong": {
+     "email": "chunting.chiang at inbox.example",
+     "dob": "2001-08-15"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiang Chun-Ting",
+     "Chun-Ting Chiang"
+    ],
+    "dob": "2002-08-15",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Chiang Shu-Ting",
+    "address": [
+     "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231"
+    ],
+    "email": "chunting.chiang@inbox.example",
+    "phone": "+886 979 742 082",
+    "addr_proof": "utility_bill",
+    "id_proof": "national_id",
+    "tax_id": "K131672462",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-18221"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chiang Chun-Ting",
+     "dob": "2002-08-15",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Chiang Shu-Ting",
+     "address": "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "email": "chunting.chiang@inbox.example",
+     "phone": "+886 979 742 082",
+     "addr_proof": "utility_bill",
+     "id_proof": "national_id",
+     "tax_id": "K131672462",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-18221"
+    },
+    "wrong": {
+     "email": "chunting.chiang at inbox.example",
+     "application_no": "LCB-AO-2"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiang Chun-Ting",
+     "Chun-Ting Chiang"
+    ],
+    "dob": "2002-08-15",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 979 742 082",
+    "email": "chunting.chiang@inbox.example",
+    "address": [
+     "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231"
+    ],
+    "perm_same": false,
+    "id_proof": "national_id",
+    "tax_id": "K131672462",
+    "addr_proof": "utility_bill",
+    "account_type": "savings",
+    "account_category": "joint",
+    "education": "bachelor",
+    "monthly_income": "164000",
+    "application_no": "LCB-AO-2026-18221",
+    "perm_address": [
+     "12F, No. 10, Ln. 153, Guangfu Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "12F, No. 10, Ln. 153, Guangfu Rd., Xinyi Dist., Taipei City 110"
+    ]
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chiang Chun-Ting",
+     "dob": "2002-08-15",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 979 742 082",
+     "email": "chunting.chiang@inbox.example",
+     "address": "10F, No. 22, Ln. 114, Guangfu Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "perm_same": false,
+     "id_proof": "national_id",
+     "tax_id": "K131672462",
+     "addr_proof": "utility_bill",
+     "account_type": "savings",
+     "account_category": "joint",
+     "education": "bachelor",
+     "monthly_income": "164000",
+     "application_no": "LCB-AO-2026-18221",
+     "perm_address": "12F, No. 10, Ln. 153, Guangfu Rd., Xinyi Dist., Taipei City 110, Taiwan"
+    },
+    "wrong": {
+     "email": "chunting.chiang at inbox.example",
+     "account_category": "individual"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "persona": "tw-arrival-card/e-arrival-loading-dropdowns-03",
+ "context": "tw-arrival-card/e-arrival-loading-dropdowns-03.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-loading-dropdowns": {
+   "submit": true,
+   "fields": {
+    "flight_no": "UA 616",
+    "arrival_date": "2026-12-26",
+    "purpose": "business",
+    "departure_flight": "UA 304",
+    "passport_no": "M6400953X",
+    "family_name": "MILLER",
+    "given_name": "OLIVIA",
+    "nationality": "US",
+    "sex": "male",
+    "dob": "1986-10-06",
+    "passport_expiry": "2030-01-04",
+    "occupation": "engineer",
+    "visa_type": "evisa",
+    "visa_no": "V-7306467",
+    "stay_type": "residence",
+    "stay_address": [
+     "No. 182, Ren'ai Rd., Zuoying Dist., Kaohsiung City 813",
+     "company residence, No. 182, Ren'ai Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "county": "高雄市",
+    "district": "左營區",
+    "phone": "+886 943 619 695",
+    "visited": [
+     "US"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "flight_no": "UA 616",
+     "arrival_date": "2026-12-26",
+     "purpose": "business",
+     "departure_flight": "UA 304",
+     "passport_no": "M6400953X",
+     "family_name": "MILLER",
+     "given_name": "OLIVIA",
+     "nationality": "US",
+     "sex": "male",
+     "dob": "1986-10-06",
+     "passport_expiry": "2030-01-04",
+     "occupation": "engineer",
+     "visa_type": "evisa",
+     "visa_no": "V-7306467",
+     "stay_type": "residence",
+     "stay_address": "No. 182, Ren'ai Rd., Zuoying Dist., Kaohsiung City 813",
+     "county": "高雄市",
+     "district": "左營區",
+     "phone": "+886 943 619 695",
+     "visited": [
+      "US"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "MILLx",
+     "passport_expiry": "2029-01-04"
+    }
+   }
+  }
+ }
+}

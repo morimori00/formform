@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-029",
+ "context": "vendor-onboarding/t-intl-029.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Skylark Industrial Gases Inc.",
+    "tax_id": "83-4455934",
+    "company_address": "4773 Alder Creek Ct, Suite 732, Plano, TX 75036",
+    "established": "2011-04-14",
+    "business_type": "corporation",
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "service_area": "europe",
+    "gross_sales": "24000000",
+    "contact_name": [
+     "Naomi Suzuki",
+     "Ms. Naomi Suzuki"
+    ],
+    "contact_title": "Key Account Executive",
+    "phone_day": "(972) 555-0126",
+    "phone_evening": "",
+    "email": "naomi.suzuki@skylark.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Old Mill Savings Bank",
+    "beneficiary": "Skylark Industrial Gases Inc.",
+    "account_number": "132-760534-6",
+    "swift": "OMSBUSXLXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Skylark Industrial Gases Inc.",
+     "tax_id": "83-4455934",
+     "company_address": "4773 Alder Creek Ct, Suite 732, Plano, TX 75036",
+     "established": "2011-04-14",
+     "business_type": "corporation",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "service_area": "europe",
+     "gross_sales": "24000000",
+     "contact_name": "Naomi Suzuki",
+     "contact_title": "Key Account Executive",
+     "phone_day": "(972) 555-0126",
+     "email": "naomi.suzuki@skylark.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Old Mill Savings Bank",
+     "beneficiary": "Skylark Industrial Gases Inc.",
+     "account_number": "132-760534-6",
+     "swift": "OMSBUSXLXXX"
+    },
+    "wrong": {
+     "email": "naomi.suzuki at skylark.example",
+     "tax_id": "83-44"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Skylark Industrial Gases Inc.",
+    "tax_id": "83-4455934",
+    "established": "2011-04-14",
+    "service_area": "europe",
+    "business_type": "corporation",
+    "contact_name": [
+     "Naomi Suzuki",
+     "Ms. Naomi Suzuki"
+    ],
+    "email": "naomi.suzuki@skylark.example",
+    "phone_day": "(972) 555-0126",
+    "phone_evening": "",
+    "company_address": "4773 Alder Creek Ct, Suite 732, Plano, TX 75036",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Old Mill Savings Bank",
+    "beneficiary": "Skylark Industrial Gases Inc.",
+    "account_number": "132-760534-6",
+    "swift": "OMSBUSXLXXX",
+    "insurance": "insured",
+    "gross_sales": "24000000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Skylark Industrial Gases Inc.",
+     "tax_id": "83-4455934",
+     "established": "2011-04-14",
+     "service_area": "europe",
+     "business_type": "corporation",
+     "contact_name": "Naomi Suzuki",
+     "email": "naomi.suzuki@skylark.example",
+     "phone_day": "(972) 555-0126",
+     "company_address": "4773 Alder Creek Ct, Suite 732, Plano, TX 75036",
+     "licensing": "not_licensed",
+     "bank_name": "Old Mill Savings Bank",
+     "beneficiary": "Skylark Industrial Gases Inc.",
+     "account_number": "132-760534-6",
+     "swift": "OMSBUSXLXXX",
+     "insurance": "insured",
+     "gross_sales": "24000000"
+    },
+    "wrong": {
+     "email": "naomi.suzuki at skylark.example",
+     "gross_sales": "2400"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Old Mill Savings Bank",
+    "beneficiary": "Skylark Industrial Gases Inc.",
+    "account_number": "132-760534-6",
+    "swift": "OMSBUSXLXXX",
+    "org_name": "Skylark Industrial Gases Inc.",
+    "tax_id": "83-4455934",
+    "business_type": "corporation",
+    "established": "2011-04-14",
+    "company_address": "4773 Alder Creek Ct, Suite 732, Plano, TX 75036",
+    "service_area": "europe",
+    "contact_name": [
+     "Naomi Suzuki",
+     "Ms. Naomi Suzuki"
+    ],
+    "email": "naomi.suzuki@skylark.example",
+    "phone_day": "(972) 555-0126",
+    "contact_title": "Key Account Executive",
+    "phone_evening": "",
+    "gross_sales": "24000000",
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Old Mill Savings Bank",
+     "beneficiary": "Skylark Industrial Gases Inc.",
+     "account_number": "132-760534-6",
+     "swift": "OMSBUSXLXXX",
+     "org_name": "Skylark Industrial Gases Inc.",
+     "tax_id": "83-4455934",
+     "business_type": "corporation",
+     "established": "2011-04-14",
+     "company_address": "4773 Alder Creek Ct, Suite 732, Plano, TX 75036",
+     "service_area": "europe",
+     "contact_name": "Naomi Suzuki",
+     "email": "naomi.suzuki@skylark.example",
+     "phone_day": "(972) 555-0126",
+     "contact_title": "Key Account Executive",
+     "gross_sales": "24000000",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "naomi.suzuki at skylark.example",
+     "account_number": "132-76"
+    }
+   }
+  }
+ }
+}

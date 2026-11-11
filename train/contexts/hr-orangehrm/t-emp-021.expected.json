@@ -1,0 +1,180 @@
+{
+ "persona": "hr-orangehrm/t-emp-021",
+ "context": "hr-orangehrm/t-emp-021.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ya-Han",
+    "middle_name": "",
+    "last_name": "Lu",
+    "employee_id": "KST-25857",
+    "create_login": true,
+    "username": "yahan.lu",
+    "login_status": "disabled",
+    "password": "Fab3#8915y",
+    "confirm_password": "Fab3#8915y"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ya-Han",
+     "last_name": "Lu",
+     "employee_id": "KST-25857",
+     "create_login": true,
+     "username": "yahan.lu",
+     "login_status": "disabled",
+     "password": "Fab3#8915y",
+     "confirm_password": "Fab3#8915y"
+    },
+    "wrong": {
+     "employee_id": "KST-258x",
+     "first_name": "Ya-"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ya-Han",
+    "middle_name": "",
+    "last_name": "Lu",
+    "employee_id": "KST-25857",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1983-06-01",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ya-Han",
+     "last_name": "Lu",
+     "employee_id": "KST-25857",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1983-06-01",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-258x",
+     "last_name": "L"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2027-01-12",
+    "leave_to": "2027-01-15",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2027-01-12",
+     "leave_to": "2027-01-15",
+     "partial_days": "end",
+     "end_duration": "half_pm"
+    },
+    "wrong": {
+     "leave_type": "annual"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2027-01-12",
+    "leave_to": "2027-01-15",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2027-01-12",
+     "leave_to": "2027-01-15",
+     "partial_days": "end",
+     "end_duration": "half_pm"
+    },
+    "wrong": {
+     "leave_to": "2026-01-15"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ya-Han",
+    "middle_name": "",
+    "last_name": "Lu",
+    "employee_id": "KST-25857",
+    "create_login": true,
+    "username": "yahan.lu",
+    "login_status": "disabled",
+    "password": "Fab3#8915y",
+    "confirm_password": "Fab3#8915y",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1983-06-01",
+    "gender": "female",
+    "job_title": "soc_analyst",
+    "department": "hr",
+    "work_location": "hsp_fab3",
+    "emp_status": "ft_probation",
+    "supervisor": "u_m2327",
+    "joined_date": "2027-02-19"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ya-Han",
+     "last_name": "Lu",
+     "employee_id": "KST-25857",
+     "create_login": true,
+     "username": "yahan.lu",
+     "login_status": "disabled",
+     "password": "Fab3#8915y",
+     "confirm_password": "Fab3#8915y",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1983-06-01",
+     "gender": "female",
+     "job_title": "soc_analyst",
+     "department": "hr",
+     "work_location": "hsp_fab3",
+     "emp_status": "ft_probation",
+     "supervisor": "u_m2327",
+     "joined_date": "2027-02-19"
+    },
+    "wrong": {
+     "employee_id": "KST-258x",
+     "marital": "single"
+    }
+   }
+  }
+ }
+}

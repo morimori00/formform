@@ -1,0 +1,71 @@
+{
+ "persona": "tw-arrival-card/e-arrival-loading-dropdowns-02",
+ "context": "tw-arrival-card/e-arrival-loading-dropdowns-02.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-loading-dropdowns": {
+   "submit": true,
+   "fields": {
+    "flight_no": "JL 433",
+    "arrival_date": "2026-12-20",
+    "purpose": "study",
+    "departure_flight": "JL 730",
+    "passport_no": "E9151638A",
+    "family_name": "ISHIKAWA",
+    "given_name": "YUI",
+    "nationality": "JP",
+    "sex": "female",
+    "dob": "1999-12-14",
+    "passport_expiry": "2030-11-03",
+    "occupation": "business",
+    "visa_type": "visitor",
+    "visa_no": "V-9096523",
+    "stay_type": "relatives",
+    "stay_address": [
+     "No. 294, Zhongzheng Rd., Zuoying Dist., Kaohsiung City 813",
+     "relative's home, No. 294, Zhongzheng Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "county": "高雄市",
+    "district": "左營區",
+    "phone": "+886 937 341 183",
+    "visited": [
+     "JP"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "flight_no": "JL 433",
+     "arrival_date": "2026-12-20",
+     "purpose": "study",
+     "departure_flight": "JL 730",
+     "passport_no": "E9151638A",
+     "family_name": "ISHIKAWA",
+     "given_name": "YUI",
+     "nationality": "JP",
+     "sex": "female",
+     "dob": "1999-12-14",
+     "passport_expiry": "2030-11-03",
+     "occupation": "business",
+     "visa_type": "visitor",
+     "visa_no": "V-9096523",
+     "stay_type": "relatives",
+     "stay_address": "No. 294, Zhongzheng Rd., Zuoying Dist., Kaohsiung City 813",
+     "county": "高雄市",
+     "district": "左營區",
+     "phone": "+886 937 341 183",
+     "visited": [
+      "JP"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "ISHIKAx",
+     "arrival_date": "2025-12-20"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-021",
+ "context": "kyc-account-opening/t-kyc-021.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-11732",
+    "full_name": [
+     "Hsu Chih-An",
+     "Chih-An Hsu"
+    ],
+    "spouse_name": "Yang Chih-Jie",
+    "gender": "male",
+    "marital": "married",
+    "dob": "1967-07-07",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "K219115821",
+    "id_proof": "national_id",
+    "address": [
+     "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "phone": "+886 982 690 024",
+    "email": "chihan.hsu@inbox.example",
+    "addr_proof": "utility_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Hsu Chih-An",
+     "Chih-An Hsu"
+    ],
+    "sign_date": "2026-11-05",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-11732",
+     "full_name": "Hsu Chih-An",
+     "spouse_name": "Yang Chih-Jie",
+     "gender": "male",
+     "marital": "married",
+     "dob": "1967-07-07",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "K219115821",
+     "id_proof": "national_id",
+     "address": "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "phone": "+886 982 690 024",
+     "email": "chihan.hsu@inbox.example",
+     "addr_proof": "utility_bill",
+     "perm_same": true,
+     "decl_name": "Hsu Chih-An",
+     "sign_date": "2026-11-05"
+    },
+    "wrong": {
+     "tax_id": "K2191158x",
+     "phone": "+886 982"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Hsu Chih-An",
+     "Chih-An Hsu"
+    ],
+    "dob": "1967-07-07",
+    "mother_maiden": "",
+    "phone": "+886 982 690 024",
+    "email": "chihan.hsu@inbox.example",
+    "address": [
+     "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "education": "bachelor",
+    "id_form": "national_id",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "320000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Hsu Chih-An",
+     "dob": "1967-07-07",
+     "phone": "+886 982 690 024",
+     "email": "chihan.hsu@inbox.example",
+     "address": "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "education": "bachelor",
+     "id_form": "national_id",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "320000"
+    },
+    "wrong": {
+     "email": "chihan.hsu at inbox.example",
+     "monthly_income": "320"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Hsu Chih-An",
+     "Chih-An Hsu"
+    ],
+    "dob": "1967-07-07",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Yang Chih-Jie",
+    "address": [
+     "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "email": "chihan.hsu@inbox.example",
+    "phone": "+886 982 690 024",
+    "addr_proof": "utility_bill",
+    "id_proof": "national_id",
+    "tax_id": "K219115821",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-11732"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Hsu Chih-An",
+     "dob": "1967-07-07",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Yang Chih-Jie",
+     "address": "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "email": "chihan.hsu@inbox.example",
+     "phone": "+886 982 690 024",
+     "addr_proof": "utility_bill",
+     "id_proof": "national_id",
+     "tax_id": "K219115821",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-11732"
+    },
+    "wrong": {
+     "email": "chihan.hsu at inbox.example",
+     "spouse_name": "Yang C"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Hsu Chih-An",
+     "Chih-An Hsu"
+    ],
+    "dob": "1967-07-07",
+    "gender": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 982 690 024",
+    "email": "chihan.hsu@inbox.example",
+    "address": [
+     "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "K219115821",
+    "addr_proof": "utility_bill",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "education": "bachelor",
+    "monthly_income": "320000",
+    "application_no": "LCB-AO-2026-11732",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Hsu Chih-An",
+     "dob": "1967-07-07",
+     "gender": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 982 690 024",
+     "email": "chihan.hsu@inbox.example",
+     "address": "8F, No. 279, Sec. 6, Ren'ai Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "K219115821",
+     "addr_proof": "utility_bill",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "education": "bachelor",
+     "monthly_income": "320000",
+     "application_no": "LCB-AO-2026-11732"
+    },
+    "wrong": {
+     "email": "chihan.hsu at inbox.example",
+     "phone": "+886 982"
+    }
+   }
+  }
+ }
+}

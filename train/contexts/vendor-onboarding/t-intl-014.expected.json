@@ -1,0 +1,180 @@
+{
+ "persona": "vendor-onboarding/t-intl-014",
+ "context": "vendor-onboarding/t-intl-014.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Silverpine Industrial Gases LLC",
+    "tax_id": "93-3719537",
+    "company_address": "1649 Hawthorne Way, Suite 585, San Jose, CA 95162",
+    "established": "2007-05-14",
+    "business_type": "llc",
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "service_area": "europe",
+    "gross_sales": "50800000",
+    "contact_name": [
+     "Felix Mwangi",
+     "Ms. Felix Mwangi"
+    ],
+    "contact_title": "Commercial Manager",
+    "phone_day": "(408) 555-0148",
+    "phone_evening": "",
+    "email": "felix.mwangi@silverpine.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "US-LIC-3812684",
+    "bank_name": "Cascade Federal Bank",
+    "beneficiary": "Silverpine Industrial Gases LLC",
+    "account_number": "293-580771-2",
+    "swift": "CFBXUSAXXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Silverpine Industrial Gases LLC",
+     "tax_id": "93-3719537",
+     "company_address": "1649 Hawthorne Way, Suite 585, San Jose, CA 95162",
+     "established": "2007-05-14",
+     "business_type": "llc",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "service_area": "europe",
+     "gross_sales": "50800000",
+     "contact_name": "Felix Mwangi",
+     "contact_title": "Commercial Manager",
+     "phone_day": "(408) 555-0148",
+     "email": "felix.mwangi@silverpine.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "US-LIC-3812684",
+     "bank_name": "Cascade Federal Bank",
+     "beneficiary": "Silverpine Industrial Gases LLC",
+     "account_number": "293-580771-2",
+     "swift": "CFBXUSAXXXX"
+    },
+    "wrong": {
+     "email": "felix.mwangi at silverpine.example",
+     "phone_day": "(408) 5"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Silverpine Industrial Gases LLC",
+    "tax_id": "93-3719537",
+    "established": "2007-05-14",
+    "service_area": "europe",
+    "business_type": "llc",
+    "contact_name": [
+     "Felix Mwangi",
+     "Ms. Felix Mwangi"
+    ],
+    "email": "felix.mwangi@silverpine.example",
+    "phone_day": "(408) 555-0148",
+    "phone_evening": "",
+    "company_address": "1649 Hawthorne Way, Suite 585, San Jose, CA 95162",
+    "licensing": "licensed",
+    "license_number": "US-LIC-3812684",
+    "bank_name": "Cascade Federal Bank",
+    "beneficiary": "Silverpine Industrial Gases LLC",
+    "account_number": "293-580771-2",
+    "swift": "CFBXUSAXXXX",
+    "insurance": "insured",
+    "gross_sales": "50800000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Silverpine Industrial Gases LLC",
+     "tax_id": "93-3719537",
+     "established": "2007-05-14",
+     "service_area": "europe",
+     "business_type": "llc",
+     "contact_name": "Felix Mwangi",
+     "email": "felix.mwangi@silverpine.example",
+     "phone_day": "(408) 555-0148",
+     "company_address": "1649 Hawthorne Way, Suite 585, San Jose, CA 95162",
+     "licensing": "licensed",
+     "license_number": "US-LIC-3812684",
+     "bank_name": "Cascade Federal Bank",
+     "beneficiary": "Silverpine Industrial Gases LLC",
+     "account_number": "293-580771-2",
+     "swift": "CFBXUSAXXXX",
+     "insurance": "insured",
+     "gross_sales": "50800000"
+    },
+    "wrong": {
+     "email": "felix.mwangi at silverpine.example",
+     "established": "2006-05-14"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Cascade Federal Bank",
+    "beneficiary": "Silverpine Industrial Gases LLC",
+    "account_number": "293-580771-2",
+    "swift": "CFBXUSAXXXX",
+    "org_name": "Silverpine Industrial Gases LLC",
+    "tax_id": "93-3719537",
+    "business_type": "llc",
+    "established": "2007-05-14",
+    "company_address": "1649 Hawthorne Way, Suite 585, San Jose, CA 95162",
+    "service_area": "europe",
+    "contact_name": [
+     "Felix Mwangi",
+     "Ms. Felix Mwangi"
+    ],
+    "email": "felix.mwangi@silverpine.example",
+    "phone_day": "(408) 555-0148",
+    "contact_title": "Commercial Manager",
+    "phone_evening": "",
+    "gross_sales": "50800000",
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "US-LIC-3812684"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Cascade Federal Bank",
+     "beneficiary": "Silverpine Industrial Gases LLC",
+     "account_number": "293-580771-2",
+     "swift": "CFBXUSAXXXX",
+     "org_name": "Silverpine Industrial Gases LLC",
+     "tax_id": "93-3719537",
+     "business_type": "llc",
+     "established": "2007-05-14",
+     "company_address": "1649 Hawthorne Way, Suite 585, San Jose, CA 95162",
+     "service_area": "europe",
+     "contact_name": "Felix Mwangi",
+     "email": "felix.mwangi@silverpine.example",
+     "phone_day": "(408) 555-0148",
+     "contact_title": "Commercial Manager",
+     "gross_sales": "50800000",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "US-LIC-3812684"
+    },
+    "wrong": {
+     "email": "felix.mwangi at silverpine.example",
+     "contact_name": "Felix "
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "persona": "patient-lin-chunhua",
+ "context": "patient-lin-chunhua.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Hua",
+    "middle_name": "",
+    "last_name": "Lin",
+    "dob": "1958-11-03",
+    "sex": "female",
+    "marital": "widowed",
+    "language": "mandarin",
+    "street": "4F, No. 12, Ln. 56, Sec. 6, Minquan E. Rd., Neihu Dist.",
+    "city": "Taipei City",
+    "postal": "114",
+    "country": "TW",
+    "phone_home": "02-2793-5512",
+    "phone_cell": "0933-218-604",
+    "email": "",
+    "occupation": [
+     "Retired teacher",
+     "Retired"
+    ],
+    "employer": "",
+    "ec_name": "Lin Kuan-Yu",
+    "ec_phone": "0921-664-097",
+    "ec_relationship": "child",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-7730-2214",
+    "group_number": "G-5521",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-01-01"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Hua",
+     "last_name": "Lin",
+     "dob": "1958-11-03",
+     "sex": "female",
+     "marital": "widowed",
+     "language": "mandarin",
+     "street": "4F, No. 12, Ln. 56, Sec. 6, Minquan E. Rd., Neihu Dist.",
+     "city": "Taipei City",
+     "postal": "114",
+     "country": "TW",
+     "phone_home": "02-2793-5512",
+     "phone_cell": "0933-218-604",
+     "occupation": "Retired teacher",
+     "ec_name": "Lin Kuan-Yu",
+     "ec_phone": "0921-664-097",
+     "ec_relationship": "child",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-7730-2214",
+     "group_number": "G-5521",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-01-01"
+    },
+    "wrong": {
+     "street": "4F, No. 12, Ln. 56, Sec. 6,"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lin",
+    "first_name": "Chun-Hua",
+    "middle_name": "",
+    "dob": "1958-11-03",
+    "sex": "female",
+    "marital": "widowed",
+    "national_id": "",
+    "street": "4F, No. 12, Ln. 56, Sec. 6, Minquan E. Rd., Neihu Dist.",
+    "postal": "114",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0933-218-604",
+    "phone_home": "02-2793-5512",
+    "email": "",
+    "ec_name": "Lin Kuan-Yu",
+    "ec_relationship": "child",
+    "ec_phone": "0921-664-097",
+    "occupation": [
+     "Retired teacher",
+     "Retired"
+    ],
+    "employer": "",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-7730-2214",
+    "group_number": "G-5521",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-01-01",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lin",
+     "first_name": "Chun-Hua",
+     "dob": "1958-11-03",
+     "sex": "female",
+     "marital": "widowed",
+     "street": "4F, No. 12, Ln. 56, Sec. 6, Minquan E. Rd., Neihu Dist.",
+     "postal": "114",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0933-218-604",
+     "phone_home": "02-2793-5512",
+     "ec_name": "Lin Kuan-Yu",
+     "ec_relationship": "child",
+     "ec_phone": "0921-664-097",
+     "occupation": "Retired teacher",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-7730-2214",
+     "group_number": "G-5521",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-01-01"
+    },
+    "wrong": {
+     "marital": "single"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Hua",
+    "last_name": "Lin",
+    "dob": "1958-11-03",
+    "sex": "female",
+    "language": "mandarin",
+    "street": "4F, No. 12, Ln. 56, Sec. 6, Minquan E. Rd., Neihu Dist.",
+    "city": "Taipei City",
+    "postal": "114",
+    "country": "TW",
+    "phone_cell": "0933-218-604",
+    "phone_home": "02-2793-5512",
+    "ec_name": "Lin Kuan-Yu",
+    "ec_phone": "0921-664-097",
+    "ec_relationship": "child",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-7730-2214",
+    "group_number": "G-5521",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-01-01"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Hua",
+     "last_name": "Lin",
+     "dob": "1958-11-03",
+     "sex": "female",
+     "language": "mandarin",
+     "street": "4F, No. 12, Ln. 56, Sec. 6, Minquan E. Rd., Neihu Dist.",
+     "city": "Taipei City",
+     "postal": "114",
+     "country": "TW",
+     "phone_cell": "0933-218-604",
+     "phone_home": "02-2793-5512",
+     "ec_name": "Lin Kuan-Yu",
+     "ec_phone": "0921-664-097",
+     "ec_relationship": "child",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-7730-2214",
+     "group_number": "G-5521",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-01-01"
+    },
+    "wrong": {
+     "street": "4F, No. 12, Ln. 56, Sec. 6,"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lin",
+    "first_name": "Chun-Hua",
+    "dob": "1958-11-03",
+    "sex": "female",
+    "phone_cell": "0933-218-604",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "114",
+    "street": "4F, No. 12, Ln. 56, Sec. 6, Minquan E. Rd., Neihu Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-7730-2214",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-01-01",
+    "email": "",
+    "phone_home": "02-2793-5512",
+    "marital": "widowed",
+    "language": "mandarin",
+    "occupation": [
+     "Retired teacher",
+     "Retired"
+    ],
+    "employer": "",
+    "ec_name": "Lin Kuan-Yu",
+    "ec_phone": "0921-664-097",
+    "ec_relationship": "child",
+    "group_number": "G-5521"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lin",
+     "first_name": "Chun-Hua",
+     "dob": "1958-11-03",
+     "sex": "female",
+     "phone_cell": "0933-218-604",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "114",
+     "street": "4F, No. 12, Ln. 56, Sec. 6, Minquan E. Rd., Neihu Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-7730-2214",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-01-01",
+     "phone_home": "02-2793-5512",
+     "marital": "widowed",
+     "language": "mandarin",
+     "occupation": "Retired teacher",
+     "ec_name": "Lin Kuan-Yu",
+     "ec_phone": "0921-664-097",
+     "ec_relationship": "child",
+     "group_number": "G-5521"
+    },
+    "wrong": {
+     "ec_name": "Lin K"
+    }
+   }
+  }
+ }
+}

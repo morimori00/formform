@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-008",
+ "context": "itsm-request/t-emp-008.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g34853",
+    "laptop_model": "eng16_64",
+    "location": "tainan",
+    "needed_by": "2026-12-05",
+    "extra_monitor": true,
+    "cost_center": "CC-0435",
+    "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g34853",
+     "laptop_model": "eng16_64",
+     "location": "tainan",
+     "needed_by": "2026-12-05",
+     "extra_monitor": true,
+     "cost_center": "CC-0435",
+     "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+    },
+    "wrong": {
+     "cost_center": "CC-04x",
+     "laptop_model": "std14"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16_64",
+    "extra_monitor": true,
+    "location": "tainan",
+    "needed_by": "2026-12-05",
+    "requested_for": "u_g34853",
+    "cost_center": "CC-0435",
+    "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16_64",
+     "extra_monitor": true,
+     "location": "tainan",
+     "needed_by": "2026-12-05",
+     "requested_for": "u_g34853",
+     "cost_center": "CC-0435",
+     "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+    },
+    "wrong": {
+     "cost_center": "CC-04x",
+     "needed_by": "2025-12-05"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g34853",
+    "contact_pref": "self_service",
+    "inc_category": "software",
+    "inc_subcategory": "email",
+    "ci": "KST-NB-42877",
+    "impact": "1",
+    "urgency": "2",
+    "assign_group": "servicedesk",
+    "short_desc": "Shared mailbox missing after migration batch 206",
+    "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 206. Web mail shows it with read-only rights."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g34853",
+     "contact_pref": "self_service",
+     "inc_category": "software",
+     "inc_subcategory": "email",
+     "ci": "KST-NB-42877",
+     "impact": "1",
+     "urgency": "2",
+     "assign_group": "servicedesk",
+     "short_desc": "Shared mailbox missing after migration batch 206",
+     "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 206. Web mail shows it with read-only rights."
+    },
+    "wrong": {
+     "inc_category": "inquiry"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Shared mailbox missing after migration batch 206",
+    "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 206. Web mail shows it with read-only rights.",
+    "caller": "u_g34853",
+    "ci": "KST-NB-42877",
+    "contact_pref": "self_service",
+    "inc_category": "software",
+    "inc_subcategory": "email",
+    "impact": "1",
+    "urgency": "2",
+    "assign_group": "servicedesk"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Shared mailbox missing after migration batch 206",
+     "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 206. Web mail shows it with read-only rights.",
+     "caller": "u_g34853",
+     "ci": "KST-NB-42877",
+     "contact_pref": "self_service",
+     "inc_category": "software",
+     "inc_subcategory": "email",
+     "impact": "1",
+     "urgency": "2",
+     "assign_group": "servicedesk"
+    },
+    "wrong": {
+     "short_desc": "Shared mailbox missing a"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g34853",
+    "location": "tainan",
+    "cost_center": "CC-0435",
+    "laptop_model": "eng16_64",
+    "needed_by": "2026-12-05",
+    "extra_monitor": true,
+    "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g34853",
+     "location": "tainan",
+     "cost_center": "CC-0435",
+     "laptop_model": "eng16_64",
+     "needed_by": "2026-12-05",
+     "extra_monitor": true,
+     "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+    },
+    "wrong": {
+     "cost_center": "CC-04x",
+     "needed_by": "2025-12-05"
+    }
+   }
+  }
+ }
+}

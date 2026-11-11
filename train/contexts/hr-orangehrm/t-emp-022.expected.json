@@ -1,0 +1,181 @@
+{
+ "persona": "hr-orangehrm/t-emp-022",
+ "context": "hr-orangehrm/t-emp-022.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Elena",
+    "middle_name": "Marie",
+    "last_name": "Lindqvist",
+    "employee_id": "KST-31189",
+    "create_login": true,
+    "username": "elena.lindqvist",
+    "login_status": "enabled",
+    "password": "Wafer-6109b",
+    "confirm_password": "Wafer-6109b"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Elena",
+     "middle_name": "Marie",
+     "last_name": "Lindqvist",
+     "employee_id": "KST-31189",
+     "create_login": true,
+     "username": "elena.lindqvist",
+     "login_status": "enabled",
+     "password": "Wafer-6109b",
+     "confirm_password": "Wafer-6109b"
+    },
+    "wrong": {
+     "employee_id": "KST-311x",
+     "last_name": "Lind"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Elena",
+    "middle_name": "Marie",
+    "last_name": "Lindqvist",
+    "employee_id": "KST-31189",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "PH",
+    "marital": "widowed",
+    "dob": "2001-03-16",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Elena",
+     "middle_name": "Marie",
+     "last_name": "Lindqvist",
+     "employee_id": "KST-31189",
+     "nationality": "PH",
+     "marital": "widowed",
+     "dob": "2001-03-16",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-311x",
+     "middle_name": "Ma"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2027-02-25",
+    "leave_to": "2027-02-28",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": "Wedding of a sibling abroad"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2027-02-25",
+     "leave_to": "2027-02-28",
+     "partial_days": "end",
+     "end_duration": "half_am",
+     "leave_comment": "Wedding of a sibling abroad"
+    },
+    "wrong": {
+     "partial_days": "none"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2027-02-25",
+    "leave_to": "2027-02-28",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": "Wedding of a sibling abroad"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2027-02-25",
+     "leave_to": "2027-02-28",
+     "partial_days": "end",
+     "end_duration": "half_am",
+     "leave_comment": "Wedding of a sibling abroad"
+    },
+    "wrong": {
+     "end_duration": "half_pm"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Elena",
+    "middle_name": "Marie",
+    "last_name": "Lindqvist",
+    "employee_id": "KST-31189",
+    "create_login": true,
+    "username": "elena.lindqvist",
+    "login_status": "enabled",
+    "password": "Wafer-6109b",
+    "confirm_password": "Wafer-6109b",
+    "nationality": "PH",
+    "marital": "widowed",
+    "dob": "2001-03-16",
+    "gender": "female",
+    "job_title": "logistics_coord",
+    "department": "logistics",
+    "work_location": "hsp_fab2",
+    "emp_status": "ft_perm",
+    "supervisor": "u_m2901",
+    "joined_date": "2026-12-25"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Elena",
+     "middle_name": "Marie",
+     "last_name": "Lindqvist",
+     "employee_id": "KST-31189",
+     "create_login": true,
+     "username": "elena.lindqvist",
+     "login_status": "enabled",
+     "password": "Wafer-6109b",
+     "confirm_password": "Wafer-6109b",
+     "nationality": "PH",
+     "marital": "widowed",
+     "dob": "2001-03-16",
+     "gender": "female",
+     "job_title": "logistics_coord",
+     "department": "logistics",
+     "work_location": "hsp_fab2",
+     "emp_status": "ft_perm",
+     "supervisor": "u_m2901",
+     "joined_date": "2026-12-25"
+    },
+    "wrong": {
+     "employee_id": "KST-311x",
+     "emp_status": "ft_contract"
+    }
+   }
+  }
+ }
+}

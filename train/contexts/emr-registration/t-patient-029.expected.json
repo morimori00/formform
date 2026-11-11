@@ -1,0 +1,236 @@
+{
+ "persona": "emr-registration/t-patient-029",
+ "context": "emr-registration/t-patient-029.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Yen",
+    "middle_name": "",
+    "last_name": "Wu",
+    "dob": "1950-03-28",
+    "sex": "female",
+    "marital": "married",
+    "language": "hakka",
+    "street": "13F, No. 230, Ln. 114, Sec. 2, Dunhua N. Rd., Da'an Dist.",
+    "city": "Taipei City",
+    "postal": "106",
+    "country": "TW",
+    "phone_home": "",
+    "phone_cell": "0929-014-763",
+    "email": "",
+    "occupation": "Software engineer",
+    "employer": "Silverpine Design Studio",
+    "ec_name": "Chia-An Wu",
+    "ec_phone": "0993-532-579",
+    "ec_relationship": "child",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-1321-1690",
+    "group_number": "G-2038",
+    "subscriber_rel": "self",
+    "ins_effective": "2025-08-14"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Yen",
+     "last_name": "Wu",
+     "dob": "1950-03-28",
+     "sex": "female",
+     "marital": "married",
+     "language": "hakka",
+     "street": "13F, No. 230, Ln. 114, Sec. 2, Dunhua N. Rd., Da'an Dist.",
+     "city": "Taipei City",
+     "postal": "106",
+     "country": "TW",
+     "phone_cell": "0929-014-763",
+     "occupation": "Software engineer",
+     "employer": "Silverpine Design Studio",
+     "ec_name": "Chia-An Wu",
+     "ec_phone": "0993-532-579",
+     "ec_relationship": "child",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-1321-1690",
+     "group_number": "G-2038",
+     "subscriber_rel": "self",
+     "ins_effective": "2025-08-14"
+    },
+    "wrong": {
+     "ec_phone": "0993-5"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Wu",
+    "first_name": "Shu-Yen",
+    "middle_name": "",
+    "dob": "1950-03-28",
+    "sex": "female",
+    "marital": "married",
+    "national_id": "",
+    "street": "13F, No. 230, Ln. 114, Sec. 2, Dunhua N. Rd., Da'an Dist.",
+    "postal": "106",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0929-014-763",
+    "phone_home": "",
+    "email": "",
+    "ec_name": "Chia-An Wu",
+    "ec_relationship": "child",
+    "ec_phone": "0993-532-579",
+    "occupation": "Software engineer",
+    "employer": "Silverpine Design Studio",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-1321-1690",
+    "group_number": "G-2038",
+    "subscriber_rel": "self",
+    "ins_effective": "2025-08-14",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Wu",
+     "first_name": "Shu-Yen",
+     "dob": "1950-03-28",
+     "sex": "female",
+     "marital": "married",
+     "street": "13F, No. 230, Ln. 114, Sec. 2, Dunhua N. Rd., Da'an Dist.",
+     "postal": "106",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0929-014-763",
+     "ec_name": "Chia-An Wu",
+     "ec_relationship": "child",
+     "ec_phone": "0993-532-579",
+     "occupation": "Software engineer",
+     "employer": "Silverpine Design Studio",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-1321-1690",
+     "group_number": "G-2038",
+     "subscriber_rel": "self",
+     "ins_effective": "2025-08-14"
+    },
+    "wrong": {
+     "sex": "male"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Yen",
+    "last_name": "Wu",
+    "dob": "1950-03-28",
+    "sex": "female",
+    "language": "hakka",
+    "street": "13F, No. 230, Ln. 114, Sec. 2, Dunhua N. Rd., Da'an Dist.",
+    "city": "Taipei City",
+    "postal": "106",
+    "country": "TW",
+    "phone_cell": "0929-014-763",
+    "phone_home": "",
+    "ec_name": "Chia-An Wu",
+    "ec_phone": "0993-532-579",
+    "ec_relationship": "child",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-1321-1690",
+    "group_number": "G-2038",
+    "subscriber_rel": "self",
+    "ins_effective": "2025-08-14"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Yen",
+     "last_name": "Wu",
+     "dob": "1950-03-28",
+     "sex": "female",
+     "language": "hakka",
+     "street": "13F, No. 230, Ln. 114, Sec. 2, Dunhua N. Rd., Da'an Dist.",
+     "city": "Taipei City",
+     "postal": "106",
+     "country": "TW",
+     "phone_cell": "0929-014-763",
+     "ec_name": "Chia-An Wu",
+     "ec_phone": "0993-532-579",
+     "ec_relationship": "child",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-1321-1690",
+     "group_number": "G-2038",
+     "subscriber_rel": "self",
+     "ins_effective": "2025-08-14"
+    },
+    "wrong": {
+     "ec_phone": "0993-5"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Wu",
+    "first_name": "Shu-Yen",
+    "dob": "1950-03-28",
+    "sex": "female",
+    "phone_cell": "0929-014-763",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "106",
+    "street": "13F, No. 230, Ln. 114, Sec. 2, Dunhua N. Rd., Da'an Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-1321-1690",
+    "subscriber_rel": "self",
+    "ins_effective": "2025-08-14",
+    "email": "",
+    "phone_home": "",
+    "marital": "married",
+    "language": "hakka",
+    "occupation": "Software engineer",
+    "employer": "Silverpine Design Studio",
+    "ec_name": "Chia-An Wu",
+    "ec_phone": "0993-532-579",
+    "ec_relationship": "child",
+    "group_number": "G-2038"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Wu",
+     "first_name": "Shu-Yen",
+     "dob": "1950-03-28",
+     "sex": "female",
+     "phone_cell": "0929-014-763",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "106",
+     "street": "13F, No. 230, Ln. 114, Sec. 2, Dunhua N. Rd., Da'an Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-1321-1690",
+     "subscriber_rel": "self",
+     "ins_effective": "2025-08-14",
+     "marital": "married",
+     "language": "hakka",
+     "occupation": "Software engineer",
+     "employer": "Silverpine Design Studio",
+     "ec_name": "Chia-An Wu",
+     "ec_phone": "0993-532-579",
+     "ec_relationship": "child",
+     "group_number": "G-2038"
+    },
+    "wrong": {
+     "city": "Taipe"
+    }
+   }
+  }
+ }
+}

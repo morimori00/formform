@@ -1,0 +1,182 @@
+{
+ "persona": "hr-orangehrm/t-emp-014",
+ "context": "hr-orangehrm/t-emp-014.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "middle_name": "Lee",
+    "last_name": "Sharma",
+    "employee_id": "KST-29189",
+    "create_login": true,
+    "username": "rahul.sharma",
+    "login_status": "disabled",
+    "password": "Onboard#3668x",
+    "confirm_password": "Onboard#3668x"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "middle_name": "Lee",
+     "last_name": "Sharma",
+     "employee_id": "KST-29189",
+     "create_login": true,
+     "username": "rahul.sharma",
+     "login_status": "disabled",
+     "password": "Onboard#3668x",
+     "confirm_password": "Onboard#3668x"
+    },
+    "wrong": {
+     "employee_id": "KST-291x",
+     "first_name": "Ra"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "middle_name": "Lee",
+    "last_name": "Sharma",
+    "employee_id": "KST-29189",
+    "license_number": "DL-22757744",
+    "license_expiry": "2031-01-12",
+    "nationality": "KR",
+    "marital": "widowed",
+    "dob": "1976-04-07",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "middle_name": "Lee",
+     "last_name": "Sharma",
+     "employee_id": "KST-29189",
+     "license_number": "DL-22757744",
+     "license_expiry": "2031-01-12",
+     "nationality": "KR",
+     "marital": "widowed",
+     "dob": "1976-04-07",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-291x",
+     "middle_name": "L"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2027-02-15",
+    "leave_to": "2027-02-18",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Medical appointment and recovery"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2027-02-15",
+     "leave_to": "2027-02-18",
+     "partial_days": "none",
+     "leave_comment": "Medical appointment and recovery"
+    },
+    "wrong": {
+     "leave_to": "2026-02-18"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2027-02-15",
+    "leave_to": "2027-02-18",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Medical appointment and recovery"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2027-02-15",
+     "leave_to": "2027-02-18",
+     "partial_days": "none",
+     "leave_comment": "Medical appointment and recovery"
+    },
+    "wrong": {
+     "leave_to": "2026-02-18"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "middle_name": "Lee",
+    "last_name": "Sharma",
+    "employee_id": "KST-29189",
+    "create_login": true,
+    "username": "rahul.sharma",
+    "login_status": "disabled",
+    "password": "Onboard#3668x",
+    "confirm_password": "Onboard#3668x",
+    "nationality": "KR",
+    "marital": "widowed",
+    "dob": "1976-04-07",
+    "gender": "female",
+    "job_title": "data_platform_eng",
+    "department": "logistics",
+    "work_location": "tainan",
+    "emp_status": "pt",
+    "supervisor": "u_m2327",
+    "joined_date": "2026-12-22"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "middle_name": "Lee",
+     "last_name": "Sharma",
+     "employee_id": "KST-29189",
+     "create_login": true,
+     "username": "rahul.sharma",
+     "login_status": "disabled",
+     "password": "Onboard#3668x",
+     "confirm_password": "Onboard#3668x",
+     "nationality": "KR",
+     "marital": "widowed",
+     "dob": "1976-04-07",
+     "gender": "female",
+     "job_title": "data_platform_eng",
+     "department": "logistics",
+     "work_location": "tainan",
+     "emp_status": "pt",
+     "supervisor": "u_m2327",
+     "joined_date": "2026-12-22"
+    },
+    "wrong": {
+     "employee_id": "KST-291x",
+     "joined_date": "2025-12-22"
+    }
+   }
+  }
+ }
+}

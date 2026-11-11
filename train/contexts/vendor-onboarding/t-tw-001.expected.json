@@ -1,0 +1,73 @@
+{
+ "persona": "vendor-onboarding/t-tw-001",
+ "context": "vendor-onboarding/t-tw-001.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Ruiyang Electromechanical Co., Ltd.",
+     "瑞暘機電股份有限公司"
+    ],
+    "tax_id": "43526384",
+    "company_address": [
+     "303 新竹縣湖口鄉和平路234號10樓",
+     "10F., No. 234, Heping Rd., Hukou Township, Hsinchu County 303"
+    ],
+    "established": "2012-07-16",
+    "business_type": "corporation",
+    "gross_sales": "673000000",
+    "contact_name": [
+     "楊建玲",
+     "Yang Chien-ling"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "chienling.yang@ruiyang-electromechanical.example",
+    "phone_day": "03-183-9494",
+    "phone_evening": "",
+    "bank_name": [
+     "華南商業銀行",
+     "Hua Nan Commercial Bank"
+    ],
+    "beneficiary": [
+     "瑞暘機電股份有限公司",
+     "Ruiyang Electromechanical Co., Ltd."
+    ],
+    "account_number": "2787443905174",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Ruiyang Electromechanical Co., Ltd.",
+     "tax_id": "43526384",
+     "company_address": "303 新竹縣湖口鄉和平路234號10樓",
+     "established": "2012-07-16",
+     "business_type": "corporation",
+     "gross_sales": "673000000",
+     "contact_name": "楊建玲",
+     "contact_title": "專案經理",
+     "email": "chienling.yang@ruiyang-electromechanical.example",
+     "phone_day": "03-183-9494",
+     "bank_name": "華南商業銀行",
+     "beneficiary": "瑞暘機電股份有限公司",
+     "account_number": "2787443905174",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "435263x",
+     "bank_name": "華南商"
+    }
+   }
+  }
+ }
+}

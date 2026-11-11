@@ -1,0 +1,43 @@
+{
+ "persona": "us-tax-portal/e-uswds-name-address-01",
+ "context": "us-tax-portal/e-uswds-name-address-01.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/uswds-name-address": {
+   "submit": true,
+   "fields": {
+    "first_name": "Freya",
+    "middle_initial": "E",
+    "last_name": "Hoffmann",
+    "suffix": "",
+    "preferred_name": "Freya",
+    "street1": "2621 Juniper Hill Ln",
+    "street2": "",
+    "city": "Dover",
+    "state": "DE",
+    "zip": "19988",
+    "urbanization": ""
+   },
+   "infeasible": [
+    "street2"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Freya",
+     "middle_initial": "E",
+     "last_name": "Hoffmann",
+     "preferred_name": "Freya",
+     "street1": "2621 Juniper Hill Ln",
+     "city": "Dover",
+     "state": "DE",
+     "zip": "19988"
+    },
+    "wrong": {
+     "middle_initial": "x",
+     "street1": "2621 Junip"
+    }
+   }
+  }
+ }
+}

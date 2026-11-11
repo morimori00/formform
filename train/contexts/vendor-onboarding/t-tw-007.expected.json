@@ -1,0 +1,73 @@
+{
+ "persona": "vendor-onboarding/t-tw-007",
+ "context": "vendor-onboarding/t-tw-007.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Ruichan Precision Industrial Co., Ltd.",
+     "瑞展精密工業股份有限公司"
+    ],
+    "tax_id": "30173921",
+    "company_address": [
+     "221 新北市汐止區光復路103號10樓",
+     "10F., No. 103, Guangfu Rd., Xizhi Dist., New Taipei City 221"
+    ],
+    "established": "1978-07-09",
+    "business_type": "corporation",
+    "gross_sales": "232000000",
+    "contact_name": [
+     "張志君",
+     "Chang Chih-chun"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "chihchun.chang@ruichan-precision.example",
+    "phone_day": "02-4551-0029",
+    "phone_evening": "",
+    "bank_name": [
+     "第一商業銀行",
+     "First Commercial Bank"
+    ],
+    "beneficiary": [
+     "瑞展精密工業股份有限公司",
+     "Ruichan Precision Industrial Co., Ltd."
+    ],
+    "account_number": "474468149191",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Ruichan Precision Industrial Co., Ltd.",
+     "tax_id": "30173921",
+     "company_address": "221 新北市汐止區光復路103號10樓",
+     "established": "1978-07-09",
+     "business_type": "corporation",
+     "gross_sales": "232000000",
+     "contact_name": "張志君",
+     "contact_title": "總經理特助",
+     "email": "chihchun.chang@ruichan-precision.example",
+     "phone_day": "02-4551-0029",
+     "bank_name": "第一商業銀行",
+     "beneficiary": "瑞展精密工業股份有限公司",
+     "account_number": "474468149191",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "301739x",
+     "insurance": "not_insured"
+    }
+   }
+  }
+ }
+}

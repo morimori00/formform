@@ -1,0 +1,67 @@
+{
+ "name": "laya-multilingual-planned",
+ "model": "multilingual",
+ "goal": "planned",
+ "max_len": 4096,
+ "text_source": "oracle",
+ "episodes": 154,
+ "success": 2,
+ "episode_success": 0.013,
+ "on_policy_steps": 1058,
+ "on_policy_step_acc": 0.0038,
+ "status": {
+  "blocked": 120,
+  "blocked_wait": 34
+ },
+ "by_family": {
+  "emr-registration": {
+   "episodes": 14,
+   "success": 0,
+   "episode_success": 0.0,
+   "on_policy_steps": 14,
+   "on_policy_step_acc": 0.0
+  },
+  "hr-orangehrm": {
+   "episodes": 14,
+   "success": 0,
+   "episode_success": 0.0,
+   "on_policy_steps": 87,
+   "on_policy_step_acc": 0.0
+  },
+  "itsm-request": {
+   "episodes": 14,
+   "success": 0,
+   "episode_success": 0.0,
+   "on_policy_steps": 14,
+   "on_policy_step_acc": 0.0
+  },
+  "kyc-account-opening": {
+   "episodes": 14,
+   "success": 0,
+   "episode_success": 0.0,
+   "on_policy_steps": 278,
+   "on_policy_step_acc": 0.0
+  },
+  "tw-arrival-card": {
+   "episodes": 42,
+   "success": 0,
+   "episode_success": 0.0,
+   "on_policy_steps": 469,
+   "on_policy_step_acc": 0.0043
+  },
+  "us-tax-portal": {
+   "episodes": 42,
+   "success": 2,
+   "episode_success": 0.0476,
+   "on_policy_steps": 178,
+   "on_policy_step_acc": 0.0
+  },
+  "vendor-onboarding": {
+   "episodes": 14,
+   "success": 0,
+   "episode_success": 0.0,
+   "on_policy_steps": 18,
+   "on_policy_step_acc": 0.1111
+  }
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "persona": "hr-orangehrm/t-emp-036",
+ "context": "hr-orangehrm/t-emp-036.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "middle_name": "",
+    "last_name": "Romano",
+    "employee_id": "KST-45819",
+    "create_login": true,
+    "username": "rahul.romano",
+    "login_status": "disabled",
+    "password": "Wafer#3855z",
+    "confirm_password": "Wafer#3855z"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Romano",
+     "employee_id": "KST-45819",
+     "create_login": true,
+     "username": "rahul.romano",
+     "login_status": "disabled",
+     "password": "Wafer#3855z",
+     "confirm_password": "Wafer#3855z"
+    },
+    "wrong": {
+     "employee_id": "KST-458x",
+     "last_name": "Rom"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "middle_name": "",
+    "last_name": "Romano",
+    "employee_id": "KST-45819",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "DE",
+    "marital": "single",
+    "dob": "1992-07-04",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Romano",
+     "employee_id": "KST-45819",
+     "nationality": "DE",
+     "marital": "single",
+     "dob": "1992-07-04",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-458x",
+     "last_name": "Rom"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-03-17",
+    "leave_to": "2027-03-21",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-03-17",
+     "leave_to": "2027-03-21",
+     "partial_days": "end",
+     "end_duration": "half_am"
+    },
+    "wrong": {
+     "end_duration": "half_pm"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-03-17",
+    "leave_to": "2027-03-21",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-03-17",
+     "leave_to": "2027-03-21",
+     "partial_days": "end",
+     "end_duration": "half_am"
+    },
+    "wrong": {
+     "leave_from": "2026-03-17"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "middle_name": "",
+    "last_name": "Romano",
+    "employee_id": "KST-45819",
+    "create_login": true,
+    "username": "rahul.romano",
+    "login_status": "disabled",
+    "password": "Wafer#3855z",
+    "confirm_password": "Wafer#3855z",
+    "nationality": "DE",
+    "marital": "single",
+    "dob": "1992-07-04",
+    "gender": "female",
+    "job_title": "yield_eng",
+    "department": "fab_eng",
+    "work_location": "tainan",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2901",
+    "joined_date": "2027-01-02"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Romano",
+     "employee_id": "KST-45819",
+     "create_login": true,
+     "username": "rahul.romano",
+     "login_status": "disabled",
+     "password": "Wafer#3855z",
+     "confirm_password": "Wafer#3855z",
+     "nationality": "DE",
+     "marital": "single",
+     "dob": "1992-07-04",
+     "gender": "female",
+     "job_title": "yield_eng",
+     "department": "fab_eng",
+     "work_location": "tainan",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2901",
+     "joined_date": "2027-01-02"
+    },
+    "wrong": {
+     "employee_id": "KST-458x",
+     "dob": "1991-07-04"
+    }
+   }
+  }
+ }
+}

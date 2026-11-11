@@ -1,0 +1,224 @@
+{
+ "persona": "kyc-account-opening/t-kyc-003",
+ "context": "kyc-account-opening/t-kyc-003.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-26406",
+    "full_name": [
+     "Tsao Chia-Jie",
+     "Chia-Jie Tsao"
+    ],
+    "spouse_name": "Hsieh Ya-Jie",
+    "gender": "male",
+    "marital": "married",
+    "dob": "1987-02-24",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "G134523629",
+    "id_proof": "national_id",
+    "address": [
+     "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111, Taiwan",
+     "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111"
+    ],
+    "phone": "+886 976 832 578",
+    "email": "chiajie.tsao@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": false,
+    "perm_address": [
+     "3F, No. 192, Heping W. Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "3F, No. 192, Heping W. Rd., Xitun Dist., Taichung City 407"
+    ],
+    "decl_name": [
+     "Tsao Chia-Jie",
+     "Chia-Jie Tsao"
+    ],
+    "sign_date": "2026-11-08",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-26406",
+     "full_name": "Tsao Chia-Jie",
+     "spouse_name": "Hsieh Ya-Jie",
+     "gender": "male",
+     "marital": "married",
+     "dob": "1987-02-24",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "G134523629",
+     "id_proof": "national_id",
+     "address": "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111, Taiwan",
+     "phone": "+886 976 832 578",
+     "email": "chiajie.tsao@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": false,
+     "perm_address": "3F, No. 192, Heping W. Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "decl_name": "Tsao Chia-Jie",
+     "sign_date": "2026-11-08"
+    },
+    "wrong": {
+     "tax_id": "G1345236x",
+     "full_name": "Tsao C"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Tsao Chia-Jie",
+     "Chia-Jie Tsao"
+    ],
+    "dob": "1987-02-24",
+    "mother_maiden": "",
+    "phone": "+886 976 832 578",
+    "email": "chiajie.tsao@inbox.example",
+    "address": [
+     "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111, Taiwan",
+     "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111"
+    ],
+    "education": "bachelor",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "individual",
+    "monthly_income": "194000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Tsao Chia-Jie",
+     "dob": "1987-02-24",
+     "phone": "+886 976 832 578",
+     "email": "chiajie.tsao@inbox.example",
+     "address": "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111, Taiwan",
+     "education": "bachelor",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "individual",
+     "monthly_income": "194000"
+    },
+    "wrong": {
+     "email": "chiajie.tsao at inbox.example",
+     "id_form": "passport"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Tsao Chia-Jie",
+     "Chia-Jie Tsao"
+    ],
+    "dob": "1987-02-24",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Hsieh Ya-Jie",
+    "address": [
+     "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111, Taiwan",
+     "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111"
+    ],
+    "email": "chiajie.tsao@inbox.example",
+    "phone": "+886 976 832 578",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "G134523629",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-26406"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Tsao Chia-Jie",
+     "dob": "1987-02-24",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Hsieh Ya-Jie",
+     "address": "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111, Taiwan",
+     "email": "chiajie.tsao@inbox.example",
+     "phone": "+886 976 832 578",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "G134523629",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-26406"
+    },
+    "wrong": {
+     "email": "chiajie.tsao at inbox.example",
+     "full_name": "Tsao C"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Tsao Chia-Jie",
+     "Chia-Jie Tsao"
+    ],
+    "dob": "1987-02-24",
+    "gender": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 976 832 578",
+    "email": "chiajie.tsao@inbox.example",
+    "address": [
+     "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111, Taiwan",
+     "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111"
+    ],
+    "perm_same": false,
+    "id_proof": "national_id",
+    "tax_id": "G134523629",
+    "addr_proof": "tax_bill",
+    "account_type": "savings",
+    "account_category": "individual",
+    "education": "bachelor",
+    "monthly_income": "194000",
+    "application_no": "LCB-AO-2026-26406",
+    "perm_address": [
+     "3F, No. 192, Heping W. Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "3F, No. 192, Heping W. Rd., Xitun Dist., Taichung City 407"
+    ]
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Tsao Chia-Jie",
+     "dob": "1987-02-24",
+     "gender": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 976 832 578",
+     "email": "chiajie.tsao@inbox.example",
+     "address": "12F, No. 20, Ln. 215, Datong Rd., Shilin Dist., Taipei City 111, Taiwan",
+     "perm_same": false,
+     "id_proof": "national_id",
+     "tax_id": "G134523629",
+     "addr_proof": "tax_bill",
+     "account_type": "savings",
+     "account_category": "individual",
+     "education": "bachelor",
+     "monthly_income": "194000",
+     "application_no": "LCB-AO-2026-26406",
+     "perm_address": "3F, No. 192, Heping W. Rd., Xitun Dist., Taichung City 407, Taiwan"
+    },
+    "wrong": {
+     "email": "chiajie.tsao at inbox.example",
+     "dob": "1986-02-24"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "persona": "hr-orangehrm/t-emp-028",
+ "context": "hr-orangehrm/t-emp-028.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Kuan-Jie",
+    "middle_name": "",
+    "last_name": "Yang",
+    "employee_id": "KST-45174",
+    "create_login": true,
+    "username": "kuanjie.yang",
+    "login_status": "enabled",
+    "password": "Kestrel!7617b",
+    "confirm_password": "Kestrel!7617b"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Kuan-Jie",
+     "last_name": "Yang",
+     "employee_id": "KST-45174",
+     "create_login": true,
+     "username": "kuanjie.yang",
+     "login_status": "enabled",
+     "password": "Kestrel!7617b",
+     "confirm_password": "Kestrel!7617b"
+    },
+    "wrong": {
+     "employee_id": "KST-451x",
+     "first_name": "Kuan"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Kuan-Jie",
+    "middle_name": "",
+    "last_name": "Yang",
+    "employee_id": "KST-45174",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1988-04-05",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Kuan-Jie",
+     "last_name": "Yang",
+     "employee_id": "KST-45174",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1988-04-05",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-451x",
+     "gender": "male"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-17",
+    "leave_to": "2027-01-17",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": "Rest after the quarter-end close"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-17",
+     "leave_to": "2027-01-17",
+     "partial_days": "end",
+     "end_duration": "half_am",
+     "leave_comment": "Rest after the quarter-end close"
+    },
+    "wrong": {
+     "leave_type": "sick"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-17",
+    "leave_to": "2027-01-17",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": "Rest after the quarter-end close"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-17",
+     "leave_to": "2027-01-17",
+     "partial_days": "end",
+     "end_duration": "half_am",
+     "leave_comment": "Rest after the quarter-end close"
+    },
+    "wrong": {
+     "leave_to": "2026-01-17"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Kuan-Jie",
+    "middle_name": "",
+    "last_name": "Yang",
+    "employee_id": "KST-45174",
+    "create_login": true,
+    "username": "kuanjie.yang",
+    "login_status": "enabled",
+    "password": "Kestrel!7617b",
+    "confirm_password": "Kestrel!7617b",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1988-04-05",
+    "gender": "female",
+    "job_title": "equip_eng",
+    "department": "hr",
+    "work_location": "hsp_fab3",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m3240",
+    "joined_date": "2026-11-23"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Kuan-Jie",
+     "last_name": "Yang",
+     "employee_id": "KST-45174",
+     "create_login": true,
+     "username": "kuanjie.yang",
+     "login_status": "enabled",
+     "password": "Kestrel!7617b",
+     "confirm_password": "Kestrel!7617b",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1988-04-05",
+     "gender": "female",
+     "job_title": "equip_eng",
+     "department": "hr",
+     "work_location": "hsp_fab3",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m3240",
+     "joined_date": "2026-11-23"
+    },
+    "wrong": {
+     "employee_id": "KST-451x",
+     "first_name": "Kuan"
+    }
+   }
+  }
+ }
+}

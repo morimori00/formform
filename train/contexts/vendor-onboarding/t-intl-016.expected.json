@@ -1,0 +1,180 @@
+{
+ "persona": "vendor-onboarding/t-intl-016",
+ "context": "vendor-onboarding/t-intl-016.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Highmoor Chemicals LLC",
+    "tax_id": "05-2615550",
+    "company_address": "5920 Juniper Hill Way, Suite 660, Tampa, FL 33662",
+    "established": "2001-04-03",
+    "business_type": "llc",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "service_area": "europe",
+    "gross_sales": "45900000",
+    "contact_name": [
+     "Chloe Kowalski",
+     "Ms. Chloe Kowalski"
+    ],
+    "contact_title": "Key Account Executive",
+    "phone_day": "(813) 555-0126",
+    "phone_evening": "(813) 555-3560",
+    "email": "chloe.kowalski@highmoor.example",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Prairie Union Bank",
+    "beneficiary": "Highmoor Chemicals LLC",
+    "account_number": "426-313814-6",
+    "swift": "PUBXUSASXXX"
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Chemicals LLC",
+     "tax_id": "05-2615550",
+     "company_address": "5920 Juniper Hill Way, Suite 660, Tampa, FL 33662",
+     "established": "2001-04-03",
+     "business_type": "llc",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "service_area": "europe",
+     "gross_sales": "45900000",
+     "contact_name": "Chloe Kowalski",
+     "contact_title": "Key Account Executive",
+     "phone_day": "(813) 555-0126",
+     "phone_evening": "(813) 555-3560",
+     "email": "chloe.kowalski@highmoor.example",
+     "insurance": "not_insured",
+     "licensing": "not_licensed",
+     "bank_name": "Prairie Union Bank",
+     "beneficiary": "Highmoor Chemicals LLC",
+     "account_number": "426-313814-6",
+     "swift": "PUBXUSASXXX"
+    },
+    "wrong": {
+     "email": "chloe.kowalski at highmoor.example",
+     "gross_sales": "4590"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Highmoor Chemicals LLC",
+    "tax_id": "05-2615550",
+    "established": "2001-04-03",
+    "service_area": "europe",
+    "business_type": "llc",
+    "contact_name": [
+     "Chloe Kowalski",
+     "Ms. Chloe Kowalski"
+    ],
+    "email": "chloe.kowalski@highmoor.example",
+    "phone_day": "(813) 555-0126",
+    "phone_evening": "(813) 555-3560",
+    "company_address": "5920 Juniper Hill Way, Suite 660, Tampa, FL 33662",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Prairie Union Bank",
+    "beneficiary": "Highmoor Chemicals LLC",
+    "account_number": "426-313814-6",
+    "swift": "PUBXUSASXXX",
+    "insurance": "not_insured",
+    "gross_sales": "45900000"
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Chemicals LLC",
+     "tax_id": "05-2615550",
+     "established": "2001-04-03",
+     "service_area": "europe",
+     "business_type": "llc",
+     "contact_name": "Chloe Kowalski",
+     "email": "chloe.kowalski@highmoor.example",
+     "phone_day": "(813) 555-0126",
+     "phone_evening": "(813) 555-3560",
+     "company_address": "5920 Juniper Hill Way, Suite 660, Tampa, FL 33662",
+     "licensing": "not_licensed",
+     "bank_name": "Prairie Union Bank",
+     "beneficiary": "Highmoor Chemicals LLC",
+     "account_number": "426-313814-6",
+     "swift": "PUBXUSASXXX",
+     "insurance": "not_insured",
+     "gross_sales": "45900000"
+    },
+    "wrong": {
+     "email": "chloe.kowalski at highmoor.example",
+     "established": "2000-04-03"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Prairie Union Bank",
+    "beneficiary": "Highmoor Chemicals LLC",
+    "account_number": "426-313814-6",
+    "swift": "PUBXUSASXXX",
+    "org_name": "Highmoor Chemicals LLC",
+    "tax_id": "05-2615550",
+    "business_type": "llc",
+    "established": "2001-04-03",
+    "company_address": "5920 Juniper Hill Way, Suite 660, Tampa, FL 33662",
+    "service_area": "europe",
+    "contact_name": [
+     "Chloe Kowalski",
+     "Ms. Chloe Kowalski"
+    ],
+    "email": "chloe.kowalski@highmoor.example",
+    "phone_day": "(813) 555-0126",
+    "contact_title": "Key Account Executive",
+    "phone_evening": "(813) 555-3560",
+    "gross_sales": "45900000",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Prairie Union Bank",
+     "beneficiary": "Highmoor Chemicals LLC",
+     "account_number": "426-313814-6",
+     "swift": "PUBXUSASXXX",
+     "org_name": "Highmoor Chemicals LLC",
+     "tax_id": "05-2615550",
+     "business_type": "llc",
+     "established": "2001-04-03",
+     "company_address": "5920 Juniper Hill Way, Suite 660, Tampa, FL 33662",
+     "service_area": "europe",
+     "contact_name": "Chloe Kowalski",
+     "email": "chloe.kowalski@highmoor.example",
+     "phone_day": "(813) 555-0126",
+     "contact_title": "Key Account Executive",
+     "phone_evening": "(813) 555-3560",
+     "gross_sales": "45900000",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "insurance": "not_insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "chloe.kowalski at highmoor.example",
+     "tax_id": "05-26"
+    }
+   }
+  }
+ }
+}

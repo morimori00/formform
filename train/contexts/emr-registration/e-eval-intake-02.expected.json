@@ -1,0 +1,69 @@
+{
+ "persona": "emr-registration/e-eval-intake-02",
+ "context": "emr-registration/e-eval-intake-02.md",
+ "split": "eval",
+ "variants": {
+  "emr-registration/eval-intake": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yu-Hsiang",
+    "middle_name": "",
+    "last_name": "Shih",
+    "dob": "1965-11-28",
+    "sex": "male",
+    "marital": "single",
+    "nationality": "TW",
+    "language": "mandarin",
+    "street": "6F, No. 3, Zhongxiao E. Rd., Songshan Dist.",
+    "city": "Taipei City",
+    "postal": "105",
+    "country": "TW",
+    "phone_cell": "0972-089-235",
+    "phone_home": "",
+    "email": "",
+    "occupation": "Civil servant",
+    "employer": "Vantage Design Studio",
+    "ec_name": "Hao-Chieh Wei",
+    "ec_phone": "0927-735-398",
+    "ec_relationship": "child",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-7577-4297",
+    "group_number": "",
+    "subscriber_rel": "spouse",
+    "ins_effective": "2020-08-23"
+   },
+   "infeasible": [
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yu-Hsiang",
+     "last_name": "Shih",
+     "dob": "1965-11-28",
+     "sex": "male",
+     "marital": "single",
+     "nationality": "TW",
+     "language": "mandarin",
+     "street": "6F, No. 3, Zhongxiao E. Rd., Songshan Dist.",
+     "city": "Taipei City",
+     "postal": "105",
+     "country": "TW",
+     "phone_cell": "0972-089-235",
+     "occupation": "Civil servant",
+     "employer": "Vantage Design Studio",
+     "ec_name": "Hao-Chieh Wei",
+     "ec_phone": "0927-735-398",
+     "ec_relationship": "child",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-7577-4297",
+     "subscriber_rel": "spouse",
+     "ins_effective": "2020-08-23"
+    },
+    "wrong": {
+     "nationality": "JP"
+    }
+   }
+  }
+ }
+}

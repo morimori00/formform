@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-016",
+ "context": "tw-vendor-master/t-tw-016.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "嘉宇包裝股份有限公司",
+    "vendor_name_en": "Jiayu Packaging Co., Ltd.",
+    "ubn": "11690739",
+    "owner": "呂美玲",
+    "established": "1998-05-18",
+    "capital": "683000000",
+    "org_type": "corp_shares",
+    "postal": "104",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "和平路248號5樓",
+    "tel": "02-2708-9342",
+    "fax": "02-2708-7358",
+    "contact_name": [
+     "郭佩偉",
+     "Kuo Pei-wei"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "peiwei.kuo@jiayu-packaging.example",
+    "contact_mobile": "0989-791-385",
+    "bank_code": "013",
+    "bank_branch": [
+     "中山分行",
+     "中山"
+    ],
+    "account_no": "2739108952313",
+    "account_name": "嘉宇包裝股份有限公司",
+    "payment_terms": "cod",
+    "invoice_type": "receipt",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-12-11"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "嘉宇包裝股份有限公司",
+     "vendor_name_en": "Jiayu Packaging Co., Ltd.",
+     "ubn": "11690739",
+     "owner": "呂美玲",
+     "established": "1998-05-18",
+     "capital": "683000000",
+     "org_type": "corp_shares",
+     "postal": "104",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "和平路248號5樓",
+     "tel": "02-2708-9342",
+     "fax": "02-2708-7358",
+     "contact_name": "郭佩偉",
+     "contact_title": "財務主任",
+     "email": "peiwei.kuo@jiayu-packaging.example",
+     "contact_mobile": "0989-791-385",
+     "bank_code": "013",
+     "bank_branch": "中山分行",
+     "account_no": "2739108952313",
+     "account_name": "嘉宇包裝股份有限公司",
+     "payment_terms": "cod",
+     "invoice_type": "receipt",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-12-11"
+    },
+    "wrong": {
+     "ubn": "116907x",
+     "bank_branch": "中山"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "11690739",
+    "vendor_name_zh": "嘉宇包裝股份有限公司",
+    "vendor_name_en": "Jiayu Packaging Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1998-05-18",
+    "owner": "呂美玲",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "和平路248號5樓",
+    "postal": "104",
+    "tel": "02-2708-9342",
+    "fax": "02-2708-7358",
+    "contact_name": [
+     "郭佩偉",
+     "Kuo Pei-wei"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0989-791-385",
+    "email": "peiwei.kuo@jiayu-packaging.example",
+    "bank_code": "013",
+    "bank_branch": [
+     "中山分行",
+     "中山"
+    ],
+    "account_no": "2739108952313",
+    "account_name": "嘉宇包裝股份有限公司",
+    "payment_terms": "cod",
+    "invoice_type": "receipt",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-12-11",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "11690739",
+     "vendor_name_zh": "嘉宇包裝股份有限公司",
+     "vendor_name_en": "Jiayu Packaging Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1998-05-18",
+     "owner": "呂美玲",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "和平路248號5樓",
+     "postal": "104",
+     "tel": "02-2708-9342",
+     "fax": "02-2708-7358",
+     "contact_name": "郭佩偉",
+     "contact_title": "財務主任",
+     "contact_mobile": "0989-791-385",
+     "email": "peiwei.kuo@jiayu-packaging.example",
+     "bank_code": "013",
+     "bank_branch": "中山分行",
+     "account_no": "2739108952313",
+     "account_name": "嘉宇包裝股份有限公司",
+     "payment_terms": "cod",
+     "invoice_type": "receipt",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-12-11"
+    },
+    "wrong": {
+     "ubn": "116907x",
+     "owner": "呂"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "11690739",
+    "vendor_name_zh": "嘉宇包裝股份有限公司",
+    "owner": "呂美玲",
+    "established": "1998-05-18",
+    "org_type": "corp_shares",
+    "capital": "683000000",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "和平路248號5樓",
+    "postal": "104",
+    "tel": "02-2708-9342",
+    "contact_name": [
+     "郭佩偉",
+     "Kuo Pei-wei"
+    ],
+    "email": "peiwei.kuo@jiayu-packaging.example",
+    "bank_code": "013",
+    "account_no": "2739108952313",
+    "account_name": "嘉宇包裝股份有限公司",
+    "payment_terms": "cod",
+    "currency": "TWD",
+    "invoice_type": "receipt"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "11690739",
+     "vendor_name_zh": "嘉宇包裝股份有限公司",
+     "owner": "呂美玲",
+     "established": "1998-05-18",
+     "org_type": "corp_shares",
+     "capital": "683000000",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "和平路248號5樓",
+     "postal": "104",
+     "tel": "02-2708-9342",
+     "contact_name": "郭佩偉",
+     "email": "peiwei.kuo@jiayu-packaging.example",
+     "bank_code": "013",
+     "account_no": "2739108952313",
+     "account_name": "嘉宇包裝股份有限公司",
+     "payment_terms": "cod",
+     "currency": "TWD",
+     "invoice_type": "receipt"
+    },
+    "wrong": {
+     "ubn": "116907x",
+     "county": "新北市"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "嘉宇包裝股份有限公司",
+    "vendor_name_en": "Jiayu Packaging Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "11690739",
+    "owner": "呂美玲",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "和平路248號5樓",
+    "postal": "104",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "02-2708-9342",
+    "contact_name": [
+     "郭佩偉",
+     "Kuo Pei-wei"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "peiwei.kuo@jiayu-packaging.example",
+    "account_no": "2739108952313",
+    "account_name": "嘉宇包裝股份有限公司",
+    "payment_terms": "cod",
+    "invoice_type": "receipt",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "嘉宇包裝股份有限公司",
+     "vendor_name_en": "Jiayu Packaging Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "11690739",
+     "owner": "呂美玲",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "和平路248號5樓",
+     "postal": "104",
+     "tel": "02-2708-9342",
+     "contact_name": "郭佩偉",
+     "contact_title": "財務主任",
+     "email": "peiwei.kuo@jiayu-packaging.example",
+     "account_no": "2739108952313",
+     "account_name": "嘉宇包裝股份有限公司",
+     "payment_terms": "cod",
+     "invoice_type": "receipt",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "116907x",
+     "county": "新北市"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "013",
+    "bank_branch": [
+     "中山分行",
+     "中山"
+    ],
+    "account_no": "2739108952313",
+    "account_name": "嘉宇包裝股份有限公司",
+    "payment_terms": "cod",
+    "currency": "TWD",
+    "invoice_type": "receipt",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "和平路248號5樓",
+    "postal": "104",
+    "tel": "02-2708-9342",
+    "fax": "02-2708-7358",
+    "vendor_name_zh": "嘉宇包裝股份有限公司",
+    "ubn": "11690739",
+    "owner": "呂美玲",
+    "org_type": "corp_shares",
+    "established": "1998-05-18",
+    "capital": "683000000",
+    "vendor_name_en": "Jiayu Packaging Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0989-791-385",
+    "contact_name": [
+     "郭佩偉",
+     "Kuo Pei-wei"
+    ],
+    "email": "peiwei.kuo@jiayu-packaging.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "013",
+     "bank_branch": "中山分行",
+     "account_no": "2739108952313",
+     "account_name": "嘉宇包裝股份有限公司",
+     "payment_terms": "cod",
+     "currency": "TWD",
+     "invoice_type": "receipt",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "和平路248號5樓",
+     "postal": "104",
+     "tel": "02-2708-9342",
+     "fax": "02-2708-7358",
+     "vendor_name_zh": "嘉宇包裝股份有限公司",
+     "ubn": "11690739",
+     "owner": "呂美玲",
+     "org_type": "corp_shares",
+     "established": "1998-05-18",
+     "capital": "683000000",
+     "vendor_name_en": "Jiayu Packaging Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_mobile": "0989-791-385",
+     "contact_name": "郭佩偉",
+     "email": "peiwei.kuo@jiayu-packaging.example"
+    },
+    "wrong": {
+     "account_no": "27391089523x",
+     "address_line": "和平路2"
+    }
+   }
+  }
+ }
+}

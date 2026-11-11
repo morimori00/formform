@@ -1,0 +1,187 @@
+{
+ "persona": "kyc-rivera-sofia",
+ "context": "kyc-rivera-sofia.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": false,
+   "fields": {
+    "first_name": "Sofia",
+    "last_name": "Rivera",
+    "street": "2418 Alder Creek Way",
+    "city": "San Jose",
+    "state": [
+     "CA",
+     "California"
+    ],
+    "zip": "95131",
+    "phone": "(408) 555-0162",
+    "ssn": "912-48-3307",
+    "username": "sofia.rivera89",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Sofia",
+     "last_name": "Rivera",
+     "street": "2418 Alder Creek Way",
+     "city": "San Jose",
+     "state": "CA",
+     "zip": "95131",
+     "phone": "(408) 555-0162",
+     "ssn": "912-48-3307",
+     "username": "sofia.rivera89"
+    },
+    "wrong": {
+     "phone": "(408) 5"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Bayline Utilities",
+    "payee_street": "500 Market Plaza, Suite 210",
+    "payee_city": "San Jose",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "95113",
+    "payee_phone": "(408) 555-0110",
+    "payee_account": "77104-2219",
+    "payee_account_verify": "77104-2219",
+    "amount": "142.67",
+    "from_account": "13344"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Bayline Utilities",
+     "payee_street": "500 Market Plaza, Suite 210",
+     "payee_city": "San Jose",
+     "payee_state": "CA",
+     "payee_zip": "95113",
+     "payee_phone": "(408) 555-0110",
+     "payee_account": "77104-2219",
+     "payee_account_verify": "77104-2219",
+     "amount": "142.67",
+     "from_account": "13344"
+    },
+    "wrong": {
+     "payee_account_verify": "77104-22x",
+     "from_account": "13566"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "25000",
+    "down_payment": "2500",
+    "loan_from_account": "13566",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "13344"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "25000",
+     "down_payment": "2500",
+     "loan_from_account": "13566",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "13344"
+    },
+    "wrong": {
+     "loan_from_account": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Bayline Utilities",
+    "payee_street": "500 Market Plaza, Suite 210",
+    "payee_city": "San Jose",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "95113",
+    "payee_phone": "(408) 555-0110",
+    "from_account": "13344",
+    "amount": "142.67",
+    "payee_account": "77104-2219",
+    "payee_account_verify": "77104-2219"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Bayline Utilities",
+     "payee_street": "500 Market Plaza, Suite 210",
+     "payee_city": "San Jose",
+     "payee_state": "CA",
+     "payee_zip": "95113",
+     "payee_phone": "(408) 555-0110",
+     "from_account": "13344",
+     "amount": "142.67",
+     "payee_account": "77104-2219",
+     "payee_account_verify": "77104-2219"
+    },
+    "wrong": {
+     "payee_account_verify": "77104-22x",
+     "payee_zip": "95"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Sofia",
+    "last_name": "Rivera",
+    "phone": "(408) 555-0162",
+    "ssn": "912-48-3307",
+    "street": "2418 Alder Creek Way",
+    "city": "San Jose",
+    "state": [
+     "CA",
+     "California"
+    ],
+    "zip": "95131",
+    "username": "sofia.rivera89",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Sofia",
+     "last_name": "Rivera",
+     "phone": "(408) 555-0162",
+     "ssn": "912-48-3307",
+     "street": "2418 Alder Creek Way",
+     "city": "San Jose",
+     "state": "CA",
+     "zip": "95131",
+     "username": "sofia.rivera89"
+    },
+    "wrong": {
+     "street": "2418 Alder"
+    }
+   }
+  }
+ }
+}

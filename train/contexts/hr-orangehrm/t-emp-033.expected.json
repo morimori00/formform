@@ -1,0 +1,178 @@
+{
+ "persona": "hr-orangehrm/t-emp-033",
+ "context": "hr-orangehrm/t-emp-033.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "middle_name": "",
+    "last_name": "Pham",
+    "employee_id": "KST-31400",
+    "create_login": true,
+    "username": "naomi.pham",
+    "login_status": "enabled",
+    "password": "Onboard#7204b",
+    "confirm_password": "Onboard#7204b"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Pham",
+     "employee_id": "KST-31400",
+     "create_login": true,
+     "username": "naomi.pham",
+     "login_status": "enabled",
+     "password": "Onboard#7204b",
+     "confirm_password": "Onboard#7204b"
+    },
+    "wrong": {
+     "employee_id": "KST-314x",
+     "last_name": "Ph"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "middle_name": "",
+    "last_name": "Pham",
+    "employee_id": "KST-31400",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "ID",
+    "marital": "widowed",
+    "dob": "1984-06-04",
+    "gender": "male"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Pham",
+     "employee_id": "KST-31400",
+     "nationality": "ID",
+     "marital": "widowed",
+     "dob": "1984-06-04",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-314x",
+     "last_name": "Ph"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-14",
+    "leave_to": "2027-01-16",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Medical appointment and recovery"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-14",
+     "leave_to": "2027-01-16",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Medical appointment and recovery"
+    },
+    "wrong": {
+     "partial_days": "none"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-14",
+    "leave_to": "2027-01-16",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Medical appointment and recovery"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-14",
+     "leave_to": "2027-01-16",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Medical appointment and recovery"
+    },
+    "wrong": {
+     "partial_days": "none"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "middle_name": "",
+    "last_name": "Pham",
+    "employee_id": "KST-31400",
+    "create_login": true,
+    "username": "naomi.pham",
+    "login_status": "enabled",
+    "password": "Onboard#7204b",
+    "confirm_password": "Onboard#7204b",
+    "nationality": "ID",
+    "marital": "widowed",
+    "dob": "1984-06-04",
+    "gender": "male",
+    "job_title": "equip_eng",
+    "department": "infosec",
+    "work_location": "sg",
+    "emp_status": "pt",
+    "supervisor": "u_m2901",
+    "joined_date": "2026-12-02"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Pham",
+     "employee_id": "KST-31400",
+     "create_login": true,
+     "username": "naomi.pham",
+     "login_status": "enabled",
+     "password": "Onboard#7204b",
+     "confirm_password": "Onboard#7204b",
+     "nationality": "ID",
+     "marital": "widowed",
+     "dob": "1984-06-04",
+     "gender": "male",
+     "job_title": "equip_eng",
+     "department": "infosec",
+     "work_location": "sg",
+     "emp_status": "pt",
+     "supervisor": "u_m2901",
+     "joined_date": "2026-12-02"
+    },
+    "wrong": {
+     "employee_id": "KST-314x",
+     "emp_status": "ft_perm"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "persona": "parabank/t-customer-038",
+ "context": "parabank/t-customer-038.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": false,
+   "fields": {
+    "first_name": "Oscar",
+    "last_name": "Sharma",
+    "street": "8152 Marigold Ct",
+    "city": "Plano",
+    "state": [
+     "TX",
+     "Texas"
+    ],
+    "zip": "75041",
+    "phone": "(972) 555-0161",
+    "ssn": "970-35-2087",
+    "username": "oscar.sharma67",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Oscar",
+     "last_name": "Sharma",
+     "street": "8152 Marigold Ct",
+     "city": "Plano",
+     "state": "TX",
+     "zip": "75041",
+     "phone": "(972) 555-0161",
+     "ssn": "970-35-2087",
+     "username": "oscar.sharma67"
+    },
+    "wrong": {
+     "phone": "(972) 5"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Summit Ridge Gas",
+    "payee_street": "8699 Stonegate Way",
+    "payee_city": "San Jose",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "95171",
+    "payee_phone": "(408) 555-0101",
+    "payee_account": "10590-5350",
+    "payee_account_verify": "10590-5350",
+    "amount": "751.74",
+    "from_account": "17452"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Summit Ridge Gas",
+     "payee_street": "8699 Stonegate Way",
+     "payee_city": "San Jose",
+     "payee_state": "CA",
+     "payee_zip": "95171",
+     "payee_phone": "(408) 555-0101",
+     "payee_account": "10590-5350",
+     "payee_account_verify": "10590-5350",
+     "amount": "751.74",
+     "from_account": "17452"
+    },
+    "wrong": {
+     "payee_account_verify": "10590-53x",
+     "payee_city": "San "
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "12000",
+    "down_payment": "1500",
+    "loan_from_account": "17452",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "17452"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "12000",
+     "down_payment": "1500",
+     "loan_from_account": "17452",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "17452"
+    },
+    "wrong": {
+     "loan_from_account": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Summit Ridge Gas",
+    "payee_street": "8699 Stonegate Way",
+    "payee_city": "San Jose",
+    "payee_state": [
+     "CA",
+     "California"
+    ],
+    "payee_zip": "95171",
+    "payee_phone": "(408) 555-0101",
+    "from_account": "17452",
+    "amount": "751.74",
+    "payee_account": "10590-5350",
+    "payee_account_verify": "10590-5350"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Summit Ridge Gas",
+     "payee_street": "8699 Stonegate Way",
+     "payee_city": "San Jose",
+     "payee_state": "CA",
+     "payee_zip": "95171",
+     "payee_phone": "(408) 555-0101",
+     "from_account": "17452",
+     "amount": "751.74",
+     "payee_account": "10590-5350",
+     "payee_account_verify": "10590-5350"
+    },
+    "wrong": {
+     "payee_account_verify": "10590-53x",
+     "payee_city": "San "
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Oscar",
+    "last_name": "Sharma",
+    "phone": "(972) 555-0161",
+    "ssn": "970-35-2087",
+    "street": "8152 Marigold Ct",
+    "city": "Plano",
+    "state": [
+     "TX",
+     "Texas"
+    ],
+    "zip": "75041",
+    "username": "oscar.sharma67",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Oscar",
+     "last_name": "Sharma",
+     "phone": "(972) 555-0161",
+     "ssn": "970-35-2087",
+     "street": "8152 Marigold Ct",
+     "city": "Plano",
+     "state": "TX",
+     "zip": "75041",
+     "username": "oscar.sharma67"
+    },
+    "wrong": {
+     "zip": "75"
+    }
+   }
+  }
+ }
+}

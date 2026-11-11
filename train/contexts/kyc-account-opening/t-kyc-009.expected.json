@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-009",
+ "context": "kyc-account-opening/t-kyc-009.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-33885",
+    "full_name": [
+     "Su Ming-Wen",
+     "Ming-Wen Su"
+    ],
+    "spouse_name": "Hsu Yi-Wen",
+    "gender": "male",
+    "marital": "married",
+    "dob": "1990-04-29",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "B246790965",
+    "id_proof": "national_id",
+    "address": [
+     "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231"
+    ],
+    "phone": "+886 904 922 388",
+    "email": "mingwen.su@inbox.example",
+    "addr_proof": "lease",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Su Ming-Wen",
+     "Ming-Wen Su"
+    ],
+    "sign_date": "2026-11-10",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-33885",
+     "full_name": "Su Ming-Wen",
+     "spouse_name": "Hsu Yi-Wen",
+     "gender": "male",
+     "marital": "married",
+     "dob": "1990-04-29",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "B246790965",
+     "id_proof": "national_id",
+     "address": "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "phone": "+886 904 922 388",
+     "email": "mingwen.su@inbox.example",
+     "addr_proof": "lease",
+     "perm_same": true,
+     "decl_name": "Su Ming-Wen",
+     "sign_date": "2026-11-10"
+    },
+    "wrong": {
+     "tax_id": "B2467909x",
+     "marital": "single"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Su Ming-Wen",
+     "Ming-Wen Su"
+    ],
+    "dob": "1990-04-29",
+    "mother_maiden": "Yang",
+    "phone": "+886 904 922 388",
+    "email": "mingwen.su@inbox.example",
+    "address": [
+     "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231"
+    ],
+    "education": "associate",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "joint",
+    "monthly_income": "197000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Su Ming-Wen",
+     "dob": "1990-04-29",
+     "mother_maiden": "Yang",
+     "phone": "+886 904 922 388",
+     "email": "mingwen.su@inbox.example",
+     "address": "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "education": "associate",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "joint",
+     "monthly_income": "197000"
+    },
+    "wrong": {
+     "email": "mingwen.su at inbox.example",
+     "account_category": "individual"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Su Ming-Wen",
+     "Ming-Wen Su"
+    ],
+    "dob": "1990-04-29",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Hsu Yi-Wen",
+    "address": [
+     "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231"
+    ],
+    "email": "mingwen.su@inbox.example",
+    "phone": "+886 904 922 388",
+    "addr_proof": "lease",
+    "id_proof": "national_id",
+    "tax_id": "B246790965",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-33885"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Su Ming-Wen",
+     "dob": "1990-04-29",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Hsu Yi-Wen",
+     "address": "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "email": "mingwen.su@inbox.example",
+     "phone": "+886 904 922 388",
+     "addr_proof": "lease",
+     "id_proof": "national_id",
+     "tax_id": "B246790965",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-33885"
+    },
+    "wrong": {
+     "email": "mingwen.su at inbox.example",
+     "id_proof": "passport"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Su Ming-Wen",
+     "Ming-Wen Su"
+    ],
+    "dob": "1990-04-29",
+    "gender": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 904 922 388",
+    "email": "mingwen.su@inbox.example",
+    "address": [
+     "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "B246790965",
+    "addr_proof": "lease",
+    "account_type": "savings",
+    "account_category": "joint",
+    "education": "associate",
+    "monthly_income": "197000",
+    "application_no": "LCB-AO-2026-33885",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Su Ming-Wen",
+     "dob": "1990-04-29",
+     "gender": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 904 922 388",
+     "email": "mingwen.su@inbox.example",
+     "address": "6F, No. 217, Ln. 28, Heping W. Rd., Xindian Dist., New Taipei City 231, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "B246790965",
+     "addr_proof": "lease",
+     "account_type": "savings",
+     "account_category": "joint",
+     "education": "associate",
+     "monthly_income": "197000",
+     "application_no": "LCB-AO-2026-33885"
+    },
+    "wrong": {
+     "email": "mingwen.su at inbox.example",
+     "phone": "+886 904"
+    }
+   }
+  }
+ }
+}

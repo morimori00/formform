@@ -1,0 +1,272 @@
+{
+ "persona": "jp-travel-request/t-trip-017",
+ "context": "jp-travel-request/t-trip-017.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-32956",
+    "name": [
+     "山口 千尋",
+     "山口千尋"
+    ],
+    "dept": "prod_eng",
+    "title": "主査",
+    "cost_center": "CC-2210",
+    "email": "c.yamaguchi@kestrel-semi.example",
+    "mobile": "070-5272-2500",
+    "dest_country": "TW",
+    "dest_city": [
+     "台北市",
+     "台北"
+    ],
+    "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+    "depart_date": "2027-02-25",
+    "return_date": "2027-03-03",
+    "outbound_flight": "CI 471",
+    "return_flight": "CI 192",
+    "hotel": "内湖リバーサイドホテル",
+    "visa_needed": "no",
+    "exp_air_amount": "89200",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "23400",
+    "exp_hotel_cur": "TWD",
+    "exp_local_amount": "4800",
+    "exp_local_cur": "TWD",
+    "advance_amount": "120000",
+    "advance_cur": "JPY",
+    "passport_no": "ZK4826603",
+    "passport_expiry": "2028-06-17",
+    "approver": "u_j2288"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-32956",
+     "name": "山口 千尋",
+     "dept": "prod_eng",
+     "title": "主査",
+     "cost_center": "CC-2210",
+     "email": "c.yamaguchi@kestrel-semi.example",
+     "mobile": "070-5272-2500",
+     "dest_country": "TW",
+     "dest_city": "台北市",
+     "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+     "depart_date": "2027-02-25",
+     "return_date": "2027-03-03",
+     "outbound_flight": "CI 471",
+     "return_flight": "CI 192",
+     "hotel": "内湖リバーサイドホテル",
+     "visa_needed": "no",
+     "exp_air_amount": "89200",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "23400",
+     "exp_hotel_cur": "TWD",
+     "exp_local_amount": "4800",
+     "exp_local_cur": "TWD",
+     "advance_amount": "120000",
+     "advance_cur": "JPY",
+     "passport_no": "ZK4826603",
+     "passport_expiry": "2028-06-17",
+     "approver": "u_j2288"
+    },
+    "wrong": {
+     "email": "c.yamaguchi at kestrel-semi.example",
+     "exp_air_amount": "89"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "山口 千尋",
+     "山口千尋"
+    ],
+    "emp_no": "J-32956",
+    "dept": "prod_eng",
+    "approver": "u_j2288",
+    "depart_date": "2027-02-25",
+    "return_date": "2027-03-03",
+    "dest_country": "TW",
+    "dest_city": [
+     "台北市",
+     "台北"
+    ],
+    "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "no",
+    "exp_air_amount": "89200",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "23400",
+    "exp_hotel_cur": "TWD",
+    "advance_amount": "120000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-2210"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "山口 千尋",
+     "emp_no": "J-32956",
+     "dept": "prod_eng",
+     "approver": "u_j2288",
+     "depart_date": "2027-02-25",
+     "return_date": "2027-03-03",
+     "dest_country": "TW",
+     "dest_city": "台北市",
+     "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "no",
+     "exp_air_amount": "89200",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "23400",
+     "exp_hotel_cur": "TWD",
+     "advance_amount": "120000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-2210"
+    },
+    "wrong": {
+     "visa_needed": "yes"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+    "dest_city": [
+     "台北市",
+     "台北"
+    ],
+    "dest_country": "TW",
+    "depart_date": "2027-02-25",
+    "return_date": "2027-03-03",
+    "outbound_flight": "CI 471",
+    "return_flight": "CI 192",
+    "hotel": "内湖リバーサイドホテル",
+    "visa_needed": "no",
+    "passport_no": "ZK4826603",
+    "passport_expiry": "2028-06-17",
+    "exp_hotel_amount": "23400",
+    "exp_hotel_cur": "TWD",
+    "exp_air_amount": "89200",
+    "exp_air_cur": "JPY",
+    "advance_amount": "120000",
+    "advance_cur": "JPY",
+    "emp_no": "J-32956",
+    "name": [
+     "山口 千尋",
+     "山口千尋"
+    ],
+    "mobile": "070-5272-2500",
+    "approver": "u_j2288",
+    "cost_center": "CC-2210"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+     "dest_city": "台北市",
+     "dest_country": "TW",
+     "depart_date": "2027-02-25",
+     "return_date": "2027-03-03",
+     "outbound_flight": "CI 471",
+     "return_flight": "CI 192",
+     "hotel": "内湖リバーサイドホテル",
+     "visa_needed": "no",
+     "passport_no": "ZK4826603",
+     "passport_expiry": "2028-06-17",
+     "exp_hotel_amount": "23400",
+     "exp_hotel_cur": "TWD",
+     "exp_air_amount": "89200",
+     "exp_air_cur": "JPY",
+     "advance_amount": "120000",
+     "advance_cur": "JPY",
+     "emp_no": "J-32956",
+     "name": "山口 千尋",
+     "mobile": "070-5272-2500",
+     "approver": "u_j2288",
+     "cost_center": "CC-2210"
+    },
+    "wrong": {
+     "passport_no": "ZK48266x",
+     "return_flight": "CI "
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j2288",
+    "cost_center": "CC-2210",
+    "dest_country": "TW",
+    "dest_city": [
+     "台北市",
+     "台北"
+    ],
+    "depart_date": "2027-02-25",
+    "return_date": "2027-03-03",
+    "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "no",
+    "exp_air_amount": "89200",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "23400",
+    "exp_hotel_cur": "TWD",
+    "advance_amount": "120000",
+    "advance_cur": "JPY",
+    "name": [
+     "山口 千尋",
+     "山口千尋"
+    ],
+    "emp_no": "J-32956",
+    "dept": "prod_eng",
+    "email": "c.yamaguchi@kestrel-semi.example",
+    "mobile": "070-5272-2500",
+    "title": "主査",
+    "outbound_flight": "CI 471",
+    "return_flight": "CI 192",
+    "hotel": "内湖リバーサイドホテル",
+    "exp_local_amount": "4800",
+    "exp_local_cur": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j2288",
+     "cost_center": "CC-2210",
+     "dest_country": "TW",
+     "dest_city": "台北市",
+     "depart_date": "2027-02-25",
+     "return_date": "2027-03-03",
+     "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "no",
+     "exp_air_amount": "89200",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "23400",
+     "exp_hotel_cur": "TWD",
+     "advance_amount": "120000",
+     "advance_cur": "JPY",
+     "name": "山口 千尋",
+     "emp_no": "J-32956",
+     "dept": "prod_eng",
+     "email": "c.yamaguchi@kestrel-semi.example",
+     "mobile": "070-5272-2500",
+     "title": "主査",
+     "outbound_flight": "CI 471",
+     "return_flight": "CI 192",
+     "hotel": "内湖リバーサイドホテル",
+     "exp_local_amount": "4800",
+     "exp_local_cur": "TWD"
+    },
+    "wrong": {
+     "email": "c.yamaguchi at kestrel-semi.example",
+     "mobile": "070-52"
+    }
+   }
+  }
+ }
+}

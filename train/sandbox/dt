@@ -1,0 +1,3 @@
+#!/bin/sh
+# Wrapper: train/sandbox/dt <cmd> ...  (see dt.py docstring)
+exec uv run -q --with daytona python "$(dirname "$0")/dt.py" "$@"

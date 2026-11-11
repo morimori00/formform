@@ -1,0 +1,260 @@
+{
+ "persona": "jp-travel-request/t-trip-037",
+ "context": "jp-travel-request/t-trip-037.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-21847",
+    "name": [
+     "前田 千尋",
+     "前田千尋"
+    ],
+    "dept": "qa",
+    "title": "係長",
+    "cost_center": "CC-2300",
+    "email": "c.maeda@kestrel-semi.example",
+    "mobile": "080-5887-1121",
+    "dest_country": "VN",
+    "dest_city": "ホーチミン",
+    "purpose": "委託組立工場 歩留まり改善会議への出席および工程監査",
+    "depart_date": "2027-01-22",
+    "return_date": "2027-01-28",
+    "outbound_flight": "VN 672",
+    "return_flight": "VN 393",
+    "hotel": "サイゴン・リバーホテル",
+    "visa_needed": "yes",
+    "exp_air_amount": "119600",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "780",
+    "exp_hotel_cur": "USD",
+    "exp_local_amount": "195",
+    "exp_local_cur": "USD",
+    "advance_amount": "150000",
+    "advance_cur": "JPY",
+    "passport_no": "KK2642323",
+    "passport_expiry": "2034-08-15",
+    "approver": "u_j4160"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-21847",
+     "name": "前田 千尋",
+     "dept": "qa",
+     "title": "係長",
+     "cost_center": "CC-2300",
+     "email": "c.maeda@kestrel-semi.example",
+     "mobile": "080-5887-1121",
+     "dest_country": "VN",
+     "dest_city": "ホーチミン",
+     "purpose": "委託組立工場 歩留まり改善会議への出席および工程監査",
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-28",
+     "outbound_flight": "VN 672",
+     "return_flight": "VN 393",
+     "hotel": "サイゴン・リバーホテル",
+     "visa_needed": "yes",
+     "exp_air_amount": "119600",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "780",
+     "exp_hotel_cur": "USD",
+     "exp_local_amount": "195",
+     "exp_local_cur": "USD",
+     "advance_amount": "150000",
+     "advance_cur": "JPY",
+     "passport_no": "KK2642323",
+     "passport_expiry": "2034-08-15",
+     "approver": "u_j4160"
+    },
+    "wrong": {
+     "email": "c.maeda at kestrel-semi.example",
+     "emp_no": "J-2"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "前田 千尋",
+     "前田千尋"
+    ],
+    "emp_no": "J-21847",
+    "dept": "qa",
+    "approver": "u_j4160",
+    "depart_date": "2027-01-22",
+    "return_date": "2027-01-28",
+    "dest_country": "VN",
+    "dest_city": "ホーチミン",
+    "purpose": "委託組立工場 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "yes",
+    "exp_air_amount": "119600",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "780",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "150000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-2300"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "前田 千尋",
+     "emp_no": "J-21847",
+     "dept": "qa",
+     "approver": "u_j4160",
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-28",
+     "dest_country": "VN",
+     "dest_city": "ホーチミン",
+     "purpose": "委託組立工場 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "yes",
+     "exp_air_amount": "119600",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "780",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "150000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-2300"
+    },
+    "wrong": {
+     "name": "前田"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "委託組立工場 歩留まり改善会議への出席および工程監査",
+    "dest_city": "ホーチミン",
+    "dest_country": "VN",
+    "depart_date": "2027-01-22",
+    "return_date": "2027-01-28",
+    "outbound_flight": "VN 672",
+    "return_flight": "VN 393",
+    "hotel": "サイゴン・リバーホテル",
+    "visa_needed": "yes",
+    "passport_no": "KK2642323",
+    "passport_expiry": "2034-08-15",
+    "exp_hotel_amount": "780",
+    "exp_hotel_cur": "USD",
+    "exp_air_amount": "119600",
+    "exp_air_cur": "JPY",
+    "advance_amount": "150000",
+    "advance_cur": "JPY",
+    "emp_no": "J-21847",
+    "name": [
+     "前田 千尋",
+     "前田千尋"
+    ],
+    "mobile": "080-5887-1121",
+    "approver": "u_j4160",
+    "cost_center": "CC-2300"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "委託組立工場 歩留まり改善会議への出席および工程監査",
+     "dest_city": "ホーチミン",
+     "dest_country": "VN",
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-28",
+     "outbound_flight": "VN 672",
+     "return_flight": "VN 393",
+     "hotel": "サイゴン・リバーホテル",
+     "visa_needed": "yes",
+     "passport_no": "KK2642323",
+     "passport_expiry": "2034-08-15",
+     "exp_hotel_amount": "780",
+     "exp_hotel_cur": "USD",
+     "exp_air_amount": "119600",
+     "exp_air_cur": "JPY",
+     "advance_amount": "150000",
+     "advance_cur": "JPY",
+     "emp_no": "J-21847",
+     "name": "前田 千尋",
+     "mobile": "080-5887-1121",
+     "approver": "u_j4160",
+     "cost_center": "CC-2300"
+    },
+    "wrong": {
+     "passport_no": "KK26423x",
+     "hotel": "サイゴン・"
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j4160",
+    "cost_center": "CC-2300",
+    "dest_country": "VN",
+    "dest_city": "ホーチミン",
+    "depart_date": "2027-01-22",
+    "return_date": "2027-01-28",
+    "purpose": "委託組立工場 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "yes",
+    "exp_air_amount": "119600",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "780",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "150000",
+    "advance_cur": "JPY",
+    "name": [
+     "前田 千尋",
+     "前田千尋"
+    ],
+    "emp_no": "J-21847",
+    "dept": "qa",
+    "email": "c.maeda@kestrel-semi.example",
+    "mobile": "080-5887-1121",
+    "title": "係長",
+    "outbound_flight": "VN 672",
+    "return_flight": "VN 393",
+    "hotel": "サイゴン・リバーホテル",
+    "exp_local_amount": "195",
+    "exp_local_cur": "USD"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j4160",
+     "cost_center": "CC-2300",
+     "dest_country": "VN",
+     "dest_city": "ホーチミン",
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-28",
+     "purpose": "委託組立工場 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "yes",
+     "exp_air_amount": "119600",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "780",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "150000",
+     "advance_cur": "JPY",
+     "name": "前田 千尋",
+     "emp_no": "J-21847",
+     "dept": "qa",
+     "email": "c.maeda@kestrel-semi.example",
+     "mobile": "080-5887-1121",
+     "title": "係長",
+     "outbound_flight": "VN 672",
+     "return_flight": "VN 393",
+     "hotel": "サイゴン・リバーホテル",
+     "exp_local_amount": "195",
+     "exp_local_cur": "USD"
+    },
+    "wrong": {
+     "email": "c.maeda at kestrel-semi.example",
+     "name": "前田"
+    }
+   }
+  }
+ }
+}

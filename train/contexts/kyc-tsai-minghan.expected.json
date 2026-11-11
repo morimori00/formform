@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-tsai-minghan",
+ "context": "kyc-tsai-minghan.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-77310",
+    "full_name": [
+     "Tsai Ming-Han",
+     "Ming-Han Tsai"
+    ],
+    "spouse_name": "Wu Hsin-Yi",
+    "gender": "male",
+    "marital": "married",
+    "dob": "1981-05-30",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "F128473650",
+    "id_proof": "national_id",
+    "address": [
+     "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114"
+    ],
+    "phone": "+886 935 662 071",
+    "email": "minghan.tsai@inbox.example",
+    "addr_proof": "utility_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Tsai Ming-Han",
+     "Ming-Han Tsai"
+    ],
+    "sign_date": "2026-11-06",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-77310",
+     "full_name": "Tsai Ming-Han",
+     "spouse_name": "Wu Hsin-Yi",
+     "gender": "male",
+     "marital": "married",
+     "dob": "1981-05-30",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "F128473650",
+     "id_proof": "national_id",
+     "address": "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "phone": "+886 935 662 071",
+     "email": "minghan.tsai@inbox.example",
+     "addr_proof": "utility_bill",
+     "perm_same": true,
+     "decl_name": "Tsai Ming-Han",
+     "sign_date": "2026-11-06"
+    },
+    "wrong": {
+     "tax_id": "F1284736x",
+     "decl_name": "Tsai M"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Tsai Ming-Han",
+     "Ming-Han Tsai"
+    ],
+    "dob": "1981-05-30",
+    "mother_maiden": "",
+    "phone": "+886 935 662 071",
+    "email": "minghan.tsai@inbox.example",
+    "address": [
+     "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114"
+    ],
+    "education": "master",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "individual",
+    "monthly_income": "185000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Tsai Ming-Han",
+     "dob": "1981-05-30",
+     "phone": "+886 935 662 071",
+     "email": "minghan.tsai@inbox.example",
+     "address": "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "education": "master",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "individual",
+     "monthly_income": "185000"
+    },
+    "wrong": {
+     "email": "minghan.tsai at inbox.example",
+     "full_name": "Tsai M"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Tsai Ming-Han",
+     "Ming-Han Tsai"
+    ],
+    "dob": "1981-05-30",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Wu Hsin-Yi",
+    "address": [
+     "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114"
+    ],
+    "email": "minghan.tsai@inbox.example",
+    "phone": "+886 935 662 071",
+    "addr_proof": "utility_bill",
+    "id_proof": "national_id",
+    "tax_id": "F128473650",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-77310"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Tsai Ming-Han",
+     "dob": "1981-05-30",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Wu Hsin-Yi",
+     "address": "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "email": "minghan.tsai@inbox.example",
+     "phone": "+886 935 662 071",
+     "addr_proof": "utility_bill",
+     "id_proof": "national_id",
+     "tax_id": "F128473650",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-77310"
+    },
+    "wrong": {
+     "email": "minghan.tsai at inbox.example",
+     "addr_proof": "bank_statement"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Tsai Ming-Han",
+     "Ming-Han Tsai"
+    ],
+    "dob": "1981-05-30",
+    "gender": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 935 662 071",
+    "email": "minghan.tsai@inbox.example",
+    "address": [
+     "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "F128473650",
+    "addr_proof": "utility_bill",
+    "account_type": "savings",
+    "account_category": "individual",
+    "education": "master",
+    "monthly_income": "185000",
+    "application_no": "LCB-AO-2026-77310",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Tsai Ming-Han",
+     "dob": "1981-05-30",
+     "gender": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 935 662 071",
+     "email": "minghan.tsai@inbox.example",
+     "address": "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "F128473650",
+     "addr_proof": "utility_bill",
+     "account_type": "savings",
+     "account_category": "individual",
+     "education": "master",
+     "monthly_income": "185000",
+     "application_no": "LCB-AO-2026-77310"
+    },
+    "wrong": {
+     "email": "minghan.tsai at inbox.example",
+     "marital": "single"
+    }
+   }
+  }
+ }
+}

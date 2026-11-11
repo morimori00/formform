@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-007",
+ "context": "tw-vendor-master/t-tw-007.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "順暘氣體有限公司",
+    "vendor_name_en": "Shunyang Gases Co., Ltd.",
+    "ubn": "16629896",
+    "owner": "許怡萱",
+    "established": "2021-10-25",
+    "capital": "727000000",
+    "org_type": "limited",
+    "postal": "300",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "成功路339號3樓",
+    "tel": "03-624-1608",
+    "fax": "03-624-3406",
+    "contact_name": [
+     "許淑明",
+     "Hsu Shu-ming"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "email": "shuming.hsu@shunyang-gases.example",
+    "contact_mobile": "0964-127-925",
+    "bank_code": "812",
+    "bank_branch": [
+     "香山分行",
+     "香山"
+    ],
+    "account_no": "47354125660445",
+    "account_name": "順暘氣體有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-11-21"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "順暘氣體有限公司",
+     "vendor_name_en": "Shunyang Gases Co., Ltd.",
+     "ubn": "16629896",
+     "owner": "許怡萱",
+     "established": "2021-10-25",
+     "capital": "727000000",
+     "org_type": "limited",
+     "postal": "300",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "成功路339號3樓",
+     "tel": "03-624-1608",
+     "fax": "03-624-3406",
+     "contact_name": "許淑明",
+     "contact_title": "業務經理",
+     "email": "shuming.hsu@shunyang-gases.example",
+     "contact_mobile": "0964-127-925",
+     "bank_code": "812",
+     "bank_branch": "香山分行",
+     "account_no": "47354125660445",
+     "account_name": "順暘氣體有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-11-21"
+    },
+    "wrong": {
+     "ubn": "166298x",
+     "contact_title": "業務"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "16629896",
+    "vendor_name_zh": "順暘氣體有限公司",
+    "vendor_name_en": "Shunyang Gases Co., Ltd.",
+    "org_type": "limited",
+    "established": "2021-10-25",
+    "owner": "許怡萱",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "成功路339號3樓",
+    "postal": "300",
+    "tel": "03-624-1608",
+    "fax": "03-624-3406",
+    "contact_name": [
+     "許淑明",
+     "Hsu Shu-ming"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "contact_mobile": "0964-127-925",
+    "email": "shuming.hsu@shunyang-gases.example",
+    "bank_code": "812",
+    "bank_branch": [
+     "香山分行",
+     "香山"
+    ],
+    "account_no": "47354125660445",
+    "account_name": "順暘氣體有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-11-21",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "16629896",
+     "vendor_name_zh": "順暘氣體有限公司",
+     "vendor_name_en": "Shunyang Gases Co., Ltd.",
+     "org_type": "limited",
+     "established": "2021-10-25",
+     "owner": "許怡萱",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "成功路339號3樓",
+     "postal": "300",
+     "tel": "03-624-1608",
+     "fax": "03-624-3406",
+     "contact_name": "許淑明",
+     "contact_title": "業務經理",
+     "contact_mobile": "0964-127-925",
+     "email": "shuming.hsu@shunyang-gases.example",
+     "bank_code": "812",
+     "bank_branch": "香山分行",
+     "account_no": "47354125660445",
+     "account_name": "順暘氣體有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-11-21"
+    },
+    "wrong": {
+     "ubn": "166298x",
+     "vendor_name_zh": "順暘氣體"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "16629896",
+    "vendor_name_zh": "順暘氣體有限公司",
+    "owner": "許怡萱",
+    "established": "2021-10-25",
+    "org_type": "limited",
+    "capital": "727000000",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "成功路339號3樓",
+    "postal": "300",
+    "tel": "03-624-1608",
+    "contact_name": [
+     "許淑明",
+     "Hsu Shu-ming"
+    ],
+    "email": "shuming.hsu@shunyang-gases.example",
+    "bank_code": "812",
+    "account_no": "47354125660445",
+    "account_name": "順暘氣體有限公司",
+    "payment_terms": "net45",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "16629896",
+     "vendor_name_zh": "順暘氣體有限公司",
+     "owner": "許怡萱",
+     "established": "2021-10-25",
+     "org_type": "limited",
+     "capital": "727000000",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "成功路339號3樓",
+     "postal": "300",
+     "tel": "03-624-1608",
+     "contact_name": "許淑明",
+     "email": "shuming.hsu@shunyang-gases.example",
+     "bank_code": "812",
+     "account_no": "47354125660445",
+     "account_name": "順暘氣體有限公司",
+     "payment_terms": "net45",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "166298x",
+     "org_type": "corp_shares"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "順暘氣體有限公司",
+    "vendor_name_en": "Shunyang Gases Co., Ltd.",
+    "foreign": false,
+    "org_type": "limited",
+    "ubn": "16629896",
+    "owner": "許怡萱",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "成功路339號3樓",
+    "postal": "300",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-624-1608",
+    "contact_name": [
+     "許淑明",
+     "Hsu Shu-ming"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "email": "shuming.hsu@shunyang-gases.example",
+    "account_no": "47354125660445",
+    "account_name": "順暘氣體有限公司",
+    "payment_terms": "net45",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "順暘氣體有限公司",
+     "vendor_name_en": "Shunyang Gases Co., Ltd.",
+     "foreign": false,
+     "org_type": "limited",
+     "ubn": "16629896",
+     "owner": "許怡萱",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "成功路339號3樓",
+     "postal": "300",
+     "tel": "03-624-1608",
+     "contact_name": "許淑明",
+     "contact_title": "業務經理",
+     "email": "shuming.hsu@shunyang-gases.example",
+     "account_no": "47354125660445",
+     "account_name": "順暘氣體有限公司",
+     "payment_terms": "net45",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "166298x",
+     "currency": "USD"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "812",
+    "bank_branch": [
+     "香山分行",
+     "香山"
+    ],
+    "account_no": "47354125660445",
+    "account_name": "順暘氣體有限公司",
+    "payment_terms": "net45",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "成功路339號3樓",
+    "postal": "300",
+    "tel": "03-624-1608",
+    "fax": "03-624-3406",
+    "vendor_name_zh": "順暘氣體有限公司",
+    "ubn": "16629896",
+    "owner": "許怡萱",
+    "org_type": "limited",
+    "established": "2021-10-25",
+    "capital": "727000000",
+    "vendor_name_en": "Shunyang Gases Co., Ltd.",
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "contact_mobile": "0964-127-925",
+    "contact_name": [
+     "許淑明",
+     "Hsu Shu-ming"
+    ],
+    "email": "shuming.hsu@shunyang-gases.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "812",
+     "bank_branch": "香山分行",
+     "account_no": "47354125660445",
+     "account_name": "順暘氣體有限公司",
+     "payment_terms": "net45",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "成功路339號3樓",
+     "postal": "300",
+     "tel": "03-624-1608",
+     "fax": "03-624-3406",
+     "vendor_name_zh": "順暘氣體有限公司",
+     "ubn": "16629896",
+     "owner": "許怡萱",
+     "org_type": "limited",
+     "established": "2021-10-25",
+     "capital": "727000000",
+     "vendor_name_en": "Shunyang Gases Co., Ltd.",
+     "contact_title": "業務經理",
+     "contact_mobile": "0964-127-925",
+     "contact_name": "許淑明",
+     "email": "shuming.hsu@shunyang-gases.example"
+    },
+    "wrong": {
+     "account_no": "473541256604x",
+     "org_type": "corp_shares"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "persona": "us-tax-portal/e-delaware-register-user-06",
+ "context": "us-tax-portal/e-delaware-register-user-06.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/delaware-register-user": {
+   "submit": true,
+   "fields": {
+    "accept_terms": true,
+    "first_name": "Anika",
+    "middle_initial": "R",
+    "last_name": "Ferreira",
+    "position": "Controller",
+    "email": "aferreira@sandhurst.example",
+    "email_confirm": "aferreira@sandhurst.example",
+    "country_code": "1",
+    "day_phone": "(302) 555-0107",
+    "mobile_country_code": "1",
+    "mobile_phone": "(302) 555-0157",
+    "user_id": "sandhurst.aferreira",
+    "esign": "Anika R. Ferreira",
+    "certify": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "accept_terms": true,
+     "first_name": "Anika",
+     "middle_initial": "R",
+     "last_name": "Ferreira",
+     "position": "Controller",
+     "email": "aferreira@sandhurst.example",
+     "email_confirm": "aferreira@sandhurst.example",
+     "country_code": "1",
+     "day_phone": "(302) 555-0107",
+     "mobile_country_code": "1",
+     "mobile_phone": "(302) 555-0157",
+     "user_id": "sandhurst.aferreira",
+     "esign": "Anika R. Ferreira",
+     "certify": true
+    },
+    "wrong": {
+     "middle_initial": "x",
+     "esign": "Anika R."
+    }
+   }
+  }
+ }
+}

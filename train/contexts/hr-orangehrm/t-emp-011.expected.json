@@ -1,0 +1,184 @@
+{
+ "persona": "hr-orangehrm/t-emp-011",
+ "context": "hr-orangehrm/t-emp-011.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": false,
+   "fields": {
+    "first_name": "Andre",
+    "middle_name": "Ann",
+    "last_name": "Romano",
+    "employee_id": "KST-30925",
+    "create_login": true,
+    "username": "andre.romano",
+    "login_status": "enabled",
+    "password": "",
+    "confirm_password": ""
+   },
+   "infeasible": [
+    "password",
+    "confirm_password"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Andre",
+     "middle_name": "Ann",
+     "last_name": "Romano",
+     "employee_id": "KST-30925",
+     "create_login": true,
+     "username": "andre.romano",
+     "login_status": "enabled"
+    },
+    "wrong": {
+     "employee_id": "KST-309x",
+     "middle_name": "A"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Andre",
+    "middle_name": "Ann",
+    "last_name": "Romano",
+    "employee_id": "KST-30925",
+    "license_number": "DL-21705117",
+    "license_expiry": "2033-04-22",
+    "nationality": "KR",
+    "marital": "widowed",
+    "dob": "1992-06-08",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Andre",
+     "middle_name": "Ann",
+     "last_name": "Romano",
+     "employee_id": "KST-30925",
+     "license_number": "DL-21705117",
+     "license_expiry": "2033-04-22",
+     "nationality": "KR",
+     "marital": "widowed",
+     "dob": "1992-06-08",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-309x",
+     "dob": "1991-06-08"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2027-02-23",
+    "leave_to": "2027-02-28",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Child's school event — Ming-Jie Liu covers approvals"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2027-02-23",
+     "leave_to": "2027-02-28",
+     "partial_days": "none",
+     "leave_comment": "Child's school event — Ming-Jie Liu covers approvals"
+    },
+    "wrong": {
+     "leave_from": "2026-02-23"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2027-02-23",
+    "leave_to": "2027-02-28",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Child's school event — Ming-Jie Liu covers approvals"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2027-02-23",
+     "leave_to": "2027-02-28",
+     "partial_days": "none",
+     "leave_comment": "Child's school event — Ming-Jie Liu covers approvals"
+    },
+    "wrong": {
+     "leave_to": "2026-02-28"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Andre",
+    "middle_name": "Ann",
+    "last_name": "Romano",
+    "employee_id": "KST-30925",
+    "create_login": true,
+    "username": "andre.romano",
+    "login_status": "enabled",
+    "password": "",
+    "confirm_password": "",
+    "nationality": "KR",
+    "marital": "widowed",
+    "dob": "1992-06-08",
+    "gender": "female",
+    "job_title": "equip_eng",
+    "department": "infosec",
+    "work_location": "tainan",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2901",
+    "joined_date": "2026-12-19"
+   },
+   "infeasible": [
+    "password",
+    "confirm_password"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Andre",
+     "middle_name": "Ann",
+     "last_name": "Romano",
+     "employee_id": "KST-30925",
+     "create_login": true,
+     "username": "andre.romano",
+     "login_status": "enabled",
+     "nationality": "KR",
+     "marital": "widowed",
+     "dob": "1992-06-08",
+     "gender": "female",
+     "job_title": "equip_eng",
+     "department": "infosec",
+     "work_location": "tainan",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2901",
+     "joined_date": "2026-12-19"
+    },
+    "wrong": {
+     "employee_id": "KST-309x",
+     "emp_status": "ft_perm"
+    }
+   }
+  }
+ }
+}

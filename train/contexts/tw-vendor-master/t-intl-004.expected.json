@@ -1,0 +1,69 @@
+{
+ "persona": "tw-vendor-master/t-intl-004",
+ "context": "tw-vendor-master/t-intl-004.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "",
+    "vendor_name_en": "Ironwood IT Services Co., Ltd.",
+    "foreign": true,
+    "org_type": "foreign",
+    "ubn": "",
+    "owner": "",
+    "county": "",
+    "district": "",
+    "address_line": "",
+    "postal": "",
+    "foreign_address": "336 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "swift": "SLBXTHXLXXX",
+    "tel": "+66 2 797 0293",
+    "contact_name": [
+     "Elena Ali",
+     "Mr. Elena Ali"
+    ],
+    "contact_title": "Commercial Manager",
+    "email": "elena.ali@ironwood.example",
+    "account_no": "355-347202-8",
+    "account_name": "Ironwood IT Services Co., Ltd.",
+    "payment_terms": "net60",
+    "invoice_type": "foreign_invoice",
+    "currency": "THB"
+   },
+   "infeasible": [
+    "vendor_name_zh"
+   ],
+   "hidden": [
+    "ubn",
+    "owner",
+    "county",
+    "district",
+    "address_line",
+    "postal"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_en": "Ironwood IT Services Co., Ltd.",
+     "foreign": true,
+     "org_type": "foreign",
+     "foreign_address": "336 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "swift": "SLBXTHXLXXX",
+     "tel": "+66 2 797 0293",
+     "contact_name": "Elena Ali",
+     "contact_title": "Commercial Manager",
+     "email": "elena.ali@ironwood.example",
+     "account_no": "355-347202-8",
+     "account_name": "Ironwood IT Services Co., Ltd.",
+     "payment_terms": "net60",
+     "invoice_type": "foreign_invoice",
+     "currency": "THB"
+    },
+    "wrong": {
+     "email": "elena.ali at ironwood.example",
+     "currency": "TWD"
+    }
+   }
+  }
+ }
+}

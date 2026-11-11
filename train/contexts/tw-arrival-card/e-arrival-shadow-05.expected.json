@@ -1,0 +1,74 @@
+{
+ "persona": "tw-arrival-card/e-arrival-shadow-05",
+ "context": "tw-arrival-card/e-arrival-shadow-05.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-shadow": {
+   "submit": false,
+   "fields": {
+    "nationality": "JP",
+    "passport_no": "K6946467A",
+    "family_name": "FUJITA",
+    "given_name": "YUI",
+    "dob": "1992-03-21",
+    "sex": "male",
+    "passport_expiry": "2029-01-01",
+    "arrival_date": "2026-12-22",
+    "flight_no": "JL 749",
+    "purpose": "business",
+    "occupation": "other",
+    "visa_type": "visa_exempt",
+    "visa_no": "",
+    "stay_type": "residence",
+    "county": "新竹市",
+    "district": "東區",
+    "stay_address": [
+     "No. 57, Nanjing E. Rd., East Dist., Hsinchu City 300",
+     "company residence, No. 57, Nanjing E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 912 940 149",
+    "email": "yui.fujita@kestrel-semi.example",
+    "visited": [
+     "JP",
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [
+    "visa_no"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "nationality": "JP",
+     "passport_no": "K6946467A",
+     "family_name": "FUJITA",
+     "given_name": "YUI",
+     "dob": "1992-03-21",
+     "sex": "male",
+     "passport_expiry": "2029-01-01",
+     "arrival_date": "2026-12-22",
+     "flight_no": "JL 749",
+     "purpose": "business",
+     "occupation": "other",
+     "visa_type": "visa_exempt",
+     "stay_type": "residence",
+     "county": "新竹市",
+     "district": "東區",
+     "stay_address": "No. 57, Nanjing E. Rd., East Dist., Hsinchu City 300",
+     "phone": "+886 912 940 149",
+     "email": "yui.fujita@kestrel-semi.example",
+     "visited": [
+      "JP",
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "FUJIx",
+     "passport_expiry": "2028-01-01"
+    }
+   }
+  }
+ }
+}

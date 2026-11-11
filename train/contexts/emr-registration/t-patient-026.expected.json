@@ -1,0 +1,236 @@
+{
+ "persona": "emr-registration/t-patient-026",
+ "context": "emr-registration/t-patient-026.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ingrid",
+    "middle_name": "",
+    "last_name": "Costa",
+    "dob": "1994-04-30",
+    "sex": "female",
+    "marital": "divorced",
+    "language": "english",
+    "street": "4F, No. 59, Ln. 135, Dunhua N. Rd., Neihu Dist.",
+    "city": "Taipei City",
+    "postal": "114",
+    "country": "TW",
+    "phone_home": "",
+    "phone_cell": "0923-697-370",
+    "email": "",
+    "occupation": "Retired teacher",
+    "employer": "Ironwood Trading Co.",
+    "ec_name": "Naomi Lindqvist",
+    "ec_phone": "0978-335-643",
+    "ec_relationship": "friend",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-4264-9051",
+    "group_number": "G-3616",
+    "subscriber_rel": "other",
+    "ins_effective": "2026-05-06"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ingrid",
+     "last_name": "Costa",
+     "dob": "1994-04-30",
+     "sex": "female",
+     "marital": "divorced",
+     "language": "english",
+     "street": "4F, No. 59, Ln. 135, Dunhua N. Rd., Neihu Dist.",
+     "city": "Taipei City",
+     "postal": "114",
+     "country": "TW",
+     "phone_cell": "0923-697-370",
+     "occupation": "Retired teacher",
+     "employer": "Ironwood Trading Co.",
+     "ec_name": "Naomi Lindqvist",
+     "ec_phone": "0978-335-643",
+     "ec_relationship": "friend",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-4264-9051",
+     "group_number": "G-3616",
+     "subscriber_rel": "other",
+     "ins_effective": "2026-05-06"
+    },
+    "wrong": {
+     "postal": "1"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Costa",
+    "first_name": "Ingrid",
+    "middle_name": "",
+    "dob": "1994-04-30",
+    "sex": "female",
+    "marital": "divorced",
+    "national_id": "",
+    "street": "4F, No. 59, Ln. 135, Dunhua N. Rd., Neihu Dist.",
+    "postal": "114",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0923-697-370",
+    "phone_home": "",
+    "email": "",
+    "ec_name": "Naomi Lindqvist",
+    "ec_relationship": "friend",
+    "ec_phone": "0978-335-643",
+    "occupation": "Retired teacher",
+    "employer": "Ironwood Trading Co.",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-4264-9051",
+    "group_number": "G-3616",
+    "subscriber_rel": "other",
+    "ins_effective": "2026-05-06",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Costa",
+     "first_name": "Ingrid",
+     "dob": "1994-04-30",
+     "sex": "female",
+     "marital": "divorced",
+     "street": "4F, No. 59, Ln. 135, Dunhua N. Rd., Neihu Dist.",
+     "postal": "114",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0923-697-370",
+     "ec_name": "Naomi Lindqvist",
+     "ec_relationship": "friend",
+     "ec_phone": "0978-335-643",
+     "occupation": "Retired teacher",
+     "employer": "Ironwood Trading Co.",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-4264-9051",
+     "group_number": "G-3616",
+     "subscriber_rel": "other",
+     "ins_effective": "2026-05-06"
+    },
+    "wrong": {
+     "ins_provider": "fmh"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ingrid",
+    "last_name": "Costa",
+    "dob": "1994-04-30",
+    "sex": "female",
+    "language": "english",
+    "street": "4F, No. 59, Ln. 135, Dunhua N. Rd., Neihu Dist.",
+    "city": "Taipei City",
+    "postal": "114",
+    "country": "TW",
+    "phone_cell": "0923-697-370",
+    "phone_home": "",
+    "ec_name": "Naomi Lindqvist",
+    "ec_phone": "0978-335-643",
+    "ec_relationship": "friend",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-4264-9051",
+    "group_number": "G-3616",
+    "subscriber_rel": "other",
+    "ins_effective": "2026-05-06"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ingrid",
+     "last_name": "Costa",
+     "dob": "1994-04-30",
+     "sex": "female",
+     "language": "english",
+     "street": "4F, No. 59, Ln. 135, Dunhua N. Rd., Neihu Dist.",
+     "city": "Taipei City",
+     "postal": "114",
+     "country": "TW",
+     "phone_cell": "0923-697-370",
+     "ec_name": "Naomi Lindqvist",
+     "ec_phone": "0978-335-643",
+     "ec_relationship": "friend",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-4264-9051",
+     "group_number": "G-3616",
+     "subscriber_rel": "other",
+     "ins_effective": "2026-05-06"
+    },
+    "wrong": {
+     "subscriber_rel": "self"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Costa",
+    "first_name": "Ingrid",
+    "dob": "1994-04-30",
+    "sex": "female",
+    "phone_cell": "0923-697-370",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "114",
+    "street": "4F, No. 59, Ln. 135, Dunhua N. Rd., Neihu Dist.",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-4264-9051",
+    "subscriber_rel": "other",
+    "ins_effective": "2026-05-06",
+    "email": "",
+    "phone_home": "",
+    "marital": "divorced",
+    "language": "english",
+    "occupation": "Retired teacher",
+    "employer": "Ironwood Trading Co.",
+    "ec_name": "Naomi Lindqvist",
+    "ec_phone": "0978-335-643",
+    "ec_relationship": "friend",
+    "group_number": "G-3616"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Costa",
+     "first_name": "Ingrid",
+     "dob": "1994-04-30",
+     "sex": "female",
+     "phone_cell": "0923-697-370",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "114",
+     "street": "4F, No. 59, Ln. 135, Dunhua N. Rd., Neihu Dist.",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-4264-9051",
+     "subscriber_rel": "other",
+     "ins_effective": "2026-05-06",
+     "marital": "divorced",
+     "language": "english",
+     "occupation": "Retired teacher",
+     "employer": "Ironwood Trading Co.",
+     "ec_name": "Naomi Lindqvist",
+     "ec_phone": "0978-335-643",
+     "ec_relationship": "friend",
+     "group_number": "G-3616"
+    },
+    "wrong": {
+     "policy_number": "JMH-42"
+    }
+   }
+  }
+ }
+}

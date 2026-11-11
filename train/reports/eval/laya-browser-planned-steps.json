@@ -1,0 +1,75 @@
+{
+ "checkpoint": "/home/daytona/hf/hub/models--cklxx--laya-browser/snapshots/645cf366a2ae35f1086e8c20eff48f909bb49206",
+ "data": "data/eval_planned.jsonl",
+ "max_len": 4096,
+ "rows": 2732,
+ "errors": 0,
+ "step_acc": 0.3335,
+ "op_acc": 0.7602,
+ "latency_ms_p50": 26.8,
+ "latency_ms_p95": 67.7,
+ "by_label_operation": {
+  "BLOCKED": {
+   "n": 14,
+   "acc": 0.0
+  },
+  "CLICK": {
+   "n": 1006,
+   "acc": 0.4205
+  },
+  "DONE": {
+   "n": 140,
+   "acc": 0.8429
+  },
+  "SCROLL_DOWN": {
+   "n": 176,
+   "acc": 0.0966
+  },
+  "SCROLL_UP": {
+   "n": 5,
+   "acc": 0.0
+  },
+  "SELECT": {
+   "n": 230,
+   "acc": 0.1783
+  },
+  "TYPE_TEXT": {
+   "n": 988,
+   "acc": 0.3158
+  },
+  "WAIT": {
+   "n": 173,
+   "acc": 0.0
+  }
+ },
+ "by_family": {
+  "emr-registration": {
+   "n": 286,
+   "acc": 0.1748
+  },
+  "hr-orangehrm": {
+   "n": 226,
+   "acc": 0.4381
+  },
+  "itsm-request": {
+   "n": 190,
+   "acc": 0.3579
+  },
+  "kyc-account-opening": {
+   "n": 208,
+   "acc": 0.351
+  },
+  "tw-arrival-card": {
+   "n": 1001,
+   "acc": 0.2957
+  },
+  "us-tax-portal": {
+   "n": 555,
+   "acc": 0.4955
+  },
+  "vendor-onboarding": {
+   "n": 266,
+   "acc": 0.188
+  }
+ }
+}

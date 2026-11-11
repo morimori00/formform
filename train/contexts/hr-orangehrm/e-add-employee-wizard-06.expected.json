@@ -1,0 +1,51 @@
+{
+ "persona": "hr-orangehrm/e-add-employee-wizard-06",
+ "context": "hr-orangehrm/e-add-employee-wizard-06.md",
+ "split": "eval",
+ "variants": {
+  "hr-orangehrm/add-employee-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hao-Ning",
+    "middle_name": "",
+    "last_name": "Yu",
+    "employee_id": "KST-95608",
+    "create_login": true,
+    "username": "haoning.yu",
+    "login_status": "enabled",
+    "password": "Fab3#2829y",
+    "confirm_password": "Fab3#2829y",
+    "job_title": "fin_analyst",
+    "department": "logistics",
+    "work_location": "neihu",
+    "emp_status": "pt",
+    "supervisor": "u_m8977",
+    "joined_date": "2027-01-02"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hao-Ning",
+     "last_name": "Yu",
+     "employee_id": "KST-95608",
+     "create_login": true,
+     "username": "haoning.yu",
+     "login_status": "enabled",
+     "password": "Fab3#2829y",
+     "confirm_password": "Fab3#2829y",
+     "job_title": "fin_analyst",
+     "department": "logistics",
+     "work_location": "neihu",
+     "emp_status": "pt",
+     "supervisor": "u_m8977",
+     "joined_date": "2027-01-02"
+    },
+    "wrong": {
+     "employee_id": "KST-956x",
+     "joined_date": "2026-01-02"
+    }
+   }
+  }
+ }
+}

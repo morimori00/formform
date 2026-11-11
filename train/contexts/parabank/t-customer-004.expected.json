@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-004",
+ "context": "parabank/t-customer-004.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Irene",
+    "last_name": "Novak",
+    "street": "6065 Stonegate St",
+    "city": "Denver",
+    "state": [
+     "CO",
+     "Colorado"
+    ],
+    "zip": "80225",
+    "phone": "(303) 555-0104",
+    "ssn": "930-60-3879",
+    "username": "irene.novak92",
+    "password": "Cobalt#9681",
+    "password_confirm": "Cobalt#9681"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Irene",
+     "last_name": "Novak",
+     "street": "6065 Stonegate St",
+     "city": "Denver",
+     "state": "CO",
+     "zip": "80225",
+     "phone": "(303) 555-0104",
+     "ssn": "930-60-3879",
+     "username": "irene.novak92",
+     "password": "Cobalt#9681",
+     "password_confirm": "Cobalt#9681"
+    },
+    "wrong": {
+     "username": "irene."
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Pinecrest Waste Services",
+    "payee_street": "3208 Stonegate St",
+    "payee_city": "Plano",
+    "payee_state": [
+     "TX",
+     "Texas"
+    ],
+    "payee_zip": "75000",
+    "payee_phone": "(972) 555-0156",
+    "payee_account": "16271-1638",
+    "payee_account_verify": "16271-1638",
+    "amount": "555.51",
+    "from_account": "16788"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Pinecrest Waste Services",
+     "payee_street": "3208 Stonegate St",
+     "payee_city": "Plano",
+     "payee_state": "TX",
+     "payee_zip": "75000",
+     "payee_phone": "(972) 555-0156",
+     "payee_account": "16271-1638",
+     "payee_account_verify": "16271-1638",
+     "amount": "555.51",
+     "from_account": "16788"
+    },
+    "wrong": {
+     "payee_account_verify": "16271-16x",
+     "payee_account": "16271"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "12000",
+    "down_payment": "2400",
+    "loan_from_account": "16788",
+    "new_account_type": "CHECKING",
+    "new_account_from": "16788"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "12000",
+     "down_payment": "2400",
+     "loan_from_account": "16788",
+     "new_account_type": "CHECKING",
+     "new_account_from": "16788"
+    },
+    "wrong": {
+     "new_account_from": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Pinecrest Waste Services",
+    "payee_street": "3208 Stonegate St",
+    "payee_city": "Plano",
+    "payee_state": [
+     "TX",
+     "Texas"
+    ],
+    "payee_zip": "75000",
+    "payee_phone": "(972) 555-0156",
+    "from_account": "16788",
+    "amount": "555.51",
+    "payee_account": "16271-1638",
+    "payee_account_verify": "16271-1638"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Pinecrest Waste Services",
+     "payee_street": "3208 Stonegate St",
+     "payee_city": "Plano",
+     "payee_state": "TX",
+     "payee_zip": "75000",
+     "payee_phone": "(972) 555-0156",
+     "from_account": "16788",
+     "amount": "555.51",
+     "payee_account": "16271-1638",
+     "payee_account_verify": "16271-1638"
+    },
+    "wrong": {
+     "payee_account_verify": "16271-16x",
+     "payee_street": "3208 Sto"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Irene",
+    "last_name": "Novak",
+    "phone": "(303) 555-0104",
+    "ssn": "930-60-3879",
+    "street": "6065 Stonegate St",
+    "city": "Denver",
+    "state": [
+     "CO",
+     "Colorado"
+    ],
+    "zip": "80225",
+    "username": "irene.novak92",
+    "password": "Cobalt#9681",
+    "password_confirm": "Cobalt#9681"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Irene",
+     "last_name": "Novak",
+     "phone": "(303) 555-0104",
+     "ssn": "930-60-3879",
+     "street": "6065 Stonegate St",
+     "city": "Denver",
+     "state": "CO",
+     "zip": "80225",
+     "username": "irene.novak92",
+     "password": "Cobalt#9681",
+     "password_confirm": "Cobalt#9681"
+    },
+    "wrong": {
+     "first_name": "Ir"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "persona": "tw-arrival-card/e-arrival-5step-07",
+ "context": "tw-arrival-card/e-arrival-5step-07.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-5step": {
+   "submit": true,
+   "fields": {
+    "family_name": "TEO",
+    "given_name": "ZHI HAO",
+    "sex": "male",
+    "dob": "1963-02-07",
+    "nationality": "SG",
+    "passport_no": "P6610630B",
+    "passport_expiry": "2035-12-02",
+    "occupation": "other",
+    "arrival_date": "2027-02-01",
+    "flight_no": "SQ 430",
+    "departure_flight": "SQ 848",
+    "purpose": "business",
+    "visa_type": "landing",
+    "visa_no": "V-7420769",
+    "stay_type": "residence",
+    "county": "臺北市",
+    "district": "大安區",
+    "stay_address": [
+     "No. 9, Jianguo Rd., Da'an Dist., Taipei City 106",
+     "company residence, No. 9, Jianguo Rd., Da'an Dist., Taipei City 106"
+    ],
+    "phone": "+886 928 317 295",
+    "email": "zhi.teo@kestrel-semi.example",
+    "visited": [
+     "SG"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "family_name": "TEO",
+     "given_name": "ZHI HAO",
+     "sex": "male",
+     "dob": "1963-02-07",
+     "nationality": "SG",
+     "passport_no": "P6610630B",
+     "passport_expiry": "2035-12-02",
+     "occupation": "other",
+     "arrival_date": "2027-02-01",
+     "flight_no": "SQ 430",
+     "departure_flight": "SQ 848",
+     "purpose": "business",
+     "visa_type": "landing",
+     "visa_no": "V-7420769",
+     "stay_type": "residence",
+     "county": "臺北市",
+     "district": "大安區",
+     "stay_address": "No. 9, Jianguo Rd., Da'an Dist., Taipei City 106",
+     "phone": "+886 928 317 295",
+     "email": "zhi.teo@kestrel-semi.example",
+     "visited": [
+      "SG"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "Tx",
+     "visa_no": "V-74"
+    }
+   }
+  }
+ }
+}

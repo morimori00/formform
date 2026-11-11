@@ -1,0 +1,71 @@
+{
+ "persona": "tw-arrival-card/e-arrival-shadow-07",
+ "context": "tw-arrival-card/e-arrival-shadow-07.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-shadow": {
+   "submit": true,
+   "fields": {
+    "nationality": "MY",
+    "passport_no": "K6108402B",
+    "family_name": "OTHMAN",
+    "given_name": "NURUL AIN",
+    "dob": "1986-06-04",
+    "sex": "male",
+    "passport_expiry": "2035-10-19",
+    "arrival_date": "2026-12-07",
+    "flight_no": "MH 735",
+    "purpose": "study",
+    "occupation": "other",
+    "visa_type": "resident",
+    "visa_no": "V-8568267",
+    "stay_type": "hotel",
+    "county": "桃園市",
+    "district": "中壢區",
+    "stay_address": [
+     "No. 165, Heping W. Rd., Zhongli Dist., Taoyuan City 320",
+     "Zhongli Garden Hotel, No. 165, Heping W. Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "phone": "+886 900 326 236",
+    "email": "nurul.othman@kestrel-semi.example",
+    "visited": [
+     "MY"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "nationality": "MY",
+     "passport_no": "K6108402B",
+     "family_name": "OTHMAN",
+     "given_name": "NURUL AIN",
+     "dob": "1986-06-04",
+     "sex": "male",
+     "passport_expiry": "2035-10-19",
+     "arrival_date": "2026-12-07",
+     "flight_no": "MH 735",
+     "purpose": "study",
+     "occupation": "other",
+     "visa_type": "resident",
+     "visa_no": "V-8568267",
+     "stay_type": "hotel",
+     "county": "桃園市",
+     "district": "中壢區",
+     "stay_address": "No. 165, Heping W. Rd., Zhongli Dist., Taoyuan City 320",
+     "phone": "+886 900 326 236",
+     "email": "nurul.othman@kestrel-semi.example",
+     "visited": [
+      "MY"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "OTHMx",
+     "county": "臺北市"
+    }
+   }
+  }
+ }
+}

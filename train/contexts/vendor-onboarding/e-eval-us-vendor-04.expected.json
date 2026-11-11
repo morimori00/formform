@@ -1,0 +1,65 @@
+{
+ "persona": "vendor-onboarding/e-eval-us-vendor-04",
+ "context": "vendor-onboarding/e-eval-us-vendor-04.md",
+ "split": "eval",
+ "variants": {
+  "vendor-onboarding/eval-us-vendor": {
+   "submit": true,
+   "fields": {
+    "org_name": "Marlowe Calibration LLC",
+    "tax_id": "99-7966858",
+    "business_type": "llc",
+    "established": "2015-04-26",
+    "company_address": "4681 Copper Ridge St, Suite 497, Wilmington, DE 19895",
+    "contact_name": [
+     "Hugo Banerjee",
+     "Mr. Hugo Banerjee"
+    ],
+    "contact_title": "Key Account Executive",
+    "email": "hugo.banerjee@marlowe.example",
+    "phone_day": "(302) 555-0193",
+    "phone_evening": "(302) 555-4205",
+    "services": "Metrology equipment calibration and certification",
+    "service_area": "apac",
+    "gross_sales": "12900000",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "bank_name": "Chesapeake Union Trust",
+    "beneficiary": "Marlowe Calibration LLC",
+    "account_number": "887-213322-2",
+    "swift": "CUTXUS2XXXX",
+    "license_number": "US-LIC-9097234"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Marlowe Calibration LLC",
+     "tax_id": "99-7966858",
+     "business_type": "llc",
+     "established": "2015-04-26",
+     "company_address": "4681 Copper Ridge St, Suite 497, Wilmington, DE 19895",
+     "contact_name": "Hugo Banerjee",
+     "contact_title": "Key Account Executive",
+     "email": "hugo.banerjee@marlowe.example",
+     "phone_day": "(302) 555-0193",
+     "phone_evening": "(302) 555-4205",
+     "services": "Metrology equipment calibration and certification",
+     "service_area": "apac",
+     "gross_sales": "12900000",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "bank_name": "Chesapeake Union Trust",
+     "beneficiary": "Marlowe Calibration LLC",
+     "account_number": "887-213322-2",
+     "swift": "CUTXUS2XXXX",
+     "license_number": "US-LIC-9097234"
+    },
+    "wrong": {
+     "email": "hugo.banerjee at marlowe.example",
+     "phone_evening": "(302) 5"
+    }
+   }
+  }
+ }
+}

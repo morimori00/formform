@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-006",
+ "context": "kyc-account-opening/t-kyc-006.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-11621",
+    "full_name": [
+     "Wang Pei-Ling",
+     "Pei-Ling Wang"
+    ],
+    "spouse_name": "Liu Wei-Han",
+    "gender": "male",
+    "marital": "married",
+    "dob": "1978-07-09",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "E249457322",
+    "id_proof": "national_id",
+    "address": [
+     "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "phone": "+886 979 615 941",
+    "email": "peiling.wang@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Wang Pei-Ling",
+     "Pei-Ling Wang"
+    ],
+    "sign_date": "2026-11-06",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-11621",
+     "full_name": "Wang Pei-Ling",
+     "spouse_name": "Liu Wei-Han",
+     "gender": "male",
+     "marital": "married",
+     "dob": "1978-07-09",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "E249457322",
+     "id_proof": "national_id",
+     "address": "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "phone": "+886 979 615 941",
+     "email": "peiling.wang@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Wang Pei-Ling",
+     "sign_date": "2026-11-06"
+    },
+    "wrong": {
+     "tax_id": "E2494573x",
+     "phone": "+886 979"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wang Pei-Ling",
+     "Pei-Ling Wang"
+    ],
+    "dob": "1978-07-09",
+    "mother_maiden": "Hsieh",
+    "phone": "+886 979 615 941",
+    "email": "peiling.wang@inbox.example",
+    "address": [
+     "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "education": "associate",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "269000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wang Pei-Ling",
+     "dob": "1978-07-09",
+     "mother_maiden": "Hsieh",
+     "phone": "+886 979 615 941",
+     "email": "peiling.wang@inbox.example",
+     "address": "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "education": "associate",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "269000"
+    },
+    "wrong": {
+     "email": "peiling.wang at inbox.example",
+     "id_form": "passport"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wang Pei-Ling",
+     "Pei-Ling Wang"
+    ],
+    "dob": "1978-07-09",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Liu Wei-Han",
+    "address": [
+     "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "email": "peiling.wang@inbox.example",
+    "phone": "+886 979 615 941",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "E249457322",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-11621"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wang Pei-Ling",
+     "dob": "1978-07-09",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Liu Wei-Han",
+     "address": "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "email": "peiling.wang@inbox.example",
+     "phone": "+886 979 615 941",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "E249457322",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-11621"
+    },
+    "wrong": {
+     "email": "peiling.wang at inbox.example",
+     "spouse_name": "Liu W"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wang Pei-Ling",
+     "Pei-Ling Wang"
+    ],
+    "dob": "1978-07-09",
+    "gender": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 979 615 941",
+    "email": "peiling.wang@inbox.example",
+    "address": [
+     "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "E249457322",
+    "addr_proof": "tax_bill",
+    "account_type": "checking",
+    "account_category": "individual",
+    "education": "associate",
+    "monthly_income": "269000",
+    "application_no": "LCB-AO-2026-11621",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Wang Pei-Ling",
+     "dob": "1978-07-09",
+     "gender": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 979 615 941",
+     "email": "peiling.wang@inbox.example",
+     "address": "12F, No. 28, Zhongshan N. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "E249457322",
+     "addr_proof": "tax_bill",
+     "account_type": "checking",
+     "account_category": "individual",
+     "education": "associate",
+     "monthly_income": "269000",
+     "application_no": "LCB-AO-2026-11621"
+    },
+    "wrong": {
+     "email": "peiling.wang at inbox.example",
+     "gender": "female"
+    }
+   }
+  }
+ }
+}

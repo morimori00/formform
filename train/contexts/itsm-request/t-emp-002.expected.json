@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-002",
+ "context": "itsm-request/t-emp-002.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g26969",
+    "laptop_model": "eng16",
+    "location": "sg",
+    "needed_by": "2026-12-18",
+    "extra_monitor": false,
+    "cost_center": "CC-7809",
+    "justification": "Transferred to Finance; previous device stays with the old team."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g26969",
+     "laptop_model": "eng16",
+     "location": "sg",
+     "needed_by": "2026-12-18",
+     "extra_monitor": false,
+     "cost_center": "CC-7809",
+     "justification": "Transferred to Finance; previous device stays with the old team."
+    },
+    "wrong": {
+     "cost_center": "CC-78x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16",
+    "extra_monitor": false,
+    "location": "sg",
+    "needed_by": "2026-12-18",
+    "requested_for": "u_g26969",
+    "cost_center": "CC-7809",
+    "justification": "Transferred to Finance; previous device stays with the old team.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16",
+     "extra_monitor": false,
+     "location": "sg",
+     "needed_by": "2026-12-18",
+     "requested_for": "u_g26969",
+     "cost_center": "CC-7809",
+     "justification": "Transferred to Finance; previous device stays with the old team."
+    },
+    "wrong": {
+     "cost_center": "CC-78x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g26969",
+    "contact_pref": "email",
+    "inc_category": "network",
+    "inc_subcategory": "wifi",
+    "ci": "KST-NB-30868",
+    "impact": "2",
+    "urgency": "3",
+    "assign_group": "netops",
+    "short_desc": "Wi-Fi drops every few minutes on floor 5",
+    "inc_desc": "Laptop loses the corporate Wi-Fi every 5–10 minutes near meeting room 5-505. Wired dock works. Started this week."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g26969",
+     "contact_pref": "email",
+     "inc_category": "network",
+     "inc_subcategory": "wifi",
+     "ci": "KST-NB-30868",
+     "impact": "2",
+     "urgency": "3",
+     "assign_group": "netops",
+     "short_desc": "Wi-Fi drops every few minutes on floor 5",
+     "inc_desc": "Laptop loses the corporate Wi-Fi every 5–10 minutes near meeting room 5-505. Wired dock works. Started this week."
+    },
+    "wrong": {
+     "inc_category": "inquiry"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Wi-Fi drops every few minutes on floor 5",
+    "inc_desc": "Laptop loses the corporate Wi-Fi every 5–10 minutes near meeting room 5-505. Wired dock works. Started this week.",
+    "caller": "u_g26969",
+    "ci": "KST-NB-30868",
+    "contact_pref": "email",
+    "inc_category": "network",
+    "inc_subcategory": "wifi",
+    "impact": "2",
+    "urgency": "3",
+    "assign_group": "netops"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Wi-Fi drops every few minutes on floor 5",
+     "inc_desc": "Laptop loses the corporate Wi-Fi every 5–10 minutes near meeting room 5-505. Wired dock works. Started this week.",
+     "caller": "u_g26969",
+     "ci": "KST-NB-30868",
+     "contact_pref": "email",
+     "inc_category": "network",
+     "inc_subcategory": "wifi",
+     "impact": "2",
+     "urgency": "3",
+     "assign_group": "netops"
+    },
+    "wrong": {
+     "short_desc": "Wi-Fi drops every fe"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g26969",
+    "location": "sg",
+    "cost_center": "CC-7809",
+    "laptop_model": "eng16",
+    "needed_by": "2026-12-18",
+    "extra_monitor": false,
+    "justification": "Transferred to Finance; previous device stays with the old team."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g26969",
+     "location": "sg",
+     "cost_center": "CC-7809",
+     "laptop_model": "eng16",
+     "needed_by": "2026-12-18",
+     "extra_monitor": false,
+     "justification": "Transferred to Finance; previous device stays with the old team."
+    },
+    "wrong": {
+     "cost_center": "CC-78x",
+     "needed_by": "2025-12-18"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "persona": "us-tax-portal/e-business-registration-02",
+ "context": "us-tax-portal/e-business-registration-02.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/business-registration": {
+   "submit": false,
+   "fields": {
+    "legal_name": "Tidewell Logistics Inc.",
+    "fein": "49-6771865",
+    "business_type": "corporation",
+    "established": "2005-04-11",
+    "street1": "9179 Fox Run Dr",
+    "street2": "Suite 799",
+    "city": "Dover",
+    "state": "DE",
+    "zip": "19907",
+    "first_name": "Emil",
+    "last_name": "Kimura",
+    "position": "Office Manager",
+    "email": "ekimura@tidewell.example",
+    "day_phone": "(302) 555-0121",
+    "portal_pin": ""
+   },
+   "infeasible": [
+    "portal_pin"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "legal_name": "Tidewell Logistics Inc.",
+     "fein": "49-6771865",
+     "business_type": "corporation",
+     "established": "2005-04-11",
+     "street1": "9179 Fox Run Dr",
+     "street2": "Suite 799",
+     "city": "Dover",
+     "state": "DE",
+     "zip": "19907",
+     "first_name": "Emil",
+     "last_name": "Kimura",
+     "position": "Office Manager",
+     "email": "ekimura@tidewell.example",
+     "day_phone": "(302) 555-0121"
+    },
+    "wrong": {
+     "fein": "49-67718x",
+     "city": "Do"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-014",
+ "context": "itsm-request/t-emp-014.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g47740",
+    "laptop_model": "design14",
+    "location": "hsp_fab2",
+    "needed_by": "2027-01-01",
+    "extra_monitor": true,
+    "cost_center": "CC-7900",
+    "justification": "New hire in Finance — needs the standard build before day one."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g47740",
+     "laptop_model": "design14",
+     "location": "hsp_fab2",
+     "needed_by": "2027-01-01",
+     "extra_monitor": true,
+     "cost_center": "CC-7900",
+     "justification": "New hire in Finance — needs the standard build before day one."
+    },
+    "wrong": {
+     "cost_center": "CC-79x",
+     "needed_by": "2026-01-01"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "design14",
+    "extra_monitor": true,
+    "location": "hsp_fab2",
+    "needed_by": "2027-01-01",
+    "requested_for": "u_g47740",
+    "cost_center": "CC-7900",
+    "justification": "New hire in Finance — needs the standard build before day one.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "design14",
+     "extra_monitor": true,
+     "location": "hsp_fab2",
+     "needed_by": "2027-01-01",
+     "requested_for": "u_g47740",
+     "cost_center": "CC-7900",
+     "justification": "New hire in Finance — needs the standard build before day one."
+    },
+    "wrong": {
+     "cost_center": "CC-79x",
+     "laptop_model": "std14"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g47740",
+    "contact_pref": "chat",
+    "inc_category": "software",
+    "inc_subcategory": "email",
+    "ci": "KST-NB-21578",
+    "impact": "1",
+    "urgency": "3",
+    "assign_group": "servicedesk",
+    "short_desc": "Shared mailbox missing after migration batch 639",
+    "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 639. Web mail shows it with read-only rights."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g47740",
+     "contact_pref": "chat",
+     "inc_category": "software",
+     "inc_subcategory": "email",
+     "ci": "KST-NB-21578",
+     "impact": "1",
+     "urgency": "3",
+     "assign_group": "servicedesk",
+     "short_desc": "Shared mailbox missing after migration batch 639",
+     "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 639. Web mail shows it with read-only rights."
+    },
+    "wrong": {
+     "impact": "2"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Shared mailbox missing after migration batch 639",
+    "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 639. Web mail shows it with read-only rights.",
+    "caller": "u_g47740",
+    "ci": "KST-NB-21578",
+    "contact_pref": "chat",
+    "inc_category": "software",
+    "inc_subcategory": "email",
+    "impact": "1",
+    "urgency": "3",
+    "assign_group": "servicedesk"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Shared mailbox missing after migration batch 639",
+     "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 639. Web mail shows it with read-only rights.",
+     "caller": "u_g47740",
+     "ci": "KST-NB-21578",
+     "contact_pref": "chat",
+     "inc_category": "software",
+     "inc_subcategory": "email",
+     "impact": "1",
+     "urgency": "3",
+     "assign_group": "servicedesk"
+    },
+    "wrong": {
+     "assign_group": "netops"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g47740",
+    "location": "hsp_fab2",
+    "cost_center": "CC-7900",
+    "laptop_model": "design14",
+    "needed_by": "2027-01-01",
+    "extra_monitor": true,
+    "justification": "New hire in Finance — needs the standard build before day one."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g47740",
+     "location": "hsp_fab2",
+     "cost_center": "CC-7900",
+     "laptop_model": "design14",
+     "needed_by": "2027-01-01",
+     "extra_monitor": true,
+     "justification": "New hire in Finance — needs the standard build before day one."
+    },
+    "wrong": {
+     "cost_center": "CC-79x",
+     "laptop_model": "std14"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "persona": "vendor-onboarding/t-intl-039",
+ "context": "vendor-onboarding/t-intl-039.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Oakhaven Calibration Pte. Ltd.",
+    "tax_id": "209345976K",
+    "company_address": "8 Tuas Avenue 4, #02-25, Singapore 344302",
+    "established": "2021-06-09",
+    "business_type": "private_limited",
+    "services": "Metrology equipment calibration and certification",
+    "service_area": "europe",
+    "gross_sales": "56100000",
+    "contact_name": [
+     "Oscar Pham",
+     "Mr. Oscar Pham"
+    ],
+    "contact_title": "Controller",
+    "phone_day": "+65 6725 8575",
+    "phone_evening": "+65 6725 4257",
+    "email": "oscar.pham@oakhaven.example",
+    "insurance": "not_insured",
+    "licensing": "licensed",
+    "license_number": "SG-LIC-4737537",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Oakhaven Calibration Pte. Ltd.",
+    "account_number": "457-849257-4",
+    "swift": "OBBXSG2LXXX"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Oakhaven Calibration Pte. Ltd.",
+     "tax_id": "209345976K",
+     "company_address": "8 Tuas Avenue 4, #02-25, Singapore 344302",
+     "established": "2021-06-09",
+     "business_type": "private_limited",
+     "services": "Metrology equipment calibration and certification",
+     "service_area": "europe",
+     "gross_sales": "56100000",
+     "contact_name": "Oscar Pham",
+     "contact_title": "Controller",
+     "phone_day": "+65 6725 8575",
+     "phone_evening": "+65 6725 4257",
+     "email": "oscar.pham@oakhaven.example",
+     "insurance": "not_insured",
+     "licensing": "licensed",
+     "license_number": "SG-LIC-4737537",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Oakhaven Calibration Pte. Ltd.",
+     "account_number": "457-849257-4",
+     "swift": "OBBXSG2LXXX"
+    },
+    "wrong": {
+     "email": "oscar.pham at oakhaven.example",
+     "phone_evening": "+65 67"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Oakhaven Calibration Pte. Ltd.",
+    "tax_id": "209345976K",
+    "established": "2021-06-09",
+    "service_area": "europe",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Oscar Pham",
+     "Mr. Oscar Pham"
+    ],
+    "email": "oscar.pham@oakhaven.example",
+    "phone_day": "+65 6725 8575",
+    "phone_evening": "+65 6725 4257",
+    "company_address": "8 Tuas Avenue 4, #02-25, Singapore 344302",
+    "licensing": "licensed",
+    "license_number": "SG-LIC-4737537",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Oakhaven Calibration Pte. Ltd.",
+    "account_number": "457-849257-4",
+    "swift": "OBBXSG2LXXX",
+    "insurance": "not_insured",
+    "gross_sales": "56100000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Oakhaven Calibration Pte. Ltd.",
+     "tax_id": "209345976K",
+     "established": "2021-06-09",
+     "service_area": "europe",
+     "business_type": "private_limited",
+     "contact_name": "Oscar Pham",
+     "email": "oscar.pham@oakhaven.example",
+     "phone_day": "+65 6725 8575",
+     "phone_evening": "+65 6725 4257",
+     "company_address": "8 Tuas Avenue 4, #02-25, Singapore 344302",
+     "licensing": "licensed",
+     "license_number": "SG-LIC-4737537",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Oakhaven Calibration Pte. Ltd.",
+     "account_number": "457-849257-4",
+     "swift": "OBBXSG2LXXX",
+     "insurance": "not_insured",
+     "gross_sales": "56100000"
+    },
+    "wrong": {
+     "email": "oscar.pham at oakhaven.example",
+     "contact_name": "Oscar"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Oakhaven Calibration Pte. Ltd.",
+    "account_number": "457-849257-4",
+    "swift": "OBBXSG2LXXX",
+    "org_name": "Oakhaven Calibration Pte. Ltd.",
+    "tax_id": "209345976K",
+    "business_type": "private_limited",
+    "established": "2021-06-09",
+    "company_address": "8 Tuas Avenue 4, #02-25, Singapore 344302",
+    "service_area": "europe",
+    "contact_name": [
+     "Oscar Pham",
+     "Mr. Oscar Pham"
+    ],
+    "email": "oscar.pham@oakhaven.example",
+    "phone_day": "+65 6725 8575",
+    "contact_title": "Controller",
+    "phone_evening": "+65 6725 4257",
+    "gross_sales": "56100000",
+    "services": "Metrology equipment calibration and certification",
+    "insurance": "not_insured",
+    "licensing": "licensed",
+    "license_number": "SG-LIC-4737537"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Oakhaven Calibration Pte. Ltd.",
+     "account_number": "457-849257-4",
+     "swift": "OBBXSG2LXXX",
+     "org_name": "Oakhaven Calibration Pte. Ltd.",
+     "tax_id": "209345976K",
+     "business_type": "private_limited",
+     "established": "2021-06-09",
+     "company_address": "8 Tuas Avenue 4, #02-25, Singapore 344302",
+     "service_area": "europe",
+     "contact_name": "Oscar Pham",
+     "email": "oscar.pham@oakhaven.example",
+     "phone_day": "+65 6725 8575",
+     "contact_title": "Controller",
+     "phone_evening": "+65 6725 4257",
+     "gross_sales": "56100000",
+     "services": "Metrology equipment calibration and certification",
+     "insurance": "not_insured",
+     "licensing": "licensed",
+     "license_number": "SG-LIC-4737537"
+    },
+    "wrong": {
+     "email": "oscar.pham at oakhaven.example",
+     "swift": "OBBXS"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "persona": "emr-registration/t-patient-018",
+ "context": "emr-registration/t-patient-018.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Cheng-Hui",
+    "middle_name": "",
+    "last_name": "Chou",
+    "dob": "1946-01-10",
+    "sex": "male",
+    "marital": "married",
+    "language": "taiwanese",
+    "street": "13F, No. 13, Ln. 241, Sec. 2, Jianguo Rd., Xindian Dist.",
+    "city": "New Taipei City",
+    "postal": "231",
+    "country": "TW",
+    "phone_home": "03-7680-9152",
+    "phone_cell": "0943-210-648",
+    "email": "",
+    "occupation": "Shop owner",
+    "employer": "Fairholm Logistics Ltd.",
+    "ec_name": "Yi-Ling Chiu",
+    "ec_phone": "0987-986-628",
+    "ec_relationship": "sibling",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-4373-1725",
+    "group_number": "G-1646",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-05-25"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Cheng-Hui",
+     "last_name": "Chou",
+     "dob": "1946-01-10",
+     "sex": "male",
+     "marital": "married",
+     "language": "taiwanese",
+     "street": "13F, No. 13, Ln. 241, Sec. 2, Jianguo Rd., Xindian Dist.",
+     "city": "New Taipei City",
+     "postal": "231",
+     "country": "TW",
+     "phone_home": "03-7680-9152",
+     "phone_cell": "0943-210-648",
+     "occupation": "Shop owner",
+     "employer": "Fairholm Logistics Ltd.",
+     "ec_name": "Yi-Ling Chiu",
+     "ec_phone": "0987-986-628",
+     "ec_relationship": "sibling",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-4373-1725",
+     "group_number": "G-1646",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-05-25"
+    },
+    "wrong": {
+     "group_number": "G-1"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Chou",
+    "first_name": "Cheng-Hui",
+    "middle_name": "",
+    "dob": "1946-01-10",
+    "sex": "male",
+    "marital": "married",
+    "national_id": "",
+    "street": "13F, No. 13, Ln. 241, Sec. 2, Jianguo Rd., Xindian Dist.",
+    "postal": "231",
+    "city": "New Taipei City",
+    "country": "TW",
+    "phone_cell": "0943-210-648",
+    "phone_home": "03-7680-9152",
+    "email": "",
+    "ec_name": "Yi-Ling Chiu",
+    "ec_relationship": "sibling",
+    "ec_phone": "0987-986-628",
+    "occupation": "Shop owner",
+    "employer": "Fairholm Logistics Ltd.",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-4373-1725",
+    "group_number": "G-1646",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-05-25",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Chou",
+     "first_name": "Cheng-Hui",
+     "dob": "1946-01-10",
+     "sex": "male",
+     "marital": "married",
+     "street": "13F, No. 13, Ln. 241, Sec. 2, Jianguo Rd., Xindian Dist.",
+     "postal": "231",
+     "city": "New Taipei City",
+     "country": "TW",
+     "phone_cell": "0943-210-648",
+     "phone_home": "03-7680-9152",
+     "ec_name": "Yi-Ling Chiu",
+     "ec_relationship": "sibling",
+     "ec_phone": "0987-986-628",
+     "occupation": "Shop owner",
+     "employer": "Fairholm Logistics Ltd.",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-4373-1725",
+     "group_number": "G-1646",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-05-25"
+    },
+    "wrong": {
+     "first_name": "Chen"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Cheng-Hui",
+    "last_name": "Chou",
+    "dob": "1946-01-10",
+    "sex": "male",
+    "language": "taiwanese",
+    "street": "13F, No. 13, Ln. 241, Sec. 2, Jianguo Rd., Xindian Dist.",
+    "city": "New Taipei City",
+    "postal": "231",
+    "country": "TW",
+    "phone_cell": "0943-210-648",
+    "phone_home": "03-7680-9152",
+    "ec_name": "Yi-Ling Chiu",
+    "ec_phone": "0987-986-628",
+    "ec_relationship": "sibling",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-4373-1725",
+    "group_number": "G-1646",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-05-25"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Cheng-Hui",
+     "last_name": "Chou",
+     "dob": "1946-01-10",
+     "sex": "male",
+     "language": "taiwanese",
+     "street": "13F, No. 13, Ln. 241, Sec. 2, Jianguo Rd., Xindian Dist.",
+     "city": "New Taipei City",
+     "postal": "231",
+     "country": "TW",
+     "phone_cell": "0943-210-648",
+     "phone_home": "03-7680-9152",
+     "ec_name": "Yi-Ling Chiu",
+     "ec_phone": "0987-986-628",
+     "ec_relationship": "sibling",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-4373-1725",
+     "group_number": "G-1646",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-05-25"
+    },
+    "wrong": {
+     "city": "New Tai"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Chou",
+    "first_name": "Cheng-Hui",
+    "dob": "1946-01-10",
+    "sex": "male",
+    "phone_cell": "0943-210-648",
+    "country": "TW",
+    "city": "New Taipei City",
+    "postal": "231",
+    "street": "13F, No. 13, Ln. 241, Sec. 2, Jianguo Rd., Xindian Dist.",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-4373-1725",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-05-25",
+    "email": "",
+    "phone_home": "03-7680-9152",
+    "marital": "married",
+    "language": "taiwanese",
+    "occupation": "Shop owner",
+    "employer": "Fairholm Logistics Ltd.",
+    "ec_name": "Yi-Ling Chiu",
+    "ec_phone": "0987-986-628",
+    "ec_relationship": "sibling",
+    "group_number": "G-1646"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Chou",
+     "first_name": "Cheng-Hui",
+     "dob": "1946-01-10",
+     "sex": "male",
+     "phone_cell": "0943-210-648",
+     "country": "TW",
+     "city": "New Taipei City",
+     "postal": "231",
+     "street": "13F, No. 13, Ln. 241, Sec. 2, Jianguo Rd., Xindian Dist.",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-4373-1725",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-05-25",
+     "phone_home": "03-7680-9152",
+     "marital": "married",
+     "language": "taiwanese",
+     "occupation": "Shop owner",
+     "employer": "Fairholm Logistics Ltd.",
+     "ec_name": "Yi-Ling Chiu",
+     "ec_phone": "0987-986-628",
+     "ec_relationship": "sibling",
+     "group_number": "G-1646"
+    },
+    "wrong": {
+     "ec_name": "Yi-Lin"
+    }
+   }
+  }
+ }
+}

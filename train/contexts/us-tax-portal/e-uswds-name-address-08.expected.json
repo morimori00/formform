@@ -1,0 +1,41 @@
+{
+ "persona": "us-tax-portal/e-uswds-name-address-08",
+ "context": "us-tax-portal/e-uswds-name-address-08.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/uswds-name-address": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hugo",
+    "middle_initial": "",
+    "last_name": "Bergstrom",
+    "suffix": "",
+    "preferred_name": "Hugo",
+    "street1": "4444 Fox Run Ct",
+    "street2": "Suite 781",
+    "city": "Dover",
+    "state": "DE",
+    "zip": "19977",
+    "urbanization": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hugo",
+     "last_name": "Bergstrom",
+     "preferred_name": "Hugo",
+     "street1": "4444 Fox Run Ct",
+     "street2": "Suite 781",
+     "city": "Dover",
+     "state": "DE",
+     "zip": "19977"
+    },
+    "wrong": {
+     "zip": "199x",
+     "street2": "Suit"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "persona": "kyc-account-opening/e-eval-salary-account-07",
+ "context": "kyc-account-opening/e-eval-salary-account-07.md",
+ "split": "eval",
+ "variants": {
+  "kyc-account-opening/eval-salary-account": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Tung Li-Hsiang",
+     "Li-Hsiang Tung"
+    ],
+    "gender": "male",
+    "dob": "2000-05-02",
+    "nationality": "TW",
+    "id_form": "national_id",
+    "phone": "+886 950 148 098",
+    "email": "lihsiang.tung@inbox.example",
+    "address": [
+     "14F, No. 153, Guangfu Rd., North Dist., Hsinchu City 300, Taiwan",
+     "14F, No. 153, Guangfu Rd., North Dist., Hsinchu City 300"
+    ],
+    "mother_maiden": "Kao",
+    "education": "associate",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "298000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Tung Li-Hsiang",
+     "gender": "male",
+     "dob": "2000-05-02",
+     "nationality": "TW",
+     "id_form": "national_id",
+     "phone": "+886 950 148 098",
+     "email": "lihsiang.tung@inbox.example",
+     "address": "14F, No. 153, Guangfu Rd., North Dist., Hsinchu City 300, Taiwan",
+     "mother_maiden": "Kao",
+     "education": "associate",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "298000"
+    },
+    "wrong": {
+     "email": "lihsiang.tung at inbox.example",
+     "monthly_income": "298"
+    }
+   }
+  }
+ }
+}

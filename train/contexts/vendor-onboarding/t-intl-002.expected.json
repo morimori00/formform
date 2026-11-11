@@ -1,0 +1,192 @@
+{
+ "persona": "vendor-onboarding/t-intl-002",
+ "context": "vendor-onboarding/t-intl-002.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Copperfield IT Services GmbH",
+    "tax_id": "DE395841601",
+    "company_address": "Am Technologiepark 28, 01058 Dresden, Germany",
+    "established": "2020-11-12",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "services": "Managed network and endpoint support services",
+    "service_area": "north_america",
+    "gross_sales": "7200000",
+    "contact_name": [
+     "Leila Mensah",
+     "Ms. Leila Mensah"
+    ],
+    "contact_title": "Key Account Executive",
+    "phone_day": "+49 351 233 8731",
+    "phone_evening": "",
+    "email": "leila.mensah@copperfield.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Elbtal Handelsbank",
+    "beneficiary": "Copperfield IT Services GmbH",
+    "account_number": "284-561295-1",
+    "swift": "EHXXDEALXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Copperfield IT Services GmbH",
+     "tax_id": "DE395841601",
+     "company_address": "Am Technologiepark 28, 01058 Dresden, Germany",
+     "established": "2020-11-12",
+     "business_type": "llc",
+     "services": "Managed network and endpoint support services",
+     "service_area": "north_america",
+     "gross_sales": "7200000",
+     "contact_name": "Leila Mensah",
+     "contact_title": "Key Account Executive",
+     "phone_day": "+49 351 233 8731",
+     "email": "leila.mensah@copperfield.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Elbtal Handelsbank",
+     "beneficiary": "Copperfield IT Services GmbH",
+     "account_number": "284-561295-1",
+     "swift": "EHXXDEALXXX"
+    },
+    "wrong": {
+     "email": "leila.mensah at copperfield.example",
+     "service_area": "taiwan"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Copperfield IT Services GmbH",
+    "tax_id": "DE395841601",
+    "established": "2020-11-12",
+    "service_area": "north_america",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "contact_name": [
+     "Leila Mensah",
+     "Ms. Leila Mensah"
+    ],
+    "email": "leila.mensah@copperfield.example",
+    "phone_day": "+49 351 233 8731",
+    "phone_evening": "",
+    "company_address": "Am Technologiepark 28, 01058 Dresden, Germany",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Elbtal Handelsbank",
+    "beneficiary": "Copperfield IT Services GmbH",
+    "account_number": "284-561295-1",
+    "swift": "EHXXDEALXXX",
+    "insurance": "insured",
+    "gross_sales": "7200000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Copperfield IT Services GmbH",
+     "tax_id": "DE395841601",
+     "established": "2020-11-12",
+     "service_area": "north_america",
+     "business_type": "llc",
+     "contact_name": "Leila Mensah",
+     "email": "leila.mensah@copperfield.example",
+     "phone_day": "+49 351 233 8731",
+     "company_address": "Am Technologiepark 28, 01058 Dresden, Germany",
+     "licensing": "not_licensed",
+     "bank_name": "Elbtal Handelsbank",
+     "beneficiary": "Copperfield IT Services GmbH",
+     "account_number": "284-561295-1",
+     "swift": "EHXXDEALXXX",
+     "insurance": "insured",
+     "gross_sales": "7200000"
+    },
+    "wrong": {
+     "email": "leila.mensah at copperfield.example",
+     "contact_name": "Leila "
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Elbtal Handelsbank",
+    "beneficiary": "Copperfield IT Services GmbH",
+    "account_number": "284-561295-1",
+    "swift": "EHXXDEALXXX",
+    "org_name": "Copperfield IT Services GmbH",
+    "tax_id": "DE395841601",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "established": "2020-11-12",
+    "company_address": "Am Technologiepark 28, 01058 Dresden, Germany",
+    "service_area": "north_america",
+    "contact_name": [
+     "Leila Mensah",
+     "Ms. Leila Mensah"
+    ],
+    "email": "leila.mensah@copperfield.example",
+    "phone_day": "+49 351 233 8731",
+    "contact_title": "Key Account Executive",
+    "phone_evening": "",
+    "gross_sales": "7200000",
+    "services": "Managed network and endpoint support services",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Elbtal Handelsbank",
+     "beneficiary": "Copperfield IT Services GmbH",
+     "account_number": "284-561295-1",
+     "swift": "EHXXDEALXXX",
+     "org_name": "Copperfield IT Services GmbH",
+     "tax_id": "DE395841601",
+     "business_type": "llc",
+     "established": "2020-11-12",
+     "company_address": "Am Technologiepark 28, 01058 Dresden, Germany",
+     "service_area": "north_america",
+     "contact_name": "Leila Mensah",
+     "email": "leila.mensah@copperfield.example",
+     "phone_day": "+49 351 233 8731",
+     "contact_title": "Key Account Executive",
+     "gross_sales": "7200000",
+     "services": "Managed network and endpoint support services",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "leila.mensah at copperfield.example",
+     "bank_name": "Elbtal Ha"
+    }
+   }
+  }
+ }
+}

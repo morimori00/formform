@@ -1,0 +1,51 @@
+{
+ "persona": "hr-orangehrm/e-add-employee-wizard-05",
+ "context": "hr-orangehrm/e-add-employee-wizard-05.md",
+ "split": "eval",
+ "variants": {
+  "hr-orangehrm/add-employee-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Li-Rong",
+    "middle_name": "",
+    "last_name": "Pan",
+    "employee_id": "KST-95327",
+    "create_login": true,
+    "username": "lirong.pan",
+    "login_status": "enabled",
+    "password": "Kestrel!8975b",
+    "confirm_password": "Kestrel!8975b",
+    "job_title": "soc_analyst",
+    "department": "logistics",
+    "work_location": "neihu",
+    "emp_status": "pt",
+    "supervisor": "u_m7153",
+    "joined_date": "2027-02-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Li-Rong",
+     "last_name": "Pan",
+     "employee_id": "KST-95327",
+     "create_login": true,
+     "username": "lirong.pan",
+     "login_status": "enabled",
+     "password": "Kestrel!8975b",
+     "confirm_password": "Kestrel!8975b",
+     "job_title": "soc_analyst",
+     "department": "logistics",
+     "work_location": "neihu",
+     "emp_status": "pt",
+     "supervisor": "u_m7153",
+     "joined_date": "2027-02-08"
+    },
+    "wrong": {
+     "employee_id": "KST-953x",
+     "first_name": "Li-"
+    }
+   }
+  }
+ }
+}

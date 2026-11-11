@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-038",
+ "context": "vendor-onboarding/t-intl-038.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Halcyon Calibration LLC",
+    "tax_id": "04-4841778",
+    "company_address": "4892 Quail Hollow Ln, Suite 711, Chicago, IL 60678",
+    "established": "2015-09-18",
+    "business_type": "llc",
+    "services": "Metrology equipment calibration and certification",
+    "service_area": "global",
+    "gross_sales": "79500000",
+    "contact_name": [
+     "Oscar Mensah",
+     "Mr. Oscar Mensah"
+    ],
+    "contact_title": "Controller",
+    "phone_day": "(312) 555-0131",
+    "phone_evening": "",
+    "email": "oscar.mensah@halcyon.example",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Cascade Federal Bank",
+    "beneficiary": "Halcyon Calibration LLC",
+    "account_number": "152-224524-1",
+    "swift": "CFBXUS2SXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Halcyon Calibration LLC",
+     "tax_id": "04-4841778",
+     "company_address": "4892 Quail Hollow Ln, Suite 711, Chicago, IL 60678",
+     "established": "2015-09-18",
+     "business_type": "llc",
+     "services": "Metrology equipment calibration and certification",
+     "service_area": "global",
+     "gross_sales": "79500000",
+     "contact_name": "Oscar Mensah",
+     "contact_title": "Controller",
+     "phone_day": "(312) 555-0131",
+     "email": "oscar.mensah@halcyon.example",
+     "insurance": "not_insured",
+     "licensing": "not_licensed",
+     "bank_name": "Cascade Federal Bank",
+     "beneficiary": "Halcyon Calibration LLC",
+     "account_number": "152-224524-1",
+     "swift": "CFBXUS2SXXX"
+    },
+    "wrong": {
+     "email": "oscar.mensah at halcyon.example",
+     "established": "2014-09-18"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Halcyon Calibration LLC",
+    "tax_id": "04-4841778",
+    "established": "2015-09-18",
+    "service_area": "global",
+    "business_type": "llc",
+    "contact_name": [
+     "Oscar Mensah",
+     "Mr. Oscar Mensah"
+    ],
+    "email": "oscar.mensah@halcyon.example",
+    "phone_day": "(312) 555-0131",
+    "phone_evening": "",
+    "company_address": "4892 Quail Hollow Ln, Suite 711, Chicago, IL 60678",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Cascade Federal Bank",
+    "beneficiary": "Halcyon Calibration LLC",
+    "account_number": "152-224524-1",
+    "swift": "CFBXUS2SXXX",
+    "insurance": "not_insured",
+    "gross_sales": "79500000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Halcyon Calibration LLC",
+     "tax_id": "04-4841778",
+     "established": "2015-09-18",
+     "service_area": "global",
+     "business_type": "llc",
+     "contact_name": "Oscar Mensah",
+     "email": "oscar.mensah@halcyon.example",
+     "phone_day": "(312) 555-0131",
+     "company_address": "4892 Quail Hollow Ln, Suite 711, Chicago, IL 60678",
+     "licensing": "not_licensed",
+     "bank_name": "Cascade Federal Bank",
+     "beneficiary": "Halcyon Calibration LLC",
+     "account_number": "152-224524-1",
+     "swift": "CFBXUS2SXXX",
+     "insurance": "not_insured",
+     "gross_sales": "79500000"
+    },
+    "wrong": {
+     "email": "oscar.mensah at halcyon.example",
+     "insurance": "insured"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Cascade Federal Bank",
+    "beneficiary": "Halcyon Calibration LLC",
+    "account_number": "152-224524-1",
+    "swift": "CFBXUS2SXXX",
+    "org_name": "Halcyon Calibration LLC",
+    "tax_id": "04-4841778",
+    "business_type": "llc",
+    "established": "2015-09-18",
+    "company_address": "4892 Quail Hollow Ln, Suite 711, Chicago, IL 60678",
+    "service_area": "global",
+    "contact_name": [
+     "Oscar Mensah",
+     "Mr. Oscar Mensah"
+    ],
+    "email": "oscar.mensah@halcyon.example",
+    "phone_day": "(312) 555-0131",
+    "contact_title": "Controller",
+    "phone_evening": "",
+    "gross_sales": "79500000",
+    "services": "Metrology equipment calibration and certification",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Cascade Federal Bank",
+     "beneficiary": "Halcyon Calibration LLC",
+     "account_number": "152-224524-1",
+     "swift": "CFBXUS2SXXX",
+     "org_name": "Halcyon Calibration LLC",
+     "tax_id": "04-4841778",
+     "business_type": "llc",
+     "established": "2015-09-18",
+     "company_address": "4892 Quail Hollow Ln, Suite 711, Chicago, IL 60678",
+     "service_area": "global",
+     "contact_name": "Oscar Mensah",
+     "email": "oscar.mensah@halcyon.example",
+     "phone_day": "(312) 555-0131",
+     "contact_title": "Controller",
+     "gross_sales": "79500000",
+     "services": "Metrology equipment calibration and certification",
+     "insurance": "not_insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "oscar.mensah at halcyon.example",
+     "swift": "CFBXU"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-019",
+ "context": "parabank/t-customer-019.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "last_name": "Silva",
+    "street": "7184 Juniper Hill Ave",
+    "city": "Madison",
+    "state": [
+     "WI",
+     "Wisconsin"
+    ],
+    "zip": "53791",
+    "phone": "(608) 555-0162",
+    "ssn": "961-85-2148",
+    "username": "rahul.silva23",
+    "password": "River#7569",
+    "password_confirm": "River#7569"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Silva",
+     "street": "7184 Juniper Hill Ave",
+     "city": "Madison",
+     "state": "WI",
+     "zip": "53791",
+     "phone": "(608) 555-0162",
+     "ssn": "961-85-2148",
+     "username": "rahul.silva23",
+     "password": "River#7569",
+     "password_confirm": "River#7569"
+    },
+    "wrong": {
+     "first_name": "Ra"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Maple Street Property Mgmt",
+    "payee_street": "6298 Juniper Hill Ave",
+    "payee_city": "Phoenix",
+    "payee_state": [
+     "AZ",
+     "Arizona"
+    ],
+    "payee_zip": "85082",
+    "payee_phone": "(602) 555-0193",
+    "payee_account": "20308-7551",
+    "payee_account_verify": "20308-7551",
+    "amount": "397.02",
+    "from_account": "18109"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Maple Street Property Mgmt",
+     "payee_street": "6298 Juniper Hill Ave",
+     "payee_city": "Phoenix",
+     "payee_state": "AZ",
+     "payee_zip": "85082",
+     "payee_phone": "(602) 555-0193",
+     "payee_account": "20308-7551",
+     "payee_account_verify": "20308-7551",
+     "amount": "397.02",
+     "from_account": "18109"
+    },
+    "wrong": {
+     "payee_account_verify": "20308-75x",
+     "payee_street": "6298 Junip"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "12000",
+    "down_payment": "2400",
+    "loan_from_account": "17452",
+    "new_account_type": "CHECKING",
+    "new_account_from": "17452"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "12000",
+     "down_payment": "2400",
+     "loan_from_account": "17452",
+     "new_account_type": "CHECKING",
+     "new_account_from": "17452"
+    },
+    "wrong": {
+     "down_payment": "24"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Maple Street Property Mgmt",
+    "payee_street": "6298 Juniper Hill Ave",
+    "payee_city": "Phoenix",
+    "payee_state": [
+     "AZ",
+     "Arizona"
+    ],
+    "payee_zip": "85082",
+    "payee_phone": "(602) 555-0193",
+    "from_account": "18109",
+    "amount": "397.02",
+    "payee_account": "20308-7551",
+    "payee_account_verify": "20308-7551"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Maple Street Property Mgmt",
+     "payee_street": "6298 Juniper Hill Ave",
+     "payee_city": "Phoenix",
+     "payee_state": "AZ",
+     "payee_zip": "85082",
+     "payee_phone": "(602) 555-0193",
+     "from_account": "18109",
+     "amount": "397.02",
+     "payee_account": "20308-7551",
+     "payee_account_verify": "20308-7551"
+    },
+    "wrong": {
+     "payee_account_verify": "20308-75x",
+     "payee_name": "Maple Street "
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Rahul",
+    "last_name": "Silva",
+    "phone": "(608) 555-0162",
+    "ssn": "961-85-2148",
+    "street": "7184 Juniper Hill Ave",
+    "city": "Madison",
+    "state": [
+     "WI",
+     "Wisconsin"
+    ],
+    "zip": "53791",
+    "username": "rahul.silva23",
+    "password": "River#7569",
+    "password_confirm": "River#7569"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Rahul",
+     "last_name": "Silva",
+     "phone": "(608) 555-0162",
+     "ssn": "961-85-2148",
+     "street": "7184 Juniper Hill Ave",
+     "city": "Madison",
+     "state": "WI",
+     "zip": "53791",
+     "username": "rahul.silva23",
+     "password": "River#7569",
+     "password_confirm": "River#7569"
+    },
+    "wrong": {
+     "phone": "(608) 5"
+    }
+   }
+  }
+ }
+}

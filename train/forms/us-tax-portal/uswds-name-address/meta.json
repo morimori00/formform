@@ -1,0 +1,175 @@
+{
+  "family": "us-tax-portal",
+  "variant": "uswds-name-address",
+  "split": "eval",
+  "title": "Contact information",
+  "language": "en",
+  "source": "tax.delaware.gov register-taxpayer-user page + registerExternalUser.js (GET), USWDS name/address form templates",
+  "context": "contexts/eval-bluecrest.md",
+  "url": "forms/us-tax-portal/uswds-name-address/index.html",
+  "pages": 1,
+  "goal": "Using the entity fact sheet in the context, complete this state tax portal registration and submit it.",
+  "contexts": [
+    "eval-bluecrest.md"
+  ],
+  "entry": "index.html",
+  "submit": true,
+  "locale": "en",
+  "personas": [
+    "eval-bluecrest",
+    "us-tax-portal/e-uswds-name-address-01",
+    "us-tax-portal/e-uswds-name-address-02",
+    "us-tax-portal/e-uswds-name-address-03",
+    "us-tax-portal/e-uswds-name-address-04",
+    "us-tax-portal/e-uswds-name-address-05",
+    "us-tax-portal/e-uswds-name-address-06",
+    "us-tax-portal/e-uswds-name-address-07",
+    "us-tax-portal/e-uswds-name-address-08"
+  ],
+  "success": {
+    "require_submitted": true,
+    "rule": "all non-infeasible fields match expected (after normalization), infeasible fields empty, and the form was submitted"
+  },
+  "reject_on_first_submit": null,
+  "fields": [
+    {
+      "label": "First or given name",
+      "key": "first_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "Jordan",
+      "normalization": "text",
+      "required": true,
+      "id": "first_name",
+      "source": "state",
+      "expected": "Jordan"
+    },
+    {
+      "label": "Middle name",
+      "key": "middle_initial",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "A",
+      "normalization": "text",
+      "required": false,
+      "id": "middle_initial",
+      "source": "state",
+      "expected": "A"
+    },
+    {
+      "label": "Last or family name",
+      "key": "last_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "Pierce",
+      "normalization": "text",
+      "required": true,
+      "id": "last_name",
+      "source": "state",
+      "expected": "Pierce"
+    },
+    {
+      "label": "Suffix",
+      "key": "suffix",
+      "kind": "select",
+      "page": 0,
+      "expected_value_from_context": "",
+      "normalization": "choice",
+      "required": false,
+      "id": "suffix",
+      "source": "state",
+      "expected": ""
+    },
+    {
+      "label": "Preferred name",
+      "key": "preferred_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "Jordan",
+      "normalization": "text",
+      "required": false,
+      "id": "preferred_name",
+      "source": "state",
+      "expected": "Jordan"
+    },
+    {
+      "label": "Street address",
+      "key": "street1",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "1201 N Orange St",
+      "normalization": "text",
+      "required": true,
+      "id": "street1",
+      "source": "state",
+      "expected": "1201 N Orange St"
+    },
+    {
+      "label": "Street address line 2",
+      "key": "street2",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "Suite 700",
+      "normalization": "text",
+      "required": false,
+      "id": "street2",
+      "source": "state",
+      "expected": "Suite 700"
+    },
+    {
+      "label": "City",
+      "key": "city",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "Wilmington",
+      "normalization": "text",
+      "required": true,
+      "id": "city",
+      "source": "state",
+      "expected": "Wilmington"
+    },
+    {
+      "label": "State, territory, or military post",
+      "key": "state",
+      "kind": "select",
+      "page": 0,
+      "expected_value_from_context": "DE",
+      "normalization": "choice",
+      "required": true,
+      "id": "state",
+      "source": "state",
+      "expected": "DE"
+    },
+    {
+      "label": "ZIP code",
+      "key": "zip",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "19801",
+      "normalization": "text",
+      "required": true,
+      "id": "zip",
+      "source": "state",
+      "expected": "19801"
+    },
+    {
+      "label": "Urbanization (Puerto Rico only)",
+      "key": "urbanization",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "",
+      "normalization": "text",
+      "required": false,
+      "id": "urbanization",
+      "source": "state",
+      "expected": ""
+    }
+  ],
+  "hard_states_supported": [
+    "prefilled",
+    "partial",
+    "wrong",
+    "loading"
+  ],
+  "notes": "USWDS name + address templates; urbanization must stay empty."
+}

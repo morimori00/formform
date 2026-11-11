@@ -1,0 +1,26 @@
+{
+  "title": "2026 Taipei Smart Manufacturing Forum signup (extension fixture B)",
+  "locale": "zh-TW",
+  "split": "smoke",
+  "contexts": ["b-obsidian.md"],
+  "submit": true,
+  "submit_selectors": ["#submit"],
+  "notes": "Closed shadow DOM rendered after 1.5 s; ARIA radio/checkbox; city -> district dependent select; email confirmation; newsletter must stay unchecked.",
+  "fields": [
+    {"id": "company", "selector": "#company", "expected": "曜石智造股份有限公司", "normalize": ["nfkc", "strip_space"]},
+    {"id": "taxid", "selector": "#taxid", "expected": "24536806", "normalize": ["nfkc", "digits"]},
+    {"id": "name", "selector": "#name", "expected": "林怡君", "normalize": ["nfkc", "strip_space"]},
+    {"id": "title", "selector": "#title", "expected": "產品經理", "normalize": ["nfkc", "strip_space"]},
+    {"id": "email", "selector": "#email", "kind": "email", "expected": "yichun.lin@obsidian-mfg.example.tw", "normalize": ["nfkc", "strip_space", "casefold"]},
+    {"id": "email2", "selector": "#email2", "kind": "email", "expected": "yichun.lin@obsidian-mfg.example.tw", "normalize": ["nfkc", "strip_space", "casefold"]},
+    {"id": "area", "selector": "#area", "kind": "select", "expected": "02"},
+    {"id": "phone", "selector": "#phone", "kind": "tel", "expected": "26587700", "value": "2658-7700", "normalize": ["nfkc", "digits"]},
+    {"id": "ext", "selector": "#ext", "expected": "305", "normalize": ["nfkc", "digits"]},
+    {"id": "city", "selector": "#city", "kind": "select", "expected": "臺北市"},
+    {"id": "district", "selector": "#district", "kind": "cascade", "expected": "內湖區", "perturb": false},
+    {"id": "street", "selector": "#street", "expected": "瑞光路513巷22號5樓", "value": "瑞光路 513 巷 22 號 5 樓", "match": "contains", "normalize": ["nfkc", "strip_space"]},
+    {"id": "meal", "selector": "#meal", "kind": "ariaradio", "expected": "素食"},
+    {"id": "consent", "selector": "#consent", "kind": "checkbox", "expected": true},
+    {"id": "newsletter", "selector": "#news", "kind": "checkbox", "expected": false}
+  ]
+}

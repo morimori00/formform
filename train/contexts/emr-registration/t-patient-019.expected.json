@@ -1,0 +1,252 @@
+{
+ "persona": "emr-registration/t-patient-019",
+ "context": "emr-registration/t-patient-019.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mateo",
+    "middle_name": "",
+    "last_name": "Pham",
+    "dob": "1974-07-07",
+    "sex": "male",
+    "marital": "widowed",
+    "language": "english",
+    "street": "6F, No. 119, Ln. 170, Sec. 1, Zhongshan N. Rd., Zhongli Dist.",
+    "city": "Taoyuan City",
+    "postal": "320",
+    "country": "TW",
+    "phone_home": "02-0720-7010",
+    "phone_cell": "0988-363-029",
+    "email": "mateo.pham@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Naomi Pham",
+    "ec_phone": "0931-232-997",
+    "ec_relationship": "friend",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4243-6481",
+    "group_number": "G-3823",
+    "subscriber_rel": "spouse",
+    "ins_effective": "2026-01-28"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mateo",
+     "last_name": "Pham",
+     "dob": "1974-07-07",
+     "sex": "male",
+     "marital": "widowed",
+     "language": "english",
+     "street": "6F, No. 119, Ln. 170, Sec. 1, Zhongshan N. Rd., Zhongli Dist.",
+     "city": "Taoyuan City",
+     "postal": "320",
+     "country": "TW",
+     "phone_home": "02-0720-7010",
+     "phone_cell": "0988-363-029",
+     "email": "mateo.pham@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Naomi Pham",
+     "ec_phone": "0931-232-997",
+     "ec_relationship": "friend",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4243-6481",
+     "group_number": "G-3823",
+     "subscriber_rel": "spouse",
+     "ins_effective": "2026-01-28"
+    },
+    "wrong": {
+     "email": "mateo.pham at inbox.example",
+     "postal": "3"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Pham",
+    "first_name": "Mateo",
+    "middle_name": "",
+    "dob": "1974-07-07",
+    "sex": "male",
+    "marital": "widowed",
+    "national_id": "",
+    "street": "6F, No. 119, Ln. 170, Sec. 1, Zhongshan N. Rd., Zhongli Dist.",
+    "postal": "320",
+    "city": "Taoyuan City",
+    "country": "TW",
+    "phone_cell": "0988-363-029",
+    "phone_home": "02-0720-7010",
+    "email": "mateo.pham@inbox.example",
+    "ec_name": "Naomi Pham",
+    "ec_relationship": "friend",
+    "ec_phone": "0931-232-997",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4243-6481",
+    "group_number": "G-3823",
+    "subscriber_rel": "spouse",
+    "ins_effective": "2026-01-28",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Pham",
+     "first_name": "Mateo",
+     "dob": "1974-07-07",
+     "sex": "male",
+     "marital": "widowed",
+     "street": "6F, No. 119, Ln. 170, Sec. 1, Zhongshan N. Rd., Zhongli Dist.",
+     "postal": "320",
+     "city": "Taoyuan City",
+     "country": "TW",
+     "phone_cell": "0988-363-029",
+     "phone_home": "02-0720-7010",
+     "email": "mateo.pham@inbox.example",
+     "ec_name": "Naomi Pham",
+     "ec_relationship": "friend",
+     "ec_phone": "0931-232-997",
+     "occupation": "Retired",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4243-6481",
+     "group_number": "G-3823",
+     "subscriber_rel": "spouse",
+     "ins_effective": "2026-01-28"
+    },
+    "wrong": {
+     "email": "mateo.pham at inbox.example",
+     "city": "Taoyua"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mateo",
+    "last_name": "Pham",
+    "dob": "1974-07-07",
+    "sex": "male",
+    "language": "english",
+    "street": "6F, No. 119, Ln. 170, Sec. 1, Zhongshan N. Rd., Zhongli Dist.",
+    "city": "Taoyuan City",
+    "postal": "320",
+    "country": "TW",
+    "phone_cell": "0988-363-029",
+    "phone_home": "02-0720-7010",
+    "ec_name": "Naomi Pham",
+    "ec_phone": "0931-232-997",
+    "ec_relationship": "friend",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4243-6481",
+    "group_number": "G-3823",
+    "subscriber_rel": "spouse",
+    "ins_effective": "2026-01-28"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mateo",
+     "last_name": "Pham",
+     "dob": "1974-07-07",
+     "sex": "male",
+     "language": "english",
+     "street": "6F, No. 119, Ln. 170, Sec. 1, Zhongshan N. Rd., Zhongli Dist.",
+     "city": "Taoyuan City",
+     "postal": "320",
+     "country": "TW",
+     "phone_cell": "0988-363-029",
+     "phone_home": "02-0720-7010",
+     "ec_name": "Naomi Pham",
+     "ec_phone": "0931-232-997",
+     "ec_relationship": "friend",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4243-6481",
+     "group_number": "G-3823",
+     "subscriber_rel": "spouse",
+     "ins_effective": "2026-01-28"
+    },
+    "wrong": {
+     "phone_home": "02-072"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Pham",
+    "first_name": "Mateo",
+    "dob": "1974-07-07",
+    "sex": "male",
+    "phone_cell": "0988-363-029",
+    "country": "TW",
+    "city": "Taoyuan City",
+    "postal": "320",
+    "street": "6F, No. 119, Ln. 170, Sec. 1, Zhongshan N. Rd., Zhongli Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4243-6481",
+    "subscriber_rel": "spouse",
+    "ins_effective": "2026-01-28",
+    "email": "mateo.pham@inbox.example",
+    "phone_home": "02-0720-7010",
+    "marital": "widowed",
+    "language": "english",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Naomi Pham",
+    "ec_phone": "0931-232-997",
+    "ec_relationship": "friend",
+    "group_number": "G-3823"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Pham",
+     "first_name": "Mateo",
+     "dob": "1974-07-07",
+     "sex": "male",
+     "phone_cell": "0988-363-029",
+     "country": "TW",
+     "city": "Taoyuan City",
+     "postal": "320",
+     "street": "6F, No. 119, Ln. 170, Sec. 1, Zhongshan N. Rd., Zhongli Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4243-6481",
+     "subscriber_rel": "spouse",
+     "ins_effective": "2026-01-28",
+     "email": "mateo.pham@inbox.example",
+     "phone_home": "02-0720-7010",
+     "marital": "widowed",
+     "language": "english",
+     "occupation": "Retired",
+     "ec_name": "Naomi Pham",
+     "ec_phone": "0931-232-997",
+     "ec_relationship": "friend",
+     "group_number": "G-3823"
+    },
+    "wrong": {
+     "email": "mateo.pham at inbox.example",
+     "language": "mandarin"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "persona": "vendor-onboarding/t-intl-015",
+ "context": "vendor-onboarding/t-intl-015.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Thornbury Precision Tooling GmbH",
+    "tax_id": "DE296077991",
+    "company_address": "Industriestrasse 36, 01329 Dresden, Germany",
+    "established": "1997-11-24",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "services": "Precision jigs, fixtures and spare parts for wafer handling",
+    "service_area": "north_america",
+    "gross_sales": "41800000",
+    "contact_name": [
+     "Aisha Achebe",
+     "Ms. Aisha Achebe"
+    ],
+    "contact_title": "Controller",
+    "phone_day": "+49 351 824 3766",
+    "phone_evening": "",
+    "email": "aisha.achebe@thornbury.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "DE-LIC-3863172",
+    "bank_name": "Rheinufer Kreditbank",
+    "beneficiary": "Thornbury Precision Tooling GmbH",
+    "account_number": "460-432159-9",
+    "swift": "RKXXDEASXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Thornbury Precision Tooling GmbH",
+     "tax_id": "DE296077991",
+     "company_address": "Industriestrasse 36, 01329 Dresden, Germany",
+     "established": "1997-11-24",
+     "business_type": "llc",
+     "services": "Precision jigs, fixtures and spare parts for wafer handling",
+     "service_area": "north_america",
+     "gross_sales": "41800000",
+     "contact_name": "Aisha Achebe",
+     "contact_title": "Controller",
+     "phone_day": "+49 351 824 3766",
+     "email": "aisha.achebe@thornbury.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "DE-LIC-3863172",
+     "bank_name": "Rheinufer Kreditbank",
+     "beneficiary": "Thornbury Precision Tooling GmbH",
+     "account_number": "460-432159-9",
+     "swift": "RKXXDEASXXX"
+    },
+    "wrong": {
+     "email": "aisha.achebe at thornbury.example",
+     "business_type": "sole_prop"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Thornbury Precision Tooling GmbH",
+    "tax_id": "DE296077991",
+    "established": "1997-11-24",
+    "service_area": "north_america",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "contact_name": [
+     "Aisha Achebe",
+     "Ms. Aisha Achebe"
+    ],
+    "email": "aisha.achebe@thornbury.example",
+    "phone_day": "+49 351 824 3766",
+    "phone_evening": "",
+    "company_address": "Industriestrasse 36, 01329 Dresden, Germany",
+    "licensing": "licensed",
+    "license_number": "DE-LIC-3863172",
+    "bank_name": "Rheinufer Kreditbank",
+    "beneficiary": "Thornbury Precision Tooling GmbH",
+    "account_number": "460-432159-9",
+    "swift": "RKXXDEASXXX",
+    "insurance": "insured",
+    "gross_sales": "41800000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Thornbury Precision Tooling GmbH",
+     "tax_id": "DE296077991",
+     "established": "1997-11-24",
+     "service_area": "north_america",
+     "business_type": "llc",
+     "contact_name": "Aisha Achebe",
+     "email": "aisha.achebe@thornbury.example",
+     "phone_day": "+49 351 824 3766",
+     "company_address": "Industriestrasse 36, 01329 Dresden, Germany",
+     "licensing": "licensed",
+     "license_number": "DE-LIC-3863172",
+     "bank_name": "Rheinufer Kreditbank",
+     "beneficiary": "Thornbury Precision Tooling GmbH",
+     "account_number": "460-432159-9",
+     "swift": "RKXXDEASXXX",
+     "insurance": "insured",
+     "gross_sales": "41800000"
+    },
+    "wrong": {
+     "email": "aisha.achebe at thornbury.example",
+     "tax_id": "DE296"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Rheinufer Kreditbank",
+    "beneficiary": "Thornbury Precision Tooling GmbH",
+    "account_number": "460-432159-9",
+    "swift": "RKXXDEASXXX",
+    "org_name": "Thornbury Precision Tooling GmbH",
+    "tax_id": "DE296077991",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "established": "1997-11-24",
+    "company_address": "Industriestrasse 36, 01329 Dresden, Germany",
+    "service_area": "north_america",
+    "contact_name": [
+     "Aisha Achebe",
+     "Ms. Aisha Achebe"
+    ],
+    "email": "aisha.achebe@thornbury.example",
+    "phone_day": "+49 351 824 3766",
+    "contact_title": "Controller",
+    "phone_evening": "",
+    "gross_sales": "41800000",
+    "services": "Precision jigs, fixtures and spare parts for wafer handling",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "DE-LIC-3863172"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Rheinufer Kreditbank",
+     "beneficiary": "Thornbury Precision Tooling GmbH",
+     "account_number": "460-432159-9",
+     "swift": "RKXXDEASXXX",
+     "org_name": "Thornbury Precision Tooling GmbH",
+     "tax_id": "DE296077991",
+     "business_type": "llc",
+     "established": "1997-11-24",
+     "company_address": "Industriestrasse 36, 01329 Dresden, Germany",
+     "service_area": "north_america",
+     "contact_name": "Aisha Achebe",
+     "email": "aisha.achebe@thornbury.example",
+     "phone_day": "+49 351 824 3766",
+     "contact_title": "Controller",
+     "gross_sales": "41800000",
+     "services": "Precision jigs, fixtures and spare parts for wafer handling",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "DE-LIC-3863172"
+    },
+    "wrong": {
+     "email": "aisha.achebe at thornbury.example",
+     "contact_name": "Aisha "
+    }
+   }
+  }
+ }
+}

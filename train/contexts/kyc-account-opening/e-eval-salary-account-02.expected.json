@@ -1,0 +1,54 @@
+{
+ "persona": "kyc-account-opening/e-eval-salary-account-02",
+ "context": "kyc-account-opening/e-eval-salary-account-02.md",
+ "split": "eval",
+ "variants": {
+  "kyc-account-opening/eval-salary-account": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kao Pin-Kai",
+     "Pin-Kai Kao"
+    ],
+    "gender": "male",
+    "dob": "1999-07-24",
+    "nationality": "TW",
+    "id_form": "national_id",
+    "phone": "+886 957 020 797",
+    "email": "pinkai.kao@inbox.example",
+    "address": [
+     "8F, No. 214, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "8F, No. 214, Fuxing S. Rd., Yongkang Dist., Tainan City 710"
+    ],
+    "mother_maiden": "Pan",
+    "education": "bachelor",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "126000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Kao Pin-Kai",
+     "gender": "male",
+     "dob": "1999-07-24",
+     "nationality": "TW",
+     "id_form": "national_id",
+     "phone": "+886 957 020 797",
+     "email": "pinkai.kao@inbox.example",
+     "address": "8F, No. 214, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "mother_maiden": "Pan",
+     "education": "bachelor",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "126000"
+    },
+    "wrong": {
+     "email": "pinkai.kao at inbox.example",
+     "dob": "1998-07-24"
+    }
+   }
+  }
+ }
+}

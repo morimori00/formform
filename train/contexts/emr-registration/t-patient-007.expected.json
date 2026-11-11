@@ -1,0 +1,257 @@
+{
+ "persona": "emr-registration/t-patient-007",
+ "context": "emr-registration/t-patient-007.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Marcus",
+    "middle_name": "James",
+    "last_name": "Ali",
+    "dob": "1956-02-17",
+    "sex": "female",
+    "marital": "married",
+    "language": "english",
+    "street": "10F, No. 143, Guangfu Rd., Xinyi Dist.",
+    "city": "Taipei City",
+    "postal": "110",
+    "country": "TW",
+    "phone_home": "04-9062-5482",
+    "phone_cell": "0956-923-676",
+    "email": "marcus.ali@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Irene Lindqvist",
+    "ec_phone": "0990-454-328",
+    "ec_relationship": "sibling",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-1634-0924",
+    "group_number": "",
+    "subscriber_rel": "spouse",
+    "ins_effective": "2021-06-09"
+   },
+   "infeasible": [
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Marcus",
+     "middle_name": "James",
+     "last_name": "Ali",
+     "dob": "1956-02-17",
+     "sex": "female",
+     "marital": "married",
+     "language": "english",
+     "street": "10F, No. 143, Guangfu Rd., Xinyi Dist.",
+     "city": "Taipei City",
+     "postal": "110",
+     "country": "TW",
+     "phone_home": "04-9062-5482",
+     "phone_cell": "0956-923-676",
+     "email": "marcus.ali@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Irene Lindqvist",
+     "ec_phone": "0990-454-328",
+     "ec_relationship": "sibling",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-1634-0924",
+     "subscriber_rel": "spouse",
+     "ins_effective": "2021-06-09"
+    },
+    "wrong": {
+     "email": "marcus.ali at inbox.example",
+     "policy_number": "FMH-16"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Ali",
+    "first_name": "Marcus",
+    "middle_name": "James",
+    "dob": "1956-02-17",
+    "sex": "female",
+    "marital": "married",
+    "national_id": "E243315681",
+    "street": "10F, No. 143, Guangfu Rd., Xinyi Dist.",
+    "postal": "110",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0956-923-676",
+    "phone_home": "04-9062-5482",
+    "email": "marcus.ali@inbox.example",
+    "ec_name": "Irene Lindqvist",
+    "ec_relationship": "sibling",
+    "ec_phone": "0990-454-328",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-1634-0924",
+    "group_number": "",
+    "subscriber_rel": "spouse",
+    "ins_effective": "2021-06-09",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Ali",
+     "first_name": "Marcus",
+     "middle_name": "James",
+     "dob": "1956-02-17",
+     "sex": "female",
+     "marital": "married",
+     "national_id": "E243315681",
+     "street": "10F, No. 143, Guangfu Rd., Xinyi Dist.",
+     "postal": "110",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0956-923-676",
+     "phone_home": "04-9062-5482",
+     "email": "marcus.ali@inbox.example",
+     "ec_name": "Irene Lindqvist",
+     "ec_relationship": "sibling",
+     "ec_phone": "0990-454-328",
+     "occupation": "Retired",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-1634-0924",
+     "subscriber_rel": "spouse",
+     "ins_effective": "2021-06-09"
+    },
+    "wrong": {
+     "email": "marcus.ali at inbox.example",
+     "ins_provider": "hsh"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": false,
+   "fields": {
+    "first_name": "Marcus",
+    "last_name": "Ali",
+    "dob": "1956-02-17",
+    "sex": "female",
+    "language": "english",
+    "street": "10F, No. 143, Guangfu Rd., Xinyi Dist.",
+    "city": "Taipei City",
+    "postal": "110",
+    "country": "TW",
+    "phone_cell": "0956-923-676",
+    "phone_home": "04-9062-5482",
+    "ec_name": "Irene Lindqvist",
+    "ec_phone": "0990-454-328",
+    "ec_relationship": "sibling",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-1634-0924",
+    "group_number": "",
+    "subscriber_rel": "spouse",
+    "ins_effective": "2021-06-09"
+   },
+   "infeasible": [
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Marcus",
+     "last_name": "Ali",
+     "dob": "1956-02-17",
+     "sex": "female",
+     "language": "english",
+     "street": "10F, No. 143, Guangfu Rd., Xinyi Dist.",
+     "city": "Taipei City",
+     "postal": "110",
+     "country": "TW",
+     "phone_cell": "0956-923-676",
+     "phone_home": "04-9062-5482",
+     "ec_name": "Irene Lindqvist",
+     "ec_phone": "0990-454-328",
+     "ec_relationship": "sibling",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-1634-0924",
+     "subscriber_rel": "spouse",
+     "ins_effective": "2021-06-09"
+    },
+    "wrong": {
+     "postal": "1"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Ali",
+    "first_name": "Marcus",
+    "dob": "1956-02-17",
+    "sex": "female",
+    "phone_cell": "0956-923-676",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "110",
+    "street": "10F, No. 143, Guangfu Rd., Xinyi Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-1634-0924",
+    "subscriber_rel": "spouse",
+    "ins_effective": "2021-06-09",
+    "email": "marcus.ali@inbox.example",
+    "phone_home": "04-9062-5482",
+    "marital": "married",
+    "language": "english",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Irene Lindqvist",
+    "ec_phone": "0990-454-328",
+    "ec_relationship": "sibling",
+    "group_number": ""
+   },
+   "infeasible": [
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Ali",
+     "first_name": "Marcus",
+     "dob": "1956-02-17",
+     "sex": "female",
+     "phone_cell": "0956-923-676",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "110",
+     "street": "10F, No. 143, Guangfu Rd., Xinyi Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-1634-0924",
+     "subscriber_rel": "spouse",
+     "ins_effective": "2021-06-09",
+     "email": "marcus.ali@inbox.example",
+     "phone_home": "04-9062-5482",
+     "marital": "married",
+     "language": "english",
+     "occupation": "Retired",
+     "ec_name": "Irene Lindqvist",
+     "ec_phone": "0990-454-328",
+     "ec_relationship": "sibling"
+    },
+    "wrong": {
+     "email": "marcus.ali at inbox.example",
+     "last_name": "A"
+    }
+   }
+  }
+ }
+}

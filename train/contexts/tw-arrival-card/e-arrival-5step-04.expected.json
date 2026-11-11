@@ -1,0 +1,74 @@
+{
+ "persona": "tw-arrival-card/e-arrival-5step-04",
+ "context": "tw-arrival-card/e-arrival-5step-04.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-5step": {
+   "submit": true,
+   "fields": {
+    "family_name": "OGAWA",
+    "given_name": "YUI",
+    "sex": "male",
+    "dob": "1983-08-21",
+    "nationality": "JP",
+    "passport_no": "K6689289B",
+    "passport_expiry": "2030-09-07",
+    "occupation": "other",
+    "arrival_date": "2026-12-08",
+    "flight_no": "JL 458",
+    "departure_flight": "",
+    "purpose": "visit_relatives",
+    "visa_type": "resident",
+    "visa_no": "V-7106677",
+    "stay_type": "hotel",
+    "county": "新北市",
+    "district": "板橋區",
+    "stay_address": [
+     "No. 44, Ziyou Rd., Banqiao Dist., New Taipei City 220",
+     "Banqiao Garden Hotel, No. 44, Ziyou Rd., Banqiao Dist., New Taipei City 220"
+    ],
+    "phone": "+886 927 430 494",
+    "email": "yui.ogawa@kestrel-semi.example",
+    "visited": [
+     "HK",
+     "JP"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "family_name": "OGAWA",
+     "given_name": "YUI",
+     "sex": "male",
+     "dob": "1983-08-21",
+     "nationality": "JP",
+     "passport_no": "K6689289B",
+     "passport_expiry": "2030-09-07",
+     "occupation": "other",
+     "arrival_date": "2026-12-08",
+     "flight_no": "JL 458",
+     "purpose": "visit_relatives",
+     "visa_type": "resident",
+     "visa_no": "V-7106677",
+     "stay_type": "hotel",
+     "county": "新北市",
+     "district": "板橋區",
+     "stay_address": "No. 44, Ziyou Rd., Banqiao Dist., New Taipei City 220",
+     "phone": "+886 927 430 494",
+     "email": "yui.ogawa@kestrel-semi.example",
+     "visited": [
+      "HK",
+      "JP"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "OGAx",
+     "visa_type": "visa_exempt"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-032",
+ "context": "vendor-onboarding/t-intl-032.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Silverpine IT Services Sdn. Bhd.",
+    "tax_id": "202501021136",
+    "company_address": "72, Jalan Perusahaan 9, Bayan Lepas, 11900 Penang, Malaysia",
+    "established": "2006-07-12",
+    "business_type": "private_limited",
+    "services": "Managed network and endpoint support services",
+    "service_area": "apac",
+    "gross_sales": "26900000",
+    "contact_name": [
+     "Irene Kowalski",
+     "Ms. Irene Kowalski"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "+60 4-728 8351",
+    "phone_evening": "",
+    "email": "irene.kowalski@silverpine.example",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Selat Mutiara Bank",
+    "beneficiary": "Silverpine IT Services Sdn. Bhd.",
+    "account_number": "224-250147-5",
+    "swift": "SMBXMYXLXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Silverpine IT Services Sdn. Bhd.",
+     "tax_id": "202501021136",
+     "company_address": "72, Jalan Perusahaan 9, Bayan Lepas, 11900 Penang, Malaysia",
+     "established": "2006-07-12",
+     "business_type": "private_limited",
+     "services": "Managed network and endpoint support services",
+     "service_area": "apac",
+     "gross_sales": "26900000",
+     "contact_name": "Irene Kowalski",
+     "contact_title": "Account Manager",
+     "phone_day": "+60 4-728 8351",
+     "email": "irene.kowalski@silverpine.example",
+     "insurance": "not_insured",
+     "licensing": "not_licensed",
+     "bank_name": "Selat Mutiara Bank",
+     "beneficiary": "Silverpine IT Services Sdn. Bhd.",
+     "account_number": "224-250147-5",
+     "swift": "SMBXMYXLXXX"
+    },
+    "wrong": {
+     "email": "irene.kowalski at silverpine.example",
+     "gross_sales": "2690"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Silverpine IT Services Sdn. Bhd.",
+    "tax_id": "202501021136",
+    "established": "2006-07-12",
+    "service_area": "apac",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Irene Kowalski",
+     "Ms. Irene Kowalski"
+    ],
+    "email": "irene.kowalski@silverpine.example",
+    "phone_day": "+60 4-728 8351",
+    "phone_evening": "",
+    "company_address": "72, Jalan Perusahaan 9, Bayan Lepas, 11900 Penang, Malaysia",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Selat Mutiara Bank",
+    "beneficiary": "Silverpine IT Services Sdn. Bhd.",
+    "account_number": "224-250147-5",
+    "swift": "SMBXMYXLXXX",
+    "insurance": "not_insured",
+    "gross_sales": "26900000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Silverpine IT Services Sdn. Bhd.",
+     "tax_id": "202501021136",
+     "established": "2006-07-12",
+     "service_area": "apac",
+     "business_type": "private_limited",
+     "contact_name": "Irene Kowalski",
+     "email": "irene.kowalski@silverpine.example",
+     "phone_day": "+60 4-728 8351",
+     "company_address": "72, Jalan Perusahaan 9, Bayan Lepas, 11900 Penang, Malaysia",
+     "licensing": "not_licensed",
+     "bank_name": "Selat Mutiara Bank",
+     "beneficiary": "Silverpine IT Services Sdn. Bhd.",
+     "account_number": "224-250147-5",
+     "swift": "SMBXMYXLXXX",
+     "insurance": "not_insured",
+     "gross_sales": "26900000"
+    },
+    "wrong": {
+     "email": "irene.kowalski at silverpine.example",
+     "insurance": "insured"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Selat Mutiara Bank",
+    "beneficiary": "Silverpine IT Services Sdn. Bhd.",
+    "account_number": "224-250147-5",
+    "swift": "SMBXMYXLXXX",
+    "org_name": "Silverpine IT Services Sdn. Bhd.",
+    "tax_id": "202501021136",
+    "business_type": "private_limited",
+    "established": "2006-07-12",
+    "company_address": "72, Jalan Perusahaan 9, Bayan Lepas, 11900 Penang, Malaysia",
+    "service_area": "apac",
+    "contact_name": [
+     "Irene Kowalski",
+     "Ms. Irene Kowalski"
+    ],
+    "email": "irene.kowalski@silverpine.example",
+    "phone_day": "+60 4-728 8351",
+    "contact_title": "Account Manager",
+    "phone_evening": "",
+    "gross_sales": "26900000",
+    "services": "Managed network and endpoint support services",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Selat Mutiara Bank",
+     "beneficiary": "Silverpine IT Services Sdn. Bhd.",
+     "account_number": "224-250147-5",
+     "swift": "SMBXMYXLXXX",
+     "org_name": "Silverpine IT Services Sdn. Bhd.",
+     "tax_id": "202501021136",
+     "business_type": "private_limited",
+     "established": "2006-07-12",
+     "company_address": "72, Jalan Perusahaan 9, Bayan Lepas, 11900 Penang, Malaysia",
+     "service_area": "apac",
+     "contact_name": "Irene Kowalski",
+     "email": "irene.kowalski@silverpine.example",
+     "phone_day": "+60 4-728 8351",
+     "contact_title": "Account Manager",
+     "gross_sales": "26900000",
+     "services": "Managed network and endpoint support services",
+     "insurance": "not_insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "irene.kowalski at silverpine.example",
+     "tax_id": "202501"
+    }
+   }
+  }
+ }
+}

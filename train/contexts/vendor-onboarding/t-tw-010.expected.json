@@ -1,0 +1,76 @@
+{
+ "persona": "vendor-onboarding/t-tw-010",
+ "context": "vendor-onboarding/t-tw-010.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Shunju Chemical Materials Co., Ltd.",
+     "順鉅化工材料有限公司"
+    ],
+    "tax_id": "15332306",
+    "company_address": [
+     "303 新竹縣湖口鄉自強路306號10樓",
+     "10F., No. 306, Ziqiang Rd., Hukou Township, Hsinchu County 303"
+    ],
+    "established": "1982-07-04",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "gross_sales": "560000000",
+    "contact_name": [
+     "葉建君",
+     "Yeh Chien-chun"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "chienchun.yeh@shunju-chemical.example",
+    "phone_day": "03-081-3894",
+    "phone_evening": "",
+    "bank_name": [
+     "台北富邦商業銀行",
+     "Taipei Fubon Commercial Bank"
+    ],
+    "beneficiary": [
+     "順鉅化工材料有限公司",
+     "Shunju Chemical Materials Co., Ltd."
+    ],
+    "account_number": "4124061230595",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Shunju Chemical Materials Co., Ltd.",
+     "tax_id": "15332306",
+     "company_address": "303 新竹縣湖口鄉自強路306號10樓",
+     "established": "1982-07-04",
+     "business_type": "llc",
+     "gross_sales": "560000000",
+     "contact_name": "葉建君",
+     "contact_title": "業務專員",
+     "email": "chienchun.yeh@shunju-chemical.example",
+     "phone_day": "03-081-3894",
+     "bank_name": "台北富邦商業銀行",
+     "beneficiary": "順鉅化工材料有限公司",
+     "account_number": "4124061230595",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "153323x",
+     "account_number": "412406"
+    }
+   }
+  }
+ }
+}

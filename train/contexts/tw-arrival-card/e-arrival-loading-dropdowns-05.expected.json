@@ -1,0 +1,72 @@
+{
+ "persona": "tw-arrival-card/e-arrival-loading-dropdowns-05",
+ "context": "tw-arrival-card/e-arrival-loading-dropdowns-05.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-loading-dropdowns": {
+   "submit": true,
+   "fields": {
+    "flight_no": "JL 380",
+    "arrival_date": "2026-12-03",
+    "purpose": "business",
+    "departure_flight": "",
+    "passport_no": "M8754181B",
+    "family_name": "NOMURA",
+    "given_name": "HARUKA",
+    "nationality": "JP",
+    "sex": "male",
+    "dob": "1995-08-19",
+    "passport_expiry": "2029-08-16",
+    "occupation": "other",
+    "visa_type": "visitor",
+    "visa_no": "V-6391141",
+    "stay_type": "hotel",
+    "stay_address": [
+     "No. 51, Chenggong Rd., Xinyi Dist., Taipei City 110",
+     "Xinyi Garden Hotel, No. 51, Chenggong Rd., Xinyi Dist., Taipei City 110"
+    ],
+    "county": "臺北市",
+    "district": "信義區",
+    "phone": "+886 958 237 664",
+    "visited": [
+     "JP",
+     "US"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "flight_no": "JL 380",
+     "arrival_date": "2026-12-03",
+     "purpose": "business",
+     "passport_no": "M8754181B",
+     "family_name": "NOMURA",
+     "given_name": "HARUKA",
+     "nationality": "JP",
+     "sex": "male",
+     "dob": "1995-08-19",
+     "passport_expiry": "2029-08-16",
+     "occupation": "other",
+     "visa_type": "visitor",
+     "visa_no": "V-6391141",
+     "stay_type": "hotel",
+     "stay_address": "No. 51, Chenggong Rd., Xinyi Dist., Taipei City 110",
+     "county": "臺北市",
+     "district": "信義區",
+     "phone": "+886 958 237 664",
+     "visited": [
+      "JP",
+      "US"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "NOMUx",
+     "passport_no": "M875"
+    }
+   }
+  }
+ }
+}

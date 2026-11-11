@@ -1,0 +1,187 @@
+{
+ "persona": "parabank/t-customer-020",
+ "context": "parabank/t-customer-020.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": false,
+   "fields": {
+    "first_name": "Amara",
+    "last_name": "Pham",
+    "street": "5964 Fox Run Dr",
+    "city": "Phoenix",
+    "state": [
+     "AZ",
+     "Arizona"
+    ],
+    "zip": "85030",
+    "phone": "(602) 555-0170",
+    "ssn": "920-29-1336",
+    "username": "amara.pham73",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Amara",
+     "last_name": "Pham",
+     "street": "5964 Fox Run Dr",
+     "city": "Phoenix",
+     "state": "AZ",
+     "zip": "85030",
+     "phone": "(602) 555-0170",
+     "ssn": "920-29-1336",
+     "username": "amara.pham73"
+    },
+    "wrong": {
+     "ssn": "920-2"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Redwood Mobile",
+    "payee_street": "7313 Larkspur Dr",
+    "payee_city": "Albany",
+    "payee_state": [
+     "NY",
+     "New York"
+    ],
+    "payee_zip": "12253",
+    "payee_phone": "(518) 555-0190",
+    "payee_account": "16067-0980",
+    "payee_account_verify": "16067-0980",
+    "amount": "732.06",
+    "from_account": "13344"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Redwood Mobile",
+     "payee_street": "7313 Larkspur Dr",
+     "payee_city": "Albany",
+     "payee_state": "NY",
+     "payee_zip": "12253",
+     "payee_phone": "(518) 555-0190",
+     "payee_account": "16067-0980",
+     "payee_account_verify": "16067-0980",
+     "amount": "732.06",
+     "from_account": "13344"
+    },
+    "wrong": {
+     "payee_account_verify": "16067-09x",
+     "amount": "732"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "25000",
+    "down_payment": "3125",
+    "loan_from_account": "21897",
+    "new_account_type": "CHECKING",
+    "new_account_from": "21897"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "25000",
+     "down_payment": "3125",
+     "loan_from_account": "21897",
+     "new_account_type": "CHECKING",
+     "new_account_from": "21897"
+    },
+    "wrong": {
+     "loan_from_account": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Redwood Mobile",
+    "payee_street": "7313 Larkspur Dr",
+    "payee_city": "Albany",
+    "payee_state": [
+     "NY",
+     "New York"
+    ],
+    "payee_zip": "12253",
+    "payee_phone": "(518) 555-0190",
+    "from_account": "13344",
+    "amount": "732.06",
+    "payee_account": "16067-0980",
+    "payee_account_verify": "16067-0980"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Redwood Mobile",
+     "payee_street": "7313 Larkspur Dr",
+     "payee_city": "Albany",
+     "payee_state": "NY",
+     "payee_zip": "12253",
+     "payee_phone": "(518) 555-0190",
+     "from_account": "13344",
+     "amount": "732.06",
+     "payee_account": "16067-0980",
+     "payee_account_verify": "16067-0980"
+    },
+    "wrong": {
+     "payee_account_verify": "16067-09x",
+     "from_account": "13566"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Amara",
+    "last_name": "Pham",
+    "phone": "(602) 555-0170",
+    "ssn": "920-29-1336",
+    "street": "5964 Fox Run Dr",
+    "city": "Phoenix",
+    "state": [
+     "AZ",
+     "Arizona"
+    ],
+    "zip": "85030",
+    "username": "amara.pham73",
+    "password": "",
+    "password_confirm": ""
+   },
+   "infeasible": [
+    "password",
+    "password_confirm"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Amara",
+     "last_name": "Pham",
+     "phone": "(602) 555-0170",
+     "ssn": "920-29-1336",
+     "street": "5964 Fox Run Dr",
+     "city": "Phoenix",
+     "state": "AZ",
+     "zip": "85030",
+     "username": "amara.pham73"
+    },
+    "wrong": {
+     "first_name": "Am"
+    }
+   }
+  }
+ }
+}

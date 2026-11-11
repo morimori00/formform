@@ -1,0 +1,37 @@
+{
+ "persona": "itsm-request/e-access-request-wizard-01",
+ "context": "itsm-request/e-access-request-wizard-01.md",
+ "split": "eval",
+ "variants": {
+  "itsm-request/access-request-wizard": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g64380",
+    "opened_for_by": "u_m6967",
+    "request_type": "app_access",
+    "application": "dwh_stage",
+    "app_role": "analyst",
+    "access_level": "admin",
+    "needed_by": "2026-12-03",
+    "justification": "Data Platform Engineer in Information Security; needs Data Warehouse — Staging for daily work."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g64380",
+     "opened_for_by": "u_m6967",
+     "request_type": "app_access",
+     "application": "dwh_stage",
+     "app_role": "analyst",
+     "access_level": "admin",
+     "needed_by": "2026-12-03",
+     "justification": "Data Platform Engineer in Information Security; needs Data Warehouse — Staging for daily work."
+    },
+    "wrong": {
+     "request_type": "hardware"
+    }
+   }
+  }
+ }
+}

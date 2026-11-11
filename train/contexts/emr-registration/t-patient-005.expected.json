@@ -1,0 +1,252 @@
+{
+ "persona": "emr-registration/t-patient-005",
+ "context": "emr-registration/t-patient-005.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Ting",
+    "middle_name": "",
+    "last_name": "Fang",
+    "dob": "1951-03-17",
+    "sex": "male",
+    "marital": "separated",
+    "language": "hakka",
+    "street": "3F, No. 31, Dunhua N. Rd., Shilin Dist.",
+    "city": "Taipei City",
+    "postal": "111",
+    "country": "TW",
+    "phone_home": "04-6451-7327",
+    "phone_cell": "0944-409-474",
+    "email": "meiting.fang@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Ming-Ju Chiang",
+    "ec_phone": "0937-248-428",
+    "ec_relationship": "spouse",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-4665-6295",
+    "group_number": "G-3599",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-07-21"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Ting",
+     "last_name": "Fang",
+     "dob": "1951-03-17",
+     "sex": "male",
+     "marital": "separated",
+     "language": "hakka",
+     "street": "3F, No. 31, Dunhua N. Rd., Shilin Dist.",
+     "city": "Taipei City",
+     "postal": "111",
+     "country": "TW",
+     "phone_home": "04-6451-7327",
+     "phone_cell": "0944-409-474",
+     "email": "meiting.fang@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Ming-Ju Chiang",
+     "ec_phone": "0937-248-428",
+     "ec_relationship": "spouse",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-4665-6295",
+     "group_number": "G-3599",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-07-21"
+    },
+    "wrong": {
+     "email": "meiting.fang at inbox.example",
+     "occupation": "Ret"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Fang",
+    "first_name": "Mei-Ting",
+    "middle_name": "",
+    "dob": "1951-03-17",
+    "sex": "male",
+    "marital": "separated",
+    "national_id": "",
+    "street": "3F, No. 31, Dunhua N. Rd., Shilin Dist.",
+    "postal": "111",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0944-409-474",
+    "phone_home": "04-6451-7327",
+    "email": "meiting.fang@inbox.example",
+    "ec_name": "Ming-Ju Chiang",
+    "ec_relationship": "spouse",
+    "ec_phone": "0937-248-428",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-4665-6295",
+    "group_number": "G-3599",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-07-21",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Fang",
+     "first_name": "Mei-Ting",
+     "dob": "1951-03-17",
+     "sex": "male",
+     "marital": "separated",
+     "street": "3F, No. 31, Dunhua N. Rd., Shilin Dist.",
+     "postal": "111",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0944-409-474",
+     "phone_home": "04-6451-7327",
+     "email": "meiting.fang@inbox.example",
+     "ec_name": "Ming-Ju Chiang",
+     "ec_relationship": "spouse",
+     "ec_phone": "0937-248-428",
+     "occupation": "Retired",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-4665-6295",
+     "group_number": "G-3599",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-07-21"
+    },
+    "wrong": {
+     "email": "meiting.fang at inbox.example",
+     "occupation": "Ret"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Ting",
+    "last_name": "Fang",
+    "dob": "1951-03-17",
+    "sex": "male",
+    "language": "hakka",
+    "street": "3F, No. 31, Dunhua N. Rd., Shilin Dist.",
+    "city": "Taipei City",
+    "postal": "111",
+    "country": "TW",
+    "phone_cell": "0944-409-474",
+    "phone_home": "04-6451-7327",
+    "ec_name": "Ming-Ju Chiang",
+    "ec_phone": "0937-248-428",
+    "ec_relationship": "spouse",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-4665-6295",
+    "group_number": "G-3599",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-07-21"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Ting",
+     "last_name": "Fang",
+     "dob": "1951-03-17",
+     "sex": "male",
+     "language": "hakka",
+     "street": "3F, No. 31, Dunhua N. Rd., Shilin Dist.",
+     "city": "Taipei City",
+     "postal": "111",
+     "country": "TW",
+     "phone_cell": "0944-409-474",
+     "phone_home": "04-6451-7327",
+     "ec_name": "Ming-Ju Chiang",
+     "ec_phone": "0937-248-428",
+     "ec_relationship": "spouse",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-4665-6295",
+     "group_number": "G-3599",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-07-21"
+    },
+    "wrong": {
+     "ec_name": "Ming-Ju"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Fang",
+    "first_name": "Mei-Ting",
+    "dob": "1951-03-17",
+    "sex": "male",
+    "phone_cell": "0944-409-474",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "111",
+    "street": "3F, No. 31, Dunhua N. Rd., Shilin Dist.",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-4665-6295",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-07-21",
+    "email": "meiting.fang@inbox.example",
+    "phone_home": "04-6451-7327",
+    "marital": "separated",
+    "language": "hakka",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Ming-Ju Chiang",
+    "ec_phone": "0937-248-428",
+    "ec_relationship": "spouse",
+    "group_number": "G-3599"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Fang",
+     "first_name": "Mei-Ting",
+     "dob": "1951-03-17",
+     "sex": "male",
+     "phone_cell": "0944-409-474",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "111",
+     "street": "3F, No. 31, Dunhua N. Rd., Shilin Dist.",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-4665-6295",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-07-21",
+     "email": "meiting.fang@inbox.example",
+     "phone_home": "04-6451-7327",
+     "marital": "separated",
+     "language": "hakka",
+     "occupation": "Retired",
+     "ec_name": "Ming-Ju Chiang",
+     "ec_phone": "0937-248-428",
+     "ec_relationship": "spouse",
+     "group_number": "G-3599"
+    },
+    "wrong": {
+     "email": "meiting.fang at inbox.example",
+     "language": "english"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "persona": "tw-arrival-card/e-arrival-5step-01",
+ "context": "tw-arrival-card/e-arrival-5step-01.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-5step": {
+   "submit": true,
+   "fields": {
+    "family_name": "HAYES",
+    "given_name": "NATHAN",
+    "sex": "female",
+    "dob": "1980-12-11",
+    "nationality": "US",
+    "passport_no": "M9061460B",
+    "passport_expiry": "2033-04-22",
+    "occupation": "other",
+    "arrival_date": "2026-12-27",
+    "flight_no": "UA 875",
+    "departure_flight": "UA 103",
+    "purpose": "business",
+    "visa_type": "visitor",
+    "visa_no": "V-8767943",
+    "stay_type": "hotel",
+    "county": "臺南市",
+    "district": "善化區",
+    "stay_address": [
+     "No. 173, Zhongshan N. Rd., Shanhua Dist., Tainan City 741",
+     "Shanhua Garden Hotel, No. 173, Zhongshan N. Rd., Shanhua Dist., Tainan City 741"
+    ],
+    "phone": "+886 987 758 727",
+    "email": "nathan.hayes@kestrel-semi.example",
+    "visited": [
+     "US"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "family_name": "HAYES",
+     "given_name": "NATHAN",
+     "sex": "female",
+     "dob": "1980-12-11",
+     "nationality": "US",
+     "passport_no": "M9061460B",
+     "passport_expiry": "2033-04-22",
+     "occupation": "other",
+     "arrival_date": "2026-12-27",
+     "flight_no": "UA 875",
+     "departure_flight": "UA 103",
+     "purpose": "business",
+     "visa_type": "visitor",
+     "visa_no": "V-8767943",
+     "stay_type": "hotel",
+     "county": "臺南市",
+     "district": "善化區",
+     "stay_address": "No. 173, Zhongshan N. Rd., Shanhua Dist., Tainan City 741",
+     "phone": "+886 987 758 727",
+     "email": "nathan.hayes@kestrel-semi.example",
+     "visited": [
+      "US"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "HAYx",
+     "passport_expiry": "2032-04-22"
+    }
+   }
+  }
+ }
+}

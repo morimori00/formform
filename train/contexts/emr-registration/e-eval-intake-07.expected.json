@@ -1,0 +1,70 @@
+{
+ "persona": "emr-registration/e-eval-intake-07",
+ "context": "emr-registration/e-eval-intake-07.md",
+ "split": "eval",
+ "variants": {
+  "emr-registration/eval-intake": {
+   "submit": true,
+   "fields": {
+    "first_name": "Pin-Kai",
+    "middle_name": "",
+    "last_name": "Chu",
+    "dob": "1994-03-30",
+    "sex": "female",
+    "marital": "married",
+    "nationality": "TW",
+    "language": "english",
+    "street": "12F, No. 61, Ln. 142, Sec. 6, Zhongxiao E. Rd., North Dist.",
+    "city": "Hsinchu City",
+    "postal": "300",
+    "country": "TW",
+    "phone_cell": "0964-974-818",
+    "phone_home": "",
+    "email": "",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Tsung-Kai Chu",
+    "ec_phone": "0954-849-434",
+    "ec_relationship": "spouse",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-8073-8370",
+    "group_number": "G-9965",
+    "subscriber_rel": "self",
+    "ins_effective": "2021-09-06"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Pin-Kai",
+     "last_name": "Chu",
+     "dob": "1994-03-30",
+     "sex": "female",
+     "marital": "married",
+     "nationality": "TW",
+     "language": "english",
+     "street": "12F, No. 61, Ln. 142, Sec. 6, Zhongxiao E. Rd., North Dist.",
+     "city": "Hsinchu City",
+     "postal": "300",
+     "country": "TW",
+     "phone_cell": "0964-974-818",
+     "occupation": "Retired",
+     "ec_name": "Tsung-Kai Chu",
+     "ec_phone": "0954-849-434",
+     "ec_relationship": "spouse",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-8073-8370",
+     "group_number": "G-9965",
+     "subscriber_rel": "self",
+     "ins_effective": "2021-09-06"
+    },
+    "wrong": {
+     "country": "JP"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "persona": "hr-orangehrm/t-emp-015",
+ "context": "hr-orangehrm/t-emp-015.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yi-Hua",
+    "middle_name": "",
+    "last_name": "Cheng",
+    "employee_id": "KST-38376",
+    "create_login": true,
+    "username": "yihua.cheng",
+    "login_status": "enabled",
+    "password": "Wafer#2634x",
+    "confirm_password": "Wafer#2634x"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yi-Hua",
+     "last_name": "Cheng",
+     "employee_id": "KST-38376",
+     "create_login": true,
+     "username": "yihua.cheng",
+     "login_status": "enabled",
+     "password": "Wafer#2634x",
+     "confirm_password": "Wafer#2634x"
+    },
+    "wrong": {
+     "employee_id": "KST-383x",
+     "last_name": "Ch"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yi-Hua",
+    "middle_name": "",
+    "last_name": "Cheng",
+    "employee_id": "KST-38376",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "divorced",
+    "dob": "2001-08-22",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yi-Hua",
+     "last_name": "Cheng",
+     "employee_id": "KST-38376",
+     "nationality": "TW",
+     "marital": "divorced",
+     "dob": "2001-08-22",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-383x",
+     "dob": "2000-08-22"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "comp",
+    "leave_from": "2027-02-12",
+    "leave_to": "2027-02-13",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "comp",
+     "leave_from": "2027-02-12",
+     "leave_to": "2027-02-13",
+     "partial_days": "end",
+     "end_duration": "half_am"
+    },
+    "wrong": {
+     "leave_to": "2026-02-13"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "comp",
+    "leave_from": "2027-02-12",
+    "leave_to": "2027-02-13",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "comp",
+     "leave_from": "2027-02-12",
+     "leave_to": "2027-02-13",
+     "partial_days": "end",
+     "end_duration": "half_am"
+    },
+    "wrong": {
+     "leave_from": "2026-02-12"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yi-Hua",
+    "middle_name": "",
+    "last_name": "Cheng",
+    "employee_id": "KST-38376",
+    "create_login": true,
+    "username": "yihua.cheng",
+    "login_status": "enabled",
+    "password": "Wafer#2634x",
+    "confirm_password": "Wafer#2634x",
+    "nationality": "TW",
+    "marital": "divorced",
+    "dob": "2001-08-22",
+    "gender": "female",
+    "job_title": "buyer",
+    "department": "infosec",
+    "work_location": "hsp_fab2",
+    "emp_status": "ft_probation",
+    "supervisor": "u_m4228",
+    "joined_date": "2027-01-23"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yi-Hua",
+     "last_name": "Cheng",
+     "employee_id": "KST-38376",
+     "create_login": true,
+     "username": "yihua.cheng",
+     "login_status": "enabled",
+     "password": "Wafer#2634x",
+     "confirm_password": "Wafer#2634x",
+     "nationality": "TW",
+     "marital": "divorced",
+     "dob": "2001-08-22",
+     "gender": "female",
+     "job_title": "buyer",
+     "department": "infosec",
+     "work_location": "hsp_fab2",
+     "emp_status": "ft_probation",
+     "supervisor": "u_m4228",
+     "joined_date": "2027-01-23"
+    },
+    "wrong": {
+     "employee_id": "KST-383x",
+     "dob": "2000-08-22"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "persona": "us-tax-portal/e-uswds-name-address-02",
+ "context": "us-tax-portal/e-uswds-name-address-02.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/uswds-name-address": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hugo",
+    "middle_initial": "B",
+    "last_name": "Ferreira",
+    "suffix": "",
+    "preferred_name": "Hugo",
+    "street1": "8979 Juniper Hill Ln",
+    "street2": "Suite 363",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21273",
+    "urbanization": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hugo",
+     "middle_initial": "B",
+     "last_name": "Ferreira",
+     "preferred_name": "Hugo",
+     "street1": "8979 Juniper Hill Ln",
+     "street2": "Suite 363",
+     "city": "Baltimore",
+     "state": "MD",
+     "zip": "21273"
+    },
+    "wrong": {
+     "middle_initial": "x",
+     "city": "Balt"
+    }
+   }
+  }
+ }
+}

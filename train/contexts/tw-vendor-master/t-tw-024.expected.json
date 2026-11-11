@@ -1,0 +1,353 @@
+{
+ "persona": "tw-vendor-master/t-tw-024",
+ "context": "tw-vendor-master/t-tw-024.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "盛暘科技股份有限公司",
+    "vendor_name_en": "Chengyang Technology Co., Ltd.",
+    "ubn": "49759005",
+    "owner": "邱雅明",
+    "established": "1989-09-17",
+    "capital": "778000000",
+    "org_type": "corp_shares",
+    "postal": "300",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "民生路359號10樓",
+    "tel": "03-200-1178",
+    "fax": "03-200-0207",
+    "contact_name": [
+     "郭雅宏",
+     "Kuo Ya-hung"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "yahung.kuo@chengyang-technology.example",
+    "contact_mobile": "",
+    "bank_code": "004",
+    "bank_branch": [
+     "東分行",
+     "東"
+    ],
+    "account_no": "2321531050936",
+    "account_name": "盛暘科技股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2027-12-01"
+   },
+   "infeasible": [
+    "contact_mobile"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "盛暘科技股份有限公司",
+     "vendor_name_en": "Chengyang Technology Co., Ltd.",
+     "ubn": "49759005",
+     "owner": "邱雅明",
+     "established": "1989-09-17",
+     "capital": "778000000",
+     "org_type": "corp_shares",
+     "postal": "300",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "民生路359號10樓",
+     "tel": "03-200-1178",
+     "fax": "03-200-0207",
+     "contact_name": "郭雅宏",
+     "contact_title": "財務主任",
+     "email": "yahung.kuo@chengyang-technology.example",
+     "bank_code": "004",
+     "bank_branch": "東分行",
+     "account_no": "2321531050936",
+     "account_name": "盛暘科技股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2027-12-01"
+    },
+    "wrong": {
+     "ubn": "497590x",
+     "contact_title": "財務"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": false,
+   "fields": {
+    "ubn": "49759005",
+    "vendor_name_zh": "盛暘科技股份有限公司",
+    "vendor_name_en": "Chengyang Technology Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1989-09-17",
+    "owner": "邱雅明",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "民生路359號10樓",
+    "postal": "300",
+    "tel": "03-200-1178",
+    "fax": "03-200-0207",
+    "contact_name": [
+     "郭雅宏",
+     "Kuo Ya-hung"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "",
+    "email": "yahung.kuo@chengyang-technology.example",
+    "bank_code": "004",
+    "bank_branch": [
+     "東分行",
+     "東"
+    ],
+    "account_no": "2321531050936",
+    "account_name": "盛暘科技股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2027-12-01",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "contact_mobile"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "49759005",
+     "vendor_name_zh": "盛暘科技股份有限公司",
+     "vendor_name_en": "Chengyang Technology Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1989-09-17",
+     "owner": "邱雅明",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "民生路359號10樓",
+     "postal": "300",
+     "tel": "03-200-1178",
+     "fax": "03-200-0207",
+     "contact_name": "郭雅宏",
+     "contact_title": "財務主任",
+     "email": "yahung.kuo@chengyang-technology.example",
+     "bank_code": "004",
+     "bank_branch": "東分行",
+     "account_no": "2321531050936",
+     "account_name": "盛暘科技股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2027-12-01"
+    },
+    "wrong": {
+     "ubn": "497590x",
+     "contact_name": "郭"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "49759005",
+    "vendor_name_zh": "盛暘科技股份有限公司",
+    "owner": "邱雅明",
+    "established": "1989-09-17",
+    "org_type": "corp_shares",
+    "capital": "778000000",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "民生路359號10樓",
+    "postal": "300",
+    "tel": "03-200-1178",
+    "contact_name": [
+     "郭雅宏",
+     "Kuo Ya-hung"
+    ],
+    "email": "yahung.kuo@chengyang-technology.example",
+    "bank_code": "004",
+    "account_no": "2321531050936",
+    "account_name": "盛暘科技股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "49759005",
+     "vendor_name_zh": "盛暘科技股份有限公司",
+     "owner": "邱雅明",
+     "established": "1989-09-17",
+     "org_type": "corp_shares",
+     "capital": "778000000",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "民生路359號10樓",
+     "postal": "300",
+     "tel": "03-200-1178",
+     "contact_name": "郭雅宏",
+     "email": "yahung.kuo@chengyang-technology.example",
+     "bank_code": "004",
+     "account_no": "2321531050936",
+     "account_name": "盛暘科技股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "497590x",
+     "org_type": "limited"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "盛暘科技股份有限公司",
+    "vendor_name_en": "Chengyang Technology Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "49759005",
+    "owner": "邱雅明",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "民生路359號10樓",
+    "postal": "300",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-200-1178",
+    "contact_name": [
+     "郭雅宏",
+     "Kuo Ya-hung"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "yahung.kuo@chengyang-technology.example",
+    "account_no": "2321531050936",
+    "account_name": "盛暘科技股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "盛暘科技股份有限公司",
+     "vendor_name_en": "Chengyang Technology Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "49759005",
+     "owner": "邱雅明",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "民生路359號10樓",
+     "postal": "300",
+     "tel": "03-200-1178",
+     "contact_name": "郭雅宏",
+     "contact_title": "財務主任",
+     "email": "yahung.kuo@chengyang-technology.example",
+     "account_no": "2321531050936",
+     "account_name": "盛暘科技股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "497590x",
+     "address_line": "民生路35"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "004",
+    "bank_branch": [
+     "東分行",
+     "東"
+    ],
+    "account_no": "2321531050936",
+    "account_name": "盛暘科技股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "新竹市",
+    "district": "東區",
+    "address_line": "民生路359號10樓",
+    "postal": "300",
+    "tel": "03-200-1178",
+    "fax": "03-200-0207",
+    "vendor_name_zh": "盛暘科技股份有限公司",
+    "ubn": "49759005",
+    "owner": "邱雅明",
+    "org_type": "corp_shares",
+    "established": "1989-09-17",
+    "capital": "778000000",
+    "vendor_name_en": "Chengyang Technology Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "",
+    "contact_name": [
+     "郭雅宏",
+     "Kuo Ya-hung"
+    ],
+    "email": "yahung.kuo@chengyang-technology.example"
+   },
+   "infeasible": [
+    "contact_mobile"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "004",
+     "bank_branch": "東分行",
+     "account_no": "2321531050936",
+     "account_name": "盛暘科技股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "新竹市",
+     "district": "東區",
+     "address_line": "民生路359號10樓",
+     "postal": "300",
+     "tel": "03-200-1178",
+     "fax": "03-200-0207",
+     "vendor_name_zh": "盛暘科技股份有限公司",
+     "ubn": "49759005",
+     "owner": "邱雅明",
+     "org_type": "corp_shares",
+     "established": "1989-09-17",
+     "capital": "778000000",
+     "vendor_name_en": "Chengyang Technology Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_name": "郭雅宏",
+     "email": "yahung.kuo@chengyang-technology.example"
+    },
+    "wrong": {
+     "account_no": "23215310509x",
+     "bank_branch": "東"
+    }
+   }
+  }
+ }
+}

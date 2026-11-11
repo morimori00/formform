@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-005",
+ "context": "kyc-account-opening/t-kyc-005.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-40366",
+    "full_name": [
+     "Cheng Ming-Hsuan",
+     "Ming-Hsuan Cheng"
+    ],
+    "spouse_name": "Chiu Jia-Ying",
+    "gender": "female",
+    "marital": "married",
+    "dob": "1964-09-12",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "H219379860",
+    "id_proof": "national_id",
+    "address": [
+     "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 921 065 051",
+    "email": "minghsuan.cheng@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Cheng Ming-Hsuan",
+     "Ming-Hsuan Cheng"
+    ],
+    "sign_date": "2026-11-03",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-40366",
+     "full_name": "Cheng Ming-Hsuan",
+     "spouse_name": "Chiu Jia-Ying",
+     "gender": "female",
+     "marital": "married",
+     "dob": "1964-09-12",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "H219379860",
+     "id_proof": "national_id",
+     "address": "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "phone": "+886 921 065 051",
+     "email": "minghsuan.cheng@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Cheng Ming-Hsuan",
+     "sign_date": "2026-11-03"
+    },
+    "wrong": {
+     "tax_id": "H2193798x",
+     "decl_name": "Cheng Mi"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Cheng Ming-Hsuan",
+     "Ming-Hsuan Cheng"
+    ],
+    "dob": "1964-09-12",
+    "mother_maiden": "",
+    "phone": "+886 921 065 051",
+    "email": "minghsuan.cheng@inbox.example",
+    "address": [
+     "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "education": "master",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "236000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Cheng Ming-Hsuan",
+     "dob": "1964-09-12",
+     "phone": "+886 921 065 051",
+     "email": "minghsuan.cheng@inbox.example",
+     "address": "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "education": "master",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "236000"
+    },
+    "wrong": {
+     "email": "minghsuan.cheng at inbox.example",
+     "full_name": "Cheng Mi"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Cheng Ming-Hsuan",
+     "Ming-Hsuan Cheng"
+    ],
+    "dob": "1964-09-12",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Chiu Jia-Ying",
+    "address": [
+     "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "email": "minghsuan.cheng@inbox.example",
+    "phone": "+886 921 065 051",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "H219379860",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-40366"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Cheng Ming-Hsuan",
+     "dob": "1964-09-12",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Chiu Jia-Ying",
+     "address": "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "email": "minghsuan.cheng@inbox.example",
+     "phone": "+886 921 065 051",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "H219379860",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-40366"
+    },
+    "wrong": {
+     "email": "minghsuan.cheng at inbox.example",
+     "residency": "non_resident"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Cheng Ming-Hsuan",
+     "Ming-Hsuan Cheng"
+    ],
+    "dob": "1964-09-12",
+    "gender": "female",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 921 065 051",
+    "email": "minghsuan.cheng@inbox.example",
+    "address": [
+     "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "H219379860",
+    "addr_proof": "tax_bill",
+    "account_type": "checking",
+    "account_category": "individual",
+    "education": "master",
+    "monthly_income": "236000",
+    "application_no": "LCB-AO-2026-40366",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Cheng Ming-Hsuan",
+     "dob": "1964-09-12",
+     "gender": "female",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 921 065 051",
+     "email": "minghsuan.cheng@inbox.example",
+     "address": "13F, No. 106, Minsheng E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "H219379860",
+     "addr_proof": "tax_bill",
+     "account_type": "checking",
+     "account_category": "individual",
+     "education": "master",
+     "monthly_income": "236000",
+     "application_no": "LCB-AO-2026-40366"
+    },
+    "wrong": {
+     "email": "minghsuan.cheng at inbox.example",
+     "dob": "1963-09-12"
+    }
+   }
+  }
+ }
+}

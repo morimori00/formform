@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-002",
+ "context": "kyc-account-opening/t-kyc-002.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-29075",
+    "full_name": [
+     "Wu Chun-Hua",
+     "Chun-Hua Wu"
+    ],
+    "spouse_name": "Su Chia-Hsuan",
+    "gender": "female",
+    "marital": "married",
+    "dob": "1991-12-17",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "F129111718",
+    "id_proof": "national_id",
+    "address": [
+     "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701, Taiwan",
+     "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701"
+    ],
+    "phone": "+886 913 507 244",
+    "email": "chunhua.wu@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Wu Chun-Hua",
+     "Chun-Hua Wu"
+    ],
+    "sign_date": "2026-11-02",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-29075",
+     "full_name": "Wu Chun-Hua",
+     "spouse_name": "Su Chia-Hsuan",
+     "gender": "female",
+     "marital": "married",
+     "dob": "1991-12-17",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "F129111718",
+     "id_proof": "national_id",
+     "address": "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701, Taiwan",
+     "phone": "+886 913 507 244",
+     "email": "chunhua.wu@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Wu Chun-Hua",
+     "sign_date": "2026-11-02"
+    },
+    "wrong": {
+     "tax_id": "F1291117x",
+     "dob": "1990-12-17"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chun-Hua",
+     "Chun-Hua Wu"
+    ],
+    "dob": "1991-12-17",
+    "mother_maiden": "Yang",
+    "phone": "+886 913 507 244",
+    "email": "chunhua.wu@inbox.example",
+    "address": [
+     "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701, Taiwan",
+     "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701"
+    ],
+    "education": "bachelor",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "joint",
+    "monthly_income": "63000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chun-Hua",
+     "dob": "1991-12-17",
+     "mother_maiden": "Yang",
+     "phone": "+886 913 507 244",
+     "email": "chunhua.wu@inbox.example",
+     "address": "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701, Taiwan",
+     "education": "bachelor",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "joint",
+     "monthly_income": "63000"
+    },
+    "wrong": {
+     "email": "chunhua.wu at inbox.example",
+     "account_type": "checking"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chun-Hua",
+     "Chun-Hua Wu"
+    ],
+    "dob": "1991-12-17",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Su Chia-Hsuan",
+    "address": [
+     "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701, Taiwan",
+     "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701"
+    ],
+    "email": "chunhua.wu@inbox.example",
+    "phone": "+886 913 507 244",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "F129111718",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-29075"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chun-Hua",
+     "dob": "1991-12-17",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Su Chia-Hsuan",
+     "address": "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701, Taiwan",
+     "email": "chunhua.wu@inbox.example",
+     "phone": "+886 913 507 244",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "F129111718",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-29075"
+    },
+    "wrong": {
+     "email": "chunhua.wu at inbox.example",
+     "id_proof": "passport"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chun-Hua",
+     "Chun-Hua Wu"
+    ],
+    "dob": "1991-12-17",
+    "gender": "female",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 913 507 244",
+    "email": "chunhua.wu@inbox.example",
+    "address": [
+     "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701, Taiwan",
+     "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "F129111718",
+    "addr_proof": "tax_bill",
+    "account_type": "savings",
+    "account_category": "joint",
+    "education": "bachelor",
+    "monthly_income": "63000",
+    "application_no": "LCB-AO-2026-29075",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chun-Hua",
+     "dob": "1991-12-17",
+     "gender": "female",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 913 507 244",
+     "email": "chunhua.wu@inbox.example",
+     "address": "12F, No. 130, Ln. 199, Sec. 4, Heping W. Rd., East Dist., Tainan City 701, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "F129111718",
+     "addr_proof": "tax_bill",
+     "account_type": "savings",
+     "account_category": "joint",
+     "education": "bachelor",
+     "monthly_income": "63000",
+     "application_no": "LCB-AO-2026-29075"
+    },
+    "wrong": {
+     "email": "chunhua.wu at inbox.example",
+     "gender": "male"
+    }
+   }
+  }
+ }
+}

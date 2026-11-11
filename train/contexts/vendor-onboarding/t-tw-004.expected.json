@@ -1,0 +1,73 @@
+{
+ "persona": "vendor-onboarding/t-tw-004",
+ "context": "vendor-onboarding/t-tw-004.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Xiangge Environmental Technology Co., Ltd.",
+     "祥格環保科技股份有限公司"
+    ],
+    "tax_id": "41136511",
+    "company_address": [
+     "811 高雄市楠梓區中山路78號10樓",
+     "10F., No. 78, Zhongshan Rd., Nanzi Dist., Kaohsiung City 811"
+    ],
+    "established": "1983-09-23",
+    "business_type": "corporation",
+    "gross_sales": "949000000",
+    "contact_name": [
+     "吳建君",
+     "Wu Chien-chun"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "chienchun.wu@xiangge-environmental.example",
+    "phone_day": "07-355-7481",
+    "phone_evening": "",
+    "bank_name": [
+     "彰化商業銀行",
+     "Chang Hwa Commercial Bank"
+    ],
+    "beneficiary": [
+     "祥格環保科技股份有限公司",
+     "Xiangge Environmental Technology Co., Ltd."
+    ],
+    "account_number": "23326699688643",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Xiangge Environmental Technology Co., Ltd.",
+     "tax_id": "41136511",
+     "company_address": "811 高雄市楠梓區中山路78號10樓",
+     "established": "1983-09-23",
+     "business_type": "corporation",
+     "gross_sales": "949000000",
+     "contact_name": "吳建君",
+     "contact_title": "業務專員",
+     "email": "chienchun.wu@xiangge-environmental.example",
+     "phone_day": "07-355-7481",
+     "bank_name": "彰化商業銀行",
+     "beneficiary": "祥格環保科技股份有限公司",
+     "account_number": "23326699688643",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "411365x",
+     "phone_day": "07-35"
+    }
+   }
+  }
+ }
+}

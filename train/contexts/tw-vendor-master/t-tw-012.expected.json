@@ -1,0 +1,352 @@
+{
+ "persona": "tw-vendor-master/t-tw-012",
+ "context": "tw-vendor-master/t-tw-012.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "立鉅自動化設備有限公司",
+    "vendor_name_en": "Liju Automation Equipment Co., Ltd.",
+    "ubn": "40889203",
+    "owner": "江家婷",
+    "established": "1990-02-12",
+    "capital": "92000000",
+    "org_type": "limited",
+    "postal": "811",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "成功路208號4樓",
+    "tel": "07-259-4705",
+    "fax": "07-259-7769",
+    "contact_name": [
+     "江志翰",
+     "Chiang Chih-han"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "chihhan.chiang@liju-automation.example",
+    "contact_mobile": "0971-470-702",
+    "bank_code": "006",
+    "bank_branch": [
+     "楠梓分行",
+     "楠梓"
+    ],
+    "account_no": "29220266706721",
+    "account_name": "立鉅自動化設備有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "立鉅自動化設備有限公司",
+     "vendor_name_en": "Liju Automation Equipment Co., Ltd.",
+     "ubn": "40889203",
+     "owner": "江家婷",
+     "established": "1990-02-12",
+     "capital": "92000000",
+     "org_type": "limited",
+     "postal": "811",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "成功路208號4樓",
+     "tel": "07-259-4705",
+     "fax": "07-259-7769",
+     "contact_name": "江志翰",
+     "contact_title": "總經理特助",
+     "email": "chihhan.chiang@liju-automation.example",
+     "contact_mobile": "0971-470-702",
+     "bank_code": "006",
+     "bank_branch": "楠梓分行",
+     "account_no": "29220266706721",
+     "account_name": "立鉅自動化設備有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "408892x",
+     "contact_mobile": "0971-4"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "40889203",
+    "vendor_name_zh": "立鉅自動化設備有限公司",
+    "vendor_name_en": "Liju Automation Equipment Co., Ltd.",
+    "org_type": "limited",
+    "established": "1990-02-12",
+    "owner": "江家婷",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "成功路208號4樓",
+    "postal": "811",
+    "tel": "07-259-4705",
+    "fax": "07-259-7769",
+    "contact_name": [
+     "江志翰",
+     "Chiang Chih-han"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "0971-470-702",
+    "email": "chihhan.chiang@liju-automation.example",
+    "bank_code": "006",
+    "bank_branch": [
+     "楠梓分行",
+     "楠梓"
+    ],
+    "account_no": "29220266706721",
+    "account_name": "立鉅自動化設備有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": "",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "ubn": "40889203",
+     "vendor_name_zh": "立鉅自動化設備有限公司",
+     "vendor_name_en": "Liju Automation Equipment Co., Ltd.",
+     "org_type": "limited",
+     "established": "1990-02-12",
+     "owner": "江家婷",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "成功路208號4樓",
+     "postal": "811",
+     "tel": "07-259-4705",
+     "fax": "07-259-7769",
+     "contact_name": "江志翰",
+     "contact_title": "總經理特助",
+     "contact_mobile": "0971-470-702",
+     "email": "chihhan.chiang@liju-automation.example",
+     "bank_code": "006",
+     "bank_branch": "楠梓分行",
+     "account_no": "29220266706721",
+     "account_name": "立鉅自動化設備有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "408892x",
+     "vendor_name_zh": "立鉅自動化"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "40889203",
+    "vendor_name_zh": "立鉅自動化設備有限公司",
+    "owner": "江家婷",
+    "established": "1990-02-12",
+    "org_type": "limited",
+    "capital": "92000000",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "成功路208號4樓",
+    "postal": "811",
+    "tel": "07-259-4705",
+    "contact_name": [
+     "江志翰",
+     "Chiang Chih-han"
+    ],
+    "email": "chihhan.chiang@liju-automation.example",
+    "bank_code": "006",
+    "account_no": "29220266706721",
+    "account_name": "立鉅自動化設備有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "40889203",
+     "vendor_name_zh": "立鉅自動化設備有限公司",
+     "owner": "江家婷",
+     "established": "1990-02-12",
+     "org_type": "limited",
+     "capital": "92000000",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "成功路208號4樓",
+     "postal": "811",
+     "tel": "07-259-4705",
+     "contact_name": "江志翰",
+     "email": "chihhan.chiang@liju-automation.example",
+     "bank_code": "006",
+     "account_no": "29220266706721",
+     "account_name": "立鉅自動化設備有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "408892x",
+     "account_name": "立鉅自動化"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "立鉅自動化設備有限公司",
+    "vendor_name_en": "Liju Automation Equipment Co., Ltd.",
+    "foreign": false,
+    "org_type": "limited",
+    "ubn": "40889203",
+    "owner": "江家婷",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "成功路208號4樓",
+    "postal": "811",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "07-259-4705",
+    "contact_name": [
+     "江志翰",
+     "Chiang Chih-han"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "chihhan.chiang@liju-automation.example",
+    "account_no": "29220266706721",
+    "account_name": "立鉅自動化設備有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "立鉅自動化設備有限公司",
+     "vendor_name_en": "Liju Automation Equipment Co., Ltd.",
+     "foreign": false,
+     "org_type": "limited",
+     "ubn": "40889203",
+     "owner": "江家婷",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "成功路208號4樓",
+     "postal": "811",
+     "tel": "07-259-4705",
+     "contact_name": "江志翰",
+     "contact_title": "總經理特助",
+     "email": "chihhan.chiang@liju-automation.example",
+     "account_no": "29220266706721",
+     "account_name": "立鉅自動化設備有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "408892x",
+     "org_type": "corp_shares"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "006",
+    "bank_branch": [
+     "楠梓分行",
+     "楠梓"
+    ],
+    "account_no": "29220266706721",
+    "account_name": "立鉅自動化設備有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "成功路208號4樓",
+    "postal": "811",
+    "tel": "07-259-4705",
+    "fax": "07-259-7769",
+    "vendor_name_zh": "立鉅自動化設備有限公司",
+    "ubn": "40889203",
+    "owner": "江家婷",
+    "org_type": "limited",
+    "established": "1990-02-12",
+    "capital": "92000000",
+    "vendor_name_en": "Liju Automation Equipment Co., Ltd.",
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "0971-470-702",
+    "contact_name": [
+     "江志翰",
+     "Chiang Chih-han"
+    ],
+    "email": "chihhan.chiang@liju-automation.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "006",
+     "bank_branch": "楠梓分行",
+     "account_no": "29220266706721",
+     "account_name": "立鉅自動化設備有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "成功路208號4樓",
+     "postal": "811",
+     "tel": "07-259-4705",
+     "fax": "07-259-7769",
+     "vendor_name_zh": "立鉅自動化設備有限公司",
+     "ubn": "40889203",
+     "owner": "江家婷",
+     "org_type": "limited",
+     "established": "1990-02-12",
+     "capital": "92000000",
+     "vendor_name_en": "Liju Automation Equipment Co., Ltd.",
+     "contact_title": "總經理特助",
+     "contact_mobile": "0971-470-702",
+     "contact_name": "江志翰",
+     "email": "chihhan.chiang@liju-automation.example"
+    },
+    "wrong": {
+     "account_no": "292202667067x",
+     "contact_name": "江"
+    }
+   }
+  }
+ }
+}

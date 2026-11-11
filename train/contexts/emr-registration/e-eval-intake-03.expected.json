@@ -1,0 +1,71 @@
+{
+ "persona": "emr-registration/e-eval-intake-03",
+ "context": "emr-registration/e-eval-intake-03.md",
+ "split": "eval",
+ "variants": {
+  "emr-registration/eval-intake": {
+   "submit": true,
+   "fields": {
+    "first_name": "Sophie",
+    "middle_name": "Rose",
+    "last_name": "Kapoor",
+    "dob": "1958-05-17",
+    "sex": "female",
+    "marital": "separated",
+    "nationality": "US",
+    "language": "english",
+    "street": "6F, No. 8, Ln. 98, Sec. 5, Zhongzheng Rd., Neihu Dist.",
+    "city": "Taipei City",
+    "postal": "114",
+    "country": "TW",
+    "phone_cell": "0996-668-406",
+    "phone_home": "",
+    "email": "sophie.kapoor@inbox.example",
+    "occupation": "Software engineer",
+    "employer": "Tidewell Elementary School",
+    "ec_name": "Jonas Kapoor",
+    "ec_phone": "0945-520-211",
+    "ec_relationship": "friend",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-6195-0880",
+    "group_number": "G-6346",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-05-12"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Sophie",
+     "middle_name": "Rose",
+     "last_name": "Kapoor",
+     "dob": "1958-05-17",
+     "sex": "female",
+     "marital": "separated",
+     "nationality": "US",
+     "language": "english",
+     "street": "6F, No. 8, Ln. 98, Sec. 5, Zhongzheng Rd., Neihu Dist.",
+     "city": "Taipei City",
+     "postal": "114",
+     "country": "TW",
+     "phone_cell": "0996-668-406",
+     "email": "sophie.kapoor@inbox.example",
+     "occupation": "Software engineer",
+     "employer": "Tidewell Elementary School",
+     "ec_name": "Jonas Kapoor",
+     "ec_phone": "0945-520-211",
+     "ec_relationship": "friend",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-6195-0880",
+     "group_number": "G-6346",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-05-12"
+    },
+    "wrong": {
+     "email": "sophie.kapoor at inbox.example",
+     "ec_relationship": "spouse"
+    }
+   }
+  }
+ }
+}

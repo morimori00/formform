@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-009",
+ "context": "vendor-onboarding/t-intl-009.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Driftwood Industrial Gases Inc.",
+    "tax_id": "15-4475536",
+    "company_address": "5196 Fox Run Ave, Suite 743, Denver, CO 80260",
+    "established": "2002-04-18",
+    "business_type": "corporation",
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "service_area": "europe",
+    "gross_sales": "30600000",
+    "contact_name": [
+     "Andre Petrov",
+     "Mr. Andre Petrov"
+    ],
+    "contact_title": "Sales Director",
+    "phone_day": "(303) 555-0137",
+    "phone_evening": "",
+    "email": "andre.petrov@driftwood.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Prairie Union Bank",
+    "beneficiary": "Driftwood Industrial Gases Inc.",
+    "account_number": "262-454965-0",
+    "swift": "PUBXUSAXXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Driftwood Industrial Gases Inc.",
+     "tax_id": "15-4475536",
+     "company_address": "5196 Fox Run Ave, Suite 743, Denver, CO 80260",
+     "established": "2002-04-18",
+     "business_type": "corporation",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "service_area": "europe",
+     "gross_sales": "30600000",
+     "contact_name": "Andre Petrov",
+     "contact_title": "Sales Director",
+     "phone_day": "(303) 555-0137",
+     "email": "andre.petrov@driftwood.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Prairie Union Bank",
+     "beneficiary": "Driftwood Industrial Gases Inc.",
+     "account_number": "262-454965-0",
+     "swift": "PUBXUSAXXXX"
+    },
+    "wrong": {
+     "email": "andre.petrov at driftwood.example",
+     "contact_title": "Sales D"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Driftwood Industrial Gases Inc.",
+    "tax_id": "15-4475536",
+    "established": "2002-04-18",
+    "service_area": "europe",
+    "business_type": "corporation",
+    "contact_name": [
+     "Andre Petrov",
+     "Mr. Andre Petrov"
+    ],
+    "email": "andre.petrov@driftwood.example",
+    "phone_day": "(303) 555-0137",
+    "phone_evening": "",
+    "company_address": "5196 Fox Run Ave, Suite 743, Denver, CO 80260",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Prairie Union Bank",
+    "beneficiary": "Driftwood Industrial Gases Inc.",
+    "account_number": "262-454965-0",
+    "swift": "PUBXUSAXXXX",
+    "insurance": "insured",
+    "gross_sales": "30600000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Driftwood Industrial Gases Inc.",
+     "tax_id": "15-4475536",
+     "established": "2002-04-18",
+     "service_area": "europe",
+     "business_type": "corporation",
+     "contact_name": "Andre Petrov",
+     "email": "andre.petrov@driftwood.example",
+     "phone_day": "(303) 555-0137",
+     "company_address": "5196 Fox Run Ave, Suite 743, Denver, CO 80260",
+     "licensing": "not_licensed",
+     "bank_name": "Prairie Union Bank",
+     "beneficiary": "Driftwood Industrial Gases Inc.",
+     "account_number": "262-454965-0",
+     "swift": "PUBXUSAXXXX",
+     "insurance": "insured",
+     "gross_sales": "30600000"
+    },
+    "wrong": {
+     "email": "andre.petrov at driftwood.example",
+     "licensing": "licensed"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Prairie Union Bank",
+    "beneficiary": "Driftwood Industrial Gases Inc.",
+    "account_number": "262-454965-0",
+    "swift": "PUBXUSAXXXX",
+    "org_name": "Driftwood Industrial Gases Inc.",
+    "tax_id": "15-4475536",
+    "business_type": "corporation",
+    "established": "2002-04-18",
+    "company_address": "5196 Fox Run Ave, Suite 743, Denver, CO 80260",
+    "service_area": "europe",
+    "contact_name": [
+     "Andre Petrov",
+     "Mr. Andre Petrov"
+    ],
+    "email": "andre.petrov@driftwood.example",
+    "phone_day": "(303) 555-0137",
+    "contact_title": "Sales Director",
+    "phone_evening": "",
+    "gross_sales": "30600000",
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Prairie Union Bank",
+     "beneficiary": "Driftwood Industrial Gases Inc.",
+     "account_number": "262-454965-0",
+     "swift": "PUBXUSAXXXX",
+     "org_name": "Driftwood Industrial Gases Inc.",
+     "tax_id": "15-4475536",
+     "business_type": "corporation",
+     "established": "2002-04-18",
+     "company_address": "5196 Fox Run Ave, Suite 743, Denver, CO 80260",
+     "service_area": "europe",
+     "contact_name": "Andre Petrov",
+     "email": "andre.petrov@driftwood.example",
+     "phone_day": "(303) 555-0137",
+     "contact_title": "Sales Director",
+     "gross_sales": "30600000",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "andre.petrov at driftwood.example",
+     "beneficiary": "Driftwood Indus"
+    }
+   }
+  }
+ }
+}

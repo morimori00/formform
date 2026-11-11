@@ -1,0 +1,236 @@
+{
+ "persona": "emr-registration/t-patient-010",
+ "context": "emr-registration/t-patient-010.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Jie",
+    "middle_name": "",
+    "last_name": "Wu",
+    "dob": "1964-12-10",
+    "sex": "male",
+    "marital": "separated",
+    "language": "japanese",
+    "street": "14F, No. 180, Sec. 4, Jianguo Rd., Zhongli Dist.",
+    "city": "Taoyuan City",
+    "postal": "320",
+    "country": "TW",
+    "phone_home": "",
+    "phone_cell": "0922-344-211",
+    "email": "",
+    "occupation": "Retired teacher",
+    "employer": "Halcyon Design Studio",
+    "ec_name": "Wei-Ju Wu",
+    "ec_phone": "0987-295-013",
+    "ec_relationship": "parent",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4469-9352",
+    "group_number": "G-3649",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-07-02"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Jie",
+     "last_name": "Wu",
+     "dob": "1964-12-10",
+     "sex": "male",
+     "marital": "separated",
+     "language": "japanese",
+     "street": "14F, No. 180, Sec. 4, Jianguo Rd., Zhongli Dist.",
+     "city": "Taoyuan City",
+     "postal": "320",
+     "country": "TW",
+     "phone_cell": "0922-344-211",
+     "occupation": "Retired teacher",
+     "employer": "Halcyon Design Studio",
+     "ec_name": "Wei-Ju Wu",
+     "ec_phone": "0987-295-013",
+     "ec_relationship": "parent",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4469-9352",
+     "group_number": "G-3649",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-07-02"
+    },
+    "wrong": {
+     "marital": "single"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Wu",
+    "first_name": "Shu-Jie",
+    "middle_name": "",
+    "dob": "1964-12-10",
+    "sex": "male",
+    "marital": "separated",
+    "national_id": "",
+    "street": "14F, No. 180, Sec. 4, Jianguo Rd., Zhongli Dist.",
+    "postal": "320",
+    "city": "Taoyuan City",
+    "country": "TW",
+    "phone_cell": "0922-344-211",
+    "phone_home": "",
+    "email": "",
+    "ec_name": "Wei-Ju Wu",
+    "ec_relationship": "parent",
+    "ec_phone": "0987-295-013",
+    "occupation": "Retired teacher",
+    "employer": "Halcyon Design Studio",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4469-9352",
+    "group_number": "G-3649",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-07-02",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Wu",
+     "first_name": "Shu-Jie",
+     "dob": "1964-12-10",
+     "sex": "male",
+     "marital": "separated",
+     "street": "14F, No. 180, Sec. 4, Jianguo Rd., Zhongli Dist.",
+     "postal": "320",
+     "city": "Taoyuan City",
+     "country": "TW",
+     "phone_cell": "0922-344-211",
+     "ec_name": "Wei-Ju Wu",
+     "ec_relationship": "parent",
+     "ec_phone": "0987-295-013",
+     "occupation": "Retired teacher",
+     "employer": "Halcyon Design Studio",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4469-9352",
+     "group_number": "G-3649",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-07-02"
+    },
+    "wrong": {
+     "dob": "1963-12-10"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Shu-Jie",
+    "last_name": "Wu",
+    "dob": "1964-12-10",
+    "sex": "male",
+    "language": "japanese",
+    "street": "14F, No. 180, Sec. 4, Jianguo Rd., Zhongli Dist.",
+    "city": "Taoyuan City",
+    "postal": "320",
+    "country": "TW",
+    "phone_cell": "0922-344-211",
+    "phone_home": "",
+    "ec_name": "Wei-Ju Wu",
+    "ec_phone": "0987-295-013",
+    "ec_relationship": "parent",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4469-9352",
+    "group_number": "G-3649",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-07-02"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Shu-Jie",
+     "last_name": "Wu",
+     "dob": "1964-12-10",
+     "sex": "male",
+     "language": "japanese",
+     "street": "14F, No. 180, Sec. 4, Jianguo Rd., Zhongli Dist.",
+     "city": "Taoyuan City",
+     "postal": "320",
+     "country": "TW",
+     "phone_cell": "0922-344-211",
+     "ec_name": "Wei-Ju Wu",
+     "ec_phone": "0987-295-013",
+     "ec_relationship": "parent",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4469-9352",
+     "group_number": "G-3649",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-07-02"
+    },
+    "wrong": {
+     "language": "english"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Wu",
+    "first_name": "Shu-Jie",
+    "dob": "1964-12-10",
+    "sex": "male",
+    "phone_cell": "0922-344-211",
+    "country": "TW",
+    "city": "Taoyuan City",
+    "postal": "320",
+    "street": "14F, No. 180, Sec. 4, Jianguo Rd., Zhongli Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4469-9352",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-07-02",
+    "email": "",
+    "phone_home": "",
+    "marital": "separated",
+    "language": "japanese",
+    "occupation": "Retired teacher",
+    "employer": "Halcyon Design Studio",
+    "ec_name": "Wei-Ju Wu",
+    "ec_phone": "0987-295-013",
+    "ec_relationship": "parent",
+    "group_number": "G-3649"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Wu",
+     "first_name": "Shu-Jie",
+     "dob": "1964-12-10",
+     "sex": "male",
+     "phone_cell": "0922-344-211",
+     "country": "TW",
+     "city": "Taoyuan City",
+     "postal": "320",
+     "street": "14F, No. 180, Sec. 4, Jianguo Rd., Zhongli Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4469-9352",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-07-02",
+     "marital": "separated",
+     "language": "japanese",
+     "occupation": "Retired teacher",
+     "employer": "Halcyon Design Studio",
+     "ec_name": "Wei-Ju Wu",
+     "ec_phone": "0987-295-013",
+     "ec_relationship": "parent",
+     "group_number": "G-3649"
+    },
+    "wrong": {
+     "first_name": "Shu"
+    }
+   }
+  }
+ }
+}

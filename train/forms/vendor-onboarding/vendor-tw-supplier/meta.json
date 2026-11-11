@@ -1,0 +1,273 @@
+{
+  "family": "vendor-onboarding",
+  "variant": "vendor-tw-supplier",
+  "split": "train",
+  "title": "Supplier Onboarding — Kestrel APAC",
+  "language": "en",
+  "source": "Jotform template vendor-registration-form (public field list)",
+  "context": "contexts/vendor-dingfeng.md",
+  "url": "forms/vendor-onboarding/vendor-tw-supplier/index.html",
+  "pages": 1,
+  "goal": "Register this supplier using the vendor master in the context and submit the form.",
+  "contexts": [
+    "vendor-dingfeng.md"
+  ],
+  "entry": "index.html",
+  "submit": true,
+  "locale": "en",
+  "personas": [
+    "vendor-dingfeng",
+    "vendor-onboarding/t-tw-001",
+    "vendor-onboarding/t-tw-002",
+    "vendor-onboarding/t-tw-003",
+    "vendor-onboarding/t-tw-004",
+    "vendor-onboarding/t-tw-005",
+    "vendor-onboarding/t-tw-006",
+    "vendor-onboarding/t-tw-007",
+    "vendor-onboarding/t-tw-008",
+    "vendor-onboarding/t-tw-009",
+    "vendor-onboarding/t-tw-010",
+    "vendor-onboarding/t-tw-011",
+    "vendor-onboarding/t-tw-012"
+  ],
+  "success": {
+    "require_submitted": true,
+    "rule": "all non-infeasible fields match expected (after normalization), infeasible fields empty, and the form was submitted"
+  },
+  "reject_on_first_submit": null,
+  "fields": [
+    {
+      "label": "Legal entity name",
+      "key": "org_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "Dingfeng Precision Industrial Co., Ltd.",
+      "accept": [
+        "鼎峰精密工業股份有限公司"
+      ],
+      "normalization": "text",
+      "required": true,
+      "id": "org_name",
+      "source": "state",
+      "expected": [
+        "Dingfeng Precision Industrial Co., Ltd.",
+        "鼎峰精密工業股份有限公司"
+      ]
+    },
+    {
+      "label": "Unified Business No. (UBN) / Tax ID",
+      "key": "tax_id",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "62527601",
+      "normalization": "text",
+      "required": true,
+      "id": "tax_id",
+      "source": "state",
+      "expected": "62527601"
+    },
+    {
+      "label": "Registered address",
+      "key": "company_address",
+      "kind": "textarea",
+      "page": 0,
+      "expected_value_from_context": "302 新竹縣竹北市光明六路16號8樓",
+      "accept": [
+        "8F., No. 16, Guangming 6th Rd., Zhubei City, Hsinchu County 302"
+      ],
+      "normalization": "fuzzy",
+      "required": true,
+      "id": "company_address",
+      "source": "state",
+      "expected": [
+        "302 新竹縣竹北市光明六路16號8樓",
+        "8F., No. 16, Guangming 6th Rd., Zhubei City, Hsinchu County 302"
+      ]
+    },
+    {
+      "label": "Date of incorporation",
+      "key": "established",
+      "kind": "datepicker",
+      "page": 0,
+      "expected_value_from_context": "2009-06-15",
+      "normalization": "date",
+      "required": true,
+      "id": "established",
+      "source": "state",
+      "expected": "2009-06-15"
+    },
+    {
+      "label": "Entity type",
+      "key": "business_type",
+      "kind": "dropdown",
+      "page": 0,
+      "expected_value_from_context": "corporation",
+      "normalization": "choice",
+      "required": true,
+      "id": "business_type",
+      "source": "state",
+      "expected": "corporation"
+    },
+    {
+      "label": "Annual revenue (TWD)",
+      "key": "gross_sales",
+      "kind": "number",
+      "page": 0,
+      "expected_value_from_context": "215000000",
+      "normalization": "amount",
+      "required": true,
+      "id": "gross_sales",
+      "source": "state",
+      "expected": "215000000"
+    },
+    {
+      "label": "Contact person",
+      "key": "contact_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "陳雅琪",
+      "accept": [
+        "Chen Ya-Chi"
+      ],
+      "normalization": "name",
+      "required": true,
+      "id": "contact_name",
+      "source": "state",
+      "expected": [
+        "陳雅琪",
+        "Chen Ya-Chi"
+      ]
+    },
+    {
+      "label": "Job title",
+      "key": "contact_title",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "業務經理",
+      "normalization": "text",
+      "required": false,
+      "id": "contact_title",
+      "source": "state",
+      "expected": "業務經理"
+    },
+    {
+      "label": "Contact email",
+      "key": "email",
+      "kind": "email",
+      "page": 0,
+      "expected_value_from_context": "yachi.chen@dingfeng-precision.example",
+      "normalization": "email",
+      "required": true,
+      "id": "email",
+      "source": "state",
+      "expected": "yachi.chen@dingfeng-precision.example"
+    },
+    {
+      "label": "Office phone",
+      "key": "phone_day",
+      "kind": "tel",
+      "page": 0,
+      "expected_value_from_context": "03-558-2216",
+      "normalization": "phone",
+      "required": true,
+      "id": "phone_day",
+      "source": "state",
+      "expected": "03-558-2216"
+    },
+    {
+      "label": "After-hours phone",
+      "key": "phone_evening",
+      "kind": "tel",
+      "page": 0,
+      "normalization": "phone",
+      "required": false,
+      "infeasible": true,
+      "id": "phone_evening",
+      "source": "state",
+      "expected": ""
+    },
+    {
+      "label": "Bank",
+      "key": "bank_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "台新國際商業銀行",
+      "accept": [
+        "Taishin International Bank"
+      ],
+      "normalization": "text",
+      "required": true,
+      "id": "bank_name",
+      "source": "state",
+      "expected": [
+        "台新國際商業銀行",
+        "Taishin International Bank"
+      ]
+    },
+    {
+      "label": "Account holder",
+      "key": "beneficiary",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "鼎峰精密工業股份有限公司",
+      "accept": [
+        "Dingfeng Precision Industrial Co., Ltd."
+      ],
+      "normalization": "text",
+      "required": true,
+      "id": "beneficiary",
+      "source": "state",
+      "expected": [
+        "鼎峰精密工業股份有限公司",
+        "Dingfeng Precision Industrial Co., Ltd."
+      ]
+    },
+    {
+      "label": "Bank account no.",
+      "key": "account_number",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "20880100456789",
+      "normalization": "alnum",
+      "required": true,
+      "id": "account_number",
+      "source": "state",
+      "expected": "20880100456789"
+    },
+    {
+      "label": "Product liability insurance",
+      "key": "insurance",
+      "kind": "radio",
+      "page": 0,
+      "expected_value_from_context": "insured",
+      "normalization": "choice",
+      "required": true,
+      "id": "insurance",
+      "source": "state",
+      "expected": "insured"
+    },
+    {
+      "label": "Special trade licence",
+      "key": "licensing",
+      "kind": "radio",
+      "page": 0,
+      "normalization": "choice",
+      "required": false,
+      "infeasible": true,
+      "id": "licensing",
+      "source": "state",
+      "expected": ""
+    }
+  ],
+  "hard_states_supported": [
+    "prefilled",
+    "partial",
+    "wrong",
+    "loading",
+    "scroll",
+    "infeasible",
+    "custom_dropdown",
+    "date_picker"
+  ],
+  "notes": "English form, Chinese-language context (vendor master in zh-TW): Chinese or English values accepted where listed."
+}

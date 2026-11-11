@@ -1,0 +1,182 @@
+{
+ "persona": "hr-orangehrm/t-emp-012",
+ "context": "hr-orangehrm/t-emp-012.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mateo",
+    "middle_name": "",
+    "last_name": "Fischer",
+    "employee_id": "KST-24537",
+    "create_login": true,
+    "username": "mateo.fischer",
+    "login_status": "enabled",
+    "password": "Fab3!9683b",
+    "confirm_password": "Fab3!9683b"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mateo",
+     "last_name": "Fischer",
+     "employee_id": "KST-24537",
+     "create_login": true,
+     "username": "mateo.fischer",
+     "login_status": "enabled",
+     "password": "Fab3!9683b",
+     "confirm_password": "Fab3!9683b"
+    },
+    "wrong": {
+     "employee_id": "KST-245x",
+     "first_name": "Ma"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mateo",
+    "middle_name": "",
+    "last_name": "Fischer",
+    "employee_id": "KST-24537",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "DE",
+    "marital": "widowed",
+    "dob": "1997-01-18",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mateo",
+     "last_name": "Fischer",
+     "employee_id": "KST-24537",
+     "nationality": "DE",
+     "marital": "widowed",
+     "dob": "1997-01-18",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-245x",
+     "last_name": "Fis"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-19",
+    "leave_to": "2027-01-20",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-19",
+     "leave_to": "2027-01-20",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "leave_from": "2026-01-19"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-19",
+    "leave_to": "2027-01-20",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-19",
+     "leave_to": "2027-01-20",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "leave_from": "2026-01-19"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mateo",
+    "middle_name": "",
+    "last_name": "Fischer",
+    "employee_id": "KST-24537",
+    "create_login": true,
+    "username": "mateo.fischer",
+    "login_status": "enabled",
+    "password": "Fab3!9683b",
+    "confirm_password": "Fab3!9683b",
+    "nationality": "DE",
+    "marital": "widowed",
+    "dob": "1997-01-18",
+    "gender": "female",
+    "job_title": "equip_eng",
+    "department": "fab_eng",
+    "work_location": "hsp_fab2",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2864",
+    "joined_date": "2027-01-31"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mateo",
+     "last_name": "Fischer",
+     "employee_id": "KST-24537",
+     "create_login": true,
+     "username": "mateo.fischer",
+     "login_status": "enabled",
+     "password": "Fab3!9683b",
+     "confirm_password": "Fab3!9683b",
+     "nationality": "DE",
+     "marital": "widowed",
+     "dob": "1997-01-18",
+     "gender": "female",
+     "job_title": "equip_eng",
+     "department": "fab_eng",
+     "work_location": "hsp_fab2",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2864",
+     "joined_date": "2027-01-31"
+    },
+    "wrong": {
+     "employee_id": "KST-245x",
+     "work_location": "neihu"
+    }
+   }
+  }
+ }
+}

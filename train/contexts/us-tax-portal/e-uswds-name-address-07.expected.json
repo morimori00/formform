@@ -1,0 +1,42 @@
+{
+ "persona": "us-tax-portal/e-uswds-name-address-07",
+ "context": "us-tax-portal/e-uswds-name-address-07.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/uswds-name-address": {
+   "submit": true,
+   "fields": {
+    "first_name": "Anika",
+    "middle_initial": "",
+    "last_name": "Kapoor",
+    "suffix": "",
+    "preferred_name": "Anika",
+    "street1": "3280 Juniper Hill Ave",
+    "street2": "",
+    "city": "Dover",
+    "state": "DE",
+    "zip": "19964",
+    "urbanization": ""
+   },
+   "infeasible": [
+    "street2"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Anika",
+     "last_name": "Kapoor",
+     "preferred_name": "Anika",
+     "street1": "3280 Juniper Hill Ave",
+     "city": "Dover",
+     "state": "DE",
+     "zip": "19964"
+    },
+    "wrong": {
+     "zip": "199x",
+     "first_name": "An"
+    }
+   }
+  }
+ }
+}

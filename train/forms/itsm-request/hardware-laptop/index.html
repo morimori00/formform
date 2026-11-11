@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Request: Laptop (new hire)</title>
+<style id="ff-style">
+*{box-sizing:border-box}body{margin:0}
+[hidden]{display:none!important}
+.ff-error{color:#b42318;font-size:12px;margin-top:4px}
+[aria-invalid=true]{border-color:#d92d20!important;outline:1px solid #d92d20}
+.ff-banner{padding:10px 14px;margin:0 0 14px;border-radius:4px;background:#ecfdf3;color:#05603a}.ff-banner.bad{background:#fef3f2;color:#b42318}
+.ff-dd{position:relative;display:inline-block;min-width:240px}.ff-dd>button{width:100%;text-align:left;padding:8px 30px 8px 10px;background:#fff;border:1px solid #c4c7cc;border-radius:4px;cursor:pointer;font:inherit;position:relative}
+.ff-dd>button:after{content:"";position:absolute;right:12px;top:45%;border:5px solid transparent;border-top-color:#555}
+.ff-dd ul,.ff-cb ul{position:absolute;z-index:20;left:0;right:0;top:100%;margin:2px 0 0;padding:4px 0;list-style:none;background:#fff;border:1px solid #c4c7cc;border-radius:4px;box-shadow:0 6px 18px rgba(0,0,0,.14);max-height:180px;overflow:auto}
+.ff-dd li,.ff-cb li{padding:7px 12px;cursor:pointer}.ff-dd li:hover,.ff-cb li:hover,.ff-dd li[aria-selected=true]{background:#eef2ff}
+.ff-cb li small{display:block;color:#667085;font-size:11px}.ff-cb li.ff-empty{color:#667085;cursor:default}
+.ff-cb{position:relative;display:inline-block;min-width:260px}.ff-cb input{width:100%}
+.ff-dp{position:relative;display:inline-flex;gap:4px;align-items:center}.ff-cal-btn{padding:6px 9px;cursor:pointer}
+.ff-cal{position:absolute;z-index:30;top:100%;left:0;background:#fff;border:1px solid #c4c7cc;border-radius:6px;padding:8px;box-shadow:0 8px 24px rgba(0,0,0,.18);width:260px}
+.ff-cal-head{display:flex;gap:4px;margin-bottom:6px}.ff-cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.ff-cal-grid button{padding:5px 0;border:0;background:#f2f4f7;border-radius:3px;cursor:pointer;font-size:12px}.ff-cal-grid button:hover{background:#d1e0ff}
+[role=switch]{width:44px;height:24px;border-radius:12px;border:0;background:#c4c7cc;position:relative;cursor:pointer;vertical-align:middle}
+[role=switch] .knob{position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:#fff;transition:left .15s}
+[role=switch][aria-checked=true]{background:var(--accent,#2563eb)}[role=switch][aria-checked=true] .knob{left:23px}
+[role=radiogroup].chips{display:flex;flex-wrap:wrap;gap:6px}[role=radiogroup].chips [role=radio]{padding:6px 12px;border:1px solid #c4c7cc;border-radius:16px;cursor:pointer;background:#fff}
+[role=radiogroup].chips [role=radio][aria-checked=true]{background:var(--accent,#2563eb);color:#fff;border-color:transparent}
+.ff-opts input,.chk input{width:auto!important;min-width:0!important}.ff-opts label{display:block;margin:4px 0}.ff-opts.inline label{display:inline-block;margin-right:16px}
+.ff-roc select{margin:0 4px;min-width:0!important;width:auto!important}
+[contenteditable]{min-height:70px;border:1px solid #c4c7cc;border-radius:4px;padding:8px;background:#fff}
+.ff-hp{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+.ff-progress{display:flex;gap:6px;list-style:none;padding:0;margin:0 0 16px;counter-reset:s}
+.ff-progress li{flex:1;padding:8px;border-bottom:3px solid #d0d5dd;color:#667085;font-size:13px}.ff-progress li.current{border-color:var(--accent,#2563eb);color:#101828;font-weight:600}
+.ff-nav{display:flex;gap:10px;margin-top:18px}.ff-done{padding:40px;text-align:center}
+.ff-loading{padding:60px;text-align:center;color:#667085}
+.ff-tabs [role=tablist]{display:flex;border-bottom:1px solid #d0d5dd;margin-bottom:12px}
+.ff-tabs [role=tab]{padding:8px 16px;border:0;background:none;cursor:pointer;border-bottom:2px solid transparent;font:inherit}
+.ff-tabs [role=tab].active{border-bottom-color:var(--accent,#2563eb);font-weight:600}
+.ff-sticky{position:sticky;top:0;z-index:15;display:flex;justify-content:flex-end;align-items:center;gap:12px;padding:8px 10px;margin-bottom:12px;background:rgba(255,255,255,.97);border:1px solid #d0d5dd;border-radius:4px}
+.ff-terms{height:180px;overflow:auto;border:1px solid #c4c7cc;padding:10px 14px;background:#fafafa;font-size:13px;line-height:1.5}
+
+body{font:13px/1.4 "Source Sans Pro",Arial,sans-serif;background:#f6f7f7;color:#1d2a35;--accent:#278efc}
+header.top{background:#293e40;color:#fff;padding:8px 16px;display:flex;gap:18px;align-items:center}header.top b{font-size:15px}header.top a{color:#cfe3e4;text-decoration:none}
+.layout{display:flex}nav.side{width:210px;background:#303a46;min-height:100vh;padding:10px 0}nav.side a{display:block;color:#d3d8dd;padding:6px 16px;text-decoration:none;font-size:12px}
+main{flex:1;padding:14px 22px}.ff-titlebar{background:#e6e9eb;padding:8px 12px;border:1px solid #cbd1d6;display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.ff-group{background:#fff;border:1px solid #cbd1d6;padding:12px 16px;margin-bottom:12px}.ff-group h3{margin:0 0 10px;font-size:14px}
+.row{display:grid;grid-template-columns:200px 1fr;gap:8px;align-items:start;margin:8px 0}.row>label,.row>.lbl{text-align:right;padding-top:6px}
+.req{color:#c8102e;margin-right:3px}input,select,textarea{font:inherit;padding:6px 8px;border:1px solid #b5bdc4;border-radius:3px;min-width:260px;background:#fff}textarea{width:100%;min-height:70px}
+button.btn{background:#fff;border:1px solid #8a959e;padding:6px 14px;border-radius:3px;cursor:pointer}button.primary{background:#278efc;color:#fff;border-color:#278efc}
+</style></head>
+<body><header class="top"><b>Service Portal</b><a href="#">Home</a><a href="#">Catalog</a><a href="#">Knowledge</a><a href="#">My Requests</a><span style="margin-left:auto">Kestrel IT · Search <input aria-label="Global search" style="min-width:160px"></span></header>
+<div class="layout"><nav class="side" aria-label="Application navigator"><a href="#">Self-Service</a><a href="#">Incidents</a><a href="#">Requested Items</a><a href="#">Hardware Catalog</a><a href="#">Software Catalog</a><a href="#">Approvals</a><a href="#">Assets</a></nav>
+<main><div class="ff-titlebar"><strong>Request: Laptop (new hire)</strong><span><button class="btn" type="button">Save draft</button> <button class="btn" type="button">Cancel</button></span></div><div id="ff-root"><div class="ff-loading">Loading form…</div></div></main></div>
+<template id="ff-form"><form novalidate autocomplete="off"><div class="ff-banner" role="alert" hidden></div><div class="ff-group"><h3>Requested item</h3><div class="body"><div class="row" data-ff-row><label for="f_requested_for" id="f_requested_for-q">Requested for<span class="req" aria-hidden="true">*</span></label><div><div class="ff-cb"><input id="f_requested_for" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" placeholder="Search users" aria-required="true" data-ff-key="requested_for" data-ff-kind="combobox" data-ff-required="1" data-ff-options="[[&quot;u_huang_yt&quot;, &quot;Yi-Ting Huang&quot;, &quot;yiting.huang@ · Fab Engineering&quot;], [&quot;u_hung_yc&quot;, &quot;Yi-Chen Hung&quot;, &quot;yichen.hung@ · Process Integration&quot;], [&quot;u_huang_yc&quot;, &quot;Yi-Chun Huang&quot;, &quot;yichun.huang@ · Finance&quot;], [&quot;u_okafor_d&quot;, &quot;Daniel Okafor&quot;, &quot;daniel.okafor@ · Information Security&quot;], [&quot;u_ocampo_d&quot;, &quot;Daniel Ocampo&quot;, &quot;daniel.ocampo@ · Facilities&quot;], [&quot;u_lin_ps&quot;, &quot;Pei-Shan Lin&quot;, &quot;peishan.lin@ · Information Security&quot;], [&quot;u_chen_wl&quot;, &quot;Wei-Lun Chen&quot;, &quot;weilun.chen@ · Fab Engineering&quot;], [&quot;u_chang_i&quot;, &quot;Ivy Chang&quot;, &quot;ivy.chang@ · HR Operations&quot;], [&quot;u_raman_p&quot;, &quot;Priya Raman&quot;, &quot;priya.raman@ · Data Platform&quot;], [&quot;u_ramesh_p&quot;, &quot;Priya Ramesh&quot;, &quot;priya.ramesh@ · Finance&quot;], [&quot;u_rahman_a&quot;, &quot;Ahmed Rahman&quot;, &quot;ahmed.rahman@ · Data Platform&quot;], [&quot;u_rahmani_a&quot;, &quot;Ahmad Rahmani&quot;, &quot;ahmad.rahmani@ · Legal&quot;], [&quot;u_tseng_a&quot;, &quot;Alvin Tseng&quot;, &quot;alvin.tseng@ · Global Mobility&quot;], [&quot;u_koh_b&quot;, &quot;Benjamin Koh&quot;, &quot;benjamin.koh@ · Logistics&quot;], [&quot;u_m4228&quot;, &quot;Chia-Han Lu&quot;, &quot;chiahan.lu@ · Procurement (manager)&quot;], [&quot;u_m4841&quot;, &quot;Nora Petrov&quot;, &quot;nora.petrov@ · Logistics (manager)&quot;], [&quot;u_m3240&quot;, &quot;Andre Costa&quot;, &quot;andre.costa@ · Finance (manager)&quot;], [&quot;u_m2085&quot;, &quot;Hannah Lindqvist&quot;, &quot;hannah.lindqvist@ · Fab Engineering (manager)&quot;], [&quot;u_m2864&quot;, &quot;Kuan-An Chou&quot;, &quot;kuanan.chou@ · Fab Engineering (manager)&quot;], [&quot;u_m3960&quot;, &quot;Ming-An Liao&quot;, &quot;mingan.liao@ · Procurement (manager)&quot;], [&quot;u_m2327&quot;, &quot;Chun-Wen Hsu&quot;, &quot;chunwen.hsu@ · Human Resources (manager)&quot;], [&quot;u_m2993&quot;, &quot;Ingrid Pham&quot;, &quot;ingrid.pham@ · Logistics (manager)&quot;], [&quot;u_m2901&quot;, &quot;Ming-Jie Liu&quot;, &quot;mingjie.liu@ · Procurement (manager)&quot;], [&quot;u_m2565&quot;, &quot;Irene Nguyen&quot;, &quot;irene.nguyen@ · Human Resources (manager)&quot;], [&quot;u_g20668&quot;, &quot;Ya-An Chiu&quot;, &quot;yaan.chiu@ · Fab Engineering&quot;], [&quot;u_g23653&quot;, &quot;Chia-Lun Chiu&quot;, &quot;chialun.chiu@ · Human Resources&quot;], [&quot;u_g26969&quot;, &quot;Marcus Lindqvist&quot;, &quot;marcus.lindqvist@ · Finance&quot;], [&quot;u_g35718&quot;, &quot;Nora Lindqvist&quot;, &quot;nora.lindqvist@ · Information Security&quot;], [&quot;u_g14490&quot;, &quot;Ya-Hui Wang&quot;, &quot;yahui.wang@ · Fab Engineering&quot;], [&quot;u_g28906&quot;, &quot;Pei-Fen Wang&quot;, &quot;peifen.wang@ · Information Security&quot;], [&quot;u_g41906&quot;, &quot;Lucas Mwangi&quot;, &quot;lucas.mwangi@ · Logistics&quot;], [&quot;u_g15299&quot;, &quot;Lucas Achebe&quot;, &quot;lucas.achebe@ · Quality Assurance&quot;], [&quot;u_g13038&quot;, &quot;Ingrid Ali&quot;, &quot;ingrid.ali@ · Fab Engineering&quot;], [&quot;u_g12691&quot;, &quot;Ingrid Silva&quot;, &quot;ingrid.silva@ · Information Security&quot;], [&quot;u_g49976&quot;, &quot;Andre Lindqvist&quot;, &quot;andre.lindqvist@ · Logistics&quot;], [&quot;u_g24349&quot;, &quot;Samir Fischer&quot;, &quot;samir.fischer@ · Fab Engineering&quot;], [&quot;u_g30034&quot;, &quot;Ingrid Fischer&quot;, &quot;ingrid.fischer@ · Procurement&quot;], [&quot;u_g34853&quot;, &quot;Cheng-Wen Lu&quot;, &quot;chengwen.lu@ · Human Resources&quot;], [&quot;u_g25233&quot;, &quot;Cheng-Wen Su&quot;, &quot;chengwen.su@ · Logistics&quot;], [&quot;u_g10966&quot;, &quot;Ethan Park&quot;, &quot;ethan.park@ · Information Security&quot;], [&quot;u_g39945&quot;, &quot;Elena Park&quot;, &quot;elena.park@ · Fab Engineering&quot;], [&quot;u_g43292&quot;, &quot;Tzu-Hui Cheng&quot;, &quot;tzuhui.cheng@ · Logistics&quot;], [&quot;u_g39373&quot;, &quot;Pei-Wen Cheng&quot;, &quot;peiwen.cheng@ · Finance&quot;], [&quot;u_g48833&quot;, &quot;Hsin-Han Wang&quot;, &quot;hsinhan.wang@ · Data Platform&quot;], [&quot;u_g28240&quot;, &quot;Mei-Hua Wang&quot;, &quot;meihua.wang@ · Data Platform&quot;], [&quot;u_g20696&quot;, &quot;Wei-Ying Lai&quot;, &quot;weiying.lai@ · Logistics&quot;], [&quot;u_g44500&quot;, &quot;Yi-Jie Lai&quot;, &quot;yijie.lai@ · Information Security&quot;], [&quot;u_g35213&quot;, &quot;Chloe Silva&quot;, &quot;chloe.silva@ · Information Security&quot;], [&quot;u_g28956&quot;, &quot;Victor Silva&quot;, &quot;victor.silva@ · Logistics&quot;], [&quot;u_g47740&quot;, &quot;Amara Silva&quot;, &quot;amara.silva@ · Finance&quot;], [&quot;u_g38478&quot;, &quot;Pavel Silva&quot;, &quot;pavel.silva@ · Logistics&quot;], [&quot;u_g39757&quot;, &quot;Ya-Jie Fang&quot;, &quot;yajie.fang@ · Data Platform&quot;], [&quot;u_g48346&quot;, &quot;Ming-An Fang&quot;, &quot;mingan.fang@ · Quality Assurance&quot;], [&quot;u_g42589&quot;, &quot;Mei-Jie Hsu&quot;, &quot;meijie.hsu@ · Human Resources&quot;], [&quot;u_g20244&quot;, &quot;Ming-Ting Hsu&quot;, &quot;mingting.hsu@ · Data Platform&quot;], [&quot;u_g38592&quot;, &quot;Mei-Hui Chiu&quot;, &quot;meihui.chiu@ · Data Platform&quot;], [&quot;u_g13219&quot;, &quot;Mei-Hui Wu&quot;, &quot;meihui.wu@ · Logistics&quot;], [&quot;u_g30613&quot;, &quot;Chih-Ting Liao&quot;, &quot;chihting.liao@ · Procurement&quot;], [&quot;u_g36962&quot;, &quot;Yi-Yen Liao&quot;, &quot;yiyen.liao@ · Fab Engineering&quot;], [&quot;u_g14061&quot;, &quot;Ming-Ju Su&quot;, &quot;mingju.su@ · Human Resources&quot;], [&quot;u_g21414&quot;, &quot;Hsin-An Su&quot;, &quot;hsinan.su@ · Logistics&quot;], [&quot;u_g16857&quot;, &quot;Ingrid Nguyen&quot;, &quot;ingrid.nguyen@ · Logistics&quot;], [&quot;u_g28083&quot;, &quot;Chloe Nguyen&quot;, &quot;chloe.nguyen@ · Procurement&quot;], [&quot;u_g36395&quot;, &quot;Shu-Ling Tsao&quot;, &quot;shuling.tsao@ · Data Platform&quot;], [&quot;u_g32543&quot;, &quot;Shu-Ling Cheng&quot;, &quot;shuling.cheng@ · Information Security&quot;], [&quot;u_g18802&quot;, &quot;Tomas Sharma&quot;, &quot;tomas.sharma@ · Finance&quot;], [&quot;u_g22365&quot;, &quot;Tomas Achebe&quot;, &quot;tomas.achebe@ · Logistics&quot;], [&quot;u_g34336&quot;, &quot;Kuan-Ting Hsu&quot;, &quot;kuanting.hsu@ · Procurement&quot;], [&quot;u_g38470&quot;, &quot;Kuan-Ting Cheng&quot;, &quot;kuanting.cheng@ · Information Security&quot;], [&quot;u_g33690&quot;, &quot;Tzu-Ying Tsao&quot;, &quot;tzuying.tsao@ · Information Security&quot;], [&quot;u_g27179&quot;, &quot;Tzu-Ying Wu&quot;, &quot;tzuying.wu@ · Data Platform&quot;], [&quot;u_g12527&quot;, &quot;Victor Mwangi&quot;, &quot;victor.mwangi@ · Quality Assurance&quot;], [&quot;u_g12860&quot;, &quot;Oscar Mwangi&quot;, &quot;oscar.mwangi@ · Quality Assurance&quot;], [&quot;u_g16333&quot;, &quot;Hsin-Hua Kuo&quot;, &quot;hsinhua.kuo@ · Data Platform&quot;], [&quot;u_g19285&quot;, &quot;Tzu-Han Kuo&quot;, &quot;tzuhan.kuo@ · Fab Engineering&quot;], [&quot;u_g40632&quot;, &quot;Wei-Ling Lai&quot;, &quot;weiling.lai@ · Data Platform&quot;], [&quot;u_g44252&quot;, &quot;Chia-Hui Lai&quot;, &quot;chiahui.lai@ · Fab Engineering&quot;], [&quot;u_g12938&quot;, &quot;Pavel Achebe&quot;, &quot;pavel.achebe@ · Data Platform&quot;], [&quot;u_g48125&quot;, &quot;Marcus Achebe&quot;, &quot;marcus.achebe@ · Finance&quot;], [&quot;u_g30037&quot;, &quot;Ming-Yen Lai&quot;, &quot;mingyen.lai@ · Data Platform&quot;], [&quot;u_g18224&quot;, &quot;Ming-Yen Yeh&quot;, &quot;mingyen.yeh@ · Information Security&quot;], [&quot;u_g40811&quot;, &quot;Oscar Schmidt&quot;, &quot;oscar.schmidt@ · Human Resources&quot;], [&quot;u_g43946&quot;, &quot;Oscar Silva&quot;, &quot;oscar.silva@ · Information Security&quot;], [&quot;u_g46785&quot;, &quot;Yi-Lun Chiu&quot;, &quot;yilun.chiu@ · Information Security&quot;], [&quot;u_g48815&quot;, &quot;Chia-Jie Liu&quot;, &quot;chiajie.liu@ · Fab Engineering&quot;], [&quot;u_g40439&quot;, &quot;Pei-Lun Liu&quot;, &quot;peilun.liu@ · Quality Assurance&quot;], [&quot;u_g33417&quot;, &quot;Felix Brennan&quot;, &quot;felix.brennan@ · Logistics&quot;], [&quot;u_g33805&quot;, &quot;Felix Iyer&quot;, &quot;felix.iyer@ · Procurement&quot;], [&quot;u_g30102&quot;, &quot;Ming-Fen Yang&quot;, &quot;mingfen.yang@ · Information Security&quot;], [&quot;u_g46104&quot;, &quot;Ming-Fen Yeh&quot;, &quot;mingfen.yeh@ · Human Resources&quot;], [&quot;u_g11112&quot;, &quot;Mateo Moreau&quot;, &quot;mateo.moreau@ · Quality Assurance&quot;], [&quot;u_g28048&quot;, &quot;Leila Moreau&quot;, &quot;leila.moreau@ · Procurement&quot;], [&quot;u_g33430&quot;, &quot;Yi-Ju Yang&quot;, &quot;yiju.yang@ · Human Resources&quot;], [&quot;u_g46597&quot;, &quot;Kuan-Lun Yang&quot;, &quot;kuanlun.yang@ · Quality Assurance&quot;], [&quot;u_g40068&quot;, &quot;Marcus Novak&quot;, &quot;marcus.novak@ · Fab Engineering&quot;], [&quot;u_g49963&quot;, &quot;Marcus Silva&quot;, &quot;marcus.silva@ · Finance&quot;], [&quot;u_g20653&quot;, &quot;Tzu-Ting Cheng&quot;, &quot;tzuting.cheng@ · Quality Assurance&quot;], [&quot;u_g14760&quot;, &quot;Jia-Hua Cheng&quot;, &quot;jiahua.cheng@ · Quality Assurance&quot;], [&quot;u_g41288&quot;, &quot;Kuan-Ting Hsieh&quot;, &quot;kuanting.hsieh@ · Information Security&quot;], [&quot;u_g12986&quot;, &quot;Kuan-Ting Tsao&quot;, &quot;kuanting.tsao@ · Information Security&quot;], [&quot;u_g16908&quot;, &quot;Chih-Ju Yang&quot;, &quot;chihju.yang@ · Human Resources&quot;], [&quot;u_g14286&quot;, &quot;Jia-Fen Yang&quot;, &quot;jiafen.yang@ · Logistics&quot;], [&quot;u_g16098&quot;, &quot;Chih-Han Chou&quot;, &quot;chihhan.chou@ · Logistics&quot;], [&quot;u_g40231&quot;, &quot;Wei-Han Chou&quot;, &quot;weihan.chou@ · Information Security&quot;], [&quot;u_g36757&quot;, &quot;Hannah Achebe&quot;, &quot;hannah.achebe@ · Procurement&quot;], [&quot;u_g33222&quot;, &quot;Ingrid Achebe&quot;, &quot;ingrid.achebe@ · Information Security&quot;], [&quot;u_g38889&quot;, &quot;Mei-Fen Su&quot;, &quot;meifen.su@ · Data Platform&quot;], [&quot;u_g29053&quot;, &quot;Pei-Hua Su&quot;, &quot;peihua.su@ · Data Platform&quot;], [&quot;u_g30470&quot;, &quot;Mei-Wen Su&quot;, &quot;meiwen.su@ · Quality Assurance&quot;], [&quot;u_g29734&quot;, &quot;Mei-Wen Fang&quot;, &quot;meiwen.fang@ · Logistics&quot;], [&quot;u_g24322&quot;, &quot;Samir Haddad&quot;, &quot;samir.haddad@ · Human Resources&quot;], [&quot;u_g24411&quot;, &quot;Ingrid Haddad&quot;, &quot;ingrid.haddad@ · Information Security&quot;], [&quot;u_g12285&quot;, &quot;Jia-Yen Hsu&quot;, &quot;jiayen.hsu@ · Quality Assurance&quot;], [&quot;u_g26610&quot;, &quot;Irene Park&quot;, &quot;irene.park@ · Quality Assurance&quot;], [&quot;u_g40879&quot;, &quot;Amara Park&quot;, &quot;amara.park@ · Human Resources&quot;], [&quot;u_g42220&quot;, &quot;Mei-Jie Hsieh&quot;, &quot;meijie.hsieh@ · Data Platform&quot;], [&quot;u_g34501&quot;, &quot;Mei-Jie Kuo&quot;, &quot;meijie.kuo@ · Quality Assurance&quot;], [&quot;u_g15772&quot;, &quot;Chun-Hua Liao&quot;, &quot;chunhua.liao@ · Finance&quot;], [&quot;u_g10251&quot;, &quot;Ya-Han Liao&quot;, &quot;yahan.liao@ · Information Security&quot;], [&quot;u_g40093&quot;, &quot;Andre Bianchi&quot;, &quot;andre.bianchi@ · Logistics&quot;], [&quot;u_g12084&quot;, &quot;Samir Bianchi&quot;, &quot;samir.bianchi@ · Data Platform&quot;], [&quot;u_g30925&quot;, &quot;Andre Romano&quot;, &quot;andre.romano@ · Information Security&quot;], [&quot;u_g21451&quot;, &quot;Andre Achebe&quot;, &quot;andre.achebe@ · Information Security&quot;], [&quot;u_g24537&quot;, &quot;Mateo Fischer&quot;, &quot;mateo.fischer@ · Fab Engineering&quot;], [&quot;u_g10949&quot;, &quot;Ethan Fischer&quot;, &quot;ethan.fischer@ · Data Platform&quot;], [&quot;u_g26674&quot;, &quot;Chun-Han Chiu&quot;, &quot;chunhan.chiu@ · Data Platform&quot;], [&quot;u_g28225&quot;, &quot;Chih-Ling Chiu&quot;, &quot;chihling.chiu@ · Finance&quot;], [&quot;u_g29189&quot;, &quot;Rahul Sharma&quot;, &quot;rahul.sharma@ · Logistics&quot;], [&quot;u_g15749&quot;, &quot;Samir Sharma&quot;, &quot;samir.sharma@ · Fab Engineering&quot;], [&quot;u_g38376&quot;, &quot;Yi-Hua Cheng&quot;, &quot;yihua.cheng@ · Information Security&quot;], [&quot;u_g14565&quot;, &quot;Yi-Hua Hsu&quot;, &quot;yihua.hsu@ · Procurement&quot;], [&quot;u_g41355&quot;, &quot;Ya-Han Su&quot;, &quot;yahan.su@ · Human Resources&quot;], [&quot;u_g25973&quot;, &quot;Ya-Han Lai&quot;, &quot;yahan.lai@ · Human Resources&quot;], [&quot;u_g35438&quot;, &quot;Rahul Nguyen&quot;, &quot;rahul.nguyen@ · Finance&quot;], [&quot;u_g11897&quot;, &quot;Rahul Costa&quot;, &quot;rahul.costa@ · Logistics&quot;], [&quot;u_g13598&quot;, &quot;Mei-Ting Tsao&quot;, &quot;meiting.tsao@ · Information Security&quot;], [&quot;u_g31922&quot;, &quot;Cheng-An Tsao&quot;, &quot;chengan.tsao@ · Information Security&quot;], [&quot;u_g38905&quot;, &quot;Tzu-Ling Su&quot;, &quot;tzuling.su@ · Information Security&quot;], [&quot;u_g49252&quot;, &quot;Chia-Yen Su&quot;, &quot;chiayen.su@ · Procurement&quot;], [&quot;u_g30389&quot;, &quot;Ming-Hsuan Wang&quot;, &quot;minghsuan.wang@ · Logistics&quot;], [&quot;u_g33331&quot;, &quot;Ming-Hsuan Chou&quot;, &quot;minghsuan.chou@ · Data Platform&quot;], [&quot;u_g25857&quot;, &quot;Ya-Han Lu&quot;, &quot;yahan.lu@ · Human Resources&quot;], [&quot;u_g31189&quot;, &quot;Elena Lindqvist&quot;, &quot;elena.lindqvist@ · Logistics&quot;], [&quot;u_g46710&quot;, &quot;Tomas Lindqvist&quot;, &quot;tomas.lindqvist@ · Information Security&quot;], [&quot;u_g31254&quot;, &quot;Shu-Wen Liao&quot;, &quot;shuwen.liao@ · Procurement&quot;], [&quot;u_g10790&quot;, &quot;Shu-Wen Chiu&quot;, &quot;shuwen.chiu@ · Fab Engineering&quot;], [&quot;u_g30158&quot;, &quot;Kuan-Fen Liu&quot;, &quot;kuanfen.liu@ · Human Resources&quot;], [&quot;u_g22541&quot;, &quot;Hsin-Fen Liu&quot;, &quot;hsinfen.liu@ · Information Security&quot;], [&quot;u_g43205&quot;, &quot;Naomi Bianchi&quot;, &quot;naomi.bianchi@ · Information Security&quot;], [&quot;u_g36703&quot;, &quot;Naomi Schmidt&quot;, &quot;naomi.schmidt@ · Fab Engineering&quot;], [&quot;u_g47469&quot;, &quot;Irene Romano&quot;, &quot;irene.romano@ · Information Security&quot;], [&quot;u_g41958&quot;, &quot;Jia-Hui Chiang&quot;, &quot;jiahui.chiang@ · Human Resources&quot;], [&quot;u_g13529&quot;, &quot;Jia-Hui Liu&quot;, &quot;jiahui.liu@ · Finance&quot;], [&quot;u_g45174&quot;, &quot;Kuan-Jie Yang&quot;, &quot;kuanjie.yang@ · Human Resources&quot;], [&quot;u_g48623&quot;, &quot;Ming-Ying Yang&quot;, &quot;mingying.yang@ · Finance&quot;], [&quot;u_g47958&quot;, &quot;Cheng-Hsuan Chiang&quot;, &quot;chenghsuan.chiang@ · Finance&quot;], [&quot;u_g12795&quot;, &quot;Cheng-Hsuan Chiu&quot;, &quot;chenghsuan.chiu@ · Quality Assurance&quot;], [&quot;u_g36696&quot;, &quot;Naomi Fischer&quot;, &quot;naomi.fischer@ · Fab Engineering&quot;], [&quot;u_g14953&quot;, &quot;Shu-Jie Chou&quot;, &quot;shujie.chou@ · Fab Engineering&quot;], [&quot;u_g41501&quot;, &quot;Shu-Jie Cheng&quot;, &quot;shujie.cheng@ · Fab Engineering&quot;], [&quot;u_g17888&quot;, &quot;Pavel Costa&quot;, &quot;pavel.costa@ · Information Security&quot;], [&quot;u_g35006&quot;, &quot;Pavel Novak&quot;, &quot;pavel.novak@ · Fab Engineering&quot;], [&quot;u_g31400&quot;, &quot;Naomi Pham&quot;, &quot;naomi.pham@ · Information Security&quot;], [&quot;u_g23793&quot;, &quot;Mei-Fen Yeh&quot;, &quot;meifen.yeh@ · Human Resources&quot;], [&quot;u_g42790&quot;, &quot;Mei-Fen Tsao&quot;, &quot;meifen.tsao@ · Logistics&quot;], [&quot;u_g39531&quot;, &quot;Mei-An Su&quot;, &quot;meian.su@ · Fab Engineering&quot;], [&quot;u_g24137&quot;, &quot;Mei-An Liu&quot;, &quot;meian.liu@ · Information Security&quot;], [&quot;u_g45819&quot;, &quot;Rahul Romano&quot;, &quot;rahul.romano@ · Fab Engineering&quot;], [&quot;u_g30107&quot;, &quot;Rahul Ali&quot;, &quot;rahul.ali@ · Fab Engineering&quot;], [&quot;u_g45031&quot;, &quot;Ming-Lun Lu&quot;, &quot;minglun.lu@ · Information Security&quot;], [&quot;u_g45952&quot;, &quot;Cheng-Hui Lu&quot;, &quot;chenghui.lu@ · Information Security&quot;], [&quot;u_g34581&quot;, &quot;Irene Ali&quot;, &quot;irene.ali@ · Information Security&quot;], [&quot;u_g40040&quot;, &quot;Chih-Ju Tsao&quot;, &quot;chihju.tsao@ · Procurement&quot;], [&quot;u_g40620&quot;, &quot;Ya-Hsuan Tsao&quot;, &quot;yahsuan.tsao@ · Data Platform&quot;], [&quot;u_g26915&quot;, &quot;Marcus Pham&quot;, &quot;marcus.pham@ · Procurement&quot;], [&quot;u_g20434&quot;, &quot;Samir Pham&quot;, &quot;samir.pham@ · Human Resources&quot;], [&quot;u_g28277&quot;, &quot;Ya-Ting Hsieh&quot;, &quot;yating.hsieh@ · Fab Engineering&quot;], [&quot;u_g36099&quot;, &quot;Yi-Ling Su&quot;, &quot;yiling.su@ · Procurement&quot;], [&quot;u_g32313&quot;, &quot;Mei-Han Su&quot;, &quot;meihan.su@ · Information Security&quot;], [&quot;u_g37219&quot;, &quot;Aisha Costa&quot;, &quot;aisha.costa@ · Procurement&quot;], [&quot;u_g30617&quot;, &quot;Aisha Schmidt&quot;, &quot;aisha.schmidt@ · Quality Assurance&quot;], [&quot;u_g37932&quot;, &quot;Mina Achebe&quot;, &quot;mina.achebe@ · Information Security&quot;], [&quot;u_g20091&quot;, &quot;Mina Iyer&quot;, &quot;mina.iyer@ · Finance&quot;], [&quot;u_g29750&quot;, &quot;Chia-Hsuan Tsao&quot;, &quot;chiahsuan.tsao@ · Human Resources&quot;], [&quot;u_g11065&quot;, &quot;Chia-Hsuan Chiang&quot;, &quot;chiahsuan.chiang@ · Logistics&quot;], [&quot;u_g16785&quot;, &quot;Chia-Han Chiu&quot;, &quot;chiahan.chiu@ · Information Security&quot;], [&quot;u_g17607&quot;, &quot;Felix Bianchi&quot;, &quot;felix.bianchi@ · Data Platform&quot;], [&quot;u_g31115&quot;, &quot;Chun-Fen Su&quot;, &quot;chunfen.su@ · Data Platform&quot;], [&quot;u_g26447&quot;, &quot;Chun-Fen Yeh&quot;, &quot;chunfen.yeh@ · Logistics&quot;], [&quot;u_g31692&quot;, &quot;Ming-Fen Lai&quot;, &quot;mingfen.lai@ · Information Security&quot;], [&quot;u_g48108&quot;, &quot;Ming-Fen Liao&quot;, &quot;mingfen.liao@ · Human Resources&quot;], [&quot;u_g36588&quot;, &quot;Irene Suzuki&quot;, &quot;irene.suzuki@ · Fab Engineering&quot;], [&quot;u_g42396&quot;, &quot;Oscar Suzuki&quot;, &quot;oscar.suzuki@ · Logistics&quot;], [&quot;u_g26587&quot;, &quot;Rahul Brennan&quot;, &quot;rahul.brennan@ · Finance&quot;], [&quot;u_g45055&quot;, &quot;Rahul Bianchi&quot;, &quot;rahul.bianchi@ · Information Security&quot;], [&quot;u_g22492&quot;, &quot;Mateo Brennan&quot;, &quot;mateo.brennan@ · Procurement&quot;], [&quot;u_g22264&quot;, &quot;Mateo Novak&quot;, &quot;mateo.novak@ · Finance&quot;], [&quot;u_g10954&quot;, &quot;Wei-Ting Su&quot;, &quot;weiting.su@ · Data Platform&quot;], [&quot;u_g47948&quot;, &quot;Wei-Ting Kuo&quot;, &quot;weiting.kuo@ · Fab Engineering&quot;], [&quot;u_g47601&quot;, &quot;Ming-Wen Kuo&quot;, &quot;mingwen.kuo@ · Logistics&quot;], [&quot;u_g23142&quot;, &quot;Ya-Ying Kuo&quot;, &quot;yaying.kuo@ · Logistics&quot;], [&quot;u_g10394&quot;, &quot;Julia Fischer&quot;, &quot;julia.fischer@ · Fab Engineering&quot;], [&quot;u_g11803&quot;, &quot;Lucas Fischer&quot;, &quot;lucas.fischer@ · Fab Engineering&quot;], [&quot;u_g38510&quot;, &quot;Cheng-Fen Wang&quot;, &quot;chengfen.wang@ · Data Platform&quot;], [&quot;u_g17150&quot;, &quot;Ya-Yen Wang&quot;, &quot;yayen.wang@ · Human Resources&quot;], [&quot;u_g35687&quot;, &quot;Tzu-Hui Lai&quot;, &quot;tzuhui.lai@ · Procurement&quot;], [&quot;u_g47364&quot;, &quot;Hannah Iyer&quot;, &quot;hannah.iyer@ · Fab Engineering&quot;], [&quot;u_g32777&quot;, &quot;Pavel Mwangi&quot;, &quot;pavel.mwangi@ · Finance&quot;], [&quot;u_g21106&quot;, &quot;Hsin-Ting Tsao&quot;, &quot;hsinting.tsao@ · Human Resources&quot;], [&quot;u_g11164&quot;, &quot;Ming-Hsuan Tsao&quot;, &quot;minghsuan.tsao@ · Fab Engineering&quot;], [&quot;u_g32411&quot;, &quot;Kuan-An Wu&quot;, &quot;kuanan.wu@ · Finance&quot;], [&quot;u_g35270&quot;, &quot;Kuan-An Yeh&quot;, &quot;kuanan.yeh@ · Finance&quot;], [&quot;u_g25714&quot;, &quot;Mei-Ju Wang&quot;, &quot;meiju.wang@ · Procurement&quot;], [&quot;u_g16634&quot;, &quot;Mei-Ju Yang&quot;, &quot;meiju.yang@ · Fab Engineering&quot;], [&quot;u_g15754&quot;, &quot;Ming-Wen Wang&quot;, &quot;mingwen.wang@ · Data Platform&quot;], [&quot;u_g27283&quot;, &quot;Ya-Ling Wang&quot;, &quot;yaling.wang@ · Data Platform&quot;], [&quot;u_g23061&quot;, &quot;Jia-Jie Yang&quot;, &quot;jiajie.yang@ · Logistics&quot;], [&quot;u_g16828&quot;, &quot;Jia-Jie Chiu&quot;, &quot;jiajie.chiu@ · Information Security&quot;], [&quot;u_g39124&quot;, &quot;Amara Novak&quot;, &quot;amara.novak@ · Finance&quot;], [&quot;u_g17708&quot;, &quot;Amara Schmidt&quot;, &quot;amara.schmidt@ · Human Resources&quot;], [&quot;u_g22988&quot;, &quot;Elena Castillo&quot;, &quot;elena.castillo@ · Finance&quot;], [&quot;u_g33921&quot;, &quot;Lucas Castillo&quot;, &quot;lucas.castillo@ · Fab Engineering&quot;], [&quot;u_g29779&quot;, &quot;Chun-Hua Chiang&quot;, &quot;chunhua.chiang@ · Finance&quot;], [&quot;u_g31537&quot;, &quot;Shu-Ju Chiang&quot;, &quot;shuju.chiang@ · Information Security&quot;], [&quot;u_g12775&quot;, &quot;Ingrid Petrov&quot;, &quot;ingrid.petrov@ · Quality Assurance&quot;], [&quot;u_g43243&quot;, &quot;Chloe Suzuki&quot;, &quot;chloe.suzuki@ · Fab Engineering&quot;], [&quot;u_g15564&quot;, &quot;Ingrid Suzuki&quot;, &quot;ingrid.suzuki@ · Fab Engineering&quot;], [&quot;u_g36244&quot;, &quot;Chloe Iyer&quot;, &quot;chloe.iyer@ · Data Platform&quot;], [&quot;u_g31809&quot;, &quot;Chloe Mensah&quot;, &quot;chloe.mensah@ · Finance&quot;], [&quot;u_g30020&quot;, &quot;Jia-Hua Kuo&quot;, &quot;jiahua.kuo@ · Procurement&quot;], [&quot;u_g43193&quot;, &quot;Kuan-Jie Kuo&quot;, &quot;kuanjie.kuo@ · Human Resources&quot;], [&quot;u_g22203&quot;, &quot;Marcus Iyer&quot;, &quot;marcus.iyer@ · Information Security&quot;], [&quot;u_g41734&quot;, &quot;Samir Castillo&quot;, &quot;samir.castillo@ · Data Platform&quot;], [&quot;u_g33719&quot;, &quot;Amara Castillo&quot;, &quot;amara.castillo@ · Quality Assurance&quot;], [&quot;u_g46863&quot;, &quot;Jia-Ting Liu&quot;, &quot;jiating.liu@ · Quality Assurance&quot;], [&quot;u_g36037&quot;, &quot;Jia-Wen Liu&quot;, &quot;jiawen.liu@ · Information Security&quot;], [&quot;u_g30863&quot;, &quot;Yi-Hsuan Chiu&quot;, &quot;yihsuan.chiu@ · Data Platform&quot;], [&quot;u_g11811&quot;, &quot;Yi-Hsuan Lu&quot;, &quot;yihsuan.lu@ · Finance&quot;], [&quot;u_g16614&quot;, &quot;Julia Costa&quot;, &quot;julia.costa@ · Procurement&quot;], [&quot;u_g31002&quot;, &quot;Mateo Costa&quot;, &quot;mateo.costa@ · Finance&quot;], [&quot;u_g21953&quot;, &quot;Hsin-Jie Yang&quot;, &quot;hsinjie.yang@ · Procurement&quot;], [&quot;u_g35659&quot;, &quot;Hsin-Ling Yang&quot;, &quot;hsinling.yang@ · Logistics&quot;], [&quot;u_g38069&quot;, &quot;Pei-Yen Yang&quot;, &quot;peiyen.yang@ · Data Platform&quot;], [&quot;u_g46849&quot;, &quot;Chia-An Yang&quot;, &quot;chiaan.yang@ · Fab Engineering&quot;], [&quot;u_g33100&quot;, &quot;Mina Mensah&quot;, &quot;mina.mensah@ · Quality Assurance&quot;], [&quot;u_g14798&quot;, &quot;Felix Mensah&quot;, &quot;felix.mensah@ · Data Platform&quot;], [&quot;u_g27821&quot;, &quot;Kuan-Lun Liu&quot;, &quot;kuanlun.liu@ · Quality Assurance&quot;]]" data-ff-delay="400"><ul role="listbox" hidden></ul></div></div></div><div class="row" data-ff-row><label for="f_laptop_model" id="f_laptop_model-q">Model<span class="req" aria-hidden="true">*</span></label><div><select id="f_laptop_model" name="laptop_model" aria-required="true" data-ff-key="laptop_model" data-ff-kind="select" data-ff-required="1"><option value="">-- Select --</option><option value="std14">Standard Laptop 14&quot; (16 GB)</option><option value="eng16">Engineering Workstation Laptop 16&quot; (32 GB)</option><option value="eng16_64">Engineering Workstation Laptop 16&quot; (64 GB, GPU)</option><option value="design14">Design Laptop 14&quot; (high-DPI)</option></select></div></div><div class="row" data-ff-row><label for="f_location" id="f_location-q">Deliver to<span class="req" aria-hidden="true">*</span></label><div><select id="f_location" name="location" aria-required="true" data-ff-key="location" data-ff-kind="select" data-ff-required="1"><option value="">-- Select --</option><option value="neihu">Taipei HQ — Neihu</option><option value="hsp_fab3">Hsinchu Science Park — Fab 3</option><option value="hsp_fab2">Hsinchu Science Park — Fab 2</option><option value="tainan">Tainan Science Park — Assembly</option><option value="sg">Singapore Regional Office</option></select></div></div><div class="row" data-ff-row><label for="f_needed_by" id="f_needed_by-q">Needed by<span class="req" aria-hidden="true">*</span></label><div><div class="ff-dp"><input id="f_needed_by" type="text" placeholder="yyyy-mm-dd" autocomplete="off" data-ff-format="YYYY-MM-DD" aria-required="true" data-ff-key="needed_by" data-ff-kind="datepicker" data-ff-required="1"><button type="button" class="ff-cal-btn" aria-label="Choose date">&#9638;</button><div class="ff-cal" role="dialog" aria-label="Choose date" hidden><div class="ff-cal-head"><button type="button" class="ff-cal-prev" aria-label="Previous month">&lsaquo;</button><select class="ff-cal-m" aria-label="Month"><option value="1">01</option><option value="2">02</option><option value="3">03</option><option value="4">04</option><option value="5">05</option><option value="6">06</option><option value="7">07</option><option value="8">08</option><option value="9">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select><select class="ff-cal-y" aria-label="Year"><option>1940</option><option>1941</option><option>1942</option><option>1943</option><option>1944</option><option>1945</option><option>1946</option><option>1947</option><option>1948</option><option>1949</option><option>1950</option><option>1951</option><option>1952</option><option>1953</option><option>1954</option><option>1955</option><option>1956</option><option>1957</option><option>1958</option><option>1959</option><option>1960</option><option>1961</option><option>1962</option><option>1963</option><option>1964</option><option>1965</option><option>1966</option><option>1967</option><option>1968</option><option>1969</option><option>1970</option><option>1971</option><option>1972</option><option>1973</option><option>1974</option><option>1975</option><option>1976</option><option>1977</option><option>1978</option><option>1979</option><option>1980</option><option>1981</option><option>1982</option><option>1983</option><option>1984</option><option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option><option>2007</option><option>2008</option><option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option><option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option>2026</option><option>2027</option><option>2028</option><option>2029</option><option>2030</option><option>2031</option><option>2032</option><option>2033</option><option>2034</option><option>2035</option><option>2036</option><option>2037</option><option>2038</option><option>2039</option><option>2040</option></select><button type="button" class="ff-cal-next" aria-label="Next month">&rsaquo;</button></div><div class="ff-cal-grid"></div></div></div></div></div><div class="row" data-ff-row><span class="lbl"></span><div><label class="chk"><input type="checkbox" id="f_extra_monitor" data-ff-key="extra_monitor" data-ff-kind="checkbox"> Also request an external monitor</label></div></div><div class="row" data-ff-row><label for="f_cost_center" id="f_cost_center-q">Cost center<span class="req" aria-hidden="true">*</span></label><div><input id="f_cost_center" name="cost_center" type="text" placeholder="CC-0000" autocomplete="off" aria-required="true" data-ff-key="cost_center" data-ff-kind="input" data-ff-required="1" data-ff-validate="re:^CC-\d{4}$" data-ff-msg="Use the format CC-1234"></div></div><div class="row" data-ff-row><label for="f_justification" id="f_justification-q">Business justification<span class="req" aria-hidden="true">*</span></label><div><textarea id="f_justification" name="justification" rows="3" placeholder="" aria-required="true" data-ff-key="justification" data-ff-kind="input" data-ff-required="1"></textarea></div></div></div></div><div class="ff-nav"><button type="submit" class="btn primary" data-ff-submit>Submit</button></div></form></template>
+<script type="application/json" id="ff-config">{"family": "itsm-request", "variant": "hardware-laptop", "keys": ["requested_for", "laptop_model", "location", "needed_by", "extra_monitor", "cost_center", "justification"], "messages": {"required": "This field is required.", "email": "Enter a valid email address.", "ubn": "Invalid business ID.", "date": "Enter a valid date.", "format": "Invalid format.", "match": "Values do not match.", "fix": "Please correct the highlighted fields.", "noMatch": "No matches found", "searching": "Searching…", "doneTitle": "Submitted", "doneBody": "Your submission has been received.", "next": "Next", "back": "Back", "submit": "Submit", "select": "-- Select --", "none": "-- None --", "reqmark": "*", "loading": "Loading form…", "cal": "Choose date", "draft": "Save draft"}, "today": "2026-11-11", "delay": 0, "refPrefix": "RITM", "rejectKey": "cost_center", "rejectMessage": "Cost center could not be verified against Finance — please re-enter it.", "prefill": {"right": {"requested_for": "u_huang_yt", "laptop_model": "eng16", "location": "hsp_fab3", "needed_by": "2026-11-28", "extra_monitor": false, "cost_center": "CC-3120", "justification": "New hire, Fab Engineering — runs yield analysis tooling (JMP, Python)."}, "wrong": {"cost_center": "CC-31x", "needed_by": "2025-11-28"}}}</script>
+<script>// formform training-form runtime. Inlined into every generated page by build.py.
+// Widgets are declared in HTML with data-ff-* attributes; this file wires behaviour and exposes
+//   window.__formState()  -> {family, variant, state, step, steps, submitted, values, errors, visible}
+// Values are always read from live DOM (or the snapshot taken at successful submit).
+(() => {
+  const CFG = JSON.parse(document.getElementById('ff-config').textContent);
+  const Q = new URLSearchParams(location.search);
+  const STATE = Q.get('state') || 'default';            // default | prefilled | partial | wrong | loading | error
+  const roots = [document];
+  const all = sel => roots.flatMap(r => [...r.querySelectorAll(sel)]);
+  const one = sel => all(sel)[0] || null;
+  const fire = (el, ...types) => types.forEach(t => el.dispatchEvent(new Event(t, {bubbles: true, composed: true})));
+  const pad = n => String(n).padStart(2, '0');
+  let submitted = null, step = 0;
+
+  // ---------- date helpers ----------
+  const fmtDate = (iso, f) => {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); if (!m) return iso || '';
+    const [, y, mo, d] = m;
+    return {'YYYY-MM-DD': `${y}-${mo}-${d}`, 'MM/DD/YYYY': `${mo}/${d}/${y}`, 'DD/MM/YYYY': `${d}/${mo}/${y}`,
+      'YYYY-DD-MM': `${y}-${d}-${mo}`, 'YYYY/MM/DD': `${y}/${mo}/${d}`, 'DD.MM.YYYY': `${d}.${mo}.${y}`}[f] || iso;
+  };
+  const parseDate = (s, f) => {
+    s = (s || '').trim(); if (!s) return '';
+    const p = s.split(/[-/.]/); if (p.length !== 3) return s;
+    const order = f.split(/[-/.]/), o = {};
+    order.forEach((k, i) => o[k[0]] = p[i]);
+    const y = +o.Y, mo = +o.M, d = +o.D;
+    if (!y || !mo || !d || mo > 12 || d > 31) return s;
+    return `${y}-${pad(mo)}-${pad(d)}`;
+  };
+
+  // ---------- getters / setters per widget kind ----------
+  const field = key => one(`[data-ff-key="${key}"]`);
+  const kinds = {
+    input: {get: e => e.value, set: (e, v) => { e.value = v ?? ''; fire(e, 'input', 'change'); }},
+    select: {get: e => e.value, set: (e, v) => { e.value = v ?? ''; fire(e, 'change'); }},
+    radio: {get: e => (e.querySelector('input:checked') || {}).value || '',
+      set: (e, v) => e.querySelectorAll('input').forEach(i => { i.checked = i.value === v; if (i.checked) fire(i, 'change'); })},
+    checkbox: {get: e => e.checked, set: (e, v) => { e.checked = v === true || v === 'true'; fire(e, 'change'); }},
+    checks: {get: e => [...e.querySelectorAll('input:checked')].map(i => i.value).sort(),
+      set: (e, v) => { e.querySelectorAll('input').forEach(i => i.checked = (v || []).includes(i.value)); fire(e, 'change'); }},
+    switch: {get: e => e.getAttribute('aria-checked') === 'true', set: (e, v) => { e.setAttribute('aria-checked', String(!!v)); fire(e, 'change'); }},
+    ariaradio: {get: e => (e.querySelector('[role=radio][aria-checked=true]') || {dataset: {}}).dataset.value || '',
+      set: (e, v) => { e.querySelectorAll('[role=radio]').forEach(r => r.setAttribute('aria-checked', String(r.dataset.value === v))); fire(e, 'change'); }},
+    dropdown: {get: e => e.dataset.value || '', set: (e, v) => pickDropdown(e, v)},
+    combobox: {get: e => e.dataset.value || '', set: (e, v) => {
+      const o = JSON.parse(e.dataset.ffOptions).find(o => o[0] === v);
+      e.value = o ? o[1] : (v || ''); e.dataset.value = o ? o[0] : ''; fire(e, 'change'); }},
+    datepicker: {get: e => parseDate(e.value, e.dataset.ffFormat), set: (e, v) => { e.value = fmtDate(v, e.dataset.ffFormat); fire(e, 'input', 'change'); }},
+    rocdate: {get: e => {
+      const [y, m, d] = [...e.querySelectorAll('select')].map(s => s.value);
+      return y && m && d ? `${+y + 1911}-${pad(m)}-${pad(d)}` : '';
+    }, set: (e, v) => {
+      const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(v || ''); const s = [...e.querySelectorAll('select')];
+      if (!m) { s.forEach(x => x.value = ''); } else { s[0].value = String(+m[1] - 1911); s[1].value = String(+m[2]); s[2].value = String(+m[3]); }
+      s.forEach(x => fire(x, 'change'));
+    }},
+    editable: {get: e => e.innerText.trim(), set: (e, v) => { e.innerText = v ?? ''; fire(e, 'input'); }},
+  };
+  const kindOf = e => kinds[e.dataset.ffKind] || kinds.input;
+  const getVal = key => { const e = field(key); return e ? kindOf(e).get(e) : null; };
+  const setVal = (key, v) => { const e = field(key); if (e) kindOf(e).set(e, v); };
+  const isEmpty = v => v === '' || v === null || v === false || (Array.isArray(v) && !v.length);
+
+  // ---------- visibility (hidden steps / tabs still count as present; show-if hides) ----------
+  const conditionalHidden = e => { for (let n = e; n; n = n.parentElement || (n.getRootNode() || {}).host) if (n.dataset && n.dataset.ffShowIf && n.hidden) return true; return false; };
+
+  // ---------- validation ----------
+  const UBN_W = [1, 2, 1, 2, 1, 2, 4, 1];
+  const ubnOk = s => {
+    if (!/^\d{8}$/.test(s)) return false;
+    const sums = UBN_W.map((w, i) => { const p = w * +s[i]; return Math.floor(p / 10) + p % 10; });
+    const t = sums.reduce((a, b) => a + b, 0);
+    return t % 5 === 0 || (s[6] === '7' && (t + 1) % 5 === 0);
+  };
+  const MSG = CFG.messages;
+  const check = e => {
+    const key = e.dataset.ffKey, v = kindOf(e).get(e), rule = e.dataset.ffValidate || '';
+    if (conditionalHidden(e)) return '';
+    if (e.dataset.ffRequired === '1' && isEmpty(v)) return MSG.required;
+    if (isEmpty(v) || !rule) return '';
+    const s = String(v);
+    if (rule === 'email' && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(s)) return MSG.email;
+    if (rule === 'ubn' && !ubnOk(s)) return MSG.ubn;
+    if (rule === 'date' && !/^\d{4}-\d{2}-\d{2}$/.test(s)) return MSG.date;
+    if (rule.startsWith('re:') && !new RegExp(rule.slice(3)).test(s)) return e.dataset.ffMsg || MSG.format;
+    if (rule.startsWith('match:') && s !== String(getVal(rule.slice(6)))) return MSG.match;
+    return '';
+  };
+  const showError = (e, msg) => {
+    const box = e.closest('[data-ff-row]') || e.parentElement;
+    let err = box.querySelector(':scope > .ff-error');
+    if (!err) { err = document.createElement('div'); err.className = 'ff-error'; err.setAttribute('role', 'alert'); box.appendChild(err); }
+    err.textContent = msg; err.hidden = !msg;
+    e.setAttribute('aria-invalid', msg ? 'true' : 'false');
+  };
+  const validate = scope => {
+    let bad = 0;
+    for (const e of all('[data-ff-key]')) {
+      if (scope && !scope.contains(e) && !scope.contains(e.getRootNode().host)) continue;
+      const m = check(e); showError(e, m); if (m) bad++;
+    }
+    return bad;
+  };
+  const errors = () => all('[data-ff-key][aria-invalid=true]').map(e => ({key: e.dataset.ffKey,
+    message: ((e.closest('[data-ff-row]') || e.parentElement).querySelector('.ff-error') || {}).textContent || ''}));
+
+  // ---------- widgets ----------
+  function pickDropdown(host, v) {
+    const o = host.parentElement.querySelector(`[role=option][data-value="${CSS.escape(v || '')}"]`);
+    host.dataset.value = o ? v : '';
+    host.querySelector('.ff-dd-label').textContent = o ? o.textContent : host.dataset.ffPlaceholder;
+    host.parentElement.querySelectorAll('[role=option]').forEach(x => x.setAttribute('aria-selected', String(x === o)));
+    fire(host, 'change');
+  }
+  const initDropdown = host => {
+    const list = host.parentElement.querySelector('[role=listbox]');
+    const close = () => { list.hidden = true; host.setAttribute('aria-expanded', 'false'); };
+    host.addEventListener('click', ev => { ev.preventDefault(); list.hidden = !list.hidden; host.setAttribute('aria-expanded', String(!list.hidden)); });
+    list.addEventListener('click', ev => { const o = ev.target.closest('[role=option]'); if (o) { pickDropdown(host, o.dataset.value); close(); showError(host, check(host)); } });
+    document.addEventListener('click', ev => { if (!host.parentElement.contains(ev.composedPath()[0])) close(); }, true);
+  };
+  const initCombobox = inp => {
+    const opts = JSON.parse(inp.dataset.ffOptions), list = inp.parentElement.querySelector('[role=listbox]');
+    const delay = +(inp.dataset.ffDelay || 0);
+    let timer;
+    const render = () => {
+      const q = inp.value.trim().toLowerCase();
+      list.innerHTML = '';
+      if (q.length < (+inp.dataset.ffMinChars || 1)) { list.hidden = true; inp.setAttribute('aria-expanded', 'false'); return; }
+      const hits = opts.filter(o => o[1].toLowerCase().includes(q) || (o[2] || '').toLowerCase().includes(q)).slice(0, 8);
+      for (const [v, label, sub] of hits) {
+        const li = document.createElement('li'); li.setAttribute('role', 'option'); li.dataset.value = v; li.id = inp.id + '-o-' + v.replace(/\W/g, '_');
+        li.innerHTML = `<span></span>${sub ? '<small></small>' : ''}`; li.firstChild.textContent = label; if (sub) li.lastChild.textContent = sub;
+        list.appendChild(li);
+      }
+      if (!hits.length) list.innerHTML = `<li class="ff-empty">${CFG.messages.noMatch}</li>`;
+      list.hidden = false; inp.setAttribute('aria-expanded', 'true');
+    };
+    inp.addEventListener('input', () => {
+      inp.dataset.value = '';                               // typing invalidates the committed choice
+      clearTimeout(timer);
+      if (delay) { list.hidden = false; list.innerHTML = `<li class="ff-empty">${CFG.messages.searching}</li>`; timer = setTimeout(render, delay); } else render();
+    });
+    list.addEventListener('mousedown', ev => ev.preventDefault());
+    list.addEventListener('click', ev => {
+      const li = ev.target.closest('[role=option]'); if (!li) return;
+      const o = opts.find(o => o[0] === li.dataset.value);
+      inp.value = o[1]; inp.dataset.value = o[0]; list.hidden = true; inp.setAttribute('aria-expanded', 'false');
+      fire(inp, 'change'); showError(inp, check(inp));
+    });
+    inp.addEventListener('blur', () => setTimeout(() => { list.hidden = true; inp.setAttribute('aria-expanded', 'false'); }, 150));
+  };
+  const initDatepicker = inp => {
+    const btn = inp.parentElement.querySelector('.ff-cal-btn'), pop = inp.parentElement.querySelector('.ff-cal');
+    const ysel = pop.querySelector('.ff-cal-y'), msel = pop.querySelector('.ff-cal-m'), grid = pop.querySelector('.ff-cal-grid');
+    const draw = () => {
+      const y = +ysel.value, m = +msel.value, first = new Date(y, m - 1, 1).getDay(), n = new Date(y, m, 0).getDate();
+      grid.innerHTML = '';
+      for (let i = 0; i < first; i++) grid.appendChild(document.createElement('span'));
+      for (let d = 1; d <= n; d++) {
+        const b = document.createElement('button'); b.type = 'button'; b.setAttribute('role', 'gridcell'); b.textContent = d;
+        b.setAttribute('aria-label', `${y}-${pad(m)}-${pad(d)}`);
+        b.onclick = () => { inp.value = fmtDate(`${y}-${pad(m)}-${pad(d)}`, inp.dataset.ffFormat); pop.hidden = true; fire(inp, 'input', 'change'); showError(inp, check(inp)); };
+        grid.appendChild(b);
+      }
+    };
+    btn.addEventListener('click', () => {
+      const cur = parseDate(inp.value, inp.dataset.ffFormat), m = /^(\d{4})-(\d{2})/.exec(cur);
+      const now = new Date(CFG.today); ysel.value = m ? +m[1] : now.getFullYear(); msel.value = m ? +m[2] : now.getMonth() + 1;
+      draw(); pop.hidden = !pop.hidden;
+    });
+    ysel.onchange = msel.onchange = draw;
+    pop.querySelector('.ff-cal-prev').onclick = () => { if (+msel.value === 1) { msel.value = 12; ysel.value = +ysel.value - 1; } else msel.value = +msel.value - 1; draw(); };
+    pop.querySelector('.ff-cal-next').onclick = () => { if (+msel.value === 12) { msel.value = 1; ysel.value = +ysel.value + 1; } else msel.value = +msel.value + 1; draw(); };
+    if (inp.dataset.ffTyping === '0') inp.readOnly = true;
+  };
+  const initCascade = child => {
+    const parent = field(child.dataset.ffParent), map = JSON.parse(child.dataset.ffMap), ph = child.dataset.ffPlaceholder;
+    const fill = () => {
+      const keep = child.value;
+      child.innerHTML = `<option value="">${ph}</option>` + (map[parent.value] || []).map(([v, l]) => `<option value="${v}">${l}</option>`).join('');
+      child.disabled = !parent.value; child.value = (map[parent.value] || []).some(o => o[0] === keep) ? keep : '';
+    };
+    parent.addEventListener('change', fill); fill();
+  };
+  const initTabs = list => {
+    const tabs = [...list.querySelectorAll('[role=tab]')];
+    tabs.forEach(t => t.addEventListener('click', () => tabs.forEach(x => {
+      const on = x === t; x.setAttribute('aria-selected', String(on)); x.classList.toggle('active', on);
+      document.getElementById(x.getAttribute('aria-controls')).hidden = !on;
+    })));
+  };
+  const refreshShowIf = () => {
+    for (const e of all('[data-ff-show-if]')) {
+      const [k, v] = e.dataset.ffShowIf.split('=');
+      e.hidden = String(getVal(k)) !== v;
+    }
+  };
+
+  // ---------- steps & submit ----------
+  const steps = () => all('.ff-step');
+  const showStep = i => {
+    step = i; steps().forEach((s, j) => s.hidden = j !== i);
+    const ind = one('.ff-progress'); if (ind) ind.querySelectorAll('li').forEach((li, j) => li.classList.toggle('current', j === i));
+    window.scrollTo(0, 0);
+  };
+  const snapshot = () => Object.fromEntries(CFG.keys.map(k => [k, getVal(k)]));
+  const submit = () => {
+    if (validate()) { banner(MSG.fix, true); return; }
+    if (STATE === 'error' && !window.__ffRejected) {          // server-side rejection on first submit
+      window.__ffRejected = true; const e = field(CFG.rejectKey);
+      if (e) { showError(e, CFG.rejectMessage); banner(MSG.fix, true); return; }
+    }
+    submitted = snapshot(); window.__submitted = submitted;
+    one('#ff-root').innerHTML = `<div class="ff-done" role="status"><h2>${MSG.doneTitle}</h2><p>${MSG.doneBody}</p><p class="ff-ref">${CFG.refPrefix}-${String(Date.now()).slice(-6)}</p></div>`;
+  };
+  const banner = (msg, bad) => {
+    let b = one('.ff-banner'); if (!b) return;
+    b.textContent = msg; b.hidden = !msg; b.classList.toggle('bad', !!bad);
+  };
+
+  // ---------- boot ----------
+  const boot = () => {
+    const root = document.getElementById('ff-root');
+    root.replaceChildren(document.getElementById('ff-form').content.cloneNode(true));
+    for (const host of root.querySelectorAll('[data-ff-shadow]')) {
+      const sr = host.attachShadow({mode: host.dataset.ffShadow});
+      sr.appendChild(document.getElementById('ff-style').cloneNode(true));
+      sr.appendChild(host.querySelector('template').content.cloneNode(true));
+      host.querySelector('template').remove(); roots.push(sr);
+    }
+    all('[data-ff-kind=dropdown]').forEach(initDropdown);
+    all('[data-ff-kind=combobox]').forEach(initCombobox);
+    all('[data-ff-kind=datepicker]').forEach(initDatepicker);
+    all('[data-ff-parent]').forEach(initCascade);
+    all('[role=tablist]').forEach(initTabs);
+    all('[data-ff-kind=switch]').forEach(s => s.addEventListener('click', () => { s.setAttribute('aria-checked', String(s.getAttribute('aria-checked') !== 'true')); fire(s, 'change'); }));
+    all('[data-ff-kind=ariaradio] [role=radio]').forEach(r => r.addEventListener('click', () => kinds.ariaradio.set(r.closest('[data-ff-kind]'), r.dataset.value)));
+    for (const e of all('[data-ff-key]')) {
+      e.addEventListener('change', refreshShowIf);
+      e.addEventListener(e.dataset.ffKind === 'combobox' ? 'change' : 'blur', () => showError(e, check(e)), true);
+      if (e.dataset.ffKind === 'radio' || e.dataset.ffKind === 'checks') e.addEventListener('change', () => showError(e, check(e)));
+    }
+    all('[data-ff-next]').forEach(b => b.addEventListener('click', ev => {
+      ev.preventDefault(); const cur = steps()[step];
+      if (validate(cur)) { banner(MSG.fix, true); return; } banner(''); showStep(step + 1);
+    }));
+    all('[data-ff-back]').forEach(b => b.addEventListener('click', ev => { ev.preventDefault(); banner(''); showStep(step - 1); }));
+    all('[data-ff-submit]').forEach(b => b.addEventListener('click', ev => { ev.preventDefault(); submit(); }));
+    all('form').forEach(f => f.addEventListener('submit', ev => ev.preventDefault()));
+    if (steps().length) showStep(0);
+    // hard states (a recorder can also call window.__ffPrefill(right, wrong) itself with a persona's values)
+    const P = CFG.prefill, R = Object.entries(P.right);
+    if (STATE === 'prefilled') window.__ffPrefill(P.right);
+    if (STATE === 'partial') window.__ffPrefill(Object.fromEntries(R.slice(0, Math.ceil(R.length / 2))));
+    if (STATE === 'wrong') window.__ffPrefill(P.right, P.wrong);
+    refreshShowIf();
+    window.__ffReady = true;
+  };
+  // Put values into fields as if entered earlier: `right` twice (so dependent selects get their options), then `wrong`
+  // values with their validation message shown. Keys/values use the same canonical form as __formState().values.
+  window.__ffPrefill = (right, wrong) => {
+    for (let i = 0; i < 2; i++) Object.entries(right || {}).forEach(([k, v]) => setVal(k, v));
+    Object.entries(wrong || {}).forEach(([k, v]) => { setVal(k, v); const e = field(k); if (e) showError(e, check(e)); });
+    refreshShowIf();
+  };
+  window.__formState = () => ({
+    family: CFG.family, variant: CFG.variant, state: STATE, ready: !!window.__ffReady,
+    step, steps: steps().length || 1, submitted: !!submitted,
+    values: submitted || (window.__ffReady ? snapshot() : {}),
+    errors: submitted ? [] : errors(),
+    visible: window.__ffReady && !submitted ? CFG.keys.filter(k => { const e = field(k); return e && !conditionalHidden(e); }) : [],
+  });
+  const wait = STATE === 'loading' ? +(Q.get('delay') || 1500) : CFG.delay;
+  const go = () => wait ? setTimeout(boot, wait) : boot();
+  document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', go) : go();
+})();
+</script>
+</body></html>

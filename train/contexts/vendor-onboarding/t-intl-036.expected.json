@@ -1,0 +1,192 @@
+{
+ "persona": "vendor-onboarding/t-intl-036",
+ "context": "vendor-onboarding/t-intl-036.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Brightwater Industrial Gases GmbH",
+    "tax_id": "DE422412062",
+    "company_address": "Hafenweg 106, 01215 Dresden, Germany",
+    "established": "2020-09-29",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "service_area": "global",
+    "gross_sales": "45100000",
+    "contact_name": [
+     "Felix Lindqvist",
+     "Ms. Felix Lindqvist"
+    ],
+    "contact_title": "Sales Director",
+    "phone_day": "+49 351 456 1567",
+    "phone_evening": "",
+    "email": "felix.lindqvist@brightwater.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Elbtal Handelsbank",
+    "beneficiary": "Brightwater Industrial Gases GmbH",
+    "account_number": "288-496677-2",
+    "swift": "EHXXDEAXXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Brightwater Industrial Gases GmbH",
+     "tax_id": "DE422412062",
+     "company_address": "Hafenweg 106, 01215 Dresden, Germany",
+     "established": "2020-09-29",
+     "business_type": "llc",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "service_area": "global",
+     "gross_sales": "45100000",
+     "contact_name": "Felix Lindqvist",
+     "contact_title": "Sales Director",
+     "phone_day": "+49 351 456 1567",
+     "email": "felix.lindqvist@brightwater.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Elbtal Handelsbank",
+     "beneficiary": "Brightwater Industrial Gases GmbH",
+     "account_number": "288-496677-2",
+     "swift": "EHXXDEAXXXX"
+    },
+    "wrong": {
+     "email": "felix.lindqvist at brightwater.example",
+     "contact_title": "Sales D"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Brightwater Industrial Gases GmbH",
+    "tax_id": "DE422412062",
+    "established": "2020-09-29",
+    "service_area": "global",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "contact_name": [
+     "Felix Lindqvist",
+     "Ms. Felix Lindqvist"
+    ],
+    "email": "felix.lindqvist@brightwater.example",
+    "phone_day": "+49 351 456 1567",
+    "phone_evening": "",
+    "company_address": "Hafenweg 106, 01215 Dresden, Germany",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Elbtal Handelsbank",
+    "beneficiary": "Brightwater Industrial Gases GmbH",
+    "account_number": "288-496677-2",
+    "swift": "EHXXDEAXXXX",
+    "insurance": "insured",
+    "gross_sales": "45100000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Brightwater Industrial Gases GmbH",
+     "tax_id": "DE422412062",
+     "established": "2020-09-29",
+     "service_area": "global",
+     "business_type": "llc",
+     "contact_name": "Felix Lindqvist",
+     "email": "felix.lindqvist@brightwater.example",
+     "phone_day": "+49 351 456 1567",
+     "company_address": "Hafenweg 106, 01215 Dresden, Germany",
+     "licensing": "not_licensed",
+     "bank_name": "Elbtal Handelsbank",
+     "beneficiary": "Brightwater Industrial Gases GmbH",
+     "account_number": "288-496677-2",
+     "swift": "EHXXDEAXXXX",
+     "insurance": "insured",
+     "gross_sales": "45100000"
+    },
+    "wrong": {
+     "email": "felix.lindqvist at brightwater.example",
+     "beneficiary": "Brightwater Indu"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Elbtal Handelsbank",
+    "beneficiary": "Brightwater Industrial Gases GmbH",
+    "account_number": "288-496677-2",
+    "swift": "EHXXDEAXXXX",
+    "org_name": "Brightwater Industrial Gases GmbH",
+    "tax_id": "DE422412062",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "established": "2020-09-29",
+    "company_address": "Hafenweg 106, 01215 Dresden, Germany",
+    "service_area": "global",
+    "contact_name": [
+     "Felix Lindqvist",
+     "Ms. Felix Lindqvist"
+    ],
+    "email": "felix.lindqvist@brightwater.example",
+    "phone_day": "+49 351 456 1567",
+    "contact_title": "Sales Director",
+    "phone_evening": "",
+    "gross_sales": "45100000",
+    "services": "Bulk and specialty gas supply with on-site cylinder management",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Elbtal Handelsbank",
+     "beneficiary": "Brightwater Industrial Gases GmbH",
+     "account_number": "288-496677-2",
+     "swift": "EHXXDEAXXXX",
+     "org_name": "Brightwater Industrial Gases GmbH",
+     "tax_id": "DE422412062",
+     "business_type": "llc",
+     "established": "2020-09-29",
+     "company_address": "Hafenweg 106, 01215 Dresden, Germany",
+     "service_area": "global",
+     "contact_name": "Felix Lindqvist",
+     "email": "felix.lindqvist@brightwater.example",
+     "phone_day": "+49 351 456 1567",
+     "contact_title": "Sales Director",
+     "gross_sales": "45100000",
+     "services": "Bulk and specialty gas supply with on-site cylinder management",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "felix.lindqvist at brightwater.example",
+     "account_number": "288-49"
+    }
+   }
+  }
+ }
+}

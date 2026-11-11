@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-028",
+ "context": "kyc-account-opening/t-kyc-028.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-37806",
+    "full_name": [
+     "Wang Chun-Hui",
+     "Chun-Hui Wang"
+    ],
+    "spouse_name": "Cheng Ya-Jie",
+    "gender": "female",
+    "marital": "single",
+    "dob": "1994-12-19",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "D227152421",
+    "id_proof": "national_id",
+    "address": [
+     "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114"
+    ],
+    "phone": "+886 944 462 418",
+    "email": "chunhui.wang@inbox.example",
+    "addr_proof": "utility_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Wang Chun-Hui",
+     "Chun-Hui Wang"
+    ],
+    "sign_date": "2026-11-10",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-37806",
+     "full_name": "Wang Chun-Hui",
+     "spouse_name": "Cheng Ya-Jie",
+     "gender": "female",
+     "marital": "single",
+     "dob": "1994-12-19",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "D227152421",
+     "id_proof": "national_id",
+     "address": "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "phone": "+886 944 462 418",
+     "email": "chunhui.wang@inbox.example",
+     "addr_proof": "utility_bill",
+     "perm_same": true,
+     "decl_name": "Wang Chun-Hui",
+     "sign_date": "2026-11-10"
+    },
+    "wrong": {
+     "tax_id": "D2271524x",
+     "residency": "non_resident"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wang Chun-Hui",
+     "Chun-Hui Wang"
+    ],
+    "dob": "1994-12-19",
+    "mother_maiden": "Hsu",
+    "phone": "+886 944 462 418",
+    "email": "chunhui.wang@inbox.example",
+    "address": [
+     "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114"
+    ],
+    "education": "master",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "134000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wang Chun-Hui",
+     "dob": "1994-12-19",
+     "mother_maiden": "Hsu",
+     "phone": "+886 944 462 418",
+     "email": "chunhui.wang@inbox.example",
+     "address": "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "education": "master",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "134000"
+    },
+    "wrong": {
+     "email": "chunhui.wang at inbox.example",
+     "education": "high_school"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wang Chun-Hui",
+     "Chun-Hui Wang"
+    ],
+    "dob": "1994-12-19",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Cheng Ya-Jie",
+    "address": [
+     "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114"
+    ],
+    "email": "chunhui.wang@inbox.example",
+    "phone": "+886 944 462 418",
+    "addr_proof": "utility_bill",
+    "id_proof": "national_id",
+    "tax_id": "D227152421",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-37806"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wang Chun-Hui",
+     "dob": "1994-12-19",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Cheng Ya-Jie",
+     "address": "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "email": "chunhui.wang@inbox.example",
+     "phone": "+886 944 462 418",
+     "addr_proof": "utility_bill",
+     "id_proof": "national_id",
+     "tax_id": "D227152421",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-37806"
+    },
+    "wrong": {
+     "email": "chunhui.wang at inbox.example",
+     "application_no": "LCB-AO-2"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wang Chun-Hui",
+     "Chun-Hui Wang"
+    ],
+    "dob": "1994-12-19",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 944 462 418",
+    "email": "chunhui.wang@inbox.example",
+    "address": [
+     "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "D227152421",
+    "addr_proof": "utility_bill",
+    "account_type": "checking",
+    "account_category": "individual",
+    "education": "master",
+    "monthly_income": "134000",
+    "application_no": "LCB-AO-2026-37806",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Wang Chun-Hui",
+     "dob": "1994-12-19",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 944 462 418",
+     "email": "chunhui.wang@inbox.example",
+     "address": "5F, No. 155, Ln. 129, Dunhua N. Rd., Neihu Dist., Taipei City 114, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "D227152421",
+     "addr_proof": "utility_bill",
+     "account_type": "checking",
+     "account_category": "individual",
+     "education": "master",
+     "monthly_income": "134000",
+     "application_no": "LCB-AO-2026-37806"
+    },
+    "wrong": {
+     "email": "chunhui.wang at inbox.example",
+     "dob": "1993-12-19"
+    }
+   }
+  }
+ }
+}

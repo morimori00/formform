@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-014",
+ "context": "tw-vendor-master/t-tw-014.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "嘉達科技股份有限公司",
+    "vendor_name_en": "Jiada Technology Co., Ltd.",
+    "ubn": "18900014",
+    "owner": "周怡華",
+    "established": "1994-10-08",
+    "capital": "66000000",
+    "org_type": "corp_shares",
+    "postal": "811",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "民生路5號12樓",
+    "tel": "07-306-0937",
+    "fax": "07-306-8506",
+    "contact_name": [
+     "邱美萱",
+     "Chiu Mei-hsuan"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "meihsuan.chiu@jiada-technology.example",
+    "contact_mobile": "0986-646-151",
+    "bank_code": "007",
+    "bank_branch": [
+     "楠梓分行",
+     "楠梓"
+    ],
+    "account_no": "3236750293764",
+    "account_name": "嘉達科技股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui2",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-07-23"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "嘉達科技股份有限公司",
+     "vendor_name_en": "Jiada Technology Co., Ltd.",
+     "ubn": "18900014",
+     "owner": "周怡華",
+     "established": "1994-10-08",
+     "capital": "66000000",
+     "org_type": "corp_shares",
+     "postal": "811",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "民生路5號12樓",
+     "tel": "07-306-0937",
+     "fax": "07-306-8506",
+     "contact_name": "邱美萱",
+     "contact_title": "財務主任",
+     "email": "meihsuan.chiu@jiada-technology.example",
+     "contact_mobile": "0986-646-151",
+     "bank_code": "007",
+     "bank_branch": "楠梓分行",
+     "account_no": "3236750293764",
+     "account_name": "嘉達科技股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui2",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-07-23"
+    },
+    "wrong": {
+     "ubn": "189000x",
+     "tel": "07-30"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "18900014",
+    "vendor_name_zh": "嘉達科技股份有限公司",
+    "vendor_name_en": "Jiada Technology Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1994-10-08",
+    "owner": "周怡華",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "民生路5號12樓",
+    "postal": "811",
+    "tel": "07-306-0937",
+    "fax": "07-306-8506",
+    "contact_name": [
+     "邱美萱",
+     "Chiu Mei-hsuan"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0986-646-151",
+    "email": "meihsuan.chiu@jiada-technology.example",
+    "bank_code": "007",
+    "bank_branch": [
+     "楠梓分行",
+     "楠梓"
+    ],
+    "account_no": "3236750293764",
+    "account_name": "嘉達科技股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui2",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-07-23",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "18900014",
+     "vendor_name_zh": "嘉達科技股份有限公司",
+     "vendor_name_en": "Jiada Technology Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1994-10-08",
+     "owner": "周怡華",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "民生路5號12樓",
+     "postal": "811",
+     "tel": "07-306-0937",
+     "fax": "07-306-8506",
+     "contact_name": "邱美萱",
+     "contact_title": "財務主任",
+     "contact_mobile": "0986-646-151",
+     "email": "meihsuan.chiu@jiada-technology.example",
+     "bank_code": "007",
+     "bank_branch": "楠梓分行",
+     "account_no": "3236750293764",
+     "account_name": "嘉達科技股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui2",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-07-23"
+    },
+    "wrong": {
+     "ubn": "189000x",
+     "vendor_name_zh": "嘉達科技股"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "18900014",
+    "vendor_name_zh": "嘉達科技股份有限公司",
+    "owner": "周怡華",
+    "established": "1994-10-08",
+    "org_type": "corp_shares",
+    "capital": "66000000",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "民生路5號12樓",
+    "postal": "811",
+    "tel": "07-306-0937",
+    "contact_name": [
+     "邱美萱",
+     "Chiu Mei-hsuan"
+    ],
+    "email": "meihsuan.chiu@jiada-technology.example",
+    "bank_code": "007",
+    "account_no": "3236750293764",
+    "account_name": "嘉達科技股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui2"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "18900014",
+     "vendor_name_zh": "嘉達科技股份有限公司",
+     "owner": "周怡華",
+     "established": "1994-10-08",
+     "org_type": "corp_shares",
+     "capital": "66000000",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "民生路5號12樓",
+     "postal": "811",
+     "tel": "07-306-0937",
+     "contact_name": "邱美萱",
+     "email": "meihsuan.chiu@jiada-technology.example",
+     "bank_code": "007",
+     "account_no": "3236750293764",
+     "account_name": "嘉達科技股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui2"
+    },
+    "wrong": {
+     "ubn": "189000x",
+     "contact_name": "邱"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "嘉達科技股份有限公司",
+    "vendor_name_en": "Jiada Technology Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "18900014",
+    "owner": "周怡華",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "民生路5號12樓",
+    "postal": "811",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "07-306-0937",
+    "contact_name": [
+     "邱美萱",
+     "Chiu Mei-hsuan"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "meihsuan.chiu@jiada-technology.example",
+    "account_no": "3236750293764",
+    "account_name": "嘉達科技股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "egui2",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "嘉達科技股份有限公司",
+     "vendor_name_en": "Jiada Technology Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "18900014",
+     "owner": "周怡華",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "民生路5號12樓",
+     "postal": "811",
+     "tel": "07-306-0937",
+     "contact_name": "邱美萱",
+     "contact_title": "財務主任",
+     "email": "meihsuan.chiu@jiada-technology.example",
+     "account_no": "3236750293764",
+     "account_name": "嘉達科技股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "egui2",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "189000x",
+     "tel": "07-30"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "007",
+    "bank_branch": [
+     "楠梓分行",
+     "楠梓"
+    ],
+    "account_no": "3236750293764",
+    "account_name": "嘉達科技股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "egui2",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "民生路5號12樓",
+    "postal": "811",
+    "tel": "07-306-0937",
+    "fax": "07-306-8506",
+    "vendor_name_zh": "嘉達科技股份有限公司",
+    "ubn": "18900014",
+    "owner": "周怡華",
+    "org_type": "corp_shares",
+    "established": "1994-10-08",
+    "capital": "66000000",
+    "vendor_name_en": "Jiada Technology Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0986-646-151",
+    "contact_name": [
+     "邱美萱",
+     "Chiu Mei-hsuan"
+    ],
+    "email": "meihsuan.chiu@jiada-technology.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "007",
+     "bank_branch": "楠梓分行",
+     "account_no": "3236750293764",
+     "account_name": "嘉達科技股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "egui2",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "民生路5號12樓",
+     "postal": "811",
+     "tel": "07-306-0937",
+     "fax": "07-306-8506",
+     "vendor_name_zh": "嘉達科技股份有限公司",
+     "ubn": "18900014",
+     "owner": "周怡華",
+     "org_type": "corp_shares",
+     "established": "1994-10-08",
+     "capital": "66000000",
+     "vendor_name_en": "Jiada Technology Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_mobile": "0986-646-151",
+     "contact_name": "邱美萱",
+     "email": "meihsuan.chiu@jiada-technology.example"
+    },
+    "wrong": {
+     "account_no": "32367502937x",
+     "contact_name": "邱"
+    }
+   }
+  }
+ }
+}

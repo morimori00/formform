@@ -1,0 +1,73 @@
+{
+ "persona": "tw-arrival-card/e-arrival-5step-02",
+ "context": "tw-arrival-card/e-arrival-5step-02.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-5step": {
+   "submit": false,
+   "fields": {
+    "family_name": "RAZAK",
+    "given_name": "AMIRUL",
+    "sex": "male",
+    "dob": "1966-10-10",
+    "nationality": "MY",
+    "passport_no": "K8328915B",
+    "passport_expiry": "2031-11-19",
+    "occupation": "other",
+    "arrival_date": "2027-01-04",
+    "flight_no": "MH 694",
+    "departure_flight": "",
+    "purpose": "business",
+    "visa_type": "visa_exempt",
+    "visa_no": "",
+    "stay_type": "hotel",
+    "county": "新竹市",
+    "district": "東區",
+    "stay_address": [
+     "No. 252, Zhongxiao E. Rd., East Dist., Hsinchu City 300",
+     "East Garden Hotel, No. 252, Zhongxiao E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 931 975 040",
+    "email": "amirul.razak@kestrel-semi.example",
+    "visited": [
+     "MY"
+    ],
+    "declare": true
+   },
+   "infeasible": [
+    "visa_no"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "family_name": "RAZAK",
+     "given_name": "AMIRUL",
+     "sex": "male",
+     "dob": "1966-10-10",
+     "nationality": "MY",
+     "passport_no": "K8328915B",
+     "passport_expiry": "2031-11-19",
+     "occupation": "other",
+     "arrival_date": "2027-01-04",
+     "flight_no": "MH 694",
+     "purpose": "business",
+     "visa_type": "visa_exempt",
+     "stay_type": "hotel",
+     "county": "新竹市",
+     "district": "東區",
+     "stay_address": "No. 252, Zhongxiao E. Rd., East Dist., Hsinchu City 300",
+     "phone": "+886 931 975 040",
+     "email": "amirul.razak@kestrel-semi.example",
+     "visited": [
+      "MY"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "RAZx",
+     "purpose": "sightseeing"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "persona": "hr-orangehrm/t-emp-001",
+ "context": "hr-orangehrm/t-emp-001.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chih-Han",
+    "middle_name": "",
+    "last_name": "Chou",
+    "employee_id": "KST-16098",
+    "create_login": true,
+    "username": "chihhan.chou",
+    "login_status": "enabled",
+    "password": "Fab3!2327c",
+    "confirm_password": "Fab3!2327c"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chih-Han",
+     "last_name": "Chou",
+     "employee_id": "KST-16098",
+     "create_login": true,
+     "username": "chihhan.chou",
+     "login_status": "enabled",
+     "password": "Fab3!2327c",
+     "confirm_password": "Fab3!2327c"
+    },
+    "wrong": {
+     "employee_id": "KST-160x",
+     "last_name": "Ch"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chih-Han",
+    "middle_name": "",
+    "last_name": "Chou",
+    "employee_id": "KST-16098",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "divorced",
+    "dob": "1979-11-24",
+    "gender": "male"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chih-Han",
+     "last_name": "Chou",
+     "employee_id": "KST-16098",
+     "nationality": "TW",
+     "marital": "divorced",
+     "dob": "1979-11-24",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-160x",
+     "marital": "single"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "comp",
+    "leave_from": "2027-01-20",
+    "leave_to": "2027-01-25",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": "Medical appointment and recovery"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "comp",
+     "leave_from": "2027-01-20",
+     "leave_to": "2027-01-25",
+     "partial_days": "end",
+     "end_duration": "half_am",
+     "leave_comment": "Medical appointment and recovery"
+    },
+    "wrong": {
+     "end_duration": "half_pm"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "comp",
+    "leave_from": "2027-01-20",
+    "leave_to": "2027-01-25",
+    "partial_days": "end",
+    "end_duration": "half_am",
+    "leave_comment": "Medical appointment and recovery"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "comp",
+     "leave_from": "2027-01-20",
+     "leave_to": "2027-01-25",
+     "partial_days": "end",
+     "end_duration": "half_am",
+     "leave_comment": "Medical appointment and recovery"
+    },
+    "wrong": {
+     "leave_to": "2026-01-25"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chih-Han",
+    "middle_name": "",
+    "last_name": "Chou",
+    "employee_id": "KST-16098",
+    "create_login": true,
+    "username": "chihhan.chou",
+    "login_status": "enabled",
+    "password": "Fab3!2327c",
+    "confirm_password": "Fab3!2327c",
+    "nationality": "TW",
+    "marital": "divorced",
+    "dob": "1979-11-24",
+    "gender": "male",
+    "job_title": "process_int_eng",
+    "department": "logistics",
+    "work_location": "neihu",
+    "emp_status": "pt",
+    "supervisor": "u_m4841",
+    "joined_date": "2027-02-19"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chih-Han",
+     "last_name": "Chou",
+     "employee_id": "KST-16098",
+     "create_login": true,
+     "username": "chihhan.chou",
+     "login_status": "enabled",
+     "password": "Fab3!2327c",
+     "confirm_password": "Fab3!2327c",
+     "nationality": "TW",
+     "marital": "divorced",
+     "dob": "1979-11-24",
+     "gender": "male",
+     "job_title": "process_int_eng",
+     "department": "logistics",
+     "work_location": "neihu",
+     "emp_status": "pt",
+     "supervisor": "u_m4841",
+     "joined_date": "2027-02-19"
+    },
+    "wrong": {
+     "employee_id": "KST-160x",
+     "department": "fab_eng"
+    }
+   }
+  }
+ }
+}

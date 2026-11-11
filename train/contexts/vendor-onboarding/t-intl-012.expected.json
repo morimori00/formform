@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-012",
+ "context": "vendor-onboarding/t-intl-012.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Highmoor Cleanroom Supplies Pte. Ltd.",
+    "tax_id": "201838650H",
+    "company_address": "82 Ubi Road 1, #04-19, Singapore 144360",
+    "established": "2007-06-12",
+    "business_type": "private_limited",
+    "services": "Cleanroom garments, wipers and consumables",
+    "service_area": "north_america",
+    "gross_sales": "12500000",
+    "contact_name": [
+     "Marcus Haddad",
+     "Ms. Marcus Haddad"
+    ],
+    "contact_title": "Key Account Executive",
+    "phone_day": "+65 6367 8325",
+    "phone_evening": "",
+    "email": "marcus.haddad@highmoor.example",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Highmoor Cleanroom Supplies Pte. Ltd.",
+    "account_number": "356-474234-2",
+    "swift": "LCMBSGASXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Cleanroom Supplies Pte. Ltd.",
+     "tax_id": "201838650H",
+     "company_address": "82 Ubi Road 1, #04-19, Singapore 144360",
+     "established": "2007-06-12",
+     "business_type": "private_limited",
+     "services": "Cleanroom garments, wipers and consumables",
+     "service_area": "north_america",
+     "gross_sales": "12500000",
+     "contact_name": "Marcus Haddad",
+     "contact_title": "Key Account Executive",
+     "phone_day": "+65 6367 8325",
+     "email": "marcus.haddad@highmoor.example",
+     "insurance": "not_insured",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Highmoor Cleanroom Supplies Pte. Ltd.",
+     "account_number": "356-474234-2",
+     "swift": "LCMBSGASXXX"
+    },
+    "wrong": {
+     "email": "marcus.haddad at highmoor.example",
+     "insurance": "insured"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Highmoor Cleanroom Supplies Pte. Ltd.",
+    "tax_id": "201838650H",
+    "established": "2007-06-12",
+    "service_area": "north_america",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Marcus Haddad",
+     "Ms. Marcus Haddad"
+    ],
+    "email": "marcus.haddad@highmoor.example",
+    "phone_day": "+65 6367 8325",
+    "phone_evening": "",
+    "company_address": "82 Ubi Road 1, #04-19, Singapore 144360",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Highmoor Cleanroom Supplies Pte. Ltd.",
+    "account_number": "356-474234-2",
+    "swift": "LCMBSGASXXX",
+    "insurance": "not_insured",
+    "gross_sales": "12500000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Highmoor Cleanroom Supplies Pte. Ltd.",
+     "tax_id": "201838650H",
+     "established": "2007-06-12",
+     "service_area": "north_america",
+     "business_type": "private_limited",
+     "contact_name": "Marcus Haddad",
+     "email": "marcus.haddad@highmoor.example",
+     "phone_day": "+65 6367 8325",
+     "company_address": "82 Ubi Road 1, #04-19, Singapore 144360",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Highmoor Cleanroom Supplies Pte. Ltd.",
+     "account_number": "356-474234-2",
+     "swift": "LCMBSGASXXX",
+     "insurance": "not_insured",
+     "gross_sales": "12500000"
+    },
+    "wrong": {
+     "email": "marcus.haddad at highmoor.example",
+     "phone_day": "+65 63"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Highmoor Cleanroom Supplies Pte. Ltd.",
+    "account_number": "356-474234-2",
+    "swift": "LCMBSGASXXX",
+    "org_name": "Highmoor Cleanroom Supplies Pte. Ltd.",
+    "tax_id": "201838650H",
+    "business_type": "private_limited",
+    "established": "2007-06-12",
+    "company_address": "82 Ubi Road 1, #04-19, Singapore 144360",
+    "service_area": "north_america",
+    "contact_name": [
+     "Marcus Haddad",
+     "Ms. Marcus Haddad"
+    ],
+    "email": "marcus.haddad@highmoor.example",
+    "phone_day": "+65 6367 8325",
+    "contact_title": "Key Account Executive",
+    "phone_evening": "",
+    "gross_sales": "12500000",
+    "services": "Cleanroom garments, wipers and consumables",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Highmoor Cleanroom Supplies Pte. Ltd.",
+     "account_number": "356-474234-2",
+     "swift": "LCMBSGASXXX",
+     "org_name": "Highmoor Cleanroom Supplies Pte. Ltd.",
+     "tax_id": "201838650H",
+     "business_type": "private_limited",
+     "established": "2007-06-12",
+     "company_address": "82 Ubi Road 1, #04-19, Singapore 144360",
+     "service_area": "north_america",
+     "contact_name": "Marcus Haddad",
+     "email": "marcus.haddad@highmoor.example",
+     "phone_day": "+65 6367 8325",
+     "contact_title": "Key Account Executive",
+     "gross_sales": "12500000",
+     "services": "Cleanroom garments, wipers and consumables",
+     "insurance": "not_insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "marcus.haddad at highmoor.example",
+     "bank_name": "Lion City Me"
+    }
+   }
+  }
+ }
+}

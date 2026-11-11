@@ -1,0 +1,75 @@
+{
+ "persona": "tw-arrival-card/e-arrival-5step-03",
+ "context": "tw-arrival-card/e-arrival-5step-03.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-5step": {
+   "submit": true,
+   "fields": {
+    "family_name": "TSANG",
+    "given_name": "HOI LAM",
+    "sex": "male",
+    "dob": "2003-11-16",
+    "nationality": "HK",
+    "passport_no": "E7886289A",
+    "passport_expiry": "2027-12-26",
+    "occupation": "engineer",
+    "arrival_date": "2027-02-25",
+    "flight_no": "CX 282",
+    "departure_flight": "CX 106",
+    "purpose": "study",
+    "visa_type": "visitor",
+    "visa_no": "V-9081299",
+    "stay_type": "hotel",
+    "county": "臺北市",
+    "district": "大安區",
+    "stay_address": [
+     "No. 119, Heping W. Rd., Da'an Dist., Taipei City 106",
+     "Da'an Garden Hotel, No. 119, Heping W. Rd., Da'an Dist., Taipei City 106"
+    ],
+    "phone": "+886 982 335 193",
+    "email": "hoi.tsang@kestrel-semi.example",
+    "visited": [
+     "HK",
+     "JP"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "family_name": "TSANG",
+     "given_name": "HOI LAM",
+     "sex": "male",
+     "dob": "2003-11-16",
+     "nationality": "HK",
+     "passport_no": "E7886289A",
+     "passport_expiry": "2027-12-26",
+     "occupation": "engineer",
+     "arrival_date": "2027-02-25",
+     "flight_no": "CX 282",
+     "departure_flight": "CX 106",
+     "purpose": "study",
+     "visa_type": "visitor",
+     "visa_no": "V-9081299",
+     "stay_type": "hotel",
+     "county": "臺北市",
+     "district": "大安區",
+     "stay_address": "No. 119, Heping W. Rd., Da'an Dist., Taipei City 106",
+     "phone": "+886 982 335 193",
+     "email": "hoi.tsang@kestrel-semi.example",
+     "visited": [
+      "HK",
+      "JP"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "TSAx",
+     "departure_flight": "CX "
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "persona": "vendor-onboarding/t-intl-013",
+ "context": "vendor-onboarding/t-intl-013.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Thornbury Freight Inc.",
+    "tax_id": "50-3154267",
+    "company_address": "3147 Larkspur St, Suite 463, Phoenix, AZ 85074",
+    "established": "2020-08-18",
+    "business_type": "corporation",
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "service_area": "north_america",
+    "gross_sales": "15900000",
+    "contact_name": [
+     "Lucas Brennan",
+     "Ms. Lucas Brennan"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "(602) 555-0195",
+    "phone_evening": "",
+    "email": "lucas.brennan@thornbury.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "US-LIC-1319017",
+    "bank_name": "Old Mill Savings Bank",
+    "beneficiary": "Thornbury Freight Inc.",
+    "account_number": "124-341512-8",
+    "swift": "OMSBUS2SXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Thornbury Freight Inc.",
+     "tax_id": "50-3154267",
+     "company_address": "3147 Larkspur St, Suite 463, Phoenix, AZ 85074",
+     "established": "2020-08-18",
+     "business_type": "corporation",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "service_area": "north_america",
+     "gross_sales": "15900000",
+     "contact_name": "Lucas Brennan",
+     "contact_title": "Account Manager",
+     "phone_day": "(602) 555-0195",
+     "email": "lucas.brennan@thornbury.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "US-LIC-1319017",
+     "bank_name": "Old Mill Savings Bank",
+     "beneficiary": "Thornbury Freight Inc.",
+     "account_number": "124-341512-8",
+     "swift": "OMSBUS2SXXX"
+    },
+    "wrong": {
+     "email": "lucas.brennan at thornbury.example",
+     "insurance": "not_insured"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Thornbury Freight Inc.",
+    "tax_id": "50-3154267",
+    "established": "2020-08-18",
+    "service_area": "north_america",
+    "business_type": "corporation",
+    "contact_name": [
+     "Lucas Brennan",
+     "Ms. Lucas Brennan"
+    ],
+    "email": "lucas.brennan@thornbury.example",
+    "phone_day": "(602) 555-0195",
+    "phone_evening": "",
+    "company_address": "3147 Larkspur St, Suite 463, Phoenix, AZ 85074",
+    "licensing": "licensed",
+    "license_number": "US-LIC-1319017",
+    "bank_name": "Old Mill Savings Bank",
+    "beneficiary": "Thornbury Freight Inc.",
+    "account_number": "124-341512-8",
+    "swift": "OMSBUS2SXXX",
+    "insurance": "insured",
+    "gross_sales": "15900000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Thornbury Freight Inc.",
+     "tax_id": "50-3154267",
+     "established": "2020-08-18",
+     "service_area": "north_america",
+     "business_type": "corporation",
+     "contact_name": "Lucas Brennan",
+     "email": "lucas.brennan@thornbury.example",
+     "phone_day": "(602) 555-0195",
+     "company_address": "3147 Larkspur St, Suite 463, Phoenix, AZ 85074",
+     "licensing": "licensed",
+     "license_number": "US-LIC-1319017",
+     "bank_name": "Old Mill Savings Bank",
+     "beneficiary": "Thornbury Freight Inc.",
+     "account_number": "124-341512-8",
+     "swift": "OMSBUS2SXXX",
+     "insurance": "insured",
+     "gross_sales": "15900000"
+    },
+    "wrong": {
+     "email": "lucas.brennan at thornbury.example",
+     "established": "2019-08-18"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Old Mill Savings Bank",
+    "beneficiary": "Thornbury Freight Inc.",
+    "account_number": "124-341512-8",
+    "swift": "OMSBUS2SXXX",
+    "org_name": "Thornbury Freight Inc.",
+    "tax_id": "50-3154267",
+    "business_type": "corporation",
+    "established": "2020-08-18",
+    "company_address": "3147 Larkspur St, Suite 463, Phoenix, AZ 85074",
+    "service_area": "north_america",
+    "contact_name": [
+     "Lucas Brennan",
+     "Ms. Lucas Brennan"
+    ],
+    "email": "lucas.brennan@thornbury.example",
+    "phone_day": "(602) 555-0195",
+    "contact_title": "Account Manager",
+    "phone_evening": "",
+    "gross_sales": "15900000",
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "US-LIC-1319017"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Old Mill Savings Bank",
+     "beneficiary": "Thornbury Freight Inc.",
+     "account_number": "124-341512-8",
+     "swift": "OMSBUS2SXXX",
+     "org_name": "Thornbury Freight Inc.",
+     "tax_id": "50-3154267",
+     "business_type": "corporation",
+     "established": "2020-08-18",
+     "company_address": "3147 Larkspur St, Suite 463, Phoenix, AZ 85074",
+     "service_area": "north_america",
+     "contact_name": "Lucas Brennan",
+     "email": "lucas.brennan@thornbury.example",
+     "phone_day": "(602) 555-0195",
+     "contact_title": "Account Manager",
+     "gross_sales": "15900000",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "US-LIC-1319017"
+    },
+    "wrong": {
+     "email": "lucas.brennan at thornbury.example",
+     "insurance": "not_insured"
+    }
+   }
+  }
+ }
+}

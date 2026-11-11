@@ -1,0 +1,242 @@
+{
+ "persona": "vendor-harborline",
+ "context": "vendor-harborline.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Harborline Freight Pte. Ltd.",
+    "tax_id": "201734562K",
+    "company_address": "18 Pioneer Crescent, #05-11, Singapore 628559",
+    "established": "2017-08-02",
+    "business_type": "private_limited",
+    "services": "Ocean and air freight forwarding, customs brokerage for semiconductor equipment",
+    "service_area": "apac",
+    "gross_sales": "12400000",
+    "contact_name": [
+     "Tan Hui Min",
+     "Ms. Tan Hui Min"
+    ],
+    "contact_title": "Commercial Manager",
+    "phone_day": "+65 6795 3310",
+    "phone_evening": "",
+    "email": "huimin.tan@harborline.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "SG-CUS-0048821",
+    "bank_name": "Straits Mercantile Bank",
+    "beneficiary": "Harborline Freight Pte. Ltd.",
+    "account_number": "072-118845-3",
+    "swift": "SMBKSGSGXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Harborline Freight Pte. Ltd.",
+     "tax_id": "201734562K",
+     "company_address": "18 Pioneer Crescent, #05-11, Singapore 628559",
+     "established": "2017-08-02",
+     "business_type": "private_limited",
+     "services": "Ocean and air freight forwarding, customs brokerage for semiconductor equipment",
+     "service_area": "apac",
+     "gross_sales": "12400000",
+     "contact_name": "Tan Hui Min",
+     "contact_title": "Commercial Manager",
+     "phone_day": "+65 6795 3310",
+     "email": "huimin.tan@harborline.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "SG-CUS-0048821",
+     "bank_name": "Straits Mercantile Bank",
+     "beneficiary": "Harborline Freight Pte. Ltd.",
+     "account_number": "072-118845-3",
+     "swift": "SMBKSGSGXXX"
+    },
+    "wrong": {
+     "email": "huimin.tan at harborline.example",
+     "contact_name": "Tan H"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Harborline Freight Pte. Ltd.",
+    "tax_id": "201734562K",
+    "established": "2017-08-02",
+    "service_area": "apac",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Tan Hui Min",
+     "Ms. Tan Hui Min"
+    ],
+    "email": "huimin.tan@harborline.example",
+    "phone_day": "+65 6795 3310",
+    "phone_evening": "",
+    "company_address": "18 Pioneer Crescent, #05-11, Singapore 628559",
+    "licensing": "licensed",
+    "license_number": "SG-CUS-0048821",
+    "bank_name": "Straits Mercantile Bank",
+    "beneficiary": "Harborline Freight Pte. Ltd.",
+    "account_number": "072-118845-3",
+    "swift": "SMBKSGSGXXX",
+    "insurance": "insured",
+    "gross_sales": "12400000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Harborline Freight Pte. Ltd.",
+     "tax_id": "201734562K",
+     "established": "2017-08-02",
+     "service_area": "apac",
+     "business_type": "private_limited",
+     "contact_name": "Tan Hui Min",
+     "email": "huimin.tan@harborline.example",
+     "phone_day": "+65 6795 3310",
+     "company_address": "18 Pioneer Crescent, #05-11, Singapore 628559",
+     "licensing": "licensed",
+     "license_number": "SG-CUS-0048821",
+     "bank_name": "Straits Mercantile Bank",
+     "beneficiary": "Harborline Freight Pte. Ltd.",
+     "account_number": "072-118845-3",
+     "swift": "SMBKSGSGXXX",
+     "insurance": "insured",
+     "gross_sales": "12400000"
+    },
+    "wrong": {
+     "email": "huimin.tan at harborline.example",
+     "tax_id": "20173"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Straits Mercantile Bank",
+    "beneficiary": "Harborline Freight Pte. Ltd.",
+    "account_number": "072-118845-3",
+    "swift": "SMBKSGSGXXX",
+    "org_name": "Harborline Freight Pte. Ltd.",
+    "tax_id": "201734562K",
+    "business_type": "private_limited",
+    "established": "2017-08-02",
+    "company_address": "18 Pioneer Crescent, #05-11, Singapore 628559",
+    "service_area": "apac",
+    "contact_name": [
+     "Tan Hui Min",
+     "Ms. Tan Hui Min"
+    ],
+    "email": "huimin.tan@harborline.example",
+    "phone_day": "+65 6795 3310",
+    "contact_title": "Commercial Manager",
+    "phone_evening": "",
+    "gross_sales": "12400000",
+    "services": "Ocean and air freight forwarding, customs brokerage for semiconductor equipment",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "SG-CUS-0048821"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Straits Mercantile Bank",
+     "beneficiary": "Harborline Freight Pte. Ltd.",
+     "account_number": "072-118845-3",
+     "swift": "SMBKSGSGXXX",
+     "org_name": "Harborline Freight Pte. Ltd.",
+     "tax_id": "201734562K",
+     "business_type": "private_limited",
+     "established": "2017-08-02",
+     "company_address": "18 Pioneer Crescent, #05-11, Singapore 628559",
+     "service_area": "apac",
+     "contact_name": "Tan Hui Min",
+     "email": "huimin.tan@harborline.example",
+     "phone_day": "+65 6795 3310",
+     "contact_title": "Commercial Manager",
+     "gross_sales": "12400000",
+     "services": "Ocean and air freight forwarding, customs brokerage for semiconductor equipment",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "SG-CUS-0048821"
+    },
+    "wrong": {
+     "email": "huimin.tan at harborline.example",
+     "tax_id": "20173"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "",
+    "vendor_name_en": "Harborline Freight Pte. Ltd.",
+    "foreign": true,
+    "org_type": "foreign",
+    "ubn": "",
+    "owner": "",
+    "county": "",
+    "district": "",
+    "address_line": "",
+    "postal": "",
+    "foreign_address": "18 Pioneer Crescent, #05-11, Singapore 628559",
+    "swift": "SMBKSGSGXXX",
+    "tel": "+65 6795 3310",
+    "contact_name": [
+     "Tan Hui Min",
+     "Ms. Tan Hui Min"
+    ],
+    "contact_title": "Commercial Manager",
+    "email": "huimin.tan@harborline.example",
+    "account_no": "072-118845-3",
+    "account_name": "Harborline Freight Pte. Ltd.",
+    "payment_terms": "net45",
+    "invoice_type": "foreign_invoice",
+    "currency": "SGD"
+   },
+   "infeasible": [
+    "vendor_name_zh"
+   ],
+   "hidden": [
+    "ubn",
+    "owner",
+    "county",
+    "district",
+    "address_line",
+    "postal"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_en": "Harborline Freight Pte. Ltd.",
+     "foreign": true,
+     "org_type": "foreign",
+     "foreign_address": "18 Pioneer Crescent, #05-11, Singapore 628559",
+     "swift": "SMBKSGSGXXX",
+     "tel": "+65 6795 3310",
+     "contact_name": "Tan Hui Min",
+     "contact_title": "Commercial Manager",
+     "email": "huimin.tan@harborline.example",
+     "account_no": "072-118845-3",
+     "account_name": "Harborline Freight Pte. Ltd.",
+     "payment_terms": "net45",
+     "invoice_type": "foreign_invoice",
+     "currency": "SGD"
+    },
+    "wrong": {
+     "email": "huimin.tan at harborline.example",
+     "account_name": "Harborline Fre"
+    }
+   }
+  }
+ }
+}

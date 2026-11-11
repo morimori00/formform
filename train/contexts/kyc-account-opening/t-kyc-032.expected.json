@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-032",
+ "context": "kyc-account-opening/t-kyc-032.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-40782",
+    "full_name": [
+     "Wu Chia-Hsuan",
+     "Chia-Hsuan Wu"
+    ],
+    "spouse_name": "Kuo Chun-Han",
+    "gender": "female",
+    "marital": "single",
+    "dob": "1992-03-05",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "H111816055",
+    "id_proof": "national_id",
+    "address": [
+     "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "phone": "+886 969 309 727",
+    "email": "chiahsuan.wu@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Wu Chia-Hsuan",
+     "Chia-Hsuan Wu"
+    ],
+    "sign_date": "2026-11-10",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-40782",
+     "full_name": "Wu Chia-Hsuan",
+     "spouse_name": "Kuo Chun-Han",
+     "gender": "female",
+     "marital": "single",
+     "dob": "1992-03-05",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "H111816055",
+     "id_proof": "national_id",
+     "address": "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "phone": "+886 969 309 727",
+     "email": "chiahsuan.wu@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Wu Chia-Hsuan",
+     "sign_date": "2026-11-10"
+    },
+    "wrong": {
+     "tax_id": "H1118160x",
+     "id_proof": "passport"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chia-Hsuan",
+     "Chia-Hsuan Wu"
+    ],
+    "dob": "1992-03-05",
+    "mother_maiden": "",
+    "phone": "+886 969 309 727",
+    "email": "chiahsuan.wu@inbox.example",
+    "address": [
+     "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "education": "doctorate",
+    "id_form": "national_id",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "75000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chia-Hsuan",
+     "dob": "1992-03-05",
+     "phone": "+886 969 309 727",
+     "email": "chiahsuan.wu@inbox.example",
+     "address": "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "education": "doctorate",
+     "id_form": "national_id",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "75000"
+    },
+    "wrong": {
+     "email": "chiahsuan.wu at inbox.example",
+     "phone": "+886 969"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chia-Hsuan",
+     "Chia-Hsuan Wu"
+    ],
+    "dob": "1992-03-05",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Kuo Chun-Han",
+    "address": [
+     "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "email": "chiahsuan.wu@inbox.example",
+    "phone": "+886 969 309 727",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "H111816055",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-40782"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chia-Hsuan",
+     "dob": "1992-03-05",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Kuo Chun-Han",
+     "address": "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "email": "chiahsuan.wu@inbox.example",
+     "phone": "+886 969 309 727",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "H111816055",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-40782"
+    },
+    "wrong": {
+     "email": "chiahsuan.wu at inbox.example",
+     "phone": "+886 969"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chia-Hsuan",
+     "Chia-Hsuan Wu"
+    ],
+    "dob": "1992-03-05",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 969 309 727",
+    "email": "chiahsuan.wu@inbox.example",
+    "address": [
+     "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "H111816055",
+    "addr_proof": "tax_bill",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "education": "doctorate",
+    "monthly_income": "75000",
+    "application_no": "LCB-AO-2026-40782",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chia-Hsuan",
+     "dob": "1992-03-05",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 969 309 727",
+     "email": "chiahsuan.wu@inbox.example",
+     "address": "10F, No. 197, Ln. 190, Sec. 6, Chenggong Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "H111816055",
+     "addr_proof": "tax_bill",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "education": "doctorate",
+     "monthly_income": "75000",
+     "application_no": "LCB-AO-2026-40782"
+    },
+    "wrong": {
+     "email": "chiahsuan.wu at inbox.example",
+     "monthly_income": "75"
+    }
+   }
+  }
+ }
+}

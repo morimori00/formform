@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-026",
+ "context": "kyc-account-opening/t-kyc-026.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-38351",
+    "full_name": [
+     "Chiu Chia-Wen",
+     "Chia-Wen Chiu"
+    ],
+    "spouse_name": "Hsieh Pei-Ju",
+    "gender": "female",
+    "marital": "married",
+    "dob": "1996-04-02",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "K133805247",
+    "id_proof": "national_id",
+    "address": [
+     "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710"
+    ],
+    "phone": "+886 913 537 502",
+    "email": "chiawen.chiu@inbox.example",
+    "addr_proof": "bank_statement",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Chiu Chia-Wen",
+     "Chia-Wen Chiu"
+    ],
+    "sign_date": "2026-11-03",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-38351",
+     "full_name": "Chiu Chia-Wen",
+     "spouse_name": "Hsieh Pei-Ju",
+     "gender": "female",
+     "marital": "married",
+     "dob": "1996-04-02",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "K133805247",
+     "id_proof": "national_id",
+     "address": "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "phone": "+886 913 537 502",
+     "email": "chiawen.chiu@inbox.example",
+     "addr_proof": "bank_statement",
+     "perm_same": true,
+     "decl_name": "Chiu Chia-Wen",
+     "sign_date": "2026-11-03"
+    },
+    "wrong": {
+     "tax_id": "K1338052x",
+     "gender": "male"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiu Chia-Wen",
+     "Chia-Wen Chiu"
+    ],
+    "dob": "1996-04-02",
+    "mother_maiden": "Yeh",
+    "phone": "+886 913 537 502",
+    "email": "chiawen.chiu@inbox.example",
+    "address": [
+     "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710"
+    ],
+    "education": "high_school",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "joint",
+    "monthly_income": "42000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chiu Chia-Wen",
+     "dob": "1996-04-02",
+     "mother_maiden": "Yeh",
+     "phone": "+886 913 537 502",
+     "email": "chiawen.chiu@inbox.example",
+     "address": "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "education": "high_school",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "joint",
+     "monthly_income": "42000"
+    },
+    "wrong": {
+     "email": "chiawen.chiu at inbox.example",
+     "education": "associate"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiu Chia-Wen",
+     "Chia-Wen Chiu"
+    ],
+    "dob": "1996-04-02",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Hsieh Pei-Ju",
+    "address": [
+     "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710"
+    ],
+    "email": "chiawen.chiu@inbox.example",
+    "phone": "+886 913 537 502",
+    "addr_proof": "bank_statement",
+    "id_proof": "national_id",
+    "tax_id": "K133805247",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-38351"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chiu Chia-Wen",
+     "dob": "1996-04-02",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Hsieh Pei-Ju",
+     "address": "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "email": "chiawen.chiu@inbox.example",
+     "phone": "+886 913 537 502",
+     "addr_proof": "bank_statement",
+     "id_proof": "national_id",
+     "tax_id": "K133805247",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-38351"
+    },
+    "wrong": {
+     "email": "chiawen.chiu at inbox.example",
+     "marital": "single"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiu Chia-Wen",
+     "Chia-Wen Chiu"
+    ],
+    "dob": "1996-04-02",
+    "gender": "female",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 913 537 502",
+    "email": "chiawen.chiu@inbox.example",
+    "address": [
+     "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "K133805247",
+    "addr_proof": "bank_statement",
+    "account_type": "savings",
+    "account_category": "joint",
+    "education": "high_school",
+    "monthly_income": "42000",
+    "application_no": "LCB-AO-2026-38351",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Chiu Chia-Wen",
+     "dob": "1996-04-02",
+     "gender": "female",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 913 537 502",
+     "email": "chiawen.chiu@inbox.example",
+     "address": "9F, No. 160, Fuxing S. Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "K133805247",
+     "addr_proof": "bank_statement",
+     "account_type": "savings",
+     "account_category": "joint",
+     "education": "high_school",
+     "monthly_income": "42000",
+     "application_no": "LCB-AO-2026-38351"
+    },
+    "wrong": {
+     "email": "chiawen.chiu at inbox.example",
+     "dob": "1995-04-02"
+    }
+   }
+  }
+ }
+}

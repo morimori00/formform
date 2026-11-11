@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-011",
+ "context": "itsm-request/t-emp-011.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g48833",
+    "laptop_model": "std14",
+    "location": "hsp_fab3",
+    "needed_by": "2027-01-18",
+    "extra_monitor": false,
+    "cost_center": "CC-7172",
+    "justification": "New hire in Data Platform — needs the standard build before day one."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g48833",
+     "laptop_model": "std14",
+     "location": "hsp_fab3",
+     "needed_by": "2027-01-18",
+     "extra_monitor": false,
+     "cost_center": "CC-7172",
+     "justification": "New hire in Data Platform — needs the standard build before day one."
+    },
+    "wrong": {
+     "cost_center": "CC-71x",
+     "needed_by": "2026-01-18"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "std14",
+    "extra_monitor": false,
+    "location": "hsp_fab3",
+    "needed_by": "2027-01-18",
+    "requested_for": "u_g48833",
+    "cost_center": "CC-7172",
+    "justification": "New hire in Data Platform — needs the standard build before day one.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "std14",
+     "extra_monitor": false,
+     "location": "hsp_fab3",
+     "needed_by": "2027-01-18",
+     "requested_for": "u_g48833",
+     "cost_center": "CC-7172",
+     "justification": "New hire in Data Platform — needs the standard build before day one."
+    },
+    "wrong": {
+     "cost_center": "CC-71x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g48833",
+    "contact_pref": "phone",
+    "inc_category": "hardware",
+    "inc_subcategory": "laptop",
+    "ci": "KST-NB-47523",
+    "impact": "1",
+    "urgency": "2",
+    "assign_group": "endpoint",
+    "short_desc": "Laptop battery swollen, trackpad lifting",
+    "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 780 cycles. Device is powered off for safety."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g48833",
+     "contact_pref": "phone",
+     "inc_category": "hardware",
+     "inc_subcategory": "laptop",
+     "ci": "KST-NB-47523",
+     "impact": "1",
+     "urgency": "2",
+     "assign_group": "endpoint",
+     "short_desc": "Laptop battery swollen, trackpad lifting",
+     "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 780 cycles. Device is powered off for safety."
+    },
+    "wrong": {
+     "urgency": "1"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Laptop battery swollen, trackpad lifting",
+    "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 780 cycles. Device is powered off for safety.",
+    "caller": "u_g48833",
+    "ci": "KST-NB-47523",
+    "contact_pref": "phone",
+    "inc_category": "hardware",
+    "inc_subcategory": "laptop",
+    "impact": "1",
+    "urgency": "2",
+    "assign_group": "endpoint"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Laptop battery swollen, trackpad lifting",
+     "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 780 cycles. Device is powered off for safety.",
+     "caller": "u_g48833",
+     "ci": "KST-NB-47523",
+     "contact_pref": "phone",
+     "inc_category": "hardware",
+     "inc_subcategory": "laptop",
+     "impact": "1",
+     "urgency": "2",
+     "assign_group": "endpoint"
+    },
+    "wrong": {
+     "assign_group": "servicedesk"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g48833",
+    "location": "hsp_fab3",
+    "cost_center": "CC-7172",
+    "laptop_model": "std14",
+    "needed_by": "2027-01-18",
+    "extra_monitor": false,
+    "justification": "New hire in Data Platform — needs the standard build before day one."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g48833",
+     "location": "hsp_fab3",
+     "cost_center": "CC-7172",
+     "laptop_model": "std14",
+     "needed_by": "2027-01-18",
+     "extra_monitor": false,
+     "justification": "New hire in Data Platform — needs the standard build before day one."
+    },
+    "wrong": {
+     "cost_center": "CC-71x",
+     "laptop_model": "eng16"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "persona": "hr-orangehrm/e-add-employee-wizard-01",
+ "context": "hr-orangehrm/e-add-employee-wizard-01.md",
+ "split": "eval",
+ "variants": {
+  "hr-orangehrm/add-employee-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Yun-Rong",
+    "middle_name": "",
+    "last_name": "Shih",
+    "employee_id": "KST-62692",
+    "create_login": true,
+    "username": "yunrong.shih",
+    "login_status": "enabled",
+    "password": "Kestrel-6549c",
+    "confirm_password": "Kestrel-6549c",
+    "job_title": "process_int_eng",
+    "department": "logistics",
+    "work_location": "sg",
+    "emp_status": "ft_perm",
+    "supervisor": "u_m8698",
+    "joined_date": "2026-11-23"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Yun-Rong",
+     "last_name": "Shih",
+     "employee_id": "KST-62692",
+     "create_login": true,
+     "username": "yunrong.shih",
+     "login_status": "enabled",
+     "password": "Kestrel-6549c",
+     "confirm_password": "Kestrel-6549c",
+     "job_title": "process_int_eng",
+     "department": "logistics",
+     "work_location": "sg",
+     "emp_status": "ft_perm",
+     "supervisor": "u_m8698",
+     "joined_date": "2026-11-23"
+    },
+    "wrong": {
+     "employee_id": "KST-626x",
+     "emp_status": "ft_contract"
+    }
+   }
+  }
+ }
+}

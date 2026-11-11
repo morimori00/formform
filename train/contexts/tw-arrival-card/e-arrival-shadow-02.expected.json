@@ -1,0 +1,73 @@
+{
+ "persona": "tw-arrival-card/e-arrival-shadow-02",
+ "context": "tw-arrival-card/e-arrival-shadow-02.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-shadow": {
+   "submit": true,
+   "fields": {
+    "nationality": "MY",
+    "passport_no": "K6005280A",
+    "family_name": "OTHMAN",
+    "given_name": "SITI",
+    "dob": "1969-02-26",
+    "sex": "male",
+    "passport_expiry": "2034-01-24",
+    "arrival_date": "2027-02-26",
+    "flight_no": "MH 816",
+    "purpose": "study",
+    "occupation": "business",
+    "visa_type": "visitor",
+    "visa_no": "V-9902309",
+    "stay_type": "hotel",
+    "county": "高雄市",
+    "district": "左營區",
+    "stay_address": [
+     "No. 158, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813",
+     "Zuoying Garden Hotel, No. 158, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "phone": "+886 917 940 499",
+    "email": "siti.othman@kestrel-semi.example",
+    "visited": [
+     "MY",
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "nationality": "MY",
+     "passport_no": "K6005280A",
+     "family_name": "OTHMAN",
+     "given_name": "SITI",
+     "dob": "1969-02-26",
+     "sex": "male",
+     "passport_expiry": "2034-01-24",
+     "arrival_date": "2027-02-26",
+     "flight_no": "MH 816",
+     "purpose": "study",
+     "occupation": "business",
+     "visa_type": "visitor",
+     "visa_no": "V-9902309",
+     "stay_type": "hotel",
+     "county": "高雄市",
+     "district": "左營區",
+     "stay_address": "No. 158, Zhongshan N. Rd., Zuoying Dist., Kaohsiung City 813",
+     "phone": "+886 917 940 499",
+     "email": "siti.othman@kestrel-semi.example",
+     "visited": [
+      "MY",
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "OTHMx",
+     "occupation": "engineer"
+    }
+   }
+  }
+ }
+}

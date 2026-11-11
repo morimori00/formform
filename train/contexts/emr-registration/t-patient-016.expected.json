@@ -1,0 +1,247 @@
+{
+ "persona": "emr-registration/t-patient-016",
+ "context": "emr-registration/t-patient-016.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Kuan-Hua",
+    "middle_name": "",
+    "last_name": "Cheng",
+    "dob": "1966-01-08",
+    "sex": "male",
+    "marital": "married",
+    "language": "taiwanese",
+    "street": "11F, No. 44, Ln. 217, Chenggong Rd., Songshan Dist.",
+    "city": "Taipei City",
+    "postal": "105",
+    "country": "TW",
+    "phone_home": "",
+    "phone_cell": "0927-515-476",
+    "email": "kuanhua.cheng@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Kuan-Lun Cheng",
+    "ec_phone": "0914-690-458",
+    "ec_relationship": "parent",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2154-9778",
+    "group_number": "G-1184",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-05-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Kuan-Hua",
+     "last_name": "Cheng",
+     "dob": "1966-01-08",
+     "sex": "male",
+     "marital": "married",
+     "language": "taiwanese",
+     "street": "11F, No. 44, Ln. 217, Chenggong Rd., Songshan Dist.",
+     "city": "Taipei City",
+     "postal": "105",
+     "country": "TW",
+     "phone_cell": "0927-515-476",
+     "email": "kuanhua.cheng@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Kuan-Lun Cheng",
+     "ec_phone": "0914-690-458",
+     "ec_relationship": "parent",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2154-9778",
+     "group_number": "G-1184",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-05-08"
+    },
+    "wrong": {
+     "email": "kuanhua.cheng at inbox.example",
+     "country": "JP"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Cheng",
+    "first_name": "Kuan-Hua",
+    "middle_name": "",
+    "dob": "1966-01-08",
+    "sex": "male",
+    "marital": "married",
+    "national_id": "A247303662",
+    "street": "11F, No. 44, Ln. 217, Chenggong Rd., Songshan Dist.",
+    "postal": "105",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0927-515-476",
+    "phone_home": "",
+    "email": "kuanhua.cheng@inbox.example",
+    "ec_name": "Kuan-Lun Cheng",
+    "ec_relationship": "parent",
+    "ec_phone": "0914-690-458",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2154-9778",
+    "group_number": "G-1184",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-05-08",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Cheng",
+     "first_name": "Kuan-Hua",
+     "dob": "1966-01-08",
+     "sex": "male",
+     "marital": "married",
+     "national_id": "A247303662",
+     "street": "11F, No. 44, Ln. 217, Chenggong Rd., Songshan Dist.",
+     "postal": "105",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0927-515-476",
+     "email": "kuanhua.cheng@inbox.example",
+     "ec_name": "Kuan-Lun Cheng",
+     "ec_relationship": "parent",
+     "ec_phone": "0914-690-458",
+     "occupation": "Retired",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2154-9778",
+     "group_number": "G-1184",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-05-08"
+    },
+    "wrong": {
+     "email": "kuanhua.cheng at inbox.example",
+     "ec_relationship": "spouse"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Kuan-Hua",
+    "last_name": "Cheng",
+    "dob": "1966-01-08",
+    "sex": "male",
+    "language": "taiwanese",
+    "street": "11F, No. 44, Ln. 217, Chenggong Rd., Songshan Dist.",
+    "city": "Taipei City",
+    "postal": "105",
+    "country": "TW",
+    "phone_cell": "0927-515-476",
+    "phone_home": "",
+    "ec_name": "Kuan-Lun Cheng",
+    "ec_phone": "0914-690-458",
+    "ec_relationship": "parent",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2154-9778",
+    "group_number": "G-1184",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-05-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Kuan-Hua",
+     "last_name": "Cheng",
+     "dob": "1966-01-08",
+     "sex": "male",
+     "language": "taiwanese",
+     "street": "11F, No. 44, Ln. 217, Chenggong Rd., Songshan Dist.",
+     "city": "Taipei City",
+     "postal": "105",
+     "country": "TW",
+     "phone_cell": "0927-515-476",
+     "ec_name": "Kuan-Lun Cheng",
+     "ec_phone": "0914-690-458",
+     "ec_relationship": "parent",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2154-9778",
+     "group_number": "G-1184",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-05-08"
+    },
+    "wrong": {
+     "ec_name": "Kuan-Lu"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Cheng",
+    "first_name": "Kuan-Hua",
+    "dob": "1966-01-08",
+    "sex": "male",
+    "phone_cell": "0927-515-476",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "105",
+    "street": "11F, No. 44, Ln. 217, Chenggong Rd., Songshan Dist.",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2154-9778",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-05-08",
+    "email": "kuanhua.cheng@inbox.example",
+    "phone_home": "",
+    "marital": "married",
+    "language": "taiwanese",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Kuan-Lun Cheng",
+    "ec_phone": "0914-690-458",
+    "ec_relationship": "parent",
+    "group_number": "G-1184"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Cheng",
+     "first_name": "Kuan-Hua",
+     "dob": "1966-01-08",
+     "sex": "male",
+     "phone_cell": "0927-515-476",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "105",
+     "street": "11F, No. 44, Ln. 217, Chenggong Rd., Songshan Dist.",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2154-9778",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-05-08",
+     "email": "kuanhua.cheng@inbox.example",
+     "marital": "married",
+     "language": "taiwanese",
+     "occupation": "Retired",
+     "ec_name": "Kuan-Lun Cheng",
+     "ec_phone": "0914-690-458",
+     "ec_relationship": "parent",
+     "group_number": "G-1184"
+    },
+    "wrong": {
+     "email": "kuanhua.cheng at inbox.example",
+     "ec_phone": "0914-6"
+    }
+   }
+  }
+ }
+}

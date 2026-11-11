@@ -59,6 +59,20 @@ function inViewport(e: Element) {
   return r.width > 0 && r.height > 0 && x >= 0 && y >= 0 && x < innerWidth && y < innerHeight;
 }
 
+const CONTROL = 'input,select,textarea,[contenteditable="true"],[role=textbox],[role=combobox],[role=searchbox],[role=spinbutton]';
+
+/** Label the decision model sees. A form control with no real name (nothing, or only its placeholder/title)
+ * gets the nearby text Bulk Fill already uses (hintOf): table-cell labels, wrapper spans, split boxes.
+ * Otherwise such forms show a column of identical "textbox" rows. */
+function labelFor(e: Element, r: string): string {
+  const name = nameOf(e);
+  if (!e.matches(CONTROL) || ["checkbox", "radio", "button", "submit", "reset", "image"].includes((e as HTMLInputElement).type)) return name || r;
+  const weak = [e.getAttribute("placeholder"), e.getAttribute("title")].map(v => clean(v ?? ""));
+  if (name && !weak.includes(name)) return name;
+  const hint = hintOf(e);
+  return hint && name && !hint.includes(name) ? `${hint} (${name})` : hint || name || r;
+}
+
 /** jev's action table: visible, enabled controls in the viewport. */
 function actions(): Action[] {
   const out: Action[] = [];
@@ -67,7 +81,7 @@ function actions(): Action[] {
     const r = role(e);
     if (!r || !inViewport(e)) continue;
     if (r === "gridcell" && e.querySelector('button,[role="button"]')) continue;
-    const base: Action = { id: "", node: identity(e), kind: "click", role: r, label: nameOf(e) || r };
+    const base: Action = { id: "", node: identity(e), kind: "click", role: r, label: labelFor(e, r) };
     for (const key of ["checked", "selected", "expanded"] as const) {
       const v = e.getAttribute("aria-" + key);
       if (v !== null) base[key] = v;
@@ -89,6 +103,14 @@ function actions(): Action[] {
     out.push({ ...base, kind: editable ? "fill" : "click", value });
     if (editable) out.push({ ...base, kind: "click", value, label: "Open " + base.label });
   }
+  // Split boxes (姓/名, postal 3+4, phone in 3 parts) share one label; number them like Field.part.
+  const fills = out.filter(a => a.kind === "fill");
+  const suffix = new Map<number, string>();
+  for (const a of fills) {
+    const same = fills.filter(b => b.label === a.label);
+    if (same.length > 1) suffix.set(a.node, ` (part ${same.indexOf(a) + 1}/${same.length})`);
+  }
+  for (const a of out) if (a.kind !== "select" && suffix.has(a.node)) a.label += suffix.get(a.node);
   out.splice(250);
   out.forEach((a, i) => (a.id = "e" + (i + 1)));
   const height = document.documentElement.scrollHeight;

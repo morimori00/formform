@@ -1,0 +1,260 @@
+{
+ "persona": "jp-travel-request/t-trip-025",
+ "context": "jp-travel-request/t-trip-025.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-16210",
+    "name": [
+     "橋本 裕介",
+     "橋本裕介"
+    ],
+    "dept": "qa",
+    "title": "課長代理",
+    "cost_center": "CC-2305",
+    "email": "y.hashimoto@kestrel-semi.example",
+    "mobile": "080-1933-3457",
+    "dest_country": "KR",
+    "dest_city": "水原",
+    "purpose": "協力会社 水原工場 新規装置の立上げ支援",
+    "depart_date": "2027-01-13",
+    "return_date": "2027-01-17",
+    "outbound_flight": "KE 850",
+    "return_flight": "KE 227",
+    "hotel": "水原セントラルホテル",
+    "visa_needed": "no",
+    "exp_air_amount": "185200",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "900",
+    "exp_hotel_cur": "USD",
+    "exp_local_amount": "190",
+    "exp_local_cur": "USD",
+    "advance_amount": "90000",
+    "advance_cur": "JPY",
+    "passport_no": "TS4815827",
+    "passport_expiry": "2028-05-04",
+    "approver": "u_j1270"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-16210",
+     "name": "橋本 裕介",
+     "dept": "qa",
+     "title": "課長代理",
+     "cost_center": "CC-2305",
+     "email": "y.hashimoto@kestrel-semi.example",
+     "mobile": "080-1933-3457",
+     "dest_country": "KR",
+     "dest_city": "水原",
+     "purpose": "協力会社 水原工場 新規装置の立上げ支援",
+     "depart_date": "2027-01-13",
+     "return_date": "2027-01-17",
+     "outbound_flight": "KE 850",
+     "return_flight": "KE 227",
+     "hotel": "水原セントラルホテル",
+     "visa_needed": "no",
+     "exp_air_amount": "185200",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "900",
+     "exp_hotel_cur": "USD",
+     "exp_local_amount": "190",
+     "exp_local_cur": "USD",
+     "advance_amount": "90000",
+     "advance_cur": "JPY",
+     "passport_no": "TS4815827",
+     "passport_expiry": "2028-05-04",
+     "approver": "u_j1270"
+    },
+    "wrong": {
+     "email": "y.hashimoto at kestrel-semi.example",
+     "dest_country": "TW"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "橋本 裕介",
+     "橋本裕介"
+    ],
+    "emp_no": "J-16210",
+    "dept": "qa",
+    "approver": "u_j1270",
+    "depart_date": "2027-01-13",
+    "return_date": "2027-01-17",
+    "dest_country": "KR",
+    "dest_city": "水原",
+    "purpose": "協力会社 水原工場 新規装置の立上げ支援",
+    "visa_needed": "no",
+    "exp_air_amount": "185200",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "900",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "90000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-2305"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "橋本 裕介",
+     "emp_no": "J-16210",
+     "dept": "qa",
+     "approver": "u_j1270",
+     "depart_date": "2027-01-13",
+     "return_date": "2027-01-17",
+     "dest_country": "KR",
+     "dest_city": "水原",
+     "purpose": "協力会社 水原工場 新規装置の立上げ支援",
+     "visa_needed": "no",
+     "exp_air_amount": "185200",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "900",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "90000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-2305"
+    },
+    "wrong": {
+     "dept": "prod_eng"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "協力会社 水原工場 新規装置の立上げ支援",
+    "dest_city": "水原",
+    "dest_country": "KR",
+    "depart_date": "2027-01-13",
+    "return_date": "2027-01-17",
+    "outbound_flight": "KE 850",
+    "return_flight": "KE 227",
+    "hotel": "水原セントラルホテル",
+    "visa_needed": "no",
+    "passport_no": "TS4815827",
+    "passport_expiry": "2028-05-04",
+    "exp_hotel_amount": "900",
+    "exp_hotel_cur": "USD",
+    "exp_air_amount": "185200",
+    "exp_air_cur": "JPY",
+    "advance_amount": "90000",
+    "advance_cur": "JPY",
+    "emp_no": "J-16210",
+    "name": [
+     "橋本 裕介",
+     "橋本裕介"
+    ],
+    "mobile": "080-1933-3457",
+    "approver": "u_j1270",
+    "cost_center": "CC-2305"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "協力会社 水原工場 新規装置の立上げ支援",
+     "dest_city": "水原",
+     "dest_country": "KR",
+     "depart_date": "2027-01-13",
+     "return_date": "2027-01-17",
+     "outbound_flight": "KE 850",
+     "return_flight": "KE 227",
+     "hotel": "水原セントラルホテル",
+     "visa_needed": "no",
+     "passport_no": "TS4815827",
+     "passport_expiry": "2028-05-04",
+     "exp_hotel_amount": "900",
+     "exp_hotel_cur": "USD",
+     "exp_air_amount": "185200",
+     "exp_air_cur": "JPY",
+     "advance_amount": "90000",
+     "advance_cur": "JPY",
+     "emp_no": "J-16210",
+     "name": "橋本 裕介",
+     "mobile": "080-1933-3457",
+     "approver": "u_j1270",
+     "cost_center": "CC-2305"
+    },
+    "wrong": {
+     "passport_no": "TS48158x",
+     "advance_cur": "TWD"
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j1270",
+    "cost_center": "CC-2305",
+    "dest_country": "KR",
+    "dest_city": "水原",
+    "depart_date": "2027-01-13",
+    "return_date": "2027-01-17",
+    "purpose": "協力会社 水原工場 新規装置の立上げ支援",
+    "visa_needed": "no",
+    "exp_air_amount": "185200",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "900",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "90000",
+    "advance_cur": "JPY",
+    "name": [
+     "橋本 裕介",
+     "橋本裕介"
+    ],
+    "emp_no": "J-16210",
+    "dept": "qa",
+    "email": "y.hashimoto@kestrel-semi.example",
+    "mobile": "080-1933-3457",
+    "title": "課長代理",
+    "outbound_flight": "KE 850",
+    "return_flight": "KE 227",
+    "hotel": "水原セントラルホテル",
+    "exp_local_amount": "190",
+    "exp_local_cur": "USD"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j1270",
+     "cost_center": "CC-2305",
+     "dest_country": "KR",
+     "dest_city": "水原",
+     "depart_date": "2027-01-13",
+     "return_date": "2027-01-17",
+     "purpose": "協力会社 水原工場 新規装置の立上げ支援",
+     "visa_needed": "no",
+     "exp_air_amount": "185200",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "900",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "90000",
+     "advance_cur": "JPY",
+     "name": "橋本 裕介",
+     "emp_no": "J-16210",
+     "dept": "qa",
+     "email": "y.hashimoto@kestrel-semi.example",
+     "mobile": "080-1933-3457",
+     "title": "課長代理",
+     "outbound_flight": "KE 850",
+     "return_flight": "KE 227",
+     "hotel": "水原セントラルホテル",
+     "exp_local_amount": "190",
+     "exp_local_cur": "USD"
+    },
+    "wrong": {
+     "email": "y.hashimoto at kestrel-semi.example",
+     "exp_local_amount": "1"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "persona": "parabank/t-customer-012",
+ "context": "parabank/t-customer-012.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Oscar",
+    "last_name": "Petrov",
+    "street": "6999 Hawthorne Ln",
+    "city": "San Jose",
+    "state": [
+     "CA",
+     "California"
+    ],
+    "zip": "95171",
+    "phone": "(408) 555-0181",
+    "ssn": "969-60-4870",
+    "username": "oscar.petrov06",
+    "password": "Quartz!0274",
+    "password_confirm": "Quartz!0274"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Oscar",
+     "last_name": "Petrov",
+     "street": "6999 Hawthorne Ln",
+     "city": "San Jose",
+     "state": "CA",
+     "zip": "95171",
+     "phone": "(408) 555-0181",
+     "ssn": "969-60-4870",
+     "username": "oscar.petrov06",
+     "password": "Quartz!0274",
+     "password_confirm": "Quartz!0274"
+    },
+    "wrong": {
+     "first_name": "Os"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": false,
+   "fields": {
+    "payee_name": "Lakeshore Energy Co-op",
+    "payee_street": "2626 Stonegate Ave",
+    "payee_city": "Boston",
+    "payee_state": [
+     "MA",
+     "Massachusetts"
+    ],
+    "payee_zip": "02165",
+    "payee_phone": "",
+    "payee_account": "46740-6933",
+    "payee_account_verify": "46740-6933",
+    "amount": "361.89",
+    "from_account": "13566"
+   },
+   "infeasible": [
+    "payee_phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Lakeshore Energy Co-op",
+     "payee_street": "2626 Stonegate Ave",
+     "payee_city": "Boston",
+     "payee_state": "MA",
+     "payee_zip": "02165",
+     "payee_account": "46740-6933",
+     "payee_account_verify": "46740-6933",
+     "amount": "361.89",
+     "from_account": "13566"
+    },
+    "wrong": {
+     "payee_account_verify": "46740-69x",
+     "amount": "361"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "8000",
+    "down_payment": "800",
+    "loan_from_account": "13566",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "13566"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "8000",
+     "down_payment": "800",
+     "loan_from_account": "13566",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "13566"
+    },
+    "wrong": {
+     "loan_from_account": "13344"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": false,
+   "fields": {
+    "payee_name": "Lakeshore Energy Co-op",
+    "payee_street": "2626 Stonegate Ave",
+    "payee_city": "Boston",
+    "payee_state": [
+     "MA",
+     "Massachusetts"
+    ],
+    "payee_zip": "02165",
+    "payee_phone": "",
+    "from_account": "13566",
+    "amount": "361.89",
+    "payee_account": "46740-6933",
+    "payee_account_verify": "46740-6933"
+   },
+   "infeasible": [
+    "payee_phone"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Lakeshore Energy Co-op",
+     "payee_street": "2626 Stonegate Ave",
+     "payee_city": "Boston",
+     "payee_state": "MA",
+     "payee_zip": "02165",
+     "from_account": "13566",
+     "amount": "361.89",
+     "payee_account": "46740-6933",
+     "payee_account_verify": "46740-6933"
+    },
+    "wrong": {
+     "payee_account_verify": "46740-69x",
+     "amount": "361"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Oscar",
+    "last_name": "Petrov",
+    "phone": "(408) 555-0181",
+    "ssn": "969-60-4870",
+    "street": "6999 Hawthorne Ln",
+    "city": "San Jose",
+    "state": [
+     "CA",
+     "California"
+    ],
+    "zip": "95171",
+    "username": "oscar.petrov06",
+    "password": "Quartz!0274",
+    "password_confirm": "Quartz!0274"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Oscar",
+     "last_name": "Petrov",
+     "phone": "(408) 555-0181",
+     "ssn": "969-60-4870",
+     "street": "6999 Hawthorne Ln",
+     "city": "San Jose",
+     "state": "CA",
+     "zip": "95171",
+     "username": "oscar.petrov06",
+     "password": "Quartz!0274",
+     "password_confirm": "Quartz!0274"
+    },
+    "wrong": {
+     "zip": "95"
+    }
+   }
+  }
+ }
+}

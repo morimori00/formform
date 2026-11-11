@@ -1,0 +1,71 @@
+{
+ "persona": "tw-arrival-card/e-arrival-loading-dropdowns-06",
+ "context": "tw-arrival-card/e-arrival-loading-dropdowns-06.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-loading-dropdowns": {
+   "submit": true,
+   "fields": {
+    "flight_no": "PR 302",
+    "arrival_date": "2026-11-30",
+    "purpose": "employment",
+    "departure_flight": "PR 853",
+    "passport_no": "K8694603A",
+    "family_name": "AQUINO",
+    "given_name": "JOSE MIGUEL",
+    "nationality": "PH",
+    "sex": "male",
+    "dob": "1989-04-23",
+    "passport_expiry": "2029-10-13",
+    "occupation": "engineer",
+    "visa_type": "landing",
+    "visa_no": "V-7288943",
+    "stay_type": "hotel",
+    "stay_address": [
+     "No. 204, Minsheng E. Rd., Zhongli Dist., Taoyuan City 320",
+     "Zhongli Garden Hotel, No. 204, Minsheng E. Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "county": "桃園市",
+    "district": "中壢區",
+    "phone": "+886 961 550 990",
+    "visited": [
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "flight_no": "PR 302",
+     "arrival_date": "2026-11-30",
+     "purpose": "employment",
+     "departure_flight": "PR 853",
+     "passport_no": "K8694603A",
+     "family_name": "AQUINO",
+     "given_name": "JOSE MIGUEL",
+     "nationality": "PH",
+     "sex": "male",
+     "dob": "1989-04-23",
+     "passport_expiry": "2029-10-13",
+     "occupation": "engineer",
+     "visa_type": "landing",
+     "visa_no": "V-7288943",
+     "stay_type": "hotel",
+     "stay_address": "No. 204, Minsheng E. Rd., Zhongli Dist., Taoyuan City 320",
+     "county": "桃園市",
+     "district": "中壢區",
+     "phone": "+886 961 550 990",
+     "visited": [
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "AQUIx",
+     "nationality": "TW"
+    }
+   }
+  }
+ }
+}

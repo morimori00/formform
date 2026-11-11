@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-007",
+ "context": "itsm-request/t-emp-007.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g24349",
+    "laptop_model": "eng16_64",
+    "location": "hsp_fab2",
+    "needed_by": "2026-11-26",
+    "extra_monitor": true,
+    "cost_center": "CC-8160",
+    "justification": "New hire in Fab Engineering — needs the standard build before day one."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g24349",
+     "laptop_model": "eng16_64",
+     "location": "hsp_fab2",
+     "needed_by": "2026-11-26",
+     "extra_monitor": true,
+     "cost_center": "CC-8160",
+     "justification": "New hire in Fab Engineering — needs the standard build before day one."
+    },
+    "wrong": {
+     "cost_center": "CC-81x",
+     "needed_by": "2025-11-26"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16_64",
+    "extra_monitor": true,
+    "location": "hsp_fab2",
+    "needed_by": "2026-11-26",
+    "requested_for": "u_g24349",
+    "cost_center": "CC-8160",
+    "justification": "New hire in Fab Engineering — needs the standard build before day one.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16_64",
+     "extra_monitor": true,
+     "location": "hsp_fab2",
+     "needed_by": "2026-11-26",
+     "requested_for": "u_g24349",
+     "cost_center": "CC-8160",
+     "justification": "New hire in Fab Engineering — needs the standard build before day one."
+    },
+    "wrong": {
+     "cost_center": "CC-81x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g24349",
+    "contact_pref": "walk_in",
+    "inc_category": "hardware",
+    "inc_subcategory": "laptop",
+    "ci": "KST-NB-24550",
+    "impact": "3",
+    "urgency": "3",
+    "assign_group": "endpoint",
+    "short_desc": "Laptop battery swollen, trackpad lifting",
+    "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 624 cycles. Device is powered off for safety."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g24349",
+     "contact_pref": "walk_in",
+     "inc_category": "hardware",
+     "inc_subcategory": "laptop",
+     "ci": "KST-NB-24550",
+     "impact": "3",
+     "urgency": "3",
+     "assign_group": "endpoint",
+     "short_desc": "Laptop battery swollen, trackpad lifting",
+     "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 624 cycles. Device is powered off for safety."
+    },
+    "wrong": {
+     "impact": "1"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Laptop battery swollen, trackpad lifting",
+    "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 624 cycles. Device is powered off for safety.",
+    "caller": "u_g24349",
+    "ci": "KST-NB-24550",
+    "contact_pref": "walk_in",
+    "inc_category": "hardware",
+    "inc_subcategory": "laptop",
+    "impact": "3",
+    "urgency": "3",
+    "assign_group": "endpoint"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Laptop battery swollen, trackpad lifting",
+     "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 624 cycles. Device is powered off for safety.",
+     "caller": "u_g24349",
+     "ci": "KST-NB-24550",
+     "contact_pref": "walk_in",
+     "inc_category": "hardware",
+     "inc_subcategory": "laptop",
+     "impact": "3",
+     "urgency": "3",
+     "assign_group": "endpoint"
+    },
+    "wrong": {
+     "contact_pref": "email"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g24349",
+    "location": "hsp_fab2",
+    "cost_center": "CC-8160",
+    "laptop_model": "eng16_64",
+    "needed_by": "2026-11-26",
+    "extra_monitor": true,
+    "justification": "New hire in Fab Engineering — needs the standard build before day one."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g24349",
+     "location": "hsp_fab2",
+     "cost_center": "CC-8160",
+     "laptop_model": "eng16_64",
+     "needed_by": "2026-11-26",
+     "extra_monitor": true,
+     "justification": "New hire in Fab Engineering — needs the standard build before day one."
+    },
+    "wrong": {
+     "cost_center": "CC-81x",
+     "laptop_model": "std14"
+    }
+   }
+  }
+ }
+}

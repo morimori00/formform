@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-019",
+ "context": "kyc-account-opening/t-kyc-019.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-32112",
+    "full_name": [
+     "Chiu Hsin-Hui",
+     "Hsin-Hui Chiu"
+    ],
+    "spouse_name": "Lai Shu-Jie",
+    "gender": "female",
+    "marital": "single",
+    "dob": "2001-12-20",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "B235661433",
+    "id_proof": "national_id",
+    "address": [
+     "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110"
+    ],
+    "phone": "+886 964 629 266",
+    "email": "hsinhui.chiu@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Chiu Hsin-Hui",
+     "Hsin-Hui Chiu"
+    ],
+    "sign_date": "2026-11-02",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-32112",
+     "full_name": "Chiu Hsin-Hui",
+     "spouse_name": "Lai Shu-Jie",
+     "gender": "female",
+     "marital": "single",
+     "dob": "2001-12-20",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "B235661433",
+     "id_proof": "national_id",
+     "address": "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "phone": "+886 964 629 266",
+     "email": "hsinhui.chiu@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Chiu Hsin-Hui",
+     "sign_date": "2026-11-02"
+    },
+    "wrong": {
+     "tax_id": "B2356614x",
+     "spouse_name": "Lai S"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiu Hsin-Hui",
+     "Hsin-Hui Chiu"
+    ],
+    "dob": "2001-12-20",
+    "mother_maiden": "Wu",
+    "phone": "+886 964 629 266",
+    "email": "hsinhui.chiu@inbox.example",
+    "address": [
+     "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110"
+    ],
+    "education": "master",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "226000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chiu Hsin-Hui",
+     "dob": "2001-12-20",
+     "mother_maiden": "Wu",
+     "phone": "+886 964 629 266",
+     "email": "hsinhui.chiu@inbox.example",
+     "address": "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "education": "master",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "226000"
+    },
+    "wrong": {
+     "email": "hsinhui.chiu at inbox.example",
+     "full_name": "Chiu H"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiu Hsin-Hui",
+     "Hsin-Hui Chiu"
+    ],
+    "dob": "2001-12-20",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Lai Shu-Jie",
+    "address": [
+     "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110"
+    ],
+    "email": "hsinhui.chiu@inbox.example",
+    "phone": "+886 964 629 266",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "B235661433",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-32112"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chiu Hsin-Hui",
+     "dob": "2001-12-20",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Lai Shu-Jie",
+     "address": "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "email": "hsinhui.chiu@inbox.example",
+     "phone": "+886 964 629 266",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "B235661433",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-32112"
+    },
+    "wrong": {
+     "email": "hsinhui.chiu at inbox.example",
+     "spouse_name": "Lai S"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiu Hsin-Hui",
+     "Hsin-Hui Chiu"
+    ],
+    "dob": "2001-12-20",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 964 629 266",
+    "email": "hsinhui.chiu@inbox.example",
+    "address": [
+     "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "B235661433",
+    "addr_proof": "tax_bill",
+    "account_type": "checking",
+    "account_category": "individual",
+    "education": "master",
+    "monthly_income": "226000",
+    "application_no": "LCB-AO-2026-32112",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Chiu Hsin-Hui",
+     "dob": "2001-12-20",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 964 629 266",
+     "email": "hsinhui.chiu@inbox.example",
+     "address": "6F, No. 62, Ln. 114, Chenggong Rd., Xinyi Dist., Taipei City 110, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "B235661433",
+     "addr_proof": "tax_bill",
+     "account_type": "checking",
+     "account_category": "individual",
+     "education": "master",
+     "monthly_income": "226000",
+     "application_no": "LCB-AO-2026-32112"
+    },
+    "wrong": {
+     "email": "hsinhui.chiu at inbox.example",
+     "residency": "non_resident"
+    }
+   }
+  }
+ }
+}

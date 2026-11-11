@@ -1,0 +1,182 @@
+{
+ "persona": "hr-orangehrm/t-emp-009",
+ "context": "hr-orangehrm/t-emp-009.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Hua",
+    "middle_name": "",
+    "last_name": "Liao",
+    "employee_id": "KST-15772",
+    "create_login": true,
+    "username": "chunhua.liao",
+    "login_status": "disabled",
+    "password": "Fab3#1826z",
+    "confirm_password": "Fab3#1826z"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Hua",
+     "last_name": "Liao",
+     "employee_id": "KST-15772",
+     "create_login": true,
+     "username": "chunhua.liao",
+     "login_status": "disabled",
+     "password": "Fab3#1826z",
+     "confirm_password": "Fab3#1826z"
+    },
+    "wrong": {
+     "employee_id": "KST-157x",
+     "last_name": "Li"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Hua",
+    "middle_name": "",
+    "last_name": "Liao",
+    "employee_id": "KST-15772",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "divorced",
+    "dob": "1995-04-02",
+    "gender": "male"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Hua",
+     "last_name": "Liao",
+     "employee_id": "KST-15772",
+     "nationality": "TW",
+     "marital": "divorced",
+     "dob": "1995-04-02",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-157x",
+     "nationality": "JP"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2026-12-25",
+    "leave_to": "2026-12-27",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2026-12-25",
+     "leave_to": "2026-12-27",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "leave_from": "2025-12-25"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2026-12-25",
+    "leave_to": "2026-12-27",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2026-12-25",
+     "leave_to": "2026-12-27",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "leave_from": "2025-12-25"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Hua",
+    "middle_name": "",
+    "last_name": "Liao",
+    "employee_id": "KST-15772",
+    "create_login": true,
+    "username": "chunhua.liao",
+    "login_status": "disabled",
+    "password": "Fab3#1826z",
+    "confirm_password": "Fab3#1826z",
+    "nationality": "TW",
+    "marital": "divorced",
+    "dob": "1995-04-02",
+    "gender": "male",
+    "job_title": "equip_eng",
+    "department": "finance",
+    "work_location": "neihu",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2864",
+    "joined_date": "2026-11-21"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Hua",
+     "last_name": "Liao",
+     "employee_id": "KST-15772",
+     "create_login": true,
+     "username": "chunhua.liao",
+     "login_status": "disabled",
+     "password": "Fab3#1826z",
+     "confirm_password": "Fab3#1826z",
+     "nationality": "TW",
+     "marital": "divorced",
+     "dob": "1995-04-02",
+     "gender": "male",
+     "job_title": "equip_eng",
+     "department": "finance",
+     "work_location": "neihu",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2864",
+     "joined_date": "2026-11-21"
+    },
+    "wrong": {
+     "employee_id": "KST-157x",
+     "work_location": "hsp_fab3"
+    }
+   }
+  }
+ }
+}

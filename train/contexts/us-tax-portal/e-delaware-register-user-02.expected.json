@@ -1,0 +1,50 @@
+{
+ "persona": "us-tax-portal/e-delaware-register-user-02",
+ "context": "us-tax-portal/e-delaware-register-user-02.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/delaware-register-user": {
+   "submit": true,
+   "fields": {
+    "accept_terms": true,
+    "first_name": "Hugo",
+    "middle_initial": "C",
+    "last_name": "Kapoor",
+    "position": "Tax Manager",
+    "email": "hkapoor@wexford.example",
+    "email_confirm": "hkapoor@wexford.example",
+    "country_code": "1",
+    "day_phone": "(410) 555-0100",
+    "mobile_country_code": "1",
+    "mobile_phone": "(410) 555-0162",
+    "user_id": "wexford.hkapoor",
+    "esign": "Hugo C. Kapoor III",
+    "certify": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "accept_terms": true,
+     "first_name": "Hugo",
+     "middle_initial": "C",
+     "last_name": "Kapoor",
+     "position": "Tax Manager",
+     "email": "hkapoor@wexford.example",
+     "email_confirm": "hkapoor@wexford.example",
+     "country_code": "1",
+     "day_phone": "(410) 555-0100",
+     "mobile_country_code": "1",
+     "mobile_phone": "(410) 555-0162",
+     "user_id": "wexford.hkapoor",
+     "esign": "Hugo C. Kapoor III",
+     "certify": true
+    },
+    "wrong": {
+     "middle_initial": "x",
+     "mobile_phone": "(410) 5"
+    }
+   }
+  }
+ }
+}

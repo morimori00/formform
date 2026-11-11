@@ -1,0 +1,179 @@
+{
+ "persona": "hr-orangehrm/t-emp-029",
+ "context": "hr-orangehrm/t-emp-029.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": false,
+   "fields": {
+    "first_name": "Cheng-Hsuan",
+    "middle_name": "",
+    "last_name": "Chiang",
+    "employee_id": "KST-47958",
+    "create_login": true,
+    "username": "chenghsuan.chiang",
+    "login_status": "enabled",
+    "password": "",
+    "confirm_password": ""
+   },
+   "infeasible": [
+    "password",
+    "confirm_password"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Cheng-Hsuan",
+     "last_name": "Chiang",
+     "employee_id": "KST-47958",
+     "create_login": true,
+     "username": "chenghsuan.chiang",
+     "login_status": "enabled"
+    },
+    "wrong": {
+     "employee_id": "KST-479x",
+     "first_name": "Cheng"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Cheng-Hsuan",
+    "middle_name": "",
+    "last_name": "Chiang",
+    "employee_id": "KST-47958",
+    "license_number": "DL-34874727",
+    "license_expiry": "2029-07-30",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1988-06-01",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Cheng-Hsuan",
+     "last_name": "Chiang",
+     "employee_id": "KST-47958",
+     "license_number": "DL-34874727",
+     "license_expiry": "2029-07-30",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1988-06-01",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-479x",
+     "marital": "single"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-03-17",
+    "leave_to": "2027-03-17",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Wedding of a sibling abroad"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-03-17",
+     "leave_to": "2027-03-17",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Wedding of a sibling abroad"
+    },
+    "wrong": {
+     "leave_to": "2026-03-17"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-03-17",
+    "leave_to": "2027-03-17",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Wedding of a sibling abroad"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-03-17",
+     "leave_to": "2027-03-17",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Wedding of a sibling abroad"
+    },
+    "wrong": {
+     "leave_to": "2026-03-17"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Cheng-Hsuan",
+    "middle_name": "",
+    "last_name": "Chiang",
+    "employee_id": "KST-47958",
+    "create_login": true,
+    "username": "chenghsuan.chiang",
+    "login_status": "enabled",
+    "password": "",
+    "confirm_password": "",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1988-06-01",
+    "gender": "female",
+    "job_title": "data_platform_lead",
+    "department": "finance",
+    "work_location": "tainan",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2901",
+    "joined_date": "2027-02-08"
+   },
+   "infeasible": [
+    "password",
+    "confirm_password"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Cheng-Hsuan",
+     "last_name": "Chiang",
+     "employee_id": "KST-47958",
+     "create_login": true,
+     "username": "chenghsuan.chiang",
+     "login_status": "enabled",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1988-06-01",
+     "gender": "female",
+     "job_title": "data_platform_lead",
+     "department": "finance",
+     "work_location": "tainan",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2901",
+     "joined_date": "2027-02-08"
+    },
+    "wrong": {
+     "employee_id": "KST-479x",
+     "work_location": "neihu"
+    }
+   }
+  }
+ }
+}

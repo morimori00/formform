@@ -1,0 +1,71 @@
+{
+ "persona": "eval-ahmed-rahman",
+ "context": "eval-ahmed-rahman.md",
+ "split": "eval",
+ "variants": {
+  "emr-registration/eval-intake": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ahmed",
+    "middle_name": "",
+    "last_name": "Rahman",
+    "dob": "1979-01-26",
+    "sex": "male",
+    "marital": "married",
+    "nationality": "BD",
+    "language": "english",
+    "street": "9F, No. 150, Sec. 2, Xinyi Rd., Da'an Dist.",
+    "city": "Taipei City",
+    "postal": "106",
+    "country": "TW",
+    "phone_cell": "0975-330-418",
+    "phone_home": "",
+    "email": "ahmed.rahman@inbox.example",
+    "occupation": "Data Platform Lead",
+    "employer": "Kestrel Semiconductor Taiwan Ltd.",
+    "ec_name": "Nadia Rahman",
+    "ec_phone": "0975-330-427",
+    "ec_relationship": "spouse",
+    "ins_provider": "hsh",
+    "policy_number": "HSH-55-901723",
+    "group_number": "",
+    "subscriber_rel": "self",
+    "ins_effective": "2025-07-01"
+   },
+   "infeasible": [
+    "group_number"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ahmed",
+     "last_name": "Rahman",
+     "dob": "1979-01-26",
+     "sex": "male",
+     "marital": "married",
+     "nationality": "BD",
+     "language": "english",
+     "street": "9F, No. 150, Sec. 2, Xinyi Rd., Da'an Dist.",
+     "city": "Taipei City",
+     "postal": "106",
+     "country": "TW",
+     "phone_cell": "0975-330-418",
+     "email": "ahmed.rahman@inbox.example",
+     "occupation": "Data Platform Lead",
+     "employer": "Kestrel Semiconductor Taiwan Ltd.",
+     "ec_name": "Nadia Rahman",
+     "ec_phone": "0975-330-427",
+     "ec_relationship": "spouse",
+     "ins_provider": "hsh",
+     "policy_number": "HSH-55-901723",
+     "subscriber_rel": "self",
+     "ins_effective": "2025-07-01"
+    },
+    "wrong": {
+     "email": "ahmed.rahman at inbox.example",
+     "ins_effective": "2024-07-01"
+    }
+   }
+  }
+ }
+}

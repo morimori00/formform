@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-015",
+ "context": "itsm-request/t-emp-015.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g39757",
+    "laptop_model": "eng16",
+    "location": "hsp_fab2",
+    "needed_by": "2026-12-07",
+    "extra_monitor": false,
+    "cost_center": "CC-8378",
+    "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g39757",
+     "laptop_model": "eng16",
+     "location": "hsp_fab2",
+     "needed_by": "2026-12-07",
+     "extra_monitor": false,
+     "cost_center": "CC-8378",
+     "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-83x",
+     "needed_by": "2025-12-07"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16",
+    "extra_monitor": false,
+    "location": "hsp_fab2",
+    "needed_by": "2026-12-07",
+    "requested_for": "u_g39757",
+    "cost_center": "CC-8378",
+    "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16",
+     "extra_monitor": false,
+     "location": "hsp_fab2",
+     "needed_by": "2026-12-07",
+     "requested_for": "u_g39757",
+     "cost_center": "CC-8378",
+     "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-83x",
+     "needed_by": "2025-12-07"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g39757",
+    "contact_pref": "email",
+    "inc_category": "database",
+    "inc_subcategory": "db_perf",
+    "ci": "KST-NB-14553",
+    "impact": "2",
+    "urgency": "1",
+    "assign_group": "dba",
+    "short_desc": "Nightly load on dw-10 runs 508 minutes late",
+    "inc_desc": "The nightly load on dw-10 now finishes about 508 minutes later than last month; downstream dashboards miss the 08:00 refresh."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g39757",
+     "contact_pref": "email",
+     "inc_category": "database",
+     "inc_subcategory": "db_perf",
+     "ci": "KST-NB-14553",
+     "impact": "2",
+     "urgency": "1",
+     "assign_group": "dba",
+     "short_desc": "Nightly load on dw-10 runs 508 minutes late",
+     "inc_desc": "The nightly load on dw-10 now finishes about 508 minutes later than last month; downstream dashboards miss the 08:00 refresh."
+    },
+    "wrong": {
+     "contact_pref": "phone"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Nightly load on dw-10 runs 508 minutes late",
+    "inc_desc": "The nightly load on dw-10 now finishes about 508 minutes later than last month; downstream dashboards miss the 08:00 refresh.",
+    "caller": "u_g39757",
+    "ci": "KST-NB-14553",
+    "contact_pref": "email",
+    "inc_category": "database",
+    "inc_subcategory": "db_perf",
+    "impact": "2",
+    "urgency": "1",
+    "assign_group": "dba"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Nightly load on dw-10 runs 508 minutes late",
+     "inc_desc": "The nightly load on dw-10 now finishes about 508 minutes later than last month; downstream dashboards miss the 08:00 refresh.",
+     "caller": "u_g39757",
+     "ci": "KST-NB-14553",
+     "contact_pref": "email",
+     "inc_category": "database",
+     "inc_subcategory": "db_perf",
+     "impact": "2",
+     "urgency": "1",
+     "assign_group": "dba"
+    },
+    "wrong": {
+     "inc_category": "inquiry"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g39757",
+    "location": "hsp_fab2",
+    "cost_center": "CC-8378",
+    "laptop_model": "eng16",
+    "needed_by": "2026-12-07",
+    "extra_monitor": false,
+    "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g39757",
+     "location": "hsp_fab2",
+     "cost_center": "CC-8378",
+     "laptop_model": "eng16",
+     "needed_by": "2026-12-07",
+     "extra_monitor": false,
+     "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-83x",
+     "needed_by": "2025-12-07"
+    }
+   }
+  }
+ }
+}

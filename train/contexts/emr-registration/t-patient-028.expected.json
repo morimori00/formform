@@ -1,0 +1,251 @@
+{
+ "persona": "emr-registration/t-patient-028",
+ "context": "emr-registration/t-patient-028.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Leila",
+    "middle_name": "",
+    "last_name": "Mwangi",
+    "dob": "2004-06-14",
+    "sex": "male",
+    "marital": "separated",
+    "language": "english",
+    "street": "4F, No. 170, Ln. 97, Zhongshan N. Rd., Songshan Dist.",
+    "city": "Taipei City",
+    "postal": "105",
+    "country": "TW",
+    "phone_home": "03-5795-6225",
+    "phone_cell": "0913-930-516",
+    "email": "leila.mwangi@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Marcus Mensah",
+    "ec_phone": "0974-621-235",
+    "ec_relationship": "child",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2339-2073",
+    "group_number": "G-4913",
+    "subscriber_rel": "self",
+    "ins_effective": "2021-12-13"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Leila",
+     "last_name": "Mwangi",
+     "dob": "2004-06-14",
+     "sex": "male",
+     "marital": "separated",
+     "language": "english",
+     "street": "4F, No. 170, Ln. 97, Zhongshan N. Rd., Songshan Dist.",
+     "city": "Taipei City",
+     "postal": "105",
+     "country": "TW",
+     "phone_home": "03-5795-6225",
+     "phone_cell": "0913-930-516",
+     "email": "leila.mwangi@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Marcus Mensah",
+     "ec_phone": "0974-621-235",
+     "ec_relationship": "child",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2339-2073",
+     "group_number": "G-4913",
+     "subscriber_rel": "self",
+     "ins_effective": "2021-12-13"
+    },
+    "wrong": {
+     "email": "leila.mwangi at inbox.example",
+     "last_name": "Mwa"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Mwangi",
+    "first_name": "Leila",
+    "middle_name": "",
+    "dob": "2004-06-14",
+    "sex": "male",
+    "marital": "separated",
+    "national_id": "F215119968",
+    "street": "4F, No. 170, Ln. 97, Zhongshan N. Rd., Songshan Dist.",
+    "postal": "105",
+    "city": "Taipei City",
+    "country": "TW",
+    "phone_cell": "0913-930-516",
+    "phone_home": "03-5795-6225",
+    "email": "leila.mwangi@inbox.example",
+    "ec_name": "Marcus Mensah",
+    "ec_relationship": "child",
+    "ec_phone": "0974-621-235",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2339-2073",
+    "group_number": "G-4913",
+    "subscriber_rel": "self",
+    "ins_effective": "2021-12-13",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Mwangi",
+     "first_name": "Leila",
+     "dob": "2004-06-14",
+     "sex": "male",
+     "marital": "separated",
+     "national_id": "F215119968",
+     "street": "4F, No. 170, Ln. 97, Zhongshan N. Rd., Songshan Dist.",
+     "postal": "105",
+     "city": "Taipei City",
+     "country": "TW",
+     "phone_cell": "0913-930-516",
+     "phone_home": "03-5795-6225",
+     "email": "leila.mwangi@inbox.example",
+     "ec_name": "Marcus Mensah",
+     "ec_relationship": "child",
+     "ec_phone": "0974-621-235",
+     "occupation": "Retired",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2339-2073",
+     "group_number": "G-4913",
+     "subscriber_rel": "self",
+     "ins_effective": "2021-12-13"
+    },
+    "wrong": {
+     "email": "leila.mwangi at inbox.example",
+     "marital": "single"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Leila",
+    "last_name": "Mwangi",
+    "dob": "2004-06-14",
+    "sex": "male",
+    "language": "english",
+    "street": "4F, No. 170, Ln. 97, Zhongshan N. Rd., Songshan Dist.",
+    "city": "Taipei City",
+    "postal": "105",
+    "country": "TW",
+    "phone_cell": "0913-930-516",
+    "phone_home": "03-5795-6225",
+    "ec_name": "Marcus Mensah",
+    "ec_phone": "0974-621-235",
+    "ec_relationship": "child",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2339-2073",
+    "group_number": "G-4913",
+    "subscriber_rel": "self",
+    "ins_effective": "2021-12-13"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Leila",
+     "last_name": "Mwangi",
+     "dob": "2004-06-14",
+     "sex": "male",
+     "language": "english",
+     "street": "4F, No. 170, Ln. 97, Zhongshan N. Rd., Songshan Dist.",
+     "city": "Taipei City",
+     "postal": "105",
+     "country": "TW",
+     "phone_cell": "0913-930-516",
+     "phone_home": "03-5795-6225",
+     "ec_name": "Marcus Mensah",
+     "ec_phone": "0974-621-235",
+     "ec_relationship": "child",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2339-2073",
+     "group_number": "G-4913",
+     "subscriber_rel": "self",
+     "ins_effective": "2021-12-13"
+    },
+    "wrong": {
+     "ec_phone": "0974-6"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Mwangi",
+    "first_name": "Leila",
+    "dob": "2004-06-14",
+    "sex": "male",
+    "phone_cell": "0913-930-516",
+    "country": "TW",
+    "city": "Taipei City",
+    "postal": "105",
+    "street": "4F, No. 170, Ln. 97, Zhongshan N. Rd., Songshan Dist.",
+    "ins_provider": "jmh",
+    "policy_number": "JMH-2339-2073",
+    "subscriber_rel": "self",
+    "ins_effective": "2021-12-13",
+    "email": "leila.mwangi@inbox.example",
+    "phone_home": "03-5795-6225",
+    "marital": "separated",
+    "language": "english",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Marcus Mensah",
+    "ec_phone": "0974-621-235",
+    "ec_relationship": "child",
+    "group_number": "G-4913"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Mwangi",
+     "first_name": "Leila",
+     "dob": "2004-06-14",
+     "sex": "male",
+     "phone_cell": "0913-930-516",
+     "country": "TW",
+     "city": "Taipei City",
+     "postal": "105",
+     "street": "4F, No. 170, Ln. 97, Zhongshan N. Rd., Songshan Dist.",
+     "ins_provider": "jmh",
+     "policy_number": "JMH-2339-2073",
+     "subscriber_rel": "self",
+     "ins_effective": "2021-12-13",
+     "email": "leila.mwangi@inbox.example",
+     "phone_home": "03-5795-6225",
+     "marital": "separated",
+     "language": "english",
+     "occupation": "Retired",
+     "ec_name": "Marcus Mensah",
+     "ec_phone": "0974-621-235",
+     "ec_relationship": "child",
+     "group_number": "G-4913"
+    },
+    "wrong": {
+     "email": "leila.mwangi at inbox.example",
+     "ins_effective": "2020-12-13"
+    }
+   }
+  }
+ }
+}

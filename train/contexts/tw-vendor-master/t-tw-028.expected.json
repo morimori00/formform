@@ -1,0 +1,352 @@
+{
+ "persona": "tw-vendor-master/t-tw-028",
+ "context": "tw-vendor-master/t-tw-028.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "晟格環保科技股份有限公司",
+    "vendor_name_en": "Sunge Environmental Technology Co., Ltd.",
+    "ubn": "14573123",
+    "owner": "呂美萱",
+    "established": "2014-01-19",
+    "capital": "182000000",
+    "org_type": "corp_shares",
+    "postal": "242",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "文化路19號11樓",
+    "tel": "02-2209-3879",
+    "fax": "02-2209-0827",
+    "contact_name": [
+     "楊宗翰",
+     "Yang Tsung-han"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "tsunghan.yang@sunge-environmental.example",
+    "contact_mobile": "0916-416-297",
+    "bank_code": "008",
+    "bank_branch": [
+     "新莊分行",
+     "新莊"
+    ],
+    "account_no": "275990204365",
+    "account_name": "晟格環保科技股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui2",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "晟格環保科技股份有限公司",
+     "vendor_name_en": "Sunge Environmental Technology Co., Ltd.",
+     "ubn": "14573123",
+     "owner": "呂美萱",
+     "established": "2014-01-19",
+     "capital": "182000000",
+     "org_type": "corp_shares",
+     "postal": "242",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "文化路19號11樓",
+     "tel": "02-2209-3879",
+     "fax": "02-2209-0827",
+     "contact_name": "楊宗翰",
+     "contact_title": "財務主任",
+     "email": "tsunghan.yang@sunge-environmental.example",
+     "contact_mobile": "0916-416-297",
+     "bank_code": "008",
+     "bank_branch": "新莊分行",
+     "account_no": "275990204365",
+     "account_name": "晟格環保科技股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui2",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "145731x",
+     "tel": "02-220"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "14573123",
+    "vendor_name_zh": "晟格環保科技股份有限公司",
+    "vendor_name_en": "Sunge Environmental Technology Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "2014-01-19",
+    "owner": "呂美萱",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "文化路19號11樓",
+    "postal": "242",
+    "tel": "02-2209-3879",
+    "fax": "02-2209-0827",
+    "contact_name": [
+     "楊宗翰",
+     "Yang Tsung-han"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0916-416-297",
+    "email": "tsunghan.yang@sunge-environmental.example",
+    "bank_code": "008",
+    "bank_branch": [
+     "新莊分行",
+     "新莊"
+    ],
+    "account_no": "275990204365",
+    "account_name": "晟格環保科技股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui2",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": "",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "ubn": "14573123",
+     "vendor_name_zh": "晟格環保科技股份有限公司",
+     "vendor_name_en": "Sunge Environmental Technology Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "2014-01-19",
+     "owner": "呂美萱",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "文化路19號11樓",
+     "postal": "242",
+     "tel": "02-2209-3879",
+     "fax": "02-2209-0827",
+     "contact_name": "楊宗翰",
+     "contact_title": "財務主任",
+     "contact_mobile": "0916-416-297",
+     "email": "tsunghan.yang@sunge-environmental.example",
+     "bank_code": "008",
+     "bank_branch": "新莊分行",
+     "account_no": "275990204365",
+     "account_name": "晟格環保科技股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui2",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "145731x",
+     "currency": "USD"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "14573123",
+    "vendor_name_zh": "晟格環保科技股份有限公司",
+    "owner": "呂美萱",
+    "established": "2014-01-19",
+    "org_type": "corp_shares",
+    "capital": "182000000",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "文化路19號11樓",
+    "postal": "242",
+    "tel": "02-2209-3879",
+    "contact_name": [
+     "楊宗翰",
+     "Yang Tsung-han"
+    ],
+    "email": "tsunghan.yang@sunge-environmental.example",
+    "bank_code": "008",
+    "account_no": "275990204365",
+    "account_name": "晟格環保科技股份有限公司",
+    "payment_terms": "net30",
+    "currency": "TWD",
+    "invoice_type": "egui2"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "14573123",
+     "vendor_name_zh": "晟格環保科技股份有限公司",
+     "owner": "呂美萱",
+     "established": "2014-01-19",
+     "org_type": "corp_shares",
+     "capital": "182000000",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "文化路19號11樓",
+     "postal": "242",
+     "tel": "02-2209-3879",
+     "contact_name": "楊宗翰",
+     "email": "tsunghan.yang@sunge-environmental.example",
+     "bank_code": "008",
+     "account_no": "275990204365",
+     "account_name": "晟格環保科技股份有限公司",
+     "payment_terms": "net30",
+     "currency": "TWD",
+     "invoice_type": "egui2"
+    },
+    "wrong": {
+     "ubn": "145731x",
+     "capital": "1820"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "晟格環保科技股份有限公司",
+    "vendor_name_en": "Sunge Environmental Technology Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "14573123",
+    "owner": "呂美萱",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "文化路19號11樓",
+    "postal": "242",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "02-2209-3879",
+    "contact_name": [
+     "楊宗翰",
+     "Yang Tsung-han"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "tsunghan.yang@sunge-environmental.example",
+    "account_no": "275990204365",
+    "account_name": "晟格環保科技股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui2",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "晟格環保科技股份有限公司",
+     "vendor_name_en": "Sunge Environmental Technology Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "14573123",
+     "owner": "呂美萱",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "文化路19號11樓",
+     "postal": "242",
+     "tel": "02-2209-3879",
+     "contact_name": "楊宗翰",
+     "contact_title": "財務主任",
+     "email": "tsunghan.yang@sunge-environmental.example",
+     "account_no": "275990204365",
+     "account_name": "晟格環保科技股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui2",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "145731x",
+     "account_no": "275990"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "008",
+    "bank_branch": [
+     "新莊分行",
+     "新莊"
+    ],
+    "account_no": "275990204365",
+    "account_name": "晟格環保科技股份有限公司",
+    "payment_terms": "net30",
+    "currency": "TWD",
+    "invoice_type": "egui2",
+    "county": "新北市",
+    "district": "新莊區",
+    "address_line": "文化路19號11樓",
+    "postal": "242",
+    "tel": "02-2209-3879",
+    "fax": "02-2209-0827",
+    "vendor_name_zh": "晟格環保科技股份有限公司",
+    "ubn": "14573123",
+    "owner": "呂美萱",
+    "org_type": "corp_shares",
+    "established": "2014-01-19",
+    "capital": "182000000",
+    "vendor_name_en": "Sunge Environmental Technology Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0916-416-297",
+    "contact_name": [
+     "楊宗翰",
+     "Yang Tsung-han"
+    ],
+    "email": "tsunghan.yang@sunge-environmental.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "008",
+     "bank_branch": "新莊分行",
+     "account_no": "275990204365",
+     "account_name": "晟格環保科技股份有限公司",
+     "payment_terms": "net30",
+     "currency": "TWD",
+     "invoice_type": "egui2",
+     "county": "新北市",
+     "district": "新莊區",
+     "address_line": "文化路19號11樓",
+     "postal": "242",
+     "tel": "02-2209-3879",
+     "fax": "02-2209-0827",
+     "vendor_name_zh": "晟格環保科技股份有限公司",
+     "ubn": "14573123",
+     "owner": "呂美萱",
+     "org_type": "corp_shares",
+     "established": "2014-01-19",
+     "capital": "182000000",
+     "vendor_name_en": "Sunge Environmental Technology Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_mobile": "0916-416-297",
+     "contact_name": "楊宗翰",
+     "email": "tsunghan.yang@sunge-environmental.example"
+    },
+    "wrong": {
+     "account_no": "2759902043x",
+     "vendor_name_en": "Sunge Environmental "
+    }
+   }
+  }
+ }
+}

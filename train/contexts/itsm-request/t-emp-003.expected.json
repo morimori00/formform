@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-003",
+ "context": "itsm-request/t-emp-003.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g14490",
+    "laptop_model": "design14",
+    "location": "neihu",
+    "needed_by": "2026-12-29",
+    "extra_monitor": false,
+    "cost_center": "CC-9206",
+    "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g14490",
+     "laptop_model": "design14",
+     "location": "neihu",
+     "needed_by": "2026-12-29",
+     "extra_monitor": false,
+     "cost_center": "CC-9206",
+     "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-92x",
+     "laptop_model": "std14"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "design14",
+    "extra_monitor": false,
+    "location": "neihu",
+    "needed_by": "2026-12-29",
+    "requested_for": "u_g14490",
+    "cost_center": "CC-9206",
+    "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "design14",
+     "extra_monitor": false,
+     "location": "neihu",
+     "needed_by": "2026-12-29",
+     "requested_for": "u_g14490",
+     "cost_center": "CC-9206",
+     "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-92x",
+     "needed_by": "2025-12-29"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g14490",
+    "contact_pref": "self_service",
+    "inc_category": "network",
+    "inc_subcategory": "vpn",
+    "ci": "KST-NB-33851",
+    "impact": "2",
+    "urgency": "3",
+    "assign_group": "netops",
+    "short_desc": "VPN client fails to connect after the 8.6 update",
+    "inc_desc": "Since the 8.6 client update the VPN shows error 918 at login. Happens on office Wi-Fi and at home. Reinstalling did not help."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g14490",
+     "contact_pref": "self_service",
+     "inc_category": "network",
+     "inc_subcategory": "vpn",
+     "ci": "KST-NB-33851",
+     "impact": "2",
+     "urgency": "3",
+     "assign_group": "netops",
+     "short_desc": "VPN client fails to connect after the 8.6 update",
+     "inc_desc": "Since the 8.6 client update the VPN shows error 918 at login. Happens on office Wi-Fi and at home. Reinstalling did not help."
+    },
+    "wrong": {
+     "impact": "1"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "VPN client fails to connect after the 8.6 update",
+    "inc_desc": "Since the 8.6 client update the VPN shows error 918 at login. Happens on office Wi-Fi and at home. Reinstalling did not help.",
+    "caller": "u_g14490",
+    "ci": "KST-NB-33851",
+    "contact_pref": "self_service",
+    "inc_category": "network",
+    "inc_subcategory": "vpn",
+    "impact": "2",
+    "urgency": "3",
+    "assign_group": "netops"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "VPN client fails to connect after the 8.6 update",
+     "inc_desc": "Since the 8.6 client update the VPN shows error 918 at login. Happens on office Wi-Fi and at home. Reinstalling did not help.",
+     "caller": "u_g14490",
+     "ci": "KST-NB-33851",
+     "contact_pref": "self_service",
+     "inc_category": "network",
+     "inc_subcategory": "vpn",
+     "impact": "2",
+     "urgency": "3",
+     "assign_group": "netops"
+    },
+    "wrong": {
+     "contact_pref": "email"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g14490",
+    "location": "neihu",
+    "cost_center": "CC-9206",
+    "laptop_model": "design14",
+    "needed_by": "2026-12-29",
+    "extra_monitor": false,
+    "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g14490",
+     "location": "neihu",
+     "cost_center": "CC-9206",
+     "laptop_model": "design14",
+     "needed_by": "2026-12-29",
+     "extra_monitor": false,
+     "justification": "Needs GPU for layout rendering during the Fab Engineering tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-92x",
+     "laptop_model": "std14"
+    }
+   }
+  }
+ }
+}

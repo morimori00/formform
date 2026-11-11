@@ -1,0 +1,181 @@
+{
+ "persona": "hr-orangehrm/t-emp-025",
+ "context": "hr-orangehrm/t-emp-025.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "middle_name": "",
+    "last_name": "Bianchi",
+    "employee_id": "KST-43205",
+    "create_login": true,
+    "username": "naomi.bianchi",
+    "login_status": "enabled",
+    "password": "Kestrel-9129a",
+    "confirm_password": "Kestrel-9129a"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Bianchi",
+     "employee_id": "KST-43205",
+     "create_login": true,
+     "username": "naomi.bianchi",
+     "login_status": "enabled",
+     "password": "Kestrel-9129a",
+     "confirm_password": "Kestrel-9129a"
+    },
+    "wrong": {
+     "employee_id": "KST-432x",
+     "first_name": "Na"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "middle_name": "",
+    "last_name": "Bianchi",
+    "employee_id": "KST-43205",
+    "license_number": "DL-29462856",
+    "license_expiry": "2027-03-22",
+    "nationality": "JP",
+    "marital": "single",
+    "dob": "1981-08-28",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Bianchi",
+     "employee_id": "KST-43205",
+     "license_number": "DL-29462856",
+     "license_expiry": "2027-03-22",
+     "nationality": "JP",
+     "marital": "single",
+     "dob": "1981-08-28",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-432x",
+     "dob": "1980-08-28"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2027-01-10",
+    "leave_to": "2027-01-10",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2027-01-10",
+     "leave_to": "2027-01-10",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "partial_days": "all"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "sick",
+    "leave_from": "2027-01-10",
+    "leave_to": "2027-01-10",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "sick",
+     "leave_from": "2027-01-10",
+     "leave_to": "2027-01-10",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "leave_from": "2026-01-10"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Naomi",
+    "middle_name": "",
+    "last_name": "Bianchi",
+    "employee_id": "KST-43205",
+    "create_login": true,
+    "username": "naomi.bianchi",
+    "login_status": "enabled",
+    "password": "Kestrel-9129a",
+    "confirm_password": "Kestrel-9129a",
+    "nationality": "JP",
+    "marital": "single",
+    "dob": "1981-08-28",
+    "gender": "female",
+    "job_title": "soc_analyst",
+    "department": "infosec",
+    "work_location": "hsp_fab3",
+    "emp_status": "ft_probation",
+    "supervisor": "u_m2565",
+    "joined_date": "2027-02-15"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Naomi",
+     "last_name": "Bianchi",
+     "employee_id": "KST-43205",
+     "create_login": true,
+     "username": "naomi.bianchi",
+     "login_status": "enabled",
+     "password": "Kestrel-9129a",
+     "confirm_password": "Kestrel-9129a",
+     "nationality": "JP",
+     "marital": "single",
+     "dob": "1981-08-28",
+     "gender": "female",
+     "job_title": "soc_analyst",
+     "department": "infosec",
+     "work_location": "hsp_fab3",
+     "emp_status": "ft_probation",
+     "supervisor": "u_m2565",
+     "joined_date": "2027-02-15"
+    },
+    "wrong": {
+     "employee_id": "KST-432x",
+     "department": "fab_eng"
+    }
+   }
+  }
+ }
+}

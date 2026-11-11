@@ -1,0 +1,355 @@
+{
+ "persona": "tw-vendor-master/t-tw-020",
+ "context": "tw-vendor-master/t-tw-020.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "弘邁環保科技股份有限公司",
+    "vendor_name_en": "Hungmai Environmental Technology Co., Ltd.",
+    "ubn": "14162466",
+    "owner": "王美偉",
+    "established": "2000-01-31",
+    "capital": "71000000",
+    "org_type": "corp_shares",
+    "postal": "302",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "文化路359號7樓",
+    "tel": "03-650-9900",
+    "fax": "",
+    "contact_name": [
+     "張建宏",
+     "Chang Chien-hung"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "email": "chienhung.chang@hungmai-environmental.example",
+    "contact_mobile": "0967-940-825",
+    "bank_code": "006",
+    "bank_branch": [
+     "竹北分行",
+     "竹北"
+    ],
+    "account_no": "11946179512067",
+    "account_name": "弘邁環保科技股份有限公司",
+    "payment_terms": "cod",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": ""
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "弘邁環保科技股份有限公司",
+     "vendor_name_en": "Hungmai Environmental Technology Co., Ltd.",
+     "ubn": "14162466",
+     "owner": "王美偉",
+     "established": "2000-01-31",
+     "capital": "71000000",
+     "org_type": "corp_shares",
+     "postal": "302",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "文化路359號7樓",
+     "tel": "03-650-9900",
+     "contact_name": "張建宏",
+     "contact_title": "業務經理",
+     "email": "chienhung.chang@hungmai-environmental.example",
+     "contact_mobile": "0967-940-825",
+     "bank_code": "006",
+     "bank_branch": "竹北分行",
+     "account_no": "11946179512067",
+     "account_name": "弘邁環保科技股份有限公司",
+     "payment_terms": "cod",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "141624x",
+     "contact_name": "張"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "14162466",
+    "vendor_name_zh": "弘邁環保科技股份有限公司",
+    "vendor_name_en": "Hungmai Environmental Technology Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "2000-01-31",
+    "owner": "王美偉",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "文化路359號7樓",
+    "postal": "302",
+    "tel": "03-650-9900",
+    "fax": "",
+    "contact_name": [
+     "張建宏",
+     "Chang Chien-hung"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "contact_mobile": "0967-940-825",
+    "email": "chienhung.chang@hungmai-environmental.example",
+    "bank_code": "006",
+    "bank_branch": [
+     "竹北分行",
+     "竹北"
+    ],
+    "account_no": "11946179512067",
+    "account_name": "弘邁環保科技股份有限公司",
+    "payment_terms": "cod",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": false,
+    "iso_expiry": "",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "ubn": "14162466",
+     "vendor_name_zh": "弘邁環保科技股份有限公司",
+     "vendor_name_en": "Hungmai Environmental Technology Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "2000-01-31",
+     "owner": "王美偉",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "文化路359號7樓",
+     "postal": "302",
+     "tel": "03-650-9900",
+     "contact_name": "張建宏",
+     "contact_title": "業務經理",
+     "contact_mobile": "0967-940-825",
+     "email": "chienhung.chang@hungmai-environmental.example",
+     "bank_code": "006",
+     "bank_branch": "竹北分行",
+     "account_no": "11946179512067",
+     "account_name": "弘邁環保科技股份有限公司",
+     "payment_terms": "cod",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "141624x",
+     "invoice_type": "egui2"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "14162466",
+    "vendor_name_zh": "弘邁環保科技股份有限公司",
+    "owner": "王美偉",
+    "established": "2000-01-31",
+    "org_type": "corp_shares",
+    "capital": "71000000",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "文化路359號7樓",
+    "postal": "302",
+    "tel": "03-650-9900",
+    "contact_name": [
+     "張建宏",
+     "Chang Chien-hung"
+    ],
+    "email": "chienhung.chang@hungmai-environmental.example",
+    "bank_code": "006",
+    "account_no": "11946179512067",
+    "account_name": "弘邁環保科技股份有限公司",
+    "payment_terms": "cod",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "14162466",
+     "vendor_name_zh": "弘邁環保科技股份有限公司",
+     "owner": "王美偉",
+     "established": "2000-01-31",
+     "org_type": "corp_shares",
+     "capital": "71000000",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "文化路359號7樓",
+     "postal": "302",
+     "tel": "03-650-9900",
+     "contact_name": "張建宏",
+     "email": "chienhung.chang@hungmai-environmental.example",
+     "bank_code": "006",
+     "account_no": "11946179512067",
+     "account_name": "弘邁環保科技股份有限公司",
+     "payment_terms": "cod",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "141624x",
+     "org_type": "limited"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "弘邁環保科技股份有限公司",
+    "vendor_name_en": "Hungmai Environmental Technology Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "14162466",
+    "owner": "王美偉",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "文化路359號7樓",
+    "postal": "302",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-650-9900",
+    "contact_name": [
+     "張建宏",
+     "Chang Chien-hung"
+    ],
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "email": "chienhung.chang@hungmai-environmental.example",
+    "account_no": "11946179512067",
+    "account_name": "弘邁環保科技股份有限公司",
+    "payment_terms": "cod",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "弘邁環保科技股份有限公司",
+     "vendor_name_en": "Hungmai Environmental Technology Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "14162466",
+     "owner": "王美偉",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "文化路359號7樓",
+     "postal": "302",
+     "tel": "03-650-9900",
+     "contact_name": "張建宏",
+     "contact_title": "業務經理",
+     "email": "chienhung.chang@hungmai-environmental.example",
+     "account_no": "11946179512067",
+     "account_name": "弘邁環保科技股份有限公司",
+     "payment_terms": "cod",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "141624x",
+     "vendor_name_zh": "弘邁環保科技"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "006",
+    "bank_branch": [
+     "竹北分行",
+     "竹北"
+    ],
+    "account_no": "11946179512067",
+    "account_name": "弘邁環保科技股份有限公司",
+    "payment_terms": "cod",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "address_line": "文化路359號7樓",
+    "postal": "302",
+    "tel": "03-650-9900",
+    "fax": "",
+    "vendor_name_zh": "弘邁環保科技股份有限公司",
+    "ubn": "14162466",
+    "owner": "王美偉",
+    "org_type": "corp_shares",
+    "established": "2000-01-31",
+    "capital": "71000000",
+    "vendor_name_en": "Hungmai Environmental Technology Co., Ltd.",
+    "contact_title": [
+     "業務經理",
+     "Sales Manager"
+    ],
+    "contact_mobile": "0967-940-825",
+    "contact_name": [
+     "張建宏",
+     "Chang Chien-hung"
+    ],
+    "email": "chienhung.chang@hungmai-environmental.example"
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "006",
+     "bank_branch": "竹北分行",
+     "account_no": "11946179512067",
+     "account_name": "弘邁環保科技股份有限公司",
+     "payment_terms": "cod",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "address_line": "文化路359號7樓",
+     "postal": "302",
+     "tel": "03-650-9900",
+     "vendor_name_zh": "弘邁環保科技股份有限公司",
+     "ubn": "14162466",
+     "owner": "王美偉",
+     "org_type": "corp_shares",
+     "established": "2000-01-31",
+     "capital": "71000000",
+     "vendor_name_en": "Hungmai Environmental Technology Co., Ltd.",
+     "contact_title": "業務經理",
+     "contact_mobile": "0967-940-825",
+     "contact_name": "張建宏",
+     "email": "chienhung.chang@hungmai-environmental.example"
+    },
+    "wrong": {
+     "account_no": "119461795120x",
+     "tel": "03-65"
+    }
+   }
+  }
+ }
+}

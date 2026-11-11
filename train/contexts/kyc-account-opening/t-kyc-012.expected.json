@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-012",
+ "context": "kyc-account-opening/t-kyc-012.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-14857",
+    "full_name": [
+     "Lai Ya-An",
+     "Ya-An Lai"
+    ],
+    "spouse_name": "Chiang Chun-Hsuan",
+    "gender": "female",
+    "marital": "married",
+    "dob": "1990-01-21",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "B139583341",
+    "id_proof": "national_id",
+    "address": [
+     "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300, Taiwan",
+     "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 916 485 384",
+    "email": "yaan.lai@inbox.example",
+    "addr_proof": "lease",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Lai Ya-An",
+     "Ya-An Lai"
+    ],
+    "sign_date": "2026-11-02",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-14857",
+     "full_name": "Lai Ya-An",
+     "spouse_name": "Chiang Chun-Hsuan",
+     "gender": "female",
+     "marital": "married",
+     "dob": "1990-01-21",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "B139583341",
+     "id_proof": "national_id",
+     "address": "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300, Taiwan",
+     "phone": "+886 916 485 384",
+     "email": "yaan.lai@inbox.example",
+     "addr_proof": "lease",
+     "perm_same": true,
+     "decl_name": "Lai Ya-An",
+     "sign_date": "2026-11-02"
+    },
+    "wrong": {
+     "tax_id": "B1395833x",
+     "dob": "1989-01-21"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Lai Ya-An",
+     "Ya-An Lai"
+    ],
+    "dob": "1990-01-21",
+    "mother_maiden": "",
+    "phone": "+886 916 485 384",
+    "email": "yaan.lai@inbox.example",
+    "address": [
+     "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300, Taiwan",
+     "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300"
+    ],
+    "education": "associate",
+    "id_form": "national_id",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "105000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Lai Ya-An",
+     "dob": "1990-01-21",
+     "phone": "+886 916 485 384",
+     "email": "yaan.lai@inbox.example",
+     "address": "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300, Taiwan",
+     "education": "associate",
+     "id_form": "national_id",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "105000"
+    },
+    "wrong": {
+     "email": "yaan.lai at inbox.example",
+     "full_name": "Lai "
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Lai Ya-An",
+     "Ya-An Lai"
+    ],
+    "dob": "1990-01-21",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Chiang Chun-Hsuan",
+    "address": [
+     "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300, Taiwan",
+     "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300"
+    ],
+    "email": "yaan.lai@inbox.example",
+    "phone": "+886 916 485 384",
+    "addr_proof": "lease",
+    "id_proof": "national_id",
+    "tax_id": "B139583341",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-14857"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Lai Ya-An",
+     "dob": "1990-01-21",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Chiang Chun-Hsuan",
+     "address": "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300, Taiwan",
+     "email": "yaan.lai@inbox.example",
+     "phone": "+886 916 485 384",
+     "addr_proof": "lease",
+     "id_proof": "national_id",
+     "tax_id": "B139583341",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-14857"
+    },
+    "wrong": {
+     "email": "yaan.lai at inbox.example",
+     "spouse_name": "Chiang C"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Lai Ya-An",
+     "Ya-An Lai"
+    ],
+    "dob": "1990-01-21",
+    "gender": "female",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 916 485 384",
+    "email": "yaan.lai@inbox.example",
+    "address": [
+     "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300, Taiwan",
+     "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "B139583341",
+    "addr_proof": "lease",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "education": "associate",
+    "monthly_income": "105000",
+    "application_no": "LCB-AO-2026-14857",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Lai Ya-An",
+     "dob": "1990-01-21",
+     "gender": "female",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 916 485 384",
+     "email": "yaan.lai@inbox.example",
+     "address": "6F, No. 59, Ziyou Rd., North Dist., Hsinchu City 300, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "B139583341",
+     "addr_proof": "lease",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "education": "associate",
+     "monthly_income": "105000",
+     "application_no": "LCB-AO-2026-14857"
+    },
+    "wrong": {
+     "email": "yaan.lai at inbox.example",
+     "full_name": "Lai "
+    }
+   }
+  }
+ }
+}

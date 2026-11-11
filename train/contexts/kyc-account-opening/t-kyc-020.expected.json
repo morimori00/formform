@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-020",
+ "context": "kyc-account-opening/t-kyc-020.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-33233",
+    "full_name": [
+     "Cheng Wei-Ju",
+     "Wei-Ju Cheng"
+    ],
+    "spouse_name": "Lai Ming-Ling",
+    "gender": "female",
+    "marital": "married",
+    "dob": "1991-01-04",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "B113711266",
+    "id_proof": "national_id",
+    "address": [
+     "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "phone": "+886 903 001 510",
+    "email": "weiju.cheng@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Cheng Wei-Ju",
+     "Wei-Ju Cheng"
+    ],
+    "sign_date": "2026-11-10",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-33233",
+     "full_name": "Cheng Wei-Ju",
+     "spouse_name": "Lai Ming-Ling",
+     "gender": "female",
+     "marital": "married",
+     "dob": "1991-01-04",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "B113711266",
+     "id_proof": "national_id",
+     "address": "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "phone": "+886 903 001 510",
+     "email": "weiju.cheng@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Cheng Wei-Ju",
+     "sign_date": "2026-11-10"
+    },
+    "wrong": {
+     "tax_id": "B1137112x",
+     "residency": "non_resident"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Cheng Wei-Ju",
+     "Wei-Ju Cheng"
+    ],
+    "dob": "1991-01-04",
+    "mother_maiden": "",
+    "phone": "+886 903 001 510",
+    "email": "weiju.cheng@inbox.example",
+    "address": [
+     "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "education": "bachelor",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "260000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Cheng Wei-Ju",
+     "dob": "1991-01-04",
+     "phone": "+886 903 001 510",
+     "email": "weiju.cheng@inbox.example",
+     "address": "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "education": "bachelor",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "260000"
+    },
+    "wrong": {
+     "email": "weiju.cheng at inbox.example",
+     "dob": "1990-01-04"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Cheng Wei-Ju",
+     "Wei-Ju Cheng"
+    ],
+    "dob": "1991-01-04",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Lai Ming-Ling",
+    "address": [
+     "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "email": "weiju.cheng@inbox.example",
+    "phone": "+886 903 001 510",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "B113711266",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-33233"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Cheng Wei-Ju",
+     "dob": "1991-01-04",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Lai Ming-Ling",
+     "address": "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "email": "weiju.cheng@inbox.example",
+     "phone": "+886 903 001 510",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "B113711266",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-33233"
+    },
+    "wrong": {
+     "email": "weiju.cheng at inbox.example",
+     "spouse_name": "Lai Mi"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Cheng Wei-Ju",
+     "Wei-Ju Cheng"
+    ],
+    "dob": "1991-01-04",
+    "gender": "female",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 903 001 510",
+    "email": "weiju.cheng@inbox.example",
+    "address": [
+     "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "B113711266",
+    "addr_proof": "tax_bill",
+    "account_type": "checking",
+    "account_category": "individual",
+    "education": "bachelor",
+    "monthly_income": "260000",
+    "application_no": "LCB-AO-2026-33233",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Cheng Wei-Ju",
+     "dob": "1991-01-04",
+     "gender": "female",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 903 001 510",
+     "email": "weiju.cheng@inbox.example",
+     "address": "8F, No. 182, Nanjing E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "B113711266",
+     "addr_proof": "tax_bill",
+     "account_type": "checking",
+     "account_category": "individual",
+     "education": "bachelor",
+     "monthly_income": "260000",
+     "application_no": "LCB-AO-2026-33233"
+    },
+    "wrong": {
+     "email": "weiju.cheng at inbox.example",
+     "full_name": "Cheng "
+    }
+   }
+  }
+ }
+}

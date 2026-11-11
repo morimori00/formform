@@ -1,0 +1,224 @@
+{
+ "persona": "kyc-account-opening/t-kyc-027",
+ "context": "kyc-account-opening/t-kyc-027.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-14785",
+    "full_name": [
+     "Kuo Tzu-Ting",
+     "Tzu-Ting Kuo"
+    ],
+    "spouse_name": "Fang Mei-Lun",
+    "gender": "female",
+    "marital": "married",
+    "dob": "1999-06-20",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "F147196967",
+    "id_proof": "national_id",
+    "address": [
+     "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 967 010 364",
+    "email": "tzuting.kuo@inbox.example",
+    "addr_proof": "bank_statement",
+    "perm_same": false,
+    "perm_address": [
+     "8F, No. 277, Sec. 3, Wenhua Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "8F, No. 277, Sec. 3, Wenhua Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "decl_name": [
+     "Kuo Tzu-Ting",
+     "Tzu-Ting Kuo"
+    ],
+    "sign_date": "2026-11-05",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-14785",
+     "full_name": "Kuo Tzu-Ting",
+     "spouse_name": "Fang Mei-Lun",
+     "gender": "female",
+     "marital": "married",
+     "dob": "1999-06-20",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "F147196967",
+     "id_proof": "national_id",
+     "address": "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "phone": "+886 967 010 364",
+     "email": "tzuting.kuo@inbox.example",
+     "addr_proof": "bank_statement",
+     "perm_same": false,
+     "perm_address": "8F, No. 277, Sec. 3, Wenhua Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "decl_name": "Kuo Tzu-Ting",
+     "sign_date": "2026-11-05"
+    },
+    "wrong": {
+     "tax_id": "F1471969x",
+     "residency": "non_resident"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kuo Tzu-Ting",
+     "Tzu-Ting Kuo"
+    ],
+    "dob": "1999-06-20",
+    "mother_maiden": "",
+    "phone": "+886 967 010 364",
+    "email": "tzuting.kuo@inbox.example",
+    "address": [
+     "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300"
+    ],
+    "education": "master",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "joint",
+    "monthly_income": "91000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Kuo Tzu-Ting",
+     "dob": "1999-06-20",
+     "phone": "+886 967 010 364",
+     "email": "tzuting.kuo@inbox.example",
+     "address": "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "education": "master",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "joint",
+     "monthly_income": "91000"
+    },
+    "wrong": {
+     "email": "tzuting.kuo at inbox.example",
+     "full_name": "Kuo Tz"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kuo Tzu-Ting",
+     "Tzu-Ting Kuo"
+    ],
+    "dob": "1999-06-20",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Fang Mei-Lun",
+    "address": [
+     "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300"
+    ],
+    "email": "tzuting.kuo@inbox.example",
+    "phone": "+886 967 010 364",
+    "addr_proof": "bank_statement",
+    "id_proof": "national_id",
+    "tax_id": "F147196967",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-14785"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Kuo Tzu-Ting",
+     "dob": "1999-06-20",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Fang Mei-Lun",
+     "address": "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "email": "tzuting.kuo@inbox.example",
+     "phone": "+886 967 010 364",
+     "addr_proof": "bank_statement",
+     "id_proof": "national_id",
+     "tax_id": "F147196967",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-14785"
+    },
+    "wrong": {
+     "email": "tzuting.kuo at inbox.example",
+     "full_name": "Kuo Tz"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kuo Tzu-Ting",
+     "Tzu-Ting Kuo"
+    ],
+    "dob": "1999-06-20",
+    "gender": "female",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 967 010 364",
+    "email": "tzuting.kuo@inbox.example",
+    "address": [
+     "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300"
+    ],
+    "perm_same": false,
+    "id_proof": "national_id",
+    "tax_id": "F147196967",
+    "addr_proof": "bank_statement",
+    "account_type": "savings",
+    "account_category": "joint",
+    "education": "master",
+    "monthly_income": "91000",
+    "application_no": "LCB-AO-2026-14785",
+    "perm_address": [
+     "8F, No. 277, Sec. 3, Wenhua Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "8F, No. 277, Sec. 3, Wenhua Rd., Zhongshan Dist., Taipei City 104"
+    ]
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Kuo Tzu-Ting",
+     "dob": "1999-06-20",
+     "gender": "female",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 967 010 364",
+     "email": "tzuting.kuo@inbox.example",
+     "address": "5F, No. 202, Sec. 1, Minquan E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "perm_same": false,
+     "id_proof": "national_id",
+     "tax_id": "F147196967",
+     "addr_proof": "bank_statement",
+     "account_type": "savings",
+     "account_category": "joint",
+     "education": "master",
+     "monthly_income": "91000",
+     "application_no": "LCB-AO-2026-14785",
+     "perm_address": "8F, No. 277, Sec. 3, Wenhua Rd., Zhongshan Dist., Taipei City 104, Taiwan"
+    },
+    "wrong": {
+     "email": "tzuting.kuo at inbox.example",
+     "id_proof": "passport"
+    }
+   }
+  }
+ }
+}

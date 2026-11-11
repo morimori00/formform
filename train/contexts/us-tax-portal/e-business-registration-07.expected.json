@@ -1,0 +1,52 @@
+{
+ "persona": "us-tax-portal/e-business-registration-07",
+ "context": "us-tax-portal/e-business-registration-07.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/business-registration": {
+   "submit": true,
+   "fields": {
+    "legal_name": "Wexford Consulting Inc.",
+    "fein": "23-6334459",
+    "business_type": "corporation",
+    "established": "2020-07-16",
+    "street1": "1890 Larkspur Ln",
+    "street2": "Suite 278",
+    "city": "Wilmington",
+    "state": "DE",
+    "zip": "19825",
+    "first_name": "Anika",
+    "last_name": "Vasquez",
+    "position": "Tax Manager",
+    "email": "avasquez@wexford.example",
+    "day_phone": "(302) 555-0185",
+    "portal_pin": "9707873"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "legal_name": "Wexford Consulting Inc.",
+     "fein": "23-6334459",
+     "business_type": "corporation",
+     "established": "2020-07-16",
+     "street1": "1890 Larkspur Ln",
+     "street2": "Suite 278",
+     "city": "Wilmington",
+     "state": "DE",
+     "zip": "19825",
+     "first_name": "Anika",
+     "last_name": "Vasquez",
+     "position": "Tax Manager",
+     "email": "avasquez@wexford.example",
+     "day_phone": "(302) 555-0185",
+     "portal_pin": "9707873"
+    },
+    "wrong": {
+     "fein": "23-63344x",
+     "legal_name": "Wexford Con"
+    }
+   }
+  }
+ }
+}

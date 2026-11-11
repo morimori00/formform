@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-010",
+ "context": "tw-vendor-master/t-tw-010.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "鴻昌物流股份有限公司",
+    "vendor_name_en": "Hongchang Logistics Co., Ltd.",
+    "ubn": "45132300",
+    "owner": "劉淑玲",
+    "established": "1978-04-27",
+    "capital": "873000000",
+    "org_type": "corp_shares",
+    "postal": "811",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "中正路235號4樓",
+    "tel": "07-648-9855",
+    "fax": "07-648-2823",
+    "contact_name": [
+     "鄭怡宏",
+     "Cheng Yi-hung"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "yihung.cheng@hongchang-logistics.example",
+    "contact_mobile": "0985-546-456",
+    "bank_code": "808",
+    "bank_branch": [
+     "楠梓分行",
+     "楠梓"
+    ],
+    "account_no": "3880770544556",
+    "account_name": "鴻昌物流股份有限公司",
+    "payment_terms": "cod",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-04-07"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "鴻昌物流股份有限公司",
+     "vendor_name_en": "Hongchang Logistics Co., Ltd.",
+     "ubn": "45132300",
+     "owner": "劉淑玲",
+     "established": "1978-04-27",
+     "capital": "873000000",
+     "org_type": "corp_shares",
+     "postal": "811",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "中正路235號4樓",
+     "tel": "07-648-9855",
+     "fax": "07-648-2823",
+     "contact_name": "鄭怡宏",
+     "contact_title": "總經理特助",
+     "email": "yihung.cheng@hongchang-logistics.example",
+     "contact_mobile": "0985-546-456",
+     "bank_code": "808",
+     "bank_branch": "楠梓分行",
+     "account_no": "3880770544556",
+     "account_name": "鴻昌物流股份有限公司",
+     "payment_terms": "cod",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-04-07"
+    },
+    "wrong": {
+     "ubn": "451323x",
+     "capital": "8730"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "45132300",
+    "vendor_name_zh": "鴻昌物流股份有限公司",
+    "vendor_name_en": "Hongchang Logistics Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1978-04-27",
+    "owner": "劉淑玲",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "中正路235號4樓",
+    "postal": "811",
+    "tel": "07-648-9855",
+    "fax": "07-648-2823",
+    "contact_name": [
+     "鄭怡宏",
+     "Cheng Yi-hung"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "0985-546-456",
+    "email": "yihung.cheng@hongchang-logistics.example",
+    "bank_code": "808",
+    "bank_branch": [
+     "楠梓分行",
+     "楠梓"
+    ],
+    "account_no": "3880770544556",
+    "account_name": "鴻昌物流股份有限公司",
+    "payment_terms": "cod",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2029-04-07",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "45132300",
+     "vendor_name_zh": "鴻昌物流股份有限公司",
+     "vendor_name_en": "Hongchang Logistics Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1978-04-27",
+     "owner": "劉淑玲",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "中正路235號4樓",
+     "postal": "811",
+     "tel": "07-648-9855",
+     "fax": "07-648-2823",
+     "contact_name": "鄭怡宏",
+     "contact_title": "總經理特助",
+     "contact_mobile": "0985-546-456",
+     "email": "yihung.cheng@hongchang-logistics.example",
+     "bank_code": "808",
+     "bank_branch": "楠梓分行",
+     "account_no": "3880770544556",
+     "account_name": "鴻昌物流股份有限公司",
+     "payment_terms": "cod",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2029-04-07"
+    },
+    "wrong": {
+     "ubn": "451323x",
+     "vendor_name_zh": "鴻昌物流股"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "45132300",
+    "vendor_name_zh": "鴻昌物流股份有限公司",
+    "owner": "劉淑玲",
+    "established": "1978-04-27",
+    "org_type": "corp_shares",
+    "capital": "873000000",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "中正路235號4樓",
+    "postal": "811",
+    "tel": "07-648-9855",
+    "contact_name": [
+     "鄭怡宏",
+     "Cheng Yi-hung"
+    ],
+    "email": "yihung.cheng@hongchang-logistics.example",
+    "bank_code": "808",
+    "account_no": "3880770544556",
+    "account_name": "鴻昌物流股份有限公司",
+    "payment_terms": "cod",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "45132300",
+     "vendor_name_zh": "鴻昌物流股份有限公司",
+     "owner": "劉淑玲",
+     "established": "1978-04-27",
+     "org_type": "corp_shares",
+     "capital": "873000000",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "中正路235號4樓",
+     "postal": "811",
+     "tel": "07-648-9855",
+     "contact_name": "鄭怡宏",
+     "email": "yihung.cheng@hongchang-logistics.example",
+     "bank_code": "808",
+     "account_no": "3880770544556",
+     "account_name": "鴻昌物流股份有限公司",
+     "payment_terms": "cod",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "451323x",
+     "owner": "劉"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "鴻昌物流股份有限公司",
+    "vendor_name_en": "Hongchang Logistics Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "45132300",
+    "owner": "劉淑玲",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "中正路235號4樓",
+    "postal": "811",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "07-648-9855",
+    "contact_name": [
+     "鄭怡宏",
+     "Cheng Yi-hung"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "yihung.cheng@hongchang-logistics.example",
+    "account_no": "3880770544556",
+    "account_name": "鴻昌物流股份有限公司",
+    "payment_terms": "cod",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "鴻昌物流股份有限公司",
+     "vendor_name_en": "Hongchang Logistics Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "45132300",
+     "owner": "劉淑玲",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "中正路235號4樓",
+     "postal": "811",
+     "tel": "07-648-9855",
+     "contact_name": "鄭怡宏",
+     "contact_title": "總經理特助",
+     "email": "yihung.cheng@hongchang-logistics.example",
+     "account_no": "3880770544556",
+     "account_name": "鴻昌物流股份有限公司",
+     "payment_terms": "cod",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "451323x",
+     "contact_name": "鄭"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "808",
+    "bank_branch": [
+     "楠梓分行",
+     "楠梓"
+    ],
+    "account_no": "3880770544556",
+    "account_name": "鴻昌物流股份有限公司",
+    "payment_terms": "cod",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "高雄市",
+    "district": "楠梓區",
+    "address_line": "中正路235號4樓",
+    "postal": "811",
+    "tel": "07-648-9855",
+    "fax": "07-648-2823",
+    "vendor_name_zh": "鴻昌物流股份有限公司",
+    "ubn": "45132300",
+    "owner": "劉淑玲",
+    "org_type": "corp_shares",
+    "established": "1978-04-27",
+    "capital": "873000000",
+    "vendor_name_en": "Hongchang Logistics Co., Ltd.",
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "0985-546-456",
+    "contact_name": [
+     "鄭怡宏",
+     "Cheng Yi-hung"
+    ],
+    "email": "yihung.cheng@hongchang-logistics.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "808",
+     "bank_branch": "楠梓分行",
+     "account_no": "3880770544556",
+     "account_name": "鴻昌物流股份有限公司",
+     "payment_terms": "cod",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "高雄市",
+     "district": "楠梓區",
+     "address_line": "中正路235號4樓",
+     "postal": "811",
+     "tel": "07-648-9855",
+     "fax": "07-648-2823",
+     "vendor_name_zh": "鴻昌物流股份有限公司",
+     "ubn": "45132300",
+     "owner": "劉淑玲",
+     "org_type": "corp_shares",
+     "established": "1978-04-27",
+     "capital": "873000000",
+     "vendor_name_en": "Hongchang Logistics Co., Ltd.",
+     "contact_title": "總經理特助",
+     "contact_mobile": "0985-546-456",
+     "contact_name": "鄭怡宏",
+     "email": "yihung.cheng@hongchang-logistics.example"
+    },
+    "wrong": {
+     "account_no": "38807705445x",
+     "invoice_type": "egui2"
+    }
+   }
+  }
+ }
+}

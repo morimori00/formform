@@ -1,0 +1,41 @@
+{
+ "persona": "us-tax-portal/e-uswds-name-address-06",
+ "context": "us-tax-portal/e-uswds-name-address-06.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/uswds-name-address": {
+   "submit": true,
+   "fields": {
+    "first_name": "Sophie",
+    "middle_initial": "",
+    "last_name": "Kimura",
+    "suffix": "",
+    "preferred_name": "Sophie",
+    "street1": "4115 Meadowlark Ave",
+    "street2": "Suite 481",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21210",
+    "urbanization": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Sophie",
+     "last_name": "Kimura",
+     "preferred_name": "Sophie",
+     "street1": "4115 Meadowlark Ave",
+     "street2": "Suite 481",
+     "city": "Baltimore",
+     "state": "MD",
+     "zip": "21210"
+    },
+    "wrong": {
+     "zip": "212x",
+     "street2": "Suit"
+    }
+   }
+  }
+ }
+}

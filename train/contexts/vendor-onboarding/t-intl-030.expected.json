@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-030",
+ "context": "vendor-onboarding/t-intl-030.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Greyfriar Freight Pte. Ltd.",
+    "tax_id": "202643532M",
+    "company_address": "2 Pioneer Crescent, #08-16, Singapore 192371",
+    "established": "2006-06-08",
+    "business_type": "private_limited",
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "service_area": "north_america",
+    "gross_sales": "73600000",
+    "contact_name": [
+     "Aisha Brennan",
+     "Ms. Aisha Brennan"
+    ],
+    "contact_title": "Commercial Manager",
+    "phone_day": "+65 6443 4349",
+    "phone_evening": "",
+    "email": "aisha.brennan@greyfriar.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Greyfriar Freight Pte. Ltd.",
+    "account_number": "348-709195-5",
+    "swift": "LCMBSGXLXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Greyfriar Freight Pte. Ltd.",
+     "tax_id": "202643532M",
+     "company_address": "2 Pioneer Crescent, #08-16, Singapore 192371",
+     "established": "2006-06-08",
+     "business_type": "private_limited",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "service_area": "north_america",
+     "gross_sales": "73600000",
+     "contact_name": "Aisha Brennan",
+     "contact_title": "Commercial Manager",
+     "phone_day": "+65 6443 4349",
+     "email": "aisha.brennan@greyfriar.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Greyfriar Freight Pte. Ltd.",
+     "account_number": "348-709195-5",
+     "swift": "LCMBSGXLXXX"
+    },
+    "wrong": {
+     "email": "aisha.brennan at greyfriar.example",
+     "service_area": "taiwan"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Greyfriar Freight Pte. Ltd.",
+    "tax_id": "202643532M",
+    "established": "2006-06-08",
+    "service_area": "north_america",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Aisha Brennan",
+     "Ms. Aisha Brennan"
+    ],
+    "email": "aisha.brennan@greyfriar.example",
+    "phone_day": "+65 6443 4349",
+    "phone_evening": "",
+    "company_address": "2 Pioneer Crescent, #08-16, Singapore 192371",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Greyfriar Freight Pte. Ltd.",
+    "account_number": "348-709195-5",
+    "swift": "LCMBSGXLXXX",
+    "insurance": "insured",
+    "gross_sales": "73600000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Greyfriar Freight Pte. Ltd.",
+     "tax_id": "202643532M",
+     "established": "2006-06-08",
+     "service_area": "north_america",
+     "business_type": "private_limited",
+     "contact_name": "Aisha Brennan",
+     "email": "aisha.brennan@greyfriar.example",
+     "phone_day": "+65 6443 4349",
+     "company_address": "2 Pioneer Crescent, #08-16, Singapore 192371",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Greyfriar Freight Pte. Ltd.",
+     "account_number": "348-709195-5",
+     "swift": "LCMBSGXLXXX",
+     "insurance": "insured",
+     "gross_sales": "73600000"
+    },
+    "wrong": {
+     "email": "aisha.brennan at greyfriar.example",
+     "account_number": "348-70"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Greyfriar Freight Pte. Ltd.",
+    "account_number": "348-709195-5",
+    "swift": "LCMBSGXLXXX",
+    "org_name": "Greyfriar Freight Pte. Ltd.",
+    "tax_id": "202643532M",
+    "business_type": "private_limited",
+    "established": "2006-06-08",
+    "company_address": "2 Pioneer Crescent, #08-16, Singapore 192371",
+    "service_area": "north_america",
+    "contact_name": [
+     "Aisha Brennan",
+     "Ms. Aisha Brennan"
+    ],
+    "email": "aisha.brennan@greyfriar.example",
+    "phone_day": "+65 6443 4349",
+    "contact_title": "Commercial Manager",
+    "phone_evening": "",
+    "gross_sales": "73600000",
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Greyfriar Freight Pte. Ltd.",
+     "account_number": "348-709195-5",
+     "swift": "LCMBSGXLXXX",
+     "org_name": "Greyfriar Freight Pte. Ltd.",
+     "tax_id": "202643532M",
+     "business_type": "private_limited",
+     "established": "2006-06-08",
+     "company_address": "2 Pioneer Crescent, #08-16, Singapore 192371",
+     "service_area": "north_america",
+     "contact_name": "Aisha Brennan",
+     "email": "aisha.brennan@greyfriar.example",
+     "phone_day": "+65 6443 4349",
+     "contact_title": "Commercial Manager",
+     "gross_sales": "73600000",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "aisha.brennan at greyfriar.example",
+     "beneficiary": "Greyfriar Fre"
+    }
+   }
+  }
+ }
+}

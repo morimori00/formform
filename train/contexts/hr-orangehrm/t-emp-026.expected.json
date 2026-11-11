@@ -1,0 +1,179 @@
+{
+ "persona": "hr-orangehrm/t-emp-026",
+ "context": "hr-orangehrm/t-emp-026.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Irene",
+    "middle_name": "",
+    "last_name": "Romano",
+    "employee_id": "KST-47469",
+    "create_login": true,
+    "username": "irene.romano",
+    "login_status": "enabled",
+    "password": "Kestrel#1216b",
+    "confirm_password": "Kestrel#1216b"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Irene",
+     "last_name": "Romano",
+     "employee_id": "KST-47469",
+     "create_login": true,
+     "username": "irene.romano",
+     "login_status": "enabled",
+     "password": "Kestrel#1216b",
+     "confirm_password": "Kestrel#1216b"
+    },
+    "wrong": {
+     "employee_id": "KST-474x",
+     "last_name": "Rom"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Irene",
+    "middle_name": "",
+    "last_name": "Romano",
+    "employee_id": "KST-47469",
+    "license_number": "DL-44965013",
+    "license_expiry": "2031-10-07",
+    "nationality": "PK",
+    "marital": "divorced",
+    "dob": "1995-09-07",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Irene",
+     "last_name": "Romano",
+     "employee_id": "KST-47469",
+     "license_number": "DL-44965013",
+     "license_expiry": "2031-10-07",
+     "nationality": "PK",
+     "marital": "divorced",
+     "dob": "1995-09-07",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-474x",
+     "license_expiry": "2030-10-07"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-22",
+    "leave_to": "2027-01-23",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-22",
+     "leave_to": "2027-01-23",
+     "partial_days": "end",
+     "end_duration": "half_pm"
+    },
+    "wrong": {
+     "end_duration": "half_am"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-01-22",
+    "leave_to": "2027-01-23",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-01-22",
+     "leave_to": "2027-01-23",
+     "partial_days": "end",
+     "end_duration": "half_pm"
+    },
+    "wrong": {
+     "partial_days": "none"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Irene",
+    "middle_name": "",
+    "last_name": "Romano",
+    "employee_id": "KST-47469",
+    "create_login": true,
+    "username": "irene.romano",
+    "login_status": "enabled",
+    "password": "Kestrel#1216b",
+    "confirm_password": "Kestrel#1216b",
+    "nationality": "PK",
+    "marital": "divorced",
+    "dob": "1995-09-07",
+    "gender": "female",
+    "job_title": "hr_partner",
+    "department": "infosec",
+    "work_location": "neihu",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2327",
+    "joined_date": "2026-12-17"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Irene",
+     "last_name": "Romano",
+     "employee_id": "KST-47469",
+     "create_login": true,
+     "username": "irene.romano",
+     "login_status": "enabled",
+     "password": "Kestrel#1216b",
+     "confirm_password": "Kestrel#1216b",
+     "nationality": "PK",
+     "marital": "divorced",
+     "dob": "1995-09-07",
+     "gender": "female",
+     "job_title": "hr_partner",
+     "department": "infosec",
+     "work_location": "neihu",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2327",
+     "joined_date": "2026-12-17"
+    },
+    "wrong": {
+     "employee_id": "KST-474x",
+     "last_name": "Rom"
+    }
+   }
+  }
+ }
+}

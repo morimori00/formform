@@ -1,0 +1,177 @@
+{
+ "persona": "hr-orangehrm/t-emp-024",
+ "context": "hr-orangehrm/t-emp-024.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Kuan-Fen",
+    "middle_name": "",
+    "last_name": "Liu",
+    "employee_id": "KST-30158",
+    "create_login": true,
+    "username": "kuanfen.liu",
+    "login_status": "enabled",
+    "password": "Fab3#3296z",
+    "confirm_password": "Fab3#3296z"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Kuan-Fen",
+     "last_name": "Liu",
+     "employee_id": "KST-30158",
+     "create_login": true,
+     "username": "kuanfen.liu",
+     "login_status": "enabled",
+     "password": "Fab3#3296z",
+     "confirm_password": "Fab3#3296z"
+    },
+    "wrong": {
+     "employee_id": "KST-301x",
+     "first_name": "Kuan"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Kuan-Fen",
+    "middle_name": "",
+    "last_name": "Liu",
+    "employee_id": "KST-30158",
+    "license_number": "DL-37195489",
+    "license_expiry": "2028-02-24",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1991-05-10",
+    "gender": "male"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Kuan-Fen",
+     "last_name": "Liu",
+     "employee_id": "KST-30158",
+     "license_number": "DL-37195489",
+     "license_expiry": "2028-02-24",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1991-05-10",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-301x",
+     "license_number": "DL-37"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2026-12-13",
+    "leave_to": "2026-12-14",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Family travel — handover to Hannah Lindqvist"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2026-12-13",
+     "leave_to": "2026-12-14",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Family travel — handover to Hannah Lindqvist"
+    },
+    "wrong": {
+     "leave_type": "annual"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2026-12-13",
+    "leave_to": "2026-12-14",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Family travel — handover to Hannah Lindqvist"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2026-12-13",
+     "leave_to": "2026-12-14",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Family travel — handover to Hannah Lindqvist"
+    },
+    "wrong": {
+     "leave_from": "2025-12-13"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Kuan-Fen",
+    "middle_name": "",
+    "last_name": "Liu",
+    "employee_id": "KST-30158",
+    "create_login": true,
+    "username": "kuanfen.liu",
+    "login_status": "enabled",
+    "password": "Fab3#3296z",
+    "confirm_password": "Fab3#3296z",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1991-05-10",
+    "gender": "male",
+    "job_title": "process_int_eng",
+    "department": "hr",
+    "work_location": "hsp_fab3",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2085",
+    "joined_date": "2027-01-22"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Kuan-Fen",
+     "last_name": "Liu",
+     "employee_id": "KST-30158",
+     "create_login": true,
+     "username": "kuanfen.liu",
+     "login_status": "enabled",
+     "password": "Fab3#3296z",
+     "confirm_password": "Fab3#3296z",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1991-05-10",
+     "gender": "male",
+     "job_title": "process_int_eng",
+     "department": "hr",
+     "work_location": "hsp_fab3",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2085",
+     "joined_date": "2027-01-22"
+    },
+    "wrong": {
+     "employee_id": "KST-301x",
+     "first_name": "Kuan"
+    }
+   }
+  }
+ }
+}

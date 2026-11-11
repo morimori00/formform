@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-006",
+ "context": "itsm-request/t-emp-006.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g49976",
+    "laptop_model": "std14",
+    "location": "hsp_fab3",
+    "needed_by": "2026-11-22",
+    "extra_monitor": false,
+    "cost_center": "CC-0783",
+    "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g49976",
+     "laptop_model": "std14",
+     "location": "hsp_fab3",
+     "needed_by": "2026-11-22",
+     "extra_monitor": false,
+     "cost_center": "CC-0783",
+     "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-07x",
+     "laptop_model": "eng16"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "std14",
+    "extra_monitor": false,
+    "location": "hsp_fab3",
+    "needed_by": "2026-11-22",
+    "requested_for": "u_g49976",
+    "cost_center": "CC-0783",
+    "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "std14",
+     "extra_monitor": false,
+     "location": "hsp_fab3",
+     "needed_by": "2026-11-22",
+     "requested_for": "u_g49976",
+     "cost_center": "CC-0783",
+     "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-07x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g49976",
+    "contact_pref": "walk_in",
+    "inc_category": "hardware",
+    "inc_subcategory": "laptop",
+    "ci": "KST-NB-27802",
+    "impact": "2",
+    "urgency": "1",
+    "assign_group": "endpoint",
+    "short_desc": "Laptop battery swollen, trackpad lifting",
+    "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 322 cycles. Device is powered off for safety."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g49976",
+     "contact_pref": "walk_in",
+     "inc_category": "hardware",
+     "inc_subcategory": "laptop",
+     "ci": "KST-NB-27802",
+     "impact": "2",
+     "urgency": "1",
+     "assign_group": "endpoint",
+     "short_desc": "Laptop battery swollen, trackpad lifting",
+     "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 322 cycles. Device is powered off for safety."
+    },
+    "wrong": {
+     "contact_pref": "email"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Laptop battery swollen, trackpad lifting",
+    "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 322 cycles. Device is powered off for safety.",
+    "caller": "u_g49976",
+    "ci": "KST-NB-27802",
+    "contact_pref": "walk_in",
+    "inc_category": "hardware",
+    "inc_subcategory": "laptop",
+    "impact": "2",
+    "urgency": "1",
+    "assign_group": "endpoint"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Laptop battery swollen, trackpad lifting",
+     "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 322 cycles. Device is powered off for safety.",
+     "caller": "u_g49976",
+     "ci": "KST-NB-27802",
+     "contact_pref": "walk_in",
+     "inc_category": "hardware",
+     "inc_subcategory": "laptop",
+     "impact": "2",
+     "urgency": "1",
+     "assign_group": "endpoint"
+    },
+    "wrong": {
+     "assign_group": "servicedesk"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g49976",
+    "location": "hsp_fab3",
+    "cost_center": "CC-0783",
+    "laptop_model": "std14",
+    "needed_by": "2026-11-22",
+    "extra_monitor": false,
+    "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g49976",
+     "location": "hsp_fab3",
+     "cost_center": "CC-0783",
+     "laptop_model": "std14",
+     "needed_by": "2026-11-22",
+     "extra_monitor": false,
+     "justification": "Replacement for a device with a failed mainboard; Logistics work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-07x",
+     "laptop_model": "eng16"
+    }
+   }
+  }
+ }
+}

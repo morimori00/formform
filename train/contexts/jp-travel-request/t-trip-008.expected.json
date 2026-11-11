@@ -1,0 +1,275 @@
+{
+ "persona": "jp-travel-request/t-trip-008",
+ "context": "jp-travel-request/t-trip-008.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-36092",
+    "name": [
+     "吉田 智子",
+     "吉田智子"
+    ],
+    "dept": "prod_eng_eq",
+    "title": "担当",
+    "cost_center": "CC-2211",
+    "email": "t.yoshida@kestrel-semi.example",
+    "mobile": "080-6076-1344",
+    "dest_country": "TW",
+    "dest_city": [
+     "台北市",
+     "台北"
+    ],
+    "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+    "depart_date": "2027-01-17",
+    "return_date": "2027-01-23",
+    "outbound_flight": "CI 157",
+    "return_flight": "CI 779",
+    "hotel": "",
+    "visa_needed": "no",
+    "exp_air_amount": "162300",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "13800",
+    "exp_hotel_cur": "TWD",
+    "exp_local_amount": "5100",
+    "exp_local_cur": "TWD",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "passport_no": "MR3582966",
+    "passport_expiry": "2034-02-01",
+    "approver": "u_j2288"
+   },
+   "infeasible": [
+    "hotel"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-36092",
+     "name": "吉田 智子",
+     "dept": "prod_eng_eq",
+     "title": "担当",
+     "cost_center": "CC-2211",
+     "email": "t.yoshida@kestrel-semi.example",
+     "mobile": "080-6076-1344",
+     "dest_country": "TW",
+     "dest_city": "台北市",
+     "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+     "depart_date": "2027-01-17",
+     "return_date": "2027-01-23",
+     "outbound_flight": "CI 157",
+     "return_flight": "CI 779",
+     "visa_needed": "no",
+     "exp_air_amount": "162300",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "13800",
+     "exp_hotel_cur": "TWD",
+     "exp_local_amount": "5100",
+     "exp_local_cur": "TWD",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "passport_no": "MR3582966",
+     "passport_expiry": "2034-02-01",
+     "approver": "u_j2288"
+    },
+    "wrong": {
+     "email": "t.yoshida at kestrel-semi.example",
+     "exp_air_amount": "162"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "吉田 智子",
+     "吉田智子"
+    ],
+    "emp_no": "J-36092",
+    "dept": "prod_eng_eq",
+    "approver": "u_j2288",
+    "depart_date": "2027-01-17",
+    "return_date": "2027-01-23",
+    "dest_country": "TW",
+    "dest_city": [
+     "台北市",
+     "台北"
+    ],
+    "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "no",
+    "exp_air_amount": "162300",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "13800",
+    "exp_hotel_cur": "TWD",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-2211"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "吉田 智子",
+     "emp_no": "J-36092",
+     "dept": "prod_eng_eq",
+     "approver": "u_j2288",
+     "depart_date": "2027-01-17",
+     "return_date": "2027-01-23",
+     "dest_country": "TW",
+     "dest_city": "台北市",
+     "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "no",
+     "exp_air_amount": "162300",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "13800",
+     "exp_hotel_cur": "TWD",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-2211"
+    },
+    "wrong": {
+     "depart_date": "2026-01-17"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+    "dest_city": [
+     "台北市",
+     "台北"
+    ],
+    "dest_country": "TW",
+    "depart_date": "2027-01-17",
+    "return_date": "2027-01-23",
+    "outbound_flight": "CI 157",
+    "return_flight": "CI 779",
+    "hotel": "",
+    "visa_needed": "no",
+    "passport_no": "MR3582966",
+    "passport_expiry": "2034-02-01",
+    "exp_hotel_amount": "13800",
+    "exp_hotel_cur": "TWD",
+    "exp_air_amount": "162300",
+    "exp_air_cur": "JPY",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "emp_no": "J-36092",
+    "name": [
+     "吉田 智子",
+     "吉田智子"
+    ],
+    "mobile": "080-6076-1344",
+    "approver": "u_j2288",
+    "cost_center": "CC-2211"
+   },
+   "infeasible": [
+    "hotel"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+     "dest_city": "台北市",
+     "dest_country": "TW",
+     "depart_date": "2027-01-17",
+     "return_date": "2027-01-23",
+     "outbound_flight": "CI 157",
+     "return_flight": "CI 779",
+     "visa_needed": "no",
+     "passport_no": "MR3582966",
+     "passport_expiry": "2034-02-01",
+     "exp_hotel_amount": "13800",
+     "exp_hotel_cur": "TWD",
+     "exp_air_amount": "162300",
+     "exp_air_cur": "JPY",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "emp_no": "J-36092",
+     "name": "吉田 智子",
+     "mobile": "080-6076-1344",
+     "approver": "u_j2288",
+     "cost_center": "CC-2211"
+    },
+    "wrong": {
+     "passport_no": "MR35829x",
+     "name": "吉田"
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j2288",
+    "cost_center": "CC-2211",
+    "dest_country": "TW",
+    "dest_city": [
+     "台北市",
+     "台北"
+    ],
+    "depart_date": "2027-01-17",
+    "return_date": "2027-01-23",
+    "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "no",
+    "exp_air_amount": "162300",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "13800",
+    "exp_hotel_cur": "TWD",
+    "advance_amount": "70000",
+    "advance_cur": "JPY",
+    "name": [
+     "吉田 智子",
+     "吉田智子"
+    ],
+    "emp_no": "J-36092",
+    "dept": "prod_eng_eq",
+    "email": "t.yoshida@kestrel-semi.example",
+    "mobile": "080-6076-1344",
+    "title": "担当",
+    "outbound_flight": "CI 157",
+    "return_flight": "CI 779",
+    "hotel": "",
+    "exp_local_amount": "5100",
+    "exp_local_cur": "TWD"
+   },
+   "infeasible": [
+    "hotel"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j2288",
+     "cost_center": "CC-2211",
+     "dest_country": "TW",
+     "dest_city": "台北市",
+     "depart_date": "2027-01-17",
+     "return_date": "2027-01-23",
+     "purpose": "台北本社 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "no",
+     "exp_air_amount": "162300",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "13800",
+     "exp_hotel_cur": "TWD",
+     "advance_amount": "70000",
+     "advance_cur": "JPY",
+     "name": "吉田 智子",
+     "emp_no": "J-36092",
+     "dept": "prod_eng_eq",
+     "email": "t.yoshida@kestrel-semi.example",
+     "mobile": "080-6076-1344",
+     "title": "担当",
+     "outbound_flight": "CI 157",
+     "return_flight": "CI 779",
+     "exp_local_amount": "5100",
+     "exp_local_cur": "TWD"
+    },
+    "wrong": {
+     "email": "t.yoshida at kestrel-semi.example",
+     "exp_air_cur": "TWD"
+    }
+   }
+  }
+ }
+}

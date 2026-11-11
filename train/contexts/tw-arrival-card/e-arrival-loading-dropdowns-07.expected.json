@@ -1,0 +1,70 @@
+{
+ "persona": "tw-arrival-card/e-arrival-loading-dropdowns-07",
+ "context": "tw-arrival-card/e-arrival-loading-dropdowns-07.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-loading-dropdowns": {
+   "submit": true,
+   "fields": {
+    "flight_no": "PR 666",
+    "arrival_date": "2027-02-23",
+    "purpose": "business",
+    "departure_flight": "",
+    "passport_no": "K7228837B",
+    "family_name": "MENDOZA",
+    "given_name": "JOSE MIGUEL",
+    "nationality": "PH",
+    "sex": "male",
+    "dob": "1993-11-30",
+    "passport_expiry": "2029-09-11",
+    "occupation": "business",
+    "visa_type": "visitor",
+    "visa_no": "V-9649737",
+    "stay_type": "relatives",
+    "stay_address": [
+     "No. 222, Chenggong Rd., Zhongshan Dist., Taipei City 104",
+     "relative's home, No. 222, Chenggong Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "county": "臺北市",
+    "district": "中山區",
+    "phone": "+886 919 465 474",
+    "visited": [
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "flight_no": "PR 666",
+     "arrival_date": "2027-02-23",
+     "purpose": "business",
+     "passport_no": "K7228837B",
+     "family_name": "MENDOZA",
+     "given_name": "JOSE MIGUEL",
+     "nationality": "PH",
+     "sex": "male",
+     "dob": "1993-11-30",
+     "passport_expiry": "2029-09-11",
+     "occupation": "business",
+     "visa_type": "visitor",
+     "visa_no": "V-9649737",
+     "stay_type": "relatives",
+     "stay_address": "No. 222, Chenggong Rd., Zhongshan Dist., Taipei City 104",
+     "county": "臺北市",
+     "district": "中山區",
+     "phone": "+886 919 465 474",
+     "visited": [
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "MENDOx",
+     "dob": "1992-11-30"
+    }
+   }
+  }
+ }
+}

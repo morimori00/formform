@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-039",
+ "context": "itsm-request/t-emp-039.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g41288",
+    "laptop_model": "eng16",
+    "location": "tainan",
+    "needed_by": "2026-12-06",
+    "extra_monitor": false,
+    "cost_center": "CC-1934",
+    "justification": "Transferred to Information Security; previous device stays with the old team."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g41288",
+     "laptop_model": "eng16",
+     "location": "tainan",
+     "needed_by": "2026-12-06",
+     "extra_monitor": false,
+     "cost_center": "CC-1934",
+     "justification": "Transferred to Information Security; previous device stays with the old team."
+    },
+    "wrong": {
+     "cost_center": "CC-19x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16",
+    "extra_monitor": false,
+    "location": "tainan",
+    "needed_by": "2026-12-06",
+    "requested_for": "u_g41288",
+    "cost_center": "CC-1934",
+    "justification": "Transferred to Information Security; previous device stays with the old team.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16",
+     "extra_monitor": false,
+     "location": "tainan",
+     "needed_by": "2026-12-06",
+     "requested_for": "u_g41288",
+     "cost_center": "CC-1934",
+     "justification": "Transferred to Information Security; previous device stays with the old team."
+    },
+    "wrong": {
+     "cost_center": "CC-19x",
+     "laptop_model": "std14"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g41288",
+    "contact_pref": "walk_in",
+    "inc_category": "inquiry",
+    "inc_subcategory": "howto",
+    "ci": "KST-NB-14917",
+    "impact": "1",
+    "urgency": "3",
+    "assign_group": "servicedesk",
+    "short_desc": "How to request a temporary admin token",
+    "inc_desc": "Needs a temporary local admin token for about 2 days to install lab equipment drivers. Asking which form to use."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g41288",
+     "contact_pref": "walk_in",
+     "inc_category": "inquiry",
+     "inc_subcategory": "howto",
+     "ci": "KST-NB-14917",
+     "impact": "1",
+     "urgency": "3",
+     "assign_group": "servicedesk",
+     "short_desc": "How to request a temporary admin token",
+     "inc_desc": "Needs a temporary local admin token for about 2 days to install lab equipment drivers. Asking which form to use."
+    },
+    "wrong": {
+     "short_desc": "How to request a te"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "How to request a temporary admin token",
+    "inc_desc": "Needs a temporary local admin token for about 2 days to install lab equipment drivers. Asking which form to use.",
+    "caller": "u_g41288",
+    "ci": "KST-NB-14917",
+    "contact_pref": "walk_in",
+    "inc_category": "inquiry",
+    "inc_subcategory": "howto",
+    "impact": "1",
+    "urgency": "3",
+    "assign_group": "servicedesk"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "How to request a temporary admin token",
+     "inc_desc": "Needs a temporary local admin token for about 2 days to install lab equipment drivers. Asking which form to use.",
+     "caller": "u_g41288",
+     "ci": "KST-NB-14917",
+     "contact_pref": "walk_in",
+     "inc_category": "inquiry",
+     "inc_subcategory": "howto",
+     "impact": "1",
+     "urgency": "3",
+     "assign_group": "servicedesk"
+    },
+    "wrong": {
+     "short_desc": "How to request a te"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g41288",
+    "location": "tainan",
+    "cost_center": "CC-1934",
+    "laptop_model": "eng16",
+    "needed_by": "2026-12-06",
+    "extra_monitor": false,
+    "justification": "Transferred to Information Security; previous device stays with the old team."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g41288",
+     "location": "tainan",
+     "cost_center": "CC-1934",
+     "laptop_model": "eng16",
+     "needed_by": "2026-12-06",
+     "extra_monitor": false,
+     "justification": "Transferred to Information Security; previous device stays with the old team."
+    },
+    "wrong": {
+     "cost_center": "CC-19x",
+     "laptop_model": "std14"
+    }
+   }
+  }
+ }
+}

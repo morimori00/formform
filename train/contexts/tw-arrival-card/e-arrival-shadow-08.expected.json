@@ -1,0 +1,71 @@
+{
+ "persona": "tw-arrival-card/e-arrival-shadow-08",
+ "context": "tw-arrival-card/e-arrival-shadow-08.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-shadow": {
+   "submit": true,
+   "fields": {
+    "nationality": "HK",
+    "passport_no": "P9621853B",
+    "family_name": "TSANG",
+    "given_name": "WING YAN",
+    "dob": "1990-02-23",
+    "sex": "male",
+    "passport_expiry": "2028-07-26",
+    "arrival_date": "2027-01-04",
+    "flight_no": "CX 472",
+    "purpose": "conference",
+    "occupation": "student",
+    "visa_type": "resident",
+    "visa_no": "V-6138919",
+    "stay_type": "relatives",
+    "county": "桃園市",
+    "district": "大園區",
+    "stay_address": [
+     "No. 312, Wenhua Rd., Dayuan Dist., Taoyuan City 337",
+     "relative's home, No. 312, Wenhua Rd., Dayuan Dist., Taoyuan City 337"
+    ],
+    "phone": "+886 916 736 910",
+    "email": "wing.tsang@kestrel-semi.example",
+    "visited": [
+     "HK"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "nationality": "HK",
+     "passport_no": "P9621853B",
+     "family_name": "TSANG",
+     "given_name": "WING YAN",
+     "dob": "1990-02-23",
+     "sex": "male",
+     "passport_expiry": "2028-07-26",
+     "arrival_date": "2027-01-04",
+     "flight_no": "CX 472",
+     "purpose": "conference",
+     "occupation": "student",
+     "visa_type": "resident",
+     "visa_no": "V-6138919",
+     "stay_type": "relatives",
+     "county": "桃園市",
+     "district": "大園區",
+     "stay_address": "No. 312, Wenhua Rd., Dayuan Dist., Taoyuan City 337",
+     "phone": "+886 916 736 910",
+     "email": "wing.tsang@kestrel-semi.example",
+     "visited": [
+      "HK"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "TSAx",
+     "county": "臺北市"
+    }
+   }
+  }
+ }
+}

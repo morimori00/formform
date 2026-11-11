@@ -1,0 +1,242 @@
+{
+ "persona": "emr-registration/t-patient-017",
+ "context": "emr-registration/t-patient-017.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Ling",
+    "middle_name": "",
+    "last_name": "Lai",
+    "dob": "1957-01-02",
+    "sex": "female",
+    "marital": "single",
+    "language": "mandarin",
+    "street": "8F, No. 212, Ln. 119, Sec. 1, Jianguo Rd., North Dist.",
+    "city": "Hsinchu City",
+    "postal": "300",
+    "country": "TW",
+    "phone_home": "",
+    "phone_cell": "0998-751-660",
+    "email": "chunling.lai@inbox.example",
+    "occupation": "Homemaker",
+    "employer": "Lowell Trading Co.",
+    "ec_name": "Yi-Hsuan Chiang",
+    "ec_phone": "0974-036-769",
+    "ec_relationship": "parent",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-3188-4492",
+    "group_number": "G-3974",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-04-13"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Ling",
+     "last_name": "Lai",
+     "dob": "1957-01-02",
+     "sex": "female",
+     "marital": "single",
+     "language": "mandarin",
+     "street": "8F, No. 212, Ln. 119, Sec. 1, Jianguo Rd., North Dist.",
+     "city": "Hsinchu City",
+     "postal": "300",
+     "country": "TW",
+     "phone_cell": "0998-751-660",
+     "email": "chunling.lai@inbox.example",
+     "occupation": "Homemaker",
+     "employer": "Lowell Trading Co.",
+     "ec_name": "Yi-Hsuan Chiang",
+     "ec_phone": "0974-036-769",
+     "ec_relationship": "parent",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-3188-4492",
+     "group_number": "G-3974",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-04-13"
+    },
+    "wrong": {
+     "email": "chunling.lai at inbox.example",
+     "street": "8F, No. 212, Ln. 119, Sec. "
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lai",
+    "first_name": "Chun-Ling",
+    "middle_name": "",
+    "dob": "1957-01-02",
+    "sex": "female",
+    "marital": "single",
+    "national_id": "",
+    "street": "8F, No. 212, Ln. 119, Sec. 1, Jianguo Rd., North Dist.",
+    "postal": "300",
+    "city": "Hsinchu City",
+    "country": "TW",
+    "phone_cell": "0998-751-660",
+    "phone_home": "",
+    "email": "chunling.lai@inbox.example",
+    "ec_name": "Yi-Hsuan Chiang",
+    "ec_relationship": "parent",
+    "ec_phone": "0974-036-769",
+    "occupation": "Homemaker",
+    "employer": "Lowell Trading Co.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-3188-4492",
+    "group_number": "G-3974",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-04-13",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lai",
+     "first_name": "Chun-Ling",
+     "dob": "1957-01-02",
+     "sex": "female",
+     "marital": "single",
+     "street": "8F, No. 212, Ln. 119, Sec. 1, Jianguo Rd., North Dist.",
+     "postal": "300",
+     "city": "Hsinchu City",
+     "country": "TW",
+     "phone_cell": "0998-751-660",
+     "email": "chunling.lai@inbox.example",
+     "ec_name": "Yi-Hsuan Chiang",
+     "ec_relationship": "parent",
+     "ec_phone": "0974-036-769",
+     "occupation": "Homemaker",
+     "employer": "Lowell Trading Co.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-3188-4492",
+     "group_number": "G-3974",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-04-13"
+    },
+    "wrong": {
+     "email": "chunling.lai at inbox.example",
+     "employer": "Lowell Tr"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Ling",
+    "last_name": "Lai",
+    "dob": "1957-01-02",
+    "sex": "female",
+    "language": "mandarin",
+    "street": "8F, No. 212, Ln. 119, Sec. 1, Jianguo Rd., North Dist.",
+    "city": "Hsinchu City",
+    "postal": "300",
+    "country": "TW",
+    "phone_cell": "0998-751-660",
+    "phone_home": "",
+    "ec_name": "Yi-Hsuan Chiang",
+    "ec_phone": "0974-036-769",
+    "ec_relationship": "parent",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-3188-4492",
+    "group_number": "G-3974",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-04-13"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Ling",
+     "last_name": "Lai",
+     "dob": "1957-01-02",
+     "sex": "female",
+     "language": "mandarin",
+     "street": "8F, No. 212, Ln. 119, Sec. 1, Jianguo Rd., North Dist.",
+     "city": "Hsinchu City",
+     "postal": "300",
+     "country": "TW",
+     "phone_cell": "0998-751-660",
+     "ec_name": "Yi-Hsuan Chiang",
+     "ec_phone": "0974-036-769",
+     "ec_relationship": "parent",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-3188-4492",
+     "group_number": "G-3974",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-04-13"
+    },
+    "wrong": {
+     "ins_effective": "2023-04-13"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lai",
+    "first_name": "Chun-Ling",
+    "dob": "1957-01-02",
+    "sex": "female",
+    "phone_cell": "0998-751-660",
+    "country": "TW",
+    "city": "Hsinchu City",
+    "postal": "300",
+    "street": "8F, No. 212, Ln. 119, Sec. 1, Jianguo Rd., North Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-3188-4492",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-04-13",
+    "email": "chunling.lai@inbox.example",
+    "phone_home": "",
+    "marital": "single",
+    "language": "mandarin",
+    "occupation": "Homemaker",
+    "employer": "Lowell Trading Co.",
+    "ec_name": "Yi-Hsuan Chiang",
+    "ec_phone": "0974-036-769",
+    "ec_relationship": "parent",
+    "group_number": "G-3974"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lai",
+     "first_name": "Chun-Ling",
+     "dob": "1957-01-02",
+     "sex": "female",
+     "phone_cell": "0998-751-660",
+     "country": "TW",
+     "city": "Hsinchu City",
+     "postal": "300",
+     "street": "8F, No. 212, Ln. 119, Sec. 1, Jianguo Rd., North Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-3188-4492",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-04-13",
+     "email": "chunling.lai@inbox.example",
+     "marital": "single",
+     "language": "mandarin",
+     "occupation": "Homemaker",
+     "employer": "Lowell Trading Co.",
+     "ec_name": "Yi-Hsuan Chiang",
+     "ec_phone": "0974-036-769",
+     "ec_relationship": "parent",
+     "group_number": "G-3974"
+    },
+    "wrong": {
+     "email": "chunling.lai at inbox.example",
+     "employer": "Lowell Tr"
+    }
+   }
+  }
+ }
+}

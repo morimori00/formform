@@ -1,0 +1,50 @@
+{
+ "persona": "us-tax-portal/e-delaware-register-user-07",
+ "context": "us-tax-portal/e-delaware-register-user-07.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/delaware-register-user": {
+   "submit": true,
+   "fields": {
+    "accept_terms": true,
+    "first_name": "Clara",
+    "middle_initial": "L",
+    "last_name": "Vasquez",
+    "position": "Office Manager",
+    "email": "cvasquez@ravenmoor.example",
+    "email_confirm": "cvasquez@ravenmoor.example",
+    "country_code": "1",
+    "day_phone": "(215) 555-0110",
+    "mobile_country_code": "1",
+    "mobile_phone": "(215) 555-0185",
+    "user_id": "ravenmoor.cvasquez",
+    "esign": "Clara L. Vasquez",
+    "certify": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "accept_terms": true,
+     "first_name": "Clara",
+     "middle_initial": "L",
+     "last_name": "Vasquez",
+     "position": "Office Manager",
+     "email": "cvasquez@ravenmoor.example",
+     "email_confirm": "cvasquez@ravenmoor.example",
+     "country_code": "1",
+     "day_phone": "(215) 555-0110",
+     "mobile_country_code": "1",
+     "mobile_phone": "(215) 555-0185",
+     "user_id": "ravenmoor.cvasquez",
+     "esign": "Clara L. Vasquez",
+     "certify": true
+    },
+    "wrong": {
+     "middle_initial": "x",
+     "esign": "Clara L."
+    }
+   }
+  }
+ }
+}

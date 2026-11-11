@@ -1,0 +1,263 @@
+{
+ "persona": "jp-travel-request/t-trip-002",
+ "context": "jp-travel-request/t-trip-002.md",
+ "split": "train",
+ "variants": {
+  "jp-travel-request/trip-single": {
+   "submit": true,
+   "fields": {
+    "emp_no": "J-18195",
+    "name": [
+     "伊藤 亮",
+     "伊藤亮"
+    ],
+    "dept": "ga",
+    "title": "課長代理",
+    "cost_center": "CC-1100",
+    "email": "r.ito@kestrel-semi.example",
+    "mobile": "070-5662-6643",
+    "dest_country": "CN",
+    "dest_city": "蘇州",
+    "purpose": "協力会社 蘇州工場 歩留まり改善会議への出席および工程監査",
+    "depart_date": "2027-02-02",
+    "return_date": "2027-02-05",
+    "outbound_flight": "",
+    "return_flight": "",
+    "hotel": "金鶏湖ホテル",
+    "visa_needed": "no",
+    "exp_air_amount": "60900",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "825",
+    "exp_hotel_cur": "USD",
+    "exp_local_amount": "135",
+    "exp_local_cur": "USD",
+    "advance_amount": "130000",
+    "advance_cur": "JPY",
+    "passport_no": "TK1350380",
+    "passport_expiry": "2031-09-09",
+    "approver": "u_j2288"
+   },
+   "infeasible": [
+    "outbound_flight",
+    "return_flight"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "emp_no": "J-18195",
+     "name": "伊藤 亮",
+     "dept": "ga",
+     "title": "課長代理",
+     "cost_center": "CC-1100",
+     "email": "r.ito@kestrel-semi.example",
+     "mobile": "070-5662-6643",
+     "dest_country": "CN",
+     "dest_city": "蘇州",
+     "purpose": "協力会社 蘇州工場 歩留まり改善会議への出席および工程監査",
+     "depart_date": "2027-02-02",
+     "return_date": "2027-02-05",
+     "hotel": "金鶏湖ホテル",
+     "visa_needed": "no",
+     "exp_air_amount": "60900",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "825",
+     "exp_hotel_cur": "USD",
+     "exp_local_amount": "135",
+     "exp_local_cur": "USD",
+     "advance_amount": "130000",
+     "advance_cur": "JPY",
+     "passport_no": "TK1350380",
+     "passport_expiry": "2031-09-09",
+     "approver": "u_j2288"
+    },
+    "wrong": {
+     "email": "r.ito at kestrel-semi.example",
+     "emp_no": "J-1"
+    }
+   }
+  },
+  "jp-travel-request/trip-steps": {
+   "submit": true,
+   "fields": {
+    "name": [
+     "伊藤 亮",
+     "伊藤亮"
+    ],
+    "emp_no": "J-18195",
+    "dept": "ga",
+    "approver": "u_j2288",
+    "depart_date": "2027-02-02",
+    "return_date": "2027-02-05",
+    "dest_country": "CN",
+    "dest_city": "蘇州",
+    "purpose": "協力会社 蘇州工場 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "no",
+    "exp_air_amount": "60900",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "825",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "130000",
+    "advance_cur": "JPY",
+    "cost_center": "CC-1100"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "name": "伊藤 亮",
+     "emp_no": "J-18195",
+     "dept": "ga",
+     "approver": "u_j2288",
+     "depart_date": "2027-02-02",
+     "return_date": "2027-02-05",
+     "dest_country": "CN",
+     "dest_city": "蘇州",
+     "purpose": "協力会社 蘇州工場 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "no",
+     "exp_air_amount": "60900",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "825",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "130000",
+     "advance_cur": "JPY",
+     "cost_center": "CC-1100"
+    },
+    "wrong": {
+     "depart_date": "2026-02-02"
+    }
+   }
+  },
+  "jp-travel-request/trip-tabs-shadow": {
+   "submit": true,
+   "fields": {
+    "purpose": "協力会社 蘇州工場 歩留まり改善会議への出席および工程監査",
+    "dest_city": "蘇州",
+    "dest_country": "CN",
+    "depart_date": "2027-02-02",
+    "return_date": "2027-02-05",
+    "outbound_flight": "",
+    "return_flight": "",
+    "hotel": "金鶏湖ホテル",
+    "visa_needed": "no",
+    "passport_no": "TK1350380",
+    "passport_expiry": "2031-09-09",
+    "exp_hotel_amount": "825",
+    "exp_hotel_cur": "USD",
+    "exp_air_amount": "60900",
+    "exp_air_cur": "JPY",
+    "advance_amount": "130000",
+    "advance_cur": "JPY",
+    "emp_no": "J-18195",
+    "name": [
+     "伊藤 亮",
+     "伊藤亮"
+    ],
+    "mobile": "070-5662-6643",
+    "approver": "u_j2288",
+    "cost_center": "CC-1100"
+   },
+   "infeasible": [
+    "outbound_flight",
+    "return_flight"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "purpose": "協力会社 蘇州工場 歩留まり改善会議への出席および工程監査",
+     "dest_city": "蘇州",
+     "dest_country": "CN",
+     "depart_date": "2027-02-02",
+     "return_date": "2027-02-05",
+     "hotel": "金鶏湖ホテル",
+     "visa_needed": "no",
+     "passport_no": "TK1350380",
+     "passport_expiry": "2031-09-09",
+     "exp_hotel_amount": "825",
+     "exp_hotel_cur": "USD",
+     "exp_air_amount": "60900",
+     "exp_air_cur": "JPY",
+     "advance_amount": "130000",
+     "advance_cur": "JPY",
+     "emp_no": "J-18195",
+     "name": "伊藤 亮",
+     "mobile": "070-5662-6643",
+     "approver": "u_j2288",
+     "cost_center": "CC-1100"
+    },
+    "wrong": {
+     "passport_no": "TK13503x",
+     "exp_hotel_amount": "8"
+    }
+   }
+  },
+  "jp-travel-request/trip-onepage-sticky": {
+   "submit": true,
+   "fields": {
+    "approver": "u_j2288",
+    "cost_center": "CC-1100",
+    "dest_country": "CN",
+    "dest_city": "蘇州",
+    "depart_date": "2027-02-02",
+    "return_date": "2027-02-05",
+    "purpose": "協力会社 蘇州工場 歩留まり改善会議への出席および工程監査",
+    "visa_needed": "no",
+    "exp_air_amount": "60900",
+    "exp_air_cur": "JPY",
+    "exp_hotel_amount": "825",
+    "exp_hotel_cur": "USD",
+    "advance_amount": "130000",
+    "advance_cur": "JPY",
+    "name": [
+     "伊藤 亮",
+     "伊藤亮"
+    ],
+    "emp_no": "J-18195",
+    "dept": "ga",
+    "email": "r.ito@kestrel-semi.example",
+    "mobile": "070-5662-6643",
+    "title": "課長代理",
+    "outbound_flight": "",
+    "return_flight": "",
+    "hotel": "金鶏湖ホテル",
+    "exp_local_amount": "135",
+    "exp_local_cur": "USD"
+   },
+   "infeasible": [
+    "outbound_flight",
+    "return_flight"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "approver": "u_j2288",
+     "cost_center": "CC-1100",
+     "dest_country": "CN",
+     "dest_city": "蘇州",
+     "depart_date": "2027-02-02",
+     "return_date": "2027-02-05",
+     "purpose": "協力会社 蘇州工場 歩留まり改善会議への出席および工程監査",
+     "visa_needed": "no",
+     "exp_air_amount": "60900",
+     "exp_air_cur": "JPY",
+     "exp_hotel_amount": "825",
+     "exp_hotel_cur": "USD",
+     "advance_amount": "130000",
+     "advance_cur": "JPY",
+     "name": "伊藤 亮",
+     "emp_no": "J-18195",
+     "dept": "ga",
+     "email": "r.ito@kestrel-semi.example",
+     "mobile": "070-5662-6643",
+     "title": "課長代理",
+     "hotel": "金鶏湖ホテル",
+     "exp_local_amount": "135",
+     "exp_local_cur": "USD"
+    },
+    "wrong": {
+     "email": "r.ito at kestrel-semi.example",
+     "emp_no": "J-1"
+    }
+   }
+  }
+ }
+}

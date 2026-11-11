@@ -1,0 +1,67 @@
+{
+ "persona": "vendor-onboarding/e-eval-us-vendor-06",
+ "context": "vendor-onboarding/e-eval-us-vendor-06.md",
+ "split": "eval",
+ "variants": {
+  "vendor-onboarding/eval-us-vendor": {
+   "submit": true,
+   "fields": {
+    "org_name": "Yarrow Automation LLC",
+    "tax_id": "85-9552122",
+    "business_type": "llc",
+    "established": "2013-10-01",
+    "company_address": "4837 Alder Creek Dr, Suite 246, Wilmington, DE 19876",
+    "contact_name": [
+     "Diego Kimura",
+     "Ms. Diego Kimura"
+    ],
+    "contact_title": "Account Manager",
+    "email": "diego.kimura@yarrow.example",
+    "phone_day": "(302) 555-0101",
+    "phone_evening": "",
+    "services": "Factory automation integration and robot maintenance",
+    "service_area": "europe",
+    "gross_sales": "61100000",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "bank_name": "Granite State Mutual Bank",
+    "beneficiary": "Yarrow Automation LLC",
+    "account_number": "635-923847-6",
+    "swift": "GSMBUS2SXXX",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Yarrow Automation LLC",
+     "tax_id": "85-9552122",
+     "business_type": "llc",
+     "established": "2013-10-01",
+     "company_address": "4837 Alder Creek Dr, Suite 246, Wilmington, DE 19876",
+     "contact_name": "Diego Kimura",
+     "contact_title": "Account Manager",
+     "email": "diego.kimura@yarrow.example",
+     "phone_day": "(302) 555-0101",
+     "services": "Factory automation integration and robot maintenance",
+     "service_area": "europe",
+     "gross_sales": "61100000",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Granite State Mutual Bank",
+     "beneficiary": "Yarrow Automation LLC",
+     "account_number": "635-923847-6",
+     "swift": "GSMBUS2SXXX"
+    },
+    "wrong": {
+     "email": "diego.kimura at yarrow.example",
+     "licensing": "licensed"
+    }
+   }
+  }
+ }
+}

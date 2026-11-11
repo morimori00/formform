@@ -1,0 +1,182 @@
+{
+ "persona": "hr-orangehrm/t-emp-018",
+ "context": "hr-orangehrm/t-emp-018.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Ting",
+    "middle_name": "",
+    "last_name": "Tsao",
+    "employee_id": "KST-13598",
+    "create_login": true,
+    "username": "meiting.tsao",
+    "login_status": "enabled",
+    "password": "Wafer-2956z",
+    "confirm_password": "Wafer-2956z"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Ting",
+     "last_name": "Tsao",
+     "employee_id": "KST-13598",
+     "create_login": true,
+     "username": "meiting.tsao",
+     "login_status": "enabled",
+     "password": "Wafer-2956z",
+     "confirm_password": "Wafer-2956z"
+    },
+    "wrong": {
+     "employee_id": "KST-135x",
+     "last_name": "Ts"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Ting",
+    "middle_name": "",
+    "last_name": "Tsao",
+    "employee_id": "KST-13598",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "divorced",
+    "dob": "1991-08-04",
+    "gender": "male"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Ting",
+     "last_name": "Tsao",
+     "employee_id": "KST-13598",
+     "nationality": "TW",
+     "marital": "divorced",
+     "dob": "1991-08-04",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-135x",
+     "first_name": "Mei-"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2026-12-07",
+    "leave_to": "2026-12-11",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2026-12-07",
+     "leave_to": "2026-12-11",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "leave_from": "2025-12-07"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2026-12-07",
+    "leave_to": "2026-12-11",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": ""
+   },
+   "infeasible": [
+    "leave_comment"
+   ],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2026-12-07",
+     "leave_to": "2026-12-11",
+     "partial_days": "none"
+    },
+    "wrong": {
+     "partial_days": "end"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Ting",
+    "middle_name": "",
+    "last_name": "Tsao",
+    "employee_id": "KST-13598",
+    "create_login": true,
+    "username": "meiting.tsao",
+    "login_status": "enabled",
+    "password": "Wafer-2956z",
+    "confirm_password": "Wafer-2956z",
+    "nationality": "TW",
+    "marital": "divorced",
+    "dob": "1991-08-04",
+    "gender": "male",
+    "job_title": "qa_eng",
+    "department": "infosec",
+    "work_location": "sg",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m4228",
+    "joined_date": "2027-02-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Ting",
+     "last_name": "Tsao",
+     "employee_id": "KST-13598",
+     "create_login": true,
+     "username": "meiting.tsao",
+     "login_status": "enabled",
+     "password": "Wafer-2956z",
+     "confirm_password": "Wafer-2956z",
+     "nationality": "TW",
+     "marital": "divorced",
+     "dob": "1991-08-04",
+     "gender": "male",
+     "job_title": "qa_eng",
+     "department": "infosec",
+     "work_location": "sg",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m4228",
+     "joined_date": "2027-02-08"
+    },
+    "wrong": {
+     "employee_id": "KST-135x",
+     "emp_status": "ft_perm"
+    }
+   }
+  }
+ }
+}

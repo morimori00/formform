@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-027",
+ "context": "tw-vendor-master/t-tw-027.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "祥群機電有限公司",
+    "vendor_name_en": "Xiangchun Electromechanical Co., Ltd.",
+    "ubn": "48429087",
+    "owner": "吳美華",
+    "established": "2019-12-07",
+    "capital": "602000000",
+    "org_type": "limited",
+    "postal": "300",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "民生路377號11樓",
+    "tel": "03-176-6865",
+    "fax": "03-176-9682",
+    "contact_name": [
+     "王俊婷",
+     "Wang Chun-ting"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "chunting.wang@xiangchun-electromechanical.example",
+    "contact_mobile": "0955-879-314",
+    "bank_code": "808",
+    "bank_branch": [
+     "香山分行",
+     "香山"
+    ],
+    "account_no": "209014707900",
+    "account_name": "祥群機電有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "USD",
+    "iso9001": true,
+    "iso_expiry": "2029-03-25"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "祥群機電有限公司",
+     "vendor_name_en": "Xiangchun Electromechanical Co., Ltd.",
+     "ubn": "48429087",
+     "owner": "吳美華",
+     "established": "2019-12-07",
+     "capital": "602000000",
+     "org_type": "limited",
+     "postal": "300",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "民生路377號11樓",
+     "tel": "03-176-6865",
+     "fax": "03-176-9682",
+     "contact_name": "王俊婷",
+     "contact_title": "業務專員",
+     "email": "chunting.wang@xiangchun-electromechanical.example",
+     "contact_mobile": "0955-879-314",
+     "bank_code": "808",
+     "bank_branch": "香山分行",
+     "account_no": "209014707900",
+     "account_name": "祥群機電有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "USD",
+     "iso9001": true,
+     "iso_expiry": "2029-03-25"
+    },
+    "wrong": {
+     "ubn": "484290x",
+     "org_type": "corp_shares"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "48429087",
+    "vendor_name_zh": "祥群機電有限公司",
+    "vendor_name_en": "Xiangchun Electromechanical Co., Ltd.",
+    "org_type": "limited",
+    "established": "2019-12-07",
+    "owner": "吳美華",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "民生路377號11樓",
+    "postal": "300",
+    "tel": "03-176-6865",
+    "fax": "03-176-9682",
+    "contact_name": [
+     "王俊婷",
+     "Wang Chun-ting"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "contact_mobile": "0955-879-314",
+    "email": "chunting.wang@xiangchun-electromechanical.example",
+    "bank_code": "808",
+    "bank_branch": [
+     "香山分行",
+     "香山"
+    ],
+    "account_no": "209014707900",
+    "account_name": "祥群機電有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "USD",
+    "iso9001": true,
+    "iso_expiry": "2029-03-25",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "48429087",
+     "vendor_name_zh": "祥群機電有限公司",
+     "vendor_name_en": "Xiangchun Electromechanical Co., Ltd.",
+     "org_type": "limited",
+     "established": "2019-12-07",
+     "owner": "吳美華",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "民生路377號11樓",
+     "postal": "300",
+     "tel": "03-176-6865",
+     "fax": "03-176-9682",
+     "contact_name": "王俊婷",
+     "contact_title": "業務專員",
+     "contact_mobile": "0955-879-314",
+     "email": "chunting.wang@xiangchun-electromechanical.example",
+     "bank_code": "808",
+     "bank_branch": "香山分行",
+     "account_no": "209014707900",
+     "account_name": "祥群機電有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "USD",
+     "iso9001": true,
+     "iso_expiry": "2029-03-25"
+    },
+    "wrong": {
+     "ubn": "484290x",
+     "org_type": "corp_shares"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "48429087",
+    "vendor_name_zh": "祥群機電有限公司",
+    "owner": "吳美華",
+    "established": "2019-12-07",
+    "org_type": "limited",
+    "capital": "602000000",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "民生路377號11樓",
+    "postal": "300",
+    "tel": "03-176-6865",
+    "contact_name": [
+     "王俊婷",
+     "Wang Chun-ting"
+    ],
+    "email": "chunting.wang@xiangchun-electromechanical.example",
+    "bank_code": "808",
+    "account_no": "209014707900",
+    "account_name": "祥群機電有限公司",
+    "payment_terms": "net30",
+    "currency": "USD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "48429087",
+     "vendor_name_zh": "祥群機電有限公司",
+     "owner": "吳美華",
+     "established": "2019-12-07",
+     "org_type": "limited",
+     "capital": "602000000",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "民生路377號11樓",
+     "postal": "300",
+     "tel": "03-176-6865",
+     "contact_name": "王俊婷",
+     "email": "chunting.wang@xiangchun-electromechanical.example",
+     "bank_code": "808",
+     "account_no": "209014707900",
+     "account_name": "祥群機電有限公司",
+     "payment_terms": "net30",
+     "currency": "USD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "484290x",
+     "payment_terms": "net45"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "祥群機電有限公司",
+    "vendor_name_en": "Xiangchun Electromechanical Co., Ltd.",
+    "foreign": false,
+    "org_type": "limited",
+    "ubn": "48429087",
+    "owner": "吳美華",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "民生路377號11樓",
+    "postal": "300",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "03-176-6865",
+    "contact_name": [
+     "王俊婷",
+     "Wang Chun-ting"
+    ],
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "email": "chunting.wang@xiangchun-electromechanical.example",
+    "account_no": "209014707900",
+    "account_name": "祥群機電有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "USD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "祥群機電有限公司",
+     "vendor_name_en": "Xiangchun Electromechanical Co., Ltd.",
+     "foreign": false,
+     "org_type": "limited",
+     "ubn": "48429087",
+     "owner": "吳美華",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "民生路377號11樓",
+     "postal": "300",
+     "tel": "03-176-6865",
+     "contact_name": "王俊婷",
+     "contact_title": "業務專員",
+     "email": "chunting.wang@xiangchun-electromechanical.example",
+     "account_no": "209014707900",
+     "account_name": "祥群機電有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "USD"
+    },
+    "wrong": {
+     "ubn": "484290x",
+     "contact_name": "王"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "808",
+    "bank_branch": [
+     "香山分行",
+     "香山"
+    ],
+    "account_no": "209014707900",
+    "account_name": "祥群機電有限公司",
+    "payment_terms": "net30",
+    "currency": "USD",
+    "invoice_type": "egui3",
+    "county": "新竹市",
+    "district": "香山區",
+    "address_line": "民生路377號11樓",
+    "postal": "300",
+    "tel": "03-176-6865",
+    "fax": "03-176-9682",
+    "vendor_name_zh": "祥群機電有限公司",
+    "ubn": "48429087",
+    "owner": "吳美華",
+    "org_type": "limited",
+    "established": "2019-12-07",
+    "capital": "602000000",
+    "vendor_name_en": "Xiangchun Electromechanical Co., Ltd.",
+    "contact_title": [
+     "業務專員",
+     "Sales Representative"
+    ],
+    "contact_mobile": "0955-879-314",
+    "contact_name": [
+     "王俊婷",
+     "Wang Chun-ting"
+    ],
+    "email": "chunting.wang@xiangchun-electromechanical.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "808",
+     "bank_branch": "香山分行",
+     "account_no": "209014707900",
+     "account_name": "祥群機電有限公司",
+     "payment_terms": "net30",
+     "currency": "USD",
+     "invoice_type": "egui3",
+     "county": "新竹市",
+     "district": "香山區",
+     "address_line": "民生路377號11樓",
+     "postal": "300",
+     "tel": "03-176-6865",
+     "fax": "03-176-9682",
+     "vendor_name_zh": "祥群機電有限公司",
+     "ubn": "48429087",
+     "owner": "吳美華",
+     "org_type": "limited",
+     "established": "2019-12-07",
+     "capital": "602000000",
+     "vendor_name_en": "Xiangchun Electromechanical Co., Ltd.",
+     "contact_title": "業務專員",
+     "contact_mobile": "0955-879-314",
+     "contact_name": "王俊婷",
+     "email": "chunting.wang@xiangchun-electromechanical.example"
+    },
+    "wrong": {
+     "account_no": "2090147079x",
+     "contact_title": "業務"
+    }
+   }
+  }
+ }
+}

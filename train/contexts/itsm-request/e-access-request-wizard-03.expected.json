@@ -1,0 +1,37 @@
+{
+ "persona": "itsm-request/e-access-request-wizard-03",
+ "context": "itsm-request/e-access-request-wizard-03.md",
+ "split": "eval",
+ "variants": {
+  "itsm-request/access-request-wizard": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g69838",
+    "opened_for_by": "u_m7277",
+    "request_type": "app_access",
+    "application": "mes",
+    "app_role": "viewer",
+    "access_level": "ro",
+    "needed_by": "2026-11-21",
+    "justification": "Process Integration Engineer in Finance; needs MES (Manufacturing Execution) for daily work."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g69838",
+     "opened_for_by": "u_m7277",
+     "request_type": "app_access",
+     "application": "mes",
+     "app_role": "viewer",
+     "access_level": "ro",
+     "needed_by": "2026-11-21",
+     "justification": "Process Integration Engineer in Finance; needs MES (Manufacturing Execution) for daily work."
+    },
+    "wrong": {
+     "request_type": "hardware"
+    }
+   }
+  }
+ }
+}

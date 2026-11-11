@@ -1,0 +1,180 @@
+{
+ "persona": "hr-orangehrm/t-emp-002",
+ "context": "hr-orangehrm/t-emp-002.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hannah",
+    "middle_name": "",
+    "last_name": "Achebe",
+    "employee_id": "KST-36757",
+    "create_login": true,
+    "username": "hannah.achebe",
+    "login_status": "disabled",
+    "password": "Wafer!7317x",
+    "confirm_password": "Wafer!7317x"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hannah",
+     "last_name": "Achebe",
+     "employee_id": "KST-36757",
+     "create_login": true,
+     "username": "hannah.achebe",
+     "login_status": "disabled",
+     "password": "Wafer!7317x",
+     "confirm_password": "Wafer!7317x"
+    },
+    "wrong": {
+     "employee_id": "KST-367x",
+     "last_name": "Ach"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hannah",
+    "middle_name": "",
+    "last_name": "Achebe",
+    "employee_id": "KST-36757",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "PH",
+    "marital": "single",
+    "dob": "1987-01-26",
+    "gender": "male"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hannah",
+     "last_name": "Achebe",
+     "employee_id": "KST-36757",
+     "nationality": "PH",
+     "marital": "single",
+     "dob": "1987-01-26",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-367x",
+     "gender": "female"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2026-12-05",
+    "leave_to": "2026-12-08",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Hannah Lindqvist"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2026-12-05",
+     "leave_to": "2026-12-08",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Hannah Lindqvist"
+    },
+    "wrong": {
+     "leave_from": "2025-12-05"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2026-12-05",
+    "leave_to": "2026-12-08",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Hannah Lindqvist"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2026-12-05",
+     "leave_to": "2026-12-08",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Hannah Lindqvist"
+    },
+    "wrong": {
+     "partial_days": "end"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Hannah",
+    "middle_name": "",
+    "last_name": "Achebe",
+    "employee_id": "KST-36757",
+    "create_login": true,
+    "username": "hannah.achebe",
+    "login_status": "disabled",
+    "password": "Wafer!7317x",
+    "confirm_password": "Wafer!7317x",
+    "nationality": "PH",
+    "marital": "single",
+    "dob": "1987-01-26",
+    "gender": "male",
+    "job_title": "process_int_eng",
+    "department": "procurement",
+    "work_location": "sg",
+    "emp_status": "pt",
+    "supervisor": "u_m2085",
+    "joined_date": "2026-11-17"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Hannah",
+     "last_name": "Achebe",
+     "employee_id": "KST-36757",
+     "create_login": true,
+     "username": "hannah.achebe",
+     "login_status": "disabled",
+     "password": "Wafer!7317x",
+     "confirm_password": "Wafer!7317x",
+     "nationality": "PH",
+     "marital": "single",
+     "dob": "1987-01-26",
+     "gender": "male",
+     "job_title": "process_int_eng",
+     "department": "procurement",
+     "work_location": "sg",
+     "emp_status": "pt",
+     "supervisor": "u_m2085",
+     "joined_date": "2026-11-17"
+    },
+    "wrong": {
+     "employee_id": "KST-367x",
+     "first_name": "Han"
+    }
+   }
+  }
+ }
+}

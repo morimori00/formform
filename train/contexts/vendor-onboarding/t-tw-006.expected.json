@@ -1,0 +1,73 @@
+{
+ "persona": "vendor-onboarding/t-tw-006",
+ "context": "vendor-onboarding/t-tw-006.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Lige Environmental Technology Co., Ltd.",
+     "立格環保科技股份有限公司"
+    ],
+    "tax_id": "40553338",
+    "company_address": [
+     "338 桃園市蘆竹區民生路361號3樓",
+     "3F., No. 361, Minsheng Rd., Luzhu Dist., Taoyuan City 338"
+    ],
+    "established": "2001-06-25",
+    "business_type": "corporation",
+    "gross_sales": "490000000",
+    "contact_name": [
+     "邱俊翰",
+     "Chiu Chun-han"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "chunhan.chiu@lige-environmental.example",
+    "phone_day": "03-407-4943",
+    "phone_evening": "",
+    "bank_name": [
+     "玉山商業銀行",
+     "E.SUN Commercial Bank"
+    ],
+    "beneficiary": [
+     "立格環保科技股份有限公司",
+     "Lige Environmental Technology Co., Ltd."
+    ],
+    "account_number": "2449005172130",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Lige Environmental Technology Co., Ltd.",
+     "tax_id": "40553338",
+     "company_address": "338 桃園市蘆竹區民生路361號3樓",
+     "established": "2001-06-25",
+     "business_type": "corporation",
+     "gross_sales": "490000000",
+     "contact_name": "邱俊翰",
+     "contact_title": "專案經理",
+     "email": "chunhan.chiu@lige-environmental.example",
+     "phone_day": "03-407-4943",
+     "bank_name": "玉山商業銀行",
+     "beneficiary": "立格環保科技股份有限公司",
+     "account_number": "2449005172130",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "405533x",
+     "bank_name": "玉山商"
+    }
+   }
+  }
+ }
+}

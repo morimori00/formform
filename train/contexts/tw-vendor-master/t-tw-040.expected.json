@@ -1,0 +1,354 @@
+{
+ "persona": "tw-vendor-master/t-tw-040",
+ "context": "tw-vendor-master/t-tw-040.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "耀格物流有限公司",
+    "vendor_name_en": "Yaoge Logistics Co., Ltd.",
+    "ubn": "49783959",
+    "owner": "賴美宏",
+    "established": "2009-02-12",
+    "capital": "",
+    "org_type": "limited",
+    "postal": "104",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "民生路186號6樓",
+    "tel": "02-3450-0770",
+    "fax": "",
+    "contact_name": [
+     "劉家婷",
+     "Liu Chia-ting"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "chiating.liu@yaoge-logistics.example",
+    "contact_mobile": "0916-513-306",
+    "bank_code": "812",
+    "bank_branch": [
+     "中山分行",
+     "中山"
+    ],
+    "account_no": "44869714957369",
+    "account_name": "耀格物流有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "USD",
+    "iso9001": true,
+    "iso_expiry": "2027-11-01"
+   },
+   "infeasible": [
+    "capital",
+    "fax"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "耀格物流有限公司",
+     "vendor_name_en": "Yaoge Logistics Co., Ltd.",
+     "ubn": "49783959",
+     "owner": "賴美宏",
+     "established": "2009-02-12",
+     "org_type": "limited",
+     "postal": "104",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "民生路186號6樓",
+     "tel": "02-3450-0770",
+     "contact_name": "劉家婷",
+     "contact_title": "總經理特助",
+     "email": "chiating.liu@yaoge-logistics.example",
+     "contact_mobile": "0916-513-306",
+     "bank_code": "812",
+     "bank_branch": "中山分行",
+     "account_no": "44869714957369",
+     "account_name": "耀格物流有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "USD",
+     "iso9001": true,
+     "iso_expiry": "2027-11-01"
+    },
+    "wrong": {
+     "ubn": "497839x",
+     "vendor_name_en": "Yaoge Logist"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "49783959",
+    "vendor_name_zh": "耀格物流有限公司",
+    "vendor_name_en": "Yaoge Logistics Co., Ltd.",
+    "org_type": "limited",
+    "established": "2009-02-12",
+    "owner": "賴美宏",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "民生路186號6樓",
+    "postal": "104",
+    "tel": "02-3450-0770",
+    "fax": "",
+    "contact_name": [
+     "劉家婷",
+     "Liu Chia-ting"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "0916-513-306",
+    "email": "chiating.liu@yaoge-logistics.example",
+    "bank_code": "812",
+    "bank_branch": [
+     "中山分行",
+     "中山"
+    ],
+    "account_no": "44869714957369",
+    "account_name": "耀格物流有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "USD",
+    "iso9001": true,
+    "iso_expiry": "2027-11-01",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "fax"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "49783959",
+     "vendor_name_zh": "耀格物流有限公司",
+     "vendor_name_en": "Yaoge Logistics Co., Ltd.",
+     "org_type": "limited",
+     "established": "2009-02-12",
+     "owner": "賴美宏",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "民生路186號6樓",
+     "postal": "104",
+     "tel": "02-3450-0770",
+     "contact_name": "劉家婷",
+     "contact_title": "總經理特助",
+     "contact_mobile": "0916-513-306",
+     "email": "chiating.liu@yaoge-logistics.example",
+     "bank_code": "812",
+     "bank_branch": "中山分行",
+     "account_no": "44869714957369",
+     "account_name": "耀格物流有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "USD",
+     "iso9001": true,
+     "iso_expiry": "2027-11-01"
+    },
+    "wrong": {
+     "ubn": "497839x",
+     "org_type": "corp_shares"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "49783959",
+    "vendor_name_zh": "耀格物流有限公司",
+    "owner": "賴美宏",
+    "established": "2009-02-12",
+    "org_type": "limited",
+    "capital": "",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "民生路186號6樓",
+    "postal": "104",
+    "tel": "02-3450-0770",
+    "contact_name": [
+     "劉家婷",
+     "Liu Chia-ting"
+    ],
+    "email": "chiating.liu@yaoge-logistics.example",
+    "bank_code": "812",
+    "account_no": "44869714957369",
+    "account_name": "耀格物流有限公司",
+    "payment_terms": "net30",
+    "currency": "USD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [
+    "capital"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "49783959",
+     "vendor_name_zh": "耀格物流有限公司",
+     "owner": "賴美宏",
+     "established": "2009-02-12",
+     "org_type": "limited",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "民生路186號6樓",
+     "postal": "104",
+     "tel": "02-3450-0770",
+     "contact_name": "劉家婷",
+     "email": "chiating.liu@yaoge-logistics.example",
+     "bank_code": "812",
+     "account_no": "44869714957369",
+     "account_name": "耀格物流有限公司",
+     "payment_terms": "net30",
+     "currency": "USD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "497839x",
+     "currency": "TWD"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "耀格物流有限公司",
+    "vendor_name_en": "Yaoge Logistics Co., Ltd.",
+    "foreign": false,
+    "org_type": "limited",
+    "ubn": "49783959",
+    "owner": "賴美宏",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "民生路186號6樓",
+    "postal": "104",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "02-3450-0770",
+    "contact_name": [
+     "劉家婷",
+     "Liu Chia-ting"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "chiating.liu@yaoge-logistics.example",
+    "account_no": "44869714957369",
+    "account_name": "耀格物流有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "USD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "耀格物流有限公司",
+     "vendor_name_en": "Yaoge Logistics Co., Ltd.",
+     "foreign": false,
+     "org_type": "limited",
+     "ubn": "49783959",
+     "owner": "賴美宏",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "民生路186號6樓",
+     "postal": "104",
+     "tel": "02-3450-0770",
+     "contact_name": "劉家婷",
+     "contact_title": "總經理特助",
+     "email": "chiating.liu@yaoge-logistics.example",
+     "account_no": "44869714957369",
+     "account_name": "耀格物流有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "USD"
+    },
+    "wrong": {
+     "ubn": "497839x",
+     "vendor_name_en": "Yaoge Logist"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "812",
+    "bank_branch": [
+     "中山分行",
+     "中山"
+    ],
+    "account_no": "44869714957369",
+    "account_name": "耀格物流有限公司",
+    "payment_terms": "net30",
+    "currency": "USD",
+    "invoice_type": "egui3",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "民生路186號6樓",
+    "postal": "104",
+    "tel": "02-3450-0770",
+    "fax": "",
+    "vendor_name_zh": "耀格物流有限公司",
+    "ubn": "49783959",
+    "owner": "賴美宏",
+    "org_type": "limited",
+    "established": "2009-02-12",
+    "capital": "",
+    "vendor_name_en": "Yaoge Logistics Co., Ltd.",
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "0916-513-306",
+    "contact_name": [
+     "劉家婷",
+     "Liu Chia-ting"
+    ],
+    "email": "chiating.liu@yaoge-logistics.example"
+   },
+   "infeasible": [
+    "fax",
+    "capital"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "812",
+     "bank_branch": "中山分行",
+     "account_no": "44869714957369",
+     "account_name": "耀格物流有限公司",
+     "payment_terms": "net30",
+     "currency": "USD",
+     "invoice_type": "egui3",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "民生路186號6樓",
+     "postal": "104",
+     "tel": "02-3450-0770",
+     "vendor_name_zh": "耀格物流有限公司",
+     "ubn": "49783959",
+     "owner": "賴美宏",
+     "org_type": "limited",
+     "established": "2009-02-12",
+     "vendor_name_en": "Yaoge Logistics Co., Ltd.",
+     "contact_title": "總經理特助",
+     "contact_mobile": "0916-513-306",
+     "contact_name": "劉家婷",
+     "email": "chiating.liu@yaoge-logistics.example"
+    },
+    "wrong": {
+     "account_no": "448697149573x",
+     "established": "2008-02-12"
+    }
+   }
+  }
+ }
+}

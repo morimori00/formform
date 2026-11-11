@@ -1,0 +1,54 @@
+{
+ "persona": "kyc-account-opening/e-eval-salary-account-06",
+ "context": "kyc-account-opening/e-eval-salary-account-06.md",
+ "split": "eval",
+ "variants": {
+  "kyc-account-opening/eval-salary-account": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Tung Pin-Hsiang",
+     "Pin-Hsiang Tung"
+    ],
+    "gender": "male",
+    "dob": "1971-05-19",
+    "nationality": "TW",
+    "id_form": "national_id",
+    "phone": "+886 928 855 704",
+    "email": "pinhsiang.tung@inbox.example",
+    "address": [
+     "12F, No. 131, Ln. 181, Nanjing E. Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "12F, No. 131, Ln. 181, Nanjing E. Rd., Zhongshan Dist., Taipei City 104"
+    ],
+    "mother_maiden": "Ho",
+    "education": "doctorate",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "132000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Tung Pin-Hsiang",
+     "gender": "male",
+     "dob": "1971-05-19",
+     "nationality": "TW",
+     "id_form": "national_id",
+     "phone": "+886 928 855 704",
+     "email": "pinhsiang.tung@inbox.example",
+     "address": "12F, No. 131, Ln. 181, Nanjing E. Rd., Zhongshan Dist., Taipei City 104, Taiwan",
+     "mother_maiden": "Ho",
+     "education": "doctorate",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "132000"
+    },
+    "wrong": {
+     "email": "pinhsiang.tung at inbox.example",
+     "full_name": "Tung Pi"
+    }
+   }
+  }
+ }
+}

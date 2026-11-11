@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-033",
+ "context": "kyc-account-opening/t-kyc-033.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-26720",
+    "full_name": [
+     "Yang Mei-Ling",
+     "Mei-Ling Yang"
+    ],
+    "spouse_name": "Liao Ya-Hsuan",
+    "gender": "male",
+    "marital": "married",
+    "dob": "1965-12-19",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "D236615024",
+    "id_proof": "national_id",
+    "address": [
+     "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "phone": "+886 958 796 073",
+    "email": "meiling.yang@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Yang Mei-Ling",
+     "Mei-Ling Yang"
+    ],
+    "sign_date": "2026-11-08",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-26720",
+     "full_name": "Yang Mei-Ling",
+     "spouse_name": "Liao Ya-Hsuan",
+     "gender": "male",
+     "marital": "married",
+     "dob": "1965-12-19",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "D236615024",
+     "id_proof": "national_id",
+     "address": "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "phone": "+886 958 796 073",
+     "email": "meiling.yang@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Yang Mei-Ling",
+     "sign_date": "2026-11-08"
+    },
+    "wrong": {
+     "tax_id": "D2366150x",
+     "gender": "female"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yang Mei-Ling",
+     "Mei-Ling Yang"
+    ],
+    "dob": "1965-12-19",
+    "mother_maiden": "",
+    "phone": "+886 958 796 073",
+    "email": "meiling.yang@inbox.example",
+    "address": [
+     "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "education": "associate",
+    "id_form": "national_id",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "129000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Yang Mei-Ling",
+     "dob": "1965-12-19",
+     "phone": "+886 958 796 073",
+     "email": "meiling.yang@inbox.example",
+     "address": "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "education": "associate",
+     "id_form": "national_id",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "129000"
+    },
+    "wrong": {
+     "email": "meiling.yang at inbox.example",
+     "phone": "+886 958"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yang Mei-Ling",
+     "Mei-Ling Yang"
+    ],
+    "dob": "1965-12-19",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Liao Ya-Hsuan",
+    "address": [
+     "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "email": "meiling.yang@inbox.example",
+    "phone": "+886 958 796 073",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "D236615024",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-26720"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Yang Mei-Ling",
+     "dob": "1965-12-19",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Liao Ya-Hsuan",
+     "address": "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "email": "meiling.yang@inbox.example",
+     "phone": "+886 958 796 073",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "D236615024",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-26720"
+    },
+    "wrong": {
+     "email": "meiling.yang at inbox.example",
+     "phone": "+886 958"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yang Mei-Ling",
+     "Mei-Ling Yang"
+    ],
+    "dob": "1965-12-19",
+    "gender": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 958 796 073",
+    "email": "meiling.yang@inbox.example",
+    "address": [
+     "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "D236615024",
+    "addr_proof": "tax_bill",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "education": "associate",
+    "monthly_income": "129000",
+    "application_no": "LCB-AO-2026-26720",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Yang Mei-Ling",
+     "dob": "1965-12-19",
+     "gender": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 958 796 073",
+     "email": "meiling.yang@inbox.example",
+     "address": "14F, No. 36, Ln. 69, Jianguo Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "D236615024",
+     "addr_proof": "tax_bill",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "education": "associate",
+     "monthly_income": "129000",
+     "application_no": "LCB-AO-2026-26720"
+    },
+    "wrong": {
+     "email": "meiling.yang at inbox.example",
+     "full_name": "Yang M"
+    }
+   }
+  }
+ }
+}

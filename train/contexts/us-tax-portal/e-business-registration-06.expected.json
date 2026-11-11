@@ -1,0 +1,53 @@
+{
+ "persona": "us-tax-portal/e-business-registration-06",
+ "context": "us-tax-portal/e-business-registration-06.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/business-registration": {
+   "submit": true,
+   "fields": {
+    "legal_name": "Quillon Bioscience Inc.",
+    "fein": "23-6997510",
+    "business_type": "corporation",
+    "established": "2009-09-18",
+    "street1": "5957 Fox Run Ave",
+    "street2": "",
+    "city": "Wilmington",
+    "state": "DE",
+    "zip": "19884",
+    "first_name": "Omar",
+    "last_name": "Vasquez",
+    "position": "Chief Financial Officer",
+    "email": "ovasquez@quillon.example",
+    "day_phone": "(302) 555-0133",
+    "portal_pin": "8524685"
+   },
+   "infeasible": [
+    "street2"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "legal_name": "Quillon Bioscience Inc.",
+     "fein": "23-6997510",
+     "business_type": "corporation",
+     "established": "2009-09-18",
+     "street1": "5957 Fox Run Ave",
+     "city": "Wilmington",
+     "state": "DE",
+     "zip": "19884",
+     "first_name": "Omar",
+     "last_name": "Vasquez",
+     "position": "Chief Financial Officer",
+     "email": "ovasquez@quillon.example",
+     "day_phone": "(302) 555-0133",
+     "portal_pin": "8524685"
+    },
+    "wrong": {
+     "fein": "23-69975x",
+     "day_phone": "(302) 5"
+    }
+   }
+  }
+ }
+}

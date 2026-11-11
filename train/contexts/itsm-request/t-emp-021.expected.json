@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-021",
+ "context": "itsm-request/t-emp-021.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g36395",
+    "laptop_model": "eng16_64",
+    "location": "hsp_fab2",
+    "needed_by": "2026-12-26",
+    "extra_monitor": false,
+    "cost_center": "CC-4304",
+    "justification": "Current laptop is out of warranty and cannot run the new Data Platform toolchain."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g36395",
+     "laptop_model": "eng16_64",
+     "location": "hsp_fab2",
+     "needed_by": "2026-12-26",
+     "extra_monitor": false,
+     "cost_center": "CC-4304",
+     "justification": "Current laptop is out of warranty and cannot run the new Data Platform toolchain."
+    },
+    "wrong": {
+     "cost_center": "CC-43x",
+     "needed_by": "2025-12-26"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16_64",
+    "extra_monitor": false,
+    "location": "hsp_fab2",
+    "needed_by": "2026-12-26",
+    "requested_for": "u_g36395",
+    "cost_center": "CC-4304",
+    "justification": "Current laptop is out of warranty and cannot run the new Data Platform toolchain.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16_64",
+     "extra_monitor": false,
+     "location": "hsp_fab2",
+     "needed_by": "2026-12-26",
+     "requested_for": "u_g36395",
+     "cost_center": "CC-4304",
+     "justification": "Current laptop is out of warranty and cannot run the new Data Platform toolchain."
+    },
+    "wrong": {
+     "cost_center": "CC-43x",
+     "needed_by": "2025-12-26"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g36395",
+    "contact_pref": "self_service",
+    "inc_category": "network",
+    "inc_subcategory": "wifi",
+    "ci": "KST-NB-40489",
+    "impact": "1",
+    "urgency": "1",
+    "assign_group": "netops",
+    "short_desc": "Wi-Fi drops every few minutes on floor 10",
+    "inc_desc": "Laptop loses the corporate Wi-Fi every 5–10 minutes near meeting room 10-470. Wired dock works. Started this week."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g36395",
+     "contact_pref": "self_service",
+     "inc_category": "network",
+     "inc_subcategory": "wifi",
+     "ci": "KST-NB-40489",
+     "impact": "1",
+     "urgency": "1",
+     "assign_group": "netops",
+     "short_desc": "Wi-Fi drops every few minutes on floor 10",
+     "inc_desc": "Laptop loses the corporate Wi-Fi every 5–10 minutes near meeting room 10-470. Wired dock works. Started this week."
+    },
+    "wrong": {
+     "short_desc": "Wi-Fi drops every fe"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Wi-Fi drops every few minutes on floor 10",
+    "inc_desc": "Laptop loses the corporate Wi-Fi every 5–10 minutes near meeting room 10-470. Wired dock works. Started this week.",
+    "caller": "u_g36395",
+    "ci": "KST-NB-40489",
+    "contact_pref": "self_service",
+    "inc_category": "network",
+    "inc_subcategory": "wifi",
+    "impact": "1",
+    "urgency": "1",
+    "assign_group": "netops"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Wi-Fi drops every few minutes on floor 10",
+     "inc_desc": "Laptop loses the corporate Wi-Fi every 5–10 minutes near meeting room 10-470. Wired dock works. Started this week.",
+     "caller": "u_g36395",
+     "ci": "KST-NB-40489",
+     "contact_pref": "self_service",
+     "inc_category": "network",
+     "inc_subcategory": "wifi",
+     "impact": "1",
+     "urgency": "1",
+     "assign_group": "netops"
+    },
+    "wrong": {
+     "inc_category": "inquiry"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g36395",
+    "location": "hsp_fab2",
+    "cost_center": "CC-4304",
+    "laptop_model": "eng16_64",
+    "needed_by": "2026-12-26",
+    "extra_monitor": false,
+    "justification": "Current laptop is out of warranty and cannot run the new Data Platform toolchain."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g36395",
+     "location": "hsp_fab2",
+     "cost_center": "CC-4304",
+     "laptop_model": "eng16_64",
+     "needed_by": "2026-12-26",
+     "extra_monitor": false,
+     "justification": "Current laptop is out of warranty and cannot run the new Data Platform toolchain."
+    },
+    "wrong": {
+     "cost_center": "CC-43x",
+     "needed_by": "2025-12-26"
+    }
+   }
+  }
+ }
+}

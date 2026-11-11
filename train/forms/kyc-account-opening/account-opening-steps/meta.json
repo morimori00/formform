@@ -1,0 +1,222 @@
+{
+  "family": "kyc-account-opening",
+  "variant": "account-opening-steps",
+  "split": "train",
+  "title": "Account Opening Form",
+  "language": "en",
+  "source": "Jotform templates kyc-form, account-opening-form (field lists from public template pages)",
+  "context": "contexts/kyc-tsai-minghan.md",
+  "url": "forms/kyc-account-opening/account-opening-steps/index.html",
+  "pages": 3,
+  "goal": "Fill in this bank KYC / account form for the customer using the dossier in the context, then submit.",
+  "contexts": [
+    "kyc-tsai-minghan.md"
+  ],
+  "entry": "index.html",
+  "submit": true,
+  "locale": "en",
+  "personas": [
+    "kyc-tsai-minghan",
+    "kyc-account-opening/t-kyc-001",
+    "kyc-account-opening/t-kyc-002",
+    "kyc-account-opening/t-kyc-003",
+    "kyc-account-opening/t-kyc-004",
+    "kyc-account-opening/t-kyc-005",
+    "kyc-account-opening/t-kyc-006",
+    "kyc-account-opening/t-kyc-007",
+    "kyc-account-opening/t-kyc-008",
+    "kyc-account-opening/t-kyc-009",
+    "kyc-account-opening/t-kyc-010",
+    "kyc-account-opening/t-kyc-011",
+    "kyc-account-opening/t-kyc-012",
+    "kyc-account-opening/t-kyc-013",
+    "kyc-account-opening/t-kyc-014",
+    "kyc-account-opening/t-kyc-015",
+    "kyc-account-opening/t-kyc-016",
+    "kyc-account-opening/t-kyc-017",
+    "kyc-account-opening/t-kyc-018",
+    "kyc-account-opening/t-kyc-019",
+    "kyc-account-opening/t-kyc-020",
+    "kyc-account-opening/t-kyc-021",
+    "kyc-account-opening/t-kyc-022",
+    "kyc-account-opening/t-kyc-023",
+    "kyc-account-opening/t-kyc-024",
+    "kyc-account-opening/t-kyc-025",
+    "kyc-account-opening/t-kyc-026",
+    "kyc-account-opening/t-kyc-027",
+    "kyc-account-opening/t-kyc-028",
+    "kyc-account-opening/t-kyc-029",
+    "kyc-account-opening/t-kyc-030",
+    "kyc-account-opening/t-kyc-031",
+    "kyc-account-opening/t-kyc-032",
+    "kyc-account-opening/t-kyc-033",
+    "kyc-account-opening/t-kyc-034",
+    "kyc-account-opening/t-kyc-035",
+    "kyc-account-opening/t-kyc-036",
+    "kyc-account-opening/t-kyc-037",
+    "kyc-account-opening/t-kyc-038",
+    "kyc-account-opening/t-kyc-039",
+    "kyc-account-opening/t-kyc-040"
+  ],
+  "success": {
+    "require_submitted": true,
+    "rule": "all non-infeasible fields match expected (after normalization), infeasible fields empty, and the form was submitted"
+  },
+  "reject_on_first_submit": null,
+  "fields": [
+    {
+      "label": "Full Name",
+      "key": "full_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "Tsai Ming-Han",
+      "accept": [
+        "Ming-Han Tsai"
+      ],
+      "normalization": "name",
+      "required": true,
+      "id": "full_name",
+      "source": "state",
+      "expected": [
+        "Tsai Ming-Han",
+        "Ming-Han Tsai"
+      ]
+    },
+    {
+      "label": "Date of Birth",
+      "key": "dob",
+      "kind": "datepicker",
+      "page": 0,
+      "expected_value_from_context": "1981-05-30",
+      "normalization": "date",
+      "required": true,
+      "id": "dob",
+      "source": "state",
+      "expected": "1981-05-30"
+    },
+    {
+      "label": "Mother's Maiden Name",
+      "key": "mother_maiden",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "",
+      "normalization": "text",
+      "required": false,
+      "id": "mother_maiden",
+      "source": "state",
+      "expected": ""
+    },
+    {
+      "label": "Telephone Number",
+      "key": "phone",
+      "kind": "tel",
+      "page": 1,
+      "expected_value_from_context": "+886 935 662 071",
+      "normalization": "phone",
+      "required": true,
+      "id": "phone",
+      "source": "state",
+      "expected": "+886 935 662 071"
+    },
+    {
+      "label": "Email Address",
+      "key": "email",
+      "kind": "email",
+      "page": 1,
+      "expected_value_from_context": "minghan.tsai@inbox.example",
+      "normalization": "email",
+      "required": true,
+      "id": "email",
+      "source": "state",
+      "expected": "minghan.tsai@inbox.example"
+    },
+    {
+      "label": "Address",
+      "key": "address",
+      "kind": "textarea",
+      "page": 1,
+      "expected_value_from_context": "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+      "accept": [
+        "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114"
+      ],
+      "normalization": "fuzzy",
+      "required": true,
+      "id": "address",
+      "source": "state",
+      "expected": [
+        "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan",
+        "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114"
+      ]
+    },
+    {
+      "label": "Education Level",
+      "key": "education",
+      "kind": "dropdown",
+      "page": 2,
+      "expected_value_from_context": "master",
+      "normalization": "choice",
+      "required": true,
+      "id": "education",
+      "source": "state",
+      "expected": "master"
+    },
+    {
+      "label": "Form of Identification",
+      "key": "id_form",
+      "kind": "select",
+      "page": 2,
+      "expected_value_from_context": "national_id",
+      "normalization": "choice",
+      "required": true,
+      "id": "id_form",
+      "source": "state",
+      "expected": "national_id"
+    },
+    {
+      "label": "Account Type",
+      "key": "account_type",
+      "kind": "radio",
+      "page": 2,
+      "expected_value_from_context": "savings",
+      "normalization": "choice",
+      "required": true,
+      "id": "account_type",
+      "source": "state",
+      "expected": "savings"
+    },
+    {
+      "label": "Account Category",
+      "key": "account_category",
+      "kind": "radio",
+      "page": 2,
+      "expected_value_from_context": "individual",
+      "normalization": "choice",
+      "required": true,
+      "id": "account_category",
+      "source": "state",
+      "expected": "individual"
+    },
+    {
+      "label": "Monthly Salary (TWD)",
+      "key": "monthly_income",
+      "kind": "number",
+      "page": 2,
+      "expected_value_from_context": "185000",
+      "normalization": "amount",
+      "required": true,
+      "id": "monthly_income",
+      "source": "state",
+      "expected": "185000"
+    }
+  ],
+  "hard_states_supported": [
+    "prefilled",
+    "partial",
+    "wrong",
+    "loading",
+    "multi_page",
+    "custom_dropdown",
+    "date_picker"
+  ],
+  "notes": "Mother's maiden name is optional and must stay empty (dossier says not collected)."
+}

@@ -1,0 +1,352 @@
+{
+ "persona": "tw-vendor-master/t-tw-019",
+ "context": "tw-vendor-master/t-tw-019.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "順宇精密工業股份有限公司",
+    "vendor_name_en": "Shunyu Precision Industrial Co., Ltd.",
+    "ubn": "20387097",
+    "owner": "江怡翰",
+    "established": "1980-08-24",
+    "capital": "111000000",
+    "org_type": "corp_shares",
+    "postal": "104",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "光復路378號4樓",
+    "tel": "02-1637-6204",
+    "fax": "02-1637-4386",
+    "contact_name": [
+     "廖雅偉",
+     "Liao Ya-wei"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "yawei.liao@shunyu-precision.example",
+    "contact_mobile": "0947-535-358",
+    "bank_code": "006",
+    "bank_branch": [
+     "中山分行",
+     "中山"
+    ],
+    "account_no": "48189272845681",
+    "account_name": "順宇精密工業股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "receipt",
+    "currency": "USD",
+    "iso9001": false,
+    "iso_expiry": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "順宇精密工業股份有限公司",
+     "vendor_name_en": "Shunyu Precision Industrial Co., Ltd.",
+     "ubn": "20387097",
+     "owner": "江怡翰",
+     "established": "1980-08-24",
+     "capital": "111000000",
+     "org_type": "corp_shares",
+     "postal": "104",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "光復路378號4樓",
+     "tel": "02-1637-6204",
+     "fax": "02-1637-4386",
+     "contact_name": "廖雅偉",
+     "contact_title": "財務主任",
+     "email": "yawei.liao@shunyu-precision.example",
+     "contact_mobile": "0947-535-358",
+     "bank_code": "006",
+     "bank_branch": "中山分行",
+     "account_no": "48189272845681",
+     "account_name": "順宇精密工業股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "receipt",
+     "currency": "USD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "203870x",
+     "capital": "1110"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "20387097",
+    "vendor_name_zh": "順宇精密工業股份有限公司",
+    "vendor_name_en": "Shunyu Precision Industrial Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "1980-08-24",
+    "owner": "江怡翰",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "光復路378號4樓",
+    "postal": "104",
+    "tel": "02-1637-6204",
+    "fax": "02-1637-4386",
+    "contact_name": [
+     "廖雅偉",
+     "Liao Ya-wei"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0947-535-358",
+    "email": "yawei.liao@shunyu-precision.example",
+    "bank_code": "006",
+    "bank_branch": [
+     "中山分行",
+     "中山"
+    ],
+    "account_no": "48189272845681",
+    "account_name": "順宇精密工業股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "receipt",
+    "currency": "USD",
+    "iso9001": false,
+    "iso_expiry": "",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "iso_expiry"
+   ],
+   "prefill": {
+    "right": {
+     "ubn": "20387097",
+     "vendor_name_zh": "順宇精密工業股份有限公司",
+     "vendor_name_en": "Shunyu Precision Industrial Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "1980-08-24",
+     "owner": "江怡翰",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "光復路378號4樓",
+     "postal": "104",
+     "tel": "02-1637-6204",
+     "fax": "02-1637-4386",
+     "contact_name": "廖雅偉",
+     "contact_title": "財務主任",
+     "contact_mobile": "0947-535-358",
+     "email": "yawei.liao@shunyu-precision.example",
+     "bank_code": "006",
+     "bank_branch": "中山分行",
+     "account_no": "48189272845681",
+     "account_name": "順宇精密工業股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "receipt",
+     "currency": "USD",
+     "iso9001": false
+    },
+    "wrong": {
+     "ubn": "203870x",
+     "bank_branch": "中山"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "20387097",
+    "vendor_name_zh": "順宇精密工業股份有限公司",
+    "owner": "江怡翰",
+    "established": "1980-08-24",
+    "org_type": "corp_shares",
+    "capital": "111000000",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "光復路378號4樓",
+    "postal": "104",
+    "tel": "02-1637-6204",
+    "contact_name": [
+     "廖雅偉",
+     "Liao Ya-wei"
+    ],
+    "email": "yawei.liao@shunyu-precision.example",
+    "bank_code": "006",
+    "account_no": "48189272845681",
+    "account_name": "順宇精密工業股份有限公司",
+    "payment_terms": "net30",
+    "currency": "USD",
+    "invoice_type": "receipt"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "20387097",
+     "vendor_name_zh": "順宇精密工業股份有限公司",
+     "owner": "江怡翰",
+     "established": "1980-08-24",
+     "org_type": "corp_shares",
+     "capital": "111000000",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "光復路378號4樓",
+     "postal": "104",
+     "tel": "02-1637-6204",
+     "contact_name": "廖雅偉",
+     "email": "yawei.liao@shunyu-precision.example",
+     "bank_code": "006",
+     "account_no": "48189272845681",
+     "account_name": "順宇精密工業股份有限公司",
+     "payment_terms": "net30",
+     "currency": "USD",
+     "invoice_type": "receipt"
+    },
+    "wrong": {
+     "ubn": "203870x",
+     "contact_name": "廖"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "順宇精密工業股份有限公司",
+    "vendor_name_en": "Shunyu Precision Industrial Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "20387097",
+    "owner": "江怡翰",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "光復路378號4樓",
+    "postal": "104",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "02-1637-6204",
+    "contact_name": [
+     "廖雅偉",
+     "Liao Ya-wei"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "yawei.liao@shunyu-precision.example",
+    "account_no": "48189272845681",
+    "account_name": "順宇精密工業股份有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "receipt",
+    "currency": "USD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "順宇精密工業股份有限公司",
+     "vendor_name_en": "Shunyu Precision Industrial Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "20387097",
+     "owner": "江怡翰",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "光復路378號4樓",
+     "postal": "104",
+     "tel": "02-1637-6204",
+     "contact_name": "廖雅偉",
+     "contact_title": "財務主任",
+     "email": "yawei.liao@shunyu-precision.example",
+     "account_no": "48189272845681",
+     "account_name": "順宇精密工業股份有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "receipt",
+     "currency": "USD"
+    },
+    "wrong": {
+     "ubn": "203870x",
+     "contact_title": "財務"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "006",
+    "bank_branch": [
+     "中山分行",
+     "中山"
+    ],
+    "account_no": "48189272845681",
+    "account_name": "順宇精密工業股份有限公司",
+    "payment_terms": "net30",
+    "currency": "USD",
+    "invoice_type": "receipt",
+    "county": "臺北市",
+    "district": "中山區",
+    "address_line": "光復路378號4樓",
+    "postal": "104",
+    "tel": "02-1637-6204",
+    "fax": "02-1637-4386",
+    "vendor_name_zh": "順宇精密工業股份有限公司",
+    "ubn": "20387097",
+    "owner": "江怡翰",
+    "org_type": "corp_shares",
+    "established": "1980-08-24",
+    "capital": "111000000",
+    "vendor_name_en": "Shunyu Precision Industrial Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0947-535-358",
+    "contact_name": [
+     "廖雅偉",
+     "Liao Ya-wei"
+    ],
+    "email": "yawei.liao@shunyu-precision.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "006",
+     "bank_branch": "中山分行",
+     "account_no": "48189272845681",
+     "account_name": "順宇精密工業股份有限公司",
+     "payment_terms": "net30",
+     "currency": "USD",
+     "invoice_type": "receipt",
+     "county": "臺北市",
+     "district": "中山區",
+     "address_line": "光復路378號4樓",
+     "postal": "104",
+     "tel": "02-1637-6204",
+     "fax": "02-1637-4386",
+     "vendor_name_zh": "順宇精密工業股份有限公司",
+     "ubn": "20387097",
+     "owner": "江怡翰",
+     "org_type": "corp_shares",
+     "established": "1980-08-24",
+     "capital": "111000000",
+     "vendor_name_en": "Shunyu Precision Industrial Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_mobile": "0947-535-358",
+     "contact_name": "廖雅偉",
+     "email": "yawei.liao@shunyu-precision.example"
+    },
+    "wrong": {
+     "account_no": "481892728456x",
+     "address_line": "光復路3"
+    }
+   }
+  }
+ }
+}

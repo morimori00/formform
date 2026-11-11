@@ -1,0 +1,179 @@
+{
+ "persona": "hr-orangehrm/t-emp-039",
+ "context": "hr-orangehrm/t-emp-039.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": false,
+   "fields": {
+    "first_name": "Chih-Ju",
+    "middle_name": "",
+    "last_name": "Tsao",
+    "employee_id": "KST-40040",
+    "create_login": true,
+    "username": "chihju.tsao",
+    "login_status": "disabled",
+    "password": "",
+    "confirm_password": ""
+   },
+   "infeasible": [
+    "password",
+    "confirm_password"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chih-Ju",
+     "last_name": "Tsao",
+     "employee_id": "KST-40040",
+     "create_login": true,
+     "username": "chihju.tsao",
+     "login_status": "disabled"
+    },
+    "wrong": {
+     "employee_id": "KST-400x",
+     "first_name": "Chi"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chih-Ju",
+    "middle_name": "",
+    "last_name": "Tsao",
+    "employee_id": "KST-40040",
+    "license_number": "DL-41852432",
+    "license_expiry": "2029-08-31",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1979-10-11",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chih-Ju",
+     "last_name": "Tsao",
+     "employee_id": "KST-40040",
+     "license_number": "DL-41852432",
+     "license_expiry": "2029-08-31",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1979-10-11",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-400x",
+     "dob": "1978-10-11"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-02-24",
+    "leave_to": "2027-02-27",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Moving house; reachable by phone for urgent issues"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-02-24",
+     "leave_to": "2027-02-27",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Moving house; reachable by phone for urgent issues"
+    },
+    "wrong": {
+     "end_duration": "half_am"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "annual",
+    "leave_from": "2027-02-24",
+    "leave_to": "2027-02-27",
+    "partial_days": "end",
+    "end_duration": "half_pm",
+    "leave_comment": "Moving house; reachable by phone for urgent issues"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "leave_type": "annual",
+     "leave_from": "2027-02-24",
+     "leave_to": "2027-02-27",
+     "partial_days": "end",
+     "end_duration": "half_pm",
+     "leave_comment": "Moving house; reachable by phone for urgent issues"
+    },
+    "wrong": {
+     "end_duration": "half_am"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chih-Ju",
+    "middle_name": "",
+    "last_name": "Tsao",
+    "employee_id": "KST-40040",
+    "create_login": true,
+    "username": "chihju.tsao",
+    "login_status": "disabled",
+    "password": "",
+    "confirm_password": "",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1979-10-11",
+    "gender": "female",
+    "job_title": "hr_partner",
+    "department": "procurement",
+    "work_location": "tainan",
+    "emp_status": "ft_perm",
+    "supervisor": "u_m2565",
+    "joined_date": "2027-01-27"
+   },
+   "infeasible": [
+    "password",
+    "confirm_password"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chih-Ju",
+     "last_name": "Tsao",
+     "employee_id": "KST-40040",
+     "create_login": true,
+     "username": "chihju.tsao",
+     "login_status": "disabled",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1979-10-11",
+     "gender": "female",
+     "job_title": "hr_partner",
+     "department": "procurement",
+     "work_location": "tainan",
+     "emp_status": "ft_perm",
+     "supervisor": "u_m2565",
+     "joined_date": "2027-01-27"
+    },
+    "wrong": {
+     "employee_id": "KST-400x",
+     "marital": "married"
+    }
+   }
+  }
+ }
+}

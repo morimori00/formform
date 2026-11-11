@@ -1,0 +1,180 @@
+{
+ "persona": "hr-orangehrm/t-emp-035",
+ "context": "hr-orangehrm/t-emp-035.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-An",
+    "middle_name": "",
+    "last_name": "Su",
+    "employee_id": "KST-39531",
+    "create_login": true,
+    "username": "meian.su",
+    "login_status": "enabled",
+    "password": "Kestrel#1739y",
+    "confirm_password": "Kestrel#1739y"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-An",
+     "last_name": "Su",
+     "employee_id": "KST-39531",
+     "create_login": true,
+     "username": "meian.su",
+     "login_status": "enabled",
+     "password": "Kestrel#1739y",
+     "confirm_password": "Kestrel#1739y"
+    },
+    "wrong": {
+     "employee_id": "KST-395x",
+     "first_name": "Mei"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-An",
+    "middle_name": "",
+    "last_name": "Su",
+    "employee_id": "KST-39531",
+    "license_number": "",
+    "license_expiry": "",
+    "nationality": "TW",
+    "marital": "widowed",
+    "dob": "1978-05-29",
+    "gender": "female"
+   },
+   "infeasible": [
+    "license_number",
+    "license_expiry"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-An",
+     "last_name": "Su",
+     "employee_id": "KST-39531",
+     "nationality": "TW",
+     "marital": "widowed",
+     "dob": "1978-05-29",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-395x",
+     "first_name": "Mei"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2026-12-06",
+    "leave_to": "2026-12-08",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Ming-Jie Liu"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2026-12-06",
+     "leave_to": "2026-12-08",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Ming-Jie Liu"
+    },
+    "wrong": {
+     "leave_from": "2025-12-06"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2026-12-06",
+    "leave_to": "2026-12-08",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Ming-Jie Liu"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2026-12-06",
+     "leave_to": "2026-12-08",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Ming-Jie Liu"
+    },
+    "wrong": {
+     "leave_to": "2025-12-08"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-An",
+    "middle_name": "",
+    "last_name": "Su",
+    "employee_id": "KST-39531",
+    "create_login": true,
+    "username": "meian.su",
+    "login_status": "enabled",
+    "password": "Kestrel#1739y",
+    "confirm_password": "Kestrel#1739y",
+    "nationality": "TW",
+    "marital": "widowed",
+    "dob": "1978-05-29",
+    "gender": "female",
+    "job_title": "equip_eng",
+    "department": "fab_eng",
+    "work_location": "hsp_fab3",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2901",
+    "joined_date": "2026-12-19"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-An",
+     "last_name": "Su",
+     "employee_id": "KST-39531",
+     "create_login": true,
+     "username": "meian.su",
+     "login_status": "enabled",
+     "password": "Kestrel#1739y",
+     "confirm_password": "Kestrel#1739y",
+     "nationality": "TW",
+     "marital": "widowed",
+     "dob": "1978-05-29",
+     "gender": "female",
+     "job_title": "equip_eng",
+     "department": "fab_eng",
+     "work_location": "hsp_fab3",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2901",
+     "joined_date": "2026-12-19"
+    },
+    "wrong": {
+     "employee_id": "KST-395x",
+     "first_name": "Mei"
+    }
+   }
+  }
+ }
+}

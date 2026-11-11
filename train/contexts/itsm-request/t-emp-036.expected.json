@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-036",
+ "context": "itsm-request/t-emp-036.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g33430",
+    "laptop_model": "eng16_64",
+    "location": "tainan",
+    "needed_by": "2026-12-22",
+    "extra_monitor": true,
+    "cost_center": "CC-5968",
+    "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g33430",
+     "laptop_model": "eng16_64",
+     "location": "tainan",
+     "needed_by": "2026-12-22",
+     "extra_monitor": true,
+     "cost_center": "CC-5968",
+     "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+    },
+    "wrong": {
+     "cost_center": "CC-59x",
+     "needed_by": "2025-12-22"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16_64",
+    "extra_monitor": true,
+    "location": "tainan",
+    "needed_by": "2026-12-22",
+    "requested_for": "u_g33430",
+    "cost_center": "CC-5968",
+    "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16_64",
+     "extra_monitor": true,
+     "location": "tainan",
+     "needed_by": "2026-12-22",
+     "requested_for": "u_g33430",
+     "cost_center": "CC-5968",
+     "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+    },
+    "wrong": {
+     "cost_center": "CC-59x",
+     "needed_by": "2025-12-22"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g33430",
+    "contact_pref": "self_service",
+    "inc_category": "hardware",
+    "inc_subcategory": "laptop",
+    "ci": "KST-NB-14395",
+    "impact": "3",
+    "urgency": "1",
+    "assign_group": "endpoint",
+    "short_desc": "Laptop battery swollen, trackpad lifting",
+    "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 626 cycles. Device is powered off for safety."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g33430",
+     "contact_pref": "self_service",
+     "inc_category": "hardware",
+     "inc_subcategory": "laptop",
+     "ci": "KST-NB-14395",
+     "impact": "3",
+     "urgency": "1",
+     "assign_group": "endpoint",
+     "short_desc": "Laptop battery swollen, trackpad lifting",
+     "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 626 cycles. Device is powered off for safety."
+    },
+    "wrong": {
+     "short_desc": "Laptop battery swoll"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Laptop battery swollen, trackpad lifting",
+    "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 626 cycles. Device is powered off for safety.",
+    "caller": "u_g33430",
+    "ci": "KST-NB-14395",
+    "contact_pref": "self_service",
+    "inc_category": "hardware",
+    "inc_subcategory": "laptop",
+    "impact": "3",
+    "urgency": "1",
+    "assign_group": "endpoint"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Laptop battery swollen, trackpad lifting",
+     "inc_desc": "The trackpad is lifting and the case no longer closes flat. Battery health reports 626 cycles. Device is powered off for safety.",
+     "caller": "u_g33430",
+     "ci": "KST-NB-14395",
+     "contact_pref": "self_service",
+     "inc_category": "hardware",
+     "inc_subcategory": "laptop",
+     "impact": "3",
+     "urgency": "1",
+     "assign_group": "endpoint"
+    },
+    "wrong": {
+     "contact_pref": "email"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g33430",
+    "location": "tainan",
+    "cost_center": "CC-5968",
+    "laptop_model": "eng16_64",
+    "needed_by": "2026-12-22",
+    "extra_monitor": true,
+    "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g33430",
+     "location": "tainan",
+     "cost_center": "CC-5968",
+     "laptop_model": "eng16_64",
+     "needed_by": "2026-12-22",
+     "extra_monitor": true,
+     "justification": "Runs yield analysis tooling (JMP, Python) for Human Resources."
+    },
+    "wrong": {
+     "cost_center": "CC-59x",
+     "needed_by": "2025-12-22"
+    }
+   }
+  }
+ }
+}

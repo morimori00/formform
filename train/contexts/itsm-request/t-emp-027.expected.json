@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-027",
+ "context": "itsm-request/t-emp-027.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g40632",
+    "laptop_model": "eng16",
+    "location": "tainan",
+    "needed_by": "2027-01-20",
+    "extra_monitor": true,
+    "cost_center": "CC-5583",
+    "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g40632",
+     "laptop_model": "eng16",
+     "location": "tainan",
+     "needed_by": "2027-01-20",
+     "extra_monitor": true,
+     "cost_center": "CC-5583",
+     "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-55x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16",
+    "extra_monitor": true,
+    "location": "tainan",
+    "needed_by": "2027-01-20",
+    "requested_for": "u_g40632",
+    "cost_center": "CC-5583",
+    "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16",
+     "extra_monitor": true,
+     "location": "tainan",
+     "needed_by": "2027-01-20",
+     "requested_for": "u_g40632",
+     "cost_center": "CC-5583",
+     "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-55x",
+     "laptop_model": "std14"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g40632",
+    "contact_pref": "chat",
+    "inc_category": "inquiry",
+    "inc_subcategory": "howto",
+    "ci": "KST-NB-36499",
+    "impact": "3",
+    "urgency": "1",
+    "assign_group": "servicedesk",
+    "short_desc": "How to request a temporary admin token",
+    "inc_desc": "Needs a temporary local admin token for about 10 days to install lab equipment drivers. Asking which form to use."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g40632",
+     "contact_pref": "chat",
+     "inc_category": "inquiry",
+     "inc_subcategory": "howto",
+     "ci": "KST-NB-36499",
+     "impact": "3",
+     "urgency": "1",
+     "assign_group": "servicedesk",
+     "short_desc": "How to request a temporary admin token",
+     "inc_desc": "Needs a temporary local admin token for about 10 days to install lab equipment drivers. Asking which form to use."
+    },
+    "wrong": {
+     "impact": "1"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "How to request a temporary admin token",
+    "inc_desc": "Needs a temporary local admin token for about 10 days to install lab equipment drivers. Asking which form to use.",
+    "caller": "u_g40632",
+    "ci": "KST-NB-36499",
+    "contact_pref": "chat",
+    "inc_category": "inquiry",
+    "inc_subcategory": "howto",
+    "impact": "3",
+    "urgency": "1",
+    "assign_group": "servicedesk"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "How to request a temporary admin token",
+     "inc_desc": "Needs a temporary local admin token for about 10 days to install lab equipment drivers. Asking which form to use.",
+     "caller": "u_g40632",
+     "ci": "KST-NB-36499",
+     "contact_pref": "chat",
+     "inc_category": "inquiry",
+     "inc_subcategory": "howto",
+     "impact": "3",
+     "urgency": "1",
+     "assign_group": "servicedesk"
+    },
+    "wrong": {
+     "short_desc": "How to request a te"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g40632",
+    "location": "tainan",
+    "cost_center": "CC-5583",
+    "laptop_model": "eng16",
+    "needed_by": "2027-01-20",
+    "extra_monitor": true,
+    "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g40632",
+     "location": "tainan",
+     "cost_center": "CC-5583",
+     "laptop_model": "eng16",
+     "needed_by": "2027-01-20",
+     "extra_monitor": true,
+     "justification": "Replacement for a device with a failed mainboard; Data Platform work is blocked."
+    },
+    "wrong": {
+     "cost_center": "CC-55x",
+     "needed_by": "2026-01-20"
+    }
+   }
+  }
+ }
+}

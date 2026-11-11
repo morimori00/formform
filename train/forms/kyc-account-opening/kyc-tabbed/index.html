@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Individual KYC &amp; Account Request</title>
+<style id="ff-style">
+*{box-sizing:border-box}body{margin:0}
+[hidden]{display:none!important}
+.ff-error{color:#b42318;font-size:12px;margin-top:4px}
+[aria-invalid=true]{border-color:#d92d20!important;outline:1px solid #d92d20}
+.ff-banner{padding:10px 14px;margin:0 0 14px;border-radius:4px;background:#ecfdf3;color:#05603a}.ff-banner.bad{background:#fef3f2;color:#b42318}
+.ff-dd{position:relative;display:inline-block;min-width:240px}.ff-dd>button{width:100%;text-align:left;padding:8px 30px 8px 10px;background:#fff;border:1px solid #c4c7cc;border-radius:4px;cursor:pointer;font:inherit;position:relative}
+.ff-dd>button:after{content:"";position:absolute;right:12px;top:45%;border:5px solid transparent;border-top-color:#555}
+.ff-dd ul,.ff-cb ul{position:absolute;z-index:20;left:0;right:0;top:100%;margin:2px 0 0;padding:4px 0;list-style:none;background:#fff;border:1px solid #c4c7cc;border-radius:4px;box-shadow:0 6px 18px rgba(0,0,0,.14);max-height:180px;overflow:auto}
+.ff-dd li,.ff-cb li{padding:7px 12px;cursor:pointer}.ff-dd li:hover,.ff-cb li:hover,.ff-dd li[aria-selected=true]{background:#eef2ff}
+.ff-cb li small{display:block;color:#667085;font-size:11px}.ff-cb li.ff-empty{color:#667085;cursor:default}
+.ff-cb{position:relative;display:inline-block;min-width:260px}.ff-cb input{width:100%}
+.ff-dp{position:relative;display:inline-flex;gap:4px;align-items:center}.ff-cal-btn{padding:6px 9px;cursor:pointer}
+.ff-cal{position:absolute;z-index:30;top:100%;left:0;background:#fff;border:1px solid #c4c7cc;border-radius:6px;padding:8px;box-shadow:0 8px 24px rgba(0,0,0,.18);width:260px}
+.ff-cal-head{display:flex;gap:4px;margin-bottom:6px}.ff-cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.ff-cal-grid button{padding:5px 0;border:0;background:#f2f4f7;border-radius:3px;cursor:pointer;font-size:12px}.ff-cal-grid button:hover{background:#d1e0ff}
+[role=switch]{width:44px;height:24px;border-radius:12px;border:0;background:#c4c7cc;position:relative;cursor:pointer;vertical-align:middle}
+[role=switch] .knob{position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:#fff;transition:left .15s}
+[role=switch][aria-checked=true]{background:var(--accent,#2563eb)}[role=switch][aria-checked=true] .knob{left:23px}
+[role=radiogroup].chips{display:flex;flex-wrap:wrap;gap:6px}[role=radiogroup].chips [role=radio]{padding:6px 12px;border:1px solid #c4c7cc;border-radius:16px;cursor:pointer;background:#fff}
+[role=radiogroup].chips [role=radio][aria-checked=true]{background:var(--accent,#2563eb);color:#fff;border-color:transparent}
+.ff-opts input,.chk input{width:auto!important;min-width:0!important}.ff-opts label{display:block;margin:4px 0}.ff-opts.inline label{display:inline-block;margin-right:16px}
+.ff-roc select{margin:0 4px;min-width:0!important;width:auto!important}
+[contenteditable]{min-height:70px;border:1px solid #c4c7cc;border-radius:4px;padding:8px;background:#fff}
+.ff-hp{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+.ff-progress{display:flex;gap:6px;list-style:none;padding:0;margin:0 0 16px;counter-reset:s}
+.ff-progress li{flex:1;padding:8px;border-bottom:3px solid #d0d5dd;color:#667085;font-size:13px}.ff-progress li.current{border-color:var(--accent,#2563eb);color:#101828;font-weight:600}
+.ff-nav{display:flex;gap:10px;margin-top:18px}.ff-done{padding:40px;text-align:center}
+.ff-loading{padding:60px;text-align:center;color:#667085}
+.ff-tabs [role=tablist]{display:flex;border-bottom:1px solid #d0d5dd;margin-bottom:12px}
+.ff-tabs [role=tab]{padding:8px 16px;border:0;background:none;cursor:pointer;border-bottom:2px solid transparent;font:inherit}
+.ff-tabs [role=tab].active{border-bottom-color:var(--accent,#2563eb);font-weight:600}
+.ff-sticky{position:sticky;top:0;z-index:15;display:flex;justify-content:flex-end;align-items:center;gap:12px;padding:8px 10px;margin-bottom:12px;background:rgba(255,255,255,.97);border:1px solid #d0d5dd;border-radius:4px}
+.ff-terms{height:180px;overflow:auto;border:1px solid #c4c7cc;padding:10px 14px;background:#fafafa;font-size:13px;line-height:1.5}
+
+body{font:15px/1.5 Inter,"Helvetica Neue",Arial,sans-serif;background:#ecedf3;color:#2c3345;--accent:#0a1551}
+.jf{max-width:760px;margin:34px auto;background:#fff;border-radius:6px;box-shadow:0 4px 4px rgba(87,100,126,.21);padding:36px 44px}.jf h1{font-size:28px;margin:0 0 6px}.jf .sub{color:#6f76a7;margin-bottom:24px}
+.ff-group h3{font-size:18px;border-bottom:1px solid #eaebf2;padding-bottom:6px}.row{margin:16px 0}.row>label,.row>.lbl,legend{display:block;font-weight:600;margin-bottom:6px}
+input,select,textarea{width:100%;font:inherit;padding:10px 12px;border:1px solid #b8bdc9;border-radius:4px;background:#fff}textarea{min-height:90px}.ff-opts input{width:auto}
+.req{color:#f23a3c;margin-left:3px}.btn{background:#fff;border:1px solid #b8bdc9;border-radius:4px;padding:10px 26px;cursor:pointer}.primary{background:#18bd5b;border-color:#18bd5b;color:#fff;font-weight:600}
+fieldset{border:0;padding:0;margin:16px 0}.ff-dd,.ff-cb{width:100%}
+</style></head>
+<body><div class="jf"><h1>Individual KYC &amp; Account Request</h1><div class="sub">Please complete all required fields. Information is handled under the bank's privacy notice.</div><div id="ff-root"><div class="ff-loading">Loading form…</div></div></div>
+<p style="text-align:center;color:#8d8fa8;font-size:12px">Form layout rebuilt for training · no data leaves this page</p>
+<template id="ff-form"><form novalidate autocomplete="off"><div class="ff-banner" role="alert" hidden></div><div class="ff-group ff-tabs"><div role="tablist"><button type="button" role="tab" aria-controls="tab-0-0" aria-selected="true" class="active">Personal</button><button type="button" role="tab" aria-controls="tab-0-1" aria-selected="false" class="">Contact</button><button type="button" role="tab" aria-controls="tab-0-2" aria-selected="false" class="">Identity</button><button type="button" role="tab" aria-controls="tab-0-3" aria-selected="false" class="">Account</button></div><div role="tabpanel" id="tab-0-0"><div class="body"><div class="row" data-ff-row><label for="f_full_name" id="f_full_name-q">Customer name<span class="req" aria-hidden="true">*</span></label><div><input id="f_full_name" name="full_name" type="text" placeholder="" autocomplete="off" aria-required="true" data-ff-key="full_name" data-ff-kind="input" data-ff-required="1"></div></div><div class="row" data-ff-row><label for="f_dob" id="f_dob-q">Date of Birth<span class="req" aria-hidden="true">*</span></label><div><div class="ff-dp"><input id="f_dob" type="text" placeholder="yyyy-mm-dd" autocomplete="off" data-ff-format="YYYY-MM-DD" aria-required="true" data-ff-key="dob" data-ff-kind="datepicker" data-ff-required="1"><button type="button" class="ff-cal-btn" aria-label="Choose date">&#9638;</button><div class="ff-cal" role="dialog" aria-label="Choose date" hidden><div class="ff-cal-head"><button type="button" class="ff-cal-prev" aria-label="Previous month">&lsaquo;</button><select class="ff-cal-m" aria-label="Month"><option value="1">01</option><option value="2">02</option><option value="3">03</option><option value="4">04</option><option value="5">05</option><option value="6">06</option><option value="7">07</option><option value="8">08</option><option value="9">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select><select class="ff-cal-y" aria-label="Year"><option>1940</option><option>1941</option><option>1942</option><option>1943</option><option>1944</option><option>1945</option><option>1946</option><option>1947</option><option>1948</option><option>1949</option><option>1950</option><option>1951</option><option>1952</option><option>1953</option><option>1954</option><option>1955</option><option>1956</option><option>1957</option><option>1958</option><option>1959</option><option>1960</option><option>1961</option><option>1962</option><option>1963</option><option>1964</option><option>1965</option><option>1966</option><option>1967</option><option>1968</option><option>1969</option><option>1970</option><option>1971</option><option>1972</option><option>1973</option><option>1974</option><option>1975</option><option>1976</option><option>1977</option><option>1978</option><option>1979</option><option>1980</option><option>1981</option><option>1982</option><option>1983</option><option>1984</option><option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option><option>2007</option><option>2008</option><option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option><option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option>2026</option><option>2027</option><option>2028</option><option>2029</option><option>2030</option><option>2031</option><option>2032</option><option>2033</option><option>2034</option><option>2035</option><option>2036</option><option>2037</option><option>2038</option><option>2039</option><option>2040</option></select><button type="button" class="ff-cal-next" aria-label="Next month">&rsaquo;</button></div><div class="ff-cal-grid"></div></div></div></div></div><div class="row" data-ff-row><label for="f_gender" id="f_gender-q">Gender<span class="req" aria-hidden="true">*</span></label><div><select id="f_gender" name="gender" aria-required="true" data-ff-key="gender" data-ff-kind="select" data-ff-required="1"><option value="">-- Select --</option><option value="male">Male</option><option value="female">Female</option><option value="other">Prefer not to say</option></select></div></div><div class="row" data-ff-row><label for="f_marital" id="f_marital-q">Marital Status<span class="req" aria-hidden="true">*</span></label><div><select id="f_marital" name="marital" aria-required="true" data-ff-key="marital" data-ff-kind="select" data-ff-required="1"><option value="">-- Select --</option><option value="single">Single</option><option value="married">Married</option><option value="divorced">Divorced</option><option value="widowed">Widowed</option></select></div></div><div class="row" data-ff-row><label for="f_nationality" id="f_nationality-q">Nationality<span class="req" aria-hidden="true">*</span></label><div><div class="ff-cb"><input id="f_nationality" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" placeholder="Type a nationality" aria-required="true" data-ff-key="nationality" data-ff-kind="combobox" data-ff-required="1" data-ff-options="[[&quot;TW&quot;, &quot;Taiwanese&quot;], [&quot;JP&quot;, &quot;Japanese&quot;], [&quot;SG&quot;, &quot;Singaporean&quot;], [&quot;US&quot;, &quot;American&quot;], [&quot;PH&quot;, &quot;Filipino&quot;], [&quot;GB&quot;, &quot;British&quot;], [&quot;IN&quot;, &quot;Indian&quot;], [&quot;BD&quot;, &quot;Bangladeshi&quot;], [&quot;MY&quot;, &quot;Malaysian&quot;], [&quot;VN&quot;, &quot;Vietnamese&quot;], [&quot;KR&quot;, &quot;Korean&quot;], [&quot;TH&quot;, &quot;Thai&quot;], [&quot;ID&quot;, &quot;Indonesian&quot;], [&quot;DE&quot;, &quot;German&quot;], [&quot;NG&quot;, &quot;Nigerian&quot;], [&quot;PK&quot;, &quot;Pakistani&quot;]]"><ul role="listbox" hidden></ul></div></div></div><div class="row" data-ff-row><div class="q lbl" id="f_residency-q">Residency Status<span class="req" aria-hidden="true">*</span></div><div><div class="ff-opts" role="radiogroup" aria-labelledby="f_residency-q" data-ff-key="residency" data-ff-kind="radio" data-ff-required="1"><label><input type="radio" name="residency" value="resident"> Resident</label><label><input type="radio" name="residency" value="non_resident"> Non-resident</label><label><input type="radio" name="residency" value="foreign_national"> Foreign national</label></div></div></div></div></div><div role="tabpanel" id="tab-0-1" hidden><div class="body"><div class="row" data-ff-row><label for="f_phone" id="f_phone-q">Phone Number<span class="req" aria-hidden="true">*</span></label><div><input id="f_phone" name="phone" type="tel" placeholder="" autocomplete="off" aria-required="true" data-ff-key="phone" data-ff-kind="input" data-ff-required="1"></div></div><div class="row" data-ff-row><label for="f_email" id="f_email-q">Email Address<span class="req" aria-hidden="true">*</span></label><div><input id="f_email" name="email" type="email" placeholder="" autocomplete="off" aria-required="true" data-ff-key="email" data-ff-kind="input" data-ff-required="1" data-ff-validate="email"></div></div><div class="row" data-ff-row><label for="f_address" id="f_address-q">Correspondence Address<span class="req" aria-hidden="true">*</span></label><div><textarea id="f_address" name="address" rows="3" placeholder="" aria-required="true" data-ff-key="address" data-ff-kind="input" data-ff-required="1"></textarea></div></div><div class="row" data-ff-row><span class="lbl"></span><div><label class="chk"><input type="checkbox" id="f_perm_same" data-ff-key="perm_same" data-ff-kind="checkbox"> Permanent address is the same as correspondence address</label></div></div></div></div><div role="tabpanel" id="tab-0-2" hidden><div class="body"><div class="row" data-ff-row><div class="q lbl" id="f_id_proof-q">Identity Proof<span class="req" aria-hidden="true">*</span></div><div><div class="ff-opts" role="radiogroup" aria-labelledby="f_id_proof-q" data-ff-key="id_proof" data-ff-kind="radio" data-ff-required="1"><label><input type="radio" name="id_proof" value="national_id"> National ID card</label><label><input type="radio" name="id_proof" value="passport"> Passport</label><label><input type="radio" name="id_proof" value="arc"> Resident Certificate (ARC)</label><label><input type="radio" name="id_proof" value="drivers_license"> Driver&#x27;s license</label></div></div></div><div class="row" data-ff-row><label for="f_tax_id" id="f_tax_id-q">Tax Identification Number<span class="req" aria-hidden="true">*</span></label><div><input id="f_tax_id" name="tax_id" type="text" placeholder="" autocomplete="off" aria-required="true" data-ff-key="tax_id" data-ff-kind="input" data-ff-required="1" data-ff-validate="re:^[A-Z0-9-]{6,15}$" data-ff-msg="Use capital letters and digits only"></div></div><div class="row" data-ff-row><div class="q lbl" id="f_addr_proof-q">Address Proof (Correspondence)<span class="req" aria-hidden="true">*</span></div><div><div class="ff-opts" role="radiogroup" aria-labelledby="f_addr_proof-q" data-ff-key="addr_proof" data-ff-kind="radio" data-ff-required="1"><label><input type="radio" name="addr_proof" value="utility_bill"> Utility bill</label><label><input type="radio" name="addr_proof" value="bank_statement"> Bank statement</label><label><input type="radio" name="addr_proof" value="lease"> Lease agreement</label><label><input type="radio" name="addr_proof" value="tax_bill"> Property tax bill</label></div></div></div></div></div><div role="tabpanel" id="tab-0-3" hidden><div class="body"><div class="row" data-ff-row><div class="q lbl" id="f_account_type-q">Account Type<span class="req" aria-hidden="true">*</span></div><div><div class="ff-opts inline" role="radiogroup" aria-labelledby="f_account_type-q" data-ff-key="account_type" data-ff-kind="radio" data-ff-required="1"><label><input type="radio" name="account_type" value="savings"> Savings</label><label><input type="radio" name="account_type" value="checking"> Checking</label><label><input type="radio" name="account_type" value="time_deposit"> Time deposit</label></div></div></div><div class="row" data-ff-row><div class="q lbl" id="f_account_category-q">Account Category<span class="req" aria-hidden="true">*</span></div><div><div class="ff-opts inline" role="radiogroup" aria-labelledby="f_account_category-q" data-ff-key="account_category" data-ff-kind="radio" data-ff-required="1"><label><input type="radio" name="account_category" value="individual"> Individual</label><label><input type="radio" name="account_category" value="joint"> Joint</label><label><input type="radio" name="account_category" value="corporate"> Corporate</label></div></div></div><div class="row" data-ff-row><label for="f_education" id="f_education-q">Education Level<span class="req" aria-hidden="true">*</span></label><div><select id="f_education" name="education" aria-required="true" data-ff-key="education" data-ff-kind="select" data-ff-required="1"><option value="">-- Select --</option><option value="high_school">High school</option><option value="associate">Associate degree</option><option value="bachelor">Bachelor&#x27;s degree</option><option value="master">Master&#x27;s degree</option><option value="doctorate">Doctorate</option></select></div></div><div class="row" data-ff-row><label for="f_monthly_income" id="f_monthly_income-q">Monthly Salary / Income<span class="req" aria-hidden="true">*</span></label><div><input id="f_monthly_income" name="monthly_income" type="text" placeholder="" autocomplete="off" inputmode="decimal" aria-required="true" data-ff-key="monthly_income" data-ff-kind="input" data-ff-required="1" data-ff-validate="re:^[\d,]+$" data-ff-msg="Numbers only"></div></div><div class="row" data-ff-row><label for="f_application_no" id="f_application_no-q">Application Number<span class="req" aria-hidden="true">*</span></label><div><input id="f_application_no" name="application_no" type="text" placeholder="" autocomplete="off" aria-required="true" data-ff-key="application_no" data-ff-kind="input" data-ff-required="1"></div></div></div></div></div><div class="ff-group" data-ff-show-if="perm_same=false"><div class="body"><div class="row" data-ff-row><label for="f_perm_address" id="f_perm_address-q">Permanent Address<span class="req" aria-hidden="true">*</span></label><div><textarea id="f_perm_address" name="perm_address" rows="3" placeholder="" aria-required="true" data-ff-key="perm_address" data-ff-kind="input" data-ff-required="1"></textarea></div></div></div></div><div class="ff-nav"><button type="submit" class="btn primary" data-ff-submit>Submit</button></div></form></template>
+<script type="application/json" id="ff-config">{"family": "kyc-account-opening", "variant": "kyc-tabbed", "keys": ["full_name", "dob", "gender", "marital", "nationality", "residency", "phone", "email", "address", "perm_same", "id_proof", "tax_id", "addr_proof", "account_type", "account_category", "education", "monthly_income", "application_no", "perm_address"], "messages": {"required": "This field is required.", "email": "Enter a valid email address.", "ubn": "Invalid business ID.", "date": "Enter a valid date.", "format": "Invalid format.", "match": "Values do not match.", "fix": "Please correct the highlighted fields.", "noMatch": "No matches found", "searching": "Searching…", "doneTitle": "Submitted", "doneBody": "Your submission has been received.", "next": "Next", "back": "Back", "submit": "Submit", "select": "-- Select --", "none": "-- None --", "reqmark": "*", "loading": "Loading form…", "cal": "Choose date", "draft": "Save draft"}, "today": "2026-11-11", "delay": 0, "refPrefix": "KYC", "rejectKey": null, "rejectMessage": null, "prefill": {"right": {"full_name": "Tsai Ming-Han", "dob": "1981-05-30", "gender": "male", "marital": "married", "nationality": "TW", "residency": "resident", "phone": "+886 935 662 071", "email": "minghan.tsai@inbox.example", "address": "No. 5, Aly. 3, Ln. 120, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 114, Taiwan", "perm_same": true, "id_proof": "national_id", "tax_id": "F128473650", "addr_proof": "utility_bill", "account_type": "savings", "account_category": "individual", "education": "master", "monthly_income": "185000", "application_no": "LCB-AO-2026-77310"}, "wrong": {"email": "minghan.tsai at inbox.example", "marital": "single"}}}</script>
+<script>// formform training-form runtime. Inlined into every generated page by build.py.
+// Widgets are declared in HTML with data-ff-* attributes; this file wires behaviour and exposes
+//   window.__formState()  -> {family, variant, state, step, steps, submitted, values, errors, visible}
+// Values are always read from live DOM (or the snapshot taken at successful submit).
+(() => {
+  const CFG = JSON.parse(document.getElementById('ff-config').textContent);
+  const Q = new URLSearchParams(location.search);
+  const STATE = Q.get('state') || 'default';            // default | prefilled | partial | wrong | loading | error
+  const roots = [document];
+  const all = sel => roots.flatMap(r => [...r.querySelectorAll(sel)]);
+  const one = sel => all(sel)[0] || null;
+  const fire = (el, ...types) => types.forEach(t => el.dispatchEvent(new Event(t, {bubbles: true, composed: true})));
+  const pad = n => String(n).padStart(2, '0');
+  let submitted = null, step = 0;
+
+  // ---------- date helpers ----------
+  const fmtDate = (iso, f) => {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); if (!m) return iso || '';
+    const [, y, mo, d] = m;
+    return {'YYYY-MM-DD': `${y}-${mo}-${d}`, 'MM/DD/YYYY': `${mo}/${d}/${y}`, 'DD/MM/YYYY': `${d}/${mo}/${y}`,
+      'YYYY-DD-MM': `${y}-${d}-${mo}`, 'YYYY/MM/DD': `${y}/${mo}/${d}`, 'DD.MM.YYYY': `${d}.${mo}.${y}`}[f] || iso;
+  };
+  const parseDate = (s, f) => {
+    s = (s || '').trim(); if (!s) return '';
+    const p = s.split(/[-/.]/); if (p.length !== 3) return s;
+    const order = f.split(/[-/.]/), o = {};
+    order.forEach((k, i) => o[k[0]] = p[i]);
+    const y = +o.Y, mo = +o.M, d = +o.D;
+    if (!y || !mo || !d || mo > 12 || d > 31) return s;
+    return `${y}-${pad(mo)}-${pad(d)}`;
+  };
+
+  // ---------- getters / setters per widget kind ----------
+  const field = key => one(`[data-ff-key="${key}"]`);
+  const kinds = {
+    input: {get: e => e.value, set: (e, v) => { e.value = v ?? ''; fire(e, 'input', 'change'); }},
+    select: {get: e => e.value, set: (e, v) => { e.value = v ?? ''; fire(e, 'change'); }},
+    radio: {get: e => (e.querySelector('input:checked') || {}).value || '',
+      set: (e, v) => e.querySelectorAll('input').forEach(i => { i.checked = i.value === v; if (i.checked) fire(i, 'change'); })},
+    checkbox: {get: e => e.checked, set: (e, v) => { e.checked = v === true || v === 'true'; fire(e, 'change'); }},
+    checks: {get: e => [...e.querySelectorAll('input:checked')].map(i => i.value).sort(),
+      set: (e, v) => { e.querySelectorAll('input').forEach(i => i.checked = (v || []).includes(i.value)); fire(e, 'change'); }},
+    switch: {get: e => e.getAttribute('aria-checked') === 'true', set: (e, v) => { e.setAttribute('aria-checked', String(!!v)); fire(e, 'change'); }},
+    ariaradio: {get: e => (e.querySelector('[role=radio][aria-checked=true]') || {dataset: {}}).dataset.value || '',
+      set: (e, v) => { e.querySelectorAll('[role=radio]').forEach(r => r.setAttribute('aria-checked', String(r.dataset.value === v))); fire(e, 'change'); }},
+    dropdown: {get: e => e.dataset.value || '', set: (e, v) => pickDropdown(e, v)},
+    combobox: {get: e => e.dataset.value || '', set: (e, v) => {
+      const o = JSON.parse(e.dataset.ffOptions).find(o => o[0] === v);
+      e.value = o ? o[1] : (v || ''); e.dataset.value = o ? o[0] : ''; fire(e, 'change'); }},
+    datepicker: {get: e => parseDate(e.value, e.dataset.ffFormat), set: (e, v) => { e.value = fmtDate(v, e.dataset.ffFormat); fire(e, 'input', 'change'); }},
+    rocdate: {get: e => {
+      const [y, m, d] = [...e.querySelectorAll('select')].map(s => s.value);
+      return y && m && d ? `${+y + 1911}-${pad(m)}-${pad(d)}` : '';
+    }, set: (e, v) => {
+      const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(v || ''); const s = [...e.querySelectorAll('select')];
+      if (!m) { s.forEach(x => x.value = ''); } else { s[0].value = String(+m[1] - 1911); s[1].value = String(+m[2]); s[2].value = String(+m[3]); }
+      s.forEach(x => fire(x, 'change'));
+    }},
+    editable: {get: e => e.innerText.trim(), set: (e, v) => { e.innerText = v ?? ''; fire(e, 'input'); }},
+  };
+  const kindOf = e => kinds[e.dataset.ffKind] || kinds.input;
+  const getVal = key => { const e = field(key); return e ? kindOf(e).get(e) : null; };
+  const setVal = (key, v) => { const e = field(key); if (e) kindOf(e).set(e, v); };
+  const isEmpty = v => v === '' || v === null || v === false || (Array.isArray(v) && !v.length);
+
+  // ---------- visibility (hidden steps / tabs still count as present; show-if hides) ----------
+  const conditionalHidden = e => { for (let n = e; n; n = n.parentElement || (n.getRootNode() || {}).host) if (n.dataset && n.dataset.ffShowIf && n.hidden) return true; return false; };
+
+  // ---------- validation ----------
+  const UBN_W = [1, 2, 1, 2, 1, 2, 4, 1];
+  const ubnOk = s => {
+    if (!/^\d{8}$/.test(s)) return false;
+    const sums = UBN_W.map((w, i) => { const p = w * +s[i]; return Math.floor(p / 10) + p % 10; });
+    const t = sums.reduce((a, b) => a + b, 0);
+    return t % 5 === 0 || (s[6] === '7' && (t + 1) % 5 === 0);
+  };
+  const MSG = CFG.messages;
+  const check = e => {
+    const key = e.dataset.ffKey, v = kindOf(e).get(e), rule = e.dataset.ffValidate || '';
+    if (conditionalHidden(e)) return '';
+    if (e.dataset.ffRequired === '1' && isEmpty(v)) return MSG.required;
+    if (isEmpty(v) || !rule) return '';
+    const s = String(v);
+    if (rule === 'email' && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(s)) return MSG.email;
+    if (rule === 'ubn' && !ubnOk(s)) return MSG.ubn;
+    if (rule === 'date' && !/^\d{4}-\d{2}-\d{2}$/.test(s)) return MSG.date;
+    if (rule.startsWith('re:') && !new RegExp(rule.slice(3)).test(s)) return e.dataset.ffMsg || MSG.format;
+    if (rule.startsWith('match:') && s !== String(getVal(rule.slice(6)))) return MSG.match;
+    return '';
+  };
+  const showError = (e, msg) => {
+    const box = e.closest('[data-ff-row]') || e.parentElement;
+    let err = box.querySelector(':scope > .ff-error');
+    if (!err) { err = document.createElement('div'); err.className = 'ff-error'; err.setAttribute('role', 'alert'); box.appendChild(err); }
+    err.textContent = msg; err.hidden = !msg;
+    e.setAttribute('aria-invalid', msg ? 'true' : 'false');
+  };
+  const validate = scope => {
+    let bad = 0;
+    for (const e of all('[data-ff-key]')) {
+      if (scope && !scope.contains(e) && !scope.contains(e.getRootNode().host)) continue;
+      const m = check(e); showError(e, m); if (m) bad++;
+    }
+    return bad;
+  };
+  const errors = () => all('[data-ff-key][aria-invalid=true]').map(e => ({key: e.dataset.ffKey,
+    message: ((e.closest('[data-ff-row]') || e.parentElement).querySelector('.ff-error') || {}).textContent || ''}));
+
+  // ---------- widgets ----------
+  function pickDropdown(host, v) {
+    const o = host.parentElement.querySelector(`[role=option][data-value="${CSS.escape(v || '')}"]`);
+    host.dataset.value = o ? v : '';
+    host.querySelector('.ff-dd-label').textContent = o ? o.textContent : host.dataset.ffPlaceholder;
+    host.parentElement.querySelectorAll('[role=option]').forEach(x => x.setAttribute('aria-selected', String(x === o)));
+    fire(host, 'change');
+  }
+  const initDropdown = host => {
+    const list = host.parentElement.querySelector('[role=listbox]');
+    const close = () => { list.hidden = true; host.setAttribute('aria-expanded', 'false'); };
+    host.addEventListener('click', ev => { ev.preventDefault(); list.hidden = !list.hidden; host.setAttribute('aria-expanded', String(!list.hidden)); });
+    list.addEventListener('click', ev => { const o = ev.target.closest('[role=option]'); if (o) { pickDropdown(host, o.dataset.value); close(); showError(host, check(host)); } });
+    document.addEventListener('click', ev => { if (!host.parentElement.contains(ev.composedPath()[0])) close(); }, true);
+  };
+  const initCombobox = inp => {
+    const opts = JSON.parse(inp.dataset.ffOptions), list = inp.parentElement.querySelector('[role=listbox]');
+    const delay = +(inp.dataset.ffDelay || 0);
+    let timer;
+    const render = () => {
+      const q = inp.value.trim().toLowerCase();
+      list.innerHTML = '';
+      if (q.length < (+inp.dataset.ffMinChars || 1)) { list.hidden = true; inp.setAttribute('aria-expanded', 'false'); return; }
+      const hits = opts.filter(o => o[1].toLowerCase().includes(q) || (o[2] || '').toLowerCase().includes(q)).slice(0, 8);
+      for (const [v, label, sub] of hits) {
+        const li = document.createElement('li'); li.setAttribute('role', 'option'); li.dataset.value = v; li.id = inp.id + '-o-' + v.replace(/\W/g, '_');
+        li.innerHTML = `<span></span>${sub ? '<small></small>' : ''}`; li.firstChild.textContent = label; if (sub) li.lastChild.textContent = sub;
+        list.appendChild(li);
+      }
+      if (!hits.length) list.innerHTML = `<li class="ff-empty">${CFG.messages.noMatch}</li>`;
+      list.hidden = false; inp.setAttribute('aria-expanded', 'true');
+    };
+    inp.addEventListener('input', () => {
+      inp.dataset.value = '';                               // typing invalidates the committed choice
+      clearTimeout(timer);
+      if (delay) { list.hidden = false; list.innerHTML = `<li class="ff-empty">${CFG.messages.searching}</li>`; timer = setTimeout(render, delay); } else render();
+    });
+    list.addEventListener('mousedown', ev => ev.preventDefault());
+    list.addEventListener('click', ev => {
+      const li = ev.target.closest('[role=option]'); if (!li) return;
+      const o = opts.find(o => o[0] === li.dataset.value);
+      inp.value = o[1]; inp.dataset.value = o[0]; list.hidden = true; inp.setAttribute('aria-expanded', 'false');
+      fire(inp, 'change'); showError(inp, check(inp));
+    });
+    inp.addEventListener('blur', () => setTimeout(() => { list.hidden = true; inp.setAttribute('aria-expanded', 'false'); }, 150));
+  };
+  const initDatepicker = inp => {
+    const btn = inp.parentElement.querySelector('.ff-cal-btn'), pop = inp.parentElement.querySelector('.ff-cal');
+    const ysel = pop.querySelector('.ff-cal-y'), msel = pop.querySelector('.ff-cal-m'), grid = pop.querySelector('.ff-cal-grid');
+    const draw = () => {
+      const y = +ysel.value, m = +msel.value, first = new Date(y, m - 1, 1).getDay(), n = new Date(y, m, 0).getDate();
+      grid.innerHTML = '';
+      for (let i = 0; i < first; i++) grid.appendChild(document.createElement('span'));
+      for (let d = 1; d <= n; d++) {
+        const b = document.createElement('button'); b.type = 'button'; b.setAttribute('role', 'gridcell'); b.textContent = d;
+        b.setAttribute('aria-label', `${y}-${pad(m)}-${pad(d)}`);
+        b.onclick = () => { inp.value = fmtDate(`${y}-${pad(m)}-${pad(d)}`, inp.dataset.ffFormat); pop.hidden = true; fire(inp, 'input', 'change'); showError(inp, check(inp)); };
+        grid.appendChild(b);
+      }
+    };
+    btn.addEventListener('click', () => {
+      const cur = parseDate(inp.value, inp.dataset.ffFormat), m = /^(\d{4})-(\d{2})/.exec(cur);
+      const now = new Date(CFG.today); ysel.value = m ? +m[1] : now.getFullYear(); msel.value = m ? +m[2] : now.getMonth() + 1;
+      draw(); pop.hidden = !pop.hidden;
+    });
+    ysel.onchange = msel.onchange = draw;
+    pop.querySelector('.ff-cal-prev').onclick = () => { if (+msel.value === 1) { msel.value = 12; ysel.value = +ysel.value - 1; } else msel.value = +msel.value - 1; draw(); };
+    pop.querySelector('.ff-cal-next').onclick = () => { if (+msel.value === 12) { msel.value = 1; ysel.value = +ysel.value + 1; } else msel.value = +msel.value + 1; draw(); };
+    if (inp.dataset.ffTyping === '0') inp.readOnly = true;
+  };
+  const initCascade = child => {
+    const parent = field(child.dataset.ffParent), map = JSON.parse(child.dataset.ffMap), ph = child.dataset.ffPlaceholder;
+    const fill = () => {
+      const keep = child.value;
+      child.innerHTML = `<option value="">${ph}</option>` + (map[parent.value] || []).map(([v, l]) => `<option value="${v}">${l}</option>`).join('');
+      child.disabled = !parent.value; child.value = (map[parent.value] || []).some(o => o[0] === keep) ? keep : '';
+    };
+    parent.addEventListener('change', fill); fill();
+  };
+  const initTabs = list => {
+    const tabs = [...list.querySelectorAll('[role=tab]')];
+    tabs.forEach(t => t.addEventListener('click', () => tabs.forEach(x => {
+      const on = x === t; x.setAttribute('aria-selected', String(on)); x.classList.toggle('active', on);
+      document.getElementById(x.getAttribute('aria-controls')).hidden = !on;
+    })));
+  };
+  const refreshShowIf = () => {
+    for (const e of all('[data-ff-show-if]')) {
+      const [k, v] = e.dataset.ffShowIf.split('=');
+      e.hidden = String(getVal(k)) !== v;
+    }
+  };
+
+  // ---------- steps & submit ----------
+  const steps = () => all('.ff-step');
+  const showStep = i => {
+    step = i; steps().forEach((s, j) => s.hidden = j !== i);
+    const ind = one('.ff-progress'); if (ind) ind.querySelectorAll('li').forEach((li, j) => li.classList.toggle('current', j === i));
+    window.scrollTo(0, 0);
+  };
+  const snapshot = () => Object.fromEntries(CFG.keys.map(k => [k, getVal(k)]));
+  const submit = () => {
+    if (validate()) { banner(MSG.fix, true); return; }
+    if (STATE === 'error' && !window.__ffRejected) {          // server-side rejection on first submit
+      window.__ffRejected = true; const e = field(CFG.rejectKey);
+      if (e) { showError(e, CFG.rejectMessage); banner(MSG.fix, true); return; }
+    }
+    submitted = snapshot(); window.__submitted = submitted;
+    one('#ff-root').innerHTML = `<div class="ff-done" role="status"><h2>${MSG.doneTitle}</h2><p>${MSG.doneBody}</p><p class="ff-ref">${CFG.refPrefix}-${String(Date.now()).slice(-6)}</p></div>`;
+  };
+  const banner = (msg, bad) => {
+    let b = one('.ff-banner'); if (!b) return;
+    b.textContent = msg; b.hidden = !msg; b.classList.toggle('bad', !!bad);
+  };
+
+  // ---------- boot ----------
+  const boot = () => {
+    const root = document.getElementById('ff-root');
+    root.replaceChildren(document.getElementById('ff-form').content.cloneNode(true));
+    for (const host of root.querySelectorAll('[data-ff-shadow]')) {
+      const sr = host.attachShadow({mode: host.dataset.ffShadow});
+      sr.appendChild(document.getElementById('ff-style').cloneNode(true));
+      sr.appendChild(host.querySelector('template').content.cloneNode(true));
+      host.querySelector('template').remove(); roots.push(sr);
+    }
+    all('[data-ff-kind=dropdown]').forEach(initDropdown);
+    all('[data-ff-kind=combobox]').forEach(initCombobox);
+    all('[data-ff-kind=datepicker]').forEach(initDatepicker);
+    all('[data-ff-parent]').forEach(initCascade);
+    all('[role=tablist]').forEach(initTabs);
+    all('[data-ff-kind=switch]').forEach(s => s.addEventListener('click', () => { s.setAttribute('aria-checked', String(s.getAttribute('aria-checked') !== 'true')); fire(s, 'change'); }));
+    all('[data-ff-kind=ariaradio] [role=radio]').forEach(r => r.addEventListener('click', () => kinds.ariaradio.set(r.closest('[data-ff-kind]'), r.dataset.value)));
+    for (const e of all('[data-ff-key]')) {
+      e.addEventListener('change', refreshShowIf);
+      e.addEventListener(e.dataset.ffKind === 'combobox' ? 'change' : 'blur', () => showError(e, check(e)), true);
+      if (e.dataset.ffKind === 'radio' || e.dataset.ffKind === 'checks') e.addEventListener('change', () => showError(e, check(e)));
+    }
+    all('[data-ff-next]').forEach(b => b.addEventListener('click', ev => {
+      ev.preventDefault(); const cur = steps()[step];
+      if (validate(cur)) { banner(MSG.fix, true); return; } banner(''); showStep(step + 1);
+    }));
+    all('[data-ff-back]').forEach(b => b.addEventListener('click', ev => { ev.preventDefault(); banner(''); showStep(step - 1); }));
+    all('[data-ff-submit]').forEach(b => b.addEventListener('click', ev => { ev.preventDefault(); submit(); }));
+    all('form').forEach(f => f.addEventListener('submit', ev => ev.preventDefault()));
+    if (steps().length) showStep(0);
+    // hard states (a recorder can also call window.__ffPrefill(right, wrong) itself with a persona's values)
+    const P = CFG.prefill, R = Object.entries(P.right);
+    if (STATE === 'prefilled') window.__ffPrefill(P.right);
+    if (STATE === 'partial') window.__ffPrefill(Object.fromEntries(R.slice(0, Math.ceil(R.length / 2))));
+    if (STATE === 'wrong') window.__ffPrefill(P.right, P.wrong);
+    refreshShowIf();
+    window.__ffReady = true;
+  };
+  // Put values into fields as if entered earlier: `right` twice (so dependent selects get their options), then `wrong`
+  // values with their validation message shown. Keys/values use the same canonical form as __formState().values.
+  window.__ffPrefill = (right, wrong) => {
+    for (let i = 0; i < 2; i++) Object.entries(right || {}).forEach(([k, v]) => setVal(k, v));
+    Object.entries(wrong || {}).forEach(([k, v]) => { setVal(k, v); const e = field(k); if (e) showError(e, check(e)); });
+    refreshShowIf();
+  };
+  window.__formState = () => ({
+    family: CFG.family, variant: CFG.variant, state: STATE, ready: !!window.__ffReady,
+    step, steps: steps().length || 1, submitted: !!submitted,
+    values: submitted || (window.__ffReady ? snapshot() : {}),
+    errors: submitted ? [] : errors(),
+    visible: window.__ffReady && !submitted ? CFG.keys.filter(k => { const e = field(k); return e && !conditionalHidden(e); }) : [],
+  });
+  const wait = STATE === 'loading' ? +(Q.get('delay') || 1500) : CFG.delay;
+  const go = () => wait ? setTimeout(boot, wait) : boot();
+  document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', go) : go();
+})();
+</script>
+</body></html>

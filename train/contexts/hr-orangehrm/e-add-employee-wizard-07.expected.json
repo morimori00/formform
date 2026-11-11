@@ -1,0 +1,51 @@
+{
+ "persona": "hr-orangehrm/e-add-employee-wizard-07",
+ "context": "hr-orangehrm/e-add-employee-wizard-07.md",
+ "split": "eval",
+ "variants": {
+  "hr-orangehrm/add-employee-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Tsung-Chi",
+    "middle_name": "",
+    "last_name": "Peng",
+    "employee_id": "KST-87014",
+    "create_login": true,
+    "username": "tsungchi.peng",
+    "login_status": "enabled",
+    "password": "Onboard!2092b",
+    "confirm_password": "Onboard!2092b",
+    "job_title": "sec_analyst",
+    "department": "infosec",
+    "work_location": "sg",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m8698",
+    "joined_date": "2026-12-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Tsung-Chi",
+     "last_name": "Peng",
+     "employee_id": "KST-87014",
+     "create_login": true,
+     "username": "tsungchi.peng",
+     "login_status": "enabled",
+     "password": "Onboard!2092b",
+     "confirm_password": "Onboard!2092b",
+     "job_title": "sec_analyst",
+     "department": "infosec",
+     "work_location": "sg",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m8698",
+     "joined_date": "2026-12-08"
+    },
+    "wrong": {
+     "employee_id": "KST-870x",
+     "last_name": "Pe"
+    }
+   }
+  }
+ }
+}

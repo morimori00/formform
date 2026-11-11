@@ -1,0 +1,179 @@
+{
+ "persona": "hr-orangehrm/t-emp-013",
+ "context": "hr-orangehrm/t-emp-013.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Han",
+    "middle_name": "",
+    "last_name": "Chiu",
+    "employee_id": "KST-26674",
+    "create_login": true,
+    "username": "chunhan.chiu",
+    "login_status": "enabled",
+    "password": "Onboard#4622z",
+    "confirm_password": "Onboard#4622z"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Han",
+     "last_name": "Chiu",
+     "employee_id": "KST-26674",
+     "create_login": true,
+     "username": "chunhan.chiu",
+     "login_status": "enabled",
+     "password": "Onboard#4622z",
+     "confirm_password": "Onboard#4622z"
+    },
+    "wrong": {
+     "employee_id": "KST-266x",
+     "first_name": "Chun"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Han",
+    "middle_name": "",
+    "last_name": "Chiu",
+    "employee_id": "KST-26674",
+    "license_number": "DL-43777280",
+    "license_expiry": "2030-03-24",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1992-03-28",
+    "gender": "male"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Han",
+     "last_name": "Chiu",
+     "employee_id": "KST-26674",
+     "license_number": "DL-43777280",
+     "license_expiry": "2030-03-24",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1992-03-28",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-266x",
+     "first_name": "Chun"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "comp",
+    "leave_from": "2026-12-22",
+    "leave_to": "2026-12-24",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Wedding of a sibling abroad"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "comp",
+     "leave_from": "2026-12-22",
+     "leave_to": "2026-12-24",
+     "partial_days": "none",
+     "leave_comment": "Wedding of a sibling abroad"
+    },
+    "wrong": {
+     "partial_days": "all"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "comp",
+    "leave_from": "2026-12-22",
+    "leave_to": "2026-12-24",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Wedding of a sibling abroad"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "comp",
+     "leave_from": "2026-12-22",
+     "leave_to": "2026-12-24",
+     "partial_days": "none",
+     "leave_comment": "Wedding of a sibling abroad"
+    },
+    "wrong": {
+     "partial_days": "end"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chun-Han",
+    "middle_name": "",
+    "last_name": "Chiu",
+    "employee_id": "KST-26674",
+    "create_login": true,
+    "username": "chunhan.chiu",
+    "login_status": "enabled",
+    "password": "Onboard#4622z",
+    "confirm_password": "Onboard#4622z",
+    "nationality": "TW",
+    "marital": "single",
+    "dob": "1992-03-28",
+    "gender": "male",
+    "job_title": "data_platform_eng",
+    "department": "data_platform",
+    "work_location": "hsp_fab2",
+    "emp_status": "ft_contract",
+    "supervisor": "u_m2864",
+    "joined_date": "2027-01-02"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chun-Han",
+     "last_name": "Chiu",
+     "employee_id": "KST-26674",
+     "create_login": true,
+     "username": "chunhan.chiu",
+     "login_status": "enabled",
+     "password": "Onboard#4622z",
+     "confirm_password": "Onboard#4622z",
+     "nationality": "TW",
+     "marital": "single",
+     "dob": "1992-03-28",
+     "gender": "male",
+     "job_title": "data_platform_eng",
+     "department": "data_platform",
+     "work_location": "hsp_fab2",
+     "emp_status": "ft_contract",
+     "supervisor": "u_m2864",
+     "joined_date": "2027-01-02"
+    },
+    "wrong": {
+     "employee_id": "KST-266x",
+     "emp_status": "ft_perm"
+    }
+   }
+  }
+ }
+}

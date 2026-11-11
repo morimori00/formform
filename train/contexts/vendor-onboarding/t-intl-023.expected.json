@@ -1,0 +1,183 @@
+{
+ "persona": "vendor-onboarding/t-intl-023",
+ "context": "vendor-onboarding/t-intl-023.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Redcliff Calibration Pte. Ltd.",
+    "tax_id": "209921706M",
+    "company_address": "43 Pioneer Crescent, #08-13, Singapore 792761",
+    "established": "2019-05-13",
+    "business_type": "private_limited",
+    "services": "Metrology equipment calibration and certification",
+    "service_area": "global",
+    "gross_sales": "91300000",
+    "contact_name": [
+     "Lucas Costa",
+     "Ms. Lucas Costa"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "+65 6370 7068",
+    "phone_evening": "",
+    "email": "lucas.costa@redcliff.example",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Redcliff Calibration Pte. Ltd.",
+    "account_number": "100-971061-3",
+    "swift": "LCMBSG2LXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Redcliff Calibration Pte. Ltd.",
+     "tax_id": "209921706M",
+     "company_address": "43 Pioneer Crescent, #08-13, Singapore 792761",
+     "established": "2019-05-13",
+     "business_type": "private_limited",
+     "services": "Metrology equipment calibration and certification",
+     "service_area": "global",
+     "gross_sales": "91300000",
+     "contact_name": "Lucas Costa",
+     "contact_title": "Account Manager",
+     "phone_day": "+65 6370 7068",
+     "email": "lucas.costa@redcliff.example",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Redcliff Calibration Pte. Ltd.",
+     "account_number": "100-971061-3",
+     "swift": "LCMBSG2LXXX"
+    },
+    "wrong": {
+     "email": "lucas.costa at redcliff.example",
+     "contact_name": "Lucas"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Redcliff Calibration Pte. Ltd.",
+    "tax_id": "209921706M",
+    "established": "2019-05-13",
+    "service_area": "global",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Lucas Costa",
+     "Ms. Lucas Costa"
+    ],
+    "email": "lucas.costa@redcliff.example",
+    "phone_day": "+65 6370 7068",
+    "phone_evening": "",
+    "company_address": "43 Pioneer Crescent, #08-13, Singapore 792761",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Redcliff Calibration Pte. Ltd.",
+    "account_number": "100-971061-3",
+    "swift": "LCMBSG2LXXX",
+    "insurance": "insured",
+    "gross_sales": "91300000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Redcliff Calibration Pte. Ltd.",
+     "tax_id": "209921706M",
+     "established": "2019-05-13",
+     "service_area": "global",
+     "business_type": "private_limited",
+     "contact_name": "Lucas Costa",
+     "email": "lucas.costa@redcliff.example",
+     "phone_day": "+65 6370 7068",
+     "company_address": "43 Pioneer Crescent, #08-13, Singapore 792761",
+     "licensing": "not_licensed",
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Redcliff Calibration Pte. Ltd.",
+     "account_number": "100-971061-3",
+     "swift": "LCMBSG2LXXX",
+     "insurance": "insured",
+     "gross_sales": "91300000"
+    },
+    "wrong": {
+     "email": "lucas.costa at redcliff.example",
+     "org_name": "Redcliff Calibr"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Lion City Mercantile Bank",
+    "beneficiary": "Redcliff Calibration Pte. Ltd.",
+    "account_number": "100-971061-3",
+    "swift": "LCMBSG2LXXX",
+    "org_name": "Redcliff Calibration Pte. Ltd.",
+    "tax_id": "209921706M",
+    "business_type": "private_limited",
+    "established": "2019-05-13",
+    "company_address": "43 Pioneer Crescent, #08-13, Singapore 792761",
+    "service_area": "global",
+    "contact_name": [
+     "Lucas Costa",
+     "Ms. Lucas Costa"
+    ],
+    "email": "lucas.costa@redcliff.example",
+    "phone_day": "+65 6370 7068",
+    "contact_title": "Account Manager",
+    "phone_evening": "",
+    "gross_sales": "91300000",
+    "services": "Metrology equipment calibration and certification",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Lion City Mercantile Bank",
+     "beneficiary": "Redcliff Calibration Pte. Ltd.",
+     "account_number": "100-971061-3",
+     "swift": "LCMBSG2LXXX",
+     "org_name": "Redcliff Calibration Pte. Ltd.",
+     "tax_id": "209921706M",
+     "business_type": "private_limited",
+     "established": "2019-05-13",
+     "company_address": "43 Pioneer Crescent, #08-13, Singapore 792761",
+     "service_area": "global",
+     "contact_name": "Lucas Costa",
+     "email": "lucas.costa@redcliff.example",
+     "phone_day": "+65 6370 7068",
+     "contact_title": "Account Manager",
+     "gross_sales": "91300000",
+     "services": "Metrology equipment calibration and certification",
+     "insurance": "insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "lucas.costa at redcliff.example",
+     "org_name": "Redcliff Calibr"
+    }
+   }
+  }
+ }
+}

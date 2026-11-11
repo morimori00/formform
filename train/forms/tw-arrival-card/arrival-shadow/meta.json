@@ -1,0 +1,315 @@
+{
+  "family": "tw-arrival-card",
+  "variant": "arrival-shadow",
+  "split": "eval",
+  "title": "Taiwan Arrival Card",
+  "language": "zh-Hant",
+  "source": "Built from scratch in the style of Taiwan's online arrival card (5 steps; live system not used)",
+  "context": "contexts/eval-maria-santos.md",
+  "url": "forms/tw-arrival-card/arrival-shadow/index.html",
+  "pages": 3,
+  "goal": "Fill in the Taiwan arrival card for the traveller in the context and submit it.",
+  "contexts": [
+    "eval-maria-santos.md"
+  ],
+  "entry": "index.html",
+  "submit": true,
+  "locale": "zh-Hant",
+  "personas": [
+    "eval-maria-santos",
+    "tw-arrival-card/e-arrival-shadow-01",
+    "tw-arrival-card/e-arrival-shadow-02",
+    "tw-arrival-card/e-arrival-shadow-03",
+    "tw-arrival-card/e-arrival-shadow-04",
+    "tw-arrival-card/e-arrival-shadow-05",
+    "tw-arrival-card/e-arrival-shadow-06",
+    "tw-arrival-card/e-arrival-shadow-07",
+    "tw-arrival-card/e-arrival-shadow-08"
+  ],
+  "success": {
+    "require_submitted": true,
+    "rule": "all non-infeasible fields match expected (after normalization), infeasible fields empty, and the form was submitted"
+  },
+  "reject_on_first_submit": {
+    "key": "visa_no",
+    "message": "簽證號碼查核失敗，請重新輸入 Visa number check failed, please re-enter."
+  },
+  "fields": [
+    {
+      "label": "國籍 Nationality",
+      "key": "nationality",
+      "kind": "combobox",
+      "page": 0,
+      "expected_value_from_context": "PH",
+      "normalization": "choice",
+      "required": true,
+      "id": "nationality",
+      "source": "state",
+      "expected": "PH"
+    },
+    {
+      "label": "護照號碼 Passport No.",
+      "key": "passport_no",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "P4419027B",
+      "normalization": "alnum",
+      "required": true,
+      "id": "passport_no",
+      "source": "state",
+      "expected": "P4419027B"
+    },
+    {
+      "label": "姓 Family Name",
+      "key": "family_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "SANTOS",
+      "normalization": "text",
+      "required": true,
+      "id": "family_name",
+      "source": "state",
+      "expected": "SANTOS"
+    },
+    {
+      "label": "名 Given Name",
+      "key": "given_name",
+      "kind": "text",
+      "page": 0,
+      "expected_value_from_context": "MARIA ISABEL",
+      "normalization": "text",
+      "required": true,
+      "id": "given_name",
+      "source": "state",
+      "expected": "MARIA ISABEL"
+    },
+    {
+      "label": "出生日期 Date of Birth",
+      "key": "dob",
+      "kind": "datepicker",
+      "page": 0,
+      "expected_value_from_context": "1990-10-05",
+      "normalization": "date",
+      "required": true,
+      "id": "dob",
+      "source": "state",
+      "expected": "1990-10-05"
+    },
+    {
+      "label": "性別 Sex",
+      "key": "sex",
+      "kind": "radio",
+      "page": 0,
+      "expected_value_from_context": "female",
+      "normalization": "choice",
+      "required": true,
+      "id": "sex",
+      "source": "state",
+      "expected": "female"
+    },
+    {
+      "label": "護照效期 Passport Expiry Date",
+      "key": "passport_expiry",
+      "kind": "datepicker",
+      "page": 0,
+      "expected_value_from_context": "2033-02-09",
+      "normalization": "date",
+      "required": true,
+      "id": "passport_expiry",
+      "source": "state",
+      "expected": "2033-02-09"
+    },
+    {
+      "label": "入境日期 Date of Arrival",
+      "key": "arrival_date",
+      "kind": "datepicker",
+      "page": 1,
+      "expected_value_from_context": "2026-12-14",
+      "normalization": "date",
+      "required": true,
+      "id": "arrival_date",
+      "source": "state",
+      "expected": "2026-12-14"
+    },
+    {
+      "label": "班機/船舶號碼 Flight / Vessel No.",
+      "key": "flight_no",
+      "kind": "text",
+      "page": 1,
+      "expected_value_from_context": "PR 896",
+      "normalization": "alnum",
+      "required": true,
+      "id": "flight_no",
+      "source": "state",
+      "expected": "PR 896"
+    },
+    {
+      "label": "來臺目的 Purpose of Visit",
+      "key": "purpose",
+      "kind": "select",
+      "page": 1,
+      "expected_value_from_context": "business",
+      "normalization": "choice",
+      "required": true,
+      "id": "purpose",
+      "source": "state",
+      "expected": "business"
+    },
+    {
+      "label": "職業 Occupation",
+      "key": "occupation",
+      "kind": "select",
+      "page": 1,
+      "expected_value_from_context": "engineer",
+      "normalization": "choice",
+      "required": true,
+      "id": "occupation",
+      "source": "state",
+      "expected": "engineer"
+    },
+    {
+      "label": "簽證種類 Visa Type",
+      "key": "visa_type",
+      "kind": "select",
+      "page": 1,
+      "expected_value_from_context": "resident",
+      "normalization": "choice",
+      "required": true,
+      "id": "visa_type",
+      "source": "state",
+      "expected": "resident"
+    },
+    {
+      "label": "入境簽證號碼 Entry Permit / Visa No.",
+      "key": "visa_no",
+      "kind": "text",
+      "page": 1,
+      "expected_value_from_context": "V-8821556",
+      "normalization": "alnum",
+      "required": true,
+      "id": "visa_no",
+      "source": "state",
+      "expected": "V-8821556"
+    },
+    {
+      "label": "居住地類型 Type of Residence",
+      "key": "stay_type",
+      "kind": "radio",
+      "page": 2,
+      "expected_value_from_context": "residence",
+      "normalization": "choice",
+      "required": true,
+      "id": "stay_type",
+      "source": "state",
+      "expected": "residence"
+    },
+    {
+      "label": "縣市 City / County",
+      "key": "county",
+      "kind": "select",
+      "page": 2,
+      "expected_value_from_context": "新竹市",
+      "normalization": "choice",
+      "required": true,
+      "id": "county",
+      "source": "state",
+      "expected": "新竹市"
+    },
+    {
+      "label": "鄉鎮市區 District",
+      "key": "district",
+      "kind": "cascade",
+      "page": 2,
+      "expected_value_from_context": "東區",
+      "normalization": "choice",
+      "required": true,
+      "id": "district",
+      "source": "state",
+      "expected": "東區"
+    },
+    {
+      "label": "居住地址 Residential Address in Taiwan",
+      "key": "stay_address",
+      "kind": "textarea",
+      "page": 2,
+      "expected_value_from_context": "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+      "accept": [
+        "Hsinchu Science Park Residence, No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300"
+      ],
+      "normalization": "fuzzy",
+      "required": true,
+      "id": "stay_address",
+      "source": "state",
+      "expected": [
+        "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+        "Hsinchu Science Park Residence, No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300"
+      ]
+    },
+    {
+      "label": "臺灣聯絡電話 Phone No. in Taiwan",
+      "key": "phone",
+      "kind": "tel",
+      "page": 2,
+      "expected_value_from_context": "+886 970 228 415",
+      "normalization": "phone",
+      "required": true,
+      "id": "phone",
+      "source": "state",
+      "expected": "+886 970 228 415"
+    },
+    {
+      "label": "電子郵件 Email",
+      "key": "email",
+      "kind": "email",
+      "page": 2,
+      "expected_value_from_context": "maria.santos@kestrel-semi.example",
+      "normalization": "email",
+      "required": false,
+      "id": "email",
+      "source": "state",
+      "expected": "maria.santos@kestrel-semi.example"
+    },
+    {
+      "label": "過去 14 天曾到訪國家 Countries visited in the past 14 days",
+      "key": "visited",
+      "kind": "checks",
+      "page": 2,
+      "expected_value_from_context": [
+        "PH"
+      ],
+      "normalization": "set",
+      "required": true,
+      "id": "visited",
+      "source": "state",
+      "expected": [
+        "PH"
+      ]
+    },
+    {
+      "label": "本人聲明以上資料正確無誤 I declare the information above is true",
+      "key": "declare",
+      "kind": "checkbox",
+      "page": 2,
+      "expected_value_from_context": true,
+      "normalization": "bool",
+      "required": true,
+      "id": "declare",
+      "source": "state",
+      "expected": true
+    }
+  ],
+  "hard_states_supported": [
+    "prefilled",
+    "partial",
+    "wrong",
+    "loading",
+    "error",
+    "scroll",
+    "multi_page",
+    "shadow_dom",
+    "autocomplete",
+    "date_picker",
+    "cascade"
+  ],
+  "notes": "Nationality autocomplete; address block in closed shadow root; first submit rejected."
+}

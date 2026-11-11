@@ -1,0 +1,54 @@
+{
+ "persona": "kyc-account-opening/e-eval-salary-account-08",
+ "context": "kyc-account-opening/e-eval-salary-account-08.md",
+ "split": "eval",
+ "variants": {
+  "kyc-account-opening/eval-salary-account": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Ho Tsung-Chi",
+     "Tsung-Chi Ho"
+    ],
+    "gender": "female",
+    "dob": "1962-03-29",
+    "nationality": "TW",
+    "id_form": "national_id",
+    "phone": "+886 984 305 499",
+    "email": "tsungchi.ho@inbox.example",
+    "address": [
+     "4F, No. 139, Ln. 179, Sec. 4, Fuxing S. Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "4F, No. 139, Ln. 179, Sec. 4, Fuxing S. Rd., Xitun Dist., Taichung City 407"
+    ],
+    "mother_maiden": "Shih",
+    "education": "associate",
+    "account_type": "time_deposit",
+    "account_category": "individual",
+    "monthly_income": "235000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Ho Tsung-Chi",
+     "gender": "female",
+     "dob": "1962-03-29",
+     "nationality": "TW",
+     "id_form": "national_id",
+     "phone": "+886 984 305 499",
+     "email": "tsungchi.ho@inbox.example",
+     "address": "4F, No. 139, Ln. 179, Sec. 4, Fuxing S. Rd., Xitun Dist., Taichung City 407, Taiwan",
+     "mother_maiden": "Shih",
+     "education": "associate",
+     "account_type": "time_deposit",
+     "account_category": "individual",
+     "monthly_income": "235000"
+    },
+    "wrong": {
+     "email": "tsungchi.ho at inbox.example",
+     "gender": "male"
+    }
+   }
+  }
+ }
+}

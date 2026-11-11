@@ -1,0 +1,236 @@
+{
+ "persona": "emr-registration/t-patient-036",
+ "context": "emr-registration/t-patient-036.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chia-Lun",
+    "middle_name": "",
+    "last_name": "Wu",
+    "dob": "1944-08-22",
+    "sex": "male",
+    "marital": "single",
+    "language": "taiwanese",
+    "street": "3F, No. 263, Ren'ai Rd., Xitun Dist.",
+    "city": "Taichung City",
+    "postal": "407",
+    "country": "TW",
+    "phone_home": "",
+    "phone_cell": "0997-655-859",
+    "email": "",
+    "occupation": "Civil servant",
+    "employer": "Amberline Elementary School",
+    "ec_name": "Chih-Jie Wu",
+    "ec_phone": "0920-344-454",
+    "ec_relationship": "friend",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3702-5172",
+    "group_number": "G-3395",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-09-05"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chia-Lun",
+     "last_name": "Wu",
+     "dob": "1944-08-22",
+     "sex": "male",
+     "marital": "single",
+     "language": "taiwanese",
+     "street": "3F, No. 263, Ren'ai Rd., Xitun Dist.",
+     "city": "Taichung City",
+     "postal": "407",
+     "country": "TW",
+     "phone_cell": "0997-655-859",
+     "occupation": "Civil servant",
+     "employer": "Amberline Elementary School",
+     "ec_name": "Chih-Jie Wu",
+     "ec_phone": "0920-344-454",
+     "ec_relationship": "friend",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3702-5172",
+     "group_number": "G-3395",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-09-05"
+    },
+    "wrong": {
+     "ec_phone": "0920-3"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Wu",
+    "first_name": "Chia-Lun",
+    "middle_name": "",
+    "dob": "1944-08-22",
+    "sex": "male",
+    "marital": "single",
+    "national_id": "",
+    "street": "3F, No. 263, Ren'ai Rd., Xitun Dist.",
+    "postal": "407",
+    "city": "Taichung City",
+    "country": "TW",
+    "phone_cell": "0997-655-859",
+    "phone_home": "",
+    "email": "",
+    "ec_name": "Chih-Jie Wu",
+    "ec_relationship": "friend",
+    "ec_phone": "0920-344-454",
+    "occupation": "Civil servant",
+    "employer": "Amberline Elementary School",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3702-5172",
+    "group_number": "G-3395",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-09-05",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Wu",
+     "first_name": "Chia-Lun",
+     "dob": "1944-08-22",
+     "sex": "male",
+     "marital": "single",
+     "street": "3F, No. 263, Ren'ai Rd., Xitun Dist.",
+     "postal": "407",
+     "city": "Taichung City",
+     "country": "TW",
+     "phone_cell": "0997-655-859",
+     "ec_name": "Chih-Jie Wu",
+     "ec_relationship": "friend",
+     "ec_phone": "0920-344-454",
+     "occupation": "Civil servant",
+     "employer": "Amberline Elementary School",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3702-5172",
+     "group_number": "G-3395",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-09-05"
+    },
+    "wrong": {
+     "marital": "married"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Chia-Lun",
+    "last_name": "Wu",
+    "dob": "1944-08-22",
+    "sex": "male",
+    "language": "taiwanese",
+    "street": "3F, No. 263, Ren'ai Rd., Xitun Dist.",
+    "city": "Taichung City",
+    "postal": "407",
+    "country": "TW",
+    "phone_cell": "0997-655-859",
+    "phone_home": "",
+    "ec_name": "Chih-Jie Wu",
+    "ec_phone": "0920-344-454",
+    "ec_relationship": "friend",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3702-5172",
+    "group_number": "G-3395",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-09-05"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Chia-Lun",
+     "last_name": "Wu",
+     "dob": "1944-08-22",
+     "sex": "male",
+     "language": "taiwanese",
+     "street": "3F, No. 263, Ren'ai Rd., Xitun Dist.",
+     "city": "Taichung City",
+     "postal": "407",
+     "country": "TW",
+     "phone_cell": "0997-655-859",
+     "ec_name": "Chih-Jie Wu",
+     "ec_phone": "0920-344-454",
+     "ec_relationship": "friend",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3702-5172",
+     "group_number": "G-3395",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-09-05"
+    },
+    "wrong": {
+     "ec_relationship": "spouse"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Wu",
+    "first_name": "Chia-Lun",
+    "dob": "1944-08-22",
+    "sex": "male",
+    "phone_cell": "0997-655-859",
+    "country": "TW",
+    "city": "Taichung City",
+    "postal": "407",
+    "street": "3F, No. 263, Ren'ai Rd., Xitun Dist.",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3702-5172",
+    "subscriber_rel": "self",
+    "ins_effective": "2024-09-05",
+    "email": "",
+    "phone_home": "",
+    "marital": "single",
+    "language": "taiwanese",
+    "occupation": "Civil servant",
+    "employer": "Amberline Elementary School",
+    "ec_name": "Chih-Jie Wu",
+    "ec_phone": "0920-344-454",
+    "ec_relationship": "friend",
+    "group_number": "G-3395"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Wu",
+     "first_name": "Chia-Lun",
+     "dob": "1944-08-22",
+     "sex": "male",
+     "phone_cell": "0997-655-859",
+     "country": "TW",
+     "city": "Taichung City",
+     "postal": "407",
+     "street": "3F, No. 263, Ren'ai Rd., Xitun Dist.",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3702-5172",
+     "subscriber_rel": "self",
+     "ins_effective": "2024-09-05",
+     "marital": "single",
+     "language": "taiwanese",
+     "occupation": "Civil servant",
+     "employer": "Amberline Elementary School",
+     "ec_name": "Chih-Jie Wu",
+     "ec_phone": "0920-344-454",
+     "ec_relationship": "friend",
+     "group_number": "G-3395"
+    },
+    "wrong": {
+     "ins_provider": "fmh"
+    }
+   }
+  }
+ }
+}

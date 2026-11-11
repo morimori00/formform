@@ -1,0 +1,177 @@
+{
+ "persona": "vendor-onboarding/t-intl-020",
+ "context": "vendor-onboarding/t-intl-020.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Meridian Freight Pte. Ltd.",
+    "tax_id": "206411518D",
+    "company_address": "7 Pioneer Crescent, #09-25, Singapore 793905",
+    "established": "1996-05-18",
+    "business_type": "private_limited",
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "service_area": "europe",
+    "gross_sales": "38700000",
+    "contact_name": [
+     "Tomas Bianchi",
+     "Mr. Tomas Bianchi"
+    ],
+    "contact_title": "Sales Director",
+    "phone_day": "+65 6715 4714",
+    "phone_evening": "+65 6715 3257",
+    "email": "tomas.bianchi@meridian.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "SG-LIC-2150946",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Meridian Freight Pte. Ltd.",
+    "account_number": "133-504470-7",
+    "swift": "OBBXSG2XXXX"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Meridian Freight Pte. Ltd.",
+     "tax_id": "206411518D",
+     "company_address": "7 Pioneer Crescent, #09-25, Singapore 793905",
+     "established": "1996-05-18",
+     "business_type": "private_limited",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "service_area": "europe",
+     "gross_sales": "38700000",
+     "contact_name": "Tomas Bianchi",
+     "contact_title": "Sales Director",
+     "phone_day": "+65 6715 4714",
+     "phone_evening": "+65 6715 3257",
+     "email": "tomas.bianchi@meridian.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "SG-LIC-2150946",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Meridian Freight Pte. Ltd.",
+     "account_number": "133-504470-7",
+     "swift": "OBBXSG2XXXX"
+    },
+    "wrong": {
+     "email": "tomas.bianchi at meridian.example",
+     "account_number": "133-50"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Meridian Freight Pte. Ltd.",
+    "tax_id": "206411518D",
+    "established": "1996-05-18",
+    "service_area": "europe",
+    "business_type": "private_limited",
+    "contact_name": [
+     "Tomas Bianchi",
+     "Mr. Tomas Bianchi"
+    ],
+    "email": "tomas.bianchi@meridian.example",
+    "phone_day": "+65 6715 4714",
+    "phone_evening": "+65 6715 3257",
+    "company_address": "7 Pioneer Crescent, #09-25, Singapore 793905",
+    "licensing": "licensed",
+    "license_number": "SG-LIC-2150946",
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Meridian Freight Pte. Ltd.",
+    "account_number": "133-504470-7",
+    "swift": "OBBXSG2XXXX",
+    "insurance": "insured",
+    "gross_sales": "38700000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Meridian Freight Pte. Ltd.",
+     "tax_id": "206411518D",
+     "established": "1996-05-18",
+     "service_area": "europe",
+     "business_type": "private_limited",
+     "contact_name": "Tomas Bianchi",
+     "email": "tomas.bianchi@meridian.example",
+     "phone_day": "+65 6715 4714",
+     "phone_evening": "+65 6715 3257",
+     "company_address": "7 Pioneer Crescent, #09-25, Singapore 793905",
+     "licensing": "licensed",
+     "license_number": "SG-LIC-2150946",
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Meridian Freight Pte. Ltd.",
+     "account_number": "133-504470-7",
+     "swift": "OBBXSG2XXXX",
+     "insurance": "insured",
+     "gross_sales": "38700000"
+    },
+    "wrong": {
+     "email": "tomas.bianchi at meridian.example",
+     "business_type": "sole_prop"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Orchid Bay Bank",
+    "beneficiary": "Meridian Freight Pte. Ltd.",
+    "account_number": "133-504470-7",
+    "swift": "OBBXSG2XXXX",
+    "org_name": "Meridian Freight Pte. Ltd.",
+    "tax_id": "206411518D",
+    "business_type": "private_limited",
+    "established": "1996-05-18",
+    "company_address": "7 Pioneer Crescent, #09-25, Singapore 793905",
+    "service_area": "europe",
+    "contact_name": [
+     "Tomas Bianchi",
+     "Mr. Tomas Bianchi"
+    ],
+    "email": "tomas.bianchi@meridian.example",
+    "phone_day": "+65 6715 4714",
+    "contact_title": "Sales Director",
+    "phone_evening": "+65 6715 3257",
+    "gross_sales": "38700000",
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "SG-LIC-2150946"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Orchid Bay Bank",
+     "beneficiary": "Meridian Freight Pte. Ltd.",
+     "account_number": "133-504470-7",
+     "swift": "OBBXSG2XXXX",
+     "org_name": "Meridian Freight Pte. Ltd.",
+     "tax_id": "206411518D",
+     "business_type": "private_limited",
+     "established": "1996-05-18",
+     "company_address": "7 Pioneer Crescent, #09-25, Singapore 793905",
+     "service_area": "europe",
+     "contact_name": "Tomas Bianchi",
+     "email": "tomas.bianchi@meridian.example",
+     "phone_day": "+65 6715 4714",
+     "contact_title": "Sales Director",
+     "phone_evening": "+65 6715 3257",
+     "gross_sales": "38700000",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "SG-LIC-2150946"
+    },
+    "wrong": {
+     "email": "tomas.bianchi at meridian.example",
+     "insurance": "not_insured"
+    }
+   }
+  }
+ }
+}

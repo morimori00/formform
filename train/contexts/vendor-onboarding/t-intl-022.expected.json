@@ -1,0 +1,186 @@
+{
+ "persona": "vendor-onboarding/t-intl-022",
+ "context": "vendor-onboarding/t-intl-022.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Thornbury Freight Co., Ltd.",
+    "tax_id": "0463937608409",
+    "company_address": "191 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "established": "2017-06-09",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "service_area": "apac",
+    "gross_sales": "40800000",
+    "contact_name": [
+     "Felix Romano",
+     "Ms. Felix Romano"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "+66 2 058 2331",
+    "phone_evening": "+66 2 058 9596",
+    "email": "felix.romano@thornbury.example",
+    "insurance": "not_insured",
+    "licensing": "licensed",
+    "license_number": "TH-LIC-2265757",
+    "bank_name": "Siam Lotus Bank",
+    "beneficiary": "Thornbury Freight Co., Ltd.",
+    "account_number": "172-946565-3",
+    "swift": "SLBXTHASXXX"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Thornbury Freight Co., Ltd.",
+     "tax_id": "0463937608409",
+     "company_address": "191 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "established": "2017-06-09",
+     "business_type": "private_limited",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "service_area": "apac",
+     "gross_sales": "40800000",
+     "contact_name": "Felix Romano",
+     "contact_title": "Account Manager",
+     "phone_day": "+66 2 058 2331",
+     "phone_evening": "+66 2 058 9596",
+     "email": "felix.romano@thornbury.example",
+     "insurance": "not_insured",
+     "licensing": "licensed",
+     "license_number": "TH-LIC-2265757",
+     "bank_name": "Siam Lotus Bank",
+     "beneficiary": "Thornbury Freight Co., Ltd.",
+     "account_number": "172-946565-3",
+     "swift": "SLBXTHASXXX"
+    },
+    "wrong": {
+     "email": "felix.romano at thornbury.example",
+     "gross_sales": "4080"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Thornbury Freight Co., Ltd.",
+    "tax_id": "0463937608409",
+    "established": "2017-06-09",
+    "service_area": "apac",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "contact_name": [
+     "Felix Romano",
+     "Ms. Felix Romano"
+    ],
+    "email": "felix.romano@thornbury.example",
+    "phone_day": "+66 2 058 2331",
+    "phone_evening": "+66 2 058 9596",
+    "company_address": "191 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "licensing": "licensed",
+    "license_number": "TH-LIC-2265757",
+    "bank_name": "Siam Lotus Bank",
+    "beneficiary": "Thornbury Freight Co., Ltd.",
+    "account_number": "172-946565-3",
+    "swift": "SLBXTHASXXX",
+    "insurance": "not_insured",
+    "gross_sales": "40800000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Thornbury Freight Co., Ltd.",
+     "tax_id": "0463937608409",
+     "established": "2017-06-09",
+     "service_area": "apac",
+     "business_type": "private_limited",
+     "contact_name": "Felix Romano",
+     "email": "felix.romano@thornbury.example",
+     "phone_day": "+66 2 058 2331",
+     "phone_evening": "+66 2 058 9596",
+     "company_address": "191 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "licensing": "licensed",
+     "license_number": "TH-LIC-2265757",
+     "bank_name": "Siam Lotus Bank",
+     "beneficiary": "Thornbury Freight Co., Ltd.",
+     "account_number": "172-946565-3",
+     "swift": "SLBXTHASXXX",
+     "insurance": "not_insured",
+     "gross_sales": "40800000"
+    },
+    "wrong": {
+     "email": "felix.romano at thornbury.example",
+     "licensing": "not_licensed"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Siam Lotus Bank",
+    "beneficiary": "Thornbury Freight Co., Ltd.",
+    "account_number": "172-946565-3",
+    "swift": "SLBXTHASXXX",
+    "org_name": "Thornbury Freight Co., Ltd.",
+    "tax_id": "0463937608409",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "established": "2017-06-09",
+    "company_address": "191 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "service_area": "apac",
+    "contact_name": [
+     "Felix Romano",
+     "Ms. Felix Romano"
+    ],
+    "email": "felix.romano@thornbury.example",
+    "phone_day": "+66 2 058 2331",
+    "contact_title": "Account Manager",
+    "phone_evening": "+66 2 058 9596",
+    "gross_sales": "40800000",
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "insurance": "not_insured",
+    "licensing": "licensed",
+    "license_number": "TH-LIC-2265757"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Siam Lotus Bank",
+     "beneficiary": "Thornbury Freight Co., Ltd.",
+     "account_number": "172-946565-3",
+     "swift": "SLBXTHASXXX",
+     "org_name": "Thornbury Freight Co., Ltd.",
+     "tax_id": "0463937608409",
+     "business_type": "private_limited",
+     "established": "2017-06-09",
+     "company_address": "191 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "service_area": "apac",
+     "contact_name": "Felix Romano",
+     "email": "felix.romano@thornbury.example",
+     "phone_day": "+66 2 058 2331",
+     "contact_title": "Account Manager",
+     "phone_evening": "+66 2 058 9596",
+     "gross_sales": "40800000",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "insurance": "not_insured",
+     "licensing": "licensed",
+     "license_number": "TH-LIC-2265757"
+    },
+    "wrong": {
+     "email": "felix.romano at thornbury.example",
+     "contact_title": "Account"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "persona": "hr-orangehrm/t-emp-010",
+ "context": "hr-orangehrm/t-emp-010.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Andre",
+    "middle_name": "",
+    "last_name": "Bianchi",
+    "employee_id": "KST-40093",
+    "create_login": true,
+    "username": "andre.bianchi",
+    "login_status": "enabled",
+    "password": "Onboard!9681x",
+    "confirm_password": "Onboard!9681x"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Andre",
+     "last_name": "Bianchi",
+     "employee_id": "KST-40093",
+     "create_login": true,
+     "username": "andre.bianchi",
+     "login_status": "enabled",
+     "password": "Onboard!9681x",
+     "confirm_password": "Onboard!9681x"
+    },
+    "wrong": {
+     "employee_id": "KST-400x",
+     "first_name": "An"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Andre",
+    "middle_name": "",
+    "last_name": "Bianchi",
+    "employee_id": "KST-40093",
+    "license_number": "DL-21236311",
+    "license_expiry": "2027-05-21",
+    "nationality": "KR",
+    "marital": "divorced",
+    "dob": "1974-11-09",
+    "gender": "male"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Andre",
+     "last_name": "Bianchi",
+     "employee_id": "KST-40093",
+     "license_number": "DL-21236311",
+     "license_expiry": "2027-05-21",
+     "nationality": "KR",
+     "marital": "divorced",
+     "dob": "1974-11-09",
+     "gender": "male"
+    },
+    "wrong": {
+     "employee_id": "KST-400x",
+     "first_name": "An"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2026-12-01",
+    "leave_to": "2026-12-05",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Kuan-An Chou"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2026-12-01",
+     "leave_to": "2026-12-05",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Kuan-An Chou"
+    },
+    "wrong": {
+     "leave_to": "2025-12-05"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "unpaid",
+    "leave_from": "2026-12-01",
+    "leave_to": "2026-12-05",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Family travel — handover to Kuan-An Chou"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "unpaid",
+     "leave_from": "2026-12-01",
+     "leave_to": "2026-12-05",
+     "partial_days": "none",
+     "leave_comment": "Family travel — handover to Kuan-An Chou"
+    },
+    "wrong": {
+     "leave_from": "2025-12-01"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Andre",
+    "middle_name": "",
+    "last_name": "Bianchi",
+    "employee_id": "KST-40093",
+    "create_login": true,
+    "username": "andre.bianchi",
+    "login_status": "enabled",
+    "password": "Onboard!9681x",
+    "confirm_password": "Onboard!9681x",
+    "nationality": "KR",
+    "marital": "divorced",
+    "dob": "1974-11-09",
+    "gender": "male",
+    "job_title": "hr_partner",
+    "department": "logistics",
+    "work_location": "hsp_fab2",
+    "emp_status": "pt",
+    "supervisor": "u_m2864",
+    "joined_date": "2026-12-11"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Andre",
+     "last_name": "Bianchi",
+     "employee_id": "KST-40093",
+     "create_login": true,
+     "username": "andre.bianchi",
+     "login_status": "enabled",
+     "password": "Onboard!9681x",
+     "confirm_password": "Onboard!9681x",
+     "nationality": "KR",
+     "marital": "divorced",
+     "dob": "1974-11-09",
+     "gender": "male",
+     "job_title": "hr_partner",
+     "department": "logistics",
+     "work_location": "hsp_fab2",
+     "emp_status": "pt",
+     "supervisor": "u_m2864",
+     "joined_date": "2026-12-11"
+    },
+    "wrong": {
+     "employee_id": "KST-400x",
+     "last_name": "Bia"
+    }
+   }
+  }
+ }
+}

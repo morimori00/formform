@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-034",
+ "context": "itsm-request/t-emp-034.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g30102",
+    "laptop_model": "eng16",
+    "location": "hsp_fab3",
+    "needed_by": "2026-12-30",
+    "extra_monitor": true,
+    "cost_center": "CC-8737",
+    "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g30102",
+     "laptop_model": "eng16",
+     "location": "hsp_fab3",
+     "needed_by": "2026-12-30",
+     "extra_monitor": true,
+     "cost_center": "CC-8737",
+     "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-87x",
+     "needed_by": "2025-12-30"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "eng16",
+    "extra_monitor": true,
+    "location": "hsp_fab3",
+    "needed_by": "2026-12-30",
+    "requested_for": "u_g30102",
+    "cost_center": "CC-8737",
+    "justification": "Needs GPU for layout rendering during the Information Security tape-out review.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16",
+     "extra_monitor": true,
+     "location": "hsp_fab3",
+     "needed_by": "2026-12-30",
+     "requested_for": "u_g30102",
+     "cost_center": "CC-8737",
+     "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-87x",
+     "needed_by": "2025-12-30"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g30102",
+    "contact_pref": "walk_in",
+    "inc_category": "software",
+    "inc_subcategory": "email",
+    "ci": "KST-NB-23744",
+    "impact": "3",
+    "urgency": "3",
+    "assign_group": "servicedesk",
+    "short_desc": "Shared mailbox missing after migration batch 814",
+    "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 814. Web mail shows it with read-only rights."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g30102",
+     "contact_pref": "walk_in",
+     "inc_category": "software",
+     "inc_subcategory": "email",
+     "ci": "KST-NB-23744",
+     "impact": "3",
+     "urgency": "3",
+     "assign_group": "servicedesk",
+     "short_desc": "Shared mailbox missing after migration batch 814",
+     "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 814. Web mail shows it with read-only rights."
+    },
+    "wrong": {
+     "short_desc": "Shared mailbox missing a"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Shared mailbox missing after migration batch 814",
+    "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 814. Web mail shows it with read-only rights.",
+    "caller": "u_g30102",
+    "ci": "KST-NB-23744",
+    "contact_pref": "walk_in",
+    "inc_category": "software",
+    "inc_subcategory": "email",
+    "impact": "3",
+    "urgency": "3",
+    "assign_group": "servicedesk"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Shared mailbox missing after migration batch 814",
+     "inc_desc": "The team shared mailbox no longer appears in the mail client after migration batch 814. Web mail shows it with read-only rights.",
+     "caller": "u_g30102",
+     "ci": "KST-NB-23744",
+     "contact_pref": "walk_in",
+     "inc_category": "software",
+     "inc_subcategory": "email",
+     "impact": "3",
+     "urgency": "3",
+     "assign_group": "servicedesk"
+    },
+    "wrong": {
+     "short_desc": "Shared mailbox missing a"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g30102",
+    "location": "hsp_fab3",
+    "cost_center": "CC-8737",
+    "laptop_model": "eng16",
+    "needed_by": "2026-12-30",
+    "extra_monitor": true,
+    "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g30102",
+     "location": "hsp_fab3",
+     "cost_center": "CC-8737",
+     "laptop_model": "eng16",
+     "needed_by": "2026-12-30",
+     "extra_monitor": true,
+     "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-87x",
+     "needed_by": "2025-12-30"
+    }
+   }
+  }
+ }
+}

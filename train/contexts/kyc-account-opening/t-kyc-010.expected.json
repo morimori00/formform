@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-010",
+ "context": "kyc-account-opening/t-kyc-010.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-29036",
+    "full_name": [
+     "Victor Mensah",
+     "Mensah Victor"
+    ],
+    "spouse_name": "Oscar Castillo",
+    "gender": "female",
+    "marital": "married",
+    "dob": "1987-06-25",
+    "nationality": "NG",
+    "residency": "non_resident",
+    "tax_id": "M3966587B",
+    "id_proof": "arc",
+    "address": [
+     "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 919 881 182",
+    "email": "victor.mensah@inbox.example",
+    "addr_proof": "lease",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Victor Mensah",
+     "Mensah Victor"
+    ],
+    "sign_date": "2026-11-04",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-29036",
+     "full_name": "Victor Mensah",
+     "spouse_name": "Oscar Castillo",
+     "gender": "female",
+     "marital": "married",
+     "dob": "1987-06-25",
+     "nationality": "NG",
+     "residency": "non_resident",
+     "tax_id": "M3966587B",
+     "id_proof": "arc",
+     "address": "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "phone": "+886 919 881 182",
+     "email": "victor.mensah@inbox.example",
+     "addr_proof": "lease",
+     "perm_same": true,
+     "decl_name": "Victor Mensah",
+     "sign_date": "2026-11-04"
+    },
+    "wrong": {
+     "tax_id": "M396658x",
+     "application_no": "LCB-AO-2"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Victor Mensah",
+     "Mensah Victor"
+    ],
+    "dob": "1987-06-25",
+    "mother_maiden": "Romano",
+    "phone": "+886 919 881 182",
+    "email": "victor.mensah@inbox.example",
+    "address": [
+     "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "education": "doctorate",
+    "id_form": "passport",
+    "account_type": "savings",
+    "account_category": "joint",
+    "monthly_income": "189000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Victor Mensah",
+     "dob": "1987-06-25",
+     "mother_maiden": "Romano",
+     "phone": "+886 919 881 182",
+     "email": "victor.mensah@inbox.example",
+     "address": "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "education": "doctorate",
+     "id_form": "passport",
+     "account_type": "savings",
+     "account_category": "joint",
+     "monthly_income": "189000"
+    },
+    "wrong": {
+     "email": "victor.mensah at inbox.example",
+     "education": "high_school"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Victor Mensah",
+     "Mensah Victor"
+    ],
+    "dob": "1987-06-25",
+    "gender": "female",
+    "nationality": "NG",
+    "marital": "married",
+    "spouse_name": "Oscar Castillo",
+    "address": [
+     "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "email": "victor.mensah@inbox.example",
+    "phone": "+886 919 881 182",
+    "addr_proof": "lease",
+    "id_proof": "arc",
+    "tax_id": "M3966587B",
+    "residency": "non_resident",
+    "application_no": "LCB-AO-2026-29036"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Victor Mensah",
+     "dob": "1987-06-25",
+     "gender": "female",
+     "nationality": "NG",
+     "marital": "married",
+     "spouse_name": "Oscar Castillo",
+     "address": "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "email": "victor.mensah@inbox.example",
+     "phone": "+886 919 881 182",
+     "addr_proof": "lease",
+     "id_proof": "arc",
+     "tax_id": "M3966587B",
+     "residency": "non_resident",
+     "application_no": "LCB-AO-2026-29036"
+    },
+    "wrong": {
+     "email": "victor.mensah at inbox.example",
+     "marital": "single"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Victor Mensah",
+     "Mensah Victor"
+    ],
+    "dob": "1987-06-25",
+    "gender": "female",
+    "marital": "married",
+    "nationality": "NG",
+    "residency": "non_resident",
+    "phone": "+886 919 881 182",
+    "email": "victor.mensah@inbox.example",
+    "address": [
+     "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300"
+    ],
+    "perm_same": true,
+    "id_proof": "arc",
+    "tax_id": "M3966587B",
+    "addr_proof": "lease",
+    "account_type": "savings",
+    "account_category": "joint",
+    "education": "doctorate",
+    "monthly_income": "189000",
+    "application_no": "LCB-AO-2026-29036",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Victor Mensah",
+     "dob": "1987-06-25",
+     "gender": "female",
+     "marital": "married",
+     "nationality": "NG",
+     "residency": "non_resident",
+     "phone": "+886 919 881 182",
+     "email": "victor.mensah@inbox.example",
+     "address": "3F, No. 196, Ln. 44, Sec. 5, Nanjing E. Rd., East Dist., Hsinchu City 300, Taiwan",
+     "perm_same": true,
+     "id_proof": "arc",
+     "tax_id": "M3966587B",
+     "addr_proof": "lease",
+     "account_type": "savings",
+     "account_category": "joint",
+     "education": "doctorate",
+     "monthly_income": "189000",
+     "application_no": "LCB-AO-2026-29036"
+    },
+    "wrong": {
+     "email": "victor.mensah at inbox.example",
+     "monthly_income": "189"
+    }
+   }
+  }
+ }
+}

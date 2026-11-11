@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-036",
+ "context": "kyc-account-opening/t-kyc-036.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-10004",
+    "full_name": [
+     "Yang Chun-Ling",
+     "Chun-Ling Yang"
+    ],
+    "spouse_name": "Su Jia-Fen",
+    "gender": "female",
+    "marital": "single",
+    "dob": "1994-10-10",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "G249556774",
+    "id_proof": "national_id",
+    "address": [
+     "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 916 203 224",
+    "email": "chunling.yang@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Yang Chun-Ling",
+     "Chun-Ling Yang"
+    ],
+    "sign_date": "2026-11-06",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-10004",
+     "full_name": "Yang Chun-Ling",
+     "spouse_name": "Su Jia-Fen",
+     "gender": "female",
+     "marital": "single",
+     "dob": "1994-10-10",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "G249556774",
+     "id_proof": "national_id",
+     "address": "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "phone": "+886 916 203 224",
+     "email": "chunling.yang@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Yang Chun-Ling",
+     "sign_date": "2026-11-06"
+    },
+    "wrong": {
+     "tax_id": "G2495567x",
+     "decl_name": "Yang Ch"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yang Chun-Ling",
+     "Chun-Ling Yang"
+    ],
+    "dob": "1994-10-10",
+    "mother_maiden": "Liu",
+    "phone": "+886 916 203 224",
+    "email": "chunling.yang@inbox.example",
+    "address": [
+     "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300"
+    ],
+    "education": "master",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "individual",
+    "monthly_income": "108000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Yang Chun-Ling",
+     "dob": "1994-10-10",
+     "mother_maiden": "Liu",
+     "phone": "+886 916 203 224",
+     "email": "chunling.yang@inbox.example",
+     "address": "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "education": "master",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "individual",
+     "monthly_income": "108000"
+    },
+    "wrong": {
+     "email": "chunling.yang at inbox.example",
+     "dob": "1993-10-10"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yang Chun-Ling",
+     "Chun-Ling Yang"
+    ],
+    "dob": "1994-10-10",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Su Jia-Fen",
+    "address": [
+     "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300"
+    ],
+    "email": "chunling.yang@inbox.example",
+    "phone": "+886 916 203 224",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "G249556774",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-10004"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Yang Chun-Ling",
+     "dob": "1994-10-10",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Su Jia-Fen",
+     "address": "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "email": "chunling.yang@inbox.example",
+     "phone": "+886 916 203 224",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "G249556774",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-10004"
+    },
+    "wrong": {
+     "email": "chunling.yang at inbox.example",
+     "phone": "+886 916"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Yang Chun-Ling",
+     "Chun-Ling Yang"
+    ],
+    "dob": "1994-10-10",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 916 203 224",
+    "email": "chunling.yang@inbox.example",
+    "address": [
+     "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "G249556774",
+    "addr_proof": "tax_bill",
+    "account_type": "savings",
+    "account_category": "individual",
+    "education": "master",
+    "monthly_income": "108000",
+    "application_no": "LCB-AO-2026-10004",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Yang Chun-Ling",
+     "dob": "1994-10-10",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 916 203 224",
+     "email": "chunling.yang@inbox.example",
+     "address": "8F, No. 63, Ln. 249, Sec. 6, Zhongxiao E. Rd., North Dist., Hsinchu City 300, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "G249556774",
+     "addr_proof": "tax_bill",
+     "account_type": "savings",
+     "account_category": "individual",
+     "education": "master",
+     "monthly_income": "108000",
+     "application_no": "LCB-AO-2026-10004"
+    },
+    "wrong": {
+     "email": "chunling.yang at inbox.example",
+     "education": "high_school"
+    }
+   }
+  }
+ }
+}

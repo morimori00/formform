@@ -1,0 +1,180 @@
+{
+ "persona": "vendor-onboarding/t-intl-004",
+ "context": "vendor-onboarding/t-intl-004.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Kingsley Chemicals Inc.",
+    "tax_id": "00-2121712",
+    "company_address": "7792 Stonegate St, Suite 183, San Jose, CA 95133",
+    "established": "2010-03-17",
+    "business_type": "corporation",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "service_area": "north_america",
+    "gross_sales": "8200000",
+    "contact_name": [
+     "Irene Bianchi",
+     "Mr. Irene Bianchi"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "(408) 555-0140",
+    "phone_evening": "",
+    "email": "irene.bianchi@kingsley.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "US-LIC-1684990",
+    "bank_name": "Old Mill Savings Bank",
+    "beneficiary": "Kingsley Chemicals Inc.",
+    "account_number": "318-709877-4",
+    "swift": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "swift"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Kingsley Chemicals Inc.",
+     "tax_id": "00-2121712",
+     "company_address": "7792 Stonegate St, Suite 183, San Jose, CA 95133",
+     "established": "2010-03-17",
+     "business_type": "corporation",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "service_area": "north_america",
+     "gross_sales": "8200000",
+     "contact_name": "Irene Bianchi",
+     "contact_title": "Account Manager",
+     "phone_day": "(408) 555-0140",
+     "email": "irene.bianchi@kingsley.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "US-LIC-1684990",
+     "bank_name": "Old Mill Savings Bank",
+     "beneficiary": "Kingsley Chemicals Inc.",
+     "account_number": "318-709877-4"
+    },
+    "wrong": {
+     "email": "irene.bianchi at kingsley.example",
+     "service_area": "taiwan"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": false,
+   "fields": {
+    "org_name": "Kingsley Chemicals Inc.",
+    "tax_id": "00-2121712",
+    "established": "2010-03-17",
+    "service_area": "north_america",
+    "business_type": "corporation",
+    "contact_name": [
+     "Irene Bianchi",
+     "Mr. Irene Bianchi"
+    ],
+    "email": "irene.bianchi@kingsley.example",
+    "phone_day": "(408) 555-0140",
+    "phone_evening": "",
+    "company_address": "7792 Stonegate St, Suite 183, San Jose, CA 95133",
+    "licensing": "licensed",
+    "license_number": "US-LIC-1684990",
+    "bank_name": "Old Mill Savings Bank",
+    "beneficiary": "Kingsley Chemicals Inc.",
+    "account_number": "318-709877-4",
+    "swift": "",
+    "insurance": "insured",
+    "gross_sales": "8200000"
+   },
+   "infeasible": [
+    "phone_evening",
+    "swift"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Kingsley Chemicals Inc.",
+     "tax_id": "00-2121712",
+     "established": "2010-03-17",
+     "service_area": "north_america",
+     "business_type": "corporation",
+     "contact_name": "Irene Bianchi",
+     "email": "irene.bianchi@kingsley.example",
+     "phone_day": "(408) 555-0140",
+     "company_address": "7792 Stonegate St, Suite 183, San Jose, CA 95133",
+     "licensing": "licensed",
+     "license_number": "US-LIC-1684990",
+     "bank_name": "Old Mill Savings Bank",
+     "beneficiary": "Kingsley Chemicals Inc.",
+     "account_number": "318-709877-4",
+     "insurance": "insured",
+     "gross_sales": "8200000"
+    },
+    "wrong": {
+     "email": "irene.bianchi at kingsley.example",
+     "org_name": "Kingsley Ch"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Old Mill Savings Bank",
+    "beneficiary": "Kingsley Chemicals Inc.",
+    "account_number": "318-709877-4",
+    "swift": "",
+    "org_name": "Kingsley Chemicals Inc.",
+    "tax_id": "00-2121712",
+    "business_type": "corporation",
+    "established": "2010-03-17",
+    "company_address": "7792 Stonegate St, Suite 183, San Jose, CA 95133",
+    "service_area": "north_america",
+    "contact_name": [
+     "Irene Bianchi",
+     "Mr. Irene Bianchi"
+    ],
+    "email": "irene.bianchi@kingsley.example",
+    "phone_day": "(408) 555-0140",
+    "contact_title": "Account Manager",
+    "phone_evening": "",
+    "gross_sales": "8200000",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "US-LIC-1684990"
+   },
+   "infeasible": [
+    "swift",
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Old Mill Savings Bank",
+     "beneficiary": "Kingsley Chemicals Inc.",
+     "account_number": "318-709877-4",
+     "org_name": "Kingsley Chemicals Inc.",
+     "tax_id": "00-2121712",
+     "business_type": "corporation",
+     "established": "2010-03-17",
+     "company_address": "7792 Stonegate St, Suite 183, San Jose, CA 95133",
+     "service_area": "north_america",
+     "contact_name": "Irene Bianchi",
+     "email": "irene.bianchi@kingsley.example",
+     "phone_day": "(408) 555-0140",
+     "contact_title": "Account Manager",
+     "gross_sales": "8200000",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "US-LIC-1684990"
+    },
+    "wrong": {
+     "email": "irene.bianchi at kingsley.example",
+     "beneficiary": "Kingsley Ch"
+    }
+   }
+  }
+ }
+}

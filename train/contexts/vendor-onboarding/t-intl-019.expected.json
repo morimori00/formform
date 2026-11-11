@@ -1,0 +1,189 @@
+{
+ "persona": "vendor-onboarding/t-intl-019",
+ "context": "vendor-onboarding/t-intl-019.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Skylark Chemicals GmbH",
+    "tax_id": "DE263294128",
+    "company_address": "Industriestrasse 82, 01820 Dresden, Germany",
+    "established": "2004-08-02",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "services": "Specialty wet chemicals and solvent recycling",
+    "service_area": "north_america",
+    "gross_sales": "80200000",
+    "contact_name": [
+     "Ingrid Kowalski",
+     "Mr. Ingrid Kowalski"
+    ],
+    "contact_title": "Sales Director",
+    "phone_day": "+49 351 743 4269",
+    "phone_evening": "",
+    "email": "ingrid.kowalski@skylark.example",
+    "insurance": "not_insured",
+    "licensing": "licensed",
+    "license_number": "DE-LIC-4132632",
+    "bank_name": "Elbtal Handelsbank",
+    "beneficiary": "Skylark Chemicals GmbH",
+    "account_number": "401-066163-1",
+    "swift": "EHXXDEXLXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Skylark Chemicals GmbH",
+     "tax_id": "DE263294128",
+     "company_address": "Industriestrasse 82, 01820 Dresden, Germany",
+     "established": "2004-08-02",
+     "business_type": "llc",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "service_area": "north_america",
+     "gross_sales": "80200000",
+     "contact_name": "Ingrid Kowalski",
+     "contact_title": "Sales Director",
+     "phone_day": "+49 351 743 4269",
+     "email": "ingrid.kowalski@skylark.example",
+     "insurance": "not_insured",
+     "licensing": "licensed",
+     "license_number": "DE-LIC-4132632",
+     "bank_name": "Elbtal Handelsbank",
+     "beneficiary": "Skylark Chemicals GmbH",
+     "account_number": "401-066163-1",
+     "swift": "EHXXDEXLXXX"
+    },
+    "wrong": {
+     "email": "ingrid.kowalski at skylark.example",
+     "phone_day": "+49 351 "
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Skylark Chemicals GmbH",
+    "tax_id": "DE263294128",
+    "established": "2004-08-02",
+    "service_area": "north_america",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "contact_name": [
+     "Ingrid Kowalski",
+     "Mr. Ingrid Kowalski"
+    ],
+    "email": "ingrid.kowalski@skylark.example",
+    "phone_day": "+49 351 743 4269",
+    "phone_evening": "",
+    "company_address": "Industriestrasse 82, 01820 Dresden, Germany",
+    "licensing": "licensed",
+    "license_number": "DE-LIC-4132632",
+    "bank_name": "Elbtal Handelsbank",
+    "beneficiary": "Skylark Chemicals GmbH",
+    "account_number": "401-066163-1",
+    "swift": "EHXXDEXLXXX",
+    "insurance": "not_insured",
+    "gross_sales": "80200000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Skylark Chemicals GmbH",
+     "tax_id": "DE263294128",
+     "established": "2004-08-02",
+     "service_area": "north_america",
+     "business_type": "llc",
+     "contact_name": "Ingrid Kowalski",
+     "email": "ingrid.kowalski@skylark.example",
+     "phone_day": "+49 351 743 4269",
+     "company_address": "Industriestrasse 82, 01820 Dresden, Germany",
+     "licensing": "licensed",
+     "license_number": "DE-LIC-4132632",
+     "bank_name": "Elbtal Handelsbank",
+     "beneficiary": "Skylark Chemicals GmbH",
+     "account_number": "401-066163-1",
+     "swift": "EHXXDEXLXXX",
+     "insurance": "not_insured",
+     "gross_sales": "80200000"
+    },
+    "wrong": {
+     "email": "ingrid.kowalski at skylark.example",
+     "business_type": "sole_prop"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Elbtal Handelsbank",
+    "beneficiary": "Skylark Chemicals GmbH",
+    "account_number": "401-066163-1",
+    "swift": "EHXXDEXLXXX",
+    "org_name": "Skylark Chemicals GmbH",
+    "tax_id": "DE263294128",
+    "business_type": [
+     "llc",
+     "private_limited"
+    ],
+    "established": "2004-08-02",
+    "company_address": "Industriestrasse 82, 01820 Dresden, Germany",
+    "service_area": "north_america",
+    "contact_name": [
+     "Ingrid Kowalski",
+     "Mr. Ingrid Kowalski"
+    ],
+    "email": "ingrid.kowalski@skylark.example",
+    "phone_day": "+49 351 743 4269",
+    "contact_title": "Sales Director",
+    "phone_evening": "",
+    "gross_sales": "80200000",
+    "services": "Specialty wet chemicals and solvent recycling",
+    "insurance": "not_insured",
+    "licensing": "licensed",
+    "license_number": "DE-LIC-4132632"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Elbtal Handelsbank",
+     "beneficiary": "Skylark Chemicals GmbH",
+     "account_number": "401-066163-1",
+     "swift": "EHXXDEXLXXX",
+     "org_name": "Skylark Chemicals GmbH",
+     "tax_id": "DE263294128",
+     "business_type": "llc",
+     "established": "2004-08-02",
+     "company_address": "Industriestrasse 82, 01820 Dresden, Germany",
+     "service_area": "north_america",
+     "contact_name": "Ingrid Kowalski",
+     "email": "ingrid.kowalski@skylark.example",
+     "phone_day": "+49 351 743 4269",
+     "contact_title": "Sales Director",
+     "gross_sales": "80200000",
+     "services": "Specialty wet chemicals and solvent recycling",
+     "insurance": "not_insured",
+     "licensing": "licensed",
+     "license_number": "DE-LIC-4132632"
+    },
+    "wrong": {
+     "email": "ingrid.kowalski at skylark.example",
+     "contact_name": "Ingrid "
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-001",
+ "context": "kyc-account-opening/t-kyc-001.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-42153",
+    "full_name": [
+     "Chiang Yi-Ling",
+     "Yi-Ling Chiang"
+    ],
+    "spouse_name": "Fang Chih-Ling",
+    "gender": "male",
+    "marital": "single",
+    "dob": "1990-05-15",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "B131810387",
+    "id_proof": "national_id",
+    "address": [
+     "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "phone": "+886 993 433 182",
+    "email": "yiling.chiang@inbox.example",
+    "addr_proof": "bank_statement",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Chiang Yi-Ling",
+     "Yi-Ling Chiang"
+    ],
+    "sign_date": "2026-11-07",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-42153",
+     "full_name": "Chiang Yi-Ling",
+     "spouse_name": "Fang Chih-Ling",
+     "gender": "male",
+     "marital": "single",
+     "dob": "1990-05-15",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "B131810387",
+     "id_proof": "national_id",
+     "address": "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "phone": "+886 993 433 182",
+     "email": "yiling.chiang@inbox.example",
+     "addr_proof": "bank_statement",
+     "perm_same": true,
+     "decl_name": "Chiang Yi-Ling",
+     "sign_date": "2026-11-07"
+    },
+    "wrong": {
+     "tax_id": "B1318103x",
+     "id_proof": "passport"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiang Yi-Ling",
+     "Yi-Ling Chiang"
+    ],
+    "dob": "1990-05-15",
+    "mother_maiden": "Wu",
+    "phone": "+886 993 433 182",
+    "email": "yiling.chiang@inbox.example",
+    "address": [
+     "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "education": "master",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "133000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chiang Yi-Ling",
+     "dob": "1990-05-15",
+     "mother_maiden": "Wu",
+     "phone": "+886 993 433 182",
+     "email": "yiling.chiang@inbox.example",
+     "address": "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "education": "master",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "133000"
+    },
+    "wrong": {
+     "email": "yiling.chiang at inbox.example",
+     "account_category": "joint"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiang Yi-Ling",
+     "Yi-Ling Chiang"
+    ],
+    "dob": "1990-05-15",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Fang Chih-Ling",
+    "address": [
+     "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "email": "yiling.chiang@inbox.example",
+    "phone": "+886 993 433 182",
+    "addr_proof": "bank_statement",
+    "id_proof": "national_id",
+    "tax_id": "B131810387",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-42153"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Chiang Yi-Ling",
+     "dob": "1990-05-15",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Fang Chih-Ling",
+     "address": "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "email": "yiling.chiang@inbox.example",
+     "phone": "+886 993 433 182",
+     "addr_proof": "bank_statement",
+     "id_proof": "national_id",
+     "tax_id": "B131810387",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-42153"
+    },
+    "wrong": {
+     "email": "yiling.chiang at inbox.example",
+     "residency": "non_resident"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Chiang Yi-Ling",
+     "Yi-Ling Chiang"
+    ],
+    "dob": "1990-05-15",
+    "gender": "male",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 993 433 182",
+    "email": "yiling.chiang@inbox.example",
+    "address": [
+     "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "B131810387",
+    "addr_proof": "bank_statement",
+    "account_type": "checking",
+    "account_category": "individual",
+    "education": "master",
+    "monthly_income": "133000",
+    "application_no": "LCB-AO-2026-42153",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Chiang Yi-Ling",
+     "dob": "1990-05-15",
+     "gender": "male",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 993 433 182",
+     "email": "yiling.chiang@inbox.example",
+     "address": "3F, No. 312, Ln. 168, Minquan E. Rd., Zhonghe Dist., New Taipei City 235, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "B131810387",
+     "addr_proof": "bank_statement",
+     "account_type": "checking",
+     "account_category": "individual",
+     "education": "master",
+     "monthly_income": "133000",
+     "application_no": "LCB-AO-2026-42153"
+    },
+    "wrong": {
+     "email": "yiling.chiang at inbox.example",
+     "account_category": "joint"
+    }
+   }
+  }
+ }
+}

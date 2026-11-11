@@ -1,0 +1,71 @@
+{
+ "persona": "tw-arrival-card/e-arrival-shadow-03",
+ "context": "tw-arrival-card/e-arrival-shadow-03.md",
+ "split": "eval",
+ "variants": {
+  "tw-arrival-card/arrival-shadow": {
+   "submit": true,
+   "fields": {
+    "nationality": "PH",
+    "passport_no": "M9712098X",
+    "family_name": "BAUTISTA",
+    "given_name": "LIZA",
+    "dob": "1978-10-14",
+    "sex": "female",
+    "passport_expiry": "2034-05-14",
+    "arrival_date": "2026-12-11",
+    "flight_no": "PR 197",
+    "purpose": "business",
+    "occupation": "student",
+    "visa_type": "landing",
+    "visa_no": "V-7295223",
+    "stay_type": "relatives",
+    "county": "新竹縣",
+    "district": "竹北市",
+    "stay_address": [
+     "No. 71, Dunhua N. Rd., Zhubei City, Hsinchu County 302",
+     "relative's home, No. 71, Dunhua N. Rd., Zhubei City, Hsinchu County 302"
+    ],
+    "phone": "+886 928 834 537",
+    "email": "liza.bautista@kestrel-semi.example",
+    "visited": [
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "nationality": "PH",
+     "passport_no": "M9712098X",
+     "family_name": "BAUTISTA",
+     "given_name": "LIZA",
+     "dob": "1978-10-14",
+     "sex": "female",
+     "passport_expiry": "2034-05-14",
+     "arrival_date": "2026-12-11",
+     "flight_no": "PR 197",
+     "purpose": "business",
+     "occupation": "student",
+     "visa_type": "landing",
+     "visa_no": "V-7295223",
+     "stay_type": "relatives",
+     "county": "新竹縣",
+     "district": "竹北市",
+     "stay_address": "No. 71, Dunhua N. Rd., Zhubei City, Hsinchu County 302",
+     "phone": "+886 928 834 537",
+     "email": "liza.bautista@kestrel-semi.example",
+     "visited": [
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "BAUTISx",
+     "passport_no": "M971"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "persona": "hr-orangehrm/e-add-employee-wizard-08",
+ "context": "hr-orangehrm/e-add-employee-wizard-08.md",
+ "split": "eval",
+ "variants": {
+  "hr-orangehrm/add-employee-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Li-Chi",
+    "middle_name": "",
+    "last_name": "Chu",
+    "employee_id": "KST-68110",
+    "create_login": true,
+    "username": "lichi.chu",
+    "login_status": "enabled",
+    "password": "Kestrel!1013a",
+    "confirm_password": "Kestrel!1013a",
+    "job_title": "buyer",
+    "department": "fab_eng",
+    "work_location": "neihu",
+    "emp_status": "ft_perm",
+    "supervisor": "u_m7133",
+    "joined_date": "2026-12-12"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Li-Chi",
+     "last_name": "Chu",
+     "employee_id": "KST-68110",
+     "create_login": true,
+     "username": "lichi.chu",
+     "login_status": "enabled",
+     "password": "Kestrel!1013a",
+     "confirm_password": "Kestrel!1013a",
+     "job_title": "buyer",
+     "department": "fab_eng",
+     "work_location": "neihu",
+     "emp_status": "ft_perm",
+     "supervisor": "u_m7133",
+     "joined_date": "2026-12-12"
+    },
+    "wrong": {
+     "employee_id": "KST-681x",
+     "joined_date": "2025-12-12"
+    }
+   }
+  }
+ }
+}

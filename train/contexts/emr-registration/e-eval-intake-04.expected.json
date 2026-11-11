@@ -1,0 +1,71 @@
+{
+ "persona": "emr-registration/e-eval-intake-04",
+ "context": "emr-registration/e-eval-intake-04.md",
+ "split": "eval",
+ "variants": {
+  "emr-registration/eval-intake": {
+   "submit": true,
+   "fields": {
+    "first_name": "Li-Chieh",
+    "middle_name": "",
+    "last_name": "Fan",
+    "dob": "1940-10-18",
+    "sex": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "language": "mandarin",
+    "street": "2F, No. 298, Ln. 70, Nanjing E. Rd., Banqiao Dist.",
+    "city": "New Taipei City",
+    "postal": "220",
+    "country": "TW",
+    "phone_cell": "0969-488-545",
+    "phone_home": "04-1538-3801",
+    "email": "lichieh.fan@inbox.example",
+    "occupation": "Taxi driver",
+    "employer": "Pinnacle Logistics Ltd.",
+    "ec_name": "Yun-Shan Yu",
+    "ec_phone": "0972-453-824",
+    "ec_relationship": "spouse",
+    "ins_provider": "evm",
+    "policy_number": "EVM-6031-0910",
+    "group_number": "G-8590",
+    "subscriber_rel": "child",
+    "ins_effective": "2019-04-12"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Li-Chieh",
+     "last_name": "Fan",
+     "dob": "1940-10-18",
+     "sex": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "language": "mandarin",
+     "street": "2F, No. 298, Ln. 70, Nanjing E. Rd., Banqiao Dist.",
+     "city": "New Taipei City",
+     "postal": "220",
+     "country": "TW",
+     "phone_cell": "0969-488-545",
+     "phone_home": "04-1538-3801",
+     "email": "lichieh.fan@inbox.example",
+     "occupation": "Taxi driver",
+     "employer": "Pinnacle Logistics Ltd.",
+     "ec_name": "Yun-Shan Yu",
+     "ec_phone": "0972-453-824",
+     "ec_relationship": "spouse",
+     "ins_provider": "evm",
+     "policy_number": "EVM-6031-0910",
+     "group_number": "G-8590",
+     "subscriber_rel": "child",
+     "ins_effective": "2019-04-12"
+    },
+    "wrong": {
+     "email": "lichieh.fan at inbox.example",
+     "dob": "1939-10-18"
+    }
+   }
+  }
+ }
+}

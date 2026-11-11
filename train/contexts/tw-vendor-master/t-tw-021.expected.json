@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-021",
+ "context": "tw-vendor-master/t-tw-021.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "瑞泰包裝股份有限公司",
+    "vendor_name_en": "Ruitai Packaging Co., Ltd.",
+    "ubn": "23581887",
+    "owner": "吳家明",
+    "established": "2009-05-21",
+    "capital": "864000000",
+    "org_type": "corp_shares",
+    "postal": "741",
+    "county": "臺南市",
+    "district": "善化區",
+    "address_line": "建國路99號7樓",
+    "tel": "06-862-9206",
+    "fax": "06-862-6303",
+    "contact_name": [
+     "葉家華",
+     "Yeh Chia-hua"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "chiahua.yeh@ruitai-packaging.example",
+    "contact_mobile": "0907-219-875",
+    "bank_code": "808",
+    "bank_branch": [
+     "善化分行",
+     "善化"
+    ],
+    "account_no": "4442120733390",
+    "account_name": "瑞泰包裝股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "receipt",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2027-05-30"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "瑞泰包裝股份有限公司",
+     "vendor_name_en": "Ruitai Packaging Co., Ltd.",
+     "ubn": "23581887",
+     "owner": "吳家明",
+     "established": "2009-05-21",
+     "capital": "864000000",
+     "org_type": "corp_shares",
+     "postal": "741",
+     "county": "臺南市",
+     "district": "善化區",
+     "address_line": "建國路99號7樓",
+     "tel": "06-862-9206",
+     "fax": "06-862-6303",
+     "contact_name": "葉家華",
+     "contact_title": "財務主任",
+     "email": "chiahua.yeh@ruitai-packaging.example",
+     "contact_mobile": "0907-219-875",
+     "bank_code": "808",
+     "bank_branch": "善化分行",
+     "account_no": "4442120733390",
+     "account_name": "瑞泰包裝股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "receipt",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2027-05-30"
+    },
+    "wrong": {
+     "ubn": "235818x",
+     "bank_branch": "善化"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "23581887",
+    "vendor_name_zh": "瑞泰包裝股份有限公司",
+    "vendor_name_en": "Ruitai Packaging Co., Ltd.",
+    "org_type": "corp_shares",
+    "established": "2009-05-21",
+    "owner": "吳家明",
+    "county": "臺南市",
+    "district": "善化區",
+    "address_line": "建國路99號7樓",
+    "postal": "741",
+    "tel": "06-862-9206",
+    "fax": "06-862-6303",
+    "contact_name": [
+     "葉家華",
+     "Yeh Chia-hua"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0907-219-875",
+    "email": "chiahua.yeh@ruitai-packaging.example",
+    "bank_code": "808",
+    "bank_branch": [
+     "善化分行",
+     "善化"
+    ],
+    "account_no": "4442120733390",
+    "account_name": "瑞泰包裝股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "receipt",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2027-05-30",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "23581887",
+     "vendor_name_zh": "瑞泰包裝股份有限公司",
+     "vendor_name_en": "Ruitai Packaging Co., Ltd.",
+     "org_type": "corp_shares",
+     "established": "2009-05-21",
+     "owner": "吳家明",
+     "county": "臺南市",
+     "district": "善化區",
+     "address_line": "建國路99號7樓",
+     "postal": "741",
+     "tel": "06-862-9206",
+     "fax": "06-862-6303",
+     "contact_name": "葉家華",
+     "contact_title": "財務主任",
+     "contact_mobile": "0907-219-875",
+     "email": "chiahua.yeh@ruitai-packaging.example",
+     "bank_code": "808",
+     "bank_branch": "善化分行",
+     "account_no": "4442120733390",
+     "account_name": "瑞泰包裝股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "receipt",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2027-05-30"
+    },
+    "wrong": {
+     "ubn": "235818x",
+     "tel": "06-86"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "23581887",
+    "vendor_name_zh": "瑞泰包裝股份有限公司",
+    "owner": "吳家明",
+    "established": "2009-05-21",
+    "org_type": "corp_shares",
+    "capital": "864000000",
+    "county": "臺南市",
+    "district": "善化區",
+    "address_line": "建國路99號7樓",
+    "postal": "741",
+    "tel": "06-862-9206",
+    "contact_name": [
+     "葉家華",
+     "Yeh Chia-hua"
+    ],
+    "email": "chiahua.yeh@ruitai-packaging.example",
+    "bank_code": "808",
+    "account_no": "4442120733390",
+    "account_name": "瑞泰包裝股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "receipt"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "23581887",
+     "vendor_name_zh": "瑞泰包裝股份有限公司",
+     "owner": "吳家明",
+     "established": "2009-05-21",
+     "org_type": "corp_shares",
+     "capital": "864000000",
+     "county": "臺南市",
+     "district": "善化區",
+     "address_line": "建國路99號7樓",
+     "postal": "741",
+     "tel": "06-862-9206",
+     "contact_name": "葉家華",
+     "email": "chiahua.yeh@ruitai-packaging.example",
+     "bank_code": "808",
+     "account_no": "4442120733390",
+     "account_name": "瑞泰包裝股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "receipt"
+    },
+    "wrong": {
+     "ubn": "235818x",
+     "vendor_name_zh": "瑞泰包裝股"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "瑞泰包裝股份有限公司",
+    "vendor_name_en": "Ruitai Packaging Co., Ltd.",
+    "foreign": false,
+    "org_type": "corp_shares",
+    "ubn": "23581887",
+    "owner": "吳家明",
+    "county": "臺南市",
+    "district": "善化區",
+    "address_line": "建國路99號7樓",
+    "postal": "741",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "06-862-9206",
+    "contact_name": [
+     "葉家華",
+     "Yeh Chia-hua"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "chiahua.yeh@ruitai-packaging.example",
+    "account_no": "4442120733390",
+    "account_name": "瑞泰包裝股份有限公司",
+    "payment_terms": "net90",
+    "invoice_type": "receipt",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "瑞泰包裝股份有限公司",
+     "vendor_name_en": "Ruitai Packaging Co., Ltd.",
+     "foreign": false,
+     "org_type": "corp_shares",
+     "ubn": "23581887",
+     "owner": "吳家明",
+     "county": "臺南市",
+     "district": "善化區",
+     "address_line": "建國路99號7樓",
+     "postal": "741",
+     "tel": "06-862-9206",
+     "contact_name": "葉家華",
+     "contact_title": "財務主任",
+     "email": "chiahua.yeh@ruitai-packaging.example",
+     "account_no": "4442120733390",
+     "account_name": "瑞泰包裝股份有限公司",
+     "payment_terms": "net90",
+     "invoice_type": "receipt",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "235818x",
+     "currency": "USD"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "808",
+    "bank_branch": [
+     "善化分行",
+     "善化"
+    ],
+    "account_no": "4442120733390",
+    "account_name": "瑞泰包裝股份有限公司",
+    "payment_terms": "net90",
+    "currency": "TWD",
+    "invoice_type": "receipt",
+    "county": "臺南市",
+    "district": "善化區",
+    "address_line": "建國路99號7樓",
+    "postal": "741",
+    "tel": "06-862-9206",
+    "fax": "06-862-6303",
+    "vendor_name_zh": "瑞泰包裝股份有限公司",
+    "ubn": "23581887",
+    "owner": "吳家明",
+    "org_type": "corp_shares",
+    "established": "2009-05-21",
+    "capital": "864000000",
+    "vendor_name_en": "Ruitai Packaging Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0907-219-875",
+    "contact_name": [
+     "葉家華",
+     "Yeh Chia-hua"
+    ],
+    "email": "chiahua.yeh@ruitai-packaging.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "808",
+     "bank_branch": "善化分行",
+     "account_no": "4442120733390",
+     "account_name": "瑞泰包裝股份有限公司",
+     "payment_terms": "net90",
+     "currency": "TWD",
+     "invoice_type": "receipt",
+     "county": "臺南市",
+     "district": "善化區",
+     "address_line": "建國路99號7樓",
+     "postal": "741",
+     "tel": "06-862-9206",
+     "fax": "06-862-6303",
+     "vendor_name_zh": "瑞泰包裝股份有限公司",
+     "ubn": "23581887",
+     "owner": "吳家明",
+     "org_type": "corp_shares",
+     "established": "2009-05-21",
+     "capital": "864000000",
+     "vendor_name_en": "Ruitai Packaging Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_mobile": "0907-219-875",
+     "contact_name": "葉家華",
+     "email": "chiahua.yeh@ruitai-packaging.example"
+    },
+    "wrong": {
+     "account_no": "44421207333x",
+     "capital": "8640"
+    }
+   }
+  }
+ }
+}

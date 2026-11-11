@@ -1,0 +1,251 @@
+{
+ "persona": "emr-registration/t-patient-027",
+ "context": "emr-registration/t-patient-027.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Wei-Hui",
+    "middle_name": "",
+    "last_name": "Lai",
+    "dob": "1969-03-16",
+    "sex": "female",
+    "marital": "divorced",
+    "language": "taiwanese",
+    "street": "9F, No. 245, Ln. 59, Datong Rd., Yongkang Dist.",
+    "city": "Tainan City",
+    "postal": "710",
+    "country": "TW",
+    "phone_home": "04-2346-5538",
+    "phone_cell": "0984-184-587",
+    "email": "weihui.lai@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Shu-Hsuan Lai",
+    "ec_phone": "0936-623-294",
+    "ec_relationship": "parent",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3348-4474",
+    "group_number": "G-2283",
+    "subscriber_rel": "self",
+    "ins_effective": "2019-11-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Wei-Hui",
+     "last_name": "Lai",
+     "dob": "1969-03-16",
+     "sex": "female",
+     "marital": "divorced",
+     "language": "taiwanese",
+     "street": "9F, No. 245, Ln. 59, Datong Rd., Yongkang Dist.",
+     "city": "Tainan City",
+     "postal": "710",
+     "country": "TW",
+     "phone_home": "04-2346-5538",
+     "phone_cell": "0984-184-587",
+     "email": "weihui.lai@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Shu-Hsuan Lai",
+     "ec_phone": "0936-623-294",
+     "ec_relationship": "parent",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3348-4474",
+     "group_number": "G-2283",
+     "subscriber_rel": "self",
+     "ins_effective": "2019-11-08"
+    },
+    "wrong": {
+     "email": "weihui.lai at inbox.example",
+     "first_name": "Wei"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lai",
+    "first_name": "Wei-Hui",
+    "middle_name": "",
+    "dob": "1969-03-16",
+    "sex": "female",
+    "marital": "divorced",
+    "national_id": "B144255989",
+    "street": "9F, No. 245, Ln. 59, Datong Rd., Yongkang Dist.",
+    "postal": "710",
+    "city": "Tainan City",
+    "country": "TW",
+    "phone_cell": "0984-184-587",
+    "phone_home": "04-2346-5538",
+    "email": "weihui.lai@inbox.example",
+    "ec_name": "Shu-Hsuan Lai",
+    "ec_relationship": "parent",
+    "ec_phone": "0936-623-294",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3348-4474",
+    "group_number": "G-2283",
+    "subscriber_rel": "self",
+    "ins_effective": "2019-11-08",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lai",
+     "first_name": "Wei-Hui",
+     "dob": "1969-03-16",
+     "sex": "female",
+     "marital": "divorced",
+     "national_id": "B144255989",
+     "street": "9F, No. 245, Ln. 59, Datong Rd., Yongkang Dist.",
+     "postal": "710",
+     "city": "Tainan City",
+     "country": "TW",
+     "phone_cell": "0984-184-587",
+     "phone_home": "04-2346-5538",
+     "email": "weihui.lai@inbox.example",
+     "ec_name": "Shu-Hsuan Lai",
+     "ec_relationship": "parent",
+     "ec_phone": "0936-623-294",
+     "occupation": "Retired",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3348-4474",
+     "group_number": "G-2283",
+     "subscriber_rel": "self",
+     "ins_effective": "2019-11-08"
+    },
+    "wrong": {
+     "email": "weihui.lai at inbox.example",
+     "country": "JP"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Wei-Hui",
+    "last_name": "Lai",
+    "dob": "1969-03-16",
+    "sex": "female",
+    "language": "taiwanese",
+    "street": "9F, No. 245, Ln. 59, Datong Rd., Yongkang Dist.",
+    "city": "Tainan City",
+    "postal": "710",
+    "country": "TW",
+    "phone_cell": "0984-184-587",
+    "phone_home": "04-2346-5538",
+    "ec_name": "Shu-Hsuan Lai",
+    "ec_phone": "0936-623-294",
+    "ec_relationship": "parent",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3348-4474",
+    "group_number": "G-2283",
+    "subscriber_rel": "self",
+    "ins_effective": "2019-11-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Wei-Hui",
+     "last_name": "Lai",
+     "dob": "1969-03-16",
+     "sex": "female",
+     "language": "taiwanese",
+     "street": "9F, No. 245, Ln. 59, Datong Rd., Yongkang Dist.",
+     "city": "Tainan City",
+     "postal": "710",
+     "country": "TW",
+     "phone_cell": "0984-184-587",
+     "phone_home": "04-2346-5538",
+     "ec_name": "Shu-Hsuan Lai",
+     "ec_phone": "0936-623-294",
+     "ec_relationship": "parent",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3348-4474",
+     "group_number": "G-2283",
+     "subscriber_rel": "self",
+     "ins_effective": "2019-11-08"
+    },
+    "wrong": {
+     "ec_phone": "0936-6"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Lai",
+    "first_name": "Wei-Hui",
+    "dob": "1969-03-16",
+    "sex": "female",
+    "phone_cell": "0984-184-587",
+    "country": "TW",
+    "city": "Tainan City",
+    "postal": "710",
+    "street": "9F, No. 245, Ln. 59, Datong Rd., Yongkang Dist.",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-3348-4474",
+    "subscriber_rel": "self",
+    "ins_effective": "2019-11-08",
+    "email": "weihui.lai@inbox.example",
+    "phone_home": "04-2346-5538",
+    "marital": "divorced",
+    "language": "taiwanese",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Shu-Hsuan Lai",
+    "ec_phone": "0936-623-294",
+    "ec_relationship": "parent",
+    "group_number": "G-2283"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Lai",
+     "first_name": "Wei-Hui",
+     "dob": "1969-03-16",
+     "sex": "female",
+     "phone_cell": "0984-184-587",
+     "country": "TW",
+     "city": "Tainan City",
+     "postal": "710",
+     "street": "9F, No. 245, Ln. 59, Datong Rd., Yongkang Dist.",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-3348-4474",
+     "subscriber_rel": "self",
+     "ins_effective": "2019-11-08",
+     "email": "weihui.lai@inbox.example",
+     "phone_home": "04-2346-5538",
+     "marital": "divorced",
+     "language": "taiwanese",
+     "occupation": "Retired",
+     "ec_name": "Shu-Hsuan Lai",
+     "ec_phone": "0936-623-294",
+     "ec_relationship": "parent",
+     "group_number": "G-2283"
+    },
+    "wrong": {
+     "email": "weihui.lai at inbox.example",
+     "phone_home": "04-234"
+    }
+   }
+  }
+ }
+}

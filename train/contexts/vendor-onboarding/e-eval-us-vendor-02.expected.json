@@ -1,0 +1,67 @@
+{
+ "persona": "vendor-onboarding/e-eval-us-vendor-02",
+ "context": "vendor-onboarding/e-eval-us-vendor-02.md",
+ "split": "eval",
+ "variants": {
+  "vendor-onboarding/eval-us-vendor": {
+   "submit": true,
+   "fields": {
+    "org_name": "Cobaltview Freight LLC",
+    "tax_id": "03-7856967",
+    "business_type": "llc",
+    "established": "2021-02-18",
+    "company_address": "9084 Meadowlark Ln, Suite 891, Cherry Hill, NJ 08060",
+    "contact_name": [
+     "Freya Kimura",
+     "Mr. Freya Kimura"
+    ],
+    "contact_title": "Account Manager",
+    "email": "freya.kimura@cobaltview.example",
+    "phone_day": "(856) 555-0182",
+    "phone_evening": "",
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "service_area": "apac",
+    "gross_sales": "37100000",
+    "insurance": "insured",
+    "licensing": "not_licensed",
+    "bank_name": "Granite State Mutual Bank",
+    "beneficiary": "Cobaltview Freight LLC",
+    "account_number": "881-008179-4",
+    "swift": "GSMBUSXSXXX",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Cobaltview Freight LLC",
+     "tax_id": "03-7856967",
+     "business_type": "llc",
+     "established": "2021-02-18",
+     "company_address": "9084 Meadowlark Ln, Suite 891, Cherry Hill, NJ 08060",
+     "contact_name": "Freya Kimura",
+     "contact_title": "Account Manager",
+     "email": "freya.kimura@cobaltview.example",
+     "phone_day": "(856) 555-0182",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "service_area": "apac",
+     "gross_sales": "37100000",
+     "insurance": "insured",
+     "licensing": "not_licensed",
+     "bank_name": "Granite State Mutual Bank",
+     "beneficiary": "Cobaltview Freight LLC",
+     "account_number": "881-008179-4",
+     "swift": "GSMBUSXSXXX"
+    },
+    "wrong": {
+     "email": "freya.kimura at cobaltview.example",
+     "bank_name": "Granite Stat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-039",
+ "context": "kyc-account-opening/t-kyc-039.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-36948",
+    "full_name": [
+     "Wu Chun-Yen",
+     "Chun-Yen Wu"
+    ],
+    "spouse_name": "Chiang Mei-Hua",
+    "gender": "male",
+    "marital": "married",
+    "dob": "1961-08-12",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "H233962531",
+    "id_proof": "national_id",
+    "address": [
+     "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "phone": "+886 998 788 342",
+    "email": "chunyen.wu@inbox.example",
+    "addr_proof": "utility_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Wu Chun-Yen",
+     "Chun-Yen Wu"
+    ],
+    "sign_date": "2026-11-02",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-36948",
+     "full_name": "Wu Chun-Yen",
+     "spouse_name": "Chiang Mei-Hua",
+     "gender": "male",
+     "marital": "married",
+     "dob": "1961-08-12",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "H233962531",
+     "id_proof": "national_id",
+     "address": "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "phone": "+886 998 788 342",
+     "email": "chunyen.wu@inbox.example",
+     "addr_proof": "utility_bill",
+     "perm_same": true,
+     "decl_name": "Wu Chun-Yen",
+     "sign_date": "2026-11-02"
+    },
+    "wrong": {
+     "tax_id": "H2339625x",
+     "addr_proof": "bank_statement"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chun-Yen",
+     "Chun-Yen Wu"
+    ],
+    "dob": "1961-08-12",
+    "mother_maiden": "",
+    "phone": "+886 998 788 342",
+    "email": "chunyen.wu@inbox.example",
+    "address": [
+     "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "education": "associate",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "283000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chun-Yen",
+     "dob": "1961-08-12",
+     "phone": "+886 998 788 342",
+     "email": "chunyen.wu@inbox.example",
+     "address": "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "education": "associate",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "283000"
+    },
+    "wrong": {
+     "email": "chunyen.wu at inbox.example",
+     "phone": "+886 998"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chun-Yen",
+     "Chun-Yen Wu"
+    ],
+    "dob": "1961-08-12",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Chiang Mei-Hua",
+    "address": [
+     "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "email": "chunyen.wu@inbox.example",
+    "phone": "+886 998 788 342",
+    "addr_proof": "utility_bill",
+    "id_proof": "national_id",
+    "tax_id": "H233962531",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-36948"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chun-Yen",
+     "dob": "1961-08-12",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Chiang Mei-Hua",
+     "address": "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "email": "chunyen.wu@inbox.example",
+     "phone": "+886 998 788 342",
+     "addr_proof": "utility_bill",
+     "id_proof": "national_id",
+     "tax_id": "H233962531",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-36948"
+    },
+    "wrong": {
+     "email": "chunyen.wu at inbox.example",
+     "residency": "non_resident"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chun-Yen",
+     "Chun-Yen Wu"
+    ],
+    "dob": "1961-08-12",
+    "gender": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 998 788 342",
+    "email": "chunyen.wu@inbox.example",
+    "address": [
+     "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "H233962531",
+    "addr_proof": "utility_bill",
+    "account_type": "checking",
+    "account_category": "individual",
+    "education": "associate",
+    "monthly_income": "283000",
+    "application_no": "LCB-AO-2026-36948",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chun-Yen",
+     "dob": "1961-08-12",
+     "gender": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 998 788 342",
+     "email": "chunyen.wu@inbox.example",
+     "address": "9F, No. 229, Zhongshan N. Rd., Zhongli Dist., Taoyuan City 320, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "H233962531",
+     "addr_proof": "utility_bill",
+     "account_type": "checking",
+     "account_category": "individual",
+     "education": "associate",
+     "monthly_income": "283000",
+     "application_no": "LCB-AO-2026-36948"
+    },
+    "wrong": {
+     "email": "chunyen.wu at inbox.example",
+     "gender": "female"
+    }
+   }
+  }
+ }
+}

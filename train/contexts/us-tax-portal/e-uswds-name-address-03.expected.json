@@ -1,0 +1,41 @@
+{
+ "persona": "us-tax-portal/e-uswds-name-address-03",
+ "context": "us-tax-portal/e-uswds-name-address-03.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/uswds-name-address": {
+   "submit": true,
+   "fields": {
+    "first_name": "Anika",
+    "middle_initial": "",
+    "last_name": "Hoffmann",
+    "suffix": "",
+    "preferred_name": "Anika",
+    "street1": "4425 Fox Run Way",
+    "street2": "Suite 522",
+    "city": "Newark",
+    "state": "DE",
+    "zip": "19716",
+    "urbanization": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Anika",
+     "last_name": "Hoffmann",
+     "preferred_name": "Anika",
+     "street1": "4425 Fox Run Way",
+     "street2": "Suite 522",
+     "city": "Newark",
+     "state": "DE",
+     "zip": "19716"
+    },
+    "wrong": {
+     "zip": "197x",
+     "street2": "Suit"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,143 @@
+{
+  "family": "itsm-request",
+  "variant": "access-request-wizard",
+  "split": "eval",
+  "title": "Request Access to an Application",
+  "language": "en",
+  "source": "ServiceNow-style catalog/incident forms (WorkArena README task types; rebuilt, no login)",
+  "context": "contexts/eval-priya-raman.md",
+  "url": "forms/itsm-request/access-request-wizard/index.html",
+  "pages": 3,
+  "goal": "Using the context, fill in this IT request form for the person described and submit it.",
+  "contexts": [
+    "eval-priya-raman.md"
+  ],
+  "entry": "index.html",
+  "submit": true,
+  "locale": "en",
+  "personas": [
+    "eval-priya-raman",
+    "itsm-request/e-access-request-wizard-01",
+    "itsm-request/e-access-request-wizard-02",
+    "itsm-request/e-access-request-wizard-03",
+    "itsm-request/e-access-request-wizard-04",
+    "itsm-request/e-access-request-wizard-05",
+    "itsm-request/e-access-request-wizard-06",
+    "itsm-request/e-access-request-wizard-07",
+    "itsm-request/e-access-request-wizard-08"
+  ],
+  "success": {
+    "require_submitted": true,
+    "rule": "all non-infeasible fields match expected (after normalization), infeasible fields empty, and the form was submitted"
+  },
+  "reject_on_first_submit": null,
+  "fields": [
+    {
+      "label": "Employee",
+      "key": "requested_for",
+      "kind": "combobox",
+      "page": 0,
+      "expected_value_from_context": "u_raman_p",
+      "normalization": "choice",
+      "required": true,
+      "id": "requested_for",
+      "source": "state",
+      "expected": "u_raman_p"
+    },
+    {
+      "label": "Opened by",
+      "key": "opened_for_by",
+      "kind": "combobox",
+      "page": 0,
+      "expected_value_from_context": "u_rahman_a",
+      "normalization": "choice",
+      "required": true,
+      "id": "opened_for_by",
+      "source": "state",
+      "expected": "u_rahman_a"
+    },
+    {
+      "label": "Request type",
+      "key": "request_type",
+      "kind": "dropdown",
+      "page": 0,
+      "expected_value_from_context": "app_access",
+      "normalization": "choice",
+      "required": true,
+      "id": "request_type",
+      "source": "state",
+      "expected": "app_access"
+    },
+    {
+      "label": "Application",
+      "key": "application",
+      "kind": "combobox",
+      "page": 1,
+      "expected_value_from_context": "dwh",
+      "normalization": "choice",
+      "required": true,
+      "id": "application",
+      "source": "state",
+      "expected": "dwh"
+    },
+    {
+      "label": "Role",
+      "key": "app_role",
+      "kind": "dropdown",
+      "page": 1,
+      "expected_value_from_context": "analyst",
+      "normalization": "choice",
+      "required": true,
+      "id": "app_role",
+      "source": "state",
+      "expected": "analyst"
+    },
+    {
+      "label": "Access level",
+      "key": "access_level",
+      "kind": "ariaradio",
+      "page": 1,
+      "expected_value_from_context": "rw",
+      "normalization": "choice",
+      "required": true,
+      "id": "access_level",
+      "source": "state",
+      "expected": "rw"
+    },
+    {
+      "label": "Access needed by",
+      "key": "needed_by",
+      "kind": "datepicker",
+      "page": 1,
+      "expected_value_from_context": "2026-12-14",
+      "normalization": "date",
+      "required": true,
+      "id": "needed_by",
+      "source": "state",
+      "expected": "2026-12-14"
+    },
+    {
+      "label": "Business justification",
+      "key": "justification",
+      "kind": "textarea",
+      "page": 2,
+      "expected_value_from_context": "New Data Platform Engineer; maintains ETL pipelines.",
+      "normalization": "fuzzy",
+      "required": true,
+      "id": "justification",
+      "source": "state",
+      "expected": "New Data Platform Engineer; maintains ETL pipelines."
+    }
+  ],
+  "hard_states_supported": [
+    "prefilled",
+    "partial",
+    "wrong",
+    "loading",
+    "multi_page",
+    "autocomplete",
+    "custom_dropdown",
+    "date_picker"
+  ],
+  "notes": "Eval: 3-step wizard, two similar user lookups (Priya Raman vs Priya Ramesh)."
+}

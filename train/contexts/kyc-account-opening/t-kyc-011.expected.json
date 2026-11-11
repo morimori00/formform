@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-011",
+ "context": "kyc-account-opening/t-kyc-011.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-12711",
+    "full_name": [
+     "Fang Chia-Hui",
+     "Chia-Hui Fang"
+    ],
+    "spouse_name": "Wang Ming-An",
+    "gender": "male",
+    "marital": "single",
+    "dob": "1993-12-22",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "B122546682",
+    "id_proof": "national_id",
+    "address": [
+     "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "phone": "+886 952 610 056",
+    "email": "chiahui.fang@inbox.example",
+    "addr_proof": "utility_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Fang Chia-Hui",
+     "Chia-Hui Fang"
+    ],
+    "sign_date": "2026-11-04",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-12711",
+     "full_name": "Fang Chia-Hui",
+     "spouse_name": "Wang Ming-An",
+     "gender": "male",
+     "marital": "single",
+     "dob": "1993-12-22",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "B122546682",
+     "id_proof": "national_id",
+     "address": "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "phone": "+886 952 610 056",
+     "email": "chiahui.fang@inbox.example",
+     "addr_proof": "utility_bill",
+     "perm_same": true,
+     "decl_name": "Fang Chia-Hui",
+     "sign_date": "2026-11-04"
+    },
+    "wrong": {
+     "tax_id": "B1225466x",
+     "spouse_name": "Wang M"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Fang Chia-Hui",
+     "Chia-Hui Fang"
+    ],
+    "dob": "1993-12-22",
+    "mother_maiden": "",
+    "phone": "+886 952 610 056",
+    "email": "chiahui.fang@inbox.example",
+    "address": [
+     "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "education": "high_school",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "52000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Fang Chia-Hui",
+     "dob": "1993-12-22",
+     "phone": "+886 952 610 056",
+     "email": "chiahui.fang@inbox.example",
+     "address": "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "education": "high_school",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "52000"
+    },
+    "wrong": {
+     "email": "chiahui.fang at inbox.example",
+     "phone": "+886 952"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Fang Chia-Hui",
+     "Chia-Hui Fang"
+    ],
+    "dob": "1993-12-22",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Wang Ming-An",
+    "address": [
+     "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "email": "chiahui.fang@inbox.example",
+    "phone": "+886 952 610 056",
+    "addr_proof": "utility_bill",
+    "id_proof": "national_id",
+    "tax_id": "B122546682",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-12711"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Fang Chia-Hui",
+     "dob": "1993-12-22",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Wang Ming-An",
+     "address": "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "email": "chiahui.fang@inbox.example",
+     "phone": "+886 952 610 056",
+     "addr_proof": "utility_bill",
+     "id_proof": "national_id",
+     "tax_id": "B122546682",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-12711"
+    },
+    "wrong": {
+     "email": "chiahui.fang at inbox.example",
+     "addr_proof": "bank_statement"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Fang Chia-Hui",
+     "Chia-Hui Fang"
+    ],
+    "dob": "1993-12-22",
+    "gender": "male",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 952 610 056",
+    "email": "chiahui.fang@inbox.example",
+    "address": [
+     "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "B122546682",
+    "addr_proof": "utility_bill",
+    "account_type": "checking",
+    "account_category": "individual",
+    "education": "high_school",
+    "monthly_income": "52000",
+    "application_no": "LCB-AO-2026-12711",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Fang Chia-Hui",
+     "dob": "1993-12-22",
+     "gender": "male",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 952 610 056",
+     "email": "chiahui.fang@inbox.example",
+     "address": "10F, No. 279, Ln. 171, Sec. 2, Ziyou Rd., Zuoying Dist., Kaohsiung City 813, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "B122546682",
+     "addr_proof": "utility_bill",
+     "account_type": "checking",
+     "account_category": "individual",
+     "education": "high_school",
+     "monthly_income": "52000",
+     "application_no": "LCB-AO-2026-12711"
+    },
+    "wrong": {
+     "email": "chiahui.fang at inbox.example",
+     "account_type": "savings"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "persona": "tw-vendor-master/t-intl-005",
+ "context": "tw-vendor-master/t-intl-005.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "",
+    "vendor_name_en": "Skylark Analytics GmbH",
+    "foreign": true,
+    "org_type": "foreign",
+    "ubn": "",
+    "owner": "",
+    "county": "",
+    "district": "",
+    "address_line": "",
+    "postal": "",
+    "foreign_address": "Hafenweg 25, 01104 Dresden, Germany",
+    "swift": "RKXXDEAXXXX",
+    "tel": "+49 351 995 6168",
+    "contact_name": [
+     "Julia Novak",
+     "Mr. Julia Novak"
+    ],
+    "contact_title": "Controller",
+    "email": "julia.novak@skylark.example",
+    "account_no": "498-590344-0",
+    "account_name": "Skylark Analytics GmbH",
+    "payment_terms": "net30",
+    "invoice_type": "foreign_invoice",
+    "currency": "EUR"
+   },
+   "infeasible": [
+    "vendor_name_zh"
+   ],
+   "hidden": [
+    "ubn",
+    "owner",
+    "county",
+    "district",
+    "address_line",
+    "postal"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_en": "Skylark Analytics GmbH",
+     "foreign": true,
+     "org_type": "foreign",
+     "foreign_address": "Hafenweg 25, 01104 Dresden, Germany",
+     "swift": "RKXXDEAXXXX",
+     "tel": "+49 351 995 6168",
+     "contact_name": "Julia Novak",
+     "contact_title": "Controller",
+     "email": "julia.novak@skylark.example",
+     "account_no": "498-590344-0",
+     "account_name": "Skylark Analytics GmbH",
+     "payment_terms": "net30",
+     "invoice_type": "foreign_invoice",
+     "currency": "EUR"
+    },
+    "wrong": {
+     "email": "julia.novak at skylark.example",
+     "payment_terms": "net45"
+    }
+   }
+  }
+ }
+}

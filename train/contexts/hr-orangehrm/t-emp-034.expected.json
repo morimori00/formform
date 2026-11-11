@@ -1,0 +1,179 @@
+{
+ "persona": "hr-orangehrm/t-emp-034",
+ "context": "hr-orangehrm/t-emp-034.md",
+ "split": "train",
+ "variants": {
+  "hr-orangehrm/add-employee": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Fen",
+    "middle_name": "",
+    "last_name": "Yeh",
+    "employee_id": "KST-23793",
+    "create_login": true,
+    "username": "meifen.yeh",
+    "login_status": "enabled",
+    "password": "Fab3!0047z",
+    "confirm_password": "Fab3!0047z"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Fen",
+     "last_name": "Yeh",
+     "employee_id": "KST-23793",
+     "create_login": true,
+     "username": "meifen.yeh",
+     "login_status": "enabled",
+     "password": "Fab3!0047z",
+     "confirm_password": "Fab3!0047z"
+    },
+    "wrong": {
+     "employee_id": "KST-237x",
+     "first_name": "Mei"
+    }
+   }
+  },
+  "hr-orangehrm/personal-details": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Fen",
+    "middle_name": "",
+    "last_name": "Yeh",
+    "employee_id": "KST-23793",
+    "license_number": "DL-43757282",
+    "license_expiry": "2029-06-29",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1989-08-04",
+    "gender": "female"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Fen",
+     "last_name": "Yeh",
+     "employee_id": "KST-23793",
+     "license_number": "DL-43757282",
+     "license_expiry": "2029-06-29",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1989-08-04",
+     "gender": "female"
+    },
+    "wrong": {
+     "employee_id": "KST-237x",
+     "license_expiry": "2028-06-29"
+    }
+   }
+  },
+  "hr-orangehrm/apply-leave": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2027-01-05",
+    "leave_to": "2027-01-08",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Moving house; reachable by phone for urgent issues"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2027-01-05",
+     "leave_to": "2027-01-08",
+     "partial_days": "none",
+     "leave_comment": "Moving house; reachable by phone for urgent issues"
+    },
+    "wrong": {
+     "leave_to": "2026-01-08"
+    }
+   }
+  },
+  "hr-orangehrm/leave-calendar-only": {
+   "submit": true,
+   "fields": {
+    "leave_type": "personal",
+    "leave_from": "2027-01-05",
+    "leave_to": "2027-01-08",
+    "partial_days": "none",
+    "end_duration": "",
+    "leave_comment": "Moving house; reachable by phone for urgent issues"
+   },
+   "infeasible": [],
+   "hidden": [
+    "end_duration"
+   ],
+   "prefill": {
+    "right": {
+     "leave_type": "personal",
+     "leave_from": "2027-01-05",
+     "leave_to": "2027-01-08",
+     "partial_days": "none",
+     "leave_comment": "Moving house; reachable by phone for urgent issues"
+    },
+    "wrong": {
+     "partial_days": "end"
+    }
+   }
+  },
+  "hr-orangehrm/new-employee-one-page": {
+   "submit": true,
+   "fields": {
+    "first_name": "Mei-Fen",
+    "middle_name": "",
+    "last_name": "Yeh",
+    "employee_id": "KST-23793",
+    "create_login": true,
+    "username": "meifen.yeh",
+    "login_status": "enabled",
+    "password": "Fab3!0047z",
+    "confirm_password": "Fab3!0047z",
+    "nationality": "TW",
+    "marital": "married",
+    "dob": "1989-08-04",
+    "gender": "female",
+    "job_title": "hr_partner",
+    "department": "hr",
+    "work_location": "hsp_fab3",
+    "emp_status": "pt",
+    "supervisor": "u_m2327",
+    "joined_date": "2026-12-23"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Mei-Fen",
+     "last_name": "Yeh",
+     "employee_id": "KST-23793",
+     "create_login": true,
+     "username": "meifen.yeh",
+     "login_status": "enabled",
+     "password": "Fab3!0047z",
+     "confirm_password": "Fab3!0047z",
+     "nationality": "TW",
+     "marital": "married",
+     "dob": "1989-08-04",
+     "gender": "female",
+     "job_title": "hr_partner",
+     "department": "hr",
+     "work_location": "hsp_fab3",
+     "emp_status": "pt",
+     "supervisor": "u_m2327",
+     "joined_date": "2026-12-23"
+    },
+    "wrong": {
+     "employee_id": "KST-237x",
+     "marital": "single"
+    }
+   }
+  }
+ }
+}

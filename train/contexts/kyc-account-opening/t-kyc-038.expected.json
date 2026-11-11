@@ -1,0 +1,221 @@
+{
+ "persona": "kyc-account-opening/t-kyc-038",
+ "context": "kyc-account-opening/t-kyc-038.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-15310",
+    "full_name": [
+     "Kuo Kuan-Hua",
+     "Kuan-Hua Kuo"
+    ],
+    "spouse_name": "Lai Ya-Ling",
+    "gender": "male",
+    "marital": "married",
+    "dob": "1982-11-06",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "H216200704",
+    "id_proof": "national_id",
+    "address": [
+     "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710"
+    ],
+    "phone": "+886 916 931 614",
+    "email": "kuanhua.kuo@inbox.example",
+    "addr_proof": "tax_bill",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Kuo Kuan-Hua",
+     "Kuan-Hua Kuo"
+    ],
+    "sign_date": "2026-11-10",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-15310",
+     "full_name": "Kuo Kuan-Hua",
+     "spouse_name": "Lai Ya-Ling",
+     "gender": "male",
+     "marital": "married",
+     "dob": "1982-11-06",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "H216200704",
+     "id_proof": "national_id",
+     "address": "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "phone": "+886 916 931 614",
+     "email": "kuanhua.kuo@inbox.example",
+     "addr_proof": "tax_bill",
+     "perm_same": true,
+     "decl_name": "Kuo Kuan-Hua",
+     "sign_date": "2026-11-10"
+    },
+    "wrong": {
+     "tax_id": "H2162007x",
+     "dob": "1981-11-06"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kuo Kuan-Hua",
+     "Kuan-Hua Kuo"
+    ],
+    "dob": "1982-11-06",
+    "mother_maiden": "Liao",
+    "phone": "+886 916 931 614",
+    "email": "kuanhua.kuo@inbox.example",
+    "address": [
+     "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710"
+    ],
+    "education": "high_school",
+    "id_form": "national_id",
+    "account_type": "checking",
+    "account_category": "individual",
+    "monthly_income": "146000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Kuo Kuan-Hua",
+     "dob": "1982-11-06",
+     "mother_maiden": "Liao",
+     "phone": "+886 916 931 614",
+     "email": "kuanhua.kuo@inbox.example",
+     "address": "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "education": "high_school",
+     "id_form": "national_id",
+     "account_type": "checking",
+     "account_category": "individual",
+     "monthly_income": "146000"
+    },
+    "wrong": {
+     "email": "kuanhua.kuo at inbox.example",
+     "education": "associate"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kuo Kuan-Hua",
+     "Kuan-Hua Kuo"
+    ],
+    "dob": "1982-11-06",
+    "gender": "male",
+    "nationality": "TW",
+    "marital": "married",
+    "spouse_name": "Lai Ya-Ling",
+    "address": [
+     "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710"
+    ],
+    "email": "kuanhua.kuo@inbox.example",
+    "phone": "+886 916 931 614",
+    "addr_proof": "tax_bill",
+    "id_proof": "national_id",
+    "tax_id": "H216200704",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-15310"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Kuo Kuan-Hua",
+     "dob": "1982-11-06",
+     "gender": "male",
+     "nationality": "TW",
+     "marital": "married",
+     "spouse_name": "Lai Ya-Ling",
+     "address": "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "email": "kuanhua.kuo@inbox.example",
+     "phone": "+886 916 931 614",
+     "addr_proof": "tax_bill",
+     "id_proof": "national_id",
+     "tax_id": "H216200704",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-15310"
+    },
+    "wrong": {
+     "email": "kuanhua.kuo at inbox.example",
+     "id_proof": "passport"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Kuo Kuan-Hua",
+     "Kuan-Hua Kuo"
+    ],
+    "dob": "1982-11-06",
+    "gender": "male",
+    "marital": "married",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 916 931 614",
+    "email": "kuanhua.kuo@inbox.example",
+    "address": [
+     "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "H216200704",
+    "addr_proof": "tax_bill",
+    "account_type": "checking",
+    "account_category": "individual",
+    "education": "high_school",
+    "monthly_income": "146000",
+    "application_no": "LCB-AO-2026-15310",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Kuo Kuan-Hua",
+     "dob": "1982-11-06",
+     "gender": "male",
+     "marital": "married",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 916 931 614",
+     "email": "kuanhua.kuo@inbox.example",
+     "address": "6F, No. 252, Sec. 4, Jianguo Rd., Yongkang Dist., Tainan City 710, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "H216200704",
+     "addr_proof": "tax_bill",
+     "account_type": "checking",
+     "account_category": "individual",
+     "education": "high_school",
+     "monthly_income": "146000",
+     "application_no": "LCB-AO-2026-15310"
+    },
+    "wrong": {
+     "email": "kuanhua.kuo at inbox.example",
+     "dob": "1981-11-06"
+    }
+   }
+  }
+ }
+}

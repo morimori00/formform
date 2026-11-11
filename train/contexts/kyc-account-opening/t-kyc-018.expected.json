@@ -1,0 +1,220 @@
+{
+ "persona": "kyc-account-opening/t-kyc-018",
+ "context": "kyc-account-opening/t-kyc-018.md",
+ "split": "train",
+ "variants": {
+  "kyc-account-opening/kyc-long": {
+   "submit": true,
+   "fields": {
+    "application_no": "LCB-AO-2026-35574",
+    "full_name": [
+     "Wu Chia-An",
+     "Chia-An Wu"
+    ],
+    "spouse_name": "Fang Kuan-Jie",
+    "gender": "female",
+    "marital": "single",
+    "dob": "1995-05-12",
+    "nationality": "TW",
+    "residency": "resident",
+    "tax_id": "F115063265",
+    "id_proof": "national_id",
+    "address": [
+     "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802, Taiwan",
+     "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802"
+    ],
+    "phone": "+886 980 783 862",
+    "email": "chiaan.wu@inbox.example",
+    "addr_proof": "bank_statement",
+    "perm_same": true,
+    "perm_address": "",
+    "decl_name": [
+     "Wu Chia-An",
+     "Chia-An Wu"
+    ],
+    "sign_date": "2026-11-10",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "application_no": "LCB-AO-2026-35574",
+     "full_name": "Wu Chia-An",
+     "spouse_name": "Fang Kuan-Jie",
+     "gender": "female",
+     "marital": "single",
+     "dob": "1995-05-12",
+     "nationality": "TW",
+     "residency": "resident",
+     "tax_id": "F115063265",
+     "id_proof": "national_id",
+     "address": "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802, Taiwan",
+     "phone": "+886 980 783 862",
+     "email": "chiaan.wu@inbox.example",
+     "addr_proof": "bank_statement",
+     "perm_same": true,
+     "decl_name": "Wu Chia-An",
+     "sign_date": "2026-11-10"
+    },
+    "wrong": {
+     "tax_id": "F1150632x",
+     "marital": "married"
+    }
+   }
+  },
+  "kyc-account-opening/account-opening-steps": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chia-An",
+     "Chia-An Wu"
+    ],
+    "dob": "1995-05-12",
+    "mother_maiden": "",
+    "phone": "+886 980 783 862",
+    "email": "chiaan.wu@inbox.example",
+    "address": [
+     "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802, Taiwan",
+     "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802"
+    ],
+    "education": "associate",
+    "id_form": "national_id",
+    "account_type": "savings",
+    "account_category": "individual",
+    "monthly_income": "49000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chia-An",
+     "dob": "1995-05-12",
+     "phone": "+886 980 783 862",
+     "email": "chiaan.wu@inbox.example",
+     "address": "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802, Taiwan",
+     "education": "associate",
+     "id_form": "national_id",
+     "account_type": "savings",
+     "account_category": "individual",
+     "monthly_income": "49000"
+    },
+    "wrong": {
+     "email": "chiaan.wu at inbox.example",
+     "dob": "1994-05-12"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-shadow-reworded": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chia-An",
+     "Chia-An Wu"
+    ],
+    "dob": "1995-05-12",
+    "gender": "female",
+    "nationality": "TW",
+    "marital": "single",
+    "spouse_name": "Fang Kuan-Jie",
+    "address": [
+     "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802, Taiwan",
+     "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802"
+    ],
+    "email": "chiaan.wu@inbox.example",
+    "phone": "+886 980 783 862",
+    "addr_proof": "bank_statement",
+    "id_proof": "national_id",
+    "tax_id": "F115063265",
+    "residency": "resident",
+    "application_no": "LCB-AO-2026-35574"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chia-An",
+     "dob": "1995-05-12",
+     "gender": "female",
+     "nationality": "TW",
+     "marital": "single",
+     "spouse_name": "Fang Kuan-Jie",
+     "address": "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802, Taiwan",
+     "email": "chiaan.wu@inbox.example",
+     "phone": "+886 980 783 862",
+     "addr_proof": "bank_statement",
+     "id_proof": "national_id",
+     "tax_id": "F115063265",
+     "residency": "resident",
+     "application_no": "LCB-AO-2026-35574"
+    },
+    "wrong": {
+     "email": "chiaan.wu at inbox.example",
+     "marital": "married"
+    }
+   }
+  },
+  "kyc-account-opening/kyc-tabbed": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Wu Chia-An",
+     "Chia-An Wu"
+    ],
+    "dob": "1995-05-12",
+    "gender": "female",
+    "marital": "single",
+    "nationality": "TW",
+    "residency": "resident",
+    "phone": "+886 980 783 862",
+    "email": "chiaan.wu@inbox.example",
+    "address": [
+     "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802, Taiwan",
+     "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802"
+    ],
+    "perm_same": true,
+    "id_proof": "national_id",
+    "tax_id": "F115063265",
+    "addr_proof": "bank_statement",
+    "account_type": "savings",
+    "account_category": "individual",
+    "education": "associate",
+    "monthly_income": "49000",
+    "application_no": "LCB-AO-2026-35574",
+    "perm_address": ""
+   },
+   "infeasible": [],
+   "hidden": [
+    "perm_address"
+   ],
+   "prefill": {
+    "right": {
+     "full_name": "Wu Chia-An",
+     "dob": "1995-05-12",
+     "gender": "female",
+     "marital": "single",
+     "nationality": "TW",
+     "residency": "resident",
+     "phone": "+886 980 783 862",
+     "email": "chiaan.wu@inbox.example",
+     "address": "5F, No. 134, Ln. 238, Minsheng E. Rd., Lingya Dist., Kaohsiung City 802, Taiwan",
+     "perm_same": true,
+     "id_proof": "national_id",
+     "tax_id": "F115063265",
+     "addr_proof": "bank_statement",
+     "account_type": "savings",
+     "account_category": "individual",
+     "education": "associate",
+     "monthly_income": "49000",
+     "application_no": "LCB-AO-2026-35574"
+    },
+    "wrong": {
+     "email": "chiaan.wu at inbox.example",
+     "residency": "non_resident"
+    }
+   }
+  }
+ }
+}

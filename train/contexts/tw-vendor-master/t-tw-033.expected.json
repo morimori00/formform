@@ -1,0 +1,350 @@
+{
+ "persona": "tw-vendor-master/t-tw-033",
+ "context": "tw-vendor-master/t-tw-033.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "凱泰精密工業有限公司",
+    "vendor_name_en": "Kaitai Precision Industrial Co., Ltd.",
+    "ubn": "13586080",
+    "owner": "劉志宏",
+    "established": "1996-07-21",
+    "capital": "116000000",
+    "org_type": "limited",
+    "postal": "806",
+    "county": "高雄市",
+    "district": "前鎮區",
+    "address_line": "中正路328號5樓",
+    "tel": "07-191-3396",
+    "fax": "07-191-3653",
+    "contact_name": [
+     "郭建宏",
+     "Kuo Chien-hung"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "chienhung.kuo@kaitai-precision.example",
+    "contact_mobile": "0964-661-705",
+    "bank_code": "822",
+    "bank_branch": [
+     "前鎮分行",
+     "前鎮"
+    ],
+    "account_no": "2361875236761",
+    "account_name": "凱泰精密工業有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2027-08-08"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "凱泰精密工業有限公司",
+     "vendor_name_en": "Kaitai Precision Industrial Co., Ltd.",
+     "ubn": "13586080",
+     "owner": "劉志宏",
+     "established": "1996-07-21",
+     "capital": "116000000",
+     "org_type": "limited",
+     "postal": "806",
+     "county": "高雄市",
+     "district": "前鎮區",
+     "address_line": "中正路328號5樓",
+     "tel": "07-191-3396",
+     "fax": "07-191-3653",
+     "contact_name": "郭建宏",
+     "contact_title": "財務主任",
+     "email": "chienhung.kuo@kaitai-precision.example",
+     "contact_mobile": "0964-661-705",
+     "bank_code": "822",
+     "bank_branch": "前鎮分行",
+     "account_no": "2361875236761",
+     "account_name": "凱泰精密工業有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2027-08-08"
+    },
+    "wrong": {
+     "ubn": "135860x",
+     "address_line": "中正路3"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": true,
+   "fields": {
+    "ubn": "13586080",
+    "vendor_name_zh": "凱泰精密工業有限公司",
+    "vendor_name_en": "Kaitai Precision Industrial Co., Ltd.",
+    "org_type": "limited",
+    "established": "1996-07-21",
+    "owner": "劉志宏",
+    "county": "高雄市",
+    "district": "前鎮區",
+    "address_line": "中正路328號5樓",
+    "postal": "806",
+    "tel": "07-191-3396",
+    "fax": "07-191-3653",
+    "contact_name": [
+     "郭建宏",
+     "Kuo Chien-hung"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0964-661-705",
+    "email": "chienhung.kuo@kaitai-precision.example",
+    "bank_code": "822",
+    "bank_branch": [
+     "前鎮分行",
+     "前鎮"
+    ],
+    "account_no": "2361875236761",
+    "account_name": "凱泰精密工業有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2027-08-08",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "13586080",
+     "vendor_name_zh": "凱泰精密工業有限公司",
+     "vendor_name_en": "Kaitai Precision Industrial Co., Ltd.",
+     "org_type": "limited",
+     "established": "1996-07-21",
+     "owner": "劉志宏",
+     "county": "高雄市",
+     "district": "前鎮區",
+     "address_line": "中正路328號5樓",
+     "postal": "806",
+     "tel": "07-191-3396",
+     "fax": "07-191-3653",
+     "contact_name": "郭建宏",
+     "contact_title": "財務主任",
+     "contact_mobile": "0964-661-705",
+     "email": "chienhung.kuo@kaitai-precision.example",
+     "bank_code": "822",
+     "bank_branch": "前鎮分行",
+     "account_no": "2361875236761",
+     "account_name": "凱泰精密工業有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2027-08-08"
+    },
+    "wrong": {
+     "ubn": "135860x",
+     "contact_mobile": "0964-6"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "13586080",
+    "vendor_name_zh": "凱泰精密工業有限公司",
+    "owner": "劉志宏",
+    "established": "1996-07-21",
+    "org_type": "limited",
+    "capital": "116000000",
+    "county": "高雄市",
+    "district": "前鎮區",
+    "address_line": "中正路328號5樓",
+    "postal": "806",
+    "tel": "07-191-3396",
+    "contact_name": [
+     "郭建宏",
+     "Kuo Chien-hung"
+    ],
+    "email": "chienhung.kuo@kaitai-precision.example",
+    "bank_code": "822",
+    "account_no": "2361875236761",
+    "account_name": "凱泰精密工業有限公司",
+    "payment_terms": "net30",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "13586080",
+     "vendor_name_zh": "凱泰精密工業有限公司",
+     "owner": "劉志宏",
+     "established": "1996-07-21",
+     "org_type": "limited",
+     "capital": "116000000",
+     "county": "高雄市",
+     "district": "前鎮區",
+     "address_line": "中正路328號5樓",
+     "postal": "806",
+     "tel": "07-191-3396",
+     "contact_name": "郭建宏",
+     "email": "chienhung.kuo@kaitai-precision.example",
+     "bank_code": "822",
+     "account_no": "2361875236761",
+     "account_name": "凱泰精密工業有限公司",
+     "payment_terms": "net30",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "135860x",
+     "currency": "USD"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "凱泰精密工業有限公司",
+    "vendor_name_en": "Kaitai Precision Industrial Co., Ltd.",
+    "foreign": false,
+    "org_type": "limited",
+    "ubn": "13586080",
+    "owner": "劉志宏",
+    "county": "高雄市",
+    "district": "前鎮區",
+    "address_line": "中正路328號5樓",
+    "postal": "806",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "07-191-3396",
+    "contact_name": [
+     "郭建宏",
+     "Kuo Chien-hung"
+    ],
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "email": "chienhung.kuo@kaitai-precision.example",
+    "account_no": "2361875236761",
+    "account_name": "凱泰精密工業有限公司",
+    "payment_terms": "net30",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "凱泰精密工業有限公司",
+     "vendor_name_en": "Kaitai Precision Industrial Co., Ltd.",
+     "foreign": false,
+     "org_type": "limited",
+     "ubn": "13586080",
+     "owner": "劉志宏",
+     "county": "高雄市",
+     "district": "前鎮區",
+     "address_line": "中正路328號5樓",
+     "postal": "806",
+     "tel": "07-191-3396",
+     "contact_name": "郭建宏",
+     "contact_title": "財務主任",
+     "email": "chienhung.kuo@kaitai-precision.example",
+     "account_no": "2361875236761",
+     "account_name": "凱泰精密工業有限公司",
+     "payment_terms": "net30",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "135860x",
+     "vendor_name_zh": "凱泰精密工"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "822",
+    "bank_branch": [
+     "前鎮分行",
+     "前鎮"
+    ],
+    "account_no": "2361875236761",
+    "account_name": "凱泰精密工業有限公司",
+    "payment_terms": "net30",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "高雄市",
+    "district": "前鎮區",
+    "address_line": "中正路328號5樓",
+    "postal": "806",
+    "tel": "07-191-3396",
+    "fax": "07-191-3653",
+    "vendor_name_zh": "凱泰精密工業有限公司",
+    "ubn": "13586080",
+    "owner": "劉志宏",
+    "org_type": "limited",
+    "established": "1996-07-21",
+    "capital": "116000000",
+    "vendor_name_en": "Kaitai Precision Industrial Co., Ltd.",
+    "contact_title": [
+     "財務主任",
+     "Finance Supervisor"
+    ],
+    "contact_mobile": "0964-661-705",
+    "contact_name": [
+     "郭建宏",
+     "Kuo Chien-hung"
+    ],
+    "email": "chienhung.kuo@kaitai-precision.example"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "822",
+     "bank_branch": "前鎮分行",
+     "account_no": "2361875236761",
+     "account_name": "凱泰精密工業有限公司",
+     "payment_terms": "net30",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "高雄市",
+     "district": "前鎮區",
+     "address_line": "中正路328號5樓",
+     "postal": "806",
+     "tel": "07-191-3396",
+     "fax": "07-191-3653",
+     "vendor_name_zh": "凱泰精密工業有限公司",
+     "ubn": "13586080",
+     "owner": "劉志宏",
+     "org_type": "limited",
+     "established": "1996-07-21",
+     "capital": "116000000",
+     "vendor_name_en": "Kaitai Precision Industrial Co., Ltd.",
+     "contact_title": "財務主任",
+     "contact_mobile": "0964-661-705",
+     "contact_name": "郭建宏",
+     "email": "chienhung.kuo@kaitai-precision.example"
+    },
+    "wrong": {
+     "account_no": "23618752367x",
+     "contact_mobile": "0964-6"
+    }
+   }
+  }
+ }
+}

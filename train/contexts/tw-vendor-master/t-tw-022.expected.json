@@ -1,0 +1,353 @@
+{
+ "persona": "tw-vendor-master/t-tw-022",
+ "context": "tw-vendor-master/t-tw-022.md",
+ "split": "train",
+ "variants": {
+  "tw-vendor-master/vendor-single": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "昇昌機電有限公司",
+    "vendor_name_en": "Shengchang Electromechanical Co., Ltd.",
+    "ubn": "46051322",
+    "owner": "江佩翰",
+    "established": "1984-09-02",
+    "capital": "849000000",
+    "org_type": "limited",
+    "postal": "235",
+    "county": "新北市",
+    "district": "中和區",
+    "address_line": "民生路295號4樓",
+    "tel": "02-7341-1942",
+    "fax": "",
+    "contact_name": [
+     "郭淑偉",
+     "Kuo Shu-wei"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "shuwei.kuo@shengchang-electromechanical.example",
+    "contact_mobile": "",
+    "bank_code": "012",
+    "bank_branch": [
+     "中和分行",
+     "中和"
+    ],
+    "account_no": "34605042274566",
+    "account_name": "昇昌機電有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-01-31"
+   },
+   "infeasible": [
+    "fax",
+    "contact_mobile"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "昇昌機電有限公司",
+     "vendor_name_en": "Shengchang Electromechanical Co., Ltd.",
+     "ubn": "46051322",
+     "owner": "江佩翰",
+     "established": "1984-09-02",
+     "capital": "849000000",
+     "org_type": "limited",
+     "postal": "235",
+     "county": "新北市",
+     "district": "中和區",
+     "address_line": "民生路295號4樓",
+     "tel": "02-7341-1942",
+     "contact_name": "郭淑偉",
+     "contact_title": "總經理特助",
+     "email": "shuwei.kuo@shengchang-electromechanical.example",
+     "bank_code": "012",
+     "bank_branch": "中和分行",
+     "account_no": "34605042274566",
+     "account_name": "昇昌機電有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-01-31"
+    },
+    "wrong": {
+     "ubn": "460513x",
+     "contact_title": "總經"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-tabs": {
+   "submit": false,
+   "fields": {
+    "ubn": "46051322",
+    "vendor_name_zh": "昇昌機電有限公司",
+    "vendor_name_en": "Shengchang Electromechanical Co., Ltd.",
+    "org_type": "limited",
+    "established": "1984-09-02",
+    "owner": "江佩翰",
+    "county": "新北市",
+    "district": "中和區",
+    "address_line": "民生路295號4樓",
+    "postal": "235",
+    "tel": "02-7341-1942",
+    "fax": "",
+    "contact_name": [
+     "郭淑偉",
+     "Kuo Shu-wei"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "",
+    "email": "shuwei.kuo@shengchang-electromechanical.example",
+    "bank_code": "012",
+    "bank_branch": [
+     "中和分行",
+     "中和"
+    ],
+    "account_no": "34605042274566",
+    "account_name": "昇昌機電有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui3",
+    "currency": "TWD",
+    "iso9001": true,
+    "iso_expiry": "2028-01-31",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "fax",
+    "contact_mobile"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "46051322",
+     "vendor_name_zh": "昇昌機電有限公司",
+     "vendor_name_en": "Shengchang Electromechanical Co., Ltd.",
+     "org_type": "limited",
+     "established": "1984-09-02",
+     "owner": "江佩翰",
+     "county": "新北市",
+     "district": "中和區",
+     "address_line": "民生路295號4樓",
+     "postal": "235",
+     "tel": "02-7341-1942",
+     "contact_name": "郭淑偉",
+     "contact_title": "總經理特助",
+     "email": "shuwei.kuo@shengchang-electromechanical.example",
+     "bank_code": "012",
+     "bank_branch": "中和分行",
+     "account_no": "34605042274566",
+     "account_name": "昇昌機電有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui3",
+     "currency": "TWD",
+     "iso9001": true,
+     "iso_expiry": "2028-01-31"
+    },
+    "wrong": {
+     "ubn": "460513x",
+     "vendor_name_zh": "昇昌機電"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-wizard": {
+   "submit": true,
+   "fields": {
+    "ubn": "46051322",
+    "vendor_name_zh": "昇昌機電有限公司",
+    "owner": "江佩翰",
+    "established": "1984-09-02",
+    "org_type": "limited",
+    "capital": "849000000",
+    "county": "新北市",
+    "district": "中和區",
+    "address_line": "民生路295號4樓",
+    "postal": "235",
+    "tel": "02-7341-1942",
+    "contact_name": [
+     "郭淑偉",
+     "Kuo Shu-wei"
+    ],
+    "email": "shuwei.kuo@shengchang-electromechanical.example",
+    "bank_code": "012",
+    "account_no": "34605042274566",
+    "account_name": "昇昌機電有限公司",
+    "payment_terms": "net60",
+    "currency": "TWD",
+    "invoice_type": "egui3"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "ubn": "46051322",
+     "vendor_name_zh": "昇昌機電有限公司",
+     "owner": "江佩翰",
+     "established": "1984-09-02",
+     "org_type": "limited",
+     "capital": "849000000",
+     "county": "新北市",
+     "district": "中和區",
+     "address_line": "民生路295號4樓",
+     "postal": "235",
+     "tel": "02-7341-1942",
+     "contact_name": "郭淑偉",
+     "email": "shuwei.kuo@shengchang-electromechanical.example",
+     "bank_code": "012",
+     "account_no": "34605042274566",
+     "account_name": "昇昌機電有限公司",
+     "payment_terms": "net60",
+     "currency": "TWD",
+     "invoice_type": "egui3"
+    },
+    "wrong": {
+     "ubn": "460513x",
+     "address_line": "民生路2"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-foreign": {
+   "submit": true,
+   "fields": {
+    "vendor_name_zh": "昇昌機電有限公司",
+    "vendor_name_en": "Shengchang Electromechanical Co., Ltd.",
+    "foreign": false,
+    "org_type": "limited",
+    "ubn": "46051322",
+    "owner": "江佩翰",
+    "county": "新北市",
+    "district": "中和區",
+    "address_line": "民生路295號4樓",
+    "postal": "235",
+    "foreign_address": "",
+    "swift": "",
+    "tel": "02-7341-1942",
+    "contact_name": [
+     "郭淑偉",
+     "Kuo Shu-wei"
+    ],
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "email": "shuwei.kuo@shengchang-electromechanical.example",
+    "account_no": "34605042274566",
+    "account_name": "昇昌機電有限公司",
+    "payment_terms": "net60",
+    "invoice_type": "egui3",
+    "currency": "TWD"
+   },
+   "infeasible": [],
+   "hidden": [
+    "foreign_address",
+    "swift"
+   ],
+   "prefill": {
+    "right": {
+     "vendor_name_zh": "昇昌機電有限公司",
+     "vendor_name_en": "Shengchang Electromechanical Co., Ltd.",
+     "foreign": false,
+     "org_type": "limited",
+     "ubn": "46051322",
+     "owner": "江佩翰",
+     "county": "新北市",
+     "district": "中和區",
+     "address_line": "民生路295號4樓",
+     "postal": "235",
+     "tel": "02-7341-1942",
+     "contact_name": "郭淑偉",
+     "contact_title": "總經理特助",
+     "email": "shuwei.kuo@shengchang-electromechanical.example",
+     "account_no": "34605042274566",
+     "account_name": "昇昌機電有限公司",
+     "payment_terms": "net60",
+     "invoice_type": "egui3",
+     "currency": "TWD"
+    },
+    "wrong": {
+     "ubn": "460513x",
+     "county": "臺北市"
+    }
+   }
+  },
+  "tw-vendor-master/vendor-long-sticky": {
+   "submit": true,
+   "fields": {
+    "bank_code": "012",
+    "bank_branch": [
+     "中和分行",
+     "中和"
+    ],
+    "account_no": "34605042274566",
+    "account_name": "昇昌機電有限公司",
+    "payment_terms": "net60",
+    "currency": "TWD",
+    "invoice_type": "egui3",
+    "county": "新北市",
+    "district": "中和區",
+    "address_line": "民生路295號4樓",
+    "postal": "235",
+    "tel": "02-7341-1942",
+    "fax": "",
+    "vendor_name_zh": "昇昌機電有限公司",
+    "ubn": "46051322",
+    "owner": "江佩翰",
+    "org_type": "limited",
+    "established": "1984-09-02",
+    "capital": "849000000",
+    "vendor_name_en": "Shengchang Electromechanical Co., Ltd.",
+    "contact_title": [
+     "總經理特助",
+     "Assistant to the General Manager"
+    ],
+    "contact_mobile": "",
+    "contact_name": [
+     "郭淑偉",
+     "Kuo Shu-wei"
+    ],
+    "email": "shuwei.kuo@shengchang-electromechanical.example"
+   },
+   "infeasible": [
+    "fax",
+    "contact_mobile"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_code": "012",
+     "bank_branch": "中和分行",
+     "account_no": "34605042274566",
+     "account_name": "昇昌機電有限公司",
+     "payment_terms": "net60",
+     "currency": "TWD",
+     "invoice_type": "egui3",
+     "county": "新北市",
+     "district": "中和區",
+     "address_line": "民生路295號4樓",
+     "postal": "235",
+     "tel": "02-7341-1942",
+     "vendor_name_zh": "昇昌機電有限公司",
+     "ubn": "46051322",
+     "owner": "江佩翰",
+     "org_type": "limited",
+     "established": "1984-09-02",
+     "capital": "849000000",
+     "vendor_name_en": "Shengchang Electromechanical Co., Ltd.",
+     "contact_title": "總經理特助",
+     "contact_name": "郭淑偉",
+     "email": "shuwei.kuo@shengchang-electromechanical.example"
+    },
+    "wrong": {
+     "account_no": "346050422745x",
+     "org_type": "corp_shares"
+    }
+   }
+  }
+ }
+}

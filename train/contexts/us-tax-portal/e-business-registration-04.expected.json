@@ -1,0 +1,52 @@
+{
+ "persona": "us-tax-portal/e-business-registration-04",
+ "context": "us-tax-portal/e-business-registration-04.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/business-registration": {
+   "submit": true,
+   "fields": {
+    "legal_name": "Marlowe Design Foundation",
+    "fein": "14-8042960",
+    "business_type": "nonprofit",
+    "established": "2012-06-22",
+    "street1": "426 Quail Hollow Ave",
+    "street2": "Suite 491",
+    "city": "Newark",
+    "state": "DE",
+    "zip": "19794",
+    "first_name": "Grace",
+    "last_name": "Yilmaz",
+    "position": "Office Manager",
+    "email": "gyilmaz@marlowe.example",
+    "day_phone": "(302) 555-0126",
+    "portal_pin": "8091888"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "legal_name": "Marlowe Design Foundation",
+     "fein": "14-8042960",
+     "business_type": "nonprofit",
+     "established": "2012-06-22",
+     "street1": "426 Quail Hollow Ave",
+     "street2": "Suite 491",
+     "city": "Newark",
+     "state": "DE",
+     "zip": "19794",
+     "first_name": "Grace",
+     "last_name": "Yilmaz",
+     "position": "Office Manager",
+     "email": "gyilmaz@marlowe.example",
+     "day_phone": "(302) 555-0126",
+     "portal_pin": "8091888"
+    },
+    "wrong": {
+     "fein": "14-80429x",
+     "street2": "Suit"
+    }
+   }
+  }
+ }
+}

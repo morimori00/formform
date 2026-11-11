@@ -1,0 +1,180 @@
+{
+ "persona": "vendor-onboarding/t-intl-006",
+ "context": "vendor-onboarding/t-intl-006.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Greyfriar Cleanroom Supplies Inc.",
+    "tax_id": "00-1994686",
+    "company_address": "4190 Willow Bend Way, Suite 656, Plano, TX 75024",
+    "established": "2005-05-17",
+    "business_type": "corporation",
+    "services": "Cleanroom garments, wipers and consumables",
+    "service_area": "europe",
+    "gross_sales": "51300000",
+    "contact_name": [
+     "Mina Lindqvist",
+     "Ms. Mina Lindqvist"
+    ],
+    "contact_title": "Account Manager",
+    "phone_day": "(972) 555-0145",
+    "phone_evening": "",
+    "email": "mina.lindqvist@greyfriar.example",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "US-LIC-3144390",
+    "bank_name": "Prairie Union Bank",
+    "beneficiary": "Greyfriar Cleanroom Supplies Inc.",
+    "account_number": "493-754758-9",
+    "swift": "PUBXUS2SXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Greyfriar Cleanroom Supplies Inc.",
+     "tax_id": "00-1994686",
+     "company_address": "4190 Willow Bend Way, Suite 656, Plano, TX 75024",
+     "established": "2005-05-17",
+     "business_type": "corporation",
+     "services": "Cleanroom garments, wipers and consumables",
+     "service_area": "europe",
+     "gross_sales": "51300000",
+     "contact_name": "Mina Lindqvist",
+     "contact_title": "Account Manager",
+     "phone_day": "(972) 555-0145",
+     "email": "mina.lindqvist@greyfriar.example",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "US-LIC-3144390",
+     "bank_name": "Prairie Union Bank",
+     "beneficiary": "Greyfriar Cleanroom Supplies Inc.",
+     "account_number": "493-754758-9",
+     "swift": "PUBXUS2SXXX"
+    },
+    "wrong": {
+     "email": "mina.lindqvist at greyfriar.example",
+     "bank_name": "Prairie U"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Greyfriar Cleanroom Supplies Inc.",
+    "tax_id": "00-1994686",
+    "established": "2005-05-17",
+    "service_area": "europe",
+    "business_type": "corporation",
+    "contact_name": [
+     "Mina Lindqvist",
+     "Ms. Mina Lindqvist"
+    ],
+    "email": "mina.lindqvist@greyfriar.example",
+    "phone_day": "(972) 555-0145",
+    "phone_evening": "",
+    "company_address": "4190 Willow Bend Way, Suite 656, Plano, TX 75024",
+    "licensing": "licensed",
+    "license_number": "US-LIC-3144390",
+    "bank_name": "Prairie Union Bank",
+    "beneficiary": "Greyfriar Cleanroom Supplies Inc.",
+    "account_number": "493-754758-9",
+    "swift": "PUBXUS2SXXX",
+    "insurance": "insured",
+    "gross_sales": "51300000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Greyfriar Cleanroom Supplies Inc.",
+     "tax_id": "00-1994686",
+     "established": "2005-05-17",
+     "service_area": "europe",
+     "business_type": "corporation",
+     "contact_name": "Mina Lindqvist",
+     "email": "mina.lindqvist@greyfriar.example",
+     "phone_day": "(972) 555-0145",
+     "company_address": "4190 Willow Bend Way, Suite 656, Plano, TX 75024",
+     "licensing": "licensed",
+     "license_number": "US-LIC-3144390",
+     "bank_name": "Prairie Union Bank",
+     "beneficiary": "Greyfriar Cleanroom Supplies Inc.",
+     "account_number": "493-754758-9",
+     "swift": "PUBXUS2SXXX",
+     "insurance": "insured",
+     "gross_sales": "51300000"
+    },
+    "wrong": {
+     "email": "mina.lindqvist at greyfriar.example",
+     "tax_id": "00-19"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Prairie Union Bank",
+    "beneficiary": "Greyfriar Cleanroom Supplies Inc.",
+    "account_number": "493-754758-9",
+    "swift": "PUBXUS2SXXX",
+    "org_name": "Greyfriar Cleanroom Supplies Inc.",
+    "tax_id": "00-1994686",
+    "business_type": "corporation",
+    "established": "2005-05-17",
+    "company_address": "4190 Willow Bend Way, Suite 656, Plano, TX 75024",
+    "service_area": "europe",
+    "contact_name": [
+     "Mina Lindqvist",
+     "Ms. Mina Lindqvist"
+    ],
+    "email": "mina.lindqvist@greyfriar.example",
+    "phone_day": "(972) 555-0145",
+    "contact_title": "Account Manager",
+    "phone_evening": "",
+    "gross_sales": "51300000",
+    "services": "Cleanroom garments, wipers and consumables",
+    "insurance": "insured",
+    "licensing": "licensed",
+    "license_number": "US-LIC-3144390"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "bank_name": "Prairie Union Bank",
+     "beneficiary": "Greyfriar Cleanroom Supplies Inc.",
+     "account_number": "493-754758-9",
+     "swift": "PUBXUS2SXXX",
+     "org_name": "Greyfriar Cleanroom Supplies Inc.",
+     "tax_id": "00-1994686",
+     "business_type": "corporation",
+     "established": "2005-05-17",
+     "company_address": "4190 Willow Bend Way, Suite 656, Plano, TX 75024",
+     "service_area": "europe",
+     "contact_name": "Mina Lindqvist",
+     "email": "mina.lindqvist@greyfriar.example",
+     "phone_day": "(972) 555-0145",
+     "contact_title": "Account Manager",
+     "gross_sales": "51300000",
+     "services": "Cleanroom garments, wipers and consumables",
+     "insurance": "insured",
+     "licensing": "licensed",
+     "license_number": "US-LIC-3144390"
+    },
+    "wrong": {
+     "email": "mina.lindqvist at greyfriar.example",
+     "bank_name": "Prairie U"
+    }
+   }
+  }
+ }
+}

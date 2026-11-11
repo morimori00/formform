@@ -1,0 +1,242 @@
+{
+ "persona": "emr-registration/t-patient-035",
+ "context": "emr-registration/t-patient-035.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Tzu-Hua",
+    "middle_name": "",
+    "last_name": "Chiu",
+    "dob": "1966-03-05",
+    "sex": "male",
+    "marital": "divorced",
+    "language": "hakka",
+    "street": "10F, No. 259, Sec. 5, Ren'ai Rd., Zuoying Dist.",
+    "city": "Kaohsiung City",
+    "postal": "813",
+    "country": "TW",
+    "phone_home": "",
+    "phone_cell": "0915-847-120",
+    "email": "tzuhua.chiu@inbox.example",
+    "occupation": "Nurse",
+    "employer": "Elmstead Trading Co.",
+    "ec_name": "Hsin-Han Chou",
+    "ec_phone": "0925-146-962",
+    "ec_relationship": "sibling",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4325-2081",
+    "group_number": "G-4464",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-04-01"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Tzu-Hua",
+     "last_name": "Chiu",
+     "dob": "1966-03-05",
+     "sex": "male",
+     "marital": "divorced",
+     "language": "hakka",
+     "street": "10F, No. 259, Sec. 5, Ren'ai Rd., Zuoying Dist.",
+     "city": "Kaohsiung City",
+     "postal": "813",
+     "country": "TW",
+     "phone_cell": "0915-847-120",
+     "email": "tzuhua.chiu@inbox.example",
+     "occupation": "Nurse",
+     "employer": "Elmstead Trading Co.",
+     "ec_name": "Hsin-Han Chou",
+     "ec_phone": "0925-146-962",
+     "ec_relationship": "sibling",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4325-2081",
+     "group_number": "G-4464",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-04-01"
+    },
+    "wrong": {
+     "email": "tzuhua.chiu at inbox.example",
+     "ec_phone": "0925-1"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Chiu",
+    "first_name": "Tzu-Hua",
+    "middle_name": "",
+    "dob": "1966-03-05",
+    "sex": "male",
+    "marital": "divorced",
+    "national_id": "",
+    "street": "10F, No. 259, Sec. 5, Ren'ai Rd., Zuoying Dist.",
+    "postal": "813",
+    "city": "Kaohsiung City",
+    "country": "TW",
+    "phone_cell": "0915-847-120",
+    "phone_home": "",
+    "email": "tzuhua.chiu@inbox.example",
+    "ec_name": "Hsin-Han Chou",
+    "ec_relationship": "sibling",
+    "ec_phone": "0925-146-962",
+    "occupation": "Nurse",
+    "employer": "Elmstead Trading Co.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4325-2081",
+    "group_number": "G-4464",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-04-01",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "national_id"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Chiu",
+     "first_name": "Tzu-Hua",
+     "dob": "1966-03-05",
+     "sex": "male",
+     "marital": "divorced",
+     "street": "10F, No. 259, Sec. 5, Ren'ai Rd., Zuoying Dist.",
+     "postal": "813",
+     "city": "Kaohsiung City",
+     "country": "TW",
+     "phone_cell": "0915-847-120",
+     "email": "tzuhua.chiu@inbox.example",
+     "ec_name": "Hsin-Han Chou",
+     "ec_relationship": "sibling",
+     "ec_phone": "0925-146-962",
+     "occupation": "Nurse",
+     "employer": "Elmstead Trading Co.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4325-2081",
+     "group_number": "G-4464",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-04-01"
+    },
+    "wrong": {
+     "email": "tzuhua.chiu at inbox.example",
+     "dob": "1965-03-05"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Tzu-Hua",
+    "last_name": "Chiu",
+    "dob": "1966-03-05",
+    "sex": "male",
+    "language": "hakka",
+    "street": "10F, No. 259, Sec. 5, Ren'ai Rd., Zuoying Dist.",
+    "city": "Kaohsiung City",
+    "postal": "813",
+    "country": "TW",
+    "phone_cell": "0915-847-120",
+    "phone_home": "",
+    "ec_name": "Hsin-Han Chou",
+    "ec_phone": "0925-146-962",
+    "ec_relationship": "sibling",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4325-2081",
+    "group_number": "G-4464",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-04-01"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Tzu-Hua",
+     "last_name": "Chiu",
+     "dob": "1966-03-05",
+     "sex": "male",
+     "language": "hakka",
+     "street": "10F, No. 259, Sec. 5, Ren'ai Rd., Zuoying Dist.",
+     "city": "Kaohsiung City",
+     "postal": "813",
+     "country": "TW",
+     "phone_cell": "0915-847-120",
+     "ec_name": "Hsin-Han Chou",
+     "ec_phone": "0925-146-962",
+     "ec_relationship": "sibling",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4325-2081",
+     "group_number": "G-4464",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-04-01"
+    },
+    "wrong": {
+     "ins_effective": "2022-04-01"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Chiu",
+    "first_name": "Tzu-Hua",
+    "dob": "1966-03-05",
+    "sex": "male",
+    "phone_cell": "0915-847-120",
+    "country": "TW",
+    "city": "Kaohsiung City",
+    "postal": "813",
+    "street": "10F, No. 259, Sec. 5, Ren'ai Rd., Zuoying Dist.",
+    "ins_provider": "fmh",
+    "policy_number": "FMH-4325-2081",
+    "subscriber_rel": "self",
+    "ins_effective": "2023-04-01",
+    "email": "tzuhua.chiu@inbox.example",
+    "phone_home": "",
+    "marital": "divorced",
+    "language": "hakka",
+    "occupation": "Nurse",
+    "employer": "Elmstead Trading Co.",
+    "ec_name": "Hsin-Han Chou",
+    "ec_phone": "0925-146-962",
+    "ec_relationship": "sibling",
+    "group_number": "G-4464"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Chiu",
+     "first_name": "Tzu-Hua",
+     "dob": "1966-03-05",
+     "sex": "male",
+     "phone_cell": "0915-847-120",
+     "country": "TW",
+     "city": "Kaohsiung City",
+     "postal": "813",
+     "street": "10F, No. 259, Sec. 5, Ren'ai Rd., Zuoying Dist.",
+     "ins_provider": "fmh",
+     "policy_number": "FMH-4325-2081",
+     "subscriber_rel": "self",
+     "ins_effective": "2023-04-01",
+     "email": "tzuhua.chiu@inbox.example",
+     "marital": "divorced",
+     "language": "hakka",
+     "occupation": "Nurse",
+     "employer": "Elmstead Trading Co.",
+     "ec_name": "Hsin-Han Chou",
+     "ec_phone": "0925-146-962",
+     "ec_relationship": "sibling",
+     "group_number": "G-4464"
+    },
+    "wrong": {
+     "email": "tzuhua.chiu at inbox.example",
+     "postal": "8"
+    }
+   }
+  }
+ }
+}

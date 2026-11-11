@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-031",
+ "context": "itsm-request/t-emp-031.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": false,
+   "fields": {
+    "requested_for": "u_g46785",
+    "laptop_model": "eng16",
+    "location": "tainan",
+    "needed_by": "2026-11-25",
+    "extra_monitor": true,
+    "cost_center": "",
+    "justification": "Transferred to Information Security; previous device stays with the old team."
+   },
+   "infeasible": [
+    "cost_center"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g46785",
+     "laptop_model": "eng16",
+     "location": "tainan",
+     "needed_by": "2026-11-25",
+     "extra_monitor": true,
+     "justification": "Transferred to Information Security; previous device stays with the old team."
+    },
+    "wrong": {
+     "needed_by": "2025-11-25"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": false,
+   "fields": {
+    "laptop_model": "eng16",
+    "extra_monitor": true,
+    "location": "tainan",
+    "needed_by": "2026-11-25",
+    "requested_for": "u_g46785",
+    "cost_center": "",
+    "justification": "Transferred to Information Security; previous device stays with the old team.",
+    "hp_website": ""
+   },
+   "infeasible": [
+    "cost_center"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "eng16",
+     "extra_monitor": true,
+     "location": "tainan",
+     "needed_by": "2026-11-25",
+     "requested_for": "u_g46785",
+     "justification": "Transferred to Information Security; previous device stays with the old team."
+    },
+    "wrong": {
+     "needed_by": "2025-11-25"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g46785",
+    "contact_pref": "walk_in",
+    "inc_category": "hardware",
+    "inc_subcategory": "monitor",
+    "ci": "KST-NB-35497",
+    "impact": "2",
+    "urgency": "3",
+    "assign_group": "endpoint",
+    "short_desc": "External monitor flickers through dock 629",
+    "inc_desc": "The 27-inch monitor flickers and goes black for a second when connected through dock model 629. Direct HDMI is fine."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g46785",
+     "contact_pref": "walk_in",
+     "inc_category": "hardware",
+     "inc_subcategory": "monitor",
+     "ci": "KST-NB-35497",
+     "impact": "2",
+     "urgency": "3",
+     "assign_group": "endpoint",
+     "short_desc": "External monitor flickers through dock 629",
+     "inc_desc": "The 27-inch monitor flickers and goes black for a second when connected through dock model 629. Direct HDMI is fine."
+    },
+    "wrong": {
+     "inc_category": "inquiry"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "External monitor flickers through dock 629",
+    "inc_desc": "The 27-inch monitor flickers and goes black for a second when connected through dock model 629. Direct HDMI is fine.",
+    "caller": "u_g46785",
+    "ci": "KST-NB-35497",
+    "contact_pref": "walk_in",
+    "inc_category": "hardware",
+    "inc_subcategory": "monitor",
+    "impact": "2",
+    "urgency": "3",
+    "assign_group": "endpoint"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "External monitor flickers through dock 629",
+     "inc_desc": "The 27-inch monitor flickers and goes black for a second when connected through dock model 629. Direct HDMI is fine.",
+     "caller": "u_g46785",
+     "ci": "KST-NB-35497",
+     "contact_pref": "walk_in",
+     "inc_category": "hardware",
+     "inc_subcategory": "monitor",
+     "impact": "2",
+     "urgency": "3",
+     "assign_group": "endpoint"
+    },
+    "wrong": {
+     "short_desc": "External monitor flic"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": false,
+   "fields": {
+    "requested_for": "u_g46785",
+    "location": "tainan",
+    "cost_center": "",
+    "laptop_model": "eng16",
+    "needed_by": "2026-11-25",
+    "extra_monitor": true,
+    "justification": "Transferred to Information Security; previous device stays with the old team."
+   },
+   "infeasible": [
+    "cost_center"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g46785",
+     "location": "tainan",
+     "laptop_model": "eng16",
+     "needed_by": "2026-11-25",
+     "extra_monitor": true,
+     "justification": "Transferred to Information Security; previous device stays with the old team."
+    },
+    "wrong": {
+     "needed_by": "2025-11-25"
+    }
+   }
+  }
+ }
+}

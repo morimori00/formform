@@ -1,0 +1,49 @@
+{
+ "persona": "us-tax-portal/e-delaware-register-user-04",
+ "context": "us-tax-portal/e-delaware-register-user-04.md",
+ "split": "eval",
+ "variants": {
+  "us-tax-portal/delaware-register-user": {
+   "submit": true,
+   "fields": {
+    "accept_terms": true,
+    "first_name": "Omar",
+    "middle_initial": "",
+    "last_name": "Banerjee",
+    "position": "Chief Financial Officer",
+    "email": "obanerjee@sandhurst.example",
+    "email_confirm": "obanerjee@sandhurst.example",
+    "country_code": "1",
+    "day_phone": "(856) 555-0196",
+    "mobile_country_code": "1",
+    "mobile_phone": "(856) 555-0137",
+    "user_id": "sandhurst.obanerjee",
+    "esign": "Omar Banerjee",
+    "certify": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "accept_terms": true,
+     "first_name": "Omar",
+     "last_name": "Banerjee",
+     "position": "Chief Financial Officer",
+     "email": "obanerjee@sandhurst.example",
+     "email_confirm": "obanerjee@sandhurst.example",
+     "country_code": "1",
+     "day_phone": "(856) 555-0196",
+     "mobile_country_code": "1",
+     "mobile_phone": "(856) 555-0137",
+     "user_id": "sandhurst.obanerjee",
+     "esign": "Omar Banerjee",
+     "certify": true
+    },
+    "wrong": {
+     "email": "obanerjee at sandhurst.example",
+     "esign": "Omar B"
+    }
+   }
+  }
+ }
+}

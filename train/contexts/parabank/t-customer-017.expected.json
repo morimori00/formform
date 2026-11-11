@@ -1,0 +1,185 @@
+{
+ "persona": "parabank/t-customer-017",
+ "context": "parabank/t-customer-017.md",
+ "split": "train",
+ "variants": {
+  "parabank/register": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ingrid",
+    "last_name": "Sharma",
+    "street": "2320 Copper Ridge Dr",
+    "city": "Boston",
+    "state": [
+     "MA",
+     "Massachusetts"
+    ],
+    "zip": "02168",
+    "phone": "(617) 555-0118",
+    "ssn": "997-69-4666",
+    "username": "ingrid.sharma25",
+    "password": "River-8178",
+    "password_confirm": "River-8178"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ingrid",
+     "last_name": "Sharma",
+     "street": "2320 Copper Ridge Dr",
+     "city": "Boston",
+     "state": "MA",
+     "zip": "02168",
+     "phone": "(617) 555-0118",
+     "ssn": "997-69-4666",
+     "username": "ingrid.sharma25",
+     "password": "River-8178",
+     "password_confirm": "River-8178"
+    },
+    "wrong": {
+     "state": "M"
+    }
+   }
+  },
+  "parabank/bill-pay": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Clearwater Insurance Group",
+    "payee_street": "6202 Larkspur St",
+    "payee_city": "Tampa",
+    "payee_state": [
+     "FL",
+     "Florida"
+    ],
+    "payee_zip": "33680",
+    "payee_phone": "(813) 555-0144",
+    "payee_account": "30815-3419",
+    "payee_account_verify": "30815-3419",
+    "amount": "620.06",
+    "from_account": "17452"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Clearwater Insurance Group",
+     "payee_street": "6202 Larkspur St",
+     "payee_city": "Tampa",
+     "payee_state": "FL",
+     "payee_zip": "33680",
+     "payee_phone": "(813) 555-0144",
+     "payee_account": "30815-3419",
+     "payee_account_verify": "30815-3419",
+     "amount": "620.06",
+     "from_account": "17452"
+    },
+    "wrong": {
+     "payee_account_verify": "30815-34x",
+     "payee_state": "F"
+    }
+   }
+  },
+  "parabank/loan-and-open-account": {
+   "submit": true,
+   "fields": {
+    "loan_amount": "25000",
+    "down_payment": "1250",
+    "loan_from_account": "17452",
+    "new_account_type": "SAVINGS",
+    "new_account_from": "16788"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "loan_amount": "25000",
+     "down_payment": "1250",
+     "loan_from_account": "17452",
+     "new_account_type": "SAVINGS",
+     "new_account_from": "16788"
+    },
+    "wrong": {
+     "new_account_type": "CHECKING"
+    }
+   }
+  },
+  "parabank/bill-pay-two-step": {
+   "submit": true,
+   "fields": {
+    "payee_name": "Clearwater Insurance Group",
+    "payee_street": "6202 Larkspur St",
+    "payee_city": "Tampa",
+    "payee_state": [
+     "FL",
+     "Florida"
+    ],
+    "payee_zip": "33680",
+    "payee_phone": "(813) 555-0144",
+    "from_account": "17452",
+    "amount": "620.06",
+    "payee_account": "30815-3419",
+    "payee_account_verify": "30815-3419"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "payee_name": "Clearwater Insurance Group",
+     "payee_street": "6202 Larkspur St",
+     "payee_city": "Tampa",
+     "payee_state": "FL",
+     "payee_zip": "33680",
+     "payee_phone": "(813) 555-0144",
+     "from_account": "17452",
+     "amount": "620.06",
+     "payee_account": "30815-3419",
+     "payee_account_verify": "30815-3419"
+    },
+    "wrong": {
+     "payee_account_verify": "30815-34x",
+     "payee_phone": "(813) 5"
+    }
+   }
+  },
+  "parabank/register-wizard": {
+   "submit": true,
+   "fields": {
+    "first_name": "Ingrid",
+    "last_name": "Sharma",
+    "phone": "(617) 555-0118",
+    "ssn": "997-69-4666",
+    "street": "2320 Copper Ridge Dr",
+    "city": "Boston",
+    "state": [
+     "MA",
+     "Massachusetts"
+    ],
+    "zip": "02168",
+    "username": "ingrid.sharma25",
+    "password": "River-8178",
+    "password_confirm": "River-8178"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Ingrid",
+     "last_name": "Sharma",
+     "phone": "(617) 555-0118",
+     "ssn": "997-69-4666",
+     "street": "2320 Copper Ridge Dr",
+     "city": "Boston",
+     "state": "MA",
+     "zip": "02168",
+     "username": "ingrid.sharma25",
+     "password": "River-8178",
+     "password_confirm": "River-8178"
+    },
+    "wrong": {
+     "state": "AL"
+    }
+   }
+  }
+ }
+}

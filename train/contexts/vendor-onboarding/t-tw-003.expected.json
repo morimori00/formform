@@ -1,0 +1,73 @@
+{
+ "persona": "vendor-onboarding/t-tw-003",
+ "context": "vendor-onboarding/t-tw-003.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-tw-supplier": {
+   "submit": true,
+   "fields": {
+    "org_name": [
+     "Sunmai Gases Co., Ltd.",
+     "晟邁氣體股份有限公司"
+    ],
+    "tax_id": "40564021",
+    "company_address": [
+     "115 台北市南港區工業一路245號12樓",
+     "12F., No. 245, Gongye 1st Rd., Nangang Dist., Taipei City 115"
+    ],
+    "established": "1978-12-29",
+    "business_type": "corporation",
+    "gross_sales": "691000000",
+    "contact_name": [
+     "謝志宏",
+     "Hsieh Chih-hung"
+    ],
+    "contact_title": [
+     "專案經理",
+     "Project Manager"
+    ],
+    "email": "chihhung.hsieh@sunmai-gases.example",
+    "phone_day": "02-4656-9226",
+    "phone_evening": "",
+    "bank_name": [
+     "臺灣銀行",
+     "Bank of Taiwan"
+    ],
+    "beneficiary": [
+     "晟邁氣體股份有限公司",
+     "Sunmai Gases Co., Ltd."
+    ],
+    "account_number": "27629212057727",
+    "insurance": "insured",
+    "licensing": ""
+   },
+   "infeasible": [
+    "phone_evening",
+    "licensing"
+   ],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "org_name": "Sunmai Gases Co., Ltd.",
+     "tax_id": "40564021",
+     "company_address": "115 台北市南港區工業一路245號12樓",
+     "established": "1978-12-29",
+     "business_type": "corporation",
+     "gross_sales": "691000000",
+     "contact_name": "謝志宏",
+     "contact_title": "專案經理",
+     "email": "chihhung.hsieh@sunmai-gases.example",
+     "phone_day": "02-4656-9226",
+     "bank_name": "臺灣銀行",
+     "beneficiary": "晟邁氣體股份有限公司",
+     "account_number": "27629212057727",
+     "insurance": "insured"
+    },
+    "wrong": {
+     "tax_id": "405640x",
+     "beneficiary": "晟邁氣體股"
+    }
+   }
+  }
+ }
+}

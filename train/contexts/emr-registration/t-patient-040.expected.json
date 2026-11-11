@@ -1,0 +1,251 @@
+{
+ "persona": "emr-registration/t-patient-040",
+ "context": "emr-registration/t-patient-040.md",
+ "split": "train",
+ "variants": {
+  "emr-registration/demographics-tabs": {
+   "submit": true,
+   "fields": {
+    "first_name": "Cheng-Hui",
+    "middle_name": "",
+    "last_name": "Hsieh",
+    "dob": "1975-09-22",
+    "sex": "female",
+    "marital": "separated",
+    "language": "hakka",
+    "street": "8F, No. 34, Wenhua Rd., Banqiao Dist.",
+    "city": "New Taipei City",
+    "postal": "220",
+    "country": "TW",
+    "phone_home": "03-4746-2478",
+    "phone_cell": "0958-933-044",
+    "email": "chenghui.hsieh@inbox.example",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Ya-Fen Yeh",
+    "ec_phone": "0932-485-862",
+    "ec_relationship": "sibling",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-1701-4467",
+    "group_number": "G-3073",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-03-03"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Cheng-Hui",
+     "last_name": "Hsieh",
+     "dob": "1975-09-22",
+     "sex": "female",
+     "marital": "separated",
+     "language": "hakka",
+     "street": "8F, No. 34, Wenhua Rd., Banqiao Dist.",
+     "city": "New Taipei City",
+     "postal": "220",
+     "country": "TW",
+     "phone_home": "03-4746-2478",
+     "phone_cell": "0958-933-044",
+     "email": "chenghui.hsieh@inbox.example",
+     "occupation": "Retired",
+     "ec_name": "Ya-Fen Yeh",
+     "ec_phone": "0932-485-862",
+     "ec_relationship": "sibling",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-1701-4467",
+     "group_number": "G-3073",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-03-03"
+    },
+    "wrong": {
+     "email": "chenghui.hsieh at inbox.example",
+     "marital": "single"
+    }
+   }
+  },
+  "emr-registration/long-scroll": {
+   "submit": true,
+   "fields": {
+    "last_name": "Hsieh",
+    "first_name": "Cheng-Hui",
+    "middle_name": "",
+    "dob": "1975-09-22",
+    "sex": "female",
+    "marital": "separated",
+    "national_id": "F133572596",
+    "street": "8F, No. 34, Wenhua Rd., Banqiao Dist.",
+    "postal": "220",
+    "city": "New Taipei City",
+    "country": "TW",
+    "phone_cell": "0958-933-044",
+    "phone_home": "03-4746-2478",
+    "email": "chenghui.hsieh@inbox.example",
+    "ec_name": "Ya-Fen Yeh",
+    "ec_relationship": "sibling",
+    "ec_phone": "0932-485-862",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-1701-4467",
+    "group_number": "G-3073",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-03-03",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Hsieh",
+     "first_name": "Cheng-Hui",
+     "dob": "1975-09-22",
+     "sex": "female",
+     "marital": "separated",
+     "national_id": "F133572596",
+     "street": "8F, No. 34, Wenhua Rd., Banqiao Dist.",
+     "postal": "220",
+     "city": "New Taipei City",
+     "country": "TW",
+     "phone_cell": "0958-933-044",
+     "phone_home": "03-4746-2478",
+     "email": "chenghui.hsieh@inbox.example",
+     "ec_name": "Ya-Fen Yeh",
+     "ec_relationship": "sibling",
+     "ec_phone": "0932-485-862",
+     "occupation": "Retired",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-1701-4467",
+     "group_number": "G-3073",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-03-03"
+    },
+    "wrong": {
+     "email": "chenghui.hsieh at inbox.example",
+     "phone_home": "03-474"
+    }
+   }
+  },
+  "emr-registration/two-step-insurance": {
+   "submit": true,
+   "fields": {
+    "first_name": "Cheng-Hui",
+    "last_name": "Hsieh",
+    "dob": "1975-09-22",
+    "sex": "female",
+    "language": "hakka",
+    "street": "8F, No. 34, Wenhua Rd., Banqiao Dist.",
+    "city": "New Taipei City",
+    "postal": "220",
+    "country": "TW",
+    "phone_cell": "0958-933-044",
+    "phone_home": "03-4746-2478",
+    "ec_name": "Ya-Fen Yeh",
+    "ec_phone": "0932-485-862",
+    "ec_relationship": "sibling",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-1701-4467",
+    "group_number": "G-3073",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-03-03"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "first_name": "Cheng-Hui",
+     "last_name": "Hsieh",
+     "dob": "1975-09-22",
+     "sex": "female",
+     "language": "hakka",
+     "street": "8F, No. 34, Wenhua Rd., Banqiao Dist.",
+     "city": "New Taipei City",
+     "postal": "220",
+     "country": "TW",
+     "phone_cell": "0958-933-044",
+     "phone_home": "03-4746-2478",
+     "ec_name": "Ya-Fen Yeh",
+     "ec_phone": "0932-485-862",
+     "ec_relationship": "sibling",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-1701-4467",
+     "group_number": "G-3073",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-03-03"
+    },
+    "wrong": {
+     "sex": "male"
+    }
+   }
+  },
+  "emr-registration/front-desk-sticky": {
+   "submit": true,
+   "fields": {
+    "last_name": "Hsieh",
+    "first_name": "Cheng-Hui",
+    "dob": "1975-09-22",
+    "sex": "female",
+    "phone_cell": "0958-933-044",
+    "country": "TW",
+    "city": "New Taipei City",
+    "postal": "220",
+    "street": "8F, No. 34, Wenhua Rd., Banqiao Dist.",
+    "ins_provider": "pcl",
+    "policy_number": "PCL-1701-4467",
+    "subscriber_rel": "self",
+    "ins_effective": "2026-03-03",
+    "email": "chenghui.hsieh@inbox.example",
+    "phone_home": "03-4746-2478",
+    "marital": "separated",
+    "language": "hakka",
+    "occupation": [
+     "Retired",
+     "Retiree"
+    ],
+    "employer": "",
+    "ec_name": "Ya-Fen Yeh",
+    "ec_phone": "0932-485-862",
+    "ec_relationship": "sibling",
+    "group_number": "G-3073"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "last_name": "Hsieh",
+     "first_name": "Cheng-Hui",
+     "dob": "1975-09-22",
+     "sex": "female",
+     "phone_cell": "0958-933-044",
+     "country": "TW",
+     "city": "New Taipei City",
+     "postal": "220",
+     "street": "8F, No. 34, Wenhua Rd., Banqiao Dist.",
+     "ins_provider": "pcl",
+     "policy_number": "PCL-1701-4467",
+     "subscriber_rel": "self",
+     "ins_effective": "2026-03-03",
+     "email": "chenghui.hsieh@inbox.example",
+     "phone_home": "03-4746-2478",
+     "marital": "separated",
+     "language": "hakka",
+     "occupation": "Retired",
+     "ec_name": "Ya-Fen Yeh",
+     "ec_phone": "0932-485-862",
+     "ec_relationship": "sibling",
+     "group_number": "G-3073"
+    },
+    "wrong": {
+     "email": "chenghui.hsieh at inbox.example",
+     "dob": "1974-09-22"
+    }
+   }
+  }
+ }
+}

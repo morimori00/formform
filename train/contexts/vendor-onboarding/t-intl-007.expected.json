@@ -1,0 +1,192 @@
+{
+ "persona": "vendor-onboarding/t-intl-007",
+ "context": "vendor-onboarding/t-intl-007.md",
+ "split": "train",
+ "variants": {
+  "vendor-onboarding/vendor-basic": {
+   "submit": true,
+   "fields": {
+    "org_name": "Kingsley Freight Co., Ltd.",
+    "tax_id": "0479345807540",
+    "company_address": "324 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "established": "2014-09-24",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "service_area": "apac",
+    "gross_sales": "21600000",
+    "contact_name": [
+     "Pavel Nguyen",
+     "Mr. Pavel Nguyen"
+    ],
+    "contact_title": "Controller",
+    "phone_day": "+66 2 222 5899",
+    "phone_evening": "",
+    "email": "pavel.nguyen@kingsley.example",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Chao Phraya Commerce Bank",
+    "beneficiary": "Kingsley Freight Co., Ltd.",
+    "account_number": "263-327461-7",
+    "swift": "CPCBTH2LXXX"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Kingsley Freight Co., Ltd.",
+     "tax_id": "0479345807540",
+     "company_address": "324 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "established": "2014-09-24",
+     "business_type": "private_limited",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "service_area": "apac",
+     "gross_sales": "21600000",
+     "contact_name": "Pavel Nguyen",
+     "contact_title": "Controller",
+     "phone_day": "+66 2 222 5899",
+     "email": "pavel.nguyen@kingsley.example",
+     "insurance": "not_insured",
+     "licensing": "not_licensed",
+     "bank_name": "Chao Phraya Commerce Bank",
+     "beneficiary": "Kingsley Freight Co., Ltd.",
+     "account_number": "263-327461-7",
+     "swift": "CPCBTH2LXXX"
+    },
+    "wrong": {
+     "email": "pavel.nguyen at kingsley.example",
+     "account_number": "263-32"
+    }
+   }
+  },
+  "vendor-onboarding/vendor-steps-bank": {
+   "submit": true,
+   "fields": {
+    "org_name": "Kingsley Freight Co., Ltd.",
+    "tax_id": "0479345807540",
+    "established": "2014-09-24",
+    "service_area": "apac",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "contact_name": [
+     "Pavel Nguyen",
+     "Mr. Pavel Nguyen"
+    ],
+    "email": "pavel.nguyen@kingsley.example",
+    "phone_day": "+66 2 222 5899",
+    "phone_evening": "",
+    "company_address": "324 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "licensing": "not_licensed",
+    "license_number": "",
+    "bank_name": "Chao Phraya Commerce Bank",
+    "beneficiary": "Kingsley Freight Co., Ltd.",
+    "account_number": "263-327461-7",
+    "swift": "CPCBTH2LXXX",
+    "insurance": "not_insured",
+    "gross_sales": "21600000"
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "org_name": "Kingsley Freight Co., Ltd.",
+     "tax_id": "0479345807540",
+     "established": "2014-09-24",
+     "service_area": "apac",
+     "business_type": "private_limited",
+     "contact_name": "Pavel Nguyen",
+     "email": "pavel.nguyen@kingsley.example",
+     "phone_day": "+66 2 222 5899",
+     "company_address": "324 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "licensing": "not_licensed",
+     "bank_name": "Chao Phraya Commerce Bank",
+     "beneficiary": "Kingsley Freight Co., Ltd.",
+     "account_number": "263-327461-7",
+     "swift": "CPCBTH2LXXX",
+     "insurance": "not_insured",
+     "gross_sales": "21600000"
+    },
+    "wrong": {
+     "email": "pavel.nguyen at kingsley.example",
+     "bank_name": "Chao Phraya "
+    }
+   }
+  },
+  "vendor-onboarding/vendor-sticky-long": {
+   "submit": true,
+   "fields": {
+    "bank_name": "Chao Phraya Commerce Bank",
+    "beneficiary": "Kingsley Freight Co., Ltd.",
+    "account_number": "263-327461-7",
+    "swift": "CPCBTH2LXXX",
+    "org_name": "Kingsley Freight Co., Ltd.",
+    "tax_id": "0479345807540",
+    "business_type": [
+     "private_limited",
+     "llc"
+    ],
+    "established": "2014-09-24",
+    "company_address": "324 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+    "service_area": "apac",
+    "contact_name": [
+     "Pavel Nguyen",
+     "Mr. Pavel Nguyen"
+    ],
+    "email": "pavel.nguyen@kingsley.example",
+    "phone_day": "+66 2 222 5899",
+    "contact_title": "Controller",
+    "phone_evening": "",
+    "gross_sales": "21600000",
+    "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+    "insurance": "not_insured",
+    "licensing": "not_licensed",
+    "license_number": ""
+   },
+   "infeasible": [
+    "phone_evening"
+   ],
+   "hidden": [
+    "license_number"
+   ],
+   "prefill": {
+    "right": {
+     "bank_name": "Chao Phraya Commerce Bank",
+     "beneficiary": "Kingsley Freight Co., Ltd.",
+     "account_number": "263-327461-7",
+     "swift": "CPCBTH2LXXX",
+     "org_name": "Kingsley Freight Co., Ltd.",
+     "tax_id": "0479345807540",
+     "business_type": "private_limited",
+     "established": "2014-09-24",
+     "company_address": "324 Bangna-Trad Road, Bang Na, Bangkok 10260, Thailand",
+     "service_area": "apac",
+     "contact_name": "Pavel Nguyen",
+     "email": "pavel.nguyen@kingsley.example",
+     "phone_day": "+66 2 222 5899",
+     "contact_title": "Controller",
+     "gross_sales": "21600000",
+     "services": "Ocean and air freight forwarding and customs brokerage for semiconductor equipment",
+     "insurance": "not_insured",
+     "licensing": "not_licensed"
+    },
+    "wrong": {
+     "email": "pavel.nguyen at kingsley.example",
+     "swift": "CPCBT"
+    }
+   }
+  }
+ }
+}

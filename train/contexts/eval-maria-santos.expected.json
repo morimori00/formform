@@ -1,0 +1,247 @@
+{
+ "persona": "eval-maria-santos",
+ "context": "eval-maria-santos.md",
+ "split": "eval",
+ "variants": {
+  "kyc-account-opening/eval-salary-account": {
+   "submit": true,
+   "fields": {
+    "full_name": [
+     "Maria Isabel Santos",
+     "SANTOS, MARIA ISABEL",
+     "Maria Santos"
+    ],
+    "gender": "female",
+    "dob": "1990-10-05",
+    "nationality": "PH",
+    "id_form": "passport",
+    "phone": "+886 970 228 415",
+    "email": "maria.santos@kestrel-semi.example",
+    "address": [
+     "Hsinchu Science Park Residence, No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+     "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300"
+    ],
+    "mother_maiden": "Reyes",
+    "education": "bachelor",
+    "account_type": "savings",
+    "account_category": "individual",
+    "monthly_income": "142000"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "full_name": "Maria Isabel Santos",
+     "gender": "female",
+     "dob": "1990-10-05",
+     "nationality": "PH",
+     "id_form": "passport",
+     "phone": "+886 970 228 415",
+     "email": "maria.santos@kestrel-semi.example",
+     "address": "Hsinchu Science Park Residence, No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+     "mother_maiden": "Reyes",
+     "education": "bachelor",
+     "account_type": "savings",
+     "account_category": "individual",
+     "monthly_income": "142000"
+    },
+    "wrong": {
+     "email": "maria.santos at kestrel-semi.example",
+     "gender": "male"
+    }
+   }
+  },
+  "tw-arrival-card/arrival-5step": {
+   "submit": true,
+   "fields": {
+    "family_name": "SANTOS",
+    "given_name": "MARIA ISABEL",
+    "sex": "female",
+    "dob": "1990-10-05",
+    "nationality": "PH",
+    "passport_no": "P4419027B",
+    "passport_expiry": "2033-02-09",
+    "occupation": "engineer",
+    "arrival_date": "2026-12-14",
+    "flight_no": "PR 896",
+    "departure_flight": "",
+    "purpose": "business",
+    "visa_type": "resident",
+    "visa_no": "V-8821556",
+    "stay_type": "residence",
+    "county": "新竹市",
+    "district": "東區",
+    "stay_address": [
+     "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+     "Hsinchu Science Park Residence, No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 970 228 415",
+    "email": "maria.santos@kestrel-semi.example",
+    "visited": [
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "family_name": "SANTOS",
+     "given_name": "MARIA ISABEL",
+     "sex": "female",
+     "dob": "1990-10-05",
+     "nationality": "PH",
+     "passport_no": "P4419027B",
+     "passport_expiry": "2033-02-09",
+     "occupation": "engineer",
+     "arrival_date": "2026-12-14",
+     "flight_no": "PR 896",
+     "purpose": "business",
+     "visa_type": "resident",
+     "visa_no": "V-8821556",
+     "stay_type": "residence",
+     "county": "新竹市",
+     "district": "東區",
+     "stay_address": "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+     "phone": "+886 970 228 415",
+     "email": "maria.santos@kestrel-semi.example",
+     "visited": [
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "SANTx",
+     "sex": "male"
+    }
+   }
+  },
+  "tw-arrival-card/arrival-loading-dropdowns": {
+   "submit": true,
+   "fields": {
+    "flight_no": "PR 896",
+    "arrival_date": "2026-12-14",
+    "purpose": "business",
+    "departure_flight": "",
+    "passport_no": "P4419027B",
+    "family_name": "SANTOS",
+    "given_name": "MARIA ISABEL",
+    "nationality": "PH",
+    "sex": "female",
+    "dob": "1990-10-05",
+    "passport_expiry": "2033-02-09",
+    "occupation": "engineer",
+    "visa_type": "resident",
+    "visa_no": "V-8821556",
+    "stay_type": "residence",
+    "stay_address": [
+     "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+     "Hsinchu Science Park Residence, No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300"
+    ],
+    "county": "新竹市",
+    "district": "東區",
+    "phone": "+886 970 228 415",
+    "visited": [
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "flight_no": "PR 896",
+     "arrival_date": "2026-12-14",
+     "purpose": "business",
+     "passport_no": "P4419027B",
+     "family_name": "SANTOS",
+     "given_name": "MARIA ISABEL",
+     "nationality": "PH",
+     "sex": "female",
+     "dob": "1990-10-05",
+     "passport_expiry": "2033-02-09",
+     "occupation": "engineer",
+     "visa_type": "resident",
+     "visa_no": "V-8821556",
+     "stay_type": "residence",
+     "stay_address": "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+     "county": "新竹市",
+     "district": "東區",
+     "phone": "+886 970 228 415",
+     "visited": [
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "SANTx",
+     "purpose": "sightseeing"
+    }
+   }
+  },
+  "tw-arrival-card/arrival-shadow": {
+   "submit": true,
+   "fields": {
+    "nationality": "PH",
+    "passport_no": "P4419027B",
+    "family_name": "SANTOS",
+    "given_name": "MARIA ISABEL",
+    "dob": "1990-10-05",
+    "sex": "female",
+    "passport_expiry": "2033-02-09",
+    "arrival_date": "2026-12-14",
+    "flight_no": "PR 896",
+    "purpose": "business",
+    "occupation": "engineer",
+    "visa_type": "resident",
+    "visa_no": "V-8821556",
+    "stay_type": "residence",
+    "county": "新竹市",
+    "district": "東區",
+    "stay_address": [
+     "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+     "Hsinchu Science Park Residence, No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300"
+    ],
+    "phone": "+886 970 228 415",
+    "email": "maria.santos@kestrel-semi.example",
+    "visited": [
+     "PH"
+    ],
+    "declare": true
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "nationality": "PH",
+     "passport_no": "P4419027B",
+     "family_name": "SANTOS",
+     "given_name": "MARIA ISABEL",
+     "dob": "1990-10-05",
+     "sex": "female",
+     "passport_expiry": "2033-02-09",
+     "arrival_date": "2026-12-14",
+     "flight_no": "PR 896",
+     "purpose": "business",
+     "occupation": "engineer",
+     "visa_type": "resident",
+     "visa_no": "V-8821556",
+     "stay_type": "residence",
+     "county": "新竹市",
+     "district": "東區",
+     "stay_address": "No. 2, Gongye E. 2nd Rd., East Dist., Hsinchu City 300",
+     "phone": "+886 970 228 415",
+     "email": "maria.santos@kestrel-semi.example",
+     "visited": [
+      "PH"
+     ],
+     "declare": true
+    },
+    "wrong": {
+     "family_name": "SANTx",
+     "passport_no": "P441"
+    }
+   }
+  }
+ }
+}

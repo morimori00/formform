@@ -1,0 +1,163 @@
+{
+ "persona": "itsm-request/t-emp-009",
+ "context": "itsm-request/t-emp-009.md",
+ "split": "train",
+ "variants": {
+  "itsm-request/hardware-laptop": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g10966",
+    "laptop_model": "std14",
+    "location": "tainan",
+    "needed_by": "2027-01-19",
+    "extra_monitor": true,
+    "cost_center": "CC-3844",
+    "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g10966",
+     "laptop_model": "std14",
+     "location": "tainan",
+     "needed_by": "2027-01-19",
+     "extra_monitor": true,
+     "cost_center": "CC-3844",
+     "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-38x",
+     "location": "neihu"
+    }
+   }
+  },
+  "itsm-request/hardware-tabs": {
+   "submit": true,
+   "fields": {
+    "laptop_model": "std14",
+    "extra_monitor": true,
+    "location": "tainan",
+    "needed_by": "2027-01-19",
+    "requested_for": "u_g10966",
+    "cost_center": "CC-3844",
+    "justification": "Needs GPU for layout rendering during the Information Security tape-out review.",
+    "hp_website": ""
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "laptop_model": "std14",
+     "extra_monitor": true,
+     "location": "tainan",
+     "needed_by": "2027-01-19",
+     "requested_for": "u_g10966",
+     "cost_center": "CC-3844",
+     "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-38x",
+     "laptop_model": "eng16"
+    }
+   }
+  },
+  "itsm-request/incident-shadow": {
+   "submit": true,
+   "fields": {
+    "caller": "u_g10966",
+    "contact_pref": "walk_in",
+    "inc_category": "software",
+    "inc_subcategory": "os",
+    "ci": "KST-NB-10515",
+    "impact": "1",
+    "urgency": "3",
+    "assign_group": "endpoint",
+    "short_desc": "Blue screen after patch KB133",
+    "inc_desc": "Laptop crashes with a stop error about ten minutes after boot since patch KB133 was installed. Safe mode is stable."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "caller": "u_g10966",
+     "contact_pref": "walk_in",
+     "inc_category": "software",
+     "inc_subcategory": "os",
+     "ci": "KST-NB-10515",
+     "impact": "1",
+     "urgency": "3",
+     "assign_group": "endpoint",
+     "short_desc": "Blue screen after patch KB133",
+     "inc_desc": "Laptop crashes with a stop error about ten minutes after boot since patch KB133 was installed. Safe mode is stable."
+    },
+    "wrong": {
+     "urgency": "1"
+    }
+   }
+  },
+  "itsm-request/incident-quick-sticky": {
+   "submit": true,
+   "fields": {
+    "short_desc": "Blue screen after patch KB133",
+    "inc_desc": "Laptop crashes with a stop error about ten minutes after boot since patch KB133 was installed. Safe mode is stable.",
+    "caller": "u_g10966",
+    "ci": "KST-NB-10515",
+    "contact_pref": "walk_in",
+    "inc_category": "software",
+    "inc_subcategory": "os",
+    "impact": "1",
+    "urgency": "3",
+    "assign_group": "endpoint"
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "short_desc": "Blue screen after patch KB133",
+     "inc_desc": "Laptop crashes with a stop error about ten minutes after boot since patch KB133 was installed. Safe mode is stable.",
+     "caller": "u_g10966",
+     "ci": "KST-NB-10515",
+     "contact_pref": "walk_in",
+     "inc_category": "software",
+     "inc_subcategory": "os",
+     "impact": "1",
+     "urgency": "3",
+     "assign_group": "endpoint"
+    },
+    "wrong": {
+     "assign_group": "servicedesk"
+    }
+   }
+  },
+  "itsm-request/hardware-two-step": {
+   "submit": true,
+   "fields": {
+    "requested_for": "u_g10966",
+    "location": "tainan",
+    "cost_center": "CC-3844",
+    "laptop_model": "std14",
+    "needed_by": "2027-01-19",
+    "extra_monitor": true,
+    "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+   },
+   "infeasible": [],
+   "hidden": [],
+   "prefill": {
+    "right": {
+     "requested_for": "u_g10966",
+     "location": "tainan",
+     "cost_center": "CC-3844",
+     "laptop_model": "std14",
+     "needed_by": "2027-01-19",
+     "extra_monitor": true,
+     "justification": "Needs GPU for layout rendering during the Information Security tape-out review."
+    },
+    "wrong": {
+     "cost_center": "CC-38x",
+     "needed_by": "2026-01-19"
+    }
+   }
+  }
+ }
+}
