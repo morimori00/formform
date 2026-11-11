@@ -4,6 +4,7 @@ import { addRun, getContext, getSettings, type Env, type RunLog } from "../share
 import type { Action, BackgroundRequest, ContentRequest, FabState, Snapshot } from "../shared/types";
 import { bulkFill, choose, fieldContext, fieldText, lastBulkRaw, postJson, type HistoryItem } from "./model";
 import { fillGoal } from "./prompts";
+import { buildQueries, fetchPassages, fetchSources, mergeContext } from "./retrieval";
 
 const SHOW = 10;
 const MAX_STEPS = 20;
@@ -49,7 +50,28 @@ class Run {
   fills: RunLog["fills"] = [];
   started = Date.now();
   t = translator("en");
-  constructor(readonly tabId: number, public frameId: number, readonly env: Env, readonly context: string) {}
+  /** What the prompts receive: the Markdown file, plus passages retrieved for the current page. */
+  context: string;
+  retrieved = "";
+  constructor(readonly tabId: number, public frameId: number, readonly env: Env, readonly markdown: string) {
+    this.context = markdown;
+  }
+
+  /** Ask the self-hosted server for passages matching this page's empty fields. No server configured: Markdown only. */
+  async retrieve(snap: Snapshot) {
+    const queries = this.env.FORMFORM_SERVER_URL ? buildQueries(snap.fields) : [];
+    if (!queries.length) return;
+    try {
+      const passages = await fetchPassages(this.env, queries);
+      if (!passages.length && !this.markdown.trim()) throw new Error(this.t("nothingFound"));
+      this.context = mergeContext(this.markdown, passages);
+      this.retrieved = `server: ${passages.length} passages, ${this.context.length - this.markdown.length} chars`;
+    } catch (e) {
+      // A reading request never touches the page; with a Markdown file the fill continues without the server.
+      if (!this.markdown.trim()) throw e;
+      this.retrieved = `server skipped: ${(e as Error).message}`;
+    }
+  }
 
   ask<T = any>(m: ContentRequest) {
     return ask<T>(this.tabId, this.frameId, m);
@@ -100,7 +122,7 @@ class Run {
       fills = await bulkFill(this.context, snap, targets, this.env);
       this.calls++;
     }
-    this.debug = (this.trusted ? "" : "synthetic input · ") + lastBulkRaw;
+    this.debug = [this.trusted ? "" : "synthetic input", this.retrieved, lastBulkRaw].filter(Boolean).join(" · ");
     const planned: { label: string; value: string }[] = [];
     let done = 0;
     for (const { field: f, value, option } of fills) {
@@ -198,6 +220,7 @@ class Run {
       snap.fields = snap.fields.filter(f => !attempted.has(key(f)));
       if (!snap.fields.some(f => !f.filled)) break;
       snap.fields.forEach(f => attempted.add(key(f)));
+      if (round === 0) await this.retrieve(snap);
       planned.push(...(await this.bulk(snap)));
     }
     if (planned.length) {
@@ -243,7 +266,7 @@ async function fillTab(tabId: number) {
   run.t = translator(settings.locale);
   const log: RunLog = { url: "", startedAt: run.started, fills: run.fills, modelCalls: 0, elapsedMs: 0, result: "done", missing: [] };
   try {
-    if (!context?.content.trim()) {
+    if (!context?.content.trim() && !settings.env.FORMFORM_SERVER_URL) {
       await run.fab("error", run.t("noContext"));
       chrome.action.openPopup?.().catch(() => {});
       return;
@@ -343,6 +366,9 @@ chrome.runtime.onMessage.addListener((m: BackgroundRequest, sender, reply) => {
     return true;
   } else if (m.type === "openPopup") {
     chrome.action.openPopup?.().catch(() => {});
+  } else if (m.type === "sources") {
+    getSettings().then(s => fetchSources(s.env)).then(sources => reply({ sources }), e => reply({ error: String(e.message ?? e) }));
+    return true;
   } else if (m.type === "testConnection") {
     getSettings().then(s => testConnection(s.env)).then(reply);
     return true;

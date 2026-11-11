@@ -70,4 +70,5 @@ export type BackgroundRequest =
   | { type: "status"; tabId: number }
   | { type: "openPopup" }
   | { type: "consent" }
-  | { type: "testConnection" };
+  | { type: "testConnection" }
+  | { type: "sources" };

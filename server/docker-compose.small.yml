@@ -1,0 +1,17 @@
+# Optional: fit a trial on an 8 GB Docker host (FORMFORM_SMALL=1 ./up.sh). Not for production loads.
+services:
+  opensearch:
+    environment:
+      - "OPENSEARCH_JAVA_OPTS=-Xms1g -Xmx1g"
+  # One model server does both query and indexing embeddings.
+  indexing_model_server:
+    profiles: ["two-model-servers"]
+  background:
+    depends_on:
+      indexing_model_server:
+        condition: service_started
+        required: false
+    environment:
+      - INDEXING_MODEL_SERVER_HOST=inference_model_server
+      - CELERY_WORKER_LIGHT_CONCURRENCY=4
+      - CELERY_WORKER_DOCPROCESSING_CONCURRENCY=2

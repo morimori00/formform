@@ -2,3 +2,11 @@ node_modules/
 extension/dist/
 .env
 .DS_Store
+train/data/raw/
+train/data/episodes/
+train/runs/
+train/**/*.safetensors
+train/**/*.gguf
+server/.onyx/
+train/recorder/page.js
+server/.env.*

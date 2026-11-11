@@ -6,6 +6,8 @@ export const ENV_KEYS = [
   "TEXT_MODEL_BASE_URL",
   "TEXT_MODEL",
   "TEXT_MODEL_REASONING",
+  "FORMFORM_SERVER_URL",
+  "FORMFORM_SERVER_API_KEY",
 ] as const;
 export type EnvKey = (typeof ENV_KEYS)[number];
 export type Env = Record<EnvKey, string>;
@@ -19,9 +21,9 @@ export type Settings = {
   consented: boolean;
 };
 
-export type Source =
-  | { id: string; type: "markdown"; name: string; content: string; updatedAt: number }
-  | { id: string; type: "gdrive" | "slack" | "notion" | "obsidian"; status: "coming_soon" };
+// Other sources (Google Drive, Slack, Notion, files…) live on the self-hosted server and are read at Fill time,
+// never copied into this browser (background/retrieval.ts).
+export type Source = { id: string; type: "markdown"; name: string; content: string; updatedAt: number };
 
 export type RunLog = {
   url: string;
@@ -42,6 +44,8 @@ export const DEFAULT_ENV: Env = {
   TEXT_MODEL_BASE_URL: "https://openrouter.ai/api/v1",
   TEXT_MODEL: "qwen/qwen3.8-27b:nitro",
   TEXT_MODEL_REASONING: "none",
+  FORMFORM_SERVER_URL: "",
+  FORMFORM_SERVER_API_KEY: "",
 };
 
 export function defaultLocale(language = navigator.language): Locale {
@@ -66,9 +70,9 @@ export async function saveSettings(patch: Partial<Settings>) {
   await chrome.storage.local.set({ settings: { ...(await getSettings()), ...patch } });
 }
 
-export async function getContext(): Promise<Extract<Source, { type: "markdown" }> | null> {
+export async function getContext(): Promise<Source | null> {
   const { sources = [] } = await chrome.storage.local.get("sources");
-  return (sources as Source[]).find(s => s.type === "markdown") as Extract<Source, { type: "markdown" }> ?? null;
+  return (sources as Source[]).find(s => s.type === "markdown") ?? null;
 }
 
 export async function saveContext(name: string, content: string | null) {

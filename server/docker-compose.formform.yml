@@ -1,0 +1,21 @@
+# formform overlay for the pinned Onyx compose file. Used by ./up.sh:
+#   docker compose -f .onyx/deployment/docker_compose/docker-compose.yml -f docker-compose.formform.yml up -d
+# Relative paths in compose resolve against the first file's directory, hence FORMFORM_SERVER_DIR.
+services:
+  api_server:
+    # Stock app plus the two /formform routes (formform_onyx/app.py). Nothing in the image is replaced.
+    command: >
+      /bin/sh -c "alembic upgrade head &&
+      uvicorn formform_onyx.app:app --factory --host 0.0.0.0 --port 8080"
+    volumes:
+      - ${FORMFORM_SERVER_DIR:?run ./up.sh}/formform_onyx:/app/formform_onyx:ro
+    # Hide the image's Enterprise Edition package so only MIT-licensed community code is loaded.
+    tmpfs:
+      - /app/ee
+  background:
+    tmpfs:
+      - /app/ee
+  nginx:
+    # One port, bound to loopback unless FORMFORM_BIND says otherwise (see docs/SELF_HOSTING.md).
+    ports: !override
+      - "${FORMFORM_BIND:-127.0.0.1}:${HOST_PORT:-3080}:80"

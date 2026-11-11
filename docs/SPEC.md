@@ -25,8 +25,9 @@
 
 | 含む | 含まない (将来) |
 |---|---|
-| 全サイトでのフォーム検知と Floating ボタン | Google Drive / Slack / Notion / Obsidian の実接続 (**UI のみ用意**) |
-| 単一 Markdown コンテキストのアップロードと編集 | 複数コンテキストの切り替え、RAG、ベクトル検索 |
+| 全サイトでのフォーム検知と Floating ボタン | 拡張機能だけでの Google Drive / Slack / Notion への直接接続 (接続は社内サーバー経由: §7.1) |
+| 単一 Markdown コンテキストのアップロードと編集 | 複数の Markdown コンテキストの切り替え |
+| 社内サーバー (Onyx) に接続した Google Drive / Slack / Notion / ファイルからの検索と入力 (§7.1, [SELF_HOSTING.md](SELF_HOSTING.md)) | 接続元ごとの閲覧権限の同期 (Onyx の Enterprise Edition の機能) |
 | Jev / OpenAI 互換 (OpenRouter, OpenAI, Ollama, vLLM) の BYOK 設定 | 自前のバックエンドとアカウント機能 |
 | 言語切り替え (English / 日本語 / 繁體中文) | ファイルアップロード項目、CAPTCHA、決済フォーム |
 | Auto Submit (複数ページ連続入力) | クロスオリジン iframe 内でのクリック操作 (§6.5) |
@@ -120,7 +121,7 @@
 | Auto Submit | オンにすると、全項目が埋まった後に送信または「次へ」を押し、次のページも続けて入力する | **オフ** |
 | Decision model | jev-ultrafast の `.env` と同じ項目: `TYPESAFE_API_KEY`, `TYPESAFE_MODEL` | `jev-latest` |
 | Text model | 同じく `TEXT_MODEL_API_KEY`, `TEXT_MODEL_BASE_URL`, `TEXT_MODEL`, `TEXT_MODEL_REASONING`。Base URL のプリセット (OpenRouter / OpenAI / Ollama / vLLM) から選べる | `https://openrouter.ai/api/v1`, `qwen/qwen3.8-27b:nitro`, `none` |
-| .env の読み込み | `.env` ファイルを選ぶか貼り付けると、上の 6 項目にまとめて反映する | — |
+| .env の読み込み | `.env` ファイルを選ぶか貼り付けると、上の 6 項目と、サーバーの 2 項目 (`FORMFORM_SERVER_URL`, `FORMFORM_SERVER_API_KEY`) にまとめて反映する | — |
 | 接続テスト | 各モデルに最小のリクエストを 1 回送り、結果を表示する | — |
 | 除外サイト | ボタンを表示しないドメインの一覧 | 空 |
 
@@ -128,7 +129,7 @@
 - Markdown ファイルのアップロード (`.md` / `.txt`、最大 64KB)。ドラッグ&ドロップに対応する。
 - テキストエリアでのプレビューと編集、保存、削除。
 - 文字数と推定トークン数を表示する。
-- **接続 (Coming soon)**: Google Drive / Slack / Notion / Obsidian のカード。v1 ではボタンを無効にし、「近日対応」と表示する。データ構造は `sources: Source[]` にしておき、v1 では `{type: "markdown"}` の 1 件だけを持つ (§7)。
+- **接続**: 社内サーバーの URL (`FORMFORM_SERVER_URL`) と API キー (`FORMFORM_SERVER_API_KEY`) の入力欄。「保存して確認」を押すと、サーバーに接続されている接続元 (Google Drive / Slack / Notion / ファイルなど) を、名前・種類・状態 (稼働中 / 取り込み中 / 停止中 / エラー)・文書数のカードで表示する。「接続元を管理」は、サーバーの管理画面 (`/admin/indexing-status`) を新しいタブで開く。接続元の追加と認証はサーバーの管理画面で行い、拡張機能は接続元の認証情報を持たない (§7.1)。
 
 ### 3.3 多言語化
 - `chrome.i18n` はブラウザの言語に固定されて切り替えられないので、UI の文言は自前の辞書 `shared/i18n/{en,ja,zh_TW}.json` で持ち、設定で切り替える。
@@ -165,7 +166,7 @@ Fill form
 - text model への入力:
   ```json
   {
-    "context": "<ユーザーの Markdown 全文>",
+    "context": "<ユーザーの Markdown 全文。サーバーを設定していれば、その後ろに検索で得た箇所 (§7.1)>",
     "page": {"title": "...", "url": "...", "text": "<見えているテキスト, 最大 6000 字>"},
     "fields": [
       {"index": "3", "label": "会社名", "type": "text", "autocomplete": "organization", "required": true},
@@ -381,24 +382,40 @@ type Settings = {
   autoSubmit: boolean;
   // jev-ultrafast の .env と同じキー名
   env: { TYPESAFE_API_KEY: string; TYPESAFE_MODEL: string; TEXT_MODEL_API_KEY: string;
-         TEXT_MODEL_BASE_URL: string; TEXT_MODEL: string; TEXT_MODEL_REASONING: "" | "none" };
+         TEXT_MODEL_BASE_URL: string; TEXT_MODEL: string; TEXT_MODEL_REASONING: "" | "none";
+         FORMFORM_SERVER_URL: string; FORMFORM_SERVER_API_KEY: string };
   disabledSites: string[];
 };
-type Source = { id: string; type: "markdown"; name: string; content: string; updatedAt: number }
-            | { id: string; type: "gdrive" | "slack" | "notion" | "obsidian"; status: "coming_soon" };
+type Source = { id: string; type: "markdown"; name: string; content: string; updatedAt: number };
 type RunLog = { url: string; startedAt: number; fills: { label: string; value: string; via: "bulk" | "jev" }[];
                 modelCalls: number; elapsedMs: number; result: "done" | "partial" | "blocked" | "error" };
 ```
 
-- v1 のコンテキストは、`sources` のうち `type: "markdown"` の 1 件をそのままプロンプトに入れる。
+- Markdown のコンテキストは、`sources` のうち `type: "markdown"` の 1 件をそのままプロンプトに入れる。
+- Markdown 以外の接続元は拡張機能に保存しない。Fill のたびに社内サーバーから必要な箇所だけを読み込む (§7.1)。
 - RunLog は直近 20 件だけ残す。
+
+### 7.1 社内サーバーからのコンテキスト取得
+
+機密保持のため、文書を社外のサービスにアップロードできない企業を想定する。Google Drive / Slack / Notion / ファイルの取り込みと検索は、社内で動かす Onyx (MIT の Community Edition) に任せる。構成と手順は [SELF_HOSTING.md](SELF_HOSTING.md)。
+
+- **サーバー**: Onyx v5.1.1 の公式イメージをそのまま使い、`server/formform_onyx/app.py` で API を 2 つ足す。
+  - `POST /api/formform/context` `{queries: string[≤8], limit, max_chars}` → `{passages: [{title, source, link, content}]}`。Onyx のハイブリッド検索 (ローカルの埋め込みモデル + キーワード) をクエリごとに実行し、順位の高い順に 1 件ずつ交互に取り、重複を除いて `max_chars` 以内で返す。LLM は呼ばない。
+  - `GET /api/formform/sources` → `[{id, name, source, status, docs, last_indexed}]`。
+  - どちらも Bearer の API キーで認証し、そのキーのユーザーが読める文書だけを対象にする。
+- **拡張機能** (`background/retrieval.ts`、service worker からだけ呼ぶ):
+  1. ページごとに 1 回、Bulk Fill の前に、空欄のラベルから検索クエリを作る (`buildQueries`)。「必須」などの印を除き、重複をまとめ、数個ずつつなげて最大 4 クエリにする。
+  2. サーバーから該当箇所を受け取る (最大 12,000 文字、タイムアウト 10 秒)。
+  3. `Markdown + "# Retrieved from connected sources" + 該当箇所` を、これまでと同じ `context` としてプロンプトに渡す (`mergeContext`)。プロンプトと action space は変えない。
+- サーバーを設定していなければ、これまでどおり Markdown だけで動く。サーバーに接続できないときは、Markdown があれば Markdown だけで続け (実行ログに理由を残す)、なければエラーを表示して何も入力しない。
 
 ---
 
 ## 8. セキュリティとプライバシー
 
 - **ローカルで完結する部分**: 検知はすべて端末内で行い、外部には何も送らない。
-- **外部に送る部分**: Fill を押したときだけ、コンテキストとページのテキストを、ユーザーが設定したプロバイダに送る。初回の Fill の前に、何を送るかの同意ダイアログを出す。
+- **外部に送る部分**: Fill を押したときだけ、コンテキスト (サーバーから読み込んだ箇所を含む) とページのテキストを、ユーザーが設定したプロバイダに送る。初回の Fill の前に、何を送るかの同意ダイアログを出す。
+- **社内サーバーに送る部分**: Fill を押したときに、空欄のラベルから作った検索クエリを送る。サーバーは社外のモデルを呼ばない。どのデータがどこへ行くかの一覧は [SELF_HOSTING.md §6](SELF_HOSTING.md)。
 - API キー: BYOK。`chrome.storage.local` にだけ保存し、設定したプロバイダ以外には送らない。content script には渡さない (service worker だけが読む)。
   - ※ jev-ultrafast の「認証情報はサーバー側に置く」という原則は、BYOK の拡張機能では「service worker の外に出さない」と読み替える。配布版で共有キーを使う場合は、プロキシサーバーを別に用意する。
 - プロンプトインジェクション対策: ページのテキストは untrusted と明示する。モデルは観測したインデックスと値しか出せず、値は入力欄にだけ入る。
@@ -437,13 +454,14 @@ formform/
 │   ├── _locales/{en,ja,zh_TW}/messages.json
 │   ├── assets/icon.gif, icon-*.png
 │   ├── src/
-│   │   ├── background/  agent.ts browser.ts autosubmit.ts
+│   │   ├── background/  agent.ts browser.ts autosubmit.ts retrieval.ts
 │   │   ├── content/     detector.ts fab.ts snapshot.ts index.ts
 │   │   ├── popup/       popup.html popup.ts settings.ts context.ts
 │   │   ├── providers/   decision.ts text.ts http.ts
 │   │   └── shared/      prompts.ts storage.ts i18n/ messages.ts types.ts
 │   ├── fixtures/        検知と入力のテスト用 HTML
 │   └── test/
+├── server/                 社内サーバー: Onyx に重ねる compose、env のひな形、formform_onyx/ (追加 API)、sample-docs/
 ├── package.json
 └── README.md
 ```
@@ -483,7 +501,8 @@ formform/
 | M4 | Bulk Fill + 検証 | 受け入れ基準 1 と 5 |
 | M5 | Jev ループの移植 (Decision の 2 実装) | combobox を含む fixture を入力できる |
 | M6 | Auto Submit | 受け入れ基準 4 |
-| M7 | 仕上げ: 接続 UI (Coming soon)、GIF アイコン、デモ動画 | デモができる |
+| M7 | 仕上げ: 接続 UI、GIF アイコン、デモ動画 | デモができる |
+| M8 | 社内サーバー (Onyx) からのコンテキスト取得 (§7.1) | Markdown なしで、サーバーの PDF / XLSX / DOCX からフォームを入力できる |
 
 ---
 

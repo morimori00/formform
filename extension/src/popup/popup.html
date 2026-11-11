@@ -80,12 +80,14 @@
     </div>
 
     <p class="eyebrow" data-t="connections"></p>
-    <div class="connectors">
-      <div class="connector"><i class="sq"></i><span>Google Drive</span><button disabled data-t="comingSoon"></button></div>
-      <div class="connector"><i class="sq"></i><span>Slack</span><button disabled data-t="comingSoon"></button></div>
-      <div class="connector"><i class="sq"></i><span>Notion</span><button disabled data-t="comingSoon"></button></div>
-      <div class="connector"><i class="sq"></i><span>Obsidian</span><button disabled data-t="comingSoon"></button></div>
+    <p class="hint" data-t="serverHint"></p>
+    <div class="env" data-group="server"></div>
+    <div class="actions">
+      <button class="primary" id="serverSave" data-t="serverCheck"></button>
+      <button class="outline" id="serverManage" data-t="serverManage"></button>
     </div>
+    <pre class="result" id="serverResult" hidden></pre>
+    <div class="connectors" id="sources"></div>
   </main>
   <div class="toast" id="toast" hidden></div>
   <script type="module" src="popup.js"></script>

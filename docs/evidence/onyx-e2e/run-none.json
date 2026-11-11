@@ -1,0 +1,50 @@
+{
+ "mode": "none",
+ "values": {
+  "company": "",
+  "corporate_number": "",
+  "zip": "",
+  "address": "",
+  "representative": "",
+  "founded": "",
+  "capital": "",
+  "employees": "",
+  "bank": "",
+  "branch": "",
+  "account_type": "",
+  "account_number": "",
+  "account_kana": "",
+  "invoice_number": "",
+  "isms": "",
+  "security_email": "",
+  "mobile": ""
+ },
+ "run": {
+  "result": "done",
+  "modelCalls": 0,
+  "elapsedMs": 1,
+  "fills": 0,
+  "missing": [],
+  "debug": ""
+ },
+ "check": {
+  "company": "MISMATCH ()",
+  "corporate_number": "MISMATCH ()",
+  "zip": "MISMATCH ()",
+  "address": "MISMATCH ()",
+  "representative": "MISMATCH ()",
+  "founded": "MISMATCH ()",
+  "capital": "MISMATCH ()",
+  "employees": "MISMATCH ()",
+  "bank": "MISMATCH ()",
+  "branch": "MISMATCH ()",
+  "account_type": "MISMATCH ()",
+  "account_number": "MISMATCH ()",
+  "account_kana": "MISMATCH ()",
+  "invoice_number": "MISMATCH ()",
+  "isms": "MISMATCH ()",
+  "security_email": "MISMATCH ()"
+ },
+ "correct": "0/16",
+ "mobileLeftEmpty": true
+}

@@ -5,11 +5,15 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getEleme
 let t = translator("en");
 let view = "home";
 const MAX_MD = 64 * 1024;
-const SECRET: EnvKey[] = ["TYPESAFE_API_KEY", "TEXT_MODEL_API_KEY"];
+const SECRET: EnvKey[] = ["TYPESAFE_API_KEY", "TEXT_MODEL_API_KEY", "FORMFORM_SERVER_API_KEY"];
 const GROUPS: Record<string, EnvKey[]> = {
   decision: ["TYPESAFE_API_KEY", "TYPESAFE_MODEL"],
   text: ["TEXT_MODEL_API_KEY", "TEXT_MODEL_BASE_URL", "TEXT_MODEL", "TEXT_MODEL_REASONING"],
+  server: ["FORMFORM_SERVER_URL", "FORMFORM_SERVER_API_KEY"],
 };
+const SOURCE_NAMES: Record<string, string> = { google_drive: "Google Drive", slack: "Slack", notion: "Notion", file: "Files", web: "Web" };
+const SOURCE_STATES: Record<string, Key> = { ACTIVE: "sourceActive", SCHEDULED: "sourceIndexing", INITIAL_INDEXING: "sourceIndexing", PAUSED: "sourcePaused" };
+type SourceStatus = { name: string; source: string; status: string; docs: number };
 
 function toast(text: string) {
   const el = $("toast");
@@ -103,6 +107,29 @@ async function renderSites() {
   }) : [Object.assign(document.createElement("li"), { className: "empty", textContent: t("none") })]));
 }
 
+/** Connected sources come from the server through the service worker; the key never leaves it. */
+async function renderSources() {
+  const out = $("serverResult"), list = $("sources");
+  list.replaceChildren();
+  out.hidden = !readEnv().FORMFORM_SERVER_URL;
+  if (out.hidden) return;
+  out.className = "result";
+  out.textContent = t("testing");
+  const r: { sources?: SourceStatus[]; error?: string } = await chrome.runtime.sendMessage({ type: "sources" });
+  out.classList.toggle("bad", !r.sources);
+  out.textContent = r.error ?? t("serverNoSources");
+  out.hidden = !!r.sources?.length;
+  list.replaceChildren(...(r.sources ?? []).map(s => {
+    const card = document.createElement("div");
+    card.className = "connector " + (s.status === "ACTIVE" ? "on" : s.status in SOURCE_STATES ? "" : "bad");
+    card.innerHTML = `<i class="sq"></i><span></span><small></small>`;
+    card.querySelector("span")!.textContent = s.name;
+    card.querySelector("small")!.textContent =
+      `${SOURCE_NAMES[s.source] ?? s.source} · ${t(SOURCE_STATES[s.status] ?? "sourceError")} · ${t("sourceDocs", { n: s.docs })}`;
+    return card;
+  }));
+}
+
 function applyEnvText(text: string) {
   const parsed = parseEnv(text);
   const env = { ...readEnv(), ...parsed };
@@ -137,6 +164,15 @@ async function init() {
   renderMeta(ctx?.content ?? "");
   go(new URLSearchParams(location.search).get("view") ?? "home");
   void renderSites();
+  void renderSources();
+  $("serverSave").onclick = async () => {
+    await saveSettings({ env: readEnv() });
+    void renderSources();
+  };
+  $("serverManage").onclick = () => {
+    const url = readEnv().FORMFORM_SERVER_URL.replace(/\/+$/, "");
+    if (/^https?:\/\//.test(url)) void chrome.tabs.create({ url: url + "/admin/indexing-status" });
+  };
 
   document.querySelectorAll<HTMLButtonElement>("[data-go]").forEach(b => (b.onclick = () => go(b.dataset.go!)));
   $("back").onclick = () => go("home");

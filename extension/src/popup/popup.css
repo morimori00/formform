@@ -89,8 +89,12 @@ textarea { padding: 10px 12px; font: 400 13px/1.5 ui-monospace, Menlo, monospace
 
 .connectors { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .connector { display: grid; gap: 8px; padding: 12px; border: 1px solid var(--hairline); border-radius: 2px; font: 700 14px/1.25 var(--font); }
+.connectors { margin-top: 12px; }
+.connector { overflow-wrap: anywhere; }
 .connector .sq { width: 8px; height: 8px; background: var(--ash); }
-.connector button { height: 28px; border: 0; border-radius: 2px; background: var(--soft); color: var(--ash); font: 700 11px/1 var(--font); text-transform: uppercase; }
+.connector.on .sq { background: var(--primary); }
+.connector.bad .sq { background: var(--error); }
+.connector small { font: 400 12px/1.4 var(--font); color: var(--mute); }
 
 .runs ol { margin: 0; padding: 0; list-style: none; }
 .runs li { padding: 10px 0; border-bottom: 1px solid var(--hairline); font-size: 13px; }

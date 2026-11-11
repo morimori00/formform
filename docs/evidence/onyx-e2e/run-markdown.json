@@ -1,0 +1,57 @@
+{
+ "mode": "markdown",
+ "values": {
+  "company": "株式会社アオバ精密",
+  "corporate_number": "7010401098765",
+  "zip": "",
+  "address": "",
+  "representative": "",
+  "founded": "",
+  "capital": "",
+  "employees": "",
+  "bank": "",
+  "branch": "",
+  "account_type": "",
+  "account_number": "",
+  "account_kana": "",
+  "invoice_number": "",
+  "isms": "",
+  "security_email": "",
+  "mobile": "090-5555-0199"
+ },
+ "run": {
+  "result": "partial",
+  "modelCalls": 1,
+  "elapsedMs": 1376,
+  "fills": 3,
+  "missing": [
+   "本社所在地 ※",
+   "代表者氏名 ※",
+   "銀行名 ※",
+   "支店名 ※",
+   "口座種別 ※",
+   "口座番号 ※"
+  ],
+  "debug": "{\"fills\":[{\"index\":\"1\",\"value\":\"株式会社アオバ精密\"},{\"index\":\"2\",\"value\":\"7010401098765\"},{\"index\":\"17\",\"value\":\"090-5555-0199\"}]}"
+ },
+ "check": {
+  "company": "ok",
+  "corporate_number": "ok",
+  "zip": "MISMATCH ()",
+  "address": "MISMATCH ()",
+  "representative": "MISMATCH ()",
+  "founded": "MISMATCH ()",
+  "capital": "MISMATCH ()",
+  "employees": "MISMATCH ()",
+  "bank": "MISMATCH ()",
+  "branch": "MISMATCH ()",
+  "account_type": "MISMATCH ()",
+  "account_number": "MISMATCH ()",
+  "account_kana": "MISMATCH ()",
+  "invoice_number": "MISMATCH ()",
+  "isms": "MISMATCH ()",
+  "security_email": "MISMATCH ()"
+ },
+ "correct": "2/16",
+ "mobileLeftEmpty": false
+}
